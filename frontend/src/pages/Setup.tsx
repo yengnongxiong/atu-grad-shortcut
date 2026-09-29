@@ -372,7 +372,7 @@ export function StepPreferences({ profile, update }: { profile: StudentProfile; 
   return (
     <div className="space-y-6">
       <label className="block text-sm">
-        <span className="font-semibold">Preferred maximum hours per fall/spring term</span>
+        <span className="block font-semibold">Preferred maximum hours per fall/spring term</span>
         <select
           className="input mt-1 max-w-48"
           value={prefs.preferred_hours ?? standard ?? ''}
