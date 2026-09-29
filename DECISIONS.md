@@ -97,3 +97,11 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
 - **Decision:** Five programs are cross-checked: Computer Science 2025–26, Accounting, History, Nursing (BSN), and Mathematics. Banner assigns every course to one of four colleges (Arts and Humanities; Business and Economic Development; Education and Health; Science, Technology, Engineering and Mathematics), so the five cover all four colleges. CS and Mathematics are both in STEM, and Mathematics was added because its map repeats "X or Y" rows.
 - **How:** The rendered degree-map page was compared row by row with the parsed program (codes, titles, hours, C marks, offering notes, totals), along with the Banner entries for the major courses. The catalog program page is unreachable (D5), so it wasn't compared, and each record says so. Records and findings are in `data/manual/cross_checks.json` and the "Cross-checks" section of `data/REPORT.md`.
 - **Reason:** PRD M6 asks for CS plus 4 majors from different colleges. The review was done by the build agent, not an ATU advisor, and the records state that.
+
+### D16 · A course retaken for a grade counts once toward the degree
+- **Finding (M8 review):** A D in ENGL 1013, where the map requires a C, correctly scheduled a retake. But the D attempt's 3 hours still counted toward the 120-hour total, so the same course counted twice (123 hours).
+- **Decision:** When the plan retakes a passed course to reach a required grade, the earlier attempt is marked `retaken`. Its hours stop counting toward total, ATU, exam, and upper-level hours, and the credited list shows "replaced by the planned retake". It still satisfies D-level prerequisites, and it still counts for class standing until it's replaced.
+  - A repeatable course the map lists more than once (e.g. MUS 1501 applied lessons) keeps its credit, because that attempt fills its own requirement slot.
+  - The plan carries a warning to confirm the repeat policy with the registrar.
+- **Alternatives:** Count both attempts, which overstates progress. Or drop the D entirely, which would wrongly block D-level prerequisites and standing.
+- **Reason:** The pipeline has no ATU repeat-policy source. Counting a course once is the conservative reading: it never makes a plan look shorter than it is, and the warning makes the assumption visible.

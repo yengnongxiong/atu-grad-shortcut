@@ -307,3 +307,23 @@ def test_summer_only_required_course_gets_a_summer_without_the_lever() -> None:
     assert terms["GEO 4006"].season == "SU"
     assert terms["GEO 1001"].season != "SU"
     assert any(w.id.startswith("summer-only") for w in detail.response.warnings)
+
+
+def test_retake_for_a_grade_counts_hours_once_but_repeatables_keep_credit() -> None:
+    comp = syn.req("ENG 1013", min_grade="C")
+    lessons = [
+        {**syn.req("MUS 1501", hours=1), "id": "r-lesson-1"},
+        {**syn.req("MUS 1501", hours=1), "id": "r-lesson-2"},
+    ]
+    ds = syn.dataset(
+        [syn.course("ENG 1013"), syn.course("MUS 1501", hours=1)], [syn.program([comp, *lessons], total=5)]
+    )
+    completed = [{"code": "ENG 1013", "grade": "D"}, {"code": "MUS 1501", "grade": "A"}]
+    detail = plan_detailed(ds, request(profile={"completed": completed}))
+    response = detail.response
+    planned = sorted(c.code for t in response.terms for c in t.courses if c.code)
+    assert planned == ["ENG 1013", "MUS 1501"]
+    assert response.totals["credited_hours"] == 1  # the D no longer counts; the lesson does
+    assert response.totals["total_hours"] == 5
+    notes = {c.code: c.counts_toward for c in response.credited}
+    assert notes["ENG 1013"] == "replaced by the planned retake"

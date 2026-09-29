@@ -356,7 +356,7 @@ def solve(
         loads.append(sum(h * v for h, v in terms_vars))
         counts.append(sum(v for _, v in terms_vars))
 
-    base_hours = state.earned_hours if policies.standing_counts_exam_transfer else state.atu_hours
+    base_hours = state.standing_hours(policies.standing_counts_exam_transfer)
     thresholds = policies.standing_thresholds
     for item in items:
         tree = trees[item.id]

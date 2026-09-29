@@ -619,6 +619,19 @@ def credited_list(ctx: PlanContext, outcome: Outcome) -> list[CreditedCourse]:
                     counts_toward=status.req["label"],
                 )
             )
+    for credit in outcome.state.credits.values():
+        if credit.retaken:
+            out.append(
+                CreditedCourse(
+                    code=credit.code,
+                    title=credit.title,
+                    hours=credit.hours,
+                    source=credit.source,
+                    grade=credit.grade,
+                    requirement_id=None,
+                    counts_toward="replaced by the planned retake",
+                )
+            )
     for credit in outcome.build.extra_credits:
         out.append(
             CreditedCourse(
@@ -665,7 +678,7 @@ def totals(ctx: PlanContext, outcome: Outcome) -> dict[str, float]:
     planned = float(sum(i.hours for i in items))
     transfer = float(sum(i.hours for i in items if placements[i.id].transfer))
     upper = float(sum(i.hours for i in items if i.upper))
-    upper += float(sum(c.hours for c in state.credits.values() if c.earned and c.level >= 3000))
+    upper += float(sum(c.hours for c in state.credits.values() if c.counts_toward_degree and c.level >= 3000))
     return {
         "credited_hours": state.earned_hours,
         "planned_hours": planned,
@@ -676,7 +689,9 @@ def totals(ctx: PlanContext, outcome: Outcome) -> dict[str, float]:
         "atu_hours": state.atu_hours + planned - transfer,
         "exam_hours": state.exam_hours,
         "transfer_hours": transfer
-        + float(sum(c.hours for c in state.credits.values() if c.source == "transfer" and c.earned)),
+        + float(
+            sum(c.hours for c in state.credits.values() if c.source == "transfer" and c.counts_toward_degree)
+        ),
     }
 
 
@@ -709,7 +724,11 @@ def policy_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]
         i.hours
         for i in outcome.build.items
         if i.upper and i.in_major and not outcome.result.placements[i.id].transfer
-    ) + sum(c.hours for c in outcome.state.credits.values() if c.earned and c.at_atu and c.level >= 3000)
+    ) + sum(
+        c.hours
+        for c in outcome.state.credits.values()
+        if c.counts_toward_degree and c.at_atu and c.level >= 3000
+    )
     if upper_major < policies.residency_upper_major_hours:
         out.append(
             Warning(

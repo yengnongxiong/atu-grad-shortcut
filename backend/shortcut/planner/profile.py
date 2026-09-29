@@ -32,10 +32,15 @@ class Credit:
     grade: str | None  # None = credit by exam (no grade)
     level: int
     exam_id: str | None = None
+    retaken: bool = False  # a retake is planned (grade too low for a requirement); hours count once
 
     @property
     def earned(self) -> bool:
         return self.grade is None or self.grade in PASSING
+
+    @property
+    def counts_toward_degree(self) -> bool:
+        return self.earned and not self.retaken
 
     def meets(self, min_grade: str | None) -> bool:
         if not self.earned:
@@ -75,15 +80,20 @@ class StudentState:
 
     @property
     def earned_hours(self) -> float:
-        return sum(c.hours for c in self.credits.values() if c.earned)
+        """Hours toward the degree (a course being retaken counts once, through the retake)."""
+        return sum(c.hours for c in self.credits.values() if c.counts_toward_degree)
 
     @property
     def atu_hours(self) -> float:
-        return sum(c.hours for c in self.credits.values() if c.earned and c.at_atu)
+        return sum(c.hours for c in self.credits.values() if c.counts_toward_degree and c.at_atu)
 
     @property
     def exam_hours(self) -> float:
-        return sum(c.hours for c in self.credits.values() if c.earned and c.by_exam)
+        return sum(c.hours for c in self.credits.values() if c.counts_toward_degree and c.by_exam)
+
+    def standing_hours(self, count_exam_transfer: bool) -> float:
+        """Earned hours for class standing: every passed attempt counts until it is replaced."""
+        return sum(c.hours for c in self.credits.values() if c.earned and (count_exam_transfer or c.at_atu))
 
 
 def course_hours(dataset: Dataset, code: str, fallback: float = 3.0) -> float:
@@ -491,6 +501,25 @@ def build_items(
             item.notes.append("prerequisite reads 'completion of all ...': only this program's courses apply")
 
     unschedulable = add_missing_prerequisites(dataset, items, state, majors, policies, warnings)
+    # A passed course planned again to raise the grade (a D where a C is needed) is a retake: its
+    # hours count once. A repeatable course the map lists twice (MUS 1501 applied lessons) keeps its
+    # credit, because that attempt already fills its own requirement slot.
+    in_slots = {c.code for status in statuses for c in status.credited}
+    retaken = sorted(
+        {
+            i.code
+            for i in items
+            if i.code and state.has(i.code) and (i.code not in in_slots or i.kind == "added_prereq")
+        }
+    )
+    for code in retaken:
+        state.credits[code].retaken = True
+    extra = [c for c in extra if not c.retaken]
+    if retaken:
+        warnings.append(
+            f"Retake planned for {', '.join(retaken)} to reach the required grade; the earlier attempt's "
+            "hours aren't counted twice toward the degree (confirm the repeat policy with the registrar)."
+        )
     _add_fillers(dataset, program, state, items, extra, policies, warnings)
     _relax_placeholder_standing(items, program, policies)
     return ItemBuild(items, statuses, extra, warnings, unschedulable)
@@ -831,7 +860,7 @@ def _add_fillers(
     planned = sum(i.hours for i in items)
     total_min = float(program["total_hours_min"])
     deficit = total_min - credited - planned
-    upper_have = sum(c.hours for c in state.credits.values() if c.earned and c.level >= 3000)
+    upper_have = sum(c.hours for c in state.credits.values() if c.counts_toward_degree and c.level >= 3000)
     upper_have += sum(i.hours for i in items if i.upper)
     upper_deficit = float(program["upper_level_hours_min"]) - upper_have
 
