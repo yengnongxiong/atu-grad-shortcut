@@ -14,7 +14,10 @@ Confidence = Literal["documented", "derived", "assumed", "unknown", "conflicting
 class CompletedCourse(BaseModel):
     code: str
     grade: Grade = "C"
-    source: Literal["atu", "transfer"] = "atu"
+    # exam = credit by exam already on the record (e.g. a Degree Works "CE" row)
+    source: Literal["atu", "transfer", "exam"] = "atu"
+    hours: float | None = Field(default=None, ge=0, le=12)  # None: use the catalog's hours
+    exam: str | None = None  # the exam that awarded it, for display only
 
     @field_validator("code")
     @classmethod

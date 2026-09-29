@@ -9,7 +9,12 @@ export type TrustTier = 'cross_checked' | 'auto_imported' | 'needs_review'
 export interface CompletedCourse {
   code: string
   grade: Grade
-  source: 'atu' | 'transfer'
+  /** exam = credit by exam already on the record (a Degree Works "CE" row) */
+  source: 'atu' | 'transfer' | 'exam'
+  /** Hours from the student's record; omitted means the catalog's hours. */
+  hours?: number | null
+  /** The exam that awarded the credit, for display only. */
+  exam?: string | null
 }
 
 export interface ExamScore {

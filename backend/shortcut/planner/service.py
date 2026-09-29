@@ -913,7 +913,8 @@ def data_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]) 
             )
         )
     profile = ctx.request.profile
-    for code in [c.code for c in profile.completed] + profile.in_progress:
+    entered = [c.code for c in profile.completed if c.hours is None] + profile.in_progress
+    for code in entered:
         code = " ".join(code.upper().split())
         if not course_known(ctx.dataset, code):
             out.append(

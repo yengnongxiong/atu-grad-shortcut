@@ -140,9 +140,9 @@ def build_state(
         credit = Credit(
             code=done.code,
             title=course_title(dataset, done.code),
-            hours=course_hours(dataset, done.code),
+            hours=done.hours if done.hours is not None else course_hours(dataset, done.code),
             source=done.source,
-            grade=done.grade,
+            grade=None if done.source == "exam" else done.grade,
             level=level_of(done.code),
         )
         if credit.earned:
