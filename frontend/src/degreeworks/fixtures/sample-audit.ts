@@ -14,7 +14,7 @@ Audit date 09/01/2026 9:00 AM
 Requirements
 Level Undergraduate Classification Sophomore Major Computer Science (BS) Program Bachelor of Science College Science, Tech, Engr, Math
 BS in Computer Science INCOMPLETE
-Credits required: 120 Credits applied: 70 Catalog year: 2025-2026
+Credits required: 120 Credits applied: 40 Catalog year: 2025-2026
 Still needed: You must complete all prescribed degree requirements below and reach a
 Minimum of 120 Hours Required for Bachelor
 General Education Requirements Still needed: See General Education Requirements BS in Computer Sci section

@@ -18,5 +18,5 @@ it('summarizes where Degree Works and the plan agree and differ', () => {
   expect(screen.getByText('Degree Works and this plan agree on 1 of 5 remaining requirements.')).toBeInTheDocument()
   expect(screen.getByText(/Capstone/)).toBeInTheDocument()
   expect(screen.getByText(/COMS 3053/)).toBeInTheDocument()
-  expect(screen.getByText(/70 credits applied in Degree Works/)).toBeInTheDocument()
+  expect(screen.getByText(/40 credits applied in Degree Works/)).toBeInTheDocument()
 })

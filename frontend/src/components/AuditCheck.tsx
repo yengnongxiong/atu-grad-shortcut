@@ -21,24 +21,17 @@ export function AuditCheck({ audit, plan }: { audit: AuditImport; plan: PlanResp
           {r.onlyInAudit.length > 0 && (
             <div>
               <p className="font-medium">Still needed in Degree Works, not in this plan</p>
-              <ul className="mt-1 list-disc space-y-0.5 pl-5 text-ink-soft">
-                {r.onlyInAudit.map((need, i) => (
-                  <li key={`${need.label}-${i}`}>
-                    {need.label || 'Requirement'}
-                    {need.codes.length > 0 && need.codes.length <= 4 ? ` (${need.codes.join(', ')})` : ''}
-                  </li>
-                ))}
-              </ul>
+              <p className="mt-1 text-ink-soft">
+                {r.onlyInAudit
+                  .map((need) => `${need.label || 'Requirement'}${need.codes.length > 0 && need.codes.length <= 4 ? ` (${need.codes.join(', ')})` : ''}`)
+                  .join('; ')}
+              </p>
             </div>
           )}
           {r.onlyInPlan.length > 0 && (
             <div>
               <p className="font-medium">In this plan, not listed as still needed</p>
-              <ul className="mt-1 list-disc space-y-0.5 pl-5 text-ink-soft">
-                {r.onlyInPlan.map((item, i) => (
-                  <li key={`${item.label}-${i}`}>{item.label}</li>
-                ))}
-              </ul>
+              <p className="mt-1 text-ink-soft">{r.onlyInPlan.map((item) => item.label).join(', ')}</p>
             </div>
           )}
         </div>

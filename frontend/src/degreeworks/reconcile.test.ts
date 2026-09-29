@@ -13,7 +13,7 @@ function planWith(courses: ReturnType<typeof course>[]): PlanResponse {
     terms: plan.terms.slice(0, 1).map((term) => ({ ...term, courses })),
     credited: [
       { code: 'TECH 1001', title: '', hours: 1, source: 'atu', grade: 'B', requirement_id: null, counts_toward: '' },
-      { code: 'ENGL 1013', title: '', hours: 69, source: 'exam', grade: null, requirement_id: null, counts_toward: '' },
+      { code: 'ENGL 1013', title: '', hours: 39, source: 'exam', grade: null, requirement_id: null, counts_toward: '' },
     ],
   }
 }
@@ -55,6 +55,6 @@ describe('reconcile', () => {
 
   it('compares credits applied', () => {
     const r = reconcile(audit, planWith(fullPlan))
-    expect([r.creditsAudit, r.creditsShortcut]).toEqual([70, 70])
+    expect([r.creditsAudit, r.creditsShortcut]).toEqual([40, 40])
   })
 })

@@ -13,7 +13,7 @@ describe('parseAudit', () => {
     expect(audit.degree).toBe('BS Computer Science')
     expect(audit.catalogYear).toBe('2025-26')
     expect(audit.gpa).toBe(3.5)
-    expect([audit.creditsRequired, audit.creditsApplied]).toEqual([120, 70])
+    expect([audit.creditsRequired, audit.creditsApplied]).toEqual([120, 40])
   })
 
   it('reads a completed ATU course', () => {
