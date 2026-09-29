@@ -44,6 +44,7 @@ ATU students already have three official planning tools. Each one answers part o
 |---|---|
 | ![Degree Works import: what Shortcut read, before applying it](docs/screenshots/import.png) | ![Bottleneck graph with the critical chain](docs/screenshots/bottlenecks.png) |
 | ![What-if: failing a course on the critical chain](docs/screenshots/whatif.png) | ![No shortcut: every lever on, none helps, and the plan says why](docs/screenshots/no-shortcut.png) |
+| ![Landing: start from Degree Works or pick a major](docs/screenshots/landing.png) | <img src="docs/screenshots/mobile.png" width="260" alt="The plan on a phone (390 px wide)"> |
 
 ## 60-second demo
 
@@ -163,7 +164,7 @@ For v1.1, I tested v1 on my own Degree Works audit and found two real gaps:
 - AP and CLEP credit already on a record had no way in.
 - Leaving out 4 unapplied hours made the plan a year late.
 
-Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's catalog, degree maps, and Degree Works as inputs rather than competitors. It shipped from a [task-by-task plan](docs/plans/2026-09-29-atu-sources-plan.md), with test-first development and a browser QA pass. Every judgment call made along the way, by me or the agent, is in [docs/DECISIONS.md](docs/DECISIONS.md) (D1–D25), and [CLAUDE.md](CLAUDE.md) is the build brief the agent follows.
+Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's catalog, degree maps, and Degree Works as inputs rather than competitors. It shipped from a [task-by-task plan](docs/plans/2026-09-29-atu-sources-plan.md), with test-first development and a browser QA pass. Every judgment call made along the way, by me or the agent, is in [docs/DECISIONS.md](docs/DECISIONS.md) (D1–D27), and [CLAUDE.md](CLAUDE.md) is the build brief the agent follows.
 
 ## Project documents
 
@@ -178,4 +179,4 @@ Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's
 > **Shortcut**: graduation planner for Arkansas Tech students (product owner; built with Claude Code)
 > - Wrote the PRD and acceptance tests, then tested v1 on my own degree audit. That surfaced two data gaps, and I scoped them into v1.1: import Degree Works audits in the browser, and use ATU's catalog and every year's degree maps as inputs.
 > - A Python pipeline turns 161 degree-map PDFs, ATU's Banner catalog, and its AP/CLEP/IB tables into 145 validated bachelor's programs across 2 catalog years (79% auto-imported or better). Every program plans at standard pace.
-> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.1 s. Stack: FastAPI, React/TypeScript, 349 automated tests, Docker, GitHub Actions.
+> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.1 s. Stack: FastAPI, React/TypeScript, 368 automated tests, Docker, GitHub Actions.

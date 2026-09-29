@@ -2,7 +2,56 @@
 
 Resume here: read this file first, then DECISIONS.md, then continue from the first unchecked milestone.
 
-## Final summary (2026-09-29)
+## v1.1 summary (2026-09-29): ATU sources
+
+All 16 tasks of [the v1.1 plan](plans/2026-09-29-atu-sources-plan.md) are complete on `feat/atu-sources`. The spec is [prd-v1.1-atu-sources.md](prd-v1.1-atu-sources.md).
+
+### What shipped
+- **Degree Works import** (`frontend/src/degreeworks`):
+  - A saved audit PDF is read in the browser with pdf.js, turned into a profile, and reviewed before it's applied.
+  - Posted exam credit, transfer work, in-progress courses, and unapplied hours all count, with the audit's own hours.
+  - Name and student ID are never read into anything.
+  - The plan page compares Degree Works' still-needed lines with the plan (D25).
+- **Every catalog year:** 161 degree maps (2025–26 and 2026–27) give 145 bachelor's programs. A student plans against the map for their year of entry and can test switching to a newer catalog as a what-if.
+- **Catalog snapshots:** AP (55), CLEP (43), and IB (82) tables and the credit, graduation, and load policies were saved from a regular browser (D23). Exact course codes only. About shows each page's capture date and the trust tiers per catalog year.
+- **Correctness fixes** found with a real record:
+  - catalog hours for courses outside the program data
+  - posted exam credit and per-course hours
+  - the exam-cap overcount
+  - TECH 1001 map order
+- **Minimal black-and-white interface** (PRD v1.1 §3.5), guarded by a source-scan test (`frontend/src/design.test.ts`).
+
+### Final QA pass (this session)
+- **Solver determinism (D26).** Parallel CP-SAT workers returned a different tie-optimal schedule for the same request, so a reload or share link could move courses. The solver now runs on one worker. CS p95 is 2.07 s (target: under 3 s).
+- **Policy numbers.** Lever labels, warnings, assumptions, Setup, and the import's overload-GPA threshold hardcoded policy values. They now come from `policies.json` (through `/api/meta` in the browser), and each number shown links to its About entry.
+- **UI:**
+  - tinted panels and table headers removed
+  - landing overflow at 390 px fixed
+  - "Majors" counts majors (74), not catalog-year versions (145)
+  - duplicate "16" in Setup removed
+  - singular/plural wording in the import review
+  - black native radios and checkboxes
+- **Personas:** P3 and P4 stay on the cross-checked 2026–27 maps and say why (D27).
+
+### Checks (last run)
+- `make lint`: ruff, ruff format, mypy --strict, ESLint, and tsc are clean.
+- `make test`: 275 backend tests (including A1–A10, all 145 programs, and determinism) and 93 frontend tests pass. `make build` passes.
+- HTTP smoke test against `make serve`: 43 of 43 checks pass, covering:
+  - every endpoint
+  - all four personas, each with plan, delay, fail, skip, drop, change of major, and exam opportunities
+  - bad input (404/422)
+  - SPA deep links
+- Browser: every page and tab at 1360 px and 390 px, with no console errors and no horizontal overflow. The import → plan flow sends no PDF bytes (one `POST /api/plan`). Share link, reload, and localStorage restore all return the identical plan.
+- axe-core (WCAG 2.1 A/AA): 0 violations on the landing, Setup, import, review, About, plan, and all plan tabs.
+- `docker build` passes, and the container serves health, the app, meta, and plans.
+- Real record (local only, never committed): 77 credits match Degree Works, graduation is May 2028, and the chain is COMS 3213 → COMS 3313.
+
+### Open items for the owner
+- Q2 (exam-credit cap): still conflicting (30 hours vs. 50%). Shortcut uses 30 (D24).
+- The 30 Needs-review programs, mostly 2025–26 maps whose course codes aren't in Banner's details.
+- Merging `feat/atu-sources` into `main`.
+
+## v1 summary (2026-09-29)
 
 All milestones M0–M8 are complete on `claude/optimistic-bohr-nwjsi5`.
 
@@ -112,7 +161,7 @@ All milestones M0–M8 are complete on `claude/optimistic-bohr-nwjsi5`.
 
 ## Environment notes
 - Network: www.atu.edu, reg-prod.ec.atu.edu (Banner), and adhe.edu are reachable. catalog.atu.edu is not (its WAF challenge host `*.token.awswaf.com` is denied).
-- Working branch: `claude/optimistic-bohr-nwjsi5` (PRD/CLAUDE.md/settings were committed to `main` first).
+- Working branch: v1 on `claude/optimistic-bohr-nwjsi5` (merged into `main`); v1.1 on `feat/atu-sources`.
 - The Banner fetch takes about 30 minutes cold (3,725 requests). `make pipeline-offline` rebuilds from the committed snapshots in about 1 minute.
 - Git author is the owner's GitHub noreply address (D1).
 
