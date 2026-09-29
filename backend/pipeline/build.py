@@ -33,6 +33,7 @@ from pipeline.enrich_catalog import (
     CourseBuildContext,
     MapNote,
     build_course,
+    build_course_index,
     load_banner_raw,
     notes_for_row,
     prerequisite_closure,
@@ -257,7 +258,7 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         "sources": _meta_sources(),
     }
 
-    _write_outputs(programs, courses, exams, policies, meta)
+    _write_outputs(programs, courses, build_course_index(banner.catalog), exams, policies, meta)
     write_report(meta, report_rows, programs, courses, parsed)
     return meta
 
@@ -306,6 +307,7 @@ def _meta_sources() -> list[dict[str, str]]:
 def _write_outputs(
     programs: list[dict[str, Any]],
     courses: dict[str, dict[str, Any]],
+    course_index: dict[str, dict[str, Any]],
     exams: dict[str, dict[str, Any]],
     policies: dict[str, Any],
     meta: dict[str, Any],
@@ -316,6 +318,7 @@ def _write_outputs(
     for program in programs:
         write_json(programs_dir / f"{program['id']}.json", program)
     write_json(PROCESSED_DIR / "courses.json", courses)
+    write_json(PROCESSED_DIR / "course_index.json", course_index)
     for name, table in exams.items():
         write_json(PROCESSED_DIR / "exams" / f"{name}.json", table)
     write_json(PROCESSED_DIR / "policies.json", policies)

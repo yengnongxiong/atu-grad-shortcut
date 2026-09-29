@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import json
 import os
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
@@ -24,6 +24,8 @@ class Dataset:
     meta: dict[str, Any]
     personas: dict[str, dict[str, Any]]
     data_dir: Path
+    # title + hours for every ATU catalog course (programs' courses live in `courses`)
+    course_index: dict[str, dict[str, Any]] = field(default_factory=dict)
 
     def program(self, program_id: str) -> dict[str, Any]:
         try:
@@ -60,6 +62,7 @@ def load_dataset(root: Path | None = None) -> Dataset:
                 continue
             persona = _read(path)
             personas[str(persona.get("id", path.stem))] = persona
+    index_path = processed / "course_index.json"
     return Dataset(
         programs=programs,
         courses=_read(processed / "courses.json"),
@@ -68,4 +71,5 @@ def load_dataset(root: Path | None = None) -> Dataset:
         meta=_read(processed / "meta.json"),
         personas=personas,
         data_dir=base,
+        course_index=_read(index_path) if index_path.exists() else {},
     )

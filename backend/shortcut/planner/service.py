@@ -16,6 +16,8 @@ from shortcut.planner.profile import (
     StudentState,
     build_items,
     build_state,
+    course_hours,
+    course_known,
     is_math_test,
     offered_ok,
 )
@@ -910,6 +912,20 @@ def data_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]) 
                 source=map_link,
             )
         )
+    profile = ctx.request.profile
+    for code in [c.code for c in profile.completed] + profile.in_progress:
+        code = " ".join(code.upper().split())
+        if not course_known(ctx.dataset, code):
+            out.append(
+                Warning(
+                    id=f"unknown-course-{code}",
+                    severity="warning",
+                    category="data",
+                    message=f"{code} isn't in ATU's course catalog data, so it's counted as "
+                    f"{course_hours(ctx.dataset, code):g} hours. Check the code.",
+                    source=SourceLink(title="ATU course catalog", url="https://catalog.atu.edu/"),
+                )
+            )
     for term in terms:
         for course in term.courses:
             if course.low_confidence:

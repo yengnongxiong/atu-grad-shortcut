@@ -98,15 +98,23 @@ class StudentState:
 
 
 def course_hours(dataset: Dataset, code: str, fallback: float = 3.0) -> float:
-    course = dataset.courses.get(code)
-    if course and course.get("hours") is not None:
-        return float(course["hours"])
+    for table in (dataset.courses, dataset.course_index):
+        entry = table.get(code)
+        if entry and entry.get("hours") is not None:
+            return float(entry["hours"])
     return fallback
 
 
 def course_title(dataset: Dataset, code: str) -> str:
-    course = dataset.courses.get(code)
-    return str(course["title"]) if course else code
+    for table in (dataset.courses, dataset.course_index):
+        entry = table.get(code)
+        if entry and entry.get("title"):
+            return str(entry["title"])
+    return code
+
+
+def course_known(dataset: Dataset, code: str) -> bool:
+    return code in dataset.courses or code in dataset.course_index
 
 
 def level_of(code: str) -> int:
