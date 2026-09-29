@@ -73,7 +73,7 @@ docker build -t shortcut .
 docker run --rm -p 8000:8000 shortcut      # http://localhost:8000
 ```
 
-The image is multi-stage: Node builds the frontend, then a slim Python image runs uvicorn as a non-root user with a `/api/health` health check.
+The image is multi-stage: Node builds the frontend, then a slim Python image runs uvicorn as a non-root user with a `/api/health` health check. It's about 380 MB, mostly OR-Tools and its numpy/pandas dependencies. CI builds it and checks that it serves.
 
 **Deploy notes.** Shortcut is a single stateless service with no database, secrets, or outbound calls at runtime. JSON data is baked into the image and loaded at startup. It runs anywhere that runs a container and routes to port 8000, such as a VPS, Fly.io, Render, or Cloud Run. To refresh data, run `make pipeline`, review `data/REPORT.md`, commit, and rebuild the image. Nothing has been deployed from this repository.
 

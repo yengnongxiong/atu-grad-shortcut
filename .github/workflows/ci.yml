@@ -73,3 +73,17 @@ jobs:
       - run: cd backend && uv sync --frozen && uv run pytest -q tests/acceptance/test_a10_serve.py
         env:
           SHORTCUT_REQUIRE_FRONTEND: "1"
+
+  docker:
+    name: Docker image builds and serves
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t shortcut .
+      - name: Run the image and hit the API and app
+        run: |
+          docker run -d --name shortcut -p 8000:8000 shortcut
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:8000/api/health && break; sleep 1; done
+          curl -fsS http://127.0.0.1:8000/api/personas > /dev/null
+          curl -fsS http://127.0.0.1:8000/ | grep -q '<div id="root">'
+          docker rm -f shortcut
