@@ -1,13 +1,13 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T07:21:36+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 
 - Degree maps discovered: **82**
 - Bachelor's programs ingested: **74** (8 associate/other maps listed below as excluded, 0 not ingested)
 - Auto-imported or better: **58 of 74 (78%)**
-- Cross-checked: **0** · Auto-imported: **58** · Needs review: **16**
+- Cross-checked: **5** · Auto-imported: **53** · Needs review: **16**
 - Courses in courses.json: **886**
 - catalog.atu.edu: not probed
 - Banner (public course catalog + class schedule): loaded committed snapshots (836 course details)
@@ -16,7 +16,11 @@ Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2
 
 | Program | Year | Degree | College | Tier | Issues |
 |---|---|---|---|---|---|
-| [Accounting](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Accounting.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
+| [Accounting](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Accounting.pdf) | 2026-27 | BS | Business/Economic Development | Cross-checked | — |
+| [Computer Science](https://www.atu.edu/advising/degreemaps_docs/2025-26/ComputerScience.pdf) | 2025-26 | BS | Science/Technology/Engr/Math | Cross-checked | offering_flags_agree: COMS 3703: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720); COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
+| [History](https://www.atu.edu/advising/degreemaps_docs/2026-2027/History.pdf) | 2026-27 | BA | Arts and Humanities | Cross-checked | — |
+| [Mathematics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Mathematics.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Cross-checked | — |
+| [Nursing (BSN)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/NursingBSN.pdf) | 2026-27 | BS | Education and Health | Cross-checked | — |
 | [Agricultural Education](https://www.atu.edu/advising/degreemaps_docs/2026-2027/AgricultureEducation.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
 | [Agriculture Business](https://www.atu.edu/advising/degreemaps_docs/2026-2027/AgricultureBusiness.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
 | [Agriculture Business - Animal Science](https://www.atu.edu/advising/degreemaps_docs/2026-2027/AGBUAnimalScience.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
@@ -33,7 +37,6 @@ Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2
 | [Communication](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Communication.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Communication - Theatre and Film Production](https://www.atu.edu/advising/degreemaps_docs/2026-2027/CommunicationTheatreFilm.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Computer Engineering](https://www.atu.edu/advising/degreemaps_docs/2026-2027/CompEngineering.pdf) | 2026-27 | Bachelor's degree | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 3703: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720) |
-| [Computer Science](https://www.atu.edu/advising/degreemaps_docs/2025-26/ComputerScience.pdf) | 2025-26 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 3703: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720); COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Computer Science Software Development](https://www.atu.edu/advising/degreemaps_docs/2026-2027/ComputerScienceSoftwareDev.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 3703: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720); COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Computer ScienceAI](https://www.atu.edu/advising/degreemaps_docs/2026-2027/ComputerScienceAI.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 3703: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720); COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Creative Writing](https://www.atu.edu/advising/degreemaps_docs/2026-2027/CreativeWriting.pdf) | 2026-27 | BFA | Arts and Humanities | Auto-imported | — |
@@ -50,12 +53,10 @@ Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2
 | [Health & Exercise Science - Kinesiology](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseScienceKinesiology.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Health & Exercise Science - Pre-Allied Health Studies](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseSciencePreAlliedHealthStudies.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Health & Exercise Science- Public Health](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseSciencePublicHealth.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
-| [History](https://www.atu.edu/advising/degreemaps_docs/2026-2027/History.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Information Technology - Track 1: Programming, Database & Web (BS)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechProgDataWebBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Information Technology - Track 2: Network & Security (BS)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechNetworkSecurityBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Journalism](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Journalism.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Management - Business Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MgmtBusinessMgmt.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
-| [Mathematics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Mathematics.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Middle Level Education - English/Language Arts](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdEnglish.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Middle Level Education - Mathematics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdMath.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Middle Level Education - Science](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdScience.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
@@ -65,7 +66,6 @@ Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2
 | [Music Education - Instrumental](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEdInstrumental.pdf) | 2026-27 | BME | Arts and Humanities | Auto-imported | — |
 | [Music Education - Keyboard & Vocal](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEdKeyboardVocal.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Music Education - Vocal](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEducationVocal.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
-| [Nursing (BSN)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/NursingBSN.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Physics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Physics.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Political Science](https://www.atu.edu/advising/degreemaps_docs/2026-2027/PoliticalScience.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Psychology](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Psychology.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
@@ -101,7 +101,47 @@ Generated 2026-09-29T07:16:59+00:00 · mode `offline` · newest catalog year **2
 
 ## Cross-checks
 
-None recorded yet.
+### Computer Science (2025-26 map) (`computer-science-2025-26`)
+
+- Result: **passed** · reviewed 2026-09-29 by Claude Code build agent (visual comparison of the rendered PDF)
+- Compared: degree-map PDF (rev. 7.23.2025), all 8 semesters row by row: codes, titles, hours, C-or-better marks, Fall Only notes, semester totals; PRD Appendix A ground truth (enforced by tests/pipeline/test_cs_ground_truth.py); Banner catalog entries, prerequisite tables and 'Offered:' lines for every required COMS and MATH course
+- Finding: Parse matches Appendix A exactly (120 hours, 40 upper-level).
+- Finding: COMS 4913 is 'Fall Only' on the map but 'Offered: Fall, Spring' in the catalog; scheduled Fall only and labeled conflicting (D8).
+- Finding: Calculus I needs a math ACT of 27 on the map vs 26 in Banner; the stricter 27 is used (D9).
+
+### Business Administration - Accounting (`accounting-2026-27`)
+
+- Result: **passed** · reviewed 2026-09-29 by Claude Code build agent (visual comparison of the rendered PDF)
+- Compared: degree-map PDF (rev. 03.17.26), all 8 semesters row by row, plus the gen-ed list boxes; Banner catalog entries, prerequisite tables and schedule history for every ACCT, BDA and MGMT course; catalog program page: not reachable from the build environment (D5)
+- Finding: Fixed during review: the U.S. History & Government list had captured only HIST 1903; it now has HIST 1903, HIST 2003, HIST 2013 and POLS 2003.
+- Finding: Fixed during review: 'Fall Only' written inside the course cell (not the notes column) was missed; ACCT 3003 and others are now Fall-only.
+- Finding: Fixed during review: the 'Note 1' box was read as a gen-ed list header.
+- Finding: Banner's STAT 2163 prerequisite (MATH 1003 or MATH 1113) is not met by the map's MATH 2223, so a plan choosing STAT 2163 adds MATH 1003 and says why. PSY/SOC 2053 need PSY 2003 or SOC 1003 instead; the tie follows the map's order.
+
+### History (`history-2026-27`)
+
+- Result: **passed** · reviewed 2026-09-29 by Claude Code build agent (visual comparison of the rendered PDF)
+- Compared: degree-map PDF (rev. 4.6.2026), all 8 semesters row by row; Banner catalog entries for every required HIST, PHIL and GEOG course; catalog program page: not reachable from the build environment (D5)
+- Finding: Fixed during review: 'PHIL 2003 or 2043' lost the bare-number alternative; it now inherits the subject.
+- Finding: Fixed during review: '(3000-4000)' without the word 'level' was not read as a level range, so HIST/GEOG/POLS/PHIL upper-level electives were unrestricted.
+- Finding: Upper-level hours: 42 listed upper-division hours plus 27 flexible hours against the 40 required.
+
+### Nursing (BSN) (`nursing-bsn-2026-27`)
+
+- Result: **passed** · reviewed 2026-09-29 by Claude Code build agent (visual comparison of the rendered PDF)
+- Compared: degree-map PDF (rev. 4.10.2026), all 8 semesters row by row, including the upper-level admission notes; Banner catalog entries, prerequisite and corequisite tables for every NUR course; catalog program page: not reachable from the build environment (D5)
+- Finding: Parse matches the map.
+- Finding: Banner prerequisites still cite retired NUR 3204 and NUR 3802 (the map uses NUR 3206 and NUR 3801); they are ignored and recorded (D11), which made the program plannable.
+- Finding: The map pairs A&P options as sequences (BIOL 2404 then 2414, or BIOL 2014 then 3074); sequences are not linked in the data, but the planner's first-option choice yields the matched BIOL 2404/2414 pair.
+- Finding: 'Requires admission to Upper Level' is shown as a warning; admission itself cannot be modeled.
+
+### Mathematics (`mathematics-2026-27`)
+
+- Result: **passed** · reviewed 2026-09-29 by Claude Code build agent (visual comparison of the rendered PDF)
+- Compared: degree-map PDF (rev. 4.10.2026), all 8 semesters row by row; Banner catalog entries and prerequisite tables for every MATH, STAT, COMS and PHYS course; catalog program page: not reachable from the build environment (D5)
+- Finding: Parse matches the map.
+- Finding: Planner bug found and fixed: rows the map repeats ('COMS 2213 or COMS 2323', 'MATH 4033 or MATH 4273', 'MATH 3203 or MATH 4123') scheduled the same course twice; each option is now taken once (D14).
+
 
 ## 2026–27 Computer Science maps vs. Appendix A (2025–26)
 

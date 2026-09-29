@@ -92,3 +92,8 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
   - A row "PHYS 4003 or Elective (3000-4000 level)" that the map repeats in a later semester becomes that elective the second time.
   - If the catalog's "Offered:" line and a map's "… Only" note share no regular term (FW 3053: catalog Fall, map Spring only), the D8 stricter-intersection rule would leave no term. The class schedule decides instead (FW 3053 ran four falls and no springs), still labeled *conflicting*. With no schedule record, either term is allowed.
 - **Reason:** Each rule removes a duplicate or impossible schedule found in the sweep without adding data. The evidence stays in warnings and notes.
+
+### D15 · Which programs were cross-checked
+- **Decision:** Five programs are cross-checked: Computer Science 2025–26, Accounting, History, Nursing (BSN), and Mathematics. Banner assigns every course to one of four colleges (Arts and Humanities; Business and Economic Development; Education and Health; Science, Technology, Engineering and Mathematics), so the five cover all four colleges. CS and Mathematics are both in STEM, and Mathematics was added because its map repeats "X or Y" rows.
+- **How:** The rendered degree-map page was compared row by row with the parsed program (codes, titles, hours, C marks, offering notes, totals), along with the Banner entries for the major courses. The catalog program page is unreachable (D5), so it wasn't compared, and each record says so. Records and findings are in `data/manual/cross_checks.json` and the "Cross-checks" section of `data/REPORT.md`.
+- **Reason:** PRD M6 asks for CS plus 4 majors from different colleges. The review was done by the build agent, not an ATU advisor, and the records state that.

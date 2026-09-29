@@ -14,12 +14,12 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - [x] **M3 API**: every PRD §11 endpoint plus `/api/personas`; `tests/unit/test_api.py`. Latency is measured below.
 - [x] **M4 Frontend core**: landing (search + personas), 3-step setup, plan view (comparison headline, timeline, lever panel, warnings), share URL + localStorage.
 - [x] **M5**: bottleneck graph (xyflow + dagre, click to delay or fail), exam opportunities with add-to-plan, what-if panel, advisor export with print CSS.
-- [ ] **M6 All majors**: pipeline runs on all 74 bachelor's maps (58 Auto-imported, 16 Needs review as of the last run). Manual cross-checks are still to do.
+- [x] **M6 All majors**: pipeline runs on all 74 bachelor's maps: 5 Cross-checked, 53 Auto-imported, 16 Needs review (78% Auto-imported or better). All 74 produce a feasible standard-pace plan. The sweep fixed 11 infeasible programs (D12–D14). The 5 cross-checks (CS, Accounting, History, Nursing, Mathematics) cover all four colleges (D15).
 - [ ] **M7**: P3/P4 personas + my-path template, README, polish. Dockerfile and CI are drafted.
 - [ ] **M8 Final QA**
 
 ## Checks (last run)
-- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 69 tests pass, including A1–A10 (A10 requires `make build` first).
+- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 76 tests pass, including A1–A10 (A10 requires `make build` first).
 - Frontend: `tsc -b`, `eslint`: clean. `vitest`: 11 tests pass. `npm run build` OK.
 
 ## Environment notes
@@ -29,4 +29,4 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - Git author is the owner's GitHub noreply address (D1).
 
 ## Next step
-M6: cross-check CS plus 4 majors from different colleges, record them in `data/manual/cross_checks.json`, and re-run the pipeline. Then M7 personas P3/P4.
+M7: personas P3 (Accounting, off-track after failing Fall-only ACCT 3003) and P4 (Nursing, "no shortcut"), the my-path template, README, screenshots, polish. Then M8.

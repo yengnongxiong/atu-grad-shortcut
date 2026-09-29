@@ -1307,8 +1307,24 @@
       "detail": ""
     }
   ],
-  "trust_tier": "auto_imported",
-  "cross_check": null,
+  "trust_tier": "cross_checked",
+  "cross_check": {
+    "title": "Nursing (BSN)",
+    "result": "passed",
+    "date": "2026-09-29",
+    "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+    "compared": [
+      "degree-map PDF (rev. 4.10.2026), all 8 semesters row by row, including the upper-level admission notes",
+      "Banner catalog entries, prerequisite and corequisite tables for every NUR course",
+      "catalog program page: not reachable from the build environment (D5)"
+    ],
+    "findings": [
+      "Parse matches the map.",
+      "Banner prerequisites still cite retired NUR 3204 and NUR 3802 (the map uses NUR 3206 and NUR 3801); they are ignored and recorded (D11), which made the program plannable.",
+      "The map pairs A&P options as sequences (BIOL 2404 then 2414, or BIOL 2014 then 3074); sequences are not linked in the data, but the planner's first-option choice yields the matched BIOL 2404/2414 pair.",
+      "'Requires admission to Upper Level' is shown as a warning; admission itself cannot be modeled."
+    ]
+  },
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",

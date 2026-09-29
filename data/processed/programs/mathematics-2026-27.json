@@ -1507,8 +1507,22 @@
       "detail": ""
     }
   ],
-  "trust_tier": "auto_imported",
-  "cross_check": null,
+  "trust_tier": "cross_checked",
+  "cross_check": {
+    "title": "Mathematics",
+    "result": "passed",
+    "date": "2026-09-29",
+    "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+    "compared": [
+      "degree-map PDF (rev. 4.10.2026), all 8 semesters row by row",
+      "Banner catalog entries and prerequisite tables for every MATH, STAT, COMS and PHYS course",
+      "catalog program page: not reachable from the build environment (D5)"
+    ],
+    "findings": [
+      "Parse matches the map.",
+      "Planner bug found and fixed: rows the map repeats ('COMS 2213 or COMS 2323', 'MATH 4033 or MATH 4273', 'MATH 3203 or MATH 4123') scheduled the same course twice; each option is now taken once (D14)."
+    ]
+  },
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",

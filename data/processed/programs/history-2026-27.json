@@ -1457,8 +1457,23 @@
       "detail": ""
     }
   ],
-  "trust_tier": "auto_imported",
-  "cross_check": null,
+  "trust_tier": "cross_checked",
+  "cross_check": {
+    "title": "History",
+    "result": "passed",
+    "date": "2026-09-29",
+    "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+    "compared": [
+      "degree-map PDF (rev. 4.6.2026), all 8 semesters row by row",
+      "Banner catalog entries for every required HIST, PHIL and GEOG course",
+      "catalog program page: not reachable from the build environment (D5)"
+    ],
+    "findings": [
+      "Fixed during review: 'PHIL 2003 or 2043' lost the bare-number alternative; it now inherits the subject.",
+      "Fixed during review: '(3000-4000)' without the word 'level' was not read as a level range, so HIST/GEOG/POLS/PHIL upper-level electives were unrestricted.",
+      "Upper-level hours: 42 listed upper-division hours plus 27 flexible hours against the 40 required."
+    ]
+  },
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",

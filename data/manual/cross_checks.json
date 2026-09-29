@@ -1,4 +1,86 @@
 {
-  "_about": "Manual cross-checks (PRD §7.5). A program reaches Cross-checked only if every validation check passes AND a record here says result=passed. Each record lists what was compared and any findings.",
-  "programs": {}
+  "_about": "Manual cross-checks (PRD §7.5). A program reaches Cross-checked only if every validation check passes AND a record here says result=passed. Each record lists what was compared and any findings. The reviewer was the build agent comparing rendered degree-map pages against the parsed data row by row; it is not an ATU advisor's sign-off.",
+  "programs": {
+    "computer-science-2025-26": {
+      "title": "Computer Science (2025-26 map)",
+      "result": "passed",
+      "date": "2026-09-29",
+      "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+      "compared": [
+        "degree-map PDF (rev. 7.23.2025), all 8 semesters row by row: codes, titles, hours, C-or-better marks, Fall Only notes, semester totals",
+        "PRD Appendix A ground truth (enforced by tests/pipeline/test_cs_ground_truth.py)",
+        "Banner catalog entries, prerequisite tables and 'Offered:' lines for every required COMS and MATH course"
+      ],
+      "findings": [
+        "Parse matches Appendix A exactly (120 hours, 40 upper-level).",
+        "COMS 4913 is 'Fall Only' on the map but 'Offered: Fall, Spring' in the catalog; scheduled Fall only and labeled conflicting (D8).",
+        "Calculus I needs a math ACT of 27 on the map vs 26 in Banner; the stricter 27 is used (D9)."
+      ]
+    },
+    "accounting-2026-27": {
+      "title": "Business Administration - Accounting",
+      "result": "passed",
+      "date": "2026-09-29",
+      "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+      "compared": [
+        "degree-map PDF (rev. 03.17.26), all 8 semesters row by row, plus the gen-ed list boxes",
+        "Banner catalog entries, prerequisite tables and schedule history for every ACCT, BDA and MGMT course",
+        "catalog program page: not reachable from the build environment (D5)"
+      ],
+      "findings": [
+        "Fixed during review: the U.S. History & Government list had captured only HIST 1903; it now has HIST 1903, HIST 2003, HIST 2013 and POLS 2003.",
+        "Fixed during review: 'Fall Only' written inside the course cell (not the notes column) was missed; ACCT 3003 and others are now Fall-only.",
+        "Fixed during review: the 'Note 1' box was read as a gen-ed list header.",
+        "Banner's STAT 2163 prerequisite (MATH 1003 or MATH 1113) is not met by the map's MATH 2223, so a plan choosing STAT 2163 adds MATH 1003 and says why. PSY/SOC 2053 need PSY 2003 or SOC 1003 instead; the tie follows the map's order."
+      ]
+    },
+    "history-2026-27": {
+      "title": "History",
+      "result": "passed",
+      "date": "2026-09-29",
+      "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+      "compared": [
+        "degree-map PDF (rev. 4.6.2026), all 8 semesters row by row",
+        "Banner catalog entries for every required HIST, PHIL and GEOG course",
+        "catalog program page: not reachable from the build environment (D5)"
+      ],
+      "findings": [
+        "Fixed during review: 'PHIL 2003 or 2043' lost the bare-number alternative; it now inherits the subject.",
+        "Fixed during review: '(3000-4000)' without the word 'level' was not read as a level range, so HIST/GEOG/POLS/PHIL upper-level electives were unrestricted.",
+        "Upper-level hours: 42 listed upper-division hours plus 27 flexible hours against the 40 required."
+      ]
+    },
+    "nursing-bsn-2026-27": {
+      "title": "Nursing (BSN)",
+      "result": "passed",
+      "date": "2026-09-29",
+      "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+      "compared": [
+        "degree-map PDF (rev. 4.10.2026), all 8 semesters row by row, including the upper-level admission notes",
+        "Banner catalog entries, prerequisite and corequisite tables for every NUR course",
+        "catalog program page: not reachable from the build environment (D5)"
+      ],
+      "findings": [
+        "Parse matches the map.",
+        "Banner prerequisites still cite retired NUR 3204 and NUR 3802 (the map uses NUR 3206 and NUR 3801); they are ignored and recorded (D11), which made the program plannable.",
+        "The map pairs A&P options as sequences (BIOL 2404 then 2414, or BIOL 2014 then 3074); sequences are not linked in the data, but the planner's first-option choice yields the matched BIOL 2404/2414 pair.",
+        "'Requires admission to Upper Level' is shown as a warning; admission itself cannot be modeled."
+      ]
+    },
+    "mathematics-2026-27": {
+      "title": "Mathematics",
+      "result": "passed",
+      "date": "2026-09-29",
+      "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+      "compared": [
+        "degree-map PDF (rev. 4.10.2026), all 8 semesters row by row",
+        "Banner catalog entries and prerequisite tables for every MATH, STAT, COMS and PHYS course",
+        "catalog program page: not reachable from the build environment (D5)"
+      ],
+      "findings": [
+        "Parse matches the map.",
+        "Planner bug found and fixed: rows the map repeats ('COMS 2213 or COMS 2323', 'MATH 4033 or MATH 4273', 'MATH 3203 or MATH 4123') scheduled the same course twice; each option is now taken once (D14)."
+      ]
+    }
+  }
 }

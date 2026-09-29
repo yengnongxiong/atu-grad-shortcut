@@ -1343,8 +1343,24 @@
       "detail": ""
     }
   ],
-  "trust_tier": "auto_imported",
-  "cross_check": null,
+  "trust_tier": "cross_checked",
+  "cross_check": {
+    "title": "Business Administration - Accounting",
+    "result": "passed",
+    "date": "2026-09-29",
+    "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+    "compared": [
+      "degree-map PDF (rev. 03.17.26), all 8 semesters row by row, plus the gen-ed list boxes",
+      "Banner catalog entries, prerequisite tables and schedule history for every ACCT, BDA and MGMT course",
+      "catalog program page: not reachable from the build environment (D5)"
+    ],
+    "findings": [
+      "Fixed during review: the U.S. History & Government list had captured only HIST 1903; it now has HIST 1903, HIST 2003, HIST 2013 and POLS 2003.",
+      "Fixed during review: 'Fall Only' written inside the course cell (not the notes column) was missed; ACCT 3003 and others are now Fall-only.",
+      "Fixed during review: the 'Note 1' box was read as a gen-ed list header.",
+      "Banner's STAT 2163 prerequisite (MATH 1003 or MATH 1113) is not met by the map's MATH 2223, so a plan choosing STAT 2163 adds MATH 1003 and says why. PSY/SOC 2053 need PSY 2003 or SOC 1003 instead; the tie follows the map's order."
+    ]
+  },
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",

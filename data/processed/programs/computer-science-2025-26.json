@@ -1390,8 +1390,23 @@
       "detail": ""
     }
   ],
-  "trust_tier": "auto_imported",
-  "cross_check": null,
+  "trust_tier": "cross_checked",
+  "cross_check": {
+    "title": "Computer Science (2025-26 map)",
+    "result": "passed",
+    "date": "2026-09-29",
+    "reviewer": "Claude Code build agent (visual comparison of the rendered PDF)",
+    "compared": [
+      "degree-map PDF (rev. 7.23.2025), all 8 semesters row by row: codes, titles, hours, C-or-better marks, Fall Only notes, semester totals",
+      "PRD Appendix A ground truth (enforced by tests/pipeline/test_cs_ground_truth.py)",
+      "Banner catalog entries, prerequisite tables and 'Offered:' lines for every required COMS and MATH course"
+    ],
+    "findings": [
+      "Parse matches Appendix A exactly (120 hours, 40 upper-level).",
+      "COMS 4913 is 'Fall Only' on the map but 'Offered: Fall, Spring' in the catalog; scheduled Fall only and labeled conflicting (D8).",
+      "Calculus I needs a math ACT of 27 on the map vs 26 in Banner; the stricter 27 is used (D9)."
+    ]
+  },
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",

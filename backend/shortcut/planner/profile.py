@@ -242,8 +242,25 @@ def match_requirements(
 
     planned: set[str] = set()  # codes an earlier open requirement already chose to schedule
     wanted = _mandatory_prerequisites(program, dataset)
+    listed = {c for r in all_reqs if r["kind"] == "course" for option in r["options"] for c in option}
+
+    def listed_or_earned(code: str, min_grade: str | None) -> bool:
+        return code in listed or state.has(code, min_grade)
+
+    def added_hours(option: list[str]) -> float:
+        """Prerequisite hours an option would add beyond the program's own courses."""
+        total = 0.0
+        for code in option:
+            course = dataset.courses.get(code)
+            tree = course["prerequisites"] if course else None
+            needed = _cheapest_additions(dataset, tree, listed_or_earned, state.math_act)
+            if needed is None:
+                return float("inf")
+            total += _hours(dataset, [c for c in needed if c not in option])
+        return total
+
     for req in (r for r in reqs if r["kind"] == "course"):
-        statuses[req["id"]] = _match_course(req, state, used, planned, wanted, dataset)
+        statuses[req["id"]] = _match_course(req, state, used, planned, wanted, added_hours, dataset)
         planned.update(statuses[req["id"]].remaining_codes)
 
     code_buckets = [r for r in reqs if r["kind"] == "bucket" and r["bucket"]["codes"]]
@@ -352,6 +369,7 @@ def _match_course(
     used: set[str],
     planned: set[str],
     wanted: set[str],
+    added_hours: Callable[[list[str]], float],
     dataset: Dataset,
 ) -> ReqStatus:
     min_grade = req.get("min_grade")
@@ -373,9 +391,11 @@ def _match_course(
         in_catalog = [opt for opt in req["options"] if all(c in dataset.courses for c in opt)]
         fresh = [opt for opt in in_catalog if not planned.intersection(opt)] or in_catalog
         # Prefer the option another required course needs anyway (PHYS 2114 before CHEM 3324),
-        # then the map's order.
+        # then the one adding the fewest prerequisite hours, then the map's order.
         best_option = min(
-            fresh, key=lambda opt: (not wanted.intersection(opt), fresh.index(opt)), default=req["options"][0]
+            fresh,
+            key=lambda opt: (not wanted.intersection(opt), added_hours(opt), fresh.index(opt)),
+            default=req["options"][0],
         )
     used.update(c.code for c in best_hits)
     hit_codes = {c.code for c in best_hits}
