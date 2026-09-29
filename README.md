@@ -128,20 +128,20 @@ The tiers mean:
 
 ### Caveats
 
-- **The course catalog site isn't reachable from the build environment** (catalog.atu.edu sits behind a bot challenge), so course data comes from ATU's public Banner catalog and class schedule instead. See [DECISIONS.md](DECISIONS.md) D5.
+- **The course catalog site isn't reachable from the build environment** (catalog.atu.edu sits behind a bot challenge), so course data comes from ATU's public Banner catalog and class schedule instead. See [DECISIONS.md](docs/DECISIONS.md) D5.
 - **CLEP only.** AP and IB equivalency tables are catalog-only, so they aren't available (D6). CLEP comes from ATU's 2026–27 CLEP equivalency table (PRD Appendix B).
 - **Offerings are inferred.** Summer and winter availability comes from three years of public schedules (D8). A course that ran before may not run again, and every inference is labeled with its evidence.
 - **Some ATU pages disagree** (e.g. the exam-credit cap: 30 hours vs. 50% of the degree). Shortcut uses the stricter value and says so.
 - **Some things can't be scheduled.** Admission cycles, cohort starts, and Credit for Prior Learning are flagged, not modeled.
 - **Banner prerequisites are sometimes out of date.** Where they cite retired courses, those links are dropped and recorded (D11). Where they list courses the degree map omits, the plan adds the course and explains why.
-- Every modeling decision, with its alternatives and reasons, is in [DECISIONS.md](DECISIONS.md).
+- Every modeling decision, with its alternatives and reasons, is in [DECISIONS.md](docs/DECISIONS.md).
 
 ## Project documents
 
 - [PRD.md](PRD.md): the product spec, including acceptance tests A1–A10.
 - [CLAUDE.md](CLAUDE.md): build rules.
-- [DECISIONS.md](DECISIONS.md): every judgment call (D1–D15).
-- [PROGRESS.md](PROGRESS.md): milestone status and the final summary.
+- [DECISIONS.md](docs/DECISIONS.md): every judgment call (D1–D15).
+- [PROGRESS.md](docs/PROGRESS.md): milestone status and the final summary.
 - [data/REPORT.md](data/REPORT.md): per-program coverage.
 
 ## Resume bullet

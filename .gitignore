@@ -23,3 +23,9 @@ data/.cache/
 .idea/
 .vscode/
 *.swp
+
+# Personal records: never commit real grades or audits
+data/personas/my-*.json
+!data/personas/my-path.template.json
+*audit*.pdf
+.claude/
