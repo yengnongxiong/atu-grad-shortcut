@@ -56,7 +56,7 @@ export function PlanHeadline({ plan }: { plan: PlanResponse }) {
         />
       </div>
       {plan.pace_note && (
-        <p role="note" className="rounded-md border border-line-strong bg-paper-deep px-4 py-3 text-sm text-ink-soft">
+        <p role="note" className="rounded-md border border-line-strong px-4 py-3 text-sm text-ink-soft">
           <strong className="text-ink">{soonerMap < 0 && sooner <= 0 ? 'Why you’re behind the map: ' : 'No shortcut here: '}</strong>
           {plan.pace_note}
         </p>

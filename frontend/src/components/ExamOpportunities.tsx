@@ -32,7 +32,7 @@ export function ExamOpportunities({
       {loading && <Spinner label="Updating…" />}
       {data.opportunities.length > 0 &&
         data.opportunities.every((o) => o.exceeds_cap || !o.terms_saved || o.terms_saved <= 0) && (
-          <p role="note" className="rounded-md border border-info/30 bg-info-soft px-3 py-2 text-sm text-info">
+          <p role="note" className="rounded-md border border-line-strong px-3 py-2 text-sm text-ink-soft">
             None of these moves your graduation date on its own under your current levers: the date is set by the
             prerequisite chain (see <strong>Bottlenecks</strong>), not by total hours. They still save the hours shown,
             which lightens terms and saves tuition.
@@ -44,7 +44,7 @@ export function ExamOpportunities({
         <div className="overflow-x-auto rounded-md border border-line">
           <table className="w-full min-w-[46rem] text-sm">
             <caption className="sr-only">Exam opportunities ranked by terms saved, then hours saved</caption>
-            <thead className="bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
+            <thead className="border-b border-line text-left text-xs uppercase tracking-wide text-muted">
               <tr>
                 <th scope="col" className="px-3 py-2">Exam</th>
                 <th scope="col" className="px-3 py-2">Score</th>

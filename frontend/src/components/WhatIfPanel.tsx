@@ -174,7 +174,7 @@ export function WhatIfPanel({
         )}
         {result && (
           <>
-            <div className={`rounded-md border p-4 ${later > 0 ? 'border-critical/40 bg-critical-soft' : 'border-saved/40 bg-saved-soft'}`}>
+            <div className={`rounded-md border p-4 ${later > 0 ? 'border-ink' : 'border-line-strong'}`}>
               <p className="text-sm font-semibold uppercase tracking-wide text-muted">Graduation</p>
               <p className="mt-1 text-2xl font-semibold">
                 {result.before?.date_label ?? '—'} → <span className={later > 0 ? 'text-critical' : 'text-saved'}>{result.after?.date_label ?? 'no plan'}</span>
@@ -186,7 +186,7 @@ export function WhatIfPanel({
               <div className="overflow-x-auto rounded-md border border-line">
                 <table className="w-full min-w-[36rem] text-sm">
                   <caption className="sr-only">Terms that changed</caption>
-                  <thead className="bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
+                  <thead className="border-b border-line text-left text-xs uppercase tracking-wide text-muted">
                     <tr>
                       <th scope="col" className="px-3 py-2">Term</th>
                       <th scope="col" className="px-3 py-2">Before</th>

@@ -303,7 +303,7 @@ function StepCredit({
         {detail && (
           <div className="mt-3 max-h-[26rem] overflow-y-auto rounded-md border border-line">
             <table className="w-full text-sm">
-              <thead className="sticky top-0 bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
+              <thead className="sticky top-0 border-b border-line bg-surface text-left text-xs uppercase tracking-wide text-muted">
                 <tr>
                   <th className="px-3 py-2">Course</th>
                   <th className="px-3 py-2">Status</th>

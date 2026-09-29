@@ -110,7 +110,7 @@ export function BottleneckGraph({
             onNodeClick={(_, node) => setSelected((node.data as CourseNodeData).node)}
             proOptions={{ hideAttribution: true }}
           >
-            <Background gap={24} color="#e2dcd1" />
+            <Background gap={24} color="#e5e5e5" />
             <Controls showInteractive={false} />
           </ReactFlow>
         </div>

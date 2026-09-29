@@ -92,7 +92,7 @@ export function PlanPage({
             </div>
           )}
           {plan.program.trust_tier === 'needs_review' && (
-            <div role="note" className="no-print rounded-md border border-warn/50 bg-warn-soft p-3 text-sm text-warn">
+            <div role="note" className="no-print rounded-md border border-line-strong p-3 text-sm text-ink">
               <strong>Needs review:</strong> automated checks found problems in this program’s data. Treat this plan as a sketch and
               compare it with the degree map.
             </div>
