@@ -1,0 +1,235 @@
+{
+ "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+ "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+ "catalog_edition": "2026-2027",
+ "captured_at": "2026-09-29",
+ "method": "Opened in a regular browser session; table cells and paragraphs copied verbatim (innerText, whitespace collapsed).",
+ "paragraphs": [
+  "Institutional credit may be awarded to students who participate in the College Board's College Level Examination Program (CLEP) and earn qualifying CLEP examination scores as established by Arkansas Tech University. It is recommended that an ACT sub-score of 24 or above or an SAT sub-score of 500 or above be used as a guideline for attempting to earn credit through CLEP.",
+  "The following CLEP examinations are accepted by Arkansas Tech University, along with the qualifying score and credit awarded."
+ ],
+ "tables": [
+  [
+   [
+    "CLEP Examination",
+    "Qualifying Score",
+    "Credit Awarded"
+   ],
+   [
+    "American Government",
+    "50",
+    "POLS 2003"
+   ],
+   [
+    "American Literature",
+    "50",
+    "ENGL 2013"
+   ],
+   [
+    "Analyzing & Interpreting Literature",
+    "50",
+    "3 hours General Elective"
+   ],
+   [
+    "Biology",
+    "50",
+    "BIOL 1014 or BIOL 1114"
+   ],
+   [
+    "Business Law, Introductory",
+    "50",
+    "3 hours General Elective"
+   ],
+   [
+    "Calculus",
+    "50",
+    "MATH 2914"
+   ],
+   [
+    "Chemistry",
+    "50",
+    "CHEM 2124"
+   ],
+   [
+    "Chemistry",
+    "55",
+    "CHEM 2124 & CHEM 2134"
+   ],
+   [
+    "College Algebra",
+    "50",
+    "MATH 1113"
+   ],
+   [
+    "College Composition",
+    "50",
+    "ENGL 1013"
+   ],
+   [
+    "College Composition",
+    "59",
+    "ENGL 1013 & ENGL 1023"
+   ],
+   [
+    "College Composition Modular",
+    "50",
+    "ENGL 1013"
+   ],
+   [
+    "College Composition Modular",
+    "59",
+    "ENGL 1013 & ENGL 1023"
+   ],
+   [
+    "College Mathematics",
+    "50",
+    "MATH 1003"
+   ],
+   [
+    "Educational Psychology, Introductory",
+    "50",
+    "3 hours General Elective"
+   ],
+   [
+    "English Literature",
+    "50",
+    "ENGL 3413"
+   ],
+   [
+    "English Literature",
+    "55",
+    "ENGL 3413 & ENGL 3423"
+   ],
+   [
+    "Financial Accounting",
+    "50",
+    "3 hours General Elective"
+   ],
+   [
+    "French Language",
+    "42",
+    "FR 1013"
+   ],
+   [
+    "French Language",
+    "50",
+    "FR 1013 & FR 1023"
+   ],
+   [
+    "German Language",
+    "43",
+    "GER 1013"
+   ],
+   [
+    "German Language",
+    "55",
+    "GER 1013 & GER 1023"
+   ],
+   [
+    "History of the United States I",
+    "50",
+    "HIST 2003"
+   ],
+   [
+    "History of the United States II",
+    "50",
+    "HIST 2013"
+   ],
+   [
+    "Human Growth & Development",
+    "50",
+    "PSY 3813"
+   ],
+   [
+    "Humanities",
+    "50",
+    "HUM 2003"
+   ],
+   [
+    "Information Systems & Computer Applications",
+    "52",
+    "COMS 1003"
+   ],
+   [
+    "Natural Sciences",
+    "56",
+    "BIOL 1014, PHSC 1013, & PHSC 1021"
+   ],
+   [
+    "Precalculus",
+    "50",
+    "MATH 1914"
+   ],
+   [
+    "Principles of Macroeconomics",
+    "50",
+    "ECON 2003"
+   ],
+   [
+    "Principles of Management",
+    "65",
+    "MGMT 3003"
+   ],
+   [
+    "Principles of Marketing",
+    "50",
+    "MKT 3043"
+   ],
+   [
+    "Principles of Microeconomics",
+    "50",
+    "ECON 2013"
+   ],
+   [
+    "Psychology, Introductory",
+    "50",
+    "PSY 2003"
+   ],
+   [
+    "Social Sciences & History",
+    "50",
+    "HIST 1503"
+   ],
+   [
+    "Social Sciences & History",
+    "56",
+    "HIST 1503 & HIST 1513"
+   ],
+   [
+    "Sociology, Introductory",
+    "50",
+    "SOC 1003"
+   ],
+   [
+    "Spanish Language",
+    "45",
+    "SPAN 1013"
+   ],
+   [
+    "Spanish Language",
+    "55",
+    "SPAN 1013 & SPAN 1023"
+   ],
+   [
+    "Spanish with Writing I & II",
+    "50",
+    "6 hours General Elective"
+   ],
+   [
+    "Spanish with Writing I & II",
+    "55",
+    "12 hours General Elective"
+   ],
+   [
+    "Western Civilization I",
+    "50",
+    "3 hours General Education Social Science"
+   ],
+   [
+    "Western Civilization II",
+    "50",
+    "3 hours General Education Social Science"
+   ]
+  ]
+ ]
+}

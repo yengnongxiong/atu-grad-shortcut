@@ -1,0 +1,430 @@
+{
+ "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+ "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+ "catalog_edition": "2026-2027",
+ "captured_at": "2026-09-29",
+ "method": "Opened in a regular browser session; table cells and paragraphs copied verbatim (innerText, whitespace collapsed).",
+ "paragraphs": [
+  "Institutional credit may be awarded to students who participated in the International Baccalaureate (IB) Diploma Programme and earn qualifying IB examination scores as established by Arkansas Tech University.",
+  "The following IB examinations are accepted by Arkansas Tech University, along with the qualifying score and credit awarded."
+ ],
+ "tables": [
+  [
+   [
+    "IB Examination",
+    "Qualifying Score",
+    "Credit Awarded"
+   ],
+   [
+    "Biology/Standard",
+    "4",
+    "BIOL 1014"
+   ],
+   [
+    "Biology/Higher",
+    "4",
+    "BIOL 1014 or BIOL 1114"
+   ],
+   [
+    "Business Management/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ],
+   [
+    "Chemistry/Standard",
+    "4",
+    "CHEM 2124"
+   ],
+   [
+    "Chemistry/Higher",
+    "4",
+    "CHEM 2124 & CHEM 2134"
+   ],
+   [
+    "Computer Science/Standard or Higher",
+    "4",
+    "COMS 1013 & COMS 1011"
+   ],
+   [
+    "Dance/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ],
+   [
+    "Design Technology/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ],
+   [
+    "Economics/Standard",
+    "4",
+    "ECON 2003"
+   ],
+   [
+    "Economics/Standard",
+    "6",
+    "ECON 2103"
+   ],
+   [
+    "Economics/Higher",
+    "4",
+    "ECON 2003 & ECON 2013"
+   ],
+   [
+    "Economics/Higher",
+    "6",
+    "ECON 2103 & ECON 2013"
+   ],
+   [
+    "English/Standard",
+    "4",
+    "ENGL 1013 or ENGL 2003"
+   ],
+   [
+    "English/Standard",
+    "6",
+    "ENGL 1013 or ENGL 2023"
+   ],
+   [
+    "English/Higher",
+    "4",
+    "6 hours from the following courses: ENGL 1013, ENGL 1023, ENGL 2003, ENGL 2013"
+   ],
+   [
+    "English/Higher",
+    "6",
+    "6 hours from the following courses: ENGL 1013, ENGL 1023, ENGL 2183, ENGL 2023"
+   ],
+   [
+    "Environmental Systems/Higher",
+    "4",
+    "BIOL 1004"
+   ],
+   [
+    "Film Studies/Higher",
+    "4",
+    "ENGL 2173 or JOUR 2173"
+   ],
+   [
+    "French: Language A/Standard",
+    "4",
+    "FR 1013"
+   ],
+   [
+    "French: Language A/Standard",
+    "5",
+    "FR 1013 & FR 1023"
+   ],
+   [
+    "French: Language A/Higher",
+    "4",
+    "FR 1013 & FR 1023"
+   ],
+   [
+    "French: Language A/Higher",
+    "5",
+    "FR 1013, FR 1023, FR 2013, & FR 2023"
+   ],
+   [
+    "French: Language B/Standard or Higher",
+    "4",
+    "FR 1013, FR 1023, FR 2013, & FR 2023"
+   ],
+   [
+    "Geography/Standard or Higher",
+    "4",
+    "GEOG 2013"
+   ],
+   [
+    "German: Language A/Standard",
+    "4",
+    "GER 1013"
+   ],
+   [
+    "German: Language A/Standard",
+    "5",
+    "GER 1013 & GER 1023"
+   ],
+   [
+    "German: Language A/Higher",
+    "4",
+    "GER 1013 & GER 1023"
+   ],
+   [
+    "German: Language A/Higher",
+    "5",
+    "GER 1013, GER 1023, GER 2013, & GER 2023"
+   ],
+   [
+    "German: Language B/Standard or Higher",
+    "4",
+    "GER 1013, GER 1023, GER 2013, & GER 2023"
+   ],
+   [
+    "Global Politics/Standard or Higher",
+    "4",
+    "POLS 2413"
+   ],
+   [
+    "Greek: Language A/Standard",
+    "4",
+    "3 hours General Education Humanities"
+   ],
+   [
+    "Greek: Language A/Standard",
+    "5",
+    "6 hours General Education Humanities"
+   ],
+   [
+    "Greek: Language A/Higher",
+    "4",
+    "6 hours General Education Humanities"
+   ],
+   [
+    "Greek: Language A/Higher",
+    "5",
+    "12 hours General Education Humanities"
+   ],
+   [
+    "Greek: Language B/Standard or Higher",
+    "4",
+    "12 hours General Education Humanities"
+   ],
+   [
+    "History (U.S.)/Standard",
+    "4",
+    "HIST 2003"
+   ],
+   [
+    "History (U.S.)/Standard",
+    "6",
+    "HIST 2043"
+   ],
+   [
+    "History (U.S.)/Higher",
+    "4",
+    "HIST 2003 & HIST 2013"
+   ],
+   [
+    "History (U.S.)/Higher",
+    "6",
+    "HIST 2043 & HIST 2013"
+   ],
+   [
+    "History (World)/Standard",
+    "4",
+    "HIST 1503"
+   ],
+   [
+    "History (World)/Standard",
+    "6",
+    "HIST 1543"
+   ],
+   [
+    "History(World)/Higher",
+    "4",
+    "HIST 1503 & HIST 1513"
+   ],
+   [
+    "History (World)/Higher",
+    "6",
+    "HIST 1543 & HIST 1513"
+   ],
+   [
+    "IT Global Society/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ],
+   [
+    "Japanese: Language A/Standard",
+    "4",
+    "JPN 1013"
+   ],
+   [
+    "Japanese: Language A/Standard",
+    "5",
+    "JPN 1013 & JPN 1023"
+   ],
+   [
+    "Japanese: Language A/Higher",
+    "4",
+    "JPN 1013 & JPN 1023"
+   ],
+   [
+    "Japanese: Language A/Higher",
+    "5",
+    "JPN 1013, JPN 1023, JPN 2013, & JPN 2023"
+   ],
+   [
+    "Japanese: Language B/Standard or Higher",
+    "4",
+    "JPN 1013, JPN 1023, JPN 2013, & JPN 2023"
+   ],
+   [
+    "Latin: Language A/Standard",
+    "4",
+    "LAT 1013"
+   ],
+   [
+    "Latin: Language A/Standard",
+    "5",
+    "LAT 1013 & LAT 1023"
+   ],
+   [
+    "Latin: Language A/Higher",
+    "4",
+    "LAT 1013 & LAT 1023"
+   ],
+   [
+    "Latin: Language A/Higher",
+    "5",
+    "LAT 1013, LAT 1023, & 6 hours General Education Humanities"
+   ],
+   [
+    "Latin: Language B/Standard or Higher",
+    "4",
+    "LAT 1013, LAT 1023, & 6 hours General Education Humanities"
+   ],
+   [
+    "Literature & Performance/Standard or Higher",
+    "4",
+    "COMM 3063"
+   ],
+   [
+    "Mandarin: Language A/Standard",
+    "4",
+    "3 hours General Education Humanities"
+   ],
+   [
+    "Mandarin: Language A/Standard",
+    "5",
+    "6 hours General Education Humanities"
+   ],
+   [
+    "Mandarin: Language A/Higher",
+    "4",
+    "6 hours General Education Humanities"
+   ],
+   [
+    "Mandarin: Language A/Higher",
+    "5",
+    "12 hours General Education Humanities"
+   ],
+   [
+    "Mandarin: Language B/Standard or Higher",
+    "4",
+    "12 hours General Education Humanities"
+   ],
+   [
+    "Math Appl Interpretations/Standard or Higher",
+    "4",
+    "MATH 1113"
+   ],
+   [
+    "Math Appl Interpretations/Standard or Higher",
+    "5",
+    "MATH 1113 & MATH 1203"
+   ],
+   [
+    "Math Analyst Approach/Standard or Higher",
+    "4",
+    "MATH 2914"
+   ],
+   [
+    "Math Analyst Approach/Higher",
+    "5",
+    "MATH 2914 & MATH 2924"
+   ],
+   [
+    "Music/Standard or Higher",
+    "4",
+    "MUS 1713"
+   ],
+   [
+    "Music/Higher",
+    "5",
+    "MUS 1713 & MUS 1723"
+   ],
+   [
+    "Philosophy/Standard or Higher",
+    "4",
+    "PHIL 2003"
+   ],
+   [
+    "Philosophy/Standard or Higher",
+    "6",
+    "PHIL 2043"
+   ],
+   [
+    "Physics/Standard",
+    "4",
+    "PHYS 2014"
+   ],
+   [
+    "Physics/Higher",
+    "4",
+    "PHYS 2014 & PHYS 2024"
+   ],
+   [
+    "Psychology/Standard or Higher",
+    "4",
+    "PSY 2003"
+   ],
+   [
+    "Social and Cultural Anthropology/Standard",
+    "4",
+    "ANTH 1213"
+   ],
+   [
+    "Social and Cultural Anthropology/Higher",
+    "4",
+    "ANTH 2003"
+   ],
+   [
+    "Spanish: Language A/Standard",
+    "4",
+    "SPAN 1013"
+   ],
+   [
+    "Spanish: Language A/Standard",
+    "5",
+    "SPAN 1013 & SPAN 1023"
+   ],
+   [
+    "Spanish: Language A/Higher",
+    "4",
+    "SPAN 1013 & SPAN 1023"
+   ],
+   [
+    "Spanish: Language A/Higher",
+    "5",
+    "SPAN 1013, SPAN 1023, SPAN 2013, & SPAN 2023"
+   ],
+   [
+    "Spanish: Language B/Standard or Higher",
+    "4",
+    "SPAN 1013, SPAN 1023, SPAN 2013, & SPAN 2023"
+   ],
+   [
+    "Sports, Exercise Health Science/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ],
+   [
+    "Theater Arts/Standard or Higher",
+    "4",
+    "TH 2273"
+   ],
+   [
+    "Visual Arts/Standard or Higher",
+    "4",
+    "ART 2123"
+   ],
+   [
+    "World Religions/Standard or Higher",
+    "4",
+    "3 hours General Elective"
+   ]
+  ]
+ ]
+}
