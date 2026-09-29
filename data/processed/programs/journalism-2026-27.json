@@ -1,0 +1,2122 @@
+{
+  "id": "journalism-2026-27",
+  "name": "Journalism",
+  "listed_title": "Journalism",
+  "degree": "Bachelor of Arts",
+  "degree_abbr": "BA",
+  "is_bachelor": true,
+  "college": "Arts and Humanities",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Draft a résumé to upload to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Science",
+      "notes": "Create a LinkedIn profile",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR OR COMM 1023- Exploration of Media and Communication",
+      "notes": "",
+      "warnings": [
+        "alternative without a course code: JOUR"
+      ],
+      "kind": "course",
+      "label": "Exploration of Media and Communication",
+      "options": [
+        [
+          "COMM 1023"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH 1001- Orientation to the University",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Journalism Practicum",
+      "notes": "May take additional 4 hours JOUR practicums as",
+      "warnings": [
+        "rule inferred from the label 'Journalism Practicum'"
+      ],
+      "kind": "bucket",
+      "label": "Journalism Practicum",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Science/Fine Arts/Hum/Communication",
+      "notes": "",
+      "warnings": [
+        "Communication options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities / Social Sciences / Communication",
+      "bucket": {
+        "category": "fine_arts_humanities+social_sciences+communication",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LEAD 2003",
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003",
+          "COMM 1003",
+          "COMM 2003",
+          "COMM 2173"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Mathematics",
+      "notes": "",
+      "warnings": [
+        "general-education mathematics: any MATH course that meets the gen-ed math requirement (list not on the map); confirm with an advisor"
+      ],
+      "kind": "bucket",
+      "label": "Mathematics (gen-ed)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "gen_ed_math",
+        "codes": [],
+        "rule": {
+          "min_level": 1000,
+          "max_level": 2000,
+          "subjects": [
+            "MATH"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": [
+          "MATH 1113"
+        ]
+      }
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR OR ART 1163- Basic Digital Photography",
+      "notes": "",
+      "warnings": [
+        "alternative without a course code: JOUR"
+      ],
+      "kind": "course",
+      "label": "Basic Digital Photography",
+      "options": [
+        [
+          "ART 1163"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 2133- Intro. to Mass Communication",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Mass Communication",
+      "options": [
+        [
+          "JOUR 2133"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r6",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Journalism Practicum",
+      "notes": "Do not repeat Practicum number",
+      "warnings": [
+        "rule inferred from the label 'Journalism Practicum'"
+      ],
+      "kind": "bucket",
+      "label": "Journalism Practicum",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History/Government",
+      "notes": "Attend a career fair and explore part-time or",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 2163- Intro. to Multimedia",
+      "notes": "volunteer options",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Multimedia",
+      "options": [
+        [
+          "JOUR 2163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 2143- Media Writing",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Media Writing",
+      "options": [
+        [
+          "JOUR 2143"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Journalism Practicum",
+      "notes": "Do not repeat Practicum number",
+      "warnings": [
+        "rule inferred from the label 'Journalism Practicum'"
+      ],
+      "kind": "bucket",
+      "label": "Journalism Practicum",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s3r6",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Meet with faculty about career paths to determine if",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Science",
+      "notes": "graduate school is required",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 2263- Media and Society",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Media and Society",
+      "options": [
+        [
+          "JOUR 2263"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Journalism Practicum",
+      "notes": "",
+      "warnings": [
+        "rule inferred from the label 'Journalism Practicum'"
+      ],
+      "kind": "bucket",
+      "label": "Journalism Practicum",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r6",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Do not repeat Practicum number",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts/Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 4043- Journalism Ethics",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Journalism Ethics",
+      "options": [
+        [
+          "JOUR 4043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "JOUR Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Research grad school or post-grad options and do a",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "mock interview utilizing Career Services",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 3133- Media Management Principles",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Media Management Principles",
+      "options": [
+        [
+          "JOUR 3133"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR Elective",
+      "notes": "*JOUR practicums influence Upper Division elective",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "JOUR Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "Complete an internship or field-related experience",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "JOUR Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 4123- Laws of Communication",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Laws of Communication",
+      "options": [
+        [
+          "JOUR 4123"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "Finalize résumé, cover letter, and references and",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "complete a senior check-in with Career Services",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR 4823- Journalism Capstone",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Journalism Capstone",
+      "options": [
+        [
+          "JOUR 4823"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "JOUR Elective",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "JOUR Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "JOUR"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "Min. hours required:120",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Exploration of Media and Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Journalism Practicum",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Fine Arts & Humanities / Social Sciences / Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Mathematics (gen-ed)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Basic Digital Photography",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Introduction to Mass Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r6",
+          "label": "Journalism Practicum",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Introduction to Multimedia",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Media Writing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Journalism Practicum",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r6",
+          "label": "General Elective",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Media and Society",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Journalism Practicum",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r6",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Journalism Ethics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "JOUR Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Media Management Principles",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "JOUR Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "JOUR Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Laws of Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "13",
+      "stated_total_min": 13.0,
+      "stated_total_max": 13.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Journalism Capstone",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "JOUR Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023"
+  ],
+  "notes": [
+    "General Electives: 10 hours (any level)"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 0903_____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ],
+    "science_with_lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Journalism",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/Journalism.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/Journalism.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "40 upper-division hours required + 26 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences",
+      "Science with Lab"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Draft a résumé to upload to Handshake"
+          },
+          {
+            "text": "Social Science",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Create a LinkedIn profile"
+          },
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR OR COMM 1023- Exploration of Media and Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "TECH 1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Journalism Practicum",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "May take additional 4 hours JOUR practicums as"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Social Science/Fine Arts/Hum/Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "JOUR OR ART 1163- Basic Digital Photography",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR 2133- Intro. to Mass Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Journalism Practicum",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Do not repeat Practicum number"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair and explore part-time or"
+          },
+          {
+            "text": "JOUR 2163- Intro. to Multimedia",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "volunteer options"
+          },
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR 2143- Media Writing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Journalism Practicum",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Do not repeat Practicum number"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Meet with faculty about career paths to determine if"
+          },
+          {
+            "text": "Social Science",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "graduate school is required"
+          },
+          {
+            "text": "JOUR 2263- Media and Society",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Journalism Practicum",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Do not repeat Practicum number"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts/Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR 4043- Journalism Ethics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Research grad school or post-grad options and do a"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "mock interview utilizing Career Services"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "JOUR 3133- Media Management Principles",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "*JOUR practicums influence Upper Division elective"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "hours"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Complete an internship or field-related experience"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "JOUR Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR 4123- Laws of Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references and"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "complete a senior check-in with Career Services"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "13",
+        "stated_total_min": 13.0,
+        "stated_total_max": 13.0,
+        "rows": [
+          {
+            "text": "JOUR 4823- Journalism Capstone",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "JOUR Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Min. hours required:120"
+          }
+        ]
+      }
+    ]
+  }
+}

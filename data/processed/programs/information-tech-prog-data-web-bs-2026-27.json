@@ -1,0 +1,1797 @@
+{
+  "id": "information-tech-prog-data-web-bs-2026-27",
+  "name": "Information Technology: Program, Database, and Web",
+  "listed_title": "Information Technology - Track 1: Programming, Database & Web (BS)",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Science/Technology/Engr/Math",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+      "notes": "If ACT math 22 or higher, use as General Elective",
+      "warnings": [],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH 1001- Orientation to the University",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CSEC 1003- Introduction to Cybersecurity",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Cybersecurity",
+      "options": [
+        [
+          "CSEC 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CSEC 1113- Introduction to Networking",
+      "notes": "Draft a résumé and upload it to Handshake and",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Networking",
+      "options": [
+        [
+          "CSEC 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 1333- Web and Mobile Technologies",
+      "notes": "create a LinkedIn profile",
+      "warnings": [],
+      "kind": "course",
+      "label": "Web and Mobile Technologies",
+      "options": [
+        [
+          "COMS 1333"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2243- Calculus for Business & Econ. (ACTS=MATH 2203)",
+      "notes": "MATH 2914 will sub",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus for Business and Economics",
+      "options": [
+        [
+          "MATH 2243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 1013/1011- Programming Foundations I and lab",
+      "notes": "Prereq: MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming Foundations I + Programming Foundations I Lab",
+      "options": [
+        [
+          "COMS 1013",
+          "COMS 1011"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2703- Computer Hardware & Architecture",
+      "notes": "Attend a career fair and explore part-time or",
+      "warnings": [],
+      "kind": "course",
+      "label": "Computer Hardware and Architecture",
+      "options": [
+        [
+          "COMS 2703"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2203- Programming Foundations II",
+      "notes": "Prereq: C> COMS 1013 & C> MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming Foundations II",
+      "options": [
+        [
+          "COMS 2203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2703- Discrete Mathematics",
+      "notes": "Prereq: C> MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Discrete Mathematics",
+      "options": [
+        [
+          "MATH 2703"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2013- AI Fundamentals",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "AI Fundamentals",
+      "options": [
+        [
+          "COMS 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMM 2173- Business and Professional Speaking",
+      "notes": "COMM 2003 Public Speaking may sub",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business and Professional Speaking",
+      "options": [
+        [
+          "COMM 2173"
+        ],
+        [
+          "COMM 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2213- Data Structures",
+      "notes": "Prereq: MATH 2703 and C> in COMS 2203",
+      "warnings": [],
+      "kind": "course",
+      "label": "Data Structures",
+      "options": [
+        [
+          "COMS 2213"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "STAT 2163- Intro to Statistical Methods",
+      "notes": "Prereq: MATH 1003 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Statistical Methods",
+      "options": [
+        [
+          "STAT 2163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2323- Programming in Python",
+      "notes": "Prereq: COMS 2203",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming in Python",
+      "options": [
+        [
+          "COMS 2323"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2163- Scripting Languages",
+      "notes": "Prereq: COMS 1333 and COMS 2203",
+      "warnings": [],
+      "kind": "course",
+      "label": "Scripting Languages",
+      "options": [
+        [
+          "COMS 2163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3523- Human Factors in IT",
+      "notes": "Fall Only Prereq: Jr standing",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Factors in Information Technology",
+      "options": [
+        [
+          "COMS 3523"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3233- Data Design and Implementation",
+      "notes": "Prereq: COMS 2203",
+      "warnings": [],
+      "kind": "course",
+      "label": "Database Design and Implementation",
+      "options": [
+        [
+          "COMS 3233"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3413- App Development",
+      "notes": "Fall Only Prereq: COMS 1333 and 2213",
+      "warnings": [],
+      "kind": "course",
+      "label": "App Development",
+      "options": [
+        [
+          "COMS 3413"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Approved Elective (3000-4000)",
+      "notes": "",
+      "warnings": [
+        "approved elective with no level/subject rule; any course assumed"
+      ],
+      "kind": "bucket",
+      "label": "Approved Elective (3000-4000)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3163- Web Programming (Spring Only)",
+      "notes": "Prereq: COMS 1333, COMS 2213, and COMS 3233",
+      "warnings": [],
+      "kind": "course",
+      "label": "Web Programming",
+      "options": [
+        [
+          "COMS 3163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3053- Ethical Issues in Technology",
+      "notes": "Prereq: Junior standing in COMS",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ethical Issues in Technology",
+      "options": [
+        [
+          "COMS 3053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3243- Data Mining",
+      "notes": "Spring Only . Prereq: COMS 3233 and 3-hr stats",
+      "warnings": [],
+      "kind": "course",
+      "label": "Data Mining",
+      "options": [
+        [
+          "COMS 3243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Approved Elective (3000-4000)",
+      "notes": "",
+      "warnings": [
+        "approved elective with no level/subject rule; any course assumed"
+      ],
+      "kind": "bucket",
+      "label": "Approved Elective (3000-4000)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "US History/Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 4033- Systems Analysis and Design",
+      "notes": "Fall Only Prereq: COMS 3233",
+      "warnings": [],
+      "kind": "course",
+      "label": "Information Systems Analysis and Design",
+      "options": [
+        [
+          "COMS 4033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 4913- Capstone I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Capstone I",
+      "options": [
+        [
+          "COMS 4913"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 3363- Server Administration",
+      "notes": "Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Server Administration",
+      "options": [
+        [
+          "COMS 3363"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 4213- Database Administration (Spring Only)",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "course",
+      "label": "Database Administration",
+      "options": [
+        [
+          "COMS 4213"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 4923- Capstone II (Spring Only)",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "course",
+      "label": "Capstone II",
+      "options": [
+        [
+          "COMS 4923"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Approved Elective (3000-4000)",
+      "notes": "Min. hours required:120",
+      "warnings": [
+        "approved elective with no level/subject rule; any course assumed"
+      ],
+      "kind": "bucket",
+      "label": "Approved Elective (3000-4000)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "medium"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Introduction to Cybersecurity",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Introduction to Networking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Web and Mobile Technologies",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Calculus for Business and Economics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Programming Foundations I + Programming Foundations I Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Computer Hardware and Architecture",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Programming Foundations II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Discrete Mathematics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "AI Fundamentals",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Business and Professional Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Data Structures",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Introduction to Statistical Methods",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Programming in Python",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Scripting Languages",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Human Factors in Information Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Database Design and Implementation",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "App Development",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Approved Elective (3000-4000)",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Web Programming",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Ethical Issues in Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Data Mining",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Approved Elective (3000-4000)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Information Systems Analysis and Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Capstone I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Server Administration",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Database Administration",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Capstone II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "Approved Elective (3000-4000)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1113"
+  ],
+  "notes": [
+    "General Electives: 3 hours"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303____ MATH 0803___ MATH 1003____ MATH 0903____ MATH 1113___ MATH Possible Careers: Software Development, Web Development, Database Development or Administration, Project",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ],
+    "science_with_lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Information Technology - Track 1: Programming, Database & Web (BS)",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechProgDataWebBS.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/InformationTechProgDataWebBS.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): BUAD 2053, COMS 2104, ENGL 0203, ENGL 0404, MATH 2163, MATH 3153"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": false,
+      "severity": "warning",
+      "detail": "COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter"
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "33 upper-division hours required + 11 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences",
+      "Science with Lab"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "If ACT math 22 or higher, use as General Elective"
+          },
+          {
+            "text": "TECH 1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "CSEC 1003- Introduction to Cybersecurity",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "CSEC 1113- Introduction to Networking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Draft a résumé and upload it to Handshake and"
+          },
+          {
+            "text": "COMS 1333- Web and Mobile Technologies",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "create a LinkedIn profile"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 2243- Calculus for Business & Econ. (ACTS=MATH 2203)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "MATH 2914 will sub"
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 1013/1011- Programming Foundations I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 1113 or higher"
+          },
+          {
+            "text": "COMS 2703- Computer Hardware & Architecture",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair and explore part-time or"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 2203- Programming Foundations II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> COMS 1013 & C> MATH 1113 or higher"
+          },
+          {
+            "text": "MATH 2703- Discrete Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> MATH 1113 or higher"
+          },
+          {
+            "text": "COMS 2013- AI Fundamentals",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "COMM 2173- Business and Professional Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "COMM 2003 Public Speaking may sub"
+          },
+          {
+            "text": "COMS 2213- Data Structures",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 2703 and C> in COMS 2203"
+          },
+          {
+            "text": "STAT 2163- Intro to Statistical Methods",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 1003 or higher"
+          },
+          {
+            "text": "COMS 2323- Programming in Python",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: COMS 2203"
+          },
+          {
+            "text": "COMS 2163- Scripting Languages",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: COMS 1333 and COMS 2203"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 3523- Human Factors in IT",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: Jr standing"
+          },
+          {
+            "text": "COMS 3233- Data Design and Implementation",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: COMS 2203"
+          },
+          {
+            "text": "COMS 3413- App Development",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: COMS 1333 and 2213"
+          },
+          {
+            "text": "Approved Elective (3000-4000)",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 3163- Web Programming (Spring Only)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: COMS 1333, COMS 2213, and COMS 3233"
+          },
+          {
+            "text": "COMS 3053- Ethical Issues in Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: Junior standing in COMS"
+          },
+          {
+            "text": "COMS 3243- Data Mining",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Spring Only . Prereq: COMS 3233 and 3-hr stats"
+          },
+          {
+            "text": "Approved Elective (3000-4000)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references"
+          },
+          {
+            "text": "US History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 4033- Systems Analysis and Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: COMS 3233"
+          },
+          {
+            "text": "COMS 4913- Capstone I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 3363- Server Administration",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "COMS 4213- Database Administration (Spring Only)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "COMS 4923- Capstone II (Spring Only)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "Approved Elective (3000-4000)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours required:120"
+          }
+        ]
+      }
+    ]
+  }
+}

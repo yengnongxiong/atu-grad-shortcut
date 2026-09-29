@@ -1,0 +1,1844 @@
+{
+  "id": "political-science-2026-27",
+  "name": "Political Science ()",
+  "listed_title": "Political Science",
+  "degree": "Bachelor of Arts",
+  "degree_abbr": "BA",
+  "is_bachelor": true,
+  "college": "Arts and Humanities",
+  "catalog_year": "2026-27",
+  "revision": "4.6.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Draft a résumé to upload to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH 1001- Orientation to the University",
+      "notes": "Create a LinkedIn profile",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Mathematics",
+      "notes": "",
+      "warnings": [
+        "general-education mathematics: any MATH course that meets the gen-ed math requirement (list not on the map); confirm with an advisor"
+      ],
+      "kind": "bucket",
+      "label": "Mathematics (gen-ed)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "gen_ed_math",
+        "codes": [],
+        "rule": {
+          "min_level": 1000,
+          "max_level": 2000,
+          "subjects": [
+            "MATH"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": [
+          "MATH 1113"
+        ]
+      }
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "HIST 1503, HIST 1513 or HIST 1543",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "World History to 1500",
+      "options": [
+        [
+          "HIST 1503"
+        ],
+        [
+          "HIST 1513"
+        ],
+        [
+          "HIST 1543"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "SOC 1003 , PSY 2003 or ECON 2003",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introductory Sociology",
+      "options": [
+        [
+          "SOC 1003"
+        ],
+        [
+          "PSY 2003"
+        ],
+        [
+          "ECON 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Attend a career fair to observe",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "HIST 2003- U.S. History to 1877 (ACTS= HIST 2113)",
+      "notes": "Consider Accelerated BA in Political",
+      "warnings": [],
+      "kind": "course",
+      "label": "United States History to 1877",
+      "options": [
+        [
+          "HIST 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 2003- American Government (ACTS= PLSC 2003)",
+      "notes": "Science to MA in Emergency",
+      "warnings": [],
+      "kind": "course",
+      "label": "American Government",
+      "options": [
+        [
+          "POLS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Management and Homeland Security.",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 2253- Survey of Western Political Thought",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Survey of Western Political Thought",
+      "options": [
+        [
+          "POLS 2253"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "HIST 2013- U.S. History since 1877 (ACTS= HIST 2123)",
+      "notes": "Attend a career fair and explore part-time or",
+      "warnings": [],
+      "kind": "course",
+      "label": "United States History since 1877",
+      "options": [
+        [
+          "HIST 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "GEOG 2013- Regional Geography of the World",
+      "notes": "volunteer options",
+      "warnings": [],
+      "kind": "course",
+      "label": "Regional Geography of the World",
+      "options": [
+        [
+          "GEOG 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 2513- Research Design",
+      "notes": "See Note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Research Design",
+      "options": [
+        [
+          "POLS 2513"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHIL 2003/2043/2053",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Philosophy",
+      "options": [
+        [
+          "PHIL 2003"
+        ],
+        [
+          "PHIL 2043"
+        ],
+        [
+          "PHIL 2053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective (3000-4000 level)",
+      "notes": "See Note 2",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective (3000-4000 level)",
+      "notes": "See Note 2",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Meet with faculty about career paths to",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "determine if graduate school is required",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 2403- Compartive Government",
+      "notes": "Offered in a 3-Semester Rotation",
+      "warnings": [],
+      "kind": "course",
+      "label": "Comparative Government",
+      "options": [
+        [
+          "POLS 2403"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective (3000-4000 level)",
+      "notes": "See Note 2",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 2413- World Politics",
+      "notes": "Offered in a 3-Semester Rotation",
+      "warnings": [],
+      "kind": "course",
+      "label": "World Politics",
+      "options": [
+        [
+          "POLS 2413"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Research grad school or post-grad options",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "GEOG Elective (3000-4000 level)",
+      "notes": "and do a mock interview utilizing Career",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "GEOG Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "GEOG"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS Elective (3000-4000 level)",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "POLS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "POLS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "HIST Elective (3000-4000 level)",
+      "notes": "and complete a senior check-in with Career",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "HIST Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "HIST"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "POLS 4963- Senior Seminar",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Senior Seminar",
+      "options": [
+        [
+          "POLS 4963"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHIL Elective (3000-4000 level)",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "PHIL Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "PHIL"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective (3000-4000 level)",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Mathematics (gen-ed)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "World History to 1500",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Introductory Sociology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "United States History to 1877",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "American Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Survey of Western Political Thought",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "United States History since 1877",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Regional Geography of the World",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Research Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Introduction to Philosophy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "POLS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "POLS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Comparative Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "POLS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "World Politics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "POLS Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "GEOG Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "POLS Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "POLS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "POLS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "HIST Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Senior Seminar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "PHIL Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 0903_____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LEAD 2003"
+    ],
+    "science_with_lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Political Science",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/PoliticalScience.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/PoliticalScience.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: HIST 1543, PHIL 2043"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "39 upper-division hours required + 30 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "NOTE 1",
+      "Science with Lab",
+      "appropriate Fine Arts/Humanities, US History/Government and"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Draft a résumé to upload to Handshake"
+          },
+          {
+            "text": "TECH 1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Create a LinkedIn profile"
+          },
+          {
+            "text": "Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HIST 1503, HIST 1513 or HIST 1543",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "SOC 1003 , PSY 2003 or ECON 2003",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Attend a career fair to observe"
+          },
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "HIST 2003- U.S. History to 1877 (ACTS= HIST 2113)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Consider Accelerated BA in Political"
+          },
+          {
+            "text": "POLS 2003- American Government (ACTS= PLSC 2003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Science to MA in Emergency"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Management and Homeland Security."
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "POLS 2253- Survey of Western Political Thought",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "HIST 2013- U.S. History since 1877 (ACTS= HIST 2123)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair and explore part-time or"
+          },
+          {
+            "text": "GEOG 2013- Regional Geography of the World",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "volunteer options"
+          },
+          {
+            "text": "POLS 2513- Research Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 1"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "PHIL 2003/2043/2053",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "POLS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 2"
+          },
+          {
+            "text": "POLS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 2"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Meet with faculty about career paths to"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "determine if graduate school is required"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "POLS 2403- Compartive Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Offered in a 3-Semester Rotation"
+          },
+          {
+            "text": "POLS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 2"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "POLS 2413- World Politics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Offered in a 3-Semester Rotation"
+          },
+          {
+            "text": "POLS Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Research grad school or post-grad options"
+          },
+          {
+            "text": "GEOG Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "and do a mock interview utilizing Career"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "POLS Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "POLS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "POLS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references"
+          },
+          {
+            "text": "HIST Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "and complete a senior check-in with Career"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "POLS 4963- Senior Seminar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "PHIL Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "General Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          }
+        ]
+      }
+    ]
+  }
+}

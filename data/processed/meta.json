@@ -1,0 +1,70 @@
+{
+  "generated_at": "2026-09-29T06:40:45+00:00",
+  "pipeline_mode": "offline",
+  "newest_catalog_year": "2026-27",
+  "ground_truth_program": "computer-science-2025-26",
+  "catalog_status": "not probed",
+  "banner_status": "loaded committed snapshots (836 course details)",
+  "discovered_maps": 82,
+  "bachelor_programs": 74,
+  "tier_counts": {
+    "auto_imported": 58,
+    "needs_review": 16,
+    "excluded": 8
+  },
+  "course_count": 887,
+  "supporting_pages": {
+    "admissions-credit.html": "ok",
+    "registrar-registrationinfo.html": "ok",
+    "registrar-calendar.html": "ok",
+    "registrar-transfer.html": "ok",
+    "cpl-students.html": "ok",
+    "academic-calendar-2026-27.pdf": "ok"
+  },
+  "sources": [
+    {
+      "title": "ATU degree maps by catalog year",
+      "url": "https://www.atu.edu/advising/degreemaps.php"
+    },
+    {
+      "title": "ATU Banner course catalog (public)",
+      "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+    },
+    {
+      "title": "ATU Banner class schedule (public)",
+      "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=search"
+    },
+    {
+      "title": "PRD §8 (transcribed by the owner from the ATU catalog)",
+      "url": "https://catalog.atu.edu/undergraduate/regulations-procedures/"
+    },
+    {
+      "title": "ATU catalog: Graduation Requirements",
+      "url": "https://catalog.atu.edu/undergraduate/graduation-requirements/"
+    },
+    {
+      "title": "ATU catalog: Institutional Credit",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/"
+    },
+    {
+      "title": "ATU Admissions: Credit by Exam & International Baccalaureate",
+      "url": "https://www.atu.edu/admissions/credit.php"
+    },
+    {
+      "title": "ATU Registrar: Registration Dates and Information",
+      "url": "https://www.atu.edu/registrar/registrationinfo.php"
+    },
+    {
+      "title": "ATU Academic Calendar 2026-27",
+      "url": "https://www.atu.edu/academicaffairs/docs/2026-27%20UpdateCalendar.pdf"
+    },
+    {
+      "title": "2025-2026 Degree Map: B.S. Computer Science",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2025-26/ComputerScience.pdf"
+    },
+    {
+      "title": "ATU Credit for Prior Learning: for students",
+      "url": "https://www.atu.edu/cpl/students.php"
+    }
+  ]
+}

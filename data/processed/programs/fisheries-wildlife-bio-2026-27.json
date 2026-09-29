@@ -1,0 +1,1807 @@
+{
+  "id": "fisheries-wildlife-bio-2026-27",
+  "name": "Fisheries and Wildlife Science",
+  "listed_title": "Fisheries & Wildlife Science",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Science/Technology/Engr/Math",
+  "catalog_year": "2026-27",
+  "revision": "04.03.26",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL1013)",
+      "notes": "Semester 1:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Science- SOC 1003 or PSY 2003 recommended",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": [
+          "SOC 1003",
+          "PSY 2003"
+        ]
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113- College Algebra (ACTS= MATH1103)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 1001- Orientation to Fisheries and Wildlife Science",
+      "notes": "No Substitutions",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Fisheries and Wildlife Science",
+      "options": [
+        [
+          "FW 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 1114- Principles of Biology (ACTS= BIOL1014)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Biology",
+      "options": [
+        [
+          "BIOL 1114"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL1023)",
+      "notes": "Freshman Milestone: Visit the Tutoring Semester 2:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+      "notes": "Center at least once Note 1: Students must decide prior to their Sophomore year whether they are interested in Ichthyology (Fish),",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Macroeconomics",
+      "options": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 1113/1111- Survey of Chemistry/Lab (ACTS-CHEM 1214) or CHEM 2124/2120- General Chemistry I/Lab",
+      "notes": "Mammalogy (Mammals), or Ornithology (Birds) and complete the corresponding course. This decision should be made in consultation with your academic advisor and FW faculty",
+      "warnings": [],
+      "kind": "course",
+      "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+      "options": [
+        [
+          "CHEM 1113",
+          "CHEM 1111"
+        ],
+        [
+          "CHEM 2124",
+          "CHEM 2120"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 2124- Principles of Zoology (ACTS= BIOL1054)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Zoology",
+      "options": [
+        [
+          "BIOL 2124"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 2013- Natural Resources Communications",
+      "notes": "Semester 3:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Natural Resources Communications",
+      "options": [
+        [
+          "FW 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 2134- Principles of Botany (ACTS= BIOL 1034)",
+      "notes": "Note 2: Course Selection Based on Emphasis Area",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Botany",
+      "options": [
+        [
+          "BIOL 2134"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 2204 - Organic Physiological Chem",
+      "notes": "Fisheries Emphasis: Take FW 3084- Ichthyology (Fall only)",
+      "warnings": [],
+      "kind": "course",
+      "label": "Organic Physiological Chemistry",
+      "options": [
+        [
+          "CHEM 2204"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": 4.0,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Statistics, FW 3084 - Ichthyology, or FW 3154 - Mammalogy (Statistics may be chosen from PSY, SOC, or STAT)",
+      "notes": "See Note 2 Wildlife Emphasis (Mammals): Take FW 3154- Mammology (Fall only) Wildlife Emphasis (Birds): Take Statstics Fall semester then",
+      "warnings": [
+        "alternative without a course code: STAT)"
+      ],
+      "kind": "course",
+      "label": "Ichthyology",
+      "options": [
+        [
+          "FW 3084"
+        ],
+        [
+          "FW 3154"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW/GEOG 2833- Intro to Geographic Information Systems",
+      "notes": "Semester 4:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Geographic Information Systems",
+      "options": [
+        [
+          "FW 2833"
+        ],
+        [
+          "GEOG 2833"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": 4.0,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Statistics or FW 3144- Ornithology",
+      "notes": "See Note 2 Note 2: Course Selection Based on Emphasis Area",
+      "warnings": [
+        "alternative without a course code: Statistics"
+      ],
+      "kind": "course",
+      "label": "Ornithology",
+      "options": [
+        [
+          "FW 3144"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History & Government",
+      "notes": "Sophomore Milestone: Meet with faculty Fisheries Emphasis: Take FW 3084- Ichthyology (Fall only)",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 3114- Principles of Ecology",
+      "notes": "about career paths in your field Wildlife Emphasis (Mammals): Take FW 3154- Mammology (Fall only)",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Ecology",
+      "options": [
+        [
+          "FW 3114"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Communication",
+      "notes": "COMM 2003 or 2173 recommended Wildlife Emphasis (Birds): Take Statstics Fall semester then",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Communication",
+      "bucket": {
+        "category": "communication",
+        "codes": [
+          "COMM 1003",
+          "COMM 2003",
+          "COMM 2173"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 4044- Dendrology or Electives",
+      "notes": "See Note 3 Semester 5:",
+      "warnings": [
+        "alternative without a course code: Electives"
+      ],
+      "kind": "course",
+      "label": "Dendrology",
+      "options": [
+        [
+          "BIOL 4044"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": null,
+      "hours_max": null,
+      "hours_source": null,
+      "min_grade": null,
+      "raw_text": "Statistics or Math Elective",
+      "notes": "Note 3: Course Requirement by Emphasis Area",
+      "warnings": [
+        "no hours value in the PDF text for this row"
+      ],
+      "kind": "bucket",
+      "label": "Statistics or Math Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MATH",
+            "STAT"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": 4.0,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "STAT options: FW 3171, STAT 2304, 3113, or 4153 MATH options: MATH 2243, 2914, 2924, or 2934",
+      "notes": "Wildlife students: Take BIOL 4044- Dendrology (Fall only) or choose a suitable elective Fisheries students: Choose either BIOL 3004- Plant Taxonomy or BIOL 4044: Dendrology",
+      "warnings": [
+        "alternative without a course code: 2934"
+      ],
+      "kind": "course",
+      "label": "",
+      "options": [
+        [
+          "FW 3171"
+        ],
+        [
+          "STAT 2304"
+        ],
+        [
+          "MATH 2243"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4014/4064- Forest/Wetland Ecology Mgmt ( or Electives)",
+      "notes": "See Note 4 Note 4: Upper-Division Coursework",
+      "warnings": [
+        "alternative without a course code: Electives)"
+      ],
+      "kind": "course",
+      "label": "Forest Ecology and Management",
+      "options": [
+        [
+          "FW 4014"
+        ],
+        [
+          "FW 4064"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Wildlife students: Select either FW 4014- Forest Ecology or FW 4064- Wetlands",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Semester 6:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 3004- Plant Taxonomy or Electives",
+      "notes": "See Note 5 Note 5: Course Requirement by Emphasis Area",
+      "warnings": [
+        "alternative without a course code: Electives"
+      ],
+      "kind": "course",
+      "label": "Plant Taxonomy",
+      "options": [
+        [
+          "BIOL 3004"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 3053- Fisheries and Wildlife Administration",
+      "notes": "Wildlife students: Take BIOL 3004- Plant Taxonomy (Spring only) or choose a suitable elective",
+      "warnings": [],
+      "kind": "course",
+      "label": "Fisheries and Wildlife Administration",
+      "options": [
+        [
+          "FW 3053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4003- Principles of Wildlife Management",
+      "notes": "See Note 6 Fisheries students: Choose either BIOL 3004- Plant Taxonomy or BIOL 4044- Dendrology",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Wildlife Management",
+      "options": [
+        [
+          "FW 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Elective",
+      "notes": "BIOL 4024 - Limnology Recommended Note 6: Additional Fisheries Requirement",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4103- Human Dimensions of Fisheries & Wildlife Mgmt.",
+      "notes": "Senior Milestone: Complete a senior check-in Semester 7:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Dimensions of Fisheries and Wildlife Management",
+      "options": [
+        [
+          "FW 4103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "with Career Services",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL Elective (3000-4000 level)",
+      "notes": "See note 7",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "BIOL Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "BIOL"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL Elective (3000-4000 level)",
+      "notes": "See note 7",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "BIOL Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "BIOL"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Semester 8:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4001- Senior Seminar in Fisheries and Wildlife Biology",
+      "notes": "Note 8: Select one course from the physical science group (intro course excluded): Any physics course, AGSS",
+      "warnings": [],
+      "kind": "course",
+      "label": "Senior Seminar in Fisheries and Wildlife Biology",
+      "options": [
+        [
+          "FW 4001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4013- Wildlife Techniques",
+      "notes": "2014: Soils, or GEOL 1014: Physical Geology",
+      "warnings": [],
+      "kind": "course",
+      "label": "Wildlife Techniques",
+      "options": [
+        [
+          "FW 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FW 4083- Principles of Fisheries Management",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Fisheries Management",
+      "options": [
+        [
+          "FW 4083"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Physical Science Elective (3000-4000 level)",
+      "notes": "See Note 8 Min. hours 3000-4000 level courses: 40 2.00+ GPA",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Physical Science Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r6",
+      "map_semester": 8,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "No more than 4 PE activity hours No more than 12 hours of \"D\" grades",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Orientation to Fisheries and Wildlife Science",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Principles of Biology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Principles of Macroeconomics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Principles of Zoology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "14-15",
+      "stated_total_min": 14.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Natural Resources Communications",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Principles of Botany",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Organic Physiological Chemistry",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Ichthyology",
+          "hours": 3.0,
+          "hours_max": 4.0,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "16-17",
+      "stated_total_min": 16.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Introduction to Geographic Information Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Ornithology",
+          "hours": 3.0,
+          "hours_max": 4.0,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Principles of Ecology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "14-15",
+      "stated_total_min": 14.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Dendrology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Statistics or Math Elective",
+          "hours": null,
+          "hours_max": null,
+          "hours_source": null
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "",
+          "hours": 3.0,
+          "hours_max": 4.0,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Forest Ecology and Management",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Plant Taxonomy",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Fisheries and Wildlife Administration",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Principles of Wildlife Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Elective",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Human Dimensions of Fisheries and Wildlife Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "BIOL Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "BIOL Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Senior Seminar in Fisheries and Wildlife Biology",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Wildlife Techniques",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "Principles of Fisheries Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "Physical Science Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r6",
+          "label": "General Elective",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1113"
+  ],
+  "notes": [
+    "General Electives: 9-12 hours (1000-4000 level)",
+    "General Electives: 4-10 hours (1000-4000 level)"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303____ MATH 0803___ MATH 1003____ MATH 0903____ MATH 1110____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ],
+    "communication": [
+      "COMM 1003",
+      "COMM 2003",
+      "COMM 2173"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Fisheries & Wildlife Science",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/FisheriesWildlifeBio.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/FisheriesWildlifeBio.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": false,
+      "severity": "error",
+      "detail": "semester 5: a row has no hours value"
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 122 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": false,
+      "severity": "error",
+      "detail": "FW 3171"
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): BUAD 2053, CHEM 1114, ENGL 0203, ENGL 0404, MATH 2163, MATH 3153, PHSC 1004; low-confidence prerequisite parse: FW 3053, FW 4001, FW 4064"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": false,
+      "severity": "warning",
+      "detail": "FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); using the stricter; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); using the stricter; ran 4x in FA (202370, 202470, 202570, 202670)"
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "50 upper-division hours required + 15 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "needs_review",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences",
+      "Communication Courses"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Semester 1:"
+          },
+          {
+            "text": "Social Science- SOC 1003 or PSY 2003 recommended",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MATH 1113- College Algebra (ACTS= MATH1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "FW 1001- Orientation to Fisheries and Wildlife Science",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "No Substitutions"
+          },
+          {
+            "text": "BIOL 1114- Principles of Biology (ACTS= BIOL1014)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Freshman Milestone: Visit the Tutoring Semester 2:"
+          },
+          {
+            "text": "ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Center at least once Note 1: Students must decide prior to their Sophomore year whether they are interested in Ichthyology (Fish),"
+          },
+          {
+            "text": "CHEM 1113/1111- Survey of Chemistry/Lab (ACTS-CHEM 1214) or CHEM 2124/2120- General Chemistry I/Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Mammalogy (Mammals), or Ornithology (Birds) and complete the corresponding course. This decision should be made in consultation with your academic advisor and FW faculty"
+          },
+          {
+            "text": "BIOL 2124- Principles of Zoology (ACTS= BIOL1054)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "14-15",
+        "stated_total_min": 14.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "FW 2013- Natural Resources Communications",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Semester 3:"
+          },
+          {
+            "text": "BIOL 2134- Principles of Botany (ACTS= BIOL 1034)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Note 2: Course Selection Based on Emphasis Area"
+          },
+          {
+            "text": "CHEM 2204 - Organic Physiological Chem",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Fisheries Emphasis: Take FW 3084- Ichthyology (Fall only)"
+          },
+          {
+            "text": "Statistics, FW 3084 - Ichthyology, or FW 3154 - Mammalogy (Statistics may be chosen from PSY, SOC, or STAT)",
+            "hours_text": "3-4",
+            "hours_min": 3.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "See Note 2 Wildlife Emphasis (Mammals): Take FW 3154- Mammology (Fall only) Wildlife Emphasis (Birds): Take Statstics Fall semester then"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "16-17",
+        "stated_total_min": 16.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "FW/GEOG 2833- Intro to Geographic Information Systems",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Semester 4:"
+          },
+          {
+            "text": "Statistics or FW 3144- Ornithology",
+            "hours_text": "3-4",
+            "hours_min": 3.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "See Note 2 Note 2: Course Selection Based on Emphasis Area"
+          },
+          {
+            "text": "U.S. History & Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Sophomore Milestone: Meet with faculty Fisheries Emphasis: Take FW 3084- Ichthyology (Fall only)"
+          },
+          {
+            "text": "FW 3114- Principles of Ecology",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "about career paths in your field Wildlife Emphasis (Mammals): Take FW 3154- Mammology (Fall only)"
+          },
+          {
+            "text": "Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "COMM 2003 or 2173 recommended Wildlife Emphasis (Birds): Take Statstics Fall semester then"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "14-15",
+        "stated_total_min": 14.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "BIOL 4044- Dendrology or Electives",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "See Note 3 Semester 5:"
+          },
+          {
+            "text": "Statistics or Math Elective",
+            "hours_text": "",
+            "hours_min": null,
+            "hours_max": null,
+            "grade_c": false,
+            "notes": "Note 3: Course Requirement by Emphasis Area"
+          },
+          {
+            "text": "STAT options: FW 3171, STAT 2304, 3113, or 4153 MATH options: MATH 2243, 2914, 2924, or 2934",
+            "hours_text": "3-4",
+            "hours_min": 3.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Wildlife students: Take BIOL 4044- Dendrology (Fall only) or choose a suitable elective Fisheries students: Choose either BIOL 3004- Plant Taxonomy or BIOL 4044: Dendrology"
+          },
+          {
+            "text": "FW 4014/4064- Forest/Wetland Ecology Mgmt ( or Electives)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "See Note 4 Note 4: Upper-Division Coursework"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Wildlife students: Select either FW 4014- Forest Ecology or FW 4064- Wetlands"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Semester 6:"
+          },
+          {
+            "text": "BIOL 3004- Plant Taxonomy or Electives",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "See Note 5 Note 5: Course Requirement by Emphasis Area"
+          },
+          {
+            "text": "FW 3053- Fisheries and Wildlife Administration",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Wildlife students: Take BIOL 3004- Plant Taxonomy (Spring only) or choose a suitable elective"
+          },
+          {
+            "text": "FW 4003- Principles of Wildlife Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 6 Fisheries students: Choose either BIOL 3004- Plant Taxonomy or BIOL 4044- Dendrology"
+          },
+          {
+            "text": "Elective",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "BIOL 4024 - Limnology Recommended Note 6: Additional Fisheries Requirement"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "FW 4103- Human Dimensions of Fisheries & Wildlife Mgmt.",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Senior Milestone: Complete a senior check-in Semester 7:"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "with Career Services"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "BIOL Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See note 7"
+          },
+          {
+            "text": "BIOL Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See note 7"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Semester 8:"
+          },
+          {
+            "text": "FW 4001- Senior Seminar in Fisheries and Wildlife Biology",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Note 8: Select one course from the physical science group (intro course excluded): Any physics course, AGSS"
+          },
+          {
+            "text": "FW 4013- Wildlife Techniques",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "2014: Soils, or GEOL 1014: Physical Geology"
+          },
+          {
+            "text": "FW 4083- Principles of Fisheries Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "Physical Science Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 8 Min. hours 3000-4000 level courses: 40 2.00+ GPA"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours No more than 12 hours of \"D\" grades"
+          }
+        ]
+      }
+    ]
+  }
+}

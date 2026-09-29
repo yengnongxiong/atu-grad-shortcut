@@ -1,0 +1,1997 @@
+{
+  "id": "bfa-graphic-design-2026-27",
+  "name": "Graphic Design",
+  "listed_title": "Art - Graphic Design (BFA)",
+  "degree": "Bachelor of Fine Arts",
+  "degree_abbr": "BFA",
+  "is_bachelor": true,
+  "college": "Arts and Humanities",
+  "catalog_year": "2026-27",
+  "revision": "4.10.26",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Create Handshake profile",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Begin collecting Portfolio",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Mathematics",
+      "notes": "for Sophomore Review",
+      "warnings": [
+        "general-education mathematics: any MATH course that meets the gen-ed math requirement (list not on the map); confirm with an advisor"
+      ],
+      "kind": "bucket",
+      "label": "Mathematics (gen-ed)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "gen_ed_math",
+        "codes": [],
+        "rule": {
+          "min_level": 1000,
+          "max_level": 2000,
+          "subjects": [
+            "MATH"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": [
+          "MATH 1113"
+        ]
+      }
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH 1001- Orientation to the University",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ART 1303- Introduction to Drawing",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Drawing",
+      "options": [
+        [
+          "ART 1303"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ART 1403- Two-dimensional Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Two-dimensional Design",
+      "options": [
+        [
+          "ART 1403"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Upload résumé to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with a Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 1503- Introduction to Graphic Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Graphic Design",
+      "options": [
+        [
+          "ART 1503"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ART 2403- Color Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Color Design",
+      "options": [
+        [
+          "ART 2403"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ART 2413- Three-dimensional Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Three-dimensional Design",
+      "options": [
+        [
+          "ART 2413"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences/Fine Arts/Hum/Communication",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities / Social Sciences / Communication",
+      "bucket": {
+        "category": "fine_arts_humanities+social_sciences+communication",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003",
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003",
+          "COMM 1003",
+          "COMM 2003",
+          "COMM 2173"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with a Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 2103- Art History I (ACTS = ARTA2003)",
+      "notes": "Meet with Career Services",
+      "warnings": [],
+      "kind": "course",
+      "label": "Art History I",
+      "options": [
+        [
+          "ART 2103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 2213- Digital Skills",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Digital Skills",
+      "options": [
+        [
+          "ART 2213"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History/Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 2113- Art History II (ACTS = ARTA2003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Art History II",
+      "options": [
+        [
+          "ART 2113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3001- Sophomore Review",
+      "notes": "Dept reqs C+ as Prereq to all UD ART courses",
+      "warnings": [],
+      "kind": "course",
+      "label": "Sophomore Review",
+      "options": [
+        [
+          "ART 3001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Art Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Art Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r6",
+      "map_semester": 4,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Electives cannot include art courses",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3203- Typography and Layout",
+      "notes": "Research & apply for internships",
+      "warnings": [],
+      "kind": "course",
+      "label": "Typography and Layout",
+      "options": [
+        [
+          "ART 3203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3253- Digital Illustration",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Digital Illustration",
+      "options": [
+        [
+          "ART 3253"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3303- Drawing Studio I OR 4233- Illustration Studio",
+      "notes": "",
+      "warnings": [
+        "alternative without a course code: 4233- Illustration Studio"
+      ],
+      "kind": "course",
+      "label": "Drawing Studio I",
+      "options": [
+        [
+          "ART 3303"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Art History (3000-4000 level)",
+      "notes": "See catalog for options",
+      "warnings": [
+        "rule inferred from the label 'Art History (3000-4000 level)'"
+      ],
+      "kind": "bucket",
+      "label": "Art History (3000-4000 level)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "HIST",
+            "ART"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3232- Production Design",
+      "notes": "Attend Career Fair",
+      "warnings": [],
+      "kind": "course",
+      "label": "Production Design",
+      "options": [
+        [
+          "ART 3232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3243- Web Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Web Design",
+      "options": [
+        [
+          "ART 3243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3803- Introduction to Printmaking",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Printmaking",
+      "options": [
+        [
+          "ART 3803"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Art History (3000-4000 level)",
+      "notes": "See catalog for options",
+      "warnings": [
+        "rule inferred from the label 'Art History (3000-4000 level)'"
+      ],
+      "kind": "bucket",
+      "label": "Art History (3000-4000 level)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "HIST",
+            "ART"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Electives cannot include art courses",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3223- Package Design",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Package Design",
+      "options": [
+        [
+          "ART 3223"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 3833- Animation Techniques",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Animation Techniques",
+      "options": [
+        [
+          "ART 3833"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 4231- Graphic Design Exhibition",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Graphic Design Exhibition",
+      "options": [
+        [
+          "ART 4231"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART 4243- Professional Portfolio Preparation",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Professional Portfolio Preparation for Graphic Designers",
+      "options": [
+        [
+          "ART 4243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ART or GAME Elective (3000-4000 level)",
+      "notes": "Min. hours required:120",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ART or GAME Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ART",
+            "GAME"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Mathematics (gen-ed)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Introduction to Drawing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Two-dimensional Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Introduction to Graphic Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Color Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Three-dimensional Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Fine Arts & Humanities / Social Sciences / Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Art History I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Digital Skills",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Art History II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Sophomore Review",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Art Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r6",
+          "label": "General Elective",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Typography and Layout",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Digital Illustration",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Drawing Studio I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Art History (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Production Design",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Web Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Introduction to Printmaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Art History (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Package Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Animation Techniques",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "13",
+      "stated_total_min": 13.0,
+      "stated_total_max": 13.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Graphic Design Exhibition",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Professional Portfolio Preparation for Graphic Designers",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "ART or GAME Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023"
+  ],
+  "notes": [
+    "General Electives: 5 hours (1000-4000 level)"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 1003_____ MATH 0903_____ MATH 1110_____ Possible Careers: Print Design, 3-D Design, Interactive Media/4-D Design, Advertising, Education",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ],
+    "science_with_lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ],
+    "communication": [
+      "COMM 1003",
+      "COMM 2003",
+      "COMM 2173"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Art - Graphic Design (BFA)",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/BFAGraphicDesign.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/BFAGraphicDesign.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): ART 4623, ENGL 0203, ENGL 0404"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "55 upper-division hours required + 5 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences",
+      "Science with Lab",
+      "Communication Courses"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Create Handshake profile"
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Begin collecting Portfolio"
+          },
+          {
+            "text": "Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "for Sophomore Review"
+          },
+          {
+            "text": "TECH 1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "*ART 1303- Introduction to Drawing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "*ART 1403- Two-dimensional Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Upload résumé to Handshake"
+          },
+          {
+            "text": "Science with a Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 1503- Introduction to Graphic Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "*ART 2403- Color Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "*ART 2413- Three-dimensional Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Social Sciences/Fine Arts/Hum/Communication",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Science with a Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 2103- Art History I (ACTS = ARTA2003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Meet with Career Services"
+          },
+          {
+            "text": "ART 2213- Digital Skills",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 2113- Art History II (ACTS = ARTA2003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 3001- Sophomore Review",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Dept reqs C+ as Prereq to all UD ART courses"
+          },
+          {
+            "text": "Art Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Electives cannot include art courses"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 3203- Typography and Layout",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Research & apply for internships"
+          },
+          {
+            "text": "ART 3253- Digital Illustration",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 3303- Drawing Studio I OR 4233- Illustration Studio",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Art History (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See catalog for options"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "ART 3232- Production Design",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Attend Career Fair"
+          },
+          {
+            "text": "ART 3243- Web Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 3803- Introduction to Printmaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Art History (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See catalog for options"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Electives cannot include art courses"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ART 3223- Package Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 3833- Animation Techniques",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "13",
+        "stated_total_min": 13.0,
+        "stated_total_max": 13.0,
+        "rows": [
+          {
+            "text": "ART 4231- Graphic Design Exhibition",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ART 4243- Professional Portfolio Preparation",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "ART or GAME Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours required:120"
+          }
+        ]
+      }
+    ]
+  }
+}

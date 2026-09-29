@@ -1,0 +1,1669 @@
+{
+  "id": "nursing-bsn-2026-27",
+  "name": "Nursing",
+  "listed_title": "Nursing (BSN)",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Education and Health",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Draft a résumé and upload it to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "CHEM 1113/1111- Surv. of Chemistry(ACTS=CHEM 1214)",
+      "notes": "Milestone",
+      "warnings": [],
+      "kind": "course",
+      "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+      "options": [
+        [
+          "CHEM 1113",
+          "CHEM 1111"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SOC 1003- Introductory Sociology (ACTS= SOCI 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introductory Sociology",
+      "options": [
+        [
+          "SOC 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH1001- Orientation to the University",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Physical Abilities Disclosure signed?__",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PSY 2003- General Psychology (ACTS= PSYC 1103)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Psychology",
+      "options": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "* BIOL 2404- Anat & Physiology I or BIOL 2014- Human Anat.",
+      "notes": "(ACTS= BIOL 2404) Milestone",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Anatomy and Physiology I",
+      "options": [
+        [
+          "BIOL 2404"
+        ],
+        [
+          "BIOL 2014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sci./Fine Arts/Humanities/Comm",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities / Social Sciences / Communication",
+      "bucket": {
+        "category": "fine_arts_humanities+social_sciences+communication",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003",
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003",
+          "COMM 1003",
+          "COMM 2003",
+          "COMM 2173"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History or Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 3054- Microbiology or BIOL 2054- Microbiology for Hlth Sci",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Microbiology",
+      "options": [
+        [
+          "BIOL 3054"
+        ],
+        [
+          "BIOL 2054"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "* BIOL 2414- Anat & Physiology II or BIOL 3074- Human Phys",
+      "notes": "Submit Application to Upper Level: See Catalog for",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Anatomy and Physiology II",
+      "options": [
+        [
+          "BIOL 2414"
+        ],
+        [
+          "BIOL 3074"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PSY 3813- Lifespan Development",
+      "notes": "Fall/Spring Deadlines",
+      "warnings": [],
+      "kind": "course",
+      "label": "Lifespan Development",
+      "options": [
+        [
+          "PSY 3813"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 3803/NUR 3803- Applied Pathophysiology",
+      "notes": "Requires admission to Upper Level",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Pathophysiology",
+      "options": [
+        [
+          "BIOL 3803"
+        ],
+        [
+          "NUR 3803"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "NUR 2303- Nutrition",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Nutrition",
+      "options": [
+        [
+          "NUR 2303"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 2023- Introduction to Professional Nursing",
+      "notes": "Requires admission to Upper Level",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Professional Nursing",
+      "options": [
+        [
+          "NUR 2023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3103- Nursing Skills I",
+      "notes": "Requires admission to Upper Level",
+      "warnings": [],
+      "kind": "course",
+      "label": "Nursing Skills I",
+      "options": [
+        [
+          "NUR 3103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3303- Health Assessment",
+      "notes": "Requires admission to Upper Level",
+      "warnings": [],
+      "kind": "course",
+      "label": "Health Assessment",
+      "options": [
+        [
+          "NUR 3303"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 6.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3206- Concepts in Nursing I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concepts in Nursing I",
+      "options": [
+        [
+          "NUR 3206"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3402- Pharmacology I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Pharmacology I",
+      "options": [
+        [
+          "NUR 3402"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3404- Clinical Nursing I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Clinical Nursing I",
+      "options": [
+        [
+          "NUR 3404"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3513- Nursing Skills II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Nursing Skills II",
+      "options": [
+        [
+          "NUR 3513"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 6.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3606- Concepts in Nursing II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concepts in Nursing II",
+      "options": [
+        [
+          "NUR 3606"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3801- Pharmacology II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Pharmacology II",
+      "options": [
+        [
+          "NUR 3801"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 5.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 3805- Clinical Nursing II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Clinical Nursing II",
+      "options": [
+        [
+          "NUR 3805"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "NUR 4002- Nursing Informatics",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Nursing Informatics",
+      "options": [
+        [
+          "NUR 4002"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 6.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4206- Concepts in Nursing III",
+      "notes": "Complete a senior check-in with Career Services",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concepts in Nursing III",
+      "options": [
+        [
+          "NUR 4206"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4303- Nursing Research",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Nursing Research",
+      "options": [
+        [
+          "NUR 4303"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 5.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4405- Clinical Nursing III",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Clinical Nursing III",
+      "options": [
+        [
+          "NUR 4405"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "NUR 4501- Pharmacology III",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "course",
+      "label": "Pharmacology III",
+      "options": [
+        [
+          "NUR 4501"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 6.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4606- Concepts in Nursing IV",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concepts in Nursing IV",
+      "options": [
+        [
+          "NUR 4606"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4804- Clinical Nursing IV",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Clinical Nursing IV",
+      "options": [
+        [
+          "NUR 4804"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "NUR 4903- Synthesis of Clinical and Theoretical Nursing",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "course",
+      "label": "Synthesis of Clinical and Theoretical Concepts",
+      "options": [
+        [
+          "NUR 4903"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Introductory Sociology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "General Elective",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "General Psychology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Human Anatomy and Physiology I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Fine Arts & Humanities / Social Sciences / Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Microbiology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Human Anatomy and Physiology II",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Lifespan Development",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Applied Pathophysiology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Nutrition",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Introduction to Professional Nursing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Nursing Skills I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Health Assessment",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Concepts in Nursing I",
+          "hours": 6.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Pharmacology I",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Clinical Nursing I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Nursing Skills II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Concepts in Nursing II",
+          "hours": 6.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Pharmacology II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Clinical Nursing II",
+          "hours": 5.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Nursing Informatics",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Concepts in Nursing III",
+          "hours": 6.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Nursing Research",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Clinical Nursing III",
+          "hours": 5.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Pharmacology III",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "13",
+      "stated_total_min": 13.0,
+      "stated_total_max": 13.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Concepts in Nursing IV",
+          "hours": 6.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Clinical Nursing IV",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Synthesis of Clinical and Theoretical Concepts",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "BIOL 2014",
+    "BIOL 2054",
+    "BIOL 2404",
+    "BIOL 2414",
+    "BIOL 3054",
+    "BIOL 3074",
+    "BIOL 3803",
+    "CHEM 1111",
+    "CHEM 1113",
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1113",
+    "NUR 2023",
+    "NUR 3103",
+    "NUR 3206",
+    "NUR 3303",
+    "NUR 3402",
+    "NUR 3404",
+    "NUR 3513",
+    "NUR 3606",
+    "NUR 3801",
+    "NUR 3803",
+    "NUR 3805",
+    "NUR 4206",
+    "NUR 4303",
+    "NUR 4405",
+    "NUR 4606",
+    "NUR 4804",
+    "NUR 4903",
+    "PSY 2003",
+    "PSY 3813",
+    "SOC 1003"
+  ],
+  "notes": [
+    "General Electives: 1 hour (1000-4000 level)"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 1003_____ MATH 0903_____ MATH 1110_____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ],
+    "communication": [
+      "COMM 1003",
+      "COMM 2003",
+      "COMM 2173"
+    ]
+  },
+  "admission_gates": [
+    "Requires admission to Upper Level"
+  ],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Nursing (BSN)",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/NursingBSN.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/NursingBSN.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, NUR 3204, NUR 3703, NUR 3802, PHSC 1004; low-confidence prerequisite parse: NUR 2023, NUR 3103, NUR 3303, NUR 4002"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "73 upper-division hours required + 5 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences",
+      "A&P Requirements",
+      "Communication Courses"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Draft a résumé and upload it to Handshake"
+          },
+          {
+            "text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "CHEM 1113/1111- Surv. of Chemistry(ACTS=CHEM 1214)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Milestone"
+          },
+          {
+            "text": "SOC 1003- Introductory Sociology (ACTS= SOCI 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "TECH1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Physical Abilities Disclosure signed?__"
+          },
+          {
+            "text": "PSY 2003- General Psychology (ACTS= PSYC 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "* BIOL 2404- Anat & Physiology I or BIOL 2014- Human Anat.",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "(ACTS= BIOL 2404) Milestone"
+          },
+          {
+            "text": "Social Sci./Fine Arts/Humanities/Comm",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "U.S. History or Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "BIOL 3054- Microbiology or BIOL 2054- Microbiology for Hlth Sci",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "* BIOL 2414- Anat & Physiology II or BIOL 3074- Human Phys",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Submit Application to Upper Level: See Catalog for"
+          },
+          {
+            "text": "PSY 3813- Lifespan Development",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Fall/Spring Deadlines"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "BIOL 3803/NUR 3803- Applied Pathophysiology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires admission to Upper Level"
+          },
+          {
+            "text": "NUR 2303- Nutrition",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "NUR 2023- Introduction to Professional Nursing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires admission to Upper Level"
+          },
+          {
+            "text": "NUR 3103- Nursing Skills I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires admission to Upper Level"
+          },
+          {
+            "text": "NUR 3303- Health Assessment",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires admission to Upper Level"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "NUR 3206- Concepts in Nursing I",
+            "hours_text": "6",
+            "hours_min": 6.0,
+            "hours_max": 6.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 3402- Pharmacology I",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 3404- Clinical Nursing I",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 3513- Nursing Skills II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "NUR 3606- Concepts in Nursing II",
+            "hours_text": "6",
+            "hours_min": 6.0,
+            "hours_max": 6.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 3801- Pharmacology II",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 3805- Clinical Nursing II",
+            "hours_text": "5",
+            "hours_min": 5.0,
+            "hours_max": 5.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 4002- Nursing Informatics",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "NUR 4206- Concepts in Nursing III",
+            "hours_text": "6",
+            "hours_min": 6.0,
+            "hours_max": 6.0,
+            "grade_c": true,
+            "notes": "Complete a senior check-in with Career Services"
+          },
+          {
+            "text": "NUR 4303- Nursing Research",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 4405- Clinical Nursing III",
+            "hours_text": "5",
+            "hours_min": 5.0,
+            "hours_max": 5.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 4501- Pharmacology III",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "13",
+        "stated_total_min": 13.0,
+        "stated_total_max": 13.0,
+        "rows": [
+          {
+            "text": "NUR 4606- Concepts in Nursing IV",
+            "hours_text": "6",
+            "hours_min": 6.0,
+            "hours_max": 6.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "NUR 4804- Clinical Nursing IV",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "NUR 4903- Synthesis of Clinical and Theoretical Nursing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          }
+        ]
+      }
+    ]
+  }
+}

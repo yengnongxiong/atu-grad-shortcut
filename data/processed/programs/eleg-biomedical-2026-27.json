@@ -1,0 +1,1781 @@
+{
+  "id": "eleg-biomedical-2026-27",
+  "name": "Electrical Engineering - Biomedical",
+  "listed_title": "Electrical Engineering - Biomedical",
+  "degree": "Bachelor's degree",
+  "degree_abbr": "",
+  "is_bachelor": true,
+  "college": "Science/Technology/Engr/Math",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 122,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 1114- Principles of Biology (ACTS= BIOL 1014)",
+      "notes": "Prereq: ACT >21, or C> in MATH 0903 or college science",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Biology",
+      "options": [
+        [
+          "BIOL 1114"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2914- Calculus I (ACTS= MATH 2405)",
+      "notes": "Prereq: MATH ACT >26, or C> in MATH 1203/1914",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus I",
+      "options": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 2124/2120- General Chemistry I and lab",
+      "notes": "Prereq: MATH ACT >21, or C> in MATH 1113 or CHEM",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Chemistry I + General Chemistry I Lab",
+      "options": [
+        [
+          "CHEM 2124",
+          "CHEM 2120"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "TECH 1001- Orientation to the University",
+      "notes": "1113/1111",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to the University",
+      "options": [
+        [
+          "TECH 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 1011 -Intro to Electrical and Computer Engineering",
+      "notes": "Prereq: C> in MATH 1203/1914 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Electrical and Computer Engineering",
+      "options": [
+        [
+          "ELEG 1011"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 2014- Human Anatomy (ACTS=BIOL 2404)",
+      "notes": "Prereq: C> in science",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Anatomy",
+      "options": [
+        [
+          "BIOL 2014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2924- Calculus II (ACTS= MATH 2505)",
+      "notes": "Prereq: C> in MATH 2914",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus II",
+      "options": [
+        [
+          "MATH 2924"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 2134/2130- General Chemistry II and lab",
+      "notes": "Prereq: C> in CHEM 2124",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Chemistry II + General Chemistry II Lab",
+      "options": [
+        [
+          "CHEM 2134",
+          "CHEM 2130"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 3254/3250- Fundamentals of Org. Chemistry and lab",
+      "notes": "Prereq: C> in CHEM 2134",
+      "warnings": [],
+      "kind": "course",
+      "label": "Fundamentals of Organic Chemistry + Fundamentals of Organic Chemistry Laboratory",
+      "options": [
+        [
+          "CHEM 3254",
+          "CHEM 3250"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 3243- Differential Equations I",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Differential Equations I",
+      "options": [
+        [
+          "MATH 3243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 2114/2000 -Calculus-Based Physics I and lab",
+      "notes": "Coreq: MATH 2914",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus-Based Physics I + Physics Laboratory I",
+      "options": [
+        [
+          "PHYS 2114",
+          "PHYS 2000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2103- Electric Circuits I",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electric Circuits I",
+      "options": [
+        [
+          "ELEG 2103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 3034- Genetics",
+      "notes": "Recommended for Medical Track",
+      "warnings": [],
+      "kind": "course",
+      "label": "Genetics",
+      "options": [
+        [
+          "BIOL 3034"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History/Government",
+      "notes": "SEE NOTE 1: AB2M",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "SOC 1003- Introductory Sociology (ACTS = SOCI 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introductory Sociology",
+      "options": [
+        [
+          "SOC 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 1013/1011- Programming Foundations I and lab",
+      "notes": "Prereq: MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming Foundations I",
+      "options": [
+        [
+          "COMS 1013"
+        ],
+        [
+          "COMS 1011"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2113/2111- Electric Circuits II and lab",
+      "notes": "Prereq: C> in ELEG 2103 and MATH 3243",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electric Circuits II",
+      "options": [
+        [
+          "ELEG 2113"
+        ],
+        [
+          "ELEG 2111"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 3264/3260- Mechanistic Organic Chemistry and lab",
+      "notes": "Recommended for Medical Track",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mechanistic Organic Chemistry + Mechanistic Organic Chemistry Laboratory",
+      "options": [
+        [
+          "CHEM 3264",
+          "CHEM 3260"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2703- Discrete Mathematics",
+      "notes": "Prereq: C> in MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Discrete Mathematics",
+      "options": [
+        [
+          "MATH 2703"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2934- Calculus III (ACTS= MATH 2603)",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus III",
+      "options": [
+        [
+          "MATH 2934"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 2124/2010- Calculus-Based Physics II and lab",
+      "notes": "Prereq or Coreq: MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus-Based Physics II + Physics Laboratory II",
+      "options": [
+        [
+          "PHYS 2124",
+          "PHYS 2010"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 3103- Electronics I",
+      "notes": "Fall Only Prereq: C> in ELEG 2113/2111",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electronics I",
+      "options": [
+        [
+          "ELEG 3103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 3344/3340- Principles of Biochemistry and lab",
+      "notes": "Recommended for Medical Track",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Biochemistry + Principles of Biochemistry Laboratory",
+      "options": [
+        [
+          "CHEM 3344",
+          "CHEM 3340"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 3123- Signals and Systems",
+      "notes": "Spring only Prereq: MATH 3243 and ELEG 2113",
+      "warnings": [],
+      "kind": "course",
+      "label": "Signals and Systems",
+      "options": [
+        [
+          "ELEG 3123"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 3143- Electromagnetics",
+      "notes": "Spring only Prereq: MATH 2934 and PHYS 2124",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electromagnetics",
+      "options": [
+        [
+          "ELEG 3143"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "STAT 3153- Applied Statistics 1",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Statistics",
+      "options": [
+        [
+          "STAT 3153"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4103- Electronics II",
+      "notes": "Spring only Prereq: ELEG 3103",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electronics II",
+      "options": [
+        [
+          "ELEG 4103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4122- Electrical Systems Lab",
+      "notes": "Spring Only Prereq: ELEG 3103",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electrical Systems Lab",
+      "options": [
+        [
+          "ELEG 4122"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r6",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG/MCEG 4202- Engineering Design",
+      "notes": "Prereq: ELEG 3103",
+      "warnings": [],
+      "kind": "course",
+      "label": "Engineering Design",
+      "options": [
+        [
+          "ELEG 4202"
+        ],
+        [
+          "MCEG 4202"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PSY 2003 - General Psychology (ACTS = PSYC 1103)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Psychology",
+      "options": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2134/2130- Digital Logic Design/ Lab",
+      "notes": "Pre-req: ELEG 1011 or COMS 1013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Digital Logic Design + Digital Logic Design Lab",
+      "options": [
+        [
+          "ELEG 2134",
+          "ELEG 2130"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG/MCEG 3003- System Modeling and Analysis",
+      "notes": "Prereq: COMS 1013 or MCEG 2203 and MATH 3243",
+      "warnings": [],
+      "kind": "course",
+      "label": "System Modeling and Analysis",
+      "options": [
+        [
+          "ELEG 3003"
+        ],
+        [
+          "MCEG 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4113- Digital Signal Processing",
+      "notes": "Fall Only Prereq: ELEG 3123 and 3003/MCEG 3003",
+      "warnings": [],
+      "kind": "course",
+      "label": "Digital Signal Processing",
+      "options": [
+        [
+          "ELEG 4113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4143- Communication Systems I",
+      "notes": "Fall Only Prereq: ELEG 3123",
+      "warnings": [],
+      "kind": "course",
+      "label": "Communication Systems I",
+      "options": [
+        [
+          "ELEG 4143"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r6",
+      "map_semester": 7,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4191 -Electrical Design Project I",
+      "notes": "Prereq: ELEG/MCEG 4202",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electrical Design Project I",
+      "options": [
+        [
+          "ELEG 4191"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 3074- Human Physiology",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Physiology",
+      "options": [
+        [
+          "BIOL 3074"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 3133- Microprocessor Systems Design",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "course",
+      "label": "Microprocessor Systems Design",
+      "options": [
+        [
+          "ELEG 3133"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4192- Electrical Design Project II",
+      "notes": "Min. hours required: 122",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electrical Design Project II",
+      "options": [
+        [
+          "ELEG 4192"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 4303- Control Systems",
+      "notes": "2.00+ GPA",
+      "warnings": [],
+      "kind": "course",
+      "label": "Control Systems",
+      "options": [
+        [
+          "ELEG 4303"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r6",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BIOL 4033- Cell Biology",
+      "notes": "Recommended for Medical Track",
+      "warnings": [],
+      "kind": "course",
+      "label": "Cell Biology",
+      "options": [
+        [
+          "BIOL 4033"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Principles of Biology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Calculus I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "General Chemistry I + General Chemistry I Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Orientation to the University",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Introduction to Electrical and Computer Engineering",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Human Anatomy",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Calculus II",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "General Chemistry II + General Chemistry II Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "",
+      "stated_total_min": null,
+      "stated_total_max": null,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Fundamentals of Organic Chemistry + Fundamentals of Organic Chemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Differential Equations I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Calculus-Based Physics I + Physics Laboratory I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Electric Circuits I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Genetics",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "",
+      "stated_total_min": null,
+      "stated_total_max": null,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Introductory Sociology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Programming Foundations I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Electric Circuits II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Mechanistic Organic Chemistry + Mechanistic Organic Chemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "",
+      "stated_total_min": null,
+      "stated_total_max": null,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Discrete Mathematics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Calculus III",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Calculus-Based Physics II + Physics Laboratory II",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Electronics I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Principles of Biochemistry + Principles of Biochemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Signals and Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Electromagnetics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Applied Statistics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Electronics II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Electrical Systems Lab",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r6",
+          "label": "Engineering Design",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "General Psychology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Digital Logic Design + Digital Logic Design Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "System Modeling and Analysis",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Digital Signal Processing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Communication Systems I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r6",
+          "label": "Electrical Design Project I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "",
+      "stated_total_min": null,
+      "stated_total_max": null,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Human Physiology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Microprocessor Systems Design",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "Electrical Design Project II",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "Control Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r6",
+          "label": "Cell Biology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 2914"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303____ MATH 0803___ MATH 1003____ MATH 0903____ MATH 1113___ MATH",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Electrical Engineering - Biomedical",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/ELEGBiomedical.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/ELEGBiomedical.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": false,
+      "severity": "error",
+      "detail": "semester 3: no stated total; semester 4: no stated total; semester 5: no stated total; semester 8: no stated total"
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 133 vs required 122"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "63 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "needs_review",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 1114- Principles of Biology (ACTS= BIOL 1014)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: ACT >21, or C> in MATH 0903 or college science"
+          },
+          {
+            "text": "MATH 2914- Calculus I (ACTS= MATH 2405)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Prereq: MATH ACT >26, or C> in MATH 1203/1914"
+          },
+          {
+            "text": "CHEM 2124/2120- General Chemistry I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH ACT >21, or C> in MATH 1113 or CHEM"
+          },
+          {
+            "text": "TECH 1001- Orientation to the University",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "1113/1111"
+          },
+          {
+            "text": "ELEG 1011 -Intro to Electrical and Computer Engineering",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 1203/1914 or higher"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 2014- Human Anatomy (ACTS=BIOL 2404)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in science"
+          },
+          {
+            "text": "MATH 2924- Calculus II (ACTS= MATH 2505)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2914"
+          },
+          {
+            "text": "CHEM 2134/2130- General Chemistry II and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in CHEM 2124"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "",
+        "stated_total_min": null,
+        "stated_total_max": null,
+        "rows": [
+          {
+            "text": "CHEM 3254/3250- Fundamentals of Org. Chemistry and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in CHEM 2134"
+          },
+          {
+            "text": "MATH 3243- Differential Equations I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "PHYS 2114/2000 -Calculus-Based Physics I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Coreq: MATH 2914"
+          },
+          {
+            "text": "ELEG 2103- Electric Circuits I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "BIOL 3034- Genetics",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Recommended for Medical Track"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "",
+        "stated_total_min": null,
+        "stated_total_max": null,
+        "rows": [
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "SEE NOTE 1: AB2M"
+          },
+          {
+            "text": "SOC 1003- Introductory Sociology (ACTS = SOCI 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 1013/1011- Programming Foundations I and lab",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 1113 or higher"
+          },
+          {
+            "text": "ELEG 2113/2111- Electric Circuits II and lab",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in ELEG 2103 and MATH 3243"
+          },
+          {
+            "text": "CHEM 3264/3260- Mechanistic Organic Chemistry and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Recommended for Medical Track"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "",
+        "stated_total_min": null,
+        "stated_total_max": null,
+        "rows": [
+          {
+            "text": "MATH 2703- Discrete Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 1113 or higher"
+          },
+          {
+            "text": "MATH 2934- Calculus III (ACTS= MATH 2603)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "PHYS 2124/2010- Calculus-Based Physics II and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq or Coreq: MATH 2924"
+          },
+          {
+            "text": "ELEG 3103- Electronics I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: C> in ELEG 2113/2111"
+          },
+          {
+            "text": "CHEM 3344/3340- Principles of Biochemistry and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Recommended for Medical Track"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ELEG 3123- Signals and Systems",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Spring only Prereq: MATH 3243 and ELEG 2113"
+          },
+          {
+            "text": "ELEG 3143- Electromagnetics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Spring only Prereq: MATH 2934 and PHYS 2124"
+          },
+          {
+            "text": "STAT 3153- Applied Statistics 1",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "ELEG 4103- Electronics II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Spring only Prereq: ELEG 3103"
+          },
+          {
+            "text": "ELEG 4122- Electrical Systems Lab",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Spring Only Prereq: ELEG 3103"
+          },
+          {
+            "text": "ELEG/MCEG 4202- Engineering Design",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Prereq: ELEG 3103"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "PSY 2003 - General Psychology (ACTS = PSYC 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ELEG 2134/2130- Digital Logic Design/ Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Pre-req: ELEG 1011 or COMS 1013"
+          },
+          {
+            "text": "ELEG/MCEG 3003- System Modeling and Analysis",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: COMS 1013 or MCEG 2203 and MATH 3243"
+          },
+          {
+            "text": "ELEG 4113- Digital Signal Processing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: ELEG 3123 and 3003/MCEG 3003"
+          },
+          {
+            "text": "ELEG 4143- Communication Systems I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Fall Only Prereq: ELEG 3123"
+          },
+          {
+            "text": "ELEG 4191 -Electrical Design Project I",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Prereq: ELEG/MCEG 4202"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "",
+        "stated_total_min": null,
+        "stated_total_max": null,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "BIOL 3074- Human Physiology",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "ELEG 3133- Microprocessor Systems Design",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "ELEG 4192- Electrical Design Project II",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Min. hours required: 122"
+          },
+          {
+            "text": "ELEG 4303- Control Systems",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "2.00+ GPA"
+          },
+          {
+            "text": "BIOL 4033- Cell Biology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Recommended for Medical Track"
+          }
+        ]
+      }
+    ]
+  }
+}

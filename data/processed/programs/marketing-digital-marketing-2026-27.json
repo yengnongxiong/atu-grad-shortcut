@@ -1,0 +1,1756 @@
+{
+  "id": "marketing-digital-marketing-2026-27",
+  "name": "Business Administration-Digital Marketing",
+  "listed_title": "Marketing - Digital Marketing",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Business/Economic Development",
+  "catalog_year": "2026-27",
+  "revision": "03.17.26",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113- College Algebra (ACTS=MATH 1103)",
+      "notes": "May omit MATH 1113, if Math ACT is 22>. If omitted,",
+      "warnings": [],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BUAD 1113- Intro to Business",
+      "notes": "must complete an addl. 3 hrs of electives",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Business",
+      "options": [
+        [
+          "BUAD 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BUAD 2003- Business Information Systems",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business Information Systems",
+      "options": [
+        [
+          "BUAD 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Join a student organization or interest group",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS=ENGL 1023)",
+      "notes": "Attend a career fair to observe",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2223- Quantitative Business Analysis",
+      "notes": "Milestone",
+      "warnings": [],
+      "kind": "course",
+      "label": "Quantitative Business Analysis",
+      "options": [
+        [
+          "MATH 2223"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMM 2173 -Business & Professional Speaking",
+      "notes": "COMM 2003 may substitute",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business and Professional Speaking",
+      "options": [
+        [
+          "COMM 2173"
+        ],
+        [
+          "COMM 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "US History and Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ACCT 2000- Accounting Principles I Lab",
+      "notes": "Co-Requisite for ACCT 2004",
+      "warnings": [],
+      "kind": "course",
+      "label": "Accounting Principles I Lab",
+      "options": [
+        [
+          "ACCT 2000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*ACCT 2004- Accounting Principles I (ACTS=ACCT 2003)",
+      "notes": "Milestone",
+      "warnings": [],
+      "kind": "course",
+      "label": "Accounting Principles I",
+      "options": [
+        [
+          "ACCT 2004"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+      "notes": "Milestone",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Macroeconomics",
+      "options": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts and Humanities",
+      "notes": "*Must complete 18 hrs of LSSB foundation courses to",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*BDA 2003- Business Problem Solving",
+      "notes": "enroll in 3000-4000 level business courses",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business Problem Solving",
+      "options": [
+        [
+          "BDA 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r6",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*BLAW 2033- Legal Environment of Business",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Legal Environment of Business",
+      "options": [
+        [
+          "BLAW 2033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ACCT 2013- Accounting Principles II (ACTS=ACCT 2013)",
+      "notes": "Review your degree plan with your academic advisor",
+      "warnings": [],
+      "kind": "course",
+      "label": "Accounting Principles II",
+      "options": [
+        [
+          "ACCT 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "*ECON 2013- Principles of Microeconomics (ACTS=ECON2203)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Microeconomics",
+      "options": [
+        [
+          "ECON 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3043- Principles of Marketing",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Marketing",
+      "options": [
+        [
+          "MKT 3043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "STAT 2163 - Intro to Stat. Methods (ACTS=MATH 2103) or PSY/SOC 2053- Stat. for the Behavioral Sciences",
+      "notes": "Meet with faculty about career paths in your field",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Statistical Methods",
+      "options": [
+        [
+          "STAT 2163"
+        ],
+        [
+          "PSY 2053"
+        ],
+        [
+          "SOC 2053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ENGL 2053- Technical Writing (ACTS=ENGL 2023)",
+      "notes": "Prereq: ENGL 1023",
+      "warnings": [],
+      "kind": "course",
+      "label": "Technical Writing",
+      "options": [
+        [
+          "ENGL 2053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3083- Retailing and the Virtual Marketplace",
+      "notes": "2.00 GPA to enroll in 3000-4000 level LSSB courses",
+      "warnings": [],
+      "kind": "course",
+      "label": "Retailing and the Virtual Marketplace",
+      "options": [
+        [
+          "MKT 3083"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MGMT 3003- Principles of Management",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Management",
+      "options": [
+        [
+          "MGMT 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3063- Social Media Marketing",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Social Media Marketing",
+      "options": [
+        [
+          "MKT 3063"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "BDA 3013- Business Spreadsheet Modeling",
+      "notes": "Update résumé and LinkedIn with Career Services",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business Spreadsheet Modeling",
+      "options": [
+        [
+          "BDA 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3163- Consumer Behavior",
+      "notes": "50% of LSSB courses must be completed at ATU",
+      "warnings": [],
+      "kind": "course",
+      "label": "Consumer Behavior",
+      "options": [
+        [
+          "MKT 3163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "FIN 3063- Business Finance",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business Finance",
+      "options": [
+        [
+          "FIN 3063"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MGMT 3103- Operations Management",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Operations Management",
+      "options": [
+        [
+          "MGMT 3103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3153- Marketing Research and Analysis",
+      "notes": "Attend a career fair or networking event",
+      "warnings": [],
+      "kind": "course",
+      "label": "Marketing Research and Analysis",
+      "options": [
+        [
+          "MKT 3153"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MGMT 4013- Management Information Systems",
+      "notes": "See Note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Management Information Systems",
+      "options": [
+        [
+          "MGMT 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 4013- Digital Metrics",
+      "notes": "Create a job search timeline (3-6 months early)",
+      "warnings": [],
+      "kind": "course",
+      "label": "Digital Metrics",
+      "options": [
+        [
+          "MKT 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 4063- Integrated Marketing Communication in a Digital Age",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrated Marketing Communication in a Digital Age",
+      "options": [
+        [
+          "MKT 4063"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Approved Elective**",
+      "notes": "See Note 1",
+      "warnings": [
+        "approved elective with no level/subject rule; any course assumed"
+      ],
+      "kind": "bucket",
+      "label": "Approved Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "medium"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MGMT 4083- Business Policy",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business Policy",
+      "options": [
+        [
+          "MGMT 4083"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 4143- Marketing Strategy",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Marketing Strategy",
+      "options": [
+        [
+          "MKT 4143"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective See Note 1",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective See Note 1",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT Elective (3000-4000) See Note 1",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "MKT Elective (3000-4000) See Note 1",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MKT"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Introduction to Business",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Business Information Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Quantitative Business Analysis",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Business and Professional Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Accounting Principles I Lab",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Accounting Principles I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Principles of Macroeconomics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Business Problem Solving",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r6",
+          "label": "Legal Environment of Business",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Accounting Principles II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Principles of Microeconomics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Principles of Marketing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Introduction to Statistical Methods",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Technical Writing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Retailing and the Virtual Marketplace",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Principles of Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Social Media Marketing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Business Spreadsheet Modeling",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Consumer Behavior",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Business Finance",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Operations Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Marketing Research and Analysis",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Management Information Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Digital Metrics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Integrated Marketing Communication in a Digital Age",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Approved Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Business Policy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Marketing Strategy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "General Elective See Note 1",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "MKT Elective (3000-4000) See Note 1",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ACCT 2004",
+    "BUAD 2003",
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1113",
+    "MATH 2223"
+  ],
+  "notes": [
+    "General Electives: 9 hours (1000-4000 level)"
+  ],
+  "prerequisite_courses_line": "",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "science_with_lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Marketing - Digital Marketing",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/MarketingDigitalMarketing.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/MarketingDigitalMarketing.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": false,
+      "severity": "error",
+      "detail": "semester 7: rows sum to 15 but the map states 14"
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): ACCT 2003, ENGL 0203, ENGL 0404, MATH 3153"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "42 upper-division hours required + 15 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "needs_review",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "**Approved Electives",
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Science with Lab"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 1113- College Algebra (ACTS=MATH 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "May omit MATH 1113, if Math ACT is 22>. If omitted,"
+          },
+          {
+            "text": "BUAD 1113- Intro to Business",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "must complete an addl. 3 hrs of electives"
+          },
+          {
+            "text": "BUAD 2003- Business Information Systems",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Join a student organization or interest group"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS=ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Attend a career fair to observe"
+          },
+          {
+            "text": "MATH 2223- Quantitative Business Analysis",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Milestone"
+          },
+          {
+            "text": "COMM 2173 -Business & Professional Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "COMM 2003 may substitute"
+          },
+          {
+            "text": "Science with lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "US History and Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ACCT 2000- Accounting Principles I Lab",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Co-Requisite for ACCT 2004"
+          },
+          {
+            "text": "*ACCT 2004- Accounting Principles I (ACTS=ACCT 2003)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Milestone"
+          },
+          {
+            "text": "*ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Milestone"
+          },
+          {
+            "text": "Fine Arts and Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "*Must complete 18 hrs of LSSB foundation courses to"
+          },
+          {
+            "text": "*BDA 2003- Business Problem Solving",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "enroll in 3000-4000 level business courses"
+          },
+          {
+            "text": "*BLAW 2033- Legal Environment of Business",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "*ACCT 2013- Accounting Principles II (ACTS=ACCT 2013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Review your degree plan with your academic advisor"
+          },
+          {
+            "text": "*ECON 2013- Principles of Microeconomics (ACTS=ECON2203)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Science with lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MKT 3043- Principles of Marketing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "STAT 2163 - Intro to Stat. Methods (ACTS=MATH 2103) or PSY/SOC 2053- Stat. for the Behavioral Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Meet with faculty about career paths in your field"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 2053- Technical Writing (ACTS=ENGL 2023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: ENGL 1023"
+          },
+          {
+            "text": "MKT 3083- Retailing and the Virtual Marketplace",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "2.00 GPA to enroll in 3000-4000 level LSSB courses"
+          },
+          {
+            "text": "MGMT 3003- Principles of Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MKT 3063- Social Media Marketing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "BDA 3013- Business Spreadsheet Modeling",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Update résumé and LinkedIn with Career Services"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "MKT 3163- Consumer Behavior",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "50% of LSSB courses must be completed at ATU"
+          },
+          {
+            "text": "FIN 3063- Business Finance",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MGMT 3103- Operations Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MKT 3153- Marketing Research and Analysis",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair or networking event"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "MGMT 4013- Management Information Systems",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 1"
+          },
+          {
+            "text": "MKT 4013- Digital Metrics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Create a job search timeline (3-6 months early)"
+          },
+          {
+            "text": "MKT 4063- Integrated Marketing Communication in a Digital Age",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Approved Elective**",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "See Note 1"
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "MGMT 4083- Business Policy",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MKT 4143- Marketing Strategy",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "General Elective See Note 1",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "MKT Elective (3000-4000) See Note 1",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          }
+        ]
+      }
+    ]
+  }
+}

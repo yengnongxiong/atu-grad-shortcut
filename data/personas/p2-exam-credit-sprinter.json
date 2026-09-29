@@ -1,0 +1,40 @@
+{
+  "id": "p2",
+  "name": "Exam-credit sprinter",
+  "tagline": "CS freshman arriving with CLEP credit and one dual-credit course. SAMPLE DATA.",
+  "sample_data": true,
+  "story": "Sample data, not a real student. Shows how exam credit that lands on still-needed requirements moves the date, and which remaining exams are worth taking. AP/IB tables aren't available yet, so this persona uses CLEP only.",
+  "request": {
+    "profile": {
+      "program_id": "computer-science-2025-26",
+      "first_term": "2026FA",
+      "plan_from": "2026FA",
+      "completed": [
+        {"code": "BIOL 1014", "grade": "A", "source": "transfer"}
+      ],
+      "in_progress": [],
+      "exams": [
+        {"program": "CLEP", "exam": "College Composition", "score": 61},
+        {"program": "CLEP", "exam": "Calculus", "score": 58},
+        {"program": "CLEP", "exam": "American Government", "score": 57},
+        {"program": "CLEP", "exam": "Psychology, Introductory", "score": 60}
+      ],
+      "math_act": 29,
+      "preferences": {
+        "preferred_hours": 16,
+        "last_term_gpa": null,
+        "expect_high_gpa": true,
+        "mode": "conservative"
+      }
+    },
+    "levers": {
+      "heavier_terms": true,
+      "summer": true,
+      "winter": false,
+      "overload": false,
+      "aggressive_overload": false,
+      "transfer_summer": false,
+      "planned_exams": []
+    }
+  }
+}

@@ -1,0 +1,1701 @@
+{
+  "id": "healthand-exercise-science-kinesiology-2026-27",
+  "name": "Health and Exercise Science, Kinesiology Option",
+  "listed_title": "Health & Exercise Science - Kinesiology",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Education and Health",
+  "catalog_year": "2026-27",
+  "revision": "04.07.26",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113 - College Algebra (ACTS=MATH 1103) or higher",
+      "notes": "",
+      "warnings": [
+        "alternative without a course code: higher"
+      ],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 1014 - Intro to Biological Science (ACTS=BIOL 1004)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Biological Science",
+      "options": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 1201 - Orientation to Kinesiology",
+      "notes": "No substitutions allowed",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Kinesiology",
+      "options": [
+        [
+          "PE 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "PE Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "PE"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 1003- Introduction to Exercise Programming",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Exercise Programming",
+      "options": [
+        [
+          "HES 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PSY 2003- General Psychology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Psychology",
+      "options": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Physical Science with Lab",
+      "notes": "",
+      "warnings": [
+        "Science with Lab options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMM 2173 - Business and Professional Speaking",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business and Professional Speaking",
+      "options": [
+        [
+          "COMM 2173"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HLED 1513- Lifetime Health and Fitness (ACTS=HEAL 1003)",
+      "notes": "Freshman Milestone: Visit the Tutoring",
+      "warnings": [],
+      "kind": "course",
+      "label": "Lifetime Health and Fitness",
+      "options": [
+        [
+          "HLED 1513"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "US History and Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 1003 - Intro Comp Based Systems (ACTS=CPSI1003)",
+      "notes": "BUAD 2003 or other equivalent",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Computer Based Systems",
+      "options": [
+        [
+          "COMS 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 2513 - First Aid",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "First Aid",
+      "options": [
+        [
+          "PE 2513"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 2004 - Basic Human Anatomy and Physiology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Basic Human Anatomy and Physiology",
+      "options": [
+        [
+          "BIOL 2004"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "AHS 2013 - Medical Terminology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Medical Terminology",
+      "options": [
+        [
+          "AHS 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r6",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "PE Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "PE"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Sophomore Milestone: Meet with faculty",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ECON 2003 - Principles of Macroeconomics (ACTS=ECON2103)",
+      "notes": "about career paths in your field",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Macroeconomics",
+      "options": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 3661 - Lab Experiences in Anatomy/Physiology and Kinesiology",
+      "notes": "Prerequisite: PE 2653",
+      "warnings": [],
+      "kind": "course",
+      "label": "Laboratory Experiences in Anatomy/Physiology and Kinesiology",
+      "options": [
+        [
+          "PE 3661"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 3663 - Kinesiology",
+      "notes": "Prerequisite: PE 2653",
+      "warnings": [],
+      "kind": "course",
+      "label": "Kinesiology",
+      "options": [
+        [
+          "PE 3663"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r6",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 2013 - Weight Training for Personal Trainers, HS Coaches, and PE",
+      "notes": "Prerequisite: HES 1003",
+      "warnings": [],
+      "kind": "course",
+      "label": "Weight Training for Personal Trainers, High School Athletics and Strength Coaching",
+      "options": [
+        [
+          "HES 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 2023 - Endurance Programming and Conditioning",
+      "notes": "Prerequisites: HES 1003",
+      "warnings": [],
+      "kind": "course",
+      "label": "Endurance Programming and Conditioning",
+      "options": [
+        [
+          "HES 2023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 3573 - Prevention and Care of Athletic Injuries",
+      "notes": "Prerequisites: PE2653, PE3663",
+      "warnings": [],
+      "kind": "course",
+      "label": "Prevention and Care of Activity Injuries",
+      "options": [
+        [
+          "PE 3573"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 4033 - Exercise Physiology",
+      "notes": "Prerequisites: PE2653, PE3663. PE 3661",
+      "warnings": [],
+      "kind": "course",
+      "label": "Exercise Physiology",
+      "options": [
+        [
+          "PE 4033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MGMT 3003 - Principles of Management",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Management",
+      "options": [
+        [
+          "MGMT 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 2043 - Applied Fitness Assessment and Development",
+      "notes": "Prereq: PE2653, PE3663",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Fitness Assessment and Development",
+      "options": [
+        [
+          "HES 2043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HLED 3203 - Consumer Health Programs",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Consumer Health Programs",
+      "options": [
+        [
+          "HLED 3203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 3003 - Exercise Prescription",
+      "notes": "Prerequisite: HES 2043",
+      "warnings": [],
+      "kind": "course",
+      "label": "Exercise Prescription",
+      "options": [
+        [
+          "HES 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 3013- Coaching Power, Speed, and Agility",
+      "notes": "Prerequisites: HES 1003",
+      "warnings": [],
+      "kind": "course",
+      "label": "Coaching Power, Speed, and Agility",
+      "options": [
+        [
+          "HES 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 4043 - Exercise Physiology Lab",
+      "notes": "Prerequisites: PE 4033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Exercise Physiology Lab",
+      "options": [
+        [
+          "HES 4043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 4103 - Principles of Adapted Physical Activity",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Adapted Physical Activity",
+      "options": [
+        [
+          "PE 4103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 4013 - Health and Exercise Science Practicum",
+      "notes": "Prerequisites: HES 2043 and 3003",
+      "warnings": [],
+      "kind": "course",
+      "label": "Health and Exercise Science Practicum",
+      "options": [
+        [
+          "HES 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 4023 - Principles of Strength and Conditioning",
+      "notes": "Prereqs: PE2653, 3661,and 4033, Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Strength and Conditioning",
+      "options": [
+        [
+          "HES 4023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 4053 - Biomechanics",
+      "notes": "Prerequisites: PE 4033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Biomechanics",
+      "options": [
+        [
+          "HES 4053"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HLED 4403 - Sport and Exercise Nutrition",
+      "notes": "Prerequisite: PE 2653 and PE 4033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Sport and Exercise Nutrition",
+      "options": [
+        [
+          "HLED 4403"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MKT 3043 - Principles of Marketing",
+      "notes": "Senior Milestone: Complete a senior check-in",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Marketing",
+      "options": [
+        [
+          "MKT 3043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 12.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HES 4012 - Health and Exercise Science Internship",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Health and Exercise Science Internship",
+      "options": [
+        [
+          "HES 4012"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Introduction to Biological Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Orientation to Kinesiology",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "PE Elective",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Introduction to Exercise Programming",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "General Psychology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Business and Professional Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Lifetime Health and Fitness",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Introduction to Computer Based Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "First Aid",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Basic Human Anatomy and Physiology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Medical Terminology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r6",
+          "label": "PE Elective",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Principles of Macroeconomics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Laboratory Experiences in Anatomy/Physiology and Kinesiology",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Kinesiology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r6",
+          "label": "Weight Training for Personal Trainers, High School Athletics and Strength Coaching",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Endurance Programming and Conditioning",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Prevention and Care of Activity Injuries",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Exercise Physiology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Principles of Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Applied Fitness Assessment and Development",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Consumer Health Programs",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Exercise Prescription",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Coaching Power, Speed, and Agility",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Exercise Physiology Lab",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Principles of Adapted Physical Activity",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Health and Exercise Science Practicum",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Principles of Strength and Conditioning",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Biomechanics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Sport and Exercise Nutrition",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Principles of Marketing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Health and Exercise Science Internship",
+          "hours": 12.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "BIOL 1014",
+    "BIOL 2004",
+    "COMM 2173",
+    "ENGL 1013",
+    "ENGL 1023",
+    "HES 1003",
+    "HES 2013",
+    "HES 2023",
+    "HES 2043",
+    "HES 3003",
+    "HES 3013",
+    "HES 4012",
+    "HES 4013",
+    "HES 4023",
+    "HES 4043",
+    "HES 4053",
+    "HLED 1513",
+    "HLED 3203",
+    "HLED 4403",
+    "MATH 1113",
+    "PE 1201",
+    "PE 2513",
+    "PE 3573",
+    "PE 3661",
+    "PE 3663",
+    "PE 4033",
+    "PE 4103"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 1003_____ MATH 0903_____ MATH 1110_____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Health & Exercise Science - Kinesiology",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseScienceKinesiology.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/HealthandExerciseScienceKinesiology.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 121 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PE 4013, PHSC 1004, WS 1002, WS 2003, WS 2043, WS 3003, WS 3023, WS 4003, WS 4063"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "55 upper-division hours required + 2 flexible elective hours vs 40 needed"
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 1113 - College Algebra (ACTS=MATH 1103) or higher",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 1014 - Intro to Biological Science (ACTS=BIOL 1004)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "PE 1201 - Orientation to Kinesiology",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "No substitutions allowed"
+          },
+          {
+            "text": "PE Elective",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HES 1003- Introduction to Exercise Programming",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "PSY 2003- General Psychology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Physical Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMM 2173 - Business and Professional Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HLED 1513- Lifetime Health and Fitness (ACTS=HEAL 1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Freshman Milestone: Visit the Tutoring"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "US History and Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "COMS 1003 - Intro Comp Based Systems (ACTS=CPSI1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "BUAD 2003 or other equivalent"
+          },
+          {
+            "text": "PE 2513 - First Aid",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 2004 - Basic Human Anatomy and Physiology",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AHS 2013 - Medical Terminology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "PE Elective",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Sophomore Milestone: Meet with faculty"
+          },
+          {
+            "text": "ECON 2003 - Principles of Macroeconomics (ACTS=ECON2103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "about career paths in your field"
+          },
+          {
+            "text": "PE 3661 - Lab Experiences in Anatomy/Physiology and Kinesiology",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Prerequisite: PE 2653"
+          },
+          {
+            "text": "PE 3663 - Kinesiology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: PE 2653"
+          },
+          {
+            "text": "HES 2013 - Weight Training for Personal Trainers, HS Coaches, and PE",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: HES 1003"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "HES 2023 - Endurance Programming and Conditioning",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: HES 1003"
+          },
+          {
+            "text": "PE 3573 - Prevention and Care of Athletic Injuries",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: PE2653, PE3663"
+          },
+          {
+            "text": "PE 4033 - Exercise Physiology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: PE2653, PE3663. PE 3661"
+          },
+          {
+            "text": "MGMT 3003 - Principles of Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "HES 2043 - Applied Fitness Assessment and Development",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prereq: PE2653, PE3663"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "HLED 3203 - Consumer Health Programs",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HES 3003 - Exercise Prescription",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: HES 2043"
+          },
+          {
+            "text": "HES 3013- Coaching Power, Speed, and Agility",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: HES 1003"
+          },
+          {
+            "text": "HES 4043 - Exercise Physiology Lab",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: PE 4033"
+          },
+          {
+            "text": "PE 4103 - Principles of Adapted Physical Activity",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "HES 4013 - Health and Exercise Science Practicum",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: HES 2043 and 3003"
+          },
+          {
+            "text": "HES 4023 - Principles of Strength and Conditioning",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prereqs: PE2653, 3661,and 4033, Fall Only"
+          },
+          {
+            "text": "HES 4053 - Biomechanics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisites: PE 4033"
+          },
+          {
+            "text": "HLED 4403 - Sport and Exercise Nutrition",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: PE 2653 and PE 4033"
+          },
+          {
+            "text": "MKT 3043 - Principles of Marketing",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Senior Milestone: Complete a senior check-in"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "HES 4012 - Health and Exercise Science Internship",
+            "hours_text": "12",
+            "hours_min": 12.0,
+            "hours_max": 12.0,
+            "grade_c": true,
+            "notes": "Graduation Requirements:"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,699 @@
+{
+  "program": "CLEP",
+  "status": "available",
+  "source": {
+    "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+    "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+  },
+  "equivalencies": [
+    {
+      "id": "clep-american-government-50",
+      "program": "CLEP",
+      "exam": "American Government",
+      "min_score": 50,
+      "awards": [
+        [
+          "POLS 2003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-american-literature-50",
+      "program": "CLEP",
+      "exam": "American Literature",
+      "min_score": 50,
+      "awards": [
+        [
+          "ENGL 2013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-biology-50",
+      "program": "CLEP",
+      "exam": "Biology",
+      "min_score": 50,
+      "awards": [
+        [
+          "BIOL 1014"
+        ],
+        [
+          "BIOL 1114"
+        ]
+      ],
+      "award_hours": [
+        4.0,
+        4.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-calculus-50",
+      "program": "CLEP",
+      "exam": "Calculus",
+      "min_score": 50,
+      "awards": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "award_hours": [
+        4.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-chemistry-50",
+      "program": "CLEP",
+      "exam": "Chemistry",
+      "min_score": 50,
+      "awards": [
+        [
+          "CHEM 2124"
+        ]
+      ],
+      "award_hours": [
+        4.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-chemistry-55",
+      "program": "CLEP",
+      "exam": "Chemistry",
+      "min_score": 55,
+      "awards": [
+        [
+          "CHEM 2124",
+          "CHEM 2134"
+        ]
+      ],
+      "award_hours": [
+        8.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-algebra-50",
+      "program": "CLEP",
+      "exam": "College Algebra",
+      "min_score": 50,
+      "awards": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-mathematics-50",
+      "program": "CLEP",
+      "exam": "College Mathematics",
+      "min_score": 50,
+      "awards": [
+        [
+          "MATH 1003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-composition-50",
+      "program": "CLEP",
+      "exam": "College Composition",
+      "min_score": 50,
+      "awards": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-composition-59",
+      "program": "CLEP",
+      "exam": "College Composition",
+      "min_score": 59,
+      "awards": [
+        [
+          "ENGL 1013",
+          "ENGL 1023"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-composition-modular-50",
+      "program": "CLEP",
+      "exam": "College Composition Modular",
+      "min_score": 50,
+      "awards": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-college-composition-modular-59",
+      "program": "CLEP",
+      "exam": "College Composition Modular",
+      "min_score": 59,
+      "awards": [
+        [
+          "ENGL 1013",
+          "ENGL 1023"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-english-literature-50",
+      "program": "CLEP",
+      "exam": "English Literature",
+      "min_score": 50,
+      "awards": [
+        [
+          "ENGL 3413"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-english-literature-55",
+      "program": "CLEP",
+      "exam": "English Literature",
+      "min_score": 55,
+      "awards": [
+        [
+          "ENGL 3413",
+          "ENGL 3423"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-french-language-42",
+      "program": "CLEP",
+      "exam": "French Language",
+      "min_score": 42,
+      "awards": [
+        [
+          "FR 1013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-french-language-50",
+      "program": "CLEP",
+      "exam": "French Language",
+      "min_score": 50,
+      "awards": [
+        [
+          "FR 1013",
+          "FR 1023"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-german-language-43",
+      "program": "CLEP",
+      "exam": "German Language",
+      "min_score": 43,
+      "awards": [
+        [
+          "GER 1013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-german-language-55",
+      "program": "CLEP",
+      "exam": "German Language",
+      "min_score": 55,
+      "awards": [
+        [
+          "GER 1013",
+          "GER 1023"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-history-of-the-united-states-i-50",
+      "program": "CLEP",
+      "exam": "History of the United States I",
+      "min_score": 50,
+      "awards": [
+        [
+          "HIST 2003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-history-of-the-united-states-ii-50",
+      "program": "CLEP",
+      "exam": "History of the United States II",
+      "min_score": 50,
+      "awards": [
+        [
+          "HIST 2013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-human-growth-development-50",
+      "program": "CLEP",
+      "exam": "Human Growth & Development",
+      "min_score": 50,
+      "awards": [
+        [
+          "PSY 3813"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-humanities-50",
+      "program": "CLEP",
+      "exam": "Humanities",
+      "min_score": 50,
+      "awards": [
+        [
+          "HUM 2003"
+        ]
+      ],
+      "award_hours": [
+        null
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": [
+        "HUM 2003 not found in the Banner catalog"
+      ]
+    },
+    {
+      "id": "clep-information-systems-computer-applications-52",
+      "program": "CLEP",
+      "exam": "Information Systems & Computer Applications",
+      "min_score": 52,
+      "awards": [
+        [
+          "COMS 1003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-natural-sciences-56",
+      "program": "CLEP",
+      "exam": "Natural Sciences",
+      "min_score": 56,
+      "awards": [
+        [
+          "BIOL 1014",
+          "PHSC 1013",
+          "PHSC 1021"
+        ]
+      ],
+      "award_hours": [
+        8.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-precalculus-50",
+      "program": "CLEP",
+      "exam": "Precalculus",
+      "min_score": 50,
+      "awards": [
+        [
+          "MATH 1914"
+        ]
+      ],
+      "award_hours": [
+        4.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-principles-of-macroeconomics-50",
+      "program": "CLEP",
+      "exam": "Principles of Macroeconomics",
+      "min_score": 50,
+      "awards": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-psychology-introductory-50",
+      "program": "CLEP",
+      "exam": "Psychology, Introductory",
+      "min_score": 50,
+      "awards": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-social-sciences-history-50",
+      "program": "CLEP",
+      "exam": "Social Sciences & History",
+      "min_score": 50,
+      "awards": [
+        [
+          "HIST 1503"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-social-sciences-history-56",
+      "program": "CLEP",
+      "exam": "Social Sciences & History",
+      "min_score": 56,
+      "awards": [
+        [
+          "HIST 1503",
+          "HIST 1513"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-sociology-introductory-50",
+      "program": "CLEP",
+      "exam": "Sociology, Introductory",
+      "min_score": 50,
+      "awards": [
+        [
+          "SOC 1003"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-spanish-language-45",
+      "program": "CLEP",
+      "exam": "Spanish Language",
+      "min_score": 45,
+      "awards": [
+        [
+          "SPAN 1013"
+        ]
+      ],
+      "award_hours": [
+        3.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    },
+    {
+      "id": "clep-spanish-language-55",
+      "program": "CLEP",
+      "exam": "Spanish Language",
+      "min_score": 55,
+      "awards": [
+        [
+          "SPAN 1013",
+          "SPAN 1023"
+        ]
+      ],
+      "award_hours": [
+        6.0
+      ],
+      "source": {
+        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+      },
+      "confidence": "documented",
+      "warnings": []
+    }
+  ]
+}
