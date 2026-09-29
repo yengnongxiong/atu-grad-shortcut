@@ -1,0 +1,112 @@
+import type { Persona, ProgramListItem } from '../api/types'
+import { ProgramPicker } from '../components/ProgramPicker'
+import { ArrowIcon, CriticalIcon, Spinner } from '../components/ui'
+
+export function Landing({
+  programs,
+  personas,
+  loading,
+  onPickProgram,
+  onPersona,
+}: {
+  programs: ProgramListItem[]
+  personas: Persona[]
+  loading: boolean
+  onPickProgram: (program: ProgramListItem) => void
+  onPersona: (persona: Persona) => void
+}) {
+  const crossChecked = programs.filter((p) => p.trust_tier === 'cross_checked').length
+  return (
+    <div>
+      <section className="border-b border-line bg-paper">
+        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
+          <div>
+            <p className="eyebrow">For Arkansas Tech students · Unofficial</p>
+            <h1 className="mt-3 text-4xl font-semibold leading-[1.08] sm:text-5xl lg:text-6xl">
+              The degree map is the path for the average student.{' '}
+              <span className="text-saved">Shortcut is the path for you.</span>
+            </h1>
+            <p className="mt-6 max-w-xl text-lg text-ink-soft">
+              Start from the credit you already have. Shortcut models summer, winter, heavier terms, overloads,
+              CLEP, and transfer courses, then shows your fastest realistic graduation date, the courses that
+              actually set it, and how much time each option buys.
+            </p>
+            <dl className="mt-8 grid max-w-lg grid-cols-3 gap-4 text-sm">
+              <div>
+                <dt className="text-muted">Majors</dt>
+                <dd className="font-display text-3xl font-semibold">{programs.length || '—'}</dd>
+              </div>
+              <div>
+                <dt className="text-muted">Cross-checked</dt>
+                <dd className="font-display text-3xl font-semibold">{programs.length ? crossChecked : '—'}</dd>
+              </div>
+              <div>
+                <dt className="text-muted">Per plan</dt>
+                <dd className="font-display text-3xl font-semibold">~2 s</dd>
+              </div>
+            </dl>
+          </div>
+          <div className="card p-5 sm:p-6">
+            <h2 className="text-2xl font-semibold">Find your major</h2>
+            <p className="mt-1 text-sm text-muted">Every bachelor’s degree map ATU publishes, labeled by how much we trust the data.</p>
+            <div className="mt-4">
+              {loading ? <Spinner label="Loading majors…" /> : <ProgramPicker programs={programs} onSelect={onPickProgram} compact />}
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
+        <div className="flex flex-wrap items-end justify-between gap-3">
+          <div>
+            <p className="eyebrow">One-click demos</p>
+            <h2 className="text-3xl font-semibold">See it with a real scenario</h2>
+          </div>
+        </div>
+        <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {personas.map((persona, index) => (
+            <button
+              key={persona.id}
+              type="button"
+              onClick={() => onPersona(persona)}
+              className="card group flex flex-col items-start p-5 text-left transition-shadow hover:shadow-md focus-visible:shadow-md"
+            >
+              <span className="eyebrow">P{index + 1}</span>
+              <span className="mt-1 font-display text-xl font-semibold">{persona.name}</span>
+              <span className="mt-2 text-sm text-ink-soft">{persona.tagline}</span>
+              {persona.sample_data && (
+                <span className="mt-3 rounded bg-warn-soft px-2 py-0.5 text-xs font-semibold text-warn">Sample data</span>
+              )}
+              <span className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-semibold">
+                Open plan <ArrowIcon className="transition-transform group-hover:translate-x-0.5" />
+              </span>
+            </button>
+          ))}
+          {!loading && personas.length === 0 && <p className="text-sm text-muted">No demo profiles available.</p>}
+        </div>
+      </section>
+
+      <section className="border-t border-line bg-paper-deep">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3">
+          <div>
+            <p className="eyebrow">01 · Your starting point</p>
+            <h3 className="mt-2 text-xl font-semibold">Credit you already have</h3>
+            <p className="mt-2 text-sm text-ink-soft">Completed courses with grades, CLEP scores, transfer credit, and your math ACT for placement.</p>
+          </div>
+          <div>
+            <p className="eyebrow">02 · Every lever ATU allows</p>
+            <h3 className="mt-2 text-xl font-semibold">Priced in terms saved</h3>
+            <p className="mt-2 text-sm text-ink-soft">Each option shows its marginal effect, what it costs, and whose approval it needs.</p>
+          </div>
+          <div>
+            <p className="eyebrow">03 · What actually sets the date</p>
+            <h3 className="mt-2 flex items-center gap-2 text-xl font-semibold">
+              <CriticalIcon className="text-critical" /> The critical chain
+            </h3>
+            <p className="mt-2 text-sm text-ink-soft">Miss one link in a fall-only chain and graduation slips a year. Shortcut shows which link.</p>
+          </div>
+        </div>
+      </section>
+    </div>
+  )
+}

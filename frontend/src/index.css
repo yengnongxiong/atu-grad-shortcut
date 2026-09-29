@@ -1,1 +1,107 @@
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  /* Paper and ink */
+  --color-paper: #faf7f2;
+  --color-paper-deep: #f2ede4;
+  --color-surface: #ffffff;
+  --color-ink: #16181d;
+  --color-ink-soft: #2c2f36;
+  --color-muted: #585d68;
+  --color-line: #e2dcd1;
+  --color-line-strong: #cfc7b9;
+
+  /* One accent for "critical", one for "time saved" (both ≥ 4.5:1 on white and paper) */
+  --color-critical: #b93a0d;
+  --color-critical-soft: #fbe9df;
+  --color-saved: #0d6e63;
+  --color-saved-soft: #dff1ec;
+
+  /* Status */
+  --color-warn: #8a5a00;
+  --color-warn-soft: #fbf0d6;
+  --color-error: #a61b1b;
+  --color-error-soft: #fbe3e3;
+  --color-info: #2f4f8a;
+  --color-info-soft: #e5ecf8;
+}
+
+@layer base {
+  html {
+    color-scheme: light;
+  }
+  body {
+    @apply bg-paper text-ink font-sans antialiased;
+    font-feature-settings: 'ss01', 'cv11';
+  }
+  h1,
+  h2,
+  h3 {
+    @apply font-display;
+    letter-spacing: -0.01em;
+  }
+  a {
+    @apply underline decoration-line-strong underline-offset-2 hover:decoration-ink;
+  }
+  :focus-visible {
+    outline: 3px solid #2f4f8a;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  ::selection {
+    background: #f3d9c9;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-xl border border-line bg-surface shadow-[0_1px_0_rgba(22,24,29,0.04)];
+  }
+  .eyebrow {
+    @apply text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-muted;
+  }
+  .btn-primary,
+  .btn-secondary,
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+  }
+  .btn-primary {
+    @apply bg-ink text-paper hover:bg-ink-soft;
+  }
+  .btn-secondary {
+    @apply border border-line-strong bg-surface text-ink hover:bg-paper-deep;
+  }
+  .btn-ghost {
+    @apply text-ink hover:bg-paper-deep;
+  }
+  .input {
+    @apply w-full rounded-lg border border-line-strong bg-surface px-3 py-2 text-sm text-ink placeholder:text-muted focus:border-ink focus:outline-none;
+  }
+  .chip {
+    @apply inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 text-[0.7rem] font-semibold leading-none;
+  }
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  body {
+    background: #fff;
+  }
+  .print-page {
+    box-shadow: none !important;
+    border: none !important;
+  }
+  a {
+    text-decoration: none;
+  }
+  @page {
+    margin: 12mm;
+    size: letter;
+  }
+}
