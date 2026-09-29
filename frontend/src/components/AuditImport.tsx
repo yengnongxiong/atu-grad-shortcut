@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { loadPolicies, policyNumber } from '../api/policies'
 import type { PlanRequest, ProgramListItem } from '../api/types'
+import { versionsOf } from '../catalogYear'
 import { readPdfLines } from '../degreeworks/pdfLines'
 import { parseAudit } from '../degreeworks/parse'
 import { auditToProfile, type ProfileImport } from '../degreeworks/toProfile'
@@ -81,7 +82,19 @@ function Review({
   return (
     <section className="card space-y-4 p-4" aria-label="What Shortcut read from your audit">
       <h2 className="text-lg font-semibold">What Shortcut read</h2>
-      {program ? (
+      {program && result.programMatch === 'year_missing' ? (
+        <label className="block text-sm">
+          <span className="block">{program.listed_title}</span>
+          <span className="mt-2 block font-semibold">Catalog year</span>
+          <select aria-label="Catalog year" className="input mt-1 max-w-xs" value={programId} onChange={(e) => setProgramId(e.target.value)}>
+            {versionsOf(programs, programId).map((v) => (
+              <option key={v.id} value={v.id}>
+                {v.catalog_year} degree map
+              </option>
+            ))}
+          </select>
+        </label>
+      ) : program ? (
         <p className="text-sm">{`${program.listed_title} · ${program.catalog_year} catalog`}</p>
       ) : (
         <div className="space-y-2">

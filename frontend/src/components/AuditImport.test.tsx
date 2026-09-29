@@ -53,6 +53,19 @@ describe('AuditImport', () => {
     expect(screen.getByText('40 credits applied, per Degree Works')).toBeInTheDocument()
   })
 
+  it('lets the student pick a catalog year when the audit names one Shortcut lacks', async () => {
+    vi.mocked(readPdfLines).mockResolvedValueOnce(SAMPLE_AUDIT.map((line) => line.replace('Catalog year: 2025-2026', 'Catalog year: 2019-2020')))
+    const newer: ProgramListItem = { ...cs, id: 'computer-science-2026-27', catalog_year: '2026-27' }
+    const onApply = vi.fn()
+    render(<AuditImport programs={[cs, newer]} onApply={onApply} />)
+    await userEvent.upload(screen.getByLabelText(/Degree Works audit \(PDF\)/), pdf())
+    const year = await screen.findByRole('combobox', { name: 'Catalog year' })
+    expect(year).toHaveValue('computer-science-2026-27')
+    await userEvent.selectOptions(year, 'computer-science-2025-26')
+    await userEvent.click(screen.getByRole('button', { name: 'Use this record' }))
+    expect(onApply.mock.calls[0]?.[0].profile.program_id).toBe('computer-science-2025-26')
+  })
+
   it('applies the record as a plan request and hands back the audit', async () => {
     const onApply = vi.fn()
     render(<AuditImport programs={programs} onApply={onApply} />)
