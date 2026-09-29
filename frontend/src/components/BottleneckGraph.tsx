@@ -1,10 +1,19 @@
-import { Background, Controls, Handle, Position, ReactFlow, type Node, type NodeProps } from '@xyflow/react'
+import {
+  Background,
+  Controls,
+  Handle,
+  Position,
+  ReactFlow,
+  type Node,
+  type NodeProps,
+  type ReactFlowInstance,
+} from '@xyflow/react'
 import '@xyflow/react/dist/style.css'
-import { useMemo, useState } from 'react'
+import { useCallback, useMemo, useRef, useState } from 'react'
 import { api } from '../api/client'
 import type { DelayResponse, GraphNode, PlanRequest, PlanResponse, WhatIfResponse } from '../api/types'
 import { formatTerms } from '../format'
-import { layoutGraph, NODE_W, type CourseNodeData } from './graphLayout'
+import { layoutGraph, NODE_H, NODE_W, type CourseNodeData } from './graphLayout'
 import { CriticalIcon, ErrorBox, Spinner } from './ui'
 
 
@@ -46,9 +55,27 @@ export function BottleneckGraph({
   const [showIsolated, setShowIsolated] = useState(false)
   const [selected, setSelected] = useState<GraphNode | null>(null)
   const { nodes, edges } = useMemo(() => layoutGraph(plan, showIsolated), [plan, showIsolated])
-  const chain = plan.critical_path
-    .map((id) => plan.graph_nodes.find((n) => n.id === id))
-    .filter((n): n is GraphNode => Boolean(n))
+  const byId = useMemo(() => new Map(plan.graph_nodes.map((n) => [n.id, n])), [plan])
+  const chainIds = plan.critical_chain?.length ? plan.critical_chain : plan.critical_path
+  const chain = chainIds.map((id) => byId.get(id)).filter((n): n is GraphNode => Boolean(n))
+  const alsoCritical = plan.critical_path
+    .filter((id) => !chainIds.includes(id))
+    .map((id) => byId.get(id)?.label)
+    .filter(Boolean)
+  const wrapper = useRef<HTMLDivElement>(null)
+  // Open at the first term (not centred): the chain reads left to right from where it starts.
+  const openAtStart = useCallback(
+    (instance: ReactFlowInstance<Node<CourseNodeData>>) => {
+      if (nodes.length === 0) return
+      const width = wrapper.current?.clientWidth ?? 900
+      const height = wrapper.current?.clientHeight ?? 512
+      const graphW = Math.max(...nodes.map((n) => n.position.x)) + NODE_W
+      const graphH = Math.max(...nodes.map((n) => n.position.y)) + NODE_H
+      const zoom = Math.min(1.1, Math.max(0.6, Math.min((width - 32) / graphW, (height - 32) / graphH)))
+      void instance.setViewport({ x: 16, y: Math.max(16, (height - graphH * zoom) / 2), zoom })
+    },
+    [nodes],
+  )
 
   return (
     <div className="space-y-4">
@@ -66,16 +93,19 @@ export function BottleneckGraph({
       {chain.length > 0 && (
         <p className="rounded-lg border border-critical/40 bg-critical-soft px-3 py-2 text-sm text-critical">
           <CriticalIcon /> <strong>Critical chain:</strong> {chain.map((n) => `${n.label} (${n.term}, ${n.pattern || '—'})`).join(' → ')}
+          {alsoCritical.length > 0 && (
+            <span className="mt-1 block text-ink-soft">Also zero slack: {alsoCritical.join(', ')}</span>
+          )}
         </p>
       )}
       <div className="grid gap-4 lg:grid-cols-[1fr_20rem]">
-        <div className="h-[32rem] overflow-hidden rounded-xl border border-line bg-paper" aria-label="Prerequisite graph">
+        <div ref={wrapper} className="h-[32rem] overflow-hidden rounded-xl border border-line bg-paper" aria-label="Prerequisite graph">
           <ReactFlow
+            key={String(showIsolated)}
             nodes={nodes}
             edges={edges}
             nodeTypes={nodeTypes}
-            fitView
-            fitViewOptions={{ padding: 0.08, minZoom: 0.7, maxZoom: 1.1 }}
+            onInit={openAtStart}
             minZoom={0.25}
             nodesDraggable={false}
             nodesConnectable={false}

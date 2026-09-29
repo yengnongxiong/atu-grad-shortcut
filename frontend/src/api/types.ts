@@ -186,6 +186,7 @@ export interface PlanResponse {
   credited: CreditedCourse[]
   levers: LeverResult[]
   critical_path: string[]
+  critical_chain?: string[]
   graph_nodes: GraphNode[]
   graph_edges: GraphEdge[]
   warnings: PlanWarning[]

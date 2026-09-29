@@ -446,6 +446,7 @@ def assemble(ctx: PlanContext, full: Outcome, standard: Outcome, levers: list[Le
         credited=credited_list(ctx, full),
         levers=levers,
         critical_path=critical_path,
+        critical_chain=longest_chain(critical_path, edges, result.placements),
         graph_nodes=graph_nodes(ctx, full, slack, critical),
         graph_edges=[
             GraphEdge(
@@ -494,7 +495,7 @@ def pace_note(
     short_terms = any(offered_ok(i.offered[s], ctx.mode) for i in chain for s in ("SU", "WI"))
     if not enabled:
         return (
-            f"You're behind the degree map; at standard pace your date is set by a prerequisite chain: "
+            f"At standard pace your date is set by a prerequisite chain: "
             f"{' → '.join(steps)}. Turn on levers, or try the What-if tab, to test recovery options."
         )
     note = (

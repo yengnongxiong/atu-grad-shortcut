@@ -194,16 +194,18 @@ def _fmt(terms: float) -> str:
 def _chain_reason(after: DetailedPlan, event: WhatIfEvent) -> str:
     """Name the critical chain that now sets the date, if any."""
     response = after.response
-    if not response.critical_path:
+    if len(response.critical_chain) < 2:
         return ""
     labels = {n.id: (n.label, n.term, n.pattern) for n in response.graph_nodes}
-    chain = [labels[i] for i in response.critical_path if i in labels][:6]
+    chain = [labels[i] for i in response.critical_chain if i in labels][:6]
     parts = [f"{label} ({term}, offered {pattern or '—'})" for label, term, pattern in chain]
-    lead = (
-        "The retake starts a chain that now sets your date: "
-        if event.type == "fail"
-        else ("The chain that now sets your date: ")
-    )
+    lead = "The chain that now sets your date: "
+    if event.type == "fail" and event.code:
+        retake = next((t.label for t in response.terms for c in t.courses if c.code == event.code), None)
+        if chain and chain[0][0] == event.code:
+            lead = "The retake starts the chain that now sets your date: "
+        elif retake:
+            lead = f"You retake {event.code} in {retake}. The chain that now sets your date: "
     return lead + " → ".join(parts) + "."
 
 

@@ -197,6 +197,7 @@ class PlanResponse(BaseModel):
     credited: list[CreditedCourse]
     levers: list[LeverResult]
     critical_path: list[str]
+    critical_chain: list[str] = []  # longest prerequisite chain through critical items, in order
     graph_nodes: list[GraphNode]
     graph_edges: list[GraphEdge]
     warnings: list[Warning]
