@@ -9,7 +9,12 @@ export type TrustTier = 'cross_checked' | 'auto_imported' | 'needs_review'
 export interface CompletedCourse {
   code: string
   grade: Grade
-  source: 'atu' | 'transfer'
+  /** exam = credit by exam already on the record (a Degree Works "CE" row) */
+  source: 'atu' | 'transfer' | 'exam'
+  /** Hours from the student's record; omitted means the catalog's hours. */
+  hours?: number | null
+  /** The exam that awarded the credit, for display only. */
+  exam?: string | null
 }
 
 export interface ExamScore {
@@ -117,6 +122,7 @@ export interface LeverResult {
   approval: 'none' | 'advisor' | 'dean petition' | 'dean petition + Academic Affairs'
   workload: string
   note: string
+  policy_key?: string | null
 }
 
 export interface PlanWarning {
@@ -266,17 +272,27 @@ export interface PolicyOut {
   sources: SourceLink[]
 }
 
+export interface CatalogSnapshot {
+  title: string
+  url: string
+  catalog_edition: string
+  captured_at: string
+}
+
 export interface MetaResponse {
   generated_at: string
   pipeline_mode: string
   newest_catalog_year: string
+  catalog_years?: string[]
   catalog_status: string
   banner_status: string
   discovered_maps: number
   bachelor_programs: number
   tier_counts: Record<string, number>
+  tier_counts_by_year?: Record<string, Record<string, number>>
   course_count: number
   sources: SourceLink[]
+  catalog_snapshots?: CatalogSnapshot[]
   policies: PolicyOut[]
   assumptions: string[]
   exam_programs: Record<string, string>
@@ -293,6 +309,10 @@ export interface ProgramListItem {
   catalog_year: string
   trust_tier: TrustTier
   issues: string[]
+  /** The same major across catalog years */
+  major_key?: string
+  /** This major in newer catalogs */
+  successors?: string[]
 }
 
 export interface RequirementOut {
@@ -355,6 +375,8 @@ export interface ExamRow {
   min_score: number
   awards: string[][]
   award_hours: (number | null)[]
+  /** Credit that names no course, e.g. "3 hours General Education Humanities". */
+  generic_credit?: string | null
 }
 
 export interface ExamTable {

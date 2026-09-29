@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 import re
-from dataclasses import asdict, dataclass
+from dataclasses import asdict, dataclass, replace
 from pathlib import Path
 from urllib.parse import unquote, urljoin
 
@@ -17,6 +17,9 @@ PAGES_DIR = RAW_DIR / "pages"
 # 2025-26 Computer Science is the owner's catalog year and PRD Appendix A's ground truth.
 GROUND_TRUTH_YEAR = "2025-26"
 GROUND_TRUTH_FILE = "ComputerScience.pdf"
+# Students follow the map for the year they entered (catalog of entry), so every listed year
+# from this one on is ingested (PRD v1.1 §3.2). Older years are a documented non-goal.
+EARLIEST_CATALOG_YEAR = "2025-26"
 
 ASSOCIATE_MARKERS = ("(AS)", "(AAS)", "(AA)", "(ASNT)")
 
@@ -31,6 +34,8 @@ class MapRef:
     catalog_year: str
     filename: str
     listed_as_associate: bool
+    # Other titles the index links to this same PDF (an ATU index error, kept visible)
+    also_listed_as: tuple[str, ...] = ()
 
     def raw_path(self) -> Path:
         return RAW_DIR / "degree_maps" / self.catalog_year / self.filename
@@ -61,18 +66,22 @@ def parse_year_page(html: str, page_url: str, catalog_year: str) -> list[MapRef]
     """Extract every degree-map PDF link (in page order, duplicates kept once per title)."""
     soup = BeautifulSoup(html, "html.parser")
     refs: list[MapRef] = []
-    seen: set[tuple[str, str]] = set()
+    by_file: dict[str, int] = {}
     for a in soup.find_all("a", href=True):
         href = str(a["href"])
-        if "/degreemaps_docs/" not in href or not href.lower().endswith(".pdf"):
+        # Maps live under /advising/degreemaps_docs/<year>/, but ATU's index occasionally links
+        # one from /advising/degreemaps/ (2025-26 Management); both are degree maps.
+        if not re.search(r"/advising/degreemaps(_docs)?/", href) or not href.lower().endswith(".pdf"):
             continue
         title = re.sub(r"\s+", " ", a.get_text(" ", strip=True))
         url = urljoin(page_url, href)
         filename = unquote(url.rsplit("/", 1)[-1]).replace(" ", "")
-        key = (title, filename)
-        if key in seen:
+        if filename in by_file:  # the same PDF listed again: one map, remember the other title
+            first = refs[by_file[filename]]
+            if title != first.title and title not in first.also_listed_as:
+                refs[by_file[filename]] = replace(first, also_listed_as=(*first.also_listed_as, title))
             continue
-        seen.add(key)
+        by_file[filename] = len(refs)
         refs.append(
             MapRef(
                 program_id=program_id_for(filename, catalog_year),
@@ -94,30 +103,20 @@ def program_id_for(filename: str, catalog_year: str) -> str:
 
 
 def discover(fetcher: Fetcher) -> tuple[str, list[MapRef]]:
-    """Return (newest catalog year, map refs for newest year + 2025-26 CS ground truth)."""
+    """Return (newest catalog year, map refs for every year from EARLIEST_CATALOG_YEAR on)."""
     index_html = fetcher.get(ADVISING_INDEX_URL, PAGES_DIR / "advising-degreemaps.html").decode(
         "utf-8", errors="replace"
     )
     pages = year_pages(index_html)
     if not pages:
         raise RuntimeError("no degree-map year pages found on the advising index")
-    newest_short = max(pages)
-    newest = full_year(newest_short)
+    newest = full_year(max(pages))
     refs: list[MapRef] = []
-
-    newest_html = fetcher.get(pages[newest_short], PAGES_DIR / f"degreemaps-{newest_short}.html").decode(
-        "utf-8", errors="replace"
-    )
-    refs.extend(parse_year_page(newest_html, pages[newest_short], newest))
-
-    gt_short = GROUND_TRUTH_YEAR[2:]
-    if newest != GROUND_TRUTH_YEAR and gt_short in pages:
-        gt_html = fetcher.get(pages[gt_short], PAGES_DIR / f"degreemaps-{gt_short}.html").decode(
-            "utf-8", errors="replace"
-        )
-        refs.extend(
-            ref
-            for ref in parse_year_page(gt_html, pages[gt_short], GROUND_TRUTH_YEAR)
-            if ref.filename == GROUND_TRUTH_FILE
-        )
+    for short in sorted(pages, reverse=True):
+        year = full_year(short)
+        if year < EARLIEST_CATALOG_YEAR:
+            continue
+        raw = fetcher.get(pages[short], PAGES_DIR / f"degreemaps-{short}.html")
+        html = raw.decode("utf-8", errors="replace")
+        refs.extend(parse_year_page(html, pages[short], year))
     return newest, refs

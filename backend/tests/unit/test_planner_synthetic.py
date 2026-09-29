@@ -2,8 +2,11 @@
 
 from __future__ import annotations
 
+import json
+from dataclasses import replace
 from typing import Any
 
+from shortcut.planner.policies import Policies
 from shortcut.planner.service import plan_detailed
 from shortcut.planner.terms import Term
 from shortcut.schemas.plan import PlanRequest
@@ -387,3 +390,27 @@ def test_alternative_repeated_more_often_than_its_options_keeps_one_choice() -> 
     detail = plan_detailed(syn.dataset(courses, [syn.program(rows)]), request())
     planned = [c.code for t in detail.response.terms for c in t.courses if c.code]
     assert planned == ["ENS 1501"] * 4
+
+
+def test_warning_and_assumption_numbers_follow_policies() -> None:
+    courses = [syn.course(f"EXM {1000 + i}") for i in range(12)]
+    rows = [
+        {
+            "id": f"clep-{i}",
+            "program": "CLEP",
+            "exam": f"Exam {i}",
+            "min_score": 50,
+            "awards": [[f"EXM {1000 + 3 * i}", f"EXM {1001 + 3 * i}", f"EXM {1002 + 3 * i}"]],
+        }
+        for i in range(4)
+    ]
+    ds = syn.dataset(courses, [syn.program([syn.req(c["code"]) for c in courses])], rows)
+    raw = json.loads(json.dumps(syn.POLICIES.raw))
+    raw["rules"]["exam_credit_cap_hours"]["value"] = 24
+    raw["rules"]["standing_thresholds"]["value"]["JR"] = 45
+    ds = replace(ds, policies=Policies(raw))
+    exams = [{"program": "CLEP", "exam": f"Exam {i}", "score": 60} for i in range(4)]
+    response = plan_detailed(ds, request(profile={"exams": exams})).response
+    cap = next(w for w in response.warnings if w.id == "exam-cap")
+    assert "24-hour cap" in cap.message and "30" not in cap.message
+    assert any("junior standing (45 hours)" in a for a in response.assumptions)

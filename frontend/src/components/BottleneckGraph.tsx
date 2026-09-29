@@ -14,28 +14,26 @@ import { api } from '../api/client'
 import type { DelayResponse, GraphNode, PlanRequest, PlanResponse, WhatIfResponse } from '../api/types'
 import { formatTerms } from '../format'
 import { layoutGraph, NODE_H, NODE_W, type CourseNodeData } from './graphLayout'
-import { CriticalIcon, ErrorBox, Spinner } from './ui'
+import { catalogUrl } from '../catalog'
+import { ErrorBox, Spinner } from './ui'
 
 
 function CourseNode({ data, selected }: NodeProps<Node<CourseNodeData>>) {
   const node = data.node
   return (
     <div
-      className={`rounded-lg border-2 bg-surface px-2.5 py-1.5 text-left shadow-sm ${
-        node.critical ? 'border-critical' : 'border-line-strong'
-      } ${selected ? 'ring-2 ring-ink' : ''}`}
+      className={`rounded-md bg-surface px-2.5 py-1.5 text-left ${
+        node.critical ? 'border-2 border-ink' : 'border border-line-strong'
+      } ${selected ? 'outline outline-2 outline-ink' : ''}`}
       style={{ width: NODE_W }}
     >
       <Handle type="target" position={Position.Left} className="!h-2 !w-2 !border-0 !bg-line-strong" />
-      <div className="flex items-center gap-1 text-[0.78rem] font-semibold">
-        {node.critical && <CriticalIcon className="text-critical" />}
-        <span className="truncate">{node.label}</span>
-      </div>
+      <div className="truncate text-[0.78rem] font-semibold">{node.label}</div>
       <div className="mt-0.5 flex items-center justify-between text-[0.68rem] text-muted">
         <span>{node.term}</span>
         <span title="Offered">{node.pattern || '—'}</span>
       </div>
-      <div className={`text-[0.68rem] font-semibold ${node.critical ? 'text-critical' : 'text-saved'}`}>
+      <div className={`text-[0.68rem] ${node.critical ? 'font-semibold text-ink' : 'text-muted'}`}>
         {node.critical ? 'Critical · 0 slack' : `Slack ${formatTerms(node.slack)}`}
       </div>
       <Handle type="source" position={Position.Right} className="!h-2 !w-2 !border-0 !bg-line-strong" />
@@ -81,7 +79,7 @@ export function BottleneckGraph({
     <div className="space-y-4">
       <div className="flex flex-wrap items-center justify-between gap-3">
         <p className="max-w-3xl text-sm text-ink-soft">
-          Remaining courses laid out by term. <span className="font-semibold text-critical">◆ Critical</span> courses have zero{' '}
+          Remaining courses laid out by term. <strong>Critical</strong> courses (bold border) have zero{' '}
           <em>prerequisite slack</em> (it ignores hour caps): delaying one delays graduation. Click a course to test it with a true
           re-solve.
         </p>
@@ -91,15 +89,15 @@ export function BottleneckGraph({
         </label>
       </div>
       {chain.length > 0 && (
-        <p className="rounded-lg border border-critical/40 bg-critical-soft px-3 py-2 text-sm text-critical">
-          <CriticalIcon /> <strong>Critical chain:</strong> {chain.map((n) => `${n.label} (${n.term}, ${n.pattern || '—'})`).join(' → ')}
+        <p className="rounded-md border border-ink px-3 py-2 text-sm">
+          <strong>Critical chain:</strong> {chain.map((n) => `${n.label} (${n.term}, ${n.pattern || '—'})`).join(' → ')}
           {alsoCritical.length > 0 && (
             <span className="mt-1 block text-ink-soft">Also zero slack: {alsoCritical.join(', ')}</span>
           )}
         </p>
       )}
       <div className="grid gap-4 lg:grid-cols-[1fr_20rem]">
-        <div ref={wrapper} className="h-[32rem] overflow-hidden rounded-xl border border-line bg-paper" aria-label="Prerequisite graph">
+        <div ref={wrapper} className="h-[32rem] overflow-hidden rounded-md border border-line bg-paper" aria-label="Prerequisite graph">
           <ReactFlow
             key={String(showIsolated)}
             nodes={nodes}
@@ -112,7 +110,7 @@ export function BottleneckGraph({
             onNodeClick={(_, node) => setSelected((node.data as CourseNodeData).node)}
             proOptions={{ hideAttribution: true }}
           >
-            <Background gap={24} color="#e2dcd1" />
+            <Background gap={24} color="#e5e5e5" />
             <Controls showInteractive={false} />
           </ReactFlow>
         </div>
@@ -122,7 +120,7 @@ export function BottleneckGraph({
   )
 }
 
-function CourseActions({
+export function CourseActions({
   node,
   request,
   nodes,
@@ -173,8 +171,7 @@ function CourseActions({
           <option value="">Pick a course…</option>
           {nodes.map((n) => (
             <option key={n.id} value={n.id}>
-              {n.critical ? '◆ ' : ''}
-              {n.label} ({n.term})
+              {n.label} ({n.term}){n.critical ? ' · critical' : ''}
             </option>
           ))}
         </select>
@@ -188,6 +185,13 @@ function CourseActions({
               {node.term} · offered {node.pattern || '—'} · {node.critical ? 'critical' : `slack ${formatTerms(node.slack)}`}
             </span>
           </p>
+          {isCourse && (
+            <p>
+              <a href={catalogUrl(code)} target="_blank" rel="noreferrer" aria-label={`View ${code} in the ATU catalog`}>
+                View in the ATU catalog
+              </a>
+            </p>
+          )}
           <div className="flex flex-wrap gap-2">
             <button type="button" className="btn-secondary" disabled={busy !== null} onClick={() => void run('delay')}>
               What if I delay this one term?
@@ -201,12 +205,12 @@ function CourseActions({
           {busy && <Spinner label="Re-solving…" />}
           {error && <ErrorBox message={error} />}
           {delay && delay.item_id === node.id && (
-            <p className={`rounded-md p-2 ${delay.terms_later && delay.terms_later > 0 ? 'bg-critical-soft text-critical' : 'bg-saved-soft text-saved'}`}>
+            <p className={`rounded-md p-2 ${delay.terms_later && delay.terms_later > 0 ? 'border border-ink font-medium' : 'border border-line'}`}>
               {delay.explanation}
             </p>
           )}
           {fail && fail.event.code === code && (
-            <p className={`rounded-md p-2 ${fail.terms_later && fail.terms_later > 0 ? 'bg-critical-soft text-critical' : 'bg-saved-soft text-saved'}`}>
+            <p className={`rounded-md p-2 ${fail.terms_later && fail.terms_later > 0 ? 'border border-ink font-medium' : 'border border-line'}`}>
               {fail.explanation}
             </p>
           )}

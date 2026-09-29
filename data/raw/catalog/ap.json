@@ -1,0 +1,295 @@
+{
+ "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+ "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+ "catalog_edition": "2026-2027",
+ "captured_at": "2026-09-29",
+ "method": "Opened in a regular browser session; table cells and paragraphs copied verbatim (innerText, whitespace collapsed).",
+ "paragraphs": [
+  "Institutional credit may be awarded to students who participated in the College Board's Advanced Placement (AP) Program and earn qualifying AP examination scores as established by Arkansas Tech University.",
+  "The following AP examinations are accepted by Arkansas Tech University, along with the qualifying score and credit awarded."
+ ],
+ "tables": [
+  [
+   [
+    "AP Examination",
+    "Qualifying Score",
+    "Credit Awarded"
+   ],
+   [
+    "African American Studies",
+    "3",
+    "3 hours General Education Humanities"
+   ],
+   [
+    "Art History",
+    "3",
+    "ART 2123"
+   ],
+   [
+    "Biology",
+    "3",
+    "BIOL 1014"
+   ],
+   [
+    "Biology",
+    "4",
+    "BIOL 1114"
+   ],
+   [
+    "Business w/Personal Finance",
+    "3",
+    "FIN 2013"
+   ],
+   [
+    "Calculus AB",
+    "3",
+    "MATH 2914"
+   ],
+   [
+    "Calculus BC (AB Subscore)",
+    "3",
+    "MATH 2914"
+   ],
+   [
+    "Calculus BC",
+    "3",
+    "MATH 2914 & MATH 2924"
+   ],
+   [
+    "Capstone: Research",
+    "3",
+    "3 hours General Elective"
+   ],
+   [
+    "Capstone: Seminar",
+    "3",
+    "3 hours General Elective"
+   ],
+   [
+    "Chemistry",
+    "3",
+    "CHEM 1113, CHEM 1111, & CHEM 2204, or CHEM 2124 & CHEM 2134"
+   ],
+   [
+    "Chinese Language & Culture",
+    "3",
+    "3 hours General Education Humanities"
+   ],
+   [
+    "Computer Science Principles",
+    "3",
+    "COMS 1403 & COMS 1411"
+   ],
+   [
+    "Computer Science A",
+    "3",
+    "COMS 1013 & COMS 1011"
+   ],
+   [
+    "Computer Science A",
+    "4",
+    "COMS 1013, COMS 1011, & COMS 2203"
+   ],
+   [
+    "Cybersecurity",
+    "3",
+    "CSEC 1003"
+   ],
+   [
+    "English Lang/Comp or Lit/Comp",
+    "3",
+    "ENGL 1013"
+   ],
+   [
+    "English Lang/Comp or Lit/Comp",
+    "4",
+    "ENGL 1013 & ENGL 1053"
+   ],
+   [
+    "English Lang/Comp or Lit/Comp",
+    "5",
+    "ENGL 1043 & ENGL 1053"
+   ],
+   [
+    "Environmental Science",
+    "3",
+    "BIOL 1004 or ENVS 1004"
+   ],
+   [
+    "European History",
+    "3",
+    "3 hours General Elective"
+   ],
+   [
+    "French Language",
+    "3",
+    "FR 2013"
+   ],
+   [
+    "German Language",
+    "3",
+    "GER 2013"
+   ],
+   [
+    "Government & Politics: Comparative",
+    "3",
+    "POLS 2403"
+   ],
+   [
+    "Government & Politics: US",
+    "3",
+    "POLS 2003"
+   ],
+   [
+    "Human Geography",
+    "3",
+    "GEOG 2023"
+   ],
+   [
+    "Italian Language & Culture",
+    "3",
+    "3 hours General Education Humanities"
+   ],
+   [
+    "Japanese Language & Culture",
+    "3",
+    "JPN 2013"
+   ],
+   [
+    "Latin",
+    "3",
+    "LAT 1013"
+   ],
+   [
+    "Macroeconomics",
+    "3",
+    "ECON 2003"
+   ],
+   [
+    "Macroeconomics",
+    "5",
+    "ECON 2103"
+   ],
+   [
+    "Microeconomics",
+    "3",
+    "ECON 2013"
+   ],
+   [
+    "Music Theory",
+    "3",
+    "MUS 2003"
+   ],
+   [
+    "Music Theory",
+    "4",
+    "MUS 2003 & MUS 1713"
+   ],
+   [
+    "Networking",
+    "3",
+    "CSEC 1113"
+   ],
+   [
+    "Physics B",
+    "3",
+    "PHYS 2014 & PHYS 2024"
+   ],
+   [
+    "Physics C: Electricity & Magnetism",
+    "3",
+    "PHYS 2024"
+   ],
+   [
+    "Physics C: Electricity & Magnetism",
+    "4",
+    "PHYS 2124"
+   ],
+   [
+    "Physics C: Mechanics",
+    "3",
+    "PHYS 2014"
+   ],
+   [
+    "Physics C: Mechanics",
+    "4",
+    "PHYS 2114"
+   ],
+   [
+    "Physics C: Mechanics",
+    "5",
+    "PHYS 2914"
+   ],
+   [
+    "Physics 1",
+    "3",
+    "PHYS 2014"
+   ],
+   [
+    "Physics 2",
+    "3",
+    "PHYS 2024"
+   ],
+   [
+    "Pre-Calculus",
+    "3",
+    "MATH 1914"
+   ],
+   [
+    "Psychology",
+    "3",
+    "PSY 2003"
+   ],
+   [
+    "Spanish Language",
+    "3",
+    "SPAN 2013"
+   ],
+   [
+    "Spanish Literature",
+    "3",
+    "3 hours General Elective"
+   ],
+   [
+    "Statistics",
+    "3",
+    "STAT 2163"
+   ],
+   [
+    "Studio Art Design 2-D",
+    "3",
+    "ART 1403"
+   ],
+   [
+    "Studio Art Design 3-D",
+    "3",
+    "ART 2413"
+   ],
+   [
+    "Studio Art Drawing",
+    "3",
+    "ART 1303"
+   ],
+   [
+    "United States History",
+    "3",
+    "HIST 2003 & HIST 2013"
+   ],
+   [
+    "United States History",
+    "5",
+    "HIST 2043 & HIST 2013"
+   ],
+   [
+    "World History",
+    "3",
+    "HIST 1503 & HIST 1513"
+   ],
+   [
+    "World History",
+    "5",
+    "HIST 1543 & HIST 1513"
+   ]
+  ]
+ ]
+}

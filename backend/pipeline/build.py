@@ -17,6 +17,8 @@ from typing import Any
 import httpx
 
 from pipeline.banner import BannerClient
+from pipeline.catalog_tables import snapshot_sources
+from pipeline.catalog_years import link_catalog_years
 from pipeline.codes import code_groups, extract_codes, strip_acts
 from pipeline.common import (
     MANUAL_DIR,
@@ -33,12 +35,13 @@ from pipeline.enrich_catalog import (
     CourseBuildContext,
     MapNote,
     build_course,
+    build_course_index,
     load_banner_raw,
     notes_for_row,
     prerequisite_closure,
     prune_retired,
 )
-from pipeline.exams import build_exam_tables
+from pipeline.exams import CATALOG_DIR, build_exam_tables, exam_codes
 from pipeline.fetch_banner import fetch_all
 from pipeline.parse_degree_map import ParsedMap, parse_degree_map
 from pipeline.programs import ProgramContext, build_program, list_category
@@ -167,13 +170,7 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         math_act_min=int(rules["math_placement_act_min"]["value"]),
         appendix_a=appendix_a_courses(),
     )
-    exam_codes = {
-        c
-        for row in read_json(MANUAL_DIR / "clep_appendix_b.json")["equivalencies"]
-        for option in row["awards"]
-        for c in option
-    }
-    wanted = set(seeds) | exam_codes | set(ctx.appendix_a) | set(rules["math_ladder"]["value"])
+    wanted = set(seeds) | exam_codes() | set(ctx.appendix_a) | set(rules["math_ladder"]["value"])
     wanted |= {c for c in banner.details}
     courses = {code: build_course(code, ctx) for code in sorted(wanted)}
     closure = prerequisite_closure(set(courses), courses)
@@ -240,26 +237,38 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         programs.append(program)
         report_rows.append(_report_row(ref, program, tier, results, ""))
 
+    link_catalog_years(programs, read_json(MANUAL_DIR / "catalog_successors.json")["successors"])
     exams = build_exam_tables(courses)
     tier_counts = Counter(r["tier"] for r in report_rows)
     meta = {
         "generated_at": utc_now_iso(),
         "pipeline_mode": stats.mode,
         "newest_catalog_year": newest,
+        "catalog_years": sorted({ref.catalog_year for ref in refs}),
         "ground_truth_program": "computer-science-2025-26",
         "catalog_status": stats.catalog_status,
         "banner_status": stats.banner_status,
         "discovered_maps": len(refs),
         "bachelor_programs": len(programs),
         "tier_counts": dict(tier_counts),
+        "tier_counts_by_year": tier_counts_by_year(report_rows),
         "course_count": len(courses),
         "supporting_pages": pages_status,
         "sources": _meta_sources(),
+        "catalog_snapshots": snapshot_sources(CATALOG_DIR),
     }
 
-    _write_outputs(programs, courses, exams, policies, meta)
+    _write_outputs(programs, courses, build_course_index(banner.catalog), exams, policies, meta)
     write_report(meta, report_rows, programs, courses, parsed)
     return meta
+
+
+def tier_counts_by_year(report_rows: list[dict[str, Any]]) -> dict[str, dict[str, int]]:
+    """Trust-tier counts for each catalog year's maps (excluded maps included)."""
+    by_year: dict[str, Counter[str]] = {}
+    for row in report_rows:
+        by_year.setdefault(row["catalog_year"], Counter())[row["tier"]] += 1
+    return {year: dict(counts) for year, counts in sorted(by_year.items())}
 
 
 def _report_row(
@@ -267,6 +276,7 @@ def _report_row(
 ) -> dict[str, Any]:
     issues = [f"{r['check']}: {r['detail']}" for r in results if not r["passed"]]
     warnings = [f"{r['check']}: {r['detail']}" for r in results if r["passed"] and r["detail"]]
+    warnings += [f"ATU's index also links “{title}” to this map" for title in ref.also_listed_as]
     return {
         "program_id": ref.program_id,
         "title": ref.title,
@@ -306,6 +316,7 @@ def _meta_sources() -> list[dict[str, str]]:
 def _write_outputs(
     programs: list[dict[str, Any]],
     courses: dict[str, dict[str, Any]],
+    course_index: dict[str, dict[str, Any]],
     exams: dict[str, dict[str, Any]],
     policies: dict[str, Any],
     meta: dict[str, Any],
@@ -316,6 +327,7 @@ def _write_outputs(
     for program in programs:
         write_json(programs_dir / f"{program['id']}.json", program)
     write_json(PROCESSED_DIR / "courses.json", courses)
+    write_json(PROCESSED_DIR / "course_index.json", course_index)
     for name, table in exams.items():
         write_json(PROCESSED_DIR / "exams" / f"{name}.json", table)
     write_json(PROCESSED_DIR / "policies.json", policies)

@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react'
 import { api } from '../api/client'
+import { policyNumber, usePolicies } from '../api/policies'
 import type {
-  CompletedCourse,
   ExamTable,
   Grade,
   PlanRequest,
@@ -9,8 +9,12 @@ import type {
   ProgramListItem,
   StudentProfile,
 } from '../api/types'
+import { catalogYearFor, versionFor, versionsOf } from '../catalogYear'
+import { ExamEntry } from '../components/ExamEntry'
+import { OtherCourses } from '../components/OtherCourses'
 import { ProgramPicker } from '../components/ProgramPicker'
-import { ErrorBox, Spinner, TrustBadge } from '../components/ui'
+import { ErrorBox, PolicyLink, Spinner, TrustBadge } from '../components/ui'
+import { navigate } from '../router'
 import { defaultRequest, termOptions } from '../state/profile'
 
 const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F', 'P']
@@ -69,6 +73,19 @@ export function Setup({
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
       <p className="eyebrow">Setup</p>
       <h1 className="mt-1 text-4xl font-semibold">Tell Shortcut where you are now</h1>
+      <p className="mt-2 text-sm text-ink-soft">
+        Have your Degree Works audit?{' '}
+        <a
+          href="/import"
+          onClick={(event) => {
+            event.preventDefault()
+            navigate('import')
+          }}
+        >
+          Import it instead
+        </a>{' '}
+        and skip typing your courses.
+      </p>
       <ol className="mt-6 flex flex-wrap gap-2" aria-label="Setup steps">
         {STEPS.map((label, index) => (
           <li key={label}>
@@ -76,7 +93,7 @@ export function Setup({
               type="button"
               onClick={() => (index === 0 || profile.program_id ? setStep(index) : undefined)}
               aria-current={index === step ? 'step' : undefined}
-              className={`rounded-full border px-3 py-1 text-sm font-medium ${
+              className={`rounded-md border px-3 py-1 text-sm font-medium ${
                 index === step ? 'border-ink bg-ink text-paper' : 'border-line-strong bg-surface text-ink-soft'
               }`}
             >
@@ -120,7 +137,7 @@ export function Setup({
   )
 }
 
-function StepMajor({
+export function StepMajor({
   profile,
   programs,
   detail,
@@ -133,6 +150,8 @@ function StepMajor({
 }) {
   const terms = useMemo(() => termOptions(2023, 2030), [])
   const selected = programs.find((p) => p.id === profile.program_id)
+  const versions = versionsOf(programs, profile.program_id)
+  const entryYear = catalogYearFor(profile.first_term)
   return (
     <div className="space-y-6">
       <div>
@@ -144,13 +163,41 @@ function StepMajor({
           </p>
         )}
         <div className="mt-3">
-          <ProgramPicker programs={programs} value={profile.program_id} onSelect={(p) => update({ program_id: p.id, completed: [], in_progress: [] })} />
+          <ProgramPicker
+            programs={programs}
+            value={profile.program_id}
+            preferredYear={entryYear}
+            onSelect={(p) => update({ program_id: p.id, completed: [], in_progress: [] })}
+          />
         </div>
       </div>
+      {versions.length > 1 && (
+        <label className="block text-sm">
+          <span className="font-semibold">Catalog year</span>
+          <select aria-label="Catalog year" className="input mt-1 max-w-xs" value={profile.program_id} onChange={(e) => update({ program_id: e.target.value })}>
+            {versions.map((v) => (
+              <option key={v.id} value={v.id}>
+                {v.catalog_year} degree map{v.catalog_year === entryYear ? ' (the year you started)' : ''}
+              </option>
+            ))}
+          </select>
+          <span className="mt-1 block text-xs text-muted">
+            Use the map for the year you started. Your catalog year is on your Degree Works audit. ATU lets you graduate under that catalog or any
+            later one, with your department head’s and dean’s approval.
+          </span>
+        </label>
+      )}
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm">
           <span className="font-semibold">First term at ATU</span>
-          <select className="input mt-1" value={profile.first_term} onChange={(e) => update({ first_term: e.target.value })}>
+          <select
+            aria-label="First term at ATU"
+            className="input mt-1"
+            value={profile.first_term}
+            onChange={(e) =>
+              update({ first_term: e.target.value, program_id: versionFor(programs, profile.program_id, catalogYearFor(e.target.value)) })
+            }
+          >
             {terms.map((t) => (
               <option key={t.id} value={t.id}>
                 {t.label}
@@ -255,9 +302,9 @@ function StepCredit({
         {detailError && <ErrorBox message={detailError} />}
         {!detail && !detailError && <Spinner label="Loading the program…" />}
         {detail && (
-          <div className="mt-3 max-h-[26rem] overflow-y-auto rounded-lg border border-line">
+          <div className="mt-3 max-h-[26rem] overflow-y-auto rounded-md border border-line">
             <table className="w-full text-sm">
-              <thead className="sticky top-0 bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
+              <thead className="sticky top-0 border-b border-line bg-surface text-left text-xs uppercase tracking-wide text-muted">
                 <tr>
                   <th className="px-3 py-2">Course</th>
                   <th className="px-3 py-2">Status</th>
@@ -315,144 +362,39 @@ function StepCredit({
   )
 }
 
-function OtherCourses({ others, onChange }: { others: CompletedCourse[]; onChange: (rows: CompletedCourse[]) => void }) {
-  const [code, setCode] = useState('')
-  const [grade, setGrade] = useState<Grade>('B')
-  const [source, setSource] = useState<'atu' | 'transfer'>('transfer')
-  const valid = /^[A-Za-z]{2,5}\s?-?\d{4}$/.test(code.trim())
-  const add = () => {
-    if (!valid) return
-    const normalized = code.trim().toUpperCase().replace(/[-\s]+/, ' ').replace(/^([A-Z]+)(\d)/, '$1 $2')
-    onChange([...others.filter((o) => o.code !== normalized), { code: normalized, grade, source }])
-    setCode('')
-  }
-  return (
-    <div>
-      <h2 className="text-xl font-semibold">Gen-eds, electives & transfer credit</h2>
-      <p className="text-sm text-muted">Enter by ATU-equivalent code (e.g. HIST 2003). Transfer and dual credit count toward total hours, not ATU residency.</p>
-      <div className="mt-3 flex flex-wrap items-end gap-2">
-        <label className="text-sm">
-          <span className="block font-semibold">Course code</span>
-          <input className="input mt-1 w-36" value={code} placeholder="HIST 2003" onChange={(e) => setCode(e.target.value)} onKeyDown={(e) => e.key === 'Enter' && add()} />
-        </label>
-        <label className="text-sm">
-          <span className="block font-semibold">Grade</span>
-          <select className="input mt-1 w-20" value={grade} onChange={(e) => setGrade(e.target.value as Grade)}>
-            {GRADES.map((g) => (
-              <option key={g}>{g}</option>
-            ))}
-          </select>
-        </label>
-        <label className="text-sm">
-          <span className="block font-semibold">Where</span>
-          <select className="input mt-1 w-52" value={source} onChange={(e) => setSource(e.target.value as 'atu' | 'transfer')}>
-            <option value="transfer">Transfer / dual credit</option>
-            <option value="atu">At ATU</option>
-          </select>
-        </label>
-        <button type="button" className="btn-secondary" disabled={!valid} onClick={add}>
-          Add course
-        </button>
-      </div>
-      {others.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
-          {others.map((o) => (
-            <li key={o.code} className="flex items-center gap-2 rounded-md border border-line bg-paper px-2 py-1 text-sm">
-              <span className="font-mono text-xs font-semibold">{o.code}</span>
-              <span className="text-muted">
-                {o.grade} · {o.source === 'transfer' ? 'transfer' : 'ATU'}
-              </span>
-              <button type="button" className="text-muted hover:text-ink" aria-label={`Remove ${o.code}`} onClick={() => onChange(others.filter((x) => x.code !== o.code))}>
-                ×
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  )
-}
-
-function ExamEntry({ profile, exams, update }: { profile: StudentProfile; exams: ExamTable[]; update: (patch: Partial<StudentProfile>) => void }) {
-  const clep = exams.find((t) => t.program === 'CLEP')
-  const names = useMemo(() => [...new Set(clep?.equivalencies.map((e) => e.exam) ?? [])].sort(), [clep])
-  const [exam, setExam] = useState('')
-  const [score, setScore] = useState('')
-  const unavailable = exams.filter((t) => t.status !== 'available').map((t) => t.program)
-  const add = () => {
-    if (!exam || !score) return
-    const rest = profile.exams.filter((e) => e.exam !== exam)
-    update({ exams: [...rest, { program: 'CLEP', exam, score: Number(score) }] })
-    setExam('')
-    setScore('')
-  }
-  const tiers = clep?.equivalencies.filter((e) => e.exam === exam) ?? []
-  return (
-    <div>
-      <h2 className="text-xl font-semibold">Exam credit</h2>
-      <p className="text-sm text-muted">
-        Scores map through ATU’s CLEP table.{' '}
-        {unavailable.length > 0 && `${unavailable.join(' and ')} tables aren’t available yet, so they can’t be auto-mapped.`}
-      </p>
-      <div className="mt-3 flex flex-wrap items-end gap-2">
-        <label className="text-sm">
-          <span className="block font-semibold">CLEP exam</span>
-          <select className="input mt-1 w-72" value={exam} onChange={(e) => setExam(e.target.value)}>
-            <option value="">Choose an exam…</option>
-            {names.map((n) => (
-              <option key={n}>{n}</option>
-            ))}
-          </select>
-        </label>
-        <label className="text-sm">
-          <span className="block font-semibold">Score</span>
-          <input type="number" min={20} max={80} className="input mt-1 w-24" value={score} onChange={(e) => setScore(e.target.value)} />
-        </label>
-        <button type="button" className="btn-secondary" disabled={!exam || !score} onClick={add}>
-          Add exam
-        </button>
-      </div>
-      {tiers.length > 0 && (
-        <p className="mt-2 text-xs text-muted">
-          {tiers.map((t) => `${t.min_score}+ → ${t.awards.map((a) => a.join(' & ')).join(' or ')}`).join(' · ')}
-        </p>
-      )}
-      {profile.exams.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
-          {profile.exams.map((e) => (
-            <li key={e.exam} className="flex items-center gap-2 rounded-md border border-line bg-paper px-2 py-1 text-sm">
-              <span className="font-semibold">{e.program}</span> {e.exam}: {e.score}
-              <button type="button" className="text-muted hover:text-ink" aria-label={`Remove ${e.exam}`} onClick={() => update({ exams: profile.exams.filter((x) => x.exam !== e.exam) })}>
-                ×
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  )
-}
-
-function StepPreferences({ profile, update }: { profile: StudentProfile; update: (patch: Partial<StudentProfile>) => void }) {
+export function StepPreferences({ profile, update }: { profile: StudentProfile; update: (patch: Partial<StudentProfile>) => void }) {
   const prefs = profile.preferences
   const setPrefs = (patch: Partial<StudentProfile['preferences']>) => update({ preferences: { ...prefs, ...patch } })
+  const policies = usePolicies()
+  const standard = policyNumber(policies, 'preferred_hours_default')
+  const regularMax = policyNumber(policies, 'regular_load_max')
+  const range = regularMax === null ? [] : Array.from({ length: Math.max(0, regularMax - 11) }, (_, i) => 12 + i)
+  const current = prefs.preferred_hours
+  const loads = current === null || range.length === 0 || range.includes(current) ? range : [...range, current].sort((a, b) => a - b)
   return (
     <div className="space-y-6">
       <label className="block text-sm">
-        <span className="font-semibold">Preferred maximum hours per fall/spring term</span>
+        <span className="block font-semibold">Preferred maximum hours per fall/spring term</span>
         <select
           className="input mt-1 max-w-48"
-          value={prefs.preferred_hours ?? ''}
-          onChange={(e) => setPrefs({ preferred_hours: e.target.value ? Number(e.target.value) : null })}
+          value={prefs.preferred_hours ?? standard ?? ''}
+          disabled={standard === null}
+          onChange={(e) => {
+            const hours = Number(e.target.value)
+            setPrefs({ preferred_hours: hours === standard ? null : hours })
+          }}
         >
-          <option value="">16 (default)</option>
-          {[12, 13, 14, 15, 16, 17, 18].map((h) => (
+          {standard === null && <option value="">Loading…</option>}
+          {loads.map((h) => (
             <option key={h} value={h}>
-              {h}
+              {h === standard ? `${String(h)} (default)` : h}
             </option>
           ))}
         </select>
-        <span className="mt-1 block text-xs text-muted">This defines “standard pace”. Heavier terms and overloads are separate levers on the plan.</span>
+        <span className="mt-1 block text-xs text-muted">
+          This defines “standard pace” (default <PolicyLink policies={policies} name="preferred_hours_default" /> hours). Heavier terms and
+          overloads are separate levers on the plan.
+        </span>
       </label>
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm">
@@ -470,8 +412,13 @@ function StepPreferences({ profile, update }: { profile: StudentProfile; update:
         <label className="mt-6 flex items-start gap-3 text-sm">
           <input type="checkbox" className="mt-1 h-4 w-4" checked={prefs.expect_high_gpa} onChange={(e) => setPrefs({ expect_high_gpa: e.target.checked })} />
           <span>
-            <span className="font-semibold">I expect to keep a 3.25+ GPA</span>
-            <span className="block text-xs text-muted">Needed for overloads (19+ hours), which also need a dean’s petition.</span>
+            <span className="font-semibold">
+              I expect to keep a <PolicyLink policies={policies} name="overload_gpa_min" format={(v) => v.toFixed(2)} />+ GPA
+            </span>
+            <span className="block text-xs text-muted">
+              Needed for overloads (more than <PolicyLink policies={policies} name="regular_load_max" /> hours), which also need a dean’s
+              petition.
+            </span>
           </span>
         </label>
       </div>
@@ -479,7 +426,7 @@ function StepPreferences({ profile, update }: { profile: StudentProfile; update:
         <legend className="text-sm font-semibold">Summer & winter availability</legend>
         <div className="mt-2 grid gap-3 sm:grid-cols-2">
           {(['conservative', 'optimistic'] as const).map((mode) => (
-            <label key={mode} className={`card flex cursor-pointer items-start gap-3 p-3 text-sm ${prefs.mode === mode ? 'ring-2 ring-ink' : ''}`}>
+            <label key={mode} className={`card flex cursor-pointer items-start gap-3 p-3 text-sm ${prefs.mode === mode ? 'outline outline-2 outline-ink' : ''}`}>
               <input type="radio" name="mode" className="mt-1" checked={prefs.mode === mode} onChange={() => setPrefs({ mode })} />
               <span>
                 <span className="font-semibold capitalize">{mode}</span>

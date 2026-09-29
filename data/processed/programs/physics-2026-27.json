@@ -1886,5 +1886,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "physics",
+  "successors": []
 }

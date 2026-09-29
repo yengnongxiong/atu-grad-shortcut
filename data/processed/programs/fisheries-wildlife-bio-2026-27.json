@@ -1463,7 +1463,7 @@
       "check": "offering_flags_agree",
       "passed": false,
       "severity": "warning",
-      "detail": "FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670)"
+      "detail": "FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670)"
     },
     {
       "check": "buckets_nonempty",
@@ -1871,5 +1871,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "fisheries-wildlife-bio",
+  "successors": []
 }

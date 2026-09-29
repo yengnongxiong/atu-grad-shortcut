@@ -1,0 +1,9034 @@
+{
+  "ACCT 2000": {
+    "title": "Accounting Principles I Lab",
+    "hours": 0.0
+  },
+  "ACCT 2004": {
+    "title": "Accounting Principles I",
+    "hours": 4.0
+  },
+  "ACCT 2013": {
+    "title": "Accounting Principles II",
+    "hours": 3.0
+  },
+  "ACCT 2033": {
+    "title": "Fundamental Accounting Concepts",
+    "hours": 3.0
+  },
+  "ACCT 3003": {
+    "title": "Intermediate Accounting I",
+    "hours": 3.0
+  },
+  "ACCT 3013": {
+    "title": "Intermediate Accounting II",
+    "hours": 3.0
+  },
+  "ACCT 3023": {
+    "title": "Accounting Information Systems",
+    "hours": 3.0
+  },
+  "ACCT 3043": {
+    "title": "Federal Taxes I",
+    "hours": 3.0
+  },
+  "ACCT 3053": {
+    "title": "Federal Taxes II",
+    "hours": 3.0
+  },
+  "ACCT 4003": {
+    "title": "Advanced Accounting I",
+    "hours": 3.0
+  },
+  "ACCT 4013": {
+    "title": "Advanced Accounting II",
+    "hours": 3.0
+  },
+  "ACCT 4023": {
+    "title": "Cost Accounting",
+    "hours": 3.0
+  },
+  "ACCT 4033": {
+    "title": "Auditing",
+    "hours": 3.0
+  },
+  "ACCT 4083": {
+    "title": "Internship in Accounting",
+    "hours": 3.0
+  },
+  "ACCT 4086": {
+    "title": "Internship in Accounting",
+    "hours": 6.0
+  },
+  "ACCT 4093": {
+    "title": "Governmental Accounting",
+    "hours": 3.0
+  },
+  "ACCT 4103": {
+    "title": "Special Topics in Accounting",
+    "hours": 3.0
+  },
+  "ACCT 6093": {
+    "title": "Special Topics in Accounting",
+    "hours": 3.0
+  },
+  "ACCT 6103": {
+    "title": "Accounting Analysis",
+    "hours": 3.0
+  },
+  "AGAS 1001": {
+    "title": "Principles of Animal Science Laboratory",
+    "hours": 1.0
+  },
+  "AGAS 1014": {
+    "title": "Principles of Animal Science",
+    "hours": 4.0
+  },
+  "AGAS 2014": {
+    "title": "Principles of Meat Science",
+    "hours": 4.0
+  },
+  "AGAS 2084": {
+    "title": "Feeds and Feeding",
+    "hours": 4.0
+  },
+  "AGAS 3004": {
+    "title": "Reproduction in Farm Animals",
+    "hours": 4.0
+  },
+  "AGAS 3014": {
+    "title": "Beef Cattle Management",
+    "hours": 4.0
+  },
+  "AGAS 3021": {
+    "title": "Livestock Selection and Evaluation",
+    "hours": 1.0
+  },
+  "AGAS 3104": {
+    "title": "Swine Management",
+    "hours": 4.0
+  },
+  "AGAS 3303": {
+    "title": "Poultry Management",
+    "hours": 3.0
+  },
+  "AGAS 3343": {
+    "title": "Regulatory Affairs of the Food Industry",
+    "hours": 3.0
+  },
+  "AGAS 3933": {
+    "title": "Animal Breeding and Genetics",
+    "hours": 3.0
+  },
+  "AGAS 4203": {
+    "title": "Livestock and Poultry Nutrition",
+    "hours": 3.0
+  },
+  "AGAS 4403": {
+    "title": "Poultry and Livestock Disease",
+    "hours": 3.0
+  },
+  "AGBU 1001": {
+    "title": "Agriculture Orientation",
+    "hours": 1.0
+  },
+  "AGBU 1013": {
+    "title": "Principles of Agricultural Business",
+    "hours": 3.0
+  },
+  "AGBU 2063": {
+    "title": "Principles of Agricultural Macroeconomics",
+    "hours": 3.0
+  },
+  "AGBU 2073": {
+    "title": "Principles of Agricultural Microeconomics",
+    "hours": 3.0
+  },
+  "AGBU 2103": {
+    "title": "A Global Perspective: Resources, Food, and Society",
+    "hours": 3.0
+  },
+  "AGBU 2991": {
+    "title": "Special Problems in Agriculture",
+    "hours": 1.0
+  },
+  "AGBU 2992": {
+    "title": "Special Problems in Agriculture",
+    "hours": 2.0
+  },
+  "AGBU 2993": {
+    "title": "Special Problems in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 2994": {
+    "title": "Special Problems in Agriculture",
+    "hours": 4.0
+  },
+  "AGBU 3013": {
+    "title": "Principles of Farm Management",
+    "hours": 3.0
+  },
+  "AGBU 3033": {
+    "title": "Legal Environment of Agriculture Business",
+    "hours": 3.0
+  },
+  "AGBU 3213": {
+    "title": "Career Development in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 3233": {
+    "title": "International Agricultural Trade",
+    "hours": 3.0
+  },
+  "AGBU 3993": {
+    "title": "Internship I in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 3XXX": {
+    "title": "AGRICULTURAL TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "AGBU 4003": {
+    "title": "Agri-Business Management",
+    "hours": 3.0
+  },
+  "AGBU 4013": {
+    "title": "Agricultural Marketing",
+    "hours": 3.0
+  },
+  "AGBU 4023": {
+    "title": "Agricultural Finance",
+    "hours": 3.0
+  },
+  "AGBU 4033": {
+    "title": "Agricultural Policy",
+    "hours": 3.0
+  },
+  "AGBU 4043": {
+    "title": "Appraisal of Farm Real Estate",
+    "hours": 3.0
+  },
+  "AGBU 4063": {
+    "title": "Agricultural Investments",
+    "hours": 3.0
+  },
+  "AGBU 4073": {
+    "title": "Commodity Risk and Futures",
+    "hours": 3.0
+  },
+  "AGBU 4153": {
+    "title": "Computers in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 4951": {
+    "title": "Undergraduate Research in Agricultural Business and Economics",
+    "hours": 1.0
+  },
+  "AGBU 4952": {
+    "title": "Undergraduate Research in Agricultural Business and Economics",
+    "hours": 2.0
+  },
+  "AGBU 4953": {
+    "title": "Undergraduate Research in Agricultural Business and Economics",
+    "hours": 3.0
+  },
+  "AGBU 4954": {
+    "title": "Undergraduate Research in Agricultural Business and Economics",
+    "hours": 4.0
+  },
+  "AGBU 4973": {
+    "title": "Senior Seminar in Agriculture Business",
+    "hours": 3.0
+  },
+  "AGBU 4983": {
+    "title": "Internship II in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 4991": {
+    "title": "Special Problems in Agriculture",
+    "hours": 1.0
+  },
+  "AGBU 4992": {
+    "title": "Special Problems in Agriculture",
+    "hours": 2.0
+  },
+  "AGBU 4993": {
+    "title": "Special Problems in Agriculture",
+    "hours": 3.0
+  },
+  "AGBU 4994": {
+    "title": "Special Problems in Agriculture",
+    "hours": 4.0
+  },
+  "AGBU 4XXX": {
+    "title": "AGRICULTURAL TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "AGED 1001": {
+    "title": "Introduction to Agricultural Education",
+    "hours": 1.0
+  },
+  "AGED 1013": {
+    "title": "Agricultural Youth Organizations",
+    "hours": 3.0
+  },
+  "AGED 2104": {
+    "title": "Introduction to Agricultural Systems Technology",
+    "hours": 4.0
+  },
+  "AGED 2203": {
+    "title": "Applied Agricultural Systems Technology",
+    "hours": 3.0
+  },
+  "AGED 3033": {
+    "title": "Philosophy and Foundations of Program Development",
+    "hours": 3.0
+  },
+  "AGED 4033": {
+    "title": "Curriculum Design and Assessment",
+    "hours": 3.0
+  },
+  "AGED 4044": {
+    "title": "Methods in Teaching Agriculture",
+    "hours": 4.0
+  },
+  "AGEG 3203": {
+    "title": "Soil, Water and Forest Conservation",
+    "hours": 3.0
+  },
+  "AGLE 3003": {
+    "title": "Personal Leadership Theory and Development",
+    "hours": 3.0
+  },
+  "AGLE 3013": {
+    "title": "Team Leadership and Organizational Change",
+    "hours": 3.0
+  },
+  "AGPS 1024": {
+    "title": "Principles of Plant Science",
+    "hours": 4.0
+  },
+  "AGPS 3023": {
+    "title": "Forage Crops and Pasture Management",
+    "hours": 3.0
+  },
+  "AGPS 3044": {
+    "title": "Plant Propagation",
+    "hours": 4.0
+  },
+  "AGPS 3064": {
+    "title": "Vegetable Growing",
+    "hours": 4.0
+  },
+  "AGPS 3074": {
+    "title": "Floriculture",
+    "hours": 4.0
+  },
+  "AGPS 3083": {
+    "title": "Small Fruit and Nut Culture",
+    "hours": 3.0
+  },
+  "AGPS 3093": {
+    "title": "Greenhouse Operation and Management",
+    "hours": 3.0
+  },
+  "AGPS 3244": {
+    "title": "Plant Pathology",
+    "hours": 4.0
+  },
+  "AGPS 4103": {
+    "title": "Crop and Garden Insects",
+    "hours": 3.0
+  },
+  "AGSS 2014": {
+    "title": "Soils",
+    "hours": 4.0
+  },
+  "AHS 1023": {
+    "title": "Basic Pharmacology with an Overview of Microbiology",
+    "hours": 3.0
+  },
+  "AHS 2013": {
+    "title": "Medical Terminology",
+    "hours": 3.0
+  },
+  "AMST 2003": {
+    "title": "American Studies",
+    "hours": 3.0
+  },
+  "ANTH 1213": {
+    "title": "Introduction to Anthropology",
+    "hours": 3.0
+  },
+  "ANTH 1XXX": {
+    "title": "ANTHROPOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ANTH 2003": {
+    "title": "Cultural Anthropology",
+    "hours": 3.0
+  },
+  "ANTH 2303": {
+    "title": "Globalization",
+    "hours": 3.0
+  },
+  "ANTH 2833": {
+    "title": "Cultural Resource Management",
+    "hours": 3.0
+  },
+  "ANTH 2XXX": {
+    "title": "ANTHROPOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ANTH 3103": {
+    "title": "Anthropology of Food",
+    "hours": 3.0
+  },
+  "ANTH 3113": {
+    "title": "Ozark-Ouachita Studies",
+    "hours": 3.0
+  },
+  "ANTH 3203": {
+    "title": "Indians of North America",
+    "hours": 3.0
+  },
+  "ANTH 3223": {
+    "title": "North American Archeology",
+    "hours": 3.0
+  },
+  "ANTH 3303": {
+    "title": "Southeastern Archaeology",
+    "hours": 3.0
+  },
+  "ANTH 3313": {
+    "title": "Southeastern Indians",
+    "hours": 3.0
+  },
+  "ANTH 3403": {
+    "title": "Ethnographic Methods",
+    "hours": 3.0
+  },
+  "ANTH 3903": {
+    "title": "Anthropology in Focus",
+    "hours": 3.0
+  },
+  "ANTH 3XXX": {
+    "title": "ANTHROPOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ANTH 4791": {
+    "title": "Anthropology Internship",
+    "hours": 1.0
+  },
+  "ANTH 4792": {
+    "title": "Anthropology Internship",
+    "hours": 2.0
+  },
+  "ANTH 4793": {
+    "title": "Anthropology Internship",
+    "hours": 3.0
+  },
+  "ANTH 4794": {
+    "title": "Anthropology Internship",
+    "hours": 4.0
+  },
+  "ANTH 4853": {
+    "title": "Music of the World&#39;s Peoples",
+    "hours": 3.0
+  },
+  "ANTH 4951": {
+    "title": "Undergraduate Research in Anthropology",
+    "hours": 1.0
+  },
+  "ANTH 4952": {
+    "title": "Undergraduate Research in Anthropology",
+    "hours": 2.0
+  },
+  "ANTH 4953": {
+    "title": "Undergraduate Research in Anthropology",
+    "hours": 3.0
+  },
+  "ANTH 4954": {
+    "title": "Undergraduate Research in Anthropology",
+    "hours": 4.0
+  },
+  "ANTH 4983": {
+    "title": "Seminar in Anthropology",
+    "hours": 3.0
+  },
+  "ANTH 4986": {
+    "title": "Field School",
+    "hours": 6.0
+  },
+  "ANTH 4991": {
+    "title": "Special Problems in Anthropology",
+    "hours": 1.0
+  },
+  "ANTH 4992": {
+    "title": "Special Problems in Anthropology",
+    "hours": 2.0
+  },
+  "ANTH 4993": {
+    "title": "Special Problems in Anthropology",
+    "hours": 3.0
+  },
+  "ANTH 4994": {
+    "title": "Special Problems in Anthropology",
+    "hours": 4.0
+  },
+  "ANTH 4XXX": {
+    "title": "ANTHROPOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ART 1163": {
+    "title": "Basic Digital Photography",
+    "hours": 3.0
+  },
+  "ART 1303": {
+    "title": "Introduction to Drawing",
+    "hours": 3.0
+  },
+  "ART 1403": {
+    "title": "Two-dimensional Design",
+    "hours": 3.0
+  },
+  "ART 1503": {
+    "title": "Introduction to Graphic Design",
+    "hours": 3.0
+  },
+  "ART 1XXX": {
+    "title": "ART TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ART 2103": {
+    "title": "Art History I",
+    "hours": 3.0
+  },
+  "ART 2113": {
+    "title": "Art History II",
+    "hours": 3.0
+  },
+  "ART 2123": {
+    "title": "Experiencing Art",
+    "hours": 3.0
+  },
+  "ART 2213": {
+    "title": "Digital Skills",
+    "hours": 3.0
+  },
+  "ART 2233": {
+    "title": "Special Topics in Art and Design",
+    "hours": 3.0
+  },
+  "ART 2303": {
+    "title": "Figure Drawing",
+    "hours": 3.0
+  },
+  "ART 2403": {
+    "title": "Color Design",
+    "hours": 3.0
+  },
+  "ART 2413": {
+    "title": "Three-dimensional Design",
+    "hours": 3.0
+  },
+  "ART 2XXX": {
+    "title": "ART TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ART 3001": {
+    "title": "Sophomore Review",
+    "hours": 1.0
+  },
+  "ART 3003": {
+    "title": "Concepts in Art Education",
+    "hours": 3.0
+  },
+  "ART 3013": {
+    "title": "Art Education Practicum",
+    "hours": 3.0
+  },
+  "ART 3073": {
+    "title": "Introduction to Sculpture",
+    "hours": 3.0
+  },
+  "ART 3113": {
+    "title": "Art History, American",
+    "hours": 3.0
+  },
+  "ART 3133": {
+    "title": "Art History, Americas &amp; Africa",
+    "hours": 3.0
+  },
+  "ART 3143": {
+    "title": "Art History, Asia &amp; Pacific",
+    "hours": 3.0
+  },
+  "ART 3153": {
+    "title": "History of Digital Art",
+    "hours": 3.0
+  },
+  "ART 3203": {
+    "title": "Typography and Layout",
+    "hours": 3.0
+  },
+  "ART 3223": {
+    "title": "Package Design",
+    "hours": 3.0
+  },
+  "ART 3232": {
+    "title": "Production Design",
+    "hours": 2.0
+  },
+  "ART 3243": {
+    "title": "Web Design",
+    "hours": 3.0
+  },
+  "ART 3253": {
+    "title": "Digital Illustration",
+    "hours": 3.0
+  },
+  "ART 3303": {
+    "title": "Drawing Studio I",
+    "hours": 3.0
+  },
+  "ART 3403": {
+    "title": "Introduction to Opaque Painting",
+    "hours": 3.0
+  },
+  "ART 3503": {
+    "title": "Painting Studio I",
+    "hours": 3.0
+  },
+  "ART 3533": {
+    "title": "Watercolor Painting",
+    "hours": 3.0
+  },
+  "ART 3603": {
+    "title": "Introduction to Ceramics",
+    "hours": 3.0
+  },
+  "ART 3703": {
+    "title": "Sculpture Studio I",
+    "hours": 3.0
+  },
+  "ART 3713": {
+    "title": "Sculpture Studio II",
+    "hours": 3.0
+  },
+  "ART 3803": {
+    "title": "Introduction to Printmaking",
+    "hours": 3.0
+  },
+  "ART 3813": {
+    "title": "Printmaking Studio I",
+    "hours": 3.0
+  },
+  "ART 3833": {
+    "title": "Animation Techniques",
+    "hours": 3.0
+  },
+  "ART 3XXX": {
+    "title": "ART TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ART 4003": {
+    "title": "Digital Communication Design",
+    "hours": 3.0
+  },
+  "ART 4013": {
+    "title": "The Business of Art and Design",
+    "hours": 3.0
+  },
+  "ART 4023": {
+    "title": "Motion Graphics",
+    "hours": 3.0
+  },
+  "ART 4113": {
+    "title": "Art History, Art After 1945",
+    "hours": 3.0
+  },
+  "ART 4163": {
+    "title": "Advanced Digital Photography",
+    "hours": 3.0
+  },
+  "ART 4231": {
+    "title": "Graphic Design Exhibition",
+    "hours": 1.0
+  },
+  "ART 4233": {
+    "title": "Illustration Studio",
+    "hours": 3.0
+  },
+  "ART 4243": {
+    "title": "Professional Portfolio Preparation for Graphic Designers",
+    "hours": 3.0
+  },
+  "ART 4313": {
+    "title": "Drawing Studio II",
+    "hours": 3.0
+  },
+  "ART 4323": {
+    "title": "Drawing Studio III",
+    "hours": 3.0
+  },
+  "ART 4503": {
+    "title": "Painting Studio II",
+    "hours": 3.0
+  },
+  "ART 4513": {
+    "title": "Painting Studio III",
+    "hours": 3.0
+  },
+  "ART 4603": {
+    "title": "Ceramics Studio I",
+    "hours": 3.0
+  },
+  "ART 4613": {
+    "title": "Ceramics Studio II",
+    "hours": 3.0
+  },
+  "ART 4703": {
+    "title": "Senior Project and Exhibition",
+    "hours": 3.0
+  },
+  "ART 4723": {
+    "title": "Art History Seminar",
+    "hours": 3.0
+  },
+  "ART 4731": {
+    "title": "Art or Design Internship",
+    "hours": 1.0
+  },
+  "ART 4732": {
+    "title": "Art or Design Internship",
+    "hours": 2.0
+  },
+  "ART 4733": {
+    "title": "Art or Design Internship",
+    "hours": 3.0
+  },
+  "ART 4734": {
+    "title": "Art or Design Internship",
+    "hours": 4.0
+  },
+  "ART 4735": {
+    "title": "Art or Design Internship",
+    "hours": 5.0
+  },
+  "ART 4736": {
+    "title": "Art or Design Internship",
+    "hours": 6.0
+  },
+  "ART 4803": {
+    "title": "Printmaking Studio II",
+    "hours": 3.0
+  },
+  "ART 4813": {
+    "title": "Printmaking Studio III",
+    "hours": 3.0
+  },
+  "ART 4823": {
+    "title": "Art Criticism and Aesthetics",
+    "hours": 3.0
+  },
+  "ART 4833": {
+    "title": "Advanced Web Design",
+    "hours": 3.0
+  },
+  "ART 4883": {
+    "title": "Advanced Studio Studies",
+    "hours": 3.0
+  },
+  "ART 4983": {
+    "title": "Sound Design Seminar",
+    "hours": 3.0
+  },
+  "ART 4991": {
+    "title": "Special Problems in Art",
+    "hours": 1.0
+  },
+  "ART 4992": {
+    "title": "Special Problems in Art",
+    "hours": 2.0
+  },
+  "ART 4993": {
+    "title": "Special Problems in Art",
+    "hours": 3.0
+  },
+  "ART 4994": {
+    "title": "Special Problems in Art",
+    "hours": 4.0
+  },
+  "ART 4XXX": {
+    "title": "ART TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ART 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "BDA 2003": {
+    "title": "Business Problem Solving",
+    "hours": 3.0
+  },
+  "BDA 3003": {
+    "title": "Data Analytics Apps Development",
+    "hours": 3.0
+  },
+  "BDA 3013": {
+    "title": "Business Spreadsheet Modeling",
+    "hours": 3.0
+  },
+  "BDA 3023": {
+    "title": "Introduction to Data Visualization",
+    "hours": 3.0
+  },
+  "BDA 3033": {
+    "title": "Data Modeling and Management",
+    "hours": 3.0
+  },
+  "BDA 3053": {
+    "title": "Business Data Analysis",
+    "hours": 3.0
+  },
+  "BDA 4003": {
+    "title": "Business Intelligence",
+    "hours": 3.0
+  },
+  "BDA 4031": {
+    "title": "BDA Internship",
+    "hours": 1.0
+  },
+  "BDA 4032": {
+    "title": "BDA Internship",
+    "hours": 2.0
+  },
+  "BDA 4033": {
+    "title": "BDA Internship",
+    "hours": 3.0
+  },
+  "BDA 4071": {
+    "title": "Special Topics",
+    "hours": 1.0
+  },
+  "BDA 4072": {
+    "title": "Special Topics",
+    "hours": 2.0
+  },
+  "BDA 4073": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "BDA 6073": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "BDA 6203": {
+    "title": "Business Information Analysis",
+    "hours": 3.0
+  },
+  "BDA 6213": {
+    "title": "Visualizing Data",
+    "hours": 3.0
+  },
+  "BDA 6323": {
+    "title": "Applied Predictive Analytics",
+    "hours": 3.0
+  },
+  "BDA 6343": {
+    "title": "Advanced Analytics",
+    "hours": 3.0
+  },
+  "BDA 6353": {
+    "title": "Big Data Strategies",
+    "hours": 3.0
+  },
+  "BDA 6363": {
+    "title": "Analytics Strategy",
+    "hours": 3.0
+  },
+  "BIOL 1004": {
+    "title": "Principles of Environmental Science",
+    "hours": 4.0
+  },
+  "BIOL 1011": {
+    "title": "Orientation to the Biological Sciences",
+    "hours": 1.0
+  },
+  "BIOL 1014": {
+    "title": "Introduction to Biological Science",
+    "hours": 4.0
+  },
+  "BIOL 1114": {
+    "title": "Principles of Biology",
+    "hours": 4.0
+  },
+  "BIOL 1XXX": {
+    "title": "BIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "BIOL 2004": {
+    "title": "Basic Human Anatomy and Physiology",
+    "hours": 4.0
+  },
+  "BIOL 2014": {
+    "title": "Human Anatomy",
+    "hours": 4.0
+  },
+  "BIOL 2054": {
+    "title": "Microbiology for Health Sciences",
+    "hours": 4.0
+  },
+  "BIOL 2111": {
+    "title": "Environmental Seminar",
+    "hours": 1.0
+  },
+  "BIOL 2124": {
+    "title": "Principles of Zoology",
+    "hours": 4.0
+  },
+  "BIOL 2134": {
+    "title": "Principles of Botany",
+    "hours": 4.0
+  },
+  "BIOL 2404": {
+    "title": "Human Anatomy and Physiology I",
+    "hours": 4.0
+  },
+  "BIOL 2414": {
+    "title": "Human Anatomy and Physiology II",
+    "hours": 4.0
+  },
+  "BIOL 2881": {
+    "title": "Special Topics in Biology",
+    "hours": 1.0
+  },
+  "BIOL 2882": {
+    "title": "Special Topics in Biology",
+    "hours": 2.0
+  },
+  "BIOL 2883": {
+    "title": "Special Topics in Biology",
+    "hours": 3.0
+  },
+  "BIOL 2884": {
+    "title": "Special Topics in Biology",
+    "hours": 4.0
+  },
+  "BIOL 2XXX": {
+    "title": "BIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "BIOL 3004": {
+    "title": "Plant Taxonomy",
+    "hours": 4.0
+  },
+  "BIOL 3033": {
+    "title": "Bioinformatics",
+    "hours": 3.0
+  },
+  "BIOL 3034": {
+    "title": "Genetics",
+    "hours": 4.0
+  },
+  "BIOL 3043": {
+    "title": "Conservation",
+    "hours": 3.0
+  },
+  "BIOL 3054": {
+    "title": "Microbiology",
+    "hours": 4.0
+  },
+  "BIOL 3064": {
+    "title": "Parasitology",
+    "hours": 4.0
+  },
+  "BIOL 3074": {
+    "title": "Human Physiology",
+    "hours": 4.0
+  },
+  "BIOL 3084": {
+    "title": "Ichthyology",
+    "hours": 4.0
+  },
+  "BIOL 3104": {
+    "title": "Introduction to Entomology",
+    "hours": 4.0
+  },
+  "BIOL 3111": {
+    "title": "Environmental Seminar",
+    "hours": 1.0
+  },
+  "BIOL 3114": {
+    "title": "Principles of Ecology",
+    "hours": 4.0
+  },
+  "BIOL 3134": {
+    "title": "Invertebrate Zoology",
+    "hours": 4.0
+  },
+  "BIOL 3144": {
+    "title": "Ornithology",
+    "hours": 4.0
+  },
+  "BIOL 3154": {
+    "title": "Mammalogy",
+    "hours": 4.0
+  },
+  "BIOL 3174": {
+    "title": "Physiological Ecology",
+    "hours": 4.0
+  },
+  "BIOL 3184": {
+    "title": "Animal Behavior",
+    "hours": 4.0
+  },
+  "BIOL 3223": {
+    "title": "Science Education in the Middle Level",
+    "hours": 3.0
+  },
+  "BIOL 3224": {
+    "title": "Herpetology",
+    "hours": 4.0
+  },
+  "BIOL 3233": {
+    "title": "Science Education in the Secondary School",
+    "hours": 3.0
+  },
+  "BIOL 3243": {
+    "title": "Integrating the Three Dimensions of Science",
+    "hours": 3.0
+  },
+  "BIOL 3252": {
+    "title": "The Nature and Context of Science",
+    "hours": 2.0
+  },
+  "BIOL 3253": {
+    "title": "Teaching Methods for STEM",
+    "hours": 3.0
+  },
+  "BIOL 3353": {
+    "title": "Fundamentals of Toxicology",
+    "hours": 3.0
+  },
+  "BIOL 3803": {
+    "title": "Applied Pathophysiology",
+    "hours": 3.0
+  },
+  "BIOL 3XXX": {
+    "title": "BIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "BIOL 4023": {
+    "title": "Immunology",
+    "hours": 3.0
+  },
+  "BIOL 4024": {
+    "title": "Limnology",
+    "hours": 4.0
+  },
+  "BIOL 4033": {
+    "title": "Cell Biology",
+    "hours": 3.0
+  },
+  "BIOL 4043": {
+    "title": "Conservation Genetics",
+    "hours": 3.0
+  },
+  "BIOL 4044": {
+    "title": "Dendrology",
+    "hours": 4.0
+  },
+  "BIOL 4054": {
+    "title": "Vertebrate Histology",
+    "hours": 4.0
+  },
+  "BIOL 4064": {
+    "title": "Evolutionary Biology",
+    "hours": 4.0
+  },
+  "BIOL 4074": {
+    "title": "Molecular Genetics",
+    "hours": 4.0
+  },
+  "BIOL 4083": {
+    "title": "Cancer Biology",
+    "hours": 3.0
+  },
+  "BIOL 4094": {
+    "title": "Coastal Ecology",
+    "hours": 4.0
+  },
+  "BIOL 4111": {
+    "title": "Environmental Seminar",
+    "hours": 1.0
+  },
+  "BIOL 4112": {
+    "title": "Biology Internship",
+    "hours": 2.0
+  },
+  "BIOL 4114": {
+    "title": "Biology Internship",
+    "hours": 4.0
+  },
+  "BIOL 4124": {
+    "title": "Biological Assessment of Water Quality",
+    "hours": 4.0
+  },
+  "BIOL 4163": {
+    "title": "Biodiversity and Conservation Biology",
+    "hours": 3.0
+  },
+  "BIOL 4701": {
+    "title": "Special Methods in Biology",
+    "hours": 1.0
+  },
+  "BIOL 4881": {
+    "title": "Advanced Topics in Biology",
+    "hours": 1.0
+  },
+  "BIOL 4882": {
+    "title": "Advanced Topics in Biology",
+    "hours": 2.0
+  },
+  "BIOL 4883": {
+    "title": "Advanced Topics in Biology",
+    "hours": 3.0
+  },
+  "BIOL 4884": {
+    "title": "Advanced Topics in Biology",
+    "hours": 4.0
+  },
+  "BIOL 4891": {
+    "title": "Seminar in Biology",
+    "hours": 1.0
+  },
+  "BIOL 4951": {
+    "title": "Undergraduate Research in Biology",
+    "hours": 1.0
+  },
+  "BIOL 4952": {
+    "title": "Undergraduate Research in Biology",
+    "hours": 2.0
+  },
+  "BIOL 4953": {
+    "title": "Undergraduate Research in Biology",
+    "hours": 3.0
+  },
+  "BIOL 4954": {
+    "title": "Undergraduate Research in Biology",
+    "hours": 4.0
+  },
+  "BIOL 4XXX": {
+    "title": "BIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "BIOL XXXX": {
+    "title": "Biological Science with Laboratory",
+    "hours": 1.0
+  },
+  "BLAW 1033": {
+    "title": "Law for Life: Understanding the Law and Personal Legal Issues",
+    "hours": 3.0
+  },
+  "BLAW 2033": {
+    "title": "Legal Environment of Business",
+    "hours": 3.0
+  },
+  "BLAW 2133": {
+    "title": "Honors Legal Environment of Business",
+    "hours": 3.0
+  },
+  "BLAW 4073": {
+    "title": "Special Topics in Law",
+    "hours": 3.0
+  },
+  "BST 1003": {
+    "title": "Business English",
+    "hours": 3.0
+  },
+  "BST 1013": {
+    "title": "Word Processing",
+    "hours": 3.0
+  },
+  "BST 1033": {
+    "title": "Administrative Support Procedures",
+    "hours": 3.0
+  },
+  "BST 1043": {
+    "title": "Professional Communication",
+    "hours": 3.0
+  },
+  "BST 1053": {
+    "title": "Spreadsheets",
+    "hours": 3.0
+  },
+  "BST 1063": {
+    "title": "Legal Environment for Business Technology",
+    "hours": 3.0
+  },
+  "BST 1073": {
+    "title": "Accounting",
+    "hours": 3.0
+  },
+  "BST 1083": {
+    "title": "Introduction to Economics",
+    "hours": 3.0
+  },
+  "BST 1303": {
+    "title": "Introduction to Computers",
+    "hours": 3.0
+  },
+  "BST 2023": {
+    "title": "Organizational Leadership",
+    "hours": 3.0
+  },
+  "BST 2053": {
+    "title": "Advanced Spreadsheets",
+    "hours": 3.0
+  },
+  "BST 2113": {
+    "title": "Advanced Word Processing",
+    "hours": 3.0
+  },
+  "BST 2123": {
+    "title": "Computer Applications for Accounting",
+    "hours": 3.0
+  },
+  "BST 2133": {
+    "title": "Multimedia",
+    "hours": 3.0
+  },
+  "BST 2143": {
+    "title": "Introduction to Management",
+    "hours": 3.0
+  },
+  "BST 2153": {
+    "title": "Database Management",
+    "hours": 3.0
+  },
+  "BST 2163": {
+    "title": "Desktop Publishing",
+    "hours": 3.0
+  },
+  "BST 2173": {
+    "title": "Social Media Marketing",
+    "hours": 3.0
+  },
+  "BST 2183": {
+    "title": "Introduction to Marketing Principles",
+    "hours": 3.0
+  },
+  "BST 2213": {
+    "title": "Human Relations Principles and Practices",
+    "hours": 3.0
+  },
+  "BST 2223": {
+    "title": "Introduction to Research",
+    "hours": 3.0
+  },
+  "BST 2443": {
+    "title": "Introduction to Project Management",
+    "hours": 3.0
+  },
+  "BST 2513": {
+    "title": "Introduction to Human Resources Management",
+    "hours": 3.0
+  },
+  "BST 2523": {
+    "title": "Employment Law",
+    "hours": 3.0
+  },
+  "BST 2533": {
+    "title": "Employee Recruiting, Training, and Compensation",
+    "hours": 3.0
+  },
+  "BST 2543": {
+    "title": "Workplace Behavior and Ethics",
+    "hours": 3.0
+  },
+  "BST 2643": {
+    "title": "Fundamentals of Small Business Operations",
+    "hours": 3.0
+  },
+  "BUAD 1113": {
+    "title": "Introduction to Business",
+    "hours": 3.0
+  },
+  "BUAD 2003": {
+    "title": "Business Information Systems",
+    "hours": 3.0
+  },
+  "BUAD 4000": {
+    "title": "School of Business College Distinction Activity",
+    "hours": 0.0
+  },
+  "BUAD 4100": {
+    "title": "Business Experiential Learning Activity",
+    "hours": 0.0
+  },
+  "BUAD 6003": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "BUAD 6093": {
+    "title": "Special Topics in Business",
+    "hours": 3.0
+  },
+  "BUAD 6100": {
+    "title": "Business Experiential Learning",
+    "hours": 0.0
+  },
+  "CHEM 1111": {
+    "title": "Survey of Chemistry Laboratory",
+    "hours": 1.0
+  },
+  "CHEM 1113": {
+    "title": "A Survey of Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 1XXX": {
+    "title": "CHEMISTRY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CHEM 2120": {
+    "title": "General Chemistry I Lab",
+    "hours": 0.0
+  },
+  "CHEM 2124": {
+    "title": "General Chemistry I",
+    "hours": 4.0
+  },
+  "CHEM 2130": {
+    "title": "General Chemistry II Lab",
+    "hours": 0.0
+  },
+  "CHEM 2134": {
+    "title": "General Chemistry II",
+    "hours": 4.0
+  },
+  "CHEM 2204": {
+    "title": "Organic Physiological Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 2991": {
+    "title": "Special Problems in Chemistry",
+    "hours": 1.0
+  },
+  "CHEM 2992": {
+    "title": "Special Problems in Chemistry",
+    "hours": 2.0
+  },
+  "CHEM 2993": {
+    "title": "Special Problems in Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 2XXX": {
+    "title": "CHEMISTRY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CHEM 3245": {
+    "title": "Quantitative Analysis",
+    "hours": 5.0
+  },
+  "CHEM 3250": {
+    "title": "Fundamentals of Organic Chemistry Laboratory",
+    "hours": 0.0
+  },
+  "CHEM 3254": {
+    "title": "Fundamentals of Organic Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 3260": {
+    "title": "Mechanistic Organic Chemistry Laboratory",
+    "hours": 0.0
+  },
+  "CHEM 3264": {
+    "title": "Mechanistic Organic Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 3301": {
+    "title": "Chemistry Seminar",
+    "hours": 1.0
+  },
+  "CHEM 3313": {
+    "title": "Environmental Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 3324": {
+    "title": "Physical Chemistry I",
+    "hours": 4.0
+  },
+  "CHEM 3334": {
+    "title": "Physical Chemistry II",
+    "hours": 4.0
+  },
+  "CHEM 3340": {
+    "title": "Principles of Biochemistry Laboratory",
+    "hours": 0.0
+  },
+  "CHEM 3344": {
+    "title": "Principles of Biochemistry",
+    "hours": 4.0
+  },
+  "CHEM 3353": {
+    "title": "Fundamentals of Toxicology",
+    "hours": 3.0
+  },
+  "CHEM 3363": {
+    "title": "Metabolic Biochemistry",
+    "hours": 3.0
+  },
+  "CHEM 3423": {
+    "title": "Descriptive Inorganic Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 3991": {
+    "title": "Special Problems in Chemistry",
+    "hours": 1.0
+  },
+  "CHEM 3992": {
+    "title": "Special Problems in Chemistry",
+    "hours": 2.0
+  },
+  "CHEM 3993": {
+    "title": "Special Problems in Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 3XXX": {
+    "title": "CHEMISTRY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CHEM 4033": {
+    "title": "Medicinal Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 4401": {
+    "title": "Chemistry Seminar",
+    "hours": 1.0
+  },
+  "CHEM 4414": {
+    "title": "Instrumental Analysis",
+    "hours": 4.0
+  },
+  "CHEM 4424": {
+    "title": "Advanced Inorganic Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 4433": {
+    "title": "Advanced Topics in Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 4951": {
+    "title": "Undergraduate Research in Chemistry",
+    "hours": 1.0
+  },
+  "CHEM 4952": {
+    "title": "Undergraduate Research in Chemistry",
+    "hours": 2.0
+  },
+  "CHEM 4953": {
+    "title": "Undergraduate Research in Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 4954": {
+    "title": "Undergraduate Research in Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 4991": {
+    "title": "Special Problems in Chemistry",
+    "hours": 1.0
+  },
+  "CHEM 4992": {
+    "title": "Special Problems in Chemistry",
+    "hours": 2.0
+  },
+  "CHEM 4993": {
+    "title": "Special Problems in Chemistry",
+    "hours": 3.0
+  },
+  "CHEM 4994": {
+    "title": "Special Problems in Chemistry",
+    "hours": 4.0
+  },
+  "CHEM 4XXX": {
+    "title": "CHEMISTRY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CHEM 6881": {
+    "title": "Workshop",
+    "hours": 1.0
+  },
+  "CHEM 6882": {
+    "title": "Workshop",
+    "hours": 2.0
+  },
+  "CHEM 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "CJ 1XXX": {
+    "title": "CJ TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CJ 2003": {
+    "title": "Introduction to Criminal Justice",
+    "hours": 3.0
+  },
+  "CJ 2033": {
+    "title": "Social Problems",
+    "hours": 3.0
+  },
+  "CJ 2043": {
+    "title": "Crime and Delinquency",
+    "hours": 3.0
+  },
+  "CJ 2XXX": {
+    "title": "CJ TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CJ 3023": {
+    "title": "Judicial Process",
+    "hours": 3.0
+  },
+  "CJ 3033": {
+    "title": "Criminal Psychology",
+    "hours": 3.0
+  },
+  "CJ 3083": {
+    "title": "Social Deviance",
+    "hours": 3.0
+  },
+  "CJ 3103": {
+    "title": "The Juvenile Justice System",
+    "hours": 3.0
+  },
+  "CJ 3153": {
+    "title": "Prison and Corrections",
+    "hours": 3.0
+  },
+  "CJ 3203": {
+    "title": "Serial and Mass Murder",
+    "hours": 3.0
+  },
+  "CJ 3223": {
+    "title": "Cybercrimes",
+    "hours": 3.0
+  },
+  "CJ 3273": {
+    "title": "Victimology",
+    "hours": 3.0
+  },
+  "CJ 3XXX": {
+    "title": "CJ TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CJ 4013": {
+    "title": "Drugs in Society",
+    "hours": 3.0
+  },
+  "CJ 4023": {
+    "title": "Law and the Legal System",
+    "hours": 3.0
+  },
+  "CJ 4033": {
+    "title": "Policing and Society",
+    "hours": 3.0
+  },
+  "CJ 4093": {
+    "title": "Technology, Power, and Social Change",
+    "hours": 3.0
+  },
+  "CJ 4103": {
+    "title": "White Collar Crime",
+    "hours": 3.0
+  },
+  "CJ 4113": {
+    "title": "Criminal Law",
+    "hours": 3.0
+  },
+  "CJ 4123": {
+    "title": "Crime and Gender",
+    "hours": 3.0
+  },
+  "CJ 4141": {
+    "title": "Seminar in Criminal Justice",
+    "hours": 1.0
+  },
+  "CJ 4142": {
+    "title": "Seminar in Criminal Justice",
+    "hours": 2.0
+  },
+  "CJ 4143": {
+    "title": "Seminar in Criminal Justice",
+    "hours": 3.0
+  },
+  "CJ 4144": {
+    "title": "Seminar in Criminal Justice",
+    "hours": 4.0
+  },
+  "CJ 4206": {
+    "title": "The Law in Action",
+    "hours": 6.0
+  },
+  "CJ 4223": {
+    "title": "Family Violence",
+    "hours": 3.0
+  },
+  "CJ 4303": {
+    "title": "Criminal Evidence",
+    "hours": 3.0
+  },
+  "CJ 4951": {
+    "title": "Undergraduate Research in Criminal Justice",
+    "hours": 1.0
+  },
+  "CJ 4952": {
+    "title": "Undergraduate Research in Criminal Justice",
+    "hours": 2.0
+  },
+  "CJ 4953": {
+    "title": "Undergraduate Research in Criminal Justice",
+    "hours": 3.0
+  },
+  "CJ 4954": {
+    "title": "Undergraduate Research in Criminal Justice",
+    "hours": 4.0
+  },
+  "CJ 4991": {
+    "title": "Special Problems in Criminal Justice",
+    "hours": 1.0
+  },
+  "CJ 4992": {
+    "title": "Special Problems in Criminal Justice",
+    "hours": 2.0
+  },
+  "CJ 4993": {
+    "title": "Special Problems in Criminal Justice",
+    "hours": 3.0
+  },
+  "CJ 4994": {
+    "title": "Special Problems in Criminal Justice",
+    "hours": 4.0
+  },
+  "CJ 4XXX": {
+    "title": "CJ TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CMPE 4191": {
+    "title": "Computer Engineering Design Project I",
+    "hours": 1.0
+  },
+  "CMPE 4192": {
+    "title": "Computer Engineering Design Project II",
+    "hours": 2.0
+  },
+  "COMM 1003": {
+    "title": "Introduction to Communication",
+    "hours": 3.0
+  },
+  "COMM 1023": {
+    "title": "Exploration of Media and Communication",
+    "hours": 3.0
+  },
+  "COMM 1111": {
+    "title": "Individual Events Practicum",
+    "hours": 1.0
+  },
+  "COMM 1121": {
+    "title": "Individual Events Practicum",
+    "hours": 1.0
+  },
+  "COMM 1XXX": {
+    "title": "SPEECH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMM 2003": {
+    "title": "Public Speaking",
+    "hours": 3.0
+  },
+  "COMM 2013": {
+    "title": "Voice and Diction",
+    "hours": 3.0
+  },
+  "COMM 2111": {
+    "title": "Debate Practicum",
+    "hours": 1.0
+  },
+  "COMM 2121": {
+    "title": "Debate Practicum",
+    "hours": 1.0
+  },
+  "COMM 2173": {
+    "title": "Business and Professional Speaking",
+    "hours": 3.0
+  },
+  "COMM 2XXX": {
+    "title": "SPEECH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMM 3003": {
+    "title": "Interpersonal Communication",
+    "hours": 3.0
+  },
+  "COMM 3013": {
+    "title": "Intercultural Communication",
+    "hours": 3.0
+  },
+  "COMM 3023": {
+    "title": "Introduction to Linguistics",
+    "hours": 3.0
+  },
+  "COMM 3033": {
+    "title": "Interviewing Principles and Practices",
+    "hours": 3.0
+  },
+  "COMM 3053": {
+    "title": "Health Communication",
+    "hours": 3.0
+  },
+  "COMM 3063": {
+    "title": "Oral Interpretation",
+    "hours": 3.0
+  },
+  "COMM 3073": {
+    "title": "Group Communication",
+    "hours": 3.0
+  },
+  "COMM 3111": {
+    "title": "Debate Practicum",
+    "hours": 1.0
+  },
+  "COMM 3121": {
+    "title": "Debate Practicum",
+    "hours": 1.0
+  },
+  "COMM 3123": {
+    "title": "Argumentation",
+    "hours": 3.0
+  },
+  "COMM 3133": {
+    "title": "Digital Civility",
+    "hours": 3.0
+  },
+  "COMM 3163": {
+    "title": "Writing for Performance",
+    "hours": 3.0
+  },
+  "COMM 3263": {
+    "title": "Podcast/Radio Theatre Writing",
+    "hours": 3.0
+  },
+  "COMM 3513": {
+    "title": "Media Criticism",
+    "hours": 3.0
+  },
+  "COMM 3XXX": {
+    "title": "SPEECH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMM 4003": {
+    "title": "Human Communication Theory",
+    "hours": 3.0
+  },
+  "COMM 4043": {
+    "title": "Sports Communication",
+    "hours": 3.0
+  },
+  "COMM 4053": {
+    "title": "Communication Seminar",
+    "hours": 3.0
+  },
+  "COMM 4063": {
+    "title": "Organizational Communication",
+    "hours": 3.0
+  },
+  "COMM 4111": {
+    "title": "Individual Events Practicum",
+    "hours": 1.0
+  },
+  "COMM 4121": {
+    "title": "Individual Events Practicum",
+    "hours": 1.0
+  },
+  "COMM 4123": {
+    "title": "Rhetorical Criticism",
+    "hours": 3.0
+  },
+  "COMM 4153": {
+    "title": "Persuasive Theory and Audience Analysis",
+    "hours": 3.0
+  },
+  "COMM 4171": {
+    "title": "Internship in Communication",
+    "hours": 1.0
+  },
+  "COMM 4172": {
+    "title": "Internship in Communication",
+    "hours": 2.0
+  },
+  "COMM 4173": {
+    "title": "Internship in Communication",
+    "hours": 3.0
+  },
+  "COMM 4174": {
+    "title": "Internship in Communication",
+    "hours": 4.0
+  },
+  "COMM 4223": {
+    "title": "Communication and Gender",
+    "hours": 3.0
+  },
+  "COMM 4701": {
+    "title": "Special Methods in Speech",
+    "hours": 1.0
+  },
+  "COMM 4823": {
+    "title": "Communication Capstone",
+    "hours": 3.0
+  },
+  "COMM 4991": {
+    "title": "Special Problems in Communication",
+    "hours": 1.0
+  },
+  "COMM 4992": {
+    "title": "Special Problems in Communication",
+    "hours": 2.0
+  },
+  "COMM 4993": {
+    "title": "Special Problems in Communication",
+    "hours": 3.0
+  },
+  "COMM 4994": {
+    "title": "Special Problems in Communication",
+    "hours": 4.0
+  },
+  "COMM 4XXX": {
+    "title": "SPEECH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMM 5003": {
+    "title": "Human Communication Theory",
+    "hours": 3.0
+  },
+  "COMM 5053": {
+    "title": "Speech Communication Seminar",
+    "hours": 3.0
+  },
+  "COMM 5063": {
+    "title": "Organizational Communication",
+    "hours": 3.0
+  },
+  "COMM 5123": {
+    "title": "Rhetorical Criticism",
+    "hours": 3.0
+  },
+  "COMM 5153": {
+    "title": "Persuasive Theory &amp; Audience Analysis",
+    "hours": 3.0
+  },
+  "COMM 5223": {
+    "title": "Communication and Gender",
+    "hours": 3.0
+  },
+  "COMM 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "COMS 1003": {
+    "title": "Introduction to Computer Based Systems",
+    "hours": 3.0
+  },
+  "COMS 1011": {
+    "title": "Programming Foundations I Lab",
+    "hours": 1.0
+  },
+  "COMS 1013": {
+    "title": "Programming Foundations I",
+    "hours": 3.0
+  },
+  "COMS 1333": {
+    "title": "Web and Mobile Technologies",
+    "hours": 3.0
+  },
+  "COMS 1403": {
+    "title": "Orientation to Computing, Information, and Technology",
+    "hours": 3.0
+  },
+  "COMS 1411": {
+    "title": "Computer and Information Science Lab",
+    "hours": 1.0
+  },
+  "COMS 1921": {
+    "title": "Microsoft Excel",
+    "hours": 1.0
+  },
+  "COMS 1XXX": {
+    "title": "COMPUTER SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMS 2003": {
+    "title": "Microcomputer Applications",
+    "hours": 3.0
+  },
+  "COMS 2013": {
+    "title": "AI Fundamentals",
+    "hours": 3.0
+  },
+  "COMS 2163": {
+    "title": "Scripting Languages",
+    "hours": 3.0
+  },
+  "COMS 2203": {
+    "title": "Programming Foundations II",
+    "hours": 3.0
+  },
+  "COMS 2213": {
+    "title": "Data Structures",
+    "hours": 3.0
+  },
+  "COMS 2223": {
+    "title": "Computer Organization and Programming",
+    "hours": 3.0
+  },
+  "COMS 2233": {
+    "title": "Introduction to Databases",
+    "hours": 3.0
+  },
+  "COMS 2323": {
+    "title": "Programming in Python",
+    "hours": 3.0
+  },
+  "COMS 2333": {
+    "title": "Web Publishing II",
+    "hours": 3.0
+  },
+  "COMS 2701": {
+    "title": "Computer Architecture and Networks Laboratory",
+    "hours": 1.0
+  },
+  "COMS 2703": {
+    "title": "Computer Hardware and Architecture",
+    "hours": 3.0
+  },
+  "COMS 2713": {
+    "title": "Survey of Operating Systems",
+    "hours": 3.0
+  },
+  "COMS 2733": {
+    "title": "Introduction to Computer Forensics and Security",
+    "hours": 3.0
+  },
+  "COMS 2803": {
+    "title": "Programming in C",
+    "hours": 3.0
+  },
+  "COMS 2903": {
+    "title": "Discrete Structures for Technical Majors",
+    "hours": 3.0
+  },
+  "COMS 2981": {
+    "title": "Special Topics",
+    "hours": 1.0
+  },
+  "COMS 2982": {
+    "title": "Special Topics",
+    "hours": 2.0
+  },
+  "COMS 2983": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "COMS 2984": {
+    "title": "Special Topics",
+    "hours": 4.0
+  },
+  "COMS 2XXX": {
+    "title": "COMPUTER SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMS 3053": {
+    "title": "Ethical Issues in Technology",
+    "hours": 3.0
+  },
+  "COMS 3163": {
+    "title": "Web Programming",
+    "hours": 3.0
+  },
+  "COMS 3213": {
+    "title": "Algorithm Design and Analysis",
+    "hours": 3.0
+  },
+  "COMS 3233": {
+    "title": "Database Design and Implementation",
+    "hours": 3.0
+  },
+  "COMS 3243": {
+    "title": "Data Mining",
+    "hours": 3.0
+  },
+  "COMS 3313": {
+    "title": "Software Engineering",
+    "hours": 3.0
+  },
+  "COMS 3363": {
+    "title": "Server Administration",
+    "hours": 3.0
+  },
+  "COMS 3373": {
+    "title": "Data Center Operations",
+    "hours": 3.0
+  },
+  "COMS 3413": {
+    "title": "App Development",
+    "hours": 3.0
+  },
+  "COMS 3503": {
+    "title": "Visual Programming",
+    "hours": 3.0
+  },
+  "COMS 3513": {
+    "title": "Administering and Using the IBM Platform",
+    "hours": 3.0
+  },
+  "COMS 3523": {
+    "title": "Human Factors in Information Technology",
+    "hours": 3.0
+  },
+  "COMS 3613": {
+    "title": "Advanced AI",
+    "hours": 3.0
+  },
+  "COMS 3703": {
+    "title": "Advanced Operating Systems",
+    "hours": 3.0
+  },
+  "COMS 3903": {
+    "title": "Systems Software and Architecture",
+    "hours": 3.0
+  },
+  "COMS 3913": {
+    "title": "Advanced Discrete Structures",
+    "hours": 3.0
+  },
+  "COMS 3XXX": {
+    "title": "COMPUTER SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "COMS 4033": {
+    "title": "Information Systems Analysis and Design",
+    "hours": 3.0
+  },
+  "COMS 4043": {
+    "title": "Systems Analysis and Design II",
+    "hours": 3.0
+  },
+  "COMS 4053": {
+    "title": "Information Systems Resource Management",
+    "hours": 3.0
+  },
+  "COMS 4063": {
+    "title": "IT Project Administration",
+    "hours": 3.0
+  },
+  "COMS 4103": {
+    "title": "Organization of Programming Languages",
+    "hours": 3.0
+  },
+  "COMS 4133": {
+    "title": "Application Program Development",
+    "hours": 3.0
+  },
+  "COMS 4213": {
+    "title": "Database Administration",
+    "hours": 3.0
+  },
+  "COMS 4403": {
+    "title": "Compiler Design",
+    "hours": 3.0
+  },
+  "COMS 4413": {
+    "title": "Parallel and Distributed Computing",
+    "hours": 3.0
+  },
+  "COMS 4613": {
+    "title": "Natural Language Processing",
+    "hours": 3.0
+  },
+  "COMS 4633": {
+    "title": "Computer Vision",
+    "hours": 3.0
+  },
+  "COMS 4653": {
+    "title": "Big Data and Cloud Computing",
+    "hours": 3.0
+  },
+  "COMS 4701": {
+    "title": "Data Communications and Networking Lab",
+    "hours": 1.0
+  },
+  "COMS 4703": {
+    "title": "Data Communications and Networks",
+    "hours": 3.0
+  },
+  "COMS 4710": {
+    "title": "Heterogeneous Networks Lab",
+    "hours": 0.0
+  },
+  "COMS 4713": {
+    "title": "Networking Practicum",
+    "hours": 3.0
+  },
+  "COMS 4801": {
+    "title": "Special Methods in Computer Science Education",
+    "hours": 1.0
+  },
+  "COMS 4813": {
+    "title": "Teaching Methods in Computer Science Education",
+    "hours": 3.0
+  },
+  "COMS 4913": {
+    "title": "Capstone I",
+    "hours": 3.0
+  },
+  "COMS 4923": {
+    "title": "Capstone II",
+    "hours": 3.0
+  },
+  "COMS 4931": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "COMS 4932": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "COMS 4933": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "COMS 4951": {
+    "title": "Undergraduate Research in Computer and Information Science",
+    "hours": 1.0
+  },
+  "COMS 4952": {
+    "title": "Undergraduate Research in Computer and Information Science",
+    "hours": 2.0
+  },
+  "COMS 4953": {
+    "title": "Undergraduate Research in Computer and Information Science",
+    "hours": 3.0
+  },
+  "COMS 4954": {
+    "title": "Undergraduate Research in Computer and Information Science",
+    "hours": 4.0
+  },
+  "COMS 4981": {
+    "title": "Seminar in Computer and Information Science",
+    "hours": 1.0
+  },
+  "COMS 4982": {
+    "title": "Seminar in Computer and Information Science",
+    "hours": 2.0
+  },
+  "COMS 4983": {
+    "title": "Seminar in Computer and Information Science",
+    "hours": 3.0
+  },
+  "COMS 4991": {
+    "title": "Special Problems in Computer and Information Science",
+    "hours": 1.0
+  },
+  "COMS 4992": {
+    "title": "Special Problems in Computer and Information Science",
+    "hours": 2.0
+  },
+  "COMS 4993": {
+    "title": "Special Problems in Computer and Information Science",
+    "hours": 3.0
+  },
+  "COMS 4994": {
+    "title": "Special Problems in Computer and Information Science",
+    "hours": 4.0
+  },
+  "COMS 4XXX": {
+    "title": "COMPUTER SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "CSEC 1003": {
+    "title": "Introduction to Cybersecurity",
+    "hours": 3.0
+  },
+  "CSEC 1113": {
+    "title": "Introduction to Networking",
+    "hours": 3.0
+  },
+  "CSEC 1213": {
+    "title": "Wireless and Cellular Security",
+    "hours": 3.0
+  },
+  "CSEC 2113": {
+    "title": "Introduction to Information Systems",
+    "hours": 3.0
+  },
+  "CSEC 2213": {
+    "title": "Network Forensics and Incident Response",
+    "hours": 3.0
+  },
+  "CSEC 2223": {
+    "title": "Virtualization",
+    "hours": 3.0
+  },
+  "CSEC 3113": {
+    "title": "Assembly Programming",
+    "hours": 3.0
+  },
+  "CSEC 3123": {
+    "title": "Cyber Defense I",
+    "hours": 3.0
+  },
+  "CSEC 3223": {
+    "title": "Programming Embedded Systems",
+    "hours": 3.0
+  },
+  "CSEC 3233": {
+    "title": "Cyber Defense II",
+    "hours": 3.0
+  },
+  "CSEC 3243": {
+    "title": "Computer Architecture",
+    "hours": 3.0
+  },
+  "CSEC 4123": {
+    "title": "Applied Cryptography",
+    "hours": 3.0
+  },
+  "CSEC 4133": {
+    "title": "Large Scale Distributed Systems",
+    "hours": 3.0
+  },
+  "CSEC 4143": {
+    "title": "Building Secure Software",
+    "hours": 3.0
+  },
+  "CSEC 4153": {
+    "title": "Human Factors in Cybersecurity",
+    "hours": 3.0
+  },
+  "CSEC 4213": {
+    "title": "Information Systems Risk Management",
+    "hours": 3.0
+  },
+  "CSEC 4233": {
+    "title": "Legal Issues in Cybersecurity",
+    "hours": 3.0
+  },
+  "CSEC 4240": {
+    "title": "Software Security Analysis and Reverse Engineering Lab",
+    "hours": 0.0
+  },
+  "CSEC 4243": {
+    "title": "Software Security Analysis and Reverse Engineering",
+    "hours": 3.0
+  },
+  "CSEC 4293": {
+    "title": "Cybersecurity Capstone Project",
+    "hours": 3.0
+  },
+  "CSEC 4931": {
+    "title": "Cybersecurity Internship",
+    "hours": 1.0
+  },
+  "CSEC 4932": {
+    "title": "Cybersecurity Internship",
+    "hours": 2.0
+  },
+  "CSEC 4933": {
+    "title": "Cybersecurity Internship",
+    "hours": 3.0
+  },
+  "DCC 1821": {
+    "title": "Digital Content Creation Practicum",
+    "hours": 1.0
+  },
+  "DCC 2293": {
+    "title": "Social Media Influencing I",
+    "hours": 3.0
+  },
+  "DCC 3821": {
+    "title": "Digital Content Creation Practicum",
+    "hours": 1.0
+  },
+  "DCC 4293": {
+    "title": "Social Media Influencing II",
+    "hours": 3.0
+  },
+  "DCC 4821": {
+    "title": "Digital Content Creation Practicum",
+    "hours": 1.0
+  },
+  "EAM 1013": {
+    "title": "Introduction for Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 2003": {
+    "title": "Introduction to Homeland Security",
+    "hours": 3.0
+  },
+  "EAM 2033": {
+    "title": "Citizen/Family/Community Disaster Preparedness Education",
+    "hours": 3.0
+  },
+  "EAM 2413": {
+    "title": "UAVs in Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 2881": {
+    "title": "Special Topics",
+    "hours": 1.0
+  },
+  "EAM 2882": {
+    "title": "Special Topics",
+    "hours": 2.0
+  },
+  "EAM 2883": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "EAM 2991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "EAM 2992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "EAM 2993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "EAM 3003": {
+    "title": "Developing Emergency Management Skills",
+    "hours": 3.0
+  },
+  "EAM 3013": {
+    "title": "Public Policy and Politics in Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 3023": {
+    "title": "Principles of Preparedness and Response",
+    "hours": 3.0
+  },
+  "EAM 3033": {
+    "title": "The Social Dimension of Disaster",
+    "hours": 3.0
+  },
+  "EAM 3053": {
+    "title": "Introduction to Ethical and Legal Issues in Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 3063": {
+    "title": "Emergency Management Doctrine",
+    "hours": 3.0
+  },
+  "EAM 3073": {
+    "title": "Safety Standards for Emergency Managers",
+    "hours": 3.0
+  },
+  "EAM 3123": {
+    "title": "Public Information Skills for Emergency Managers",
+    "hours": 3.0
+  },
+  "EAM 3243": {
+    "title": "Terrorism and Counterterrorism",
+    "hours": 3.0
+  },
+  "EAM 3263": {
+    "title": "Disasters in Pop Culture",
+    "hours": 3.0
+  },
+  "EAM 3323": {
+    "title": "Emergency Management Exercise Design and Evaluation",
+    "hours": 3.0
+  },
+  "EAM 3413": {
+    "title": "UAVs for Commercial Use",
+    "hours": 3.0
+  },
+  "EAM 3903": {
+    "title": "Public Health Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 4003": {
+    "title": "Principles of Mitigation and Recovery",
+    "hours": 3.0
+  },
+  "EAM 4013": {
+    "title": "Resilience and Continuity",
+    "hours": 3.0
+  },
+  "EAM 4023": {
+    "title": "Technology for Comprehensive Emergency Management",
+    "hours": 3.0
+  },
+  "EAM 4033": {
+    "title": "Emergency Management Research and Grants",
+    "hours": 3.0
+  },
+  "EAM 4053": {
+    "title": "Community Management of Hazardous Materials",
+    "hours": 3.0
+  },
+  "EAM 4063": {
+    "title": "Leadership",
+    "hours": 3.0
+  },
+  "EAM 4093": {
+    "title": "Grants",
+    "hours": 3.0
+  },
+  "EAM 4103": {
+    "title": "Critical Infrastructure",
+    "hours": 3.0
+  },
+  "EAM 4193": {
+    "title": "Crisis Communication",
+    "hours": 3.0
+  },
+  "EAM 4203": {
+    "title": "Externship",
+    "hours": 3.0
+  },
+  "EAM 4503": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "EAM 4506": {
+    "title": "Internship",
+    "hours": 6.0
+  },
+  "EAM 4603": {
+    "title": "Capstone",
+    "hours": 3.0
+  },
+  "EAM 4881": {
+    "title": "Advanced Special Topics",
+    "hours": 1.0
+  },
+  "EAM 4882": {
+    "title": "Advanced Special Topics",
+    "hours": 1.0
+  },
+  "EAM 4883": {
+    "title": "Advanced Special Topics",
+    "hours": 3.0
+  },
+  "EAM 4951": {
+    "title": "Undergraduate Research in Emergency Administration and Management",
+    "hours": 1.0
+  },
+  "EAM 4952": {
+    "title": "Undergraduate Research in Emergency Administration and Management",
+    "hours": 2.0
+  },
+  "EAM 4953": {
+    "title": "Undergraduate Research in Emergency Administration and Management",
+    "hours": 3.0
+  },
+  "EAM 4954": {
+    "title": "Undergraduate Research in Emergency Administration and Management",
+    "hours": 4.0
+  },
+  "EAM 4991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "EAM 4992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "EAM 4993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "ECE 2113": {
+    "title": "Basic Child Growth and Development",
+    "hours": 3.0
+  },
+  "ECE 2313": {
+    "title": "Foundations and Theories in Early Childhood Education",
+    "hours": 3.0
+  },
+  "ECE 2513": {
+    "title": "Curriculum for Early Childhood Education",
+    "hours": 3.0
+  },
+  "ECE 2613": {
+    "title": "Methods and Materials Using Developmentally Appropriate Practices and Activities for Young Children",
+    "hours": 3.0
+  },
+  "ECE 2996": {
+    "title": "Practicum in Early Childhood Education",
+    "hours": 6.0
+  },
+  "ECON 2003": {
+    "title": "Principles of Macroeconomics",
+    "hours": 3.0
+  },
+  "ECON 2013": {
+    "title": "Principles of Microeconomics",
+    "hours": 3.0
+  },
+  "ECON 2103": {
+    "title": "Honors Principles of Economics I",
+    "hours": 3.0
+  },
+  "ECON 3003": {
+    "title": "Money and Banking",
+    "hours": 3.0
+  },
+  "ECON 3073": {
+    "title": "Intermediate Microeconomic Theory",
+    "hours": 3.0
+  },
+  "ECON 3093": {
+    "title": "Econometrics",
+    "hours": 3.0
+  },
+  "ECON 3XXX": {
+    "title": "ECONOMICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ECON 4003": {
+    "title": "Readings in Economic Theory",
+    "hours": 3.0
+  },
+  "ECON 4093": {
+    "title": "International Economics and Finance",
+    "hours": 3.0
+  },
+  "ECON 4103": {
+    "title": "Economics Special Topics",
+    "hours": 3.0
+  },
+  "ECON 4XXX": {
+    "title": "ECONOMICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ECON 6093": {
+    "title": "Special Topics in Economics",
+    "hours": 3.0
+  },
+  "ECON 6103": {
+    "title": "Managerial Economics",
+    "hours": 3.0
+  },
+  "EDFD 1001": {
+    "title": "Orientation to Teaching K-12",
+    "hours": 1.0
+  },
+  "EDFD 6003": {
+    "title": "Educational Research",
+    "hours": 3.0
+  },
+  "EDFD 6043": {
+    "title": "Principles and Theories of Learning",
+    "hours": 3.0
+  },
+  "EDFD 6053": {
+    "title": "The At-Risk Child in the School Environment",
+    "hours": 3.0
+  },
+  "EDFD 6313": {
+    "title": "Principles of Curriculum Development",
+    "hours": 3.0
+  },
+  "EDFD 6403": {
+    "title": "Social, Historical, and Legal Factors in Education",
+    "hours": 3.0
+  },
+  "EDFD 6503": {
+    "title": "Classroom Behavioral Management",
+    "hours": 3.0
+  },
+  "EDFD 6881": {
+    "title": "Workshop",
+    "hours": 1.0
+  },
+  "EDFD 6882": {
+    "title": "Workshop",
+    "hours": 2.0
+  },
+  "EDFD 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "EDFD 6993": {
+    "title": "Project in Educational Research",
+    "hours": 3.0
+  },
+  "EDMD 2013": {
+    "title": "Integrating Instructional Technology",
+    "hours": 3.0
+  },
+  "EDMD 5043": {
+    "title": "Foundations of Online Curriculum Design and Evaluation",
+    "hours": 3.0
+  },
+  "EDMD 5053": {
+    "title": "Online Course Development with Multimedia",
+    "hours": 3.0
+  },
+  "EDMD 5063": {
+    "title": "Advanced Curriculum Design for the Online Classroom",
+    "hours": 3.0
+  },
+  "EDMD 6033": {
+    "title": "Introduction to Instructional Technology",
+    "hours": 3.0
+  },
+  "EDMD 6113": {
+    "title": "Emerging Technologies for Education and Training",
+    "hours": 3.0
+  },
+  "EDMD 6133": {
+    "title": "Production of Digital Instructional Materials",
+    "hours": 3.0
+  },
+  "EDMD 6163": {
+    "title": "Internet Resources",
+    "hours": 3.0
+  },
+  "EDMD 6233": {
+    "title": "Administration of Media Programs",
+    "hours": 3.0
+  },
+  "EDMD 6303": {
+    "title": "Survey of Instructional Technology",
+    "hours": 3.0
+  },
+  "EDMD 6313": {
+    "title": "Instructional Design and Product Development",
+    "hours": 3.0
+  },
+  "EDMD 6433": {
+    "title": "Practicum in Educational Media",
+    "hours": 3.0
+  },
+  "ELED 2003": {
+    "title": "Education as a Profession",
+    "hours": 3.0
+  },
+  "ELED 2113": {
+    "title": "Human Development and Learning Theories",
+    "hours": 3.0
+  },
+  "ELED 3123": {
+    "title": "Diagnosis and Assessment of Elementary Students",
+    "hours": 3.0
+  },
+  "ELED 3133": {
+    "title": "Integrated Curriculum",
+    "hours": 3.0
+  },
+  "ELED 3143": {
+    "title": "Teaching Methods K-6 Social Studies",
+    "hours": 3.0
+  },
+  "ELED 4003": {
+    "title": "Residency A Seminar",
+    "hours": 3.0
+  },
+  "ELED 4033": {
+    "title": "Classroom and Behavior Management",
+    "hours": 3.0
+  },
+  "ELED 4903": {
+    "title": "Residency B Seminar",
+    "hours": 3.0
+  },
+  "ELED 4909": {
+    "title": "Residency B",
+    "hours": 9.0
+  },
+  "ELED 4991": {
+    "title": "Special Problems in Elementary Education",
+    "hours": 1.0
+  },
+  "ELED 4992": {
+    "title": "Special Problems in Elementary Education",
+    "hours": 2.0
+  },
+  "ELED 4994": {
+    "title": "Special Problems in Elementary Education",
+    "hours": 4.0
+  },
+  "ELED 5333": {
+    "title": "Teaching Reading and Study Strategies in the Content Area",
+    "hours": 3.0
+  },
+  "ELEG 1011": {
+    "title": "Introduction to Electrical and Computer Engineering",
+    "hours": 1.0
+  },
+  "ELEG 2103": {
+    "title": "Electric Circuits I",
+    "hours": 3.0
+  },
+  "ELEG 2111": {
+    "title": "Electric Circuits Laboratory",
+    "hours": 1.0
+  },
+  "ELEG 2113": {
+    "title": "Electric Circuits II",
+    "hours": 3.0
+  },
+  "ELEG 2130": {
+    "title": "Digital Logic Design Lab",
+    "hours": 0.0
+  },
+  "ELEG 2134": {
+    "title": "Digital Logic Design",
+    "hours": 4.0
+  },
+  "ELEG 3000": {
+    "title": "Engineering Internship/Research Experience",
+    "hours": 0.0
+  },
+  "ELEG 3003": {
+    "title": "System Modeling and Analysis",
+    "hours": 3.0
+  },
+  "ELEG 3103": {
+    "title": "Electronics I",
+    "hours": 3.0
+  },
+  "ELEG 3123": {
+    "title": "Signals and Systems",
+    "hours": 3.0
+  },
+  "ELEG 3133": {
+    "title": "Microprocessor Systems Design",
+    "hours": 3.0
+  },
+  "ELEG 3143": {
+    "title": "Electromagnetics",
+    "hours": 3.0
+  },
+  "ELEG 3153": {
+    "title": "Electrical Machines",
+    "hours": 3.0
+  },
+  "ELEG 3163": {
+    "title": "Electric Power Systems",
+    "hours": 3.0
+  },
+  "ELEG 3203": {
+    "title": "Renewable Energy Technology",
+    "hours": 3.0
+  },
+  "ELEG 3663": {
+    "title": "Engineering Internship",
+    "hours": 3.0
+  },
+  "ELEG 3XXX": {
+    "title": "ELEG TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ELEG 4103": {
+    "title": "Electronics II",
+    "hours": 3.0
+  },
+  "ELEG 4113": {
+    "title": "Digital Signal Processing",
+    "hours": 3.0
+  },
+  "ELEG 4122": {
+    "title": "Electrical Systems Lab",
+    "hours": 2.0
+  },
+  "ELEG 4133": {
+    "title": "Advanced Digital Design",
+    "hours": 3.0
+  },
+  "ELEG 4143": {
+    "title": "Communication Systems I",
+    "hours": 3.0
+  },
+  "ELEG 4153": {
+    "title": "Communication Systems II",
+    "hours": 3.0
+  },
+  "ELEG 4191": {
+    "title": "Electrical Design Project I",
+    "hours": 1.0
+  },
+  "ELEG 4192": {
+    "title": "Electrical Design Project II",
+    "hours": 2.0
+  },
+  "ELEG 4202": {
+    "title": "Engineering Design",
+    "hours": 2.0
+  },
+  "ELEG 4303": {
+    "title": "Control Systems",
+    "hours": 3.0
+  },
+  "ELEG 4313": {
+    "title": "Modern Control Systems",
+    "hours": 3.0
+  },
+  "ELEG 4951": {
+    "title": "Undergraduate Research in Electrical Engineering",
+    "hours": 1.0
+  },
+  "ELEG 4952": {
+    "title": "Undergraduate Research in Electrical Engineering",
+    "hours": 2.0
+  },
+  "ELEG 4953": {
+    "title": "Undergraduate Research in Electrical Engineering",
+    "hours": 3.0
+  },
+  "ELEG 4954": {
+    "title": "Undergraduate Research in Electrical Engineering",
+    "hours": 4.0
+  },
+  "ELEG 4991": {
+    "title": "Special Problems in Engineering",
+    "hours": 1.0
+  },
+  "ELEG 4992": {
+    "title": "Special Problems in Engineering",
+    "hours": 2.0
+  },
+  "ELEG 4993": {
+    "title": "Special Problems in Engineering",
+    "hours": 3.0
+  },
+  "ELEG 4994": {
+    "title": "Special Problems in Engineering",
+    "hours": 4.0
+  },
+  "ELEG 4XXX": {
+    "title": "ELEG TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ELEG 5113": {
+    "title": "Digital Signal Processing",
+    "hours": 3.0
+  },
+  "ELEG 5133": {
+    "title": "Advanced Digital Design",
+    "hours": 3.0
+  },
+  "ELEG 5153": {
+    "title": "Communication Systems II",
+    "hours": 3.0
+  },
+  "ELEG 5313": {
+    "title": "Modern Control Systems",
+    "hours": 3.0
+  },
+  "EMHS 5003": {
+    "title": "Principles of Mitigation and Recovery",
+    "hours": 3.0
+  },
+  "EMHS 5023": {
+    "title": "Technology for Comprehensive Emergency Management",
+    "hours": 3.0
+  },
+  "EMHS 5043": {
+    "title": "Disaster and Emergency Management Ethics",
+    "hours": 3.0
+  },
+  "EMHS 5053": {
+    "title": "Community Management of Hazardous Materials",
+    "hours": 3.0
+  },
+  "EMHS 5093": {
+    "title": "Grants",
+    "hours": 3.0
+  },
+  "EMHS 5103": {
+    "title": "Critical Infrastructure",
+    "hours": 3.0
+  },
+  "EMHS 5991": {
+    "title": "Special Problems and Topics",
+    "hours": 1.0
+  },
+  "EMHS 5992": {
+    "title": "Special Problems and Topics",
+    "hours": 2.0
+  },
+  "EMHS 5993": {
+    "title": "Special Problems and Topics",
+    "hours": 3.0
+  },
+  "EMHS 6003": {
+    "title": "Design and Management of Preparedness and Mitigation Systems",
+    "hours": 3.0
+  },
+  "EMHS 6023": {
+    "title": "Risk and Vulnerability Assessment for Business and Industry",
+    "hours": 3.0
+  },
+  "EMHS 6033": {
+    "title": "Leadership and Management",
+    "hours": 3.0
+  },
+  "EMHS 6043": {
+    "title": "Contemporary Issues in Emergency Management",
+    "hours": 3.0
+  },
+  "EMHS 6063": {
+    "title": "Principles of Emergency Management",
+    "hours": 3.0
+  },
+  "EMHS 6073": {
+    "title": "Terrorism and Counterterrorism",
+    "hours": 3.0
+  },
+  "EMHS 6093": {
+    "title": "Principles of Homeland Security",
+    "hours": 3.0
+  },
+  "EMHS 6103": {
+    "title": "Research Design and Methods",
+    "hours": 3.0
+  },
+  "EMHS 6123": {
+    "title": "Applied Data Analysis",
+    "hours": 3.0
+  },
+  "EMHS 6133": {
+    "title": "Ethical, Legal, and Political Considerations in Emergency Management and Homeland Security",
+    "hours": 3.0
+  },
+  "EMHS 6143": {
+    "title": "Social Vulnerability",
+    "hours": 3.0
+  },
+  "EMHS 6153": {
+    "title": "Disaster Films and Media",
+    "hours": 3.0
+  },
+  "EMHS 6163": {
+    "title": "Disaster Preparedness",
+    "hours": 3.0
+  },
+  "EMHS 6193": {
+    "title": "Introduction to International Emergency Management",
+    "hours": 3.0
+  },
+  "EMHS 6203": {
+    "title": "Crisis Communications",
+    "hours": 3.0
+  },
+  "EMHS 6333": {
+    "title": "Epidemics and Pandemics",
+    "hours": 3.0
+  },
+  "EMHS 6413": {
+    "title": "Capstone",
+    "hours": 3.0
+  },
+  "EMHS 6423": {
+    "title": "Professional Practical Experience and Project Development",
+    "hours": 3.0
+  },
+  "EMHS 6526": {
+    "title": "Emergency Management Practicum in Health Care",
+    "hours": 6.0
+  },
+  "EMHS 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "EMHS 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "EMHS 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "EMHS 6933": {
+    "title": "Research I",
+    "hours": 3.0
+  },
+  "EMHS 6943": {
+    "title": "Master&#39;s Thesis",
+    "hours": 3.0
+  },
+  "ENGL 0303": {
+    "title": "Composition Workshop",
+    "hours": 3.0
+  },
+  "ENGL 1013": {
+    "title": "Composition I",
+    "hours": 3.0
+  },
+  "ENGL 1023": {
+    "title": "Composition II",
+    "hours": 3.0
+  },
+  "ENGL 1043": {
+    "title": "Honors Composition I",
+    "hours": 3.0
+  },
+  "ENGL 1053": {
+    "title": "Honors Composition II",
+    "hours": 3.0
+  },
+  "ENGL 2003": {
+    "title": "Introduction to World Literature",
+    "hours": 3.0
+  },
+  "ENGL 2013": {
+    "title": "Introduction to American Literature",
+    "hours": 3.0
+  },
+  "ENGL 2023": {
+    "title": "Honors World Literature",
+    "hours": 3.0
+  },
+  "ENGL 2043": {
+    "title": "Introduction to Creative Writing",
+    "hours": 3.0
+  },
+  "ENGL 2053": {
+    "title": "Technical Writing",
+    "hours": 3.0
+  },
+  "ENGL 2063": {
+    "title": "Introduction to Literary Studies",
+    "hours": 3.0
+  },
+  "ENGL 2173": {
+    "title": "Introduction to Film",
+    "hours": 3.0
+  },
+  "ENGL 2183": {
+    "title": "Honors Introduction to Film",
+    "hours": 3.0
+  },
+  "ENGL 2193": {
+    "title": "Introduction to Creative Nonfiction",
+    "hours": 3.0
+  },
+  "ENGL 2213": {
+    "title": "Introduction to Drama",
+    "hours": 3.0
+  },
+  "ENGL 2223": {
+    "title": "Introduction to Poetry",
+    "hours": 3.0
+  },
+  "ENGL 2233": {
+    "title": "Introduction to Fiction",
+    "hours": 3.0
+  },
+  "ENGL 2263": {
+    "title": "Mythology",
+    "hours": 3.0
+  },
+  "ENGL 2283": {
+    "title": "Science Fiction and Fantasy",
+    "hours": 3.0
+  },
+  "ENGL 2881": {
+    "title": "Practicum-Literary Journal Publication",
+    "hours": 1.0
+  },
+  "ENGL 2XXX": {
+    "title": "ENGLISH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ENGL 3013": {
+    "title": "Systems of Grammar",
+    "hours": 3.0
+  },
+  "ENGL 3023": {
+    "title": "Introduction to Linguistics",
+    "hours": 3.0
+  },
+  "ENGL 3043": {
+    "title": "Literary Editing and Publishing",
+    "hours": 3.0
+  },
+  "ENGL 3073": {
+    "title": "Creative Nonfiction Workshop",
+    "hours": 3.0
+  },
+  "ENGL 3083": {
+    "title": "Fiction Workshop",
+    "hours": 3.0
+  },
+  "ENGL 3093": {
+    "title": "Poetry Workshop",
+    "hours": 3.0
+  },
+  "ENGL 3173": {
+    "title": "Studies in Film",
+    "hours": 3.0
+  },
+  "ENGL 3183": {
+    "title": "Studies in Television",
+    "hours": 3.0
+  },
+  "ENGL 3203": {
+    "title": "Modern Novel",
+    "hours": 3.0
+  },
+  "ENGL 3223": {
+    "title": "Young Adult Literature",
+    "hours": 3.0
+  },
+  "ENGL 3293": {
+    "title": "Studies in Literature and Language",
+    "hours": 3.0
+  },
+  "ENGL 3303": {
+    "title": "Literature of the South",
+    "hours": 3.0
+  },
+  "ENGL 3313": {
+    "title": "American Literature to 1900",
+    "hours": 3.0
+  },
+  "ENGL 3323": {
+    "title": "Modern American Literature",
+    "hours": 3.0
+  },
+  "ENGL 3413": {
+    "title": "British Literature to 1800",
+    "hours": 3.0
+  },
+  "ENGL 3423": {
+    "title": "British Literature since 1800",
+    "hours": 3.0
+  },
+  "ENGL 3463": {
+    "title": "Shakespeare",
+    "hours": 3.0
+  },
+  "ENGL 3XXX": {
+    "title": "ENGLISH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ENGL 4013": {
+    "title": "History of the English Language",
+    "hours": 3.0
+  },
+  "ENGL 4023": {
+    "title": "Second Language Acquisition",
+    "hours": 3.0
+  },
+  "ENGL 4053": {
+    "title": "Seminar in Technical Communication",
+    "hours": 3.0
+  },
+  "ENGL 4083": {
+    "title": "Seminar: English Language",
+    "hours": 3.0
+  },
+  "ENGL 4093": {
+    "title": "Seminar in Creative Writing",
+    "hours": 3.0
+  },
+  "ENGL 4103": {
+    "title": "Literary Theory",
+    "hours": 3.0
+  },
+  "ENGL 4173": {
+    "title": "Seminar in Film Studies",
+    "hours": 3.0
+  },
+  "ENGL 4213": {
+    "title": "American Folklore",
+    "hours": 3.0
+  },
+  "ENGL 4283": {
+    "title": "Seminar: World Literature",
+    "hours": 3.0
+  },
+  "ENGL 4383": {
+    "title": "Seminar: American Literature",
+    "hours": 3.0
+  },
+  "ENGL 4483": {
+    "title": "Seminar: British Literature",
+    "hours": 3.0
+  },
+  "ENGL 4683": {
+    "title": "Seminar in Gender Studies",
+    "hours": 3.0
+  },
+  "ENGL 4703": {
+    "title": "Teaching English as a Second Language",
+    "hours": 3.0
+  },
+  "ENGL 4713": {
+    "title": "ESL Assessment",
+    "hours": 3.0
+  },
+  "ENGL 4723": {
+    "title": "Teaching People of Other Cultures",
+    "hours": 3.0
+  },
+  "ENGL 4733": {
+    "title": "Teaching English in the Secondary School",
+    "hours": 3.0
+  },
+  "ENGL 4813": {
+    "title": "Senior Project in Creative Writing",
+    "hours": 3.0
+  },
+  "ENGL 4881": {
+    "title": "Practicum-Editing Literary Journal",
+    "hours": 1.0
+  },
+  "ENGL 4882": {
+    "title": "Practicum-Editing Literary Journal",
+    "hours": 2.0
+  },
+  "ENGL 4883": {
+    "title": "Practicum-Editing Literary Journal",
+    "hours": 3.0
+  },
+  "ENGL 4884": {
+    "title": "Practicum-Editing Literary Journal",
+    "hours": 4.0
+  },
+  "ENGL 4991": {
+    "title": "Special Problems in English",
+    "hours": 1.0
+  },
+  "ENGL 4992": {
+    "title": "Special Problems in English",
+    "hours": 2.0
+  },
+  "ENGL 4993": {
+    "title": "Special Problems in English",
+    "hours": 3.0
+  },
+  "ENGL 4994": {
+    "title": "Special Problems in English",
+    "hours": 4.0
+  },
+  "ENGL 4XXX": {
+    "title": "ENGLISH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "ENGL 5023": {
+    "title": "Second Language Acquisition",
+    "hours": 3.0
+  },
+  "ENGL 5083": {
+    "title": "Seminar: English Language",
+    "hours": 3.0
+  },
+  "ENGL 5093": {
+    "title": "Seminar in Creative Writing",
+    "hours": 3.0
+  },
+  "ENGL 5103": {
+    "title": "Literary Theory",
+    "hours": 3.0
+  },
+  "ENGL 5173": {
+    "title": "Seminar in Film Studies",
+    "hours": 3.0
+  },
+  "ENGL 5213": {
+    "title": "American Folklore",
+    "hours": 3.0
+  },
+  "ENGL 5283": {
+    "title": "Seminar: World Literature",
+    "hours": 3.0
+  },
+  "ENGL 5383": {
+    "title": "Seminar: American Literature",
+    "hours": 3.0
+  },
+  "ENGL 5483": {
+    "title": "Seminar: British Literature",
+    "hours": 3.0
+  },
+  "ENGL 5683": {
+    "title": "Seminar in Gender Studies",
+    "hours": 3.0
+  },
+  "ENGL 5703": {
+    "title": "Teaching English as a Second Language",
+    "hours": 3.0
+  },
+  "ENGL 5713": {
+    "title": "ESL Assessment",
+    "hours": 3.0
+  },
+  "ENGL 5723": {
+    "title": "Teaching People of Other Cultures",
+    "hours": 3.0
+  },
+  "ENGL 6003": {
+    "title": "Introduction to English Graduate Study",
+    "hours": 3.0
+  },
+  "ENGL 6013": {
+    "title": "Modern English Grammar and Usage",
+    "hours": 3.0
+  },
+  "ENGL 6023": {
+    "title": "Composition Theory and Practice.",
+    "hours": 3.0
+  },
+  "ENGL 6033": {
+    "title": "Rhetoric",
+    "hours": 3.0
+  },
+  "ENGL 6073": {
+    "title": "Instructional Approaches to Literature",
+    "hours": 3.0
+  },
+  "ENGL 6083": {
+    "title": "Seminar in Linguistics",
+    "hours": 3.0
+  },
+  "ENGL 6213": {
+    "title": "Topics in Literature",
+    "hours": 3.0
+  },
+  "ENGL 6283": {
+    "title": "Literature and Society",
+    "hours": 3.0
+  },
+  "ENGL 6813": {
+    "title": "Directed Readings",
+    "hours": 3.0
+  },
+  "ENGL 6863": {
+    "title": "TESL Practicum",
+    "hours": 3.0
+  },
+  "ENGL 6881": {
+    "title": "Workshop",
+    "hours": 1.0
+  },
+  "ENGL 6882": {
+    "title": "Workshop",
+    "hours": 2.0
+  },
+  "ENGL 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "ENGL 6884": {
+    "title": "Workshop",
+    "hours": 4.0
+  },
+  "ENGL 6885": {
+    "title": "Workshop",
+    "hours": 5.0
+  },
+  "ENGL 6886": {
+    "title": "Workshop",
+    "hours": 6.0
+  },
+  "ENGL 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "ENGL 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "ENGL 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "ENGL 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "ENGL 6991": {
+    "title": "Thesis Research",
+    "hours": 1.0
+  },
+  "ENGL 6992": {
+    "title": "Thesis Research",
+    "hours": 2.0
+  },
+  "ENGL 6993": {
+    "title": "Thesis Research",
+    "hours": 3.0
+  },
+  "ENGL 6994": {
+    "title": "Thesis Research",
+    "hours": 4.0
+  },
+  "ENGL 6995": {
+    "title": "Thesis Research",
+    "hours": 5.0
+  },
+  "ENGL 6996": {
+    "title": "Thesis Research",
+    "hours": 6.0
+  },
+  "ENVS 1004": {
+    "title": "Principles of Environmental Science",
+    "hours": 4.0
+  },
+  "ENVS 3043": {
+    "title": "Conservation",
+    "hours": 3.0
+  },
+  "ENVS 3111": {
+    "title": "Environmental Seminar",
+    "hours": 1.0
+  },
+  "ENVS 4112": {
+    "title": "Environmental Science Internship",
+    "hours": 2.0
+  },
+  "ENVS 4114": {
+    "title": "Environmental Science Internship",
+    "hours": 4.0
+  },
+  "ENVS 4124": {
+    "title": "Biological Assessment of Water Quality",
+    "hours": 4.0
+  },
+  "ENVS 4133": {
+    "title": "Environmental Policy",
+    "hours": 3.0
+  },
+  "ENVS 4881": {
+    "title": "Advanced Topics in Environmental Science",
+    "hours": 1.0
+  },
+  "ENVS 4882": {
+    "title": "Advanced Topics in Environmental Science",
+    "hours": 2.0
+  },
+  "ENVS 4883": {
+    "title": "Advanced Topics in Environmental Science",
+    "hours": 3.0
+  },
+  "ENVS 4884": {
+    "title": "Advanced Topics in Environmental Science",
+    "hours": 4.0
+  },
+  "ENVS 4951": {
+    "title": "Undergraduate Research in Environmental Science",
+    "hours": 1.0
+  },
+  "ENVS 4952": {
+    "title": "Undergraduate Research in Environmental Science",
+    "hours": 2.0
+  },
+  "ENVS 4953": {
+    "title": "Undergraduate Research in Environmental Science",
+    "hours": 3.0
+  },
+  "ENVS 4954": {
+    "title": "Undergraduate Research in Environmental Science",
+    "hours": 4.0
+  },
+  "FIN 2013": {
+    "title": "Personal Finance",
+    "hours": 3.0
+  },
+  "FIN 3023": {
+    "title": "Financial Markets and Institutions",
+    "hours": 3.0
+  },
+  "FIN 3033": {
+    "title": "Principles of Real Estate",
+    "hours": 3.0
+  },
+  "FIN 3043": {
+    "title": "Investments",
+    "hours": 3.0
+  },
+  "FIN 3063": {
+    "title": "Business Finance",
+    "hours": 3.0
+  },
+  "FIN 4023": {
+    "title": "Portfolio Management",
+    "hours": 3.0
+  },
+  "FIN 4033": {
+    "title": "Financial Modeling",
+    "hours": 3.0
+  },
+  "FIN 4043": {
+    "title": "Principles of Risk and Insurance",
+    "hours": 3.0
+  },
+  "FIN 4053": {
+    "title": "Internship I in Economics/Finance",
+    "hours": 3.0
+  },
+  "FIN 4083": {
+    "title": "Financial Institution Management",
+    "hours": 3.0
+  },
+  "FIN 4093": {
+    "title": "Advanced Financial Management",
+    "hours": 3.0
+  },
+  "FIN 4101": {
+    "title": "Special Topics in Finance",
+    "hours": 1.0
+  },
+  "FIN 4102": {
+    "title": "Special Topics in Finance",
+    "hours": 2.0
+  },
+  "FIN 4103": {
+    "title": "Special Topics in Finance",
+    "hours": 3.0
+  },
+  "FIN 6093": {
+    "title": "Special Topics in Finance",
+    "hours": 3.0
+  },
+  "FIN 6103": {
+    "title": "Corporate Financial Management",
+    "hours": 3.0
+  },
+  "FR 1013": {
+    "title": "Beginning French I",
+    "hours": 3.0
+  },
+  "FR 1023": {
+    "title": "Beginning French II",
+    "hours": 3.0
+  },
+  "FR 2013": {
+    "title": "Intermediate French I",
+    "hours": 3.0
+  },
+  "FR 2023": {
+    "title": "Intermediate French II",
+    "hours": 3.0
+  },
+  "FR 3113": {
+    "title": "Culture and Civilization",
+    "hours": 3.0
+  },
+  "FR 3XXX": {
+    "title": "FRENCH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "FR 4993": {
+    "title": "Special Problems in French",
+    "hours": 3.0
+  },
+  "FR 4XXX": {
+    "title": "FRENCH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "FW 1001": {
+    "title": "Orientation to Fisheries and Wildlife Science",
+    "hours": 1.0
+  },
+  "FW 2003": {
+    "title": "Elements of Fish and Wildlife Management",
+    "hours": 3.0
+  },
+  "FW 2013": {
+    "title": "Natural Resources Communications",
+    "hours": 3.0
+  },
+  "FW 2833": {
+    "title": "Introduction to Geographic Information Systems",
+    "hours": 3.0
+  },
+  "FW 3053": {
+    "title": "Fisheries and Wildlife Administration",
+    "hours": 3.0
+  },
+  "FW 3074": {
+    "title": "Habitat Evaluation",
+    "hours": 4.0
+  },
+  "FW 3084": {
+    "title": "Ichthyology",
+    "hours": 4.0
+  },
+  "FW 3114": {
+    "title": "Principles of Ecology",
+    "hours": 4.0
+  },
+  "FW 3144": {
+    "title": "Ornithology",
+    "hours": 4.0
+  },
+  "FW 3154": {
+    "title": "Mammalogy",
+    "hours": 4.0
+  },
+  "FW 3173": {
+    "title": "Biostatistics",
+    "hours": 3.0
+  },
+  "FW 3204": {
+    "title": "Aquaculture",
+    "hours": 4.0
+  },
+  "FW 3224": {
+    "title": "Herpetology",
+    "hours": 4.0
+  },
+  "FW 3XXX": {
+    "title": "FW TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "FW 4001": {
+    "title": "Senior Seminar in Fisheries and Wildlife Biology",
+    "hours": 1.0
+  },
+  "FW 4003": {
+    "title": "Principles of Wildlife Management",
+    "hours": 3.0
+  },
+  "FW 4013": {
+    "title": "Wildlife Techniques",
+    "hours": 3.0
+  },
+  "FW 4014": {
+    "title": "Forest Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 4024": {
+    "title": "Limnology",
+    "hours": 4.0
+  },
+  "FW 4034": {
+    "title": "Advanced Geographic Information Systems Applications",
+    "hours": 4.0
+  },
+  "FW 4043": {
+    "title": "Fisheries Techniques",
+    "hours": 3.0
+  },
+  "FW 4054": {
+    "title": "Waterfowl Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 4064": {
+    "title": "Wetland Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 4083": {
+    "title": "Principles of Fisheries Management",
+    "hours": 3.0
+  },
+  "FW 4103": {
+    "title": "Human Dimensions of Fisheries and Wildlife Management",
+    "hours": 3.0
+  },
+  "FW 4112": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "FW 4114": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "FW 4163": {
+    "title": "Biodiversity and Conservation Biology",
+    "hours": 3.0
+  },
+  "FW 4881": {
+    "title": "Advanced Topics",
+    "hours": 1.0
+  },
+  "FW 4882": {
+    "title": "Advanced Topics",
+    "hours": 2.0
+  },
+  "FW 4883": {
+    "title": "Advanced Topics",
+    "hours": 3.0
+  },
+  "FW 4884": {
+    "title": "Advanced Topics",
+    "hours": 4.0
+  },
+  "FW 4951": {
+    "title": "Undergraduate Research in Fisheries and Wildlife",
+    "hours": 1.0
+  },
+  "FW 4952": {
+    "title": "Undergraduate Research in Fisheries and Wildlife",
+    "hours": 2.0
+  },
+  "FW 4953": {
+    "title": "Undergraduate Research in Fisheries and Wildlife",
+    "hours": 3.0
+  },
+  "FW 4954": {
+    "title": "Undergraduate Research in Fisheries and Wildlife",
+    "hours": 4.0
+  },
+  "FW 4XXX": {
+    "title": "FW TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "FW 5003": {
+    "title": "Principles of Wildlife Management",
+    "hours": 3.0
+  },
+  "FW 5014": {
+    "title": "Forest Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 5024": {
+    "title": "Limnology",
+    "hours": 4.0
+  },
+  "FW 5034": {
+    "title": "Advanced Geographic Information Systems Applications",
+    "hours": 4.0
+  },
+  "FW 5054": {
+    "title": "Waterfowl Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 5064": {
+    "title": "Wetland Ecology and Management",
+    "hours": 4.0
+  },
+  "FW 5103": {
+    "title": "Human Dimensions of Fisheries and Wildlife Management",
+    "hours": 3.0
+  },
+  "FW 5163": {
+    "title": "Biodiversity and Conservation Biology",
+    "hours": 3.0
+  },
+  "FW 5881": {
+    "title": "Advanced Topics",
+    "hours": 1.0
+  },
+  "FW 5882": {
+    "title": "Advanced Topics",
+    "hours": 2.0
+  },
+  "FW 5883": {
+    "title": "Advanced Topics",
+    "hours": 3.0
+  },
+  "FW 5884": {
+    "title": "Advanced Topics",
+    "hours": 4.0
+  },
+  "FW 6001": {
+    "title": "Graduate Seminar in Fisheries and Wildlife Biology",
+    "hours": 1.0
+  },
+  "FW 6002": {
+    "title": "Research Methods I",
+    "hours": 2.0
+  },
+  "FW 6012": {
+    "title": "Research Methods II",
+    "hours": 2.0
+  },
+  "FW 6013": {
+    "title": "Population Dynamics",
+    "hours": 3.0
+  },
+  "FW 6023": {
+    "title": "Quantitative Fisheries Science",
+    "hours": 3.0
+  },
+  "FW 6033": {
+    "title": "Conservation Management Practicum",
+    "hours": 3.0
+  },
+  "FW 6043": {
+    "title": "Conservation Research Practicum",
+    "hours": 3.0
+  },
+  "FW 6101": {
+    "title": "Comprehensive Exam",
+    "hours": 1.0
+  },
+  "FW 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "FW 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "FW 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "FW 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "FW 6991": {
+    "title": "Thesis Research",
+    "hours": 1.0
+  },
+  "FW 6992": {
+    "title": "Thesis Research",
+    "hours": 2.0
+  },
+  "FW 6993": {
+    "title": "Thesis Research",
+    "hours": 3.0
+  },
+  "FW 6994": {
+    "title": "Thesis Research",
+    "hours": 4.0
+  },
+  "FW 6995": {
+    "title": "Thesis Research",
+    "hours": 5.0
+  },
+  "FW 6996": {
+    "title": "Thesis Research",
+    "hours": 6.0
+  },
+  "GAME 1003": {
+    "title": "Intro to Game Development",
+    "hours": 3.0
+  },
+  "GAME 2003": {
+    "title": "Digital 3-D Foundations",
+    "hours": 3.0
+  },
+  "GAME 2013": {
+    "title": "Digital Audio Production",
+    "hours": 3.0
+  },
+  "GAME 3013": {
+    "title": "Game Development I",
+    "hours": 3.0
+  },
+  "GAME 3023": {
+    "title": "Game Development II",
+    "hours": 3.0
+  },
+  "GAME 4013": {
+    "title": "Senior Game Project I",
+    "hours": 3.0
+  },
+  "GAME 4023": {
+    "title": "Senior Game Project II",
+    "hours": 3.0
+  },
+  "GAME 4263": {
+    "title": "3D Modeling",
+    "hours": 3.0
+  },
+  "GAME 4633": {
+    "title": "3D Animation",
+    "hours": 3.0
+  },
+  "GAME 4803": {
+    "title": "Game Design Theory",
+    "hours": 3.0
+  },
+  "GAME 4901": {
+    "title": "Professional Portfolio",
+    "hours": 1.0
+  },
+  "GEOG 1XXX": {
+    "title": "GEOGRAPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOG 2013": {
+    "title": "Regional Geography of the World",
+    "hours": 3.0
+  },
+  "GEOG 2023": {
+    "title": "Human Geography",
+    "hours": 3.0
+  },
+  "GEOG 2833": {
+    "title": "Introduction to Geographic Information Systems",
+    "hours": 3.0
+  },
+  "GEOG 2XXX": {
+    "title": "GEOGRAPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOG 3033": {
+    "title": "Physical Geography",
+    "hours": 3.0
+  },
+  "GEOG 3113": {
+    "title": "Geography of the United States and Canada",
+    "hours": 3.0
+  },
+  "GEOG 3203": {
+    "title": "Arkansas Geography",
+    "hours": 3.0
+  },
+  "GEOG 3303": {
+    "title": "Geography of Latin America",
+    "hours": 3.0
+  },
+  "GEOG 3403": {
+    "title": "GIS II - Planning Applications",
+    "hours": 3.0
+  },
+  "GEOG 3413": {
+    "title": "Geography of Europe",
+    "hours": 3.0
+  },
+  "GEOG 3503": {
+    "title": "Political Geography",
+    "hours": 3.0
+  },
+  "GEOG 3603": {
+    "title": "Urban Geography",
+    "hours": 3.0
+  },
+  "GEOG 3703": {
+    "title": "Geography of Asia",
+    "hours": 3.0
+  },
+  "GEOG 3713": {
+    "title": "The Middle East",
+    "hours": 3.0
+  },
+  "GEOG 3803": {
+    "title": "Historical Geography",
+    "hours": 3.0
+  },
+  "GEOG 3903": {
+    "title": "Geography in Focus",
+    "hours": 3.0
+  },
+  "GEOG 3XXX": {
+    "title": "GEOGRAPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOG 4203": {
+    "title": "Place and Collective Memory",
+    "hours": 3.0
+  },
+  "GEOG 4791": {
+    "title": "Geography Internship",
+    "hours": 1.0
+  },
+  "GEOG 4792": {
+    "title": "Geography Internship",
+    "hours": 2.0
+  },
+  "GEOG 4793": {
+    "title": "Geography Internship",
+    "hours": 3.0
+  },
+  "GEOG 4794": {
+    "title": "Geography Internship",
+    "hours": 4.0
+  },
+  "GEOG 4951": {
+    "title": "Undergraduate Research in Geography",
+    "hours": 1.0
+  },
+  "GEOG 4952": {
+    "title": "Undergraduate Research in Geography",
+    "hours": 2.0
+  },
+  "GEOG 4953": {
+    "title": "Undergraduate Research in Geography",
+    "hours": 3.0
+  },
+  "GEOG 4954": {
+    "title": "Undergraduate Research in Geography",
+    "hours": 4.0
+  },
+  "GEOG 4983": {
+    "title": "Geography Seminar:",
+    "hours": 3.0
+  },
+  "GEOG 4993": {
+    "title": "Special Problems in Geography",
+    "hours": 3.0
+  },
+  "GEOG 4XXX": {
+    "title": "GEOGRAPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOG 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "GEOL 1004": {
+    "title": "Essentials of Earth Science",
+    "hours": 4.0
+  },
+  "GEOL 1014": {
+    "title": "Physical Geology",
+    "hours": 4.0
+  },
+  "GEOL 1XXX": {
+    "title": "GEOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOL 2001": {
+    "title": "Seminar",
+    "hours": 1.0
+  },
+  "GEOL 2024": {
+    "title": "Historical Geology",
+    "hours": 4.0
+  },
+  "GEOL 2XXX": {
+    "title": "GEOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOL 3001": {
+    "title": "Seminar",
+    "hours": 1.0
+  },
+  "GEOL 3004": {
+    "title": "Structural Geology",
+    "hours": 4.0
+  },
+  "GEOL 3014": {
+    "title": "Mineralogy",
+    "hours": 4.0
+  },
+  "GEOL 3023": {
+    "title": "Geologic Field Techniques",
+    "hours": 3.0
+  },
+  "GEOL 3044": {
+    "title": "Geomorphology",
+    "hours": 4.0
+  },
+  "GEOL 3053": {
+    "title": "Geology of Ore Deposits",
+    "hours": 3.0
+  },
+  "GEOL 3083": {
+    "title": "Hydrogeology",
+    "hours": 3.0
+  },
+  "GEOL 3124": {
+    "title": "Invertebrate Paleontology",
+    "hours": 4.0
+  },
+  "GEOL 3153": {
+    "title": "Environmental Geology",
+    "hours": 3.0
+  },
+  "GEOL 3164": {
+    "title": "Petrology",
+    "hours": 4.0
+  },
+  "GEOL 3174": {
+    "title": "Computer Applications in Geology",
+    "hours": 4.0
+  },
+  "GEOL 3XXX": {
+    "title": "GEOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GEOL 4001": {
+    "title": "Seminar",
+    "hours": 1.0
+  },
+  "GEOL 4006": {
+    "title": "Field Geology",
+    "hours": 6.0
+  },
+  "GEOL 4023": {
+    "title": "Principles of Stratigraphy and Sedimentation",
+    "hours": 3.0
+  },
+  "GEOL 4034": {
+    "title": "Subsurface Geology",
+    "hours": 4.0
+  },
+  "GEOL 4044": {
+    "title": "Geochemistry",
+    "hours": 4.0
+  },
+  "GEOL 4433": {
+    "title": "Advanced Topics in Geology",
+    "hours": 3.0
+  },
+  "GEOL 4434": {
+    "title": "Advanced Topics in Geology",
+    "hours": 4.0
+  },
+  "GEOL 4951": {
+    "title": "Undergraduate Research in Geology",
+    "hours": 1.0
+  },
+  "GEOL 4952": {
+    "title": "Undergraduate Research in Geology",
+    "hours": 2.0
+  },
+  "GEOL 4953": {
+    "title": "Undergraduate Research in Geology",
+    "hours": 3.0
+  },
+  "GEOL 4954": {
+    "title": "Undergraduate Research in Geology",
+    "hours": 4.0
+  },
+  "GEOL 4991": {
+    "title": "Special Problems in Geology",
+    "hours": 1.0
+  },
+  "GEOL 4992": {
+    "title": "Special Problems in Geology",
+    "hours": 2.0
+  },
+  "GEOL 4993": {
+    "title": "Special Problems in Geology",
+    "hours": 3.0
+  },
+  "GEOL 4994": {
+    "title": "Special Problems in Geology",
+    "hours": 4.0
+  },
+  "GEOL 4XXX": {
+    "title": "GEOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GER 1013": {
+    "title": "Beginning German I",
+    "hours": 3.0
+  },
+  "GER 1023": {
+    "title": "Beginning German II",
+    "hours": 3.0
+  },
+  "GER 2013": {
+    "title": "Intermediate German I",
+    "hours": 3.0
+  },
+  "GER 2023": {
+    "title": "Intermediate German II",
+    "hours": 3.0
+  },
+  "GER 3003": {
+    "title": "Conversation and Composition I",
+    "hours": 3.0
+  },
+  "GER 3013": {
+    "title": "Conversation and Composition II",
+    "hours": 3.0
+  },
+  "GER 3113": {
+    "title": "Culture and Civilization",
+    "hours": 3.0
+  },
+  "GER 3XXX": {
+    "title": "GERMAN TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "GER 4991": {
+    "title": "Special Problems in German",
+    "hours": 1.0
+  },
+  "GER 4992": {
+    "title": "Special Problems in German",
+    "hours": 2.0
+  },
+  "GER 4993": {
+    "title": "Special Problems in German",
+    "hours": 3.0
+  },
+  "GER 4994": {
+    "title": "Special Problems in German",
+    "hours": 4.0
+  },
+  "GER 4XXX": {
+    "title": "GERMAN TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HA 1011": {
+    "title": "Sanitation Safety",
+    "hours": 1.0
+  },
+  "HA 1043": {
+    "title": "Introduction to Hospitality Management",
+    "hours": 3.0
+  },
+  "HA 1XXX": {
+    "title": "HOSPITALITY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HA 2043": {
+    "title": "Lodging Operations Management I",
+    "hours": 3.0
+  },
+  "HA 2053": {
+    "title": "Work Experience",
+    "hours": 3.0
+  },
+  "HA 2063": {
+    "title": "Guest Relations",
+    "hours": 3.0
+  },
+  "HA 2073": {
+    "title": "Introduction to Event Management",
+    "hours": 3.0
+  },
+  "HA 2133": {
+    "title": "Introduction to Travel and Tourism",
+    "hours": 3.0
+  },
+  "HA 2203": {
+    "title": "Casino Tourism",
+    "hours": 3.0
+  },
+  "HA 2813": {
+    "title": "Basic Human Nutrition in Hospitality Administration",
+    "hours": 3.0
+  },
+  "HA 2881": {
+    "title": "Special Topics",
+    "hours": 1.0
+  },
+  "HA 2882": {
+    "title": "Special Topics",
+    "hours": 2.0
+  },
+  "HA 2883": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "HA 2903": {
+    "title": "Casino Operations",
+    "hours": 3.0
+  },
+  "HA 2914": {
+    "title": "Principles of Food Preparations",
+    "hours": 4.0
+  },
+  "HA 2991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "HA 2992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "HA 2993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "HA 2XXX": {
+    "title": "HOSPITALITY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HA 3013": {
+    "title": "Tourism Marketing",
+    "hours": 3.0
+  },
+  "HA 3113": {
+    "title": "Talent Acquisition and Management",
+    "hours": 3.0
+  },
+  "HA 3163": {
+    "title": "Hospitality Technology",
+    "hours": 3.0
+  },
+  "HA 3173": {
+    "title": "Hospitality Managerial Accounting",
+    "hours": 3.0
+  },
+  "HA 3183": {
+    "title": "Catering and Event Management",
+    "hours": 3.0
+  },
+  "HA 3XXX": {
+    "title": "HOSPITALITY TRANFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HA 4001": {
+    "title": "Internship Preparation",
+    "hours": 1.0
+  },
+  "HA 4023": {
+    "title": "Hospitality Facilities Management and Design",
+    "hours": 3.0
+  },
+  "HA 4033": {
+    "title": "Legal Aspects of Tourism",
+    "hours": 3.0
+  },
+  "HA 4053": {
+    "title": "Meetings and Conventions Management",
+    "hours": 3.0
+  },
+  "HA 4063": {
+    "title": "Beverage Management",
+    "hours": 3.0
+  },
+  "HA 4073": {
+    "title": "Hospitality Financial Analysis",
+    "hours": 3.0
+  },
+  "HA 4093": {
+    "title": "Resort and Club Management",
+    "hours": 3.0
+  },
+  "HA 4114": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "HA 4203": {
+    "title": "Hospitality Strategic Management",
+    "hours": 3.0
+  },
+  "HA 4881": {
+    "title": "Advanced Special Topics",
+    "hours": 1.0
+  },
+  "HA 4882": {
+    "title": "Advanced Special Topics",
+    "hours": 2.0
+  },
+  "HA 4883": {
+    "title": "Advanced Special Topics",
+    "hours": 3.0
+  },
+  "HA 4951": {
+    "title": "Undergraduate Research in Hospitality Administration",
+    "hours": 1.0
+  },
+  "HA 4952": {
+    "title": "Undergraduate Research in Hospitality Administration",
+    "hours": 2.0
+  },
+  "HA 4953": {
+    "title": "Undergraduate Research in Hospitality Administration",
+    "hours": 3.0
+  },
+  "HA 4954": {
+    "title": "Undergraduate Research in Hospitality Administration",
+    "hours": 4.0
+  },
+  "HA 4986": {
+    "title": "Purchasing and Advanced Food Preparation",
+    "hours": 6.0
+  },
+  "HA 4991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "HA 4992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "HA 4993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "HA 4XXX": {
+    "title": "HOSPITALITY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HES 1002": {
+    "title": "Physical Health and Fitness",
+    "hours": 2.0
+  },
+  "HES 1003": {
+    "title": "Introduction to Exercise Programming",
+    "hours": 3.0
+  },
+  "HES 2003": {
+    "title": "Field-Based Experience in Health and Exercise Science",
+    "hours": 3.0
+  },
+  "HES 2013": {
+    "title": "Weight Training for Personal Trainers, High School Athletics and Strength Coaching",
+    "hours": 3.0
+  },
+  "HES 2023": {
+    "title": "Endurance Programming and Conditioning",
+    "hours": 3.0
+  },
+  "HES 2043": {
+    "title": "Applied Fitness Assessment and Development",
+    "hours": 3.0
+  },
+  "HES 3003": {
+    "title": "Exercise Prescription",
+    "hours": 3.0
+  },
+  "HES 3013": {
+    "title": "Coaching Power, Speed, and Agility",
+    "hours": 3.0
+  },
+  "HES 3023": {
+    "title": "Exercise Behavior and Adherence",
+    "hours": 3.0
+  },
+  "HES 4003": {
+    "title": "Senior Seminar",
+    "hours": 3.0
+  },
+  "HES 4012": {
+    "title": "Health and Exercise Science Internship",
+    "hours": 12.0
+  },
+  "HES 4013": {
+    "title": "Health and Exercise Science Practicum",
+    "hours": 3.0
+  },
+  "HES 4023": {
+    "title": "Principles of Strength and Conditioning",
+    "hours": 3.0
+  },
+  "HES 4043": {
+    "title": "Exercise Physiology Lab",
+    "hours": 3.0
+  },
+  "HES 4053": {
+    "title": "Biomechanics",
+    "hours": 3.0
+  },
+  "HES 4063": {
+    "title": "Health and Fitness Programming",
+    "hours": 3.0
+  },
+  "HES 4991": {
+    "title": "Special Problems in Health and Exercise Science",
+    "hours": 1.0
+  },
+  "HES 4992": {
+    "title": "Special Problems in Health and Exercise Science",
+    "hours": 2.0
+  },
+  "HES 4993": {
+    "title": "Special Problems in Health and Exercise Science",
+    "hours": 3.0
+  },
+  "HIM 3023": {
+    "title": "Introduction to Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 3033": {
+    "title": "Basic Coding Principles",
+    "hours": 3.0
+  },
+  "HIM 3043": {
+    "title": "Advanced Concepts in Health Information",
+    "hours": 3.0
+  },
+  "HIM 3132": {
+    "title": "Health Data and Statistics",
+    "hours": 2.0
+  },
+  "HIM 3133": {
+    "title": "Alternative Health Records",
+    "hours": 3.0
+  },
+  "HIM 3153": {
+    "title": "Current Issues in Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 4034": {
+    "title": "Advanced Coding Principles",
+    "hours": 4.0
+  },
+  "HIM 4063": {
+    "title": "Organization and Administration",
+    "hours": 3.0
+  },
+  "HIM 4073": {
+    "title": "Legal Concepts for the Health Fields",
+    "hours": 3.0
+  },
+  "HIM 4083": {
+    "title": "Health Organization Trends",
+    "hours": 3.0
+  },
+  "HIM 4093": {
+    "title": "Research in Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 4153": {
+    "title": "Principles of Disease",
+    "hours": 3.0
+  },
+  "HIM 4182": {
+    "title": "Professional Practice Experience I",
+    "hours": 2.0
+  },
+  "HIM 4203": {
+    "title": "Healthcare Reimbursement",
+    "hours": 3.0
+  },
+  "HIM 4292": {
+    "title": "Professional Practice Experience II",
+    "hours": 2.0
+  },
+  "HIM 4892": {
+    "title": "Seminar in Health Information",
+    "hours": 2.0
+  },
+  "HIM 4895": {
+    "title": "Affiliation",
+    "hours": 5.0
+  },
+  "HIM 4951": {
+    "title": "Undergraduate Research in Health Information Management",
+    "hours": 1.0
+  },
+  "HIM 4952": {
+    "title": "Undergraduate Research in Health Information Management",
+    "hours": 2.0
+  },
+  "HIM 4953": {
+    "title": "Undergraduate Research in Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 4954": {
+    "title": "Undergraduate Research in Health Information Management",
+    "hours": 4.0
+  },
+  "HIM 4983": {
+    "title": "Systems Analysis for Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 4991": {
+    "title": "Special Problems in Health Information Management",
+    "hours": 1.0
+  },
+  "HIM 4992": {
+    "title": "Special Problems in Health Information Management",
+    "hours": 2.0
+  },
+  "HIM 4993": {
+    "title": "Special Problems in Health Information Management",
+    "hours": 3.0
+  },
+  "HIM 4994": {
+    "title": "Special Problems in Health Information Management",
+    "hours": 4.0
+  },
+  "HIST 1503": {
+    "title": "World History to 1500",
+    "hours": 3.0
+  },
+  "HIST 1513": {
+    "title": "World History since 1500",
+    "hours": 3.0
+  },
+  "HIST 1543": {
+    "title": "Honors World History to 1500",
+    "hours": 3.0
+  },
+  "HIST 1903": {
+    "title": "Survey of American History",
+    "hours": 3.0
+  },
+  "HIST 1XXX": {
+    "title": "HISTORY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HIST 2003": {
+    "title": "United States History to 1877",
+    "hours": 3.0
+  },
+  "HIST 2013": {
+    "title": "United States History since 1877",
+    "hours": 3.0
+  },
+  "HIST 2023": {
+    "title": "Religions of the World",
+    "hours": 3.0
+  },
+  "HIST 2043": {
+    "title": "Honors United States History to 1877",
+    "hours": 3.0
+  },
+  "HIST 2153": {
+    "title": "Introduction to Arkansas History",
+    "hours": 3.0
+  },
+  "HIST 2203": {
+    "title": "Introduction to Public History",
+    "hours": 3.0
+  },
+  "HIST 2513": {
+    "title": "Sources and Methods in History",
+    "hours": 3.0
+  },
+  "HIST 2XXX": {
+    "title": "HISTORY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HIST 3013": {
+    "title": "Colonial America",
+    "hours": 3.0
+  },
+  "HIST 3023": {
+    "title": "The Era of the American Revolution",
+    "hours": 3.0
+  },
+  "HIST 3033": {
+    "title": "The Early American Republic",
+    "hours": 3.0
+  },
+  "HIST 3043": {
+    "title": "Civil War and Reconstruction",
+    "hours": 3.0
+  },
+  "HIST 3223": {
+    "title": "Local and Oral History",
+    "hours": 3.0
+  },
+  "HIST 3243": {
+    "title": "Archive and Manuscript Management",
+    "hours": 3.0
+  },
+  "HIST 3273": {
+    "title": "Digital History",
+    "hours": 3.0
+  },
+  "HIST 3313": {
+    "title": "Colonial Latin America",
+    "hours": 3.0
+  },
+  "HIST 3323": {
+    "title": "Modern Latin America",
+    "hours": 3.0
+  },
+  "HIST 3413": {
+    "title": "History of Classical Greece and Rome",
+    "hours": 3.0
+  },
+  "HIST 3423": {
+    "title": "History of the Middle Ages, 300-1300",
+    "hours": 3.0
+  },
+  "HIST 3433": {
+    "title": "The Renaissance and European Expansion, 1300-1550",
+    "hours": 3.0
+  },
+  "HIST 3443": {
+    "title": "The Reformation and Early Modern Europe, 1500-1688",
+    "hours": 3.0
+  },
+  "HIST 3503": {
+    "title": "Europe between the Wars, 1919-1939",
+    "hours": 3.0
+  },
+  "HIST 3513": {
+    "title": "Europe Since 1939",
+    "hours": 3.0
+  },
+  "HIST 3603": {
+    "title": "History of Modern East Asia",
+    "hours": 3.0
+  },
+  "HIST 3623": {
+    "title": "History of Modern South Asia",
+    "hours": 3.0
+  },
+  "HIST 3803": {
+    "title": "History of the Middle East",
+    "hours": 3.0
+  },
+  "HIST 3XXX": {
+    "title": "HISTORY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HIST 4013": {
+    "title": "American Military History",
+    "hours": 3.0
+  },
+  "HIST 4033": {
+    "title": "The Frontier in American History",
+    "hours": 3.0
+  },
+  "HIST 4123": {
+    "title": "African American History",
+    "hours": 3.0
+  },
+  "HIST 4133": {
+    "title": "Latinos in the United States",
+    "hours": 3.0
+  },
+  "HIST 4143": {
+    "title": "Native American History",
+    "hours": 3.0
+  },
+  "HIST 4153": {
+    "title": "History of Arkansas",
+    "hours": 3.0
+  },
+  "HIST 4203": {
+    "title": "Women in American History",
+    "hours": 3.0
+  },
+  "HIST 4213": {
+    "title": "Southern Women&#39;s History",
+    "hours": 3.0
+  },
+  "HIST 4233": {
+    "title": "American Political Thought",
+    "hours": 3.0
+  },
+  "HIST 4293": {
+    "title": "Historic Preservation",
+    "hours": 3.0
+  },
+  "HIST 4403": {
+    "title": "Interpretation/Education through Museum Methods",
+    "hours": 3.0
+  },
+  "HIST 4503": {
+    "title": "History of Christianity",
+    "hours": 3.0
+  },
+  "HIST 4714": {
+    "title": "Social Studies Methods for Secondary Teachers",
+    "hours": 4.0
+  },
+  "HIST 4813": {
+    "title": "World War II",
+    "hours": 3.0
+  },
+  "HIST 4951": {
+    "title": "Undergraduate Research in History",
+    "hours": 1.0
+  },
+  "HIST 4952": {
+    "title": "Undergraduate Research in History",
+    "hours": 2.0
+  },
+  "HIST 4953": {
+    "title": "Undergraduate Research in History",
+    "hours": 3.0
+  },
+  "HIST 4954": {
+    "title": "Undergraduate Research in History",
+    "hours": 4.0
+  },
+  "HIST 4963": {
+    "title": "Senior Seminar",
+    "hours": 3.0
+  },
+  "HIST 4971": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "HIST 4972": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "HIST 4973": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "HIST 4974": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "HIST 4975": {
+    "title": "Internship",
+    "hours": 5.0
+  },
+  "HIST 4976": {
+    "title": "Internship",
+    "hours": 6.0
+  },
+  "HIST 4983": {
+    "title": "History Seminar",
+    "hours": 3.0
+  },
+  "HIST 4991": {
+    "title": "Special Problems in History",
+    "hours": 1.0
+  },
+  "HIST 4992": {
+    "title": "Special Problems in History",
+    "hours": 2.0
+  },
+  "HIST 4993": {
+    "title": "Special Problems in History",
+    "hours": 3.0
+  },
+  "HIST 4994": {
+    "title": "Special Problems in History",
+    "hours": 4.0
+  },
+  "HIST 4XXX": {
+    "title": "HISTORY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "HIST 5123": {
+    "title": "African American History",
+    "hours": 3.0
+  },
+  "HIST 5153": {
+    "title": "History of Arkansas",
+    "hours": 3.0
+  },
+  "HIST 5203": {
+    "title": "Women in American History",
+    "hours": 3.0
+  },
+  "HIST 5983": {
+    "title": "Social Science Seminar",
+    "hours": 3.0
+  },
+  "HIST 6003": {
+    "title": "Introduction to Graduate Study of History",
+    "hours": 3.0
+  },
+  "HIST 6013": {
+    "title": "Research Seminar in United States History",
+    "hours": 3.0
+  },
+  "HIST 6033": {
+    "title": "Readings in United States History",
+    "hours": 3.0
+  },
+  "HIST 6053": {
+    "title": "Historiography",
+    "hours": 3.0
+  },
+  "HIST 6403": {
+    "title": "Applied Public History",
+    "hours": 3.0
+  },
+  "HIST 6413": {
+    "title": "Research Seminar in Modern European History",
+    "hours": 3.0
+  },
+  "HIST 6433": {
+    "title": "Readings in Modern European History",
+    "hours": 3.0
+  },
+  "HIST 6533": {
+    "title": "Research Seminar in World History",
+    "hours": 3.0
+  },
+  "HIST 6543": {
+    "title": "Readings in World History",
+    "hours": 3.0
+  },
+  "HIST 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "HIST 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "HIST 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "HIST 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "HIST 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "HIST 6991": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 1.0
+  },
+  "HIST 6992": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 2.0
+  },
+  "HIST 6993": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 3.0
+  },
+  "HIST 6994": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 4.0
+  },
+  "HIST 6995": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 5.0
+  },
+  "HIST 6996": {
+    "title": "Thesis/Portfolio Research",
+    "hours": 6.0
+  },
+  "HLED 1513": {
+    "title": "Lifetime Health and Fitness",
+    "hours": 3.0
+  },
+  "HLED 3203": {
+    "title": "Consumer Health Programs",
+    "hours": 3.0
+  },
+  "HLED 4303": {
+    "title": "Methods and Materials in Health for Grades K-12",
+    "hours": 3.0
+  },
+  "HLED 4403": {
+    "title": "Sport and Exercise Nutrition",
+    "hours": 3.0
+  },
+  "JOUR 1023": {
+    "title": "Exploration of Media and Communication",
+    "hours": 3.0
+  },
+  "JOUR 1163": {
+    "title": "Basic Digital Photography",
+    "hours": 3.0
+  },
+  "JOUR 1411": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1421": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1811": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1821": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1911": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1921": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 1XXX": {
+    "title": "JOURNALISM TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "JOUR 2133": {
+    "title": "Introduction to Mass Communication",
+    "hours": 3.0
+  },
+  "JOUR 2143": {
+    "title": "Media Writing",
+    "hours": 3.0
+  },
+  "JOUR 2163": {
+    "title": "Introduction to Multimedia",
+    "hours": 3.0
+  },
+  "JOUR 2173": {
+    "title": "Introduction to Film",
+    "hours": 3.0
+  },
+  "JOUR 2253": {
+    "title": "Basic Video Production",
+    "hours": 3.0
+  },
+  "JOUR 2263": {
+    "title": "Media and Society",
+    "hours": 3.0
+  },
+  "JOUR 2411": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2421": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2511": {
+    "title": "Sports Media Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2521": {
+    "title": "Sports Media Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2811": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2821": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2911": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2921": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 2XXX": {
+    "title": "JOURNALISM TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "JOUR 3133": {
+    "title": "Media Management Principles",
+    "hours": 3.0
+  },
+  "JOUR 3143": {
+    "title": "News Reporting",
+    "hours": 3.0
+  },
+  "JOUR 3153": {
+    "title": "Feature Writing",
+    "hours": 3.0
+  },
+  "JOUR 3163": {
+    "title": "News Photography",
+    "hours": 3.0
+  },
+  "JOUR 3173": {
+    "title": "Public Relations Principles",
+    "hours": 3.0
+  },
+  "JOUR 3183": {
+    "title": "Digital News Writing",
+    "hours": 3.0
+  },
+  "JOUR 3193": {
+    "title": "Multimedia Storytelling",
+    "hours": 3.0
+  },
+  "JOUR 3273": {
+    "title": "Public Relations Writing",
+    "hours": 3.0
+  },
+  "JOUR 3283": {
+    "title": "Digital Media Production",
+    "hours": 3.0
+  },
+  "JOUR 3411": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3421": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3583": {
+    "title": "Sports Reporting",
+    "hours": 3.0
+  },
+  "JOUR 3714": {
+    "title": "Copy Editing",
+    "hours": 4.0
+  },
+  "JOUR 3811": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3821": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3911": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3921": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 3XXX": {
+    "title": "JOURNALISM TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "JOUR 4023": {
+    "title": "Social Media",
+    "hours": 3.0
+  },
+  "JOUR 4033": {
+    "title": "Community Journalism",
+    "hours": 3.0
+  },
+  "JOUR 4043": {
+    "title": "Journalism Ethics",
+    "hours": 3.0
+  },
+  "JOUR 4053": {
+    "title": "Mass Communication Seminar",
+    "hours": 3.0
+  },
+  "JOUR 4073": {
+    "title": "Graphic Communication",
+    "hours": 3.0
+  },
+  "JOUR 4083": {
+    "title": "Internet Communication",
+    "hours": 3.0
+  },
+  "JOUR 4091": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "JOUR 4092": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "JOUR 4093": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "JOUR 4094": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "JOUR 4113": {
+    "title": "History of American Journalism",
+    "hours": 3.0
+  },
+  "JOUR 4123": {
+    "title": "Laws of Communication",
+    "hours": 3.0
+  },
+  "JOUR 4133": {
+    "title": "Advanced News Production",
+    "hours": 3.0
+  },
+  "JOUR 4143": {
+    "title": "Advanced Reporting",
+    "hours": 3.0
+  },
+  "JOUR 4153": {
+    "title": "Editorial, Column, and Review Writing",
+    "hours": 3.0
+  },
+  "JOUR 4163": {
+    "title": "Advanced Digital Photography",
+    "hours": 3.0
+  },
+  "JOUR 4173": {
+    "title": "Public Relations Project",
+    "hours": 3.0
+  },
+  "JOUR 4411": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4421": {
+    "title": "Print Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4563": {
+    "title": "Sound Design for Moving Image",
+    "hours": 3.0
+  },
+  "JOUR 4811": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4821": {
+    "title": "Broadcast Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4823": {
+    "title": "Journalism Capstone",
+    "hours": 3.0
+  },
+  "JOUR 4883": {
+    "title": "Mass Communication Theory",
+    "hours": 3.0
+  },
+  "JOUR 4911": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4921": {
+    "title": "Multimedia Practicum",
+    "hours": 1.0
+  },
+  "JOUR 4991": {
+    "title": "Special Problems in Journalism",
+    "hours": 1.0
+  },
+  "JOUR 4992": {
+    "title": "Special Problems in Journalism",
+    "hours": 2.0
+  },
+  "JOUR 4993": {
+    "title": "Special Problems in Journalism",
+    "hours": 3.0
+  },
+  "JOUR 4994": {
+    "title": "Special Problems in Journalism",
+    "hours": 4.0
+  },
+  "JOUR 4XXX": {
+    "title": "JOURNALISM TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "JOUR 5023": {
+    "title": "Social Media",
+    "hours": 3.0
+  },
+  "JOUR 5033": {
+    "title": "Community Journalism",
+    "hours": 3.0
+  },
+  "JOUR 5043": {
+    "title": "Journalism Ethics",
+    "hours": 3.0
+  },
+  "JOUR 5053": {
+    "title": "Mass Communication Seminar",
+    "hours": 3.0
+  },
+  "JOUR 5073": {
+    "title": "Graphic Communication",
+    "hours": 3.0
+  },
+  "JOUR 5083": {
+    "title": "Internet Communication",
+    "hours": 3.0
+  },
+  "JOUR 5113": {
+    "title": "History of American Journalism",
+    "hours": 3.0
+  },
+  "JOUR 5123": {
+    "title": "Laws of Communication",
+    "hours": 3.0
+  },
+  "JOUR 5163": {
+    "title": "Advanced Photography",
+    "hours": 3.0
+  },
+  "JOUR 5193": {
+    "title": "Communication Research Methods",
+    "hours": 3.0
+  },
+  "JOUR 5243": {
+    "title": "Journalism Writing Seminar",
+    "hours": 3.0
+  },
+  "JOUR 6013": {
+    "title": "Visual Storytelling",
+    "hours": 3.0
+  },
+  "JOUR 6023": {
+    "title": "Video Production for New Media",
+    "hours": 3.0
+  },
+  "JOUR 6053": {
+    "title": "Media Effects",
+    "hours": 3.0
+  },
+  "JOUR 6133": {
+    "title": "Multi-Media Publishing",
+    "hours": 3.0
+  },
+  "JOUR 6193": {
+    "title": "Journalistic Writing for Multi-Media",
+    "hours": 3.0
+  },
+  "JOUR 6331": {
+    "title": "Professional Portfolio",
+    "hours": 1.0
+  },
+  "JOUR 6333": {
+    "title": "Professional Portfolio",
+    "hours": 3.0
+  },
+  "JOUR 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "JOUR 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "JOUR 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "JOUR 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "JPN 1013": {
+    "title": "Beginning Japanese I",
+    "hours": 3.0
+  },
+  "JPN 1023": {
+    "title": "Beginning Japanese II",
+    "hours": 3.0
+  },
+  "JPN 2013": {
+    "title": "Intermediate Japanese I",
+    "hours": 3.0
+  },
+  "JPN 2023": {
+    "title": "Intermediate Japanese II",
+    "hours": 3.0
+  },
+  "JPN 3003": {
+    "title": "Conversation and Composition I",
+    "hours": 3.0
+  },
+  "JPN 3013": {
+    "title": "Conversation and Composition II",
+    "hours": 3.0
+  },
+  "JPN 3113": {
+    "title": "Culture and Civilization",
+    "hours": 3.0
+  },
+  "JPN 3143": {
+    "title": "Study Abroad",
+    "hours": 3.0
+  },
+  "JPN 4991": {
+    "title": "Special Problems in Japanese",
+    "hours": 1.0
+  },
+  "JPN 4992": {
+    "title": "Special Problems in Japanese",
+    "hours": 2.0
+  },
+  "JPN 4993": {
+    "title": "Special Problems in Japanese",
+    "hours": 3.0
+  },
+  "JPN 4994": {
+    "title": "Special Problems in Japanese",
+    "hours": 4.0
+  },
+  "LAT 1013": {
+    "title": "Beginning Latin I",
+    "hours": 3.0
+  },
+  "LAT 1023": {
+    "title": "Beginning Latin II",
+    "hours": 3.0
+  },
+  "LEAD 1003": {
+    "title": "Introduction to Leadership",
+    "hours": 3.0
+  },
+  "LEAD 1013": {
+    "title": "Honors Introduction to Leadership",
+    "hours": 3.0
+  },
+  "LEAD 2003": {
+    "title": "Ethics in Leadership",
+    "hours": 3.0
+  },
+  "LEAD 2013": {
+    "title": "Honors Ethics in Leadership",
+    "hours": 3.0
+  },
+  "LEAD 3003": {
+    "title": "Leading Teams",
+    "hours": 3.0
+  },
+  "LEAD 4003": {
+    "title": "Leadership Internship/Capstone Seminar",
+    "hours": 3.0
+  },
+  "LEAD 4103": {
+    "title": "Special Problems in Leadership",
+    "hours": 3.0
+  },
+  "MATH 0803": {
+    "title": "Foundations of College Mathematics",
+    "hours": 3.0
+  },
+  "MATH 0903": {
+    "title": "Beginning and Intermediate Algebra",
+    "hours": 3.0
+  },
+  "MATH 1001": {
+    "title": "Orientation to Mathematics",
+    "hours": 1.0
+  },
+  "MATH 1003": {
+    "title": "Quantitative Literacy",
+    "hours": 3.0
+  },
+  "MATH 1110": {
+    "title": "College Algebra Lab",
+    "hours": 0.0
+  },
+  "MATH 1113": {
+    "title": "College Algebra",
+    "hours": 3.0
+  },
+  "MATH 1203": {
+    "title": "Plane Trigonometry",
+    "hours": 3.0
+  },
+  "MATH 1914": {
+    "title": "Precalculus",
+    "hours": 4.0
+  },
+  "MATH 2033": {
+    "title": "Mathematical Concepts I",
+    "hours": 3.0
+  },
+  "MATH 2043": {
+    "title": "Mathematical Concepts II",
+    "hours": 3.0
+  },
+  "MATH 2223": {
+    "title": "Quantitative Business Analysis",
+    "hours": 3.0
+  },
+  "MATH 2243": {
+    "title": "Calculus for Business and Economics",
+    "hours": 3.0
+  },
+  "MATH 2703": {
+    "title": "Discrete Mathematics",
+    "hours": 3.0
+  },
+  "MATH 2914": {
+    "title": "Calculus I",
+    "hours": 4.0
+  },
+  "MATH 2924": {
+    "title": "Calculus II",
+    "hours": 4.0
+  },
+  "MATH 2934": {
+    "title": "Calculus III",
+    "hours": 4.0
+  },
+  "MATH 3003": {
+    "title": "Foundations of Advanced Mathematics",
+    "hours": 3.0
+  },
+  "MATH 3033": {
+    "title": "Methods of Teaching Elementary Mathematics",
+    "hours": 3.0
+  },
+  "MATH 3123": {
+    "title": "College Geometry",
+    "hours": 3.0
+  },
+  "MATH 3203": {
+    "title": "Introduction to Analysis",
+    "hours": 3.0
+  },
+  "MATH 3243": {
+    "title": "Differential Equations I",
+    "hours": 3.0
+  },
+  "MATH 3703": {
+    "title": "Mathematics in the Middle and Secondary Schools",
+    "hours": 3.0
+  },
+  "MATH 3771": {
+    "title": "Praxis Middle School and Secondary Mathematics Test Preparation",
+    "hours": 1.0
+  },
+  "MATH 3XXX": {
+    "title": "MATH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MATH 4003": {
+    "title": "Linear Algebra I",
+    "hours": 3.0
+  },
+  "MATH 4033": {
+    "title": "Abstract Algebra I",
+    "hours": 3.0
+  },
+  "MATH 4103": {
+    "title": "Linear Algebra II",
+    "hours": 3.0
+  },
+  "MATH 4113": {
+    "title": "History of Mathematics",
+    "hours": 3.0
+  },
+  "MATH 4123": {
+    "title": "Mathematical Modeling",
+    "hours": 3.0
+  },
+  "MATH 4273": {
+    "title": "Complex Variables",
+    "hours": 3.0
+  },
+  "MATH 4343": {
+    "title": "Introduction to Partial Differential Equations",
+    "hours": 3.0
+  },
+  "MATH 4703": {
+    "title": "Special Methods in Mathematics",
+    "hours": 3.0
+  },
+  "MATH 4951": {
+    "title": "Undergraduate Research in Mathematics",
+    "hours": 1.0
+  },
+  "MATH 4952": {
+    "title": "Undergraduate Research in Mathematics",
+    "hours": 2.0
+  },
+  "MATH 4953": {
+    "title": "Undergraduate Research in Mathematics",
+    "hours": 3.0
+  },
+  "MATH 4954": {
+    "title": "Undergraduate Research in Mathematics",
+    "hours": 4.0
+  },
+  "MATH 4971": {
+    "title": "Mathematics Senior Seminar",
+    "hours": 1.0
+  },
+  "MATH 4991": {
+    "title": "Special Problems in Mathematics",
+    "hours": 1.0
+  },
+  "MATH 4992": {
+    "title": "Special Problems in Mathematics",
+    "hours": 2.0
+  },
+  "MATH 4993": {
+    "title": "Special Problems in Mathematics",
+    "hours": 3.0
+  },
+  "MATH 4994": {
+    "title": "Special Problems in Mathematics",
+    "hours": 4.0
+  },
+  "MATH 4XXX": {
+    "title": "MATH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MATH 5103": {
+    "title": "Linear Algebra II",
+    "hours": 3.0
+  },
+  "MATH 5153": {
+    "title": "Applied Statistics II",
+    "hours": 3.0
+  },
+  "MATH 5173": {
+    "title": "Advanced Biostatistics",
+    "hours": 3.0
+  },
+  "MATH 5273": {
+    "title": "Complex Variables",
+    "hours": 3.0
+  },
+  "MATH 5343": {
+    "title": "Introduction to Partial Differential Equations",
+    "hours": 3.0
+  },
+  "MATH 6881": {
+    "title": "Workshop",
+    "hours": 1.0
+  },
+  "MATH 6882": {
+    "title": "Workshop",
+    "hours": 2.0
+  },
+  "MATH 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "MATH 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "MATH 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "MATH 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "MATH 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "MATH XXXX": {
+    "title": "Mathematics",
+    "hours": 1.0
+  },
+  "MCEG 1002": {
+    "title": "Engineering Graphics",
+    "hours": 2.0
+  },
+  "MCEG 1011": {
+    "title": "Introduction to Mechanical Engineering",
+    "hours": 1.0
+  },
+  "MCEG 2013": {
+    "title": "Statics",
+    "hours": 3.0
+  },
+  "MCEG 2023": {
+    "title": "Engineering Materials",
+    "hours": 3.0
+  },
+  "MCEG 2033": {
+    "title": "Dynamics",
+    "hours": 3.0
+  },
+  "MCEG 2203": {
+    "title": "Computational Methods in Engineering",
+    "hours": 3.0
+  },
+  "MCEG 3000": {
+    "title": "Engineering Internship/Research Experience",
+    "hours": 0.0
+  },
+  "MCEG 3003": {
+    "title": "System Modeling and Analysis",
+    "hours": 3.0
+  },
+  "MCEG 3013": {
+    "title": "Mechanics of Materials",
+    "hours": 3.0
+  },
+  "MCEG 3023": {
+    "title": "Manufacturing Processes",
+    "hours": 3.0
+  },
+  "MCEG 3313": {
+    "title": "Thermodynamics I",
+    "hours": 3.0
+  },
+  "MCEG 3333": {
+    "title": "Alternative Energy Systems",
+    "hours": 3.0
+  },
+  "MCEG 3403": {
+    "title": "Machine Dynamics",
+    "hours": 3.0
+  },
+  "MCEG 3413": {
+    "title": "Fundamentals of Mechanical Design",
+    "hours": 3.0
+  },
+  "MCEG 3442": {
+    "title": "Mechanical Laboratory I",
+    "hours": 2.0
+  },
+  "MCEG 3453": {
+    "title": "Energy Management",
+    "hours": 3.0
+  },
+  "MCEG 3503": {
+    "title": "Basic Nuclear Engineering",
+    "hours": 3.0
+  },
+  "MCEG 3512": {
+    "title": "Radiation Detection Laboratory",
+    "hours": 2.0
+  },
+  "MCEG 3523": {
+    "title": "Radiation Health Physics",
+    "hours": 3.0
+  },
+  "MCEG 3612": {
+    "title": "Manufacturing Laboratory",
+    "hours": 2.0
+  },
+  "MCEG 3663": {
+    "title": "Engineering Internship",
+    "hours": 3.0
+  },
+  "MCEG 3991": {
+    "title": "Special Problems in Engineering",
+    "hours": 1.0
+  },
+  "MCEG 3992": {
+    "title": "Special Problems in Engineering",
+    "hours": 2.0
+  },
+  "MCEG 3993": {
+    "title": "Special Problems in Engineering",
+    "hours": 3.0
+  },
+  "MCEG 3994": {
+    "title": "Special Problems in Engineering",
+    "hours": 4.0
+  },
+  "MCEG 3XXX": {
+    "title": "MECH ENGR TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MCEG 4043": {
+    "title": "Physical Metallurgy",
+    "hours": 3.0
+  },
+  "MCEG 4053": {
+    "title": "Corrosion Principles",
+    "hours": 3.0
+  },
+  "MCEG 4202": {
+    "title": "Engineering Design",
+    "hours": 2.0
+  },
+  "MCEG 4323": {
+    "title": "Power Plant Systems",
+    "hours": 3.0
+  },
+  "MCEG 4332": {
+    "title": "Thermal Systems Laboratory",
+    "hours": 2.0
+  },
+  "MCEG 4343": {
+    "title": "Internal Combustion Engines",
+    "hours": 3.0
+  },
+  "MCEG 4403": {
+    "title": "Mechanics of Fluids and Hydraulics",
+    "hours": 3.0
+  },
+  "MCEG 4413": {
+    "title": "Finite Element Analysis",
+    "hours": 3.0
+  },
+  "MCEG 4423": {
+    "title": "Machine Component Design",
+    "hours": 3.0
+  },
+  "MCEG 4433": {
+    "title": "Thermodynamics II",
+    "hours": 3.0
+  },
+  "MCEG 4442": {
+    "title": "Mechanical Laboratory II",
+    "hours": 2.0
+  },
+  "MCEG 4443": {
+    "title": "Heat Transfer",
+    "hours": 3.0
+  },
+  "MCEG 4463": {
+    "title": "Heating, Ventilating, and Air-Conditioning Design",
+    "hours": 3.0
+  },
+  "MCEG 4473": {
+    "title": "Mechanical Vibrations",
+    "hours": 3.0
+  },
+  "MCEG 4491": {
+    "title": "Mechanical Design Project I",
+    "hours": 1.0
+  },
+  "MCEG 4492": {
+    "title": "Mechanical Design Project II",
+    "hours": 2.0
+  },
+  "MCEG 4503": {
+    "title": "Nuclear Power Plants I",
+    "hours": 3.0
+  },
+  "MCEG 4991": {
+    "title": "Special Problems in Engineering",
+    "hours": 1.0
+  },
+  "MCEG 4992": {
+    "title": "Special Problems in Engineering",
+    "hours": 2.0
+  },
+  "MCEG 4993": {
+    "title": "Special Problems in Engineering",
+    "hours": 3.0
+  },
+  "MCEG 4994": {
+    "title": "Special Problems in Engineering",
+    "hours": 4.0
+  },
+  "MCEG 4XXX": {
+    "title": "MECH ENGR TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MCEG 5043": {
+    "title": "Physical Metallurgy",
+    "hours": 3.0
+  },
+  "MCEG 5053": {
+    "title": "Corrosion Principles",
+    "hours": 3.0
+  },
+  "MCEG 5323": {
+    "title": "Power Plant Systems",
+    "hours": 3.0
+  },
+  "MCEG 5343": {
+    "title": "Internal Combustion Engines",
+    "hours": 3.0
+  },
+  "MCEG 5413": {
+    "title": "Finite Element Analysis",
+    "hours": 3.0
+  },
+  "MCEG 5453": {
+    "title": "Energy Management",
+    "hours": 3.0
+  },
+  "MCEG 5463": {
+    "title": "Heating, Ventilating, and Air-Conditioning Design",
+    "hours": 3.0
+  },
+  "MCEG 5473": {
+    "title": "Mechanical Vibrations",
+    "hours": 3.0
+  },
+  "MCEG 5503": {
+    "title": "Nuclear Power Plants I",
+    "hours": 3.0
+  },
+  "MCEG 6882": {
+    "title": "Special Topics in Engineering",
+    "hours": 2.0
+  },
+  "MCEG 6883": {
+    "title": "Special Topics in Engineering",
+    "hours": 3.0
+  },
+  "MCEG 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "MCEG 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "MCEG 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "MCEG 6895": {
+    "title": "Independent Study",
+    "hours": 5.0
+  },
+  "MCEG 6896": {
+    "title": "Independent Study",
+    "hours": 6.0
+  },
+  "MCEG 6992": {
+    "title": "Research Project",
+    "hours": 2.0
+  },
+  "MCEG 6993": {
+    "title": "Research Project",
+    "hours": 3.0
+  },
+  "MCEG 6994": {
+    "title": "Research Project",
+    "hours": 4.0
+  },
+  "MCEG 6995": {
+    "title": "Research Project",
+    "hours": 5.0
+  },
+  "MCEG 6996": {
+    "title": "Research Project",
+    "hours": 6.0
+  },
+  "MGMT 3003": {
+    "title": "Principles of Management",
+    "hours": 3.0
+  },
+  "MGMT 3023": {
+    "title": "Principles of Human Resource Management",
+    "hours": 3.0
+  },
+  "MGMT 3103": {
+    "title": "Operations Management",
+    "hours": 3.0
+  },
+  "MGMT 3113": {
+    "title": "Business Process Improvement",
+    "hours": 3.0
+  },
+  "MGMT 3123": {
+    "title": "Business Ethics",
+    "hours": 3.0
+  },
+  "MGMT 3173": {
+    "title": "Advanced Microsoft Techniques",
+    "hours": 3.0
+  },
+  "MGMT 3323": {
+    "title": "Employment Law",
+    "hours": 3.0
+  },
+  "MGMT 3XXX": {
+    "title": "MANAGEMENT TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MGMT 4013": {
+    "title": "Management Information Systems",
+    "hours": 3.0
+  },
+  "MGMT 4033": {
+    "title": "Internship I in Management",
+    "hours": 3.0
+  },
+  "MGMT 4043": {
+    "title": "Internship II in Management",
+    "hours": 3.0
+  },
+  "MGMT 4053": {
+    "title": "Small Business Management",
+    "hours": 3.0
+  },
+  "MGMT 4063": {
+    "title": "Entrepreneurial Development",
+    "hours": 3.0
+  },
+  "MGMT 4073": {
+    "title": "Special Topics in Management",
+    "hours": 3.0
+  },
+  "MGMT 4080": {
+    "title": "School of Business College of Distinction Enhanced Capstone",
+    "hours": 0.0
+  },
+  "MGMT 4083": {
+    "title": "Business Policy",
+    "hours": 3.0
+  },
+  "MGMT 4093": {
+    "title": "Organizational Behavior",
+    "hours": 3.0
+  },
+  "MGMT 4103": {
+    "title": "Supply Chain Management",
+    "hours": 3.0
+  },
+  "MGMT 4113": {
+    "title": "Managerial Issues in Electronic Commerce",
+    "hours": 3.0
+  },
+  "MGMT 4203": {
+    "title": "Project Management",
+    "hours": 3.0
+  },
+  "MGMT 4213": {
+    "title": "Strategy and Leadership",
+    "hours": 3.0
+  },
+  "MGMT 4223": {
+    "title": "Leadership: Ideas and Images in Art, Film, History, and Literature",
+    "hours": 3.0
+  },
+  "MGMT 4323": {
+    "title": "Compensation and Benefits",
+    "hours": 3.0
+  },
+  "MGMT 4XXX": {
+    "title": "MANAGEMENT TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "MGMT 5203": {
+    "title": "Project Management",
+    "hours": 3.0
+  },
+  "MGMT 6093": {
+    "title": "Special Topics in Management",
+    "hours": 3.0
+  },
+  "MGMT 6103": {
+    "title": "Organizational Management and Leadership",
+    "hours": 3.0
+  },
+  "MGMT 6203": {
+    "title": "Decision Modeling in Supply Chain Management",
+    "hours": 3.0
+  },
+  "MGMT 6903": {
+    "title": "Corporate Strategic Management",
+    "hours": 3.0
+  },
+  "MKT 3043": {
+    "title": "Principles of Marketing",
+    "hours": 3.0
+  },
+  "MKT 3063": {
+    "title": "Social Media Marketing",
+    "hours": 3.0
+  },
+  "MKT 3083": {
+    "title": "Retailing and the Virtual Marketplace",
+    "hours": 3.0
+  },
+  "MKT 3103": {
+    "title": "Selling and Sales Management",
+    "hours": 3.0
+  },
+  "MKT 3153": {
+    "title": "Marketing Research and Analysis",
+    "hours": 3.0
+  },
+  "MKT 3163": {
+    "title": "Consumer Behavior",
+    "hours": 3.0
+  },
+  "MKT 4013": {
+    "title": "Digital Metrics",
+    "hours": 3.0
+  },
+  "MKT 4033": {
+    "title": "Internship in Marketing I",
+    "hours": 3.0
+  },
+  "MKT 4053": {
+    "title": "Sport and Event Marketing",
+    "hours": 3.0
+  },
+  "MKT 4063": {
+    "title": "Integrated Marketing Communication in a Digital Age",
+    "hours": 3.0
+  },
+  "MKT 4093": {
+    "title": "International Marketing",
+    "hours": 3.0
+  },
+  "MKT 4103": {
+    "title": "Special Topics in Marketing",
+    "hours": 3.0
+  },
+  "MKT 4143": {
+    "title": "Marketing Strategy",
+    "hours": 3.0
+  },
+  "MKT 6093": {
+    "title": "Special Topics in Marketing",
+    "hours": 3.0
+  },
+  "MKT 6103": {
+    "title": "Digital Marketing Strategy",
+    "hours": 3.0
+  },
+  "MKT 6113": {
+    "title": "Strategic Social Media Marketing",
+    "hours": 3.0
+  },
+  "MKT 6153": {
+    "title": "Consumer Insights",
+    "hours": 3.0
+  },
+  "MKT 6323": {
+    "title": "Applied Predictive Analytics",
+    "hours": 3.0
+  },
+  "MLED 2003": {
+    "title": "Education as a Profession",
+    "hours": 3.0
+  },
+  "MLED 3013": {
+    "title": "Research Foundations",
+    "hours": 3.0
+  },
+  "MLED 3023": {
+    "title": "Psychological Foundations for the Nature and Needs of Middle Level Students",
+    "hours": 3.0
+  },
+  "MLED 3033": {
+    "title": "Literacy Development in the Middle Grades",
+    "hours": 3.0
+  },
+  "MLED 3041": {
+    "title": "School to Home Communication",
+    "hours": 1.0
+  },
+  "MLED 3063": {
+    "title": "Tests &amp; Educational Measurements",
+    "hours": 3.0
+  },
+  "MLED 3073": {
+    "title": "Students with Exceptionalities in the Classroom",
+    "hours": 3.0
+  },
+  "MLED 3102": {
+    "title": "Reading through Literature in the Middle Ages",
+    "hours": 2.0
+  },
+  "MLED 3103": {
+    "title": "Writing in the Content Area",
+    "hours": 3.0
+  },
+  "MLED 4003": {
+    "title": "Middle Level Curriculum and Pedagogy",
+    "hours": 3.0
+  },
+  "MLED 4023": {
+    "title": "Residency A Seminar",
+    "hours": 3.0
+  },
+  "MLED 4903": {
+    "title": "Residency B Seminar",
+    "hours": 3.0
+  },
+  "MLED 4909": {
+    "title": "Residency B",
+    "hours": 9.0
+  },
+  "MUS 1000": {
+    "title": "Recital Attendance",
+    "hours": 0.0
+  },
+  "MUS 1001": {
+    "title": "Applied Music - Trumpet",
+    "hours": 1.0
+  },
+  "MUS 1002": {
+    "title": "Applied Music - Trumpet",
+    "hours": 2.0
+  },
+  "MUS 1011": {
+    "title": "Applied Music - French Horn",
+    "hours": 1.0
+  },
+  "MUS 1012": {
+    "title": "Applied Music - French Horn",
+    "hours": 2.0
+  },
+  "MUS 1021": {
+    "title": "Applied Music - Trombone",
+    "hours": 1.0
+  },
+  "MUS 1022": {
+    "title": "Applied Music - Trombone",
+    "hours": 2.0
+  },
+  "MUS 1031": {
+    "title": "Applied Music - Euphonium",
+    "hours": 1.0
+  },
+  "MUS 1032": {
+    "title": "Applied Music - Euphonium",
+    "hours": 2.0
+  },
+  "MUS 1041": {
+    "title": "Applied Music - Tuba",
+    "hours": 1.0
+  },
+  "MUS 1042": {
+    "title": "Applied Music - Tuba",
+    "hours": 2.0
+  },
+  "MUS 1051": {
+    "title": "Applied Music - Clarinet",
+    "hours": 1.0
+  },
+  "MUS 1052": {
+    "title": "Applied Music - Clarinet",
+    "hours": 2.0
+  },
+  "MUS 1061": {
+    "title": "Applied Music - Oboe",
+    "hours": 1.0
+  },
+  "MUS 1062": {
+    "title": "Applied Music - Oboe",
+    "hours": 2.0
+  },
+  "MUS 1071": {
+    "title": "Applied Music - Flute",
+    "hours": 1.0
+  },
+  "MUS 1072": {
+    "title": "Applied Music - Flute",
+    "hours": 2.0
+  },
+  "MUS 1081": {
+    "title": "Applied Music - Saxophone",
+    "hours": 1.0
+  },
+  "MUS 1082": {
+    "title": "Applied Music - Saxophone",
+    "hours": 2.0
+  },
+  "MUS 1091": {
+    "title": "Applied Music - Bassoon",
+    "hours": 1.0
+  },
+  "MUS 1092": {
+    "title": "Applied Music - Bassoon",
+    "hours": 2.0
+  },
+  "MUS 1101": {
+    "title": "Applied Music - Violin",
+    "hours": 1.0
+  },
+  "MUS 1141": {
+    "title": "Applied Music - Percussion",
+    "hours": 1.0
+  },
+  "MUS 1142": {
+    "title": "Applied Music - Percussion",
+    "hours": 2.0
+  },
+  "MUS 1191": {
+    "title": "Vocal Diction",
+    "hours": 1.0
+  },
+  "MUS 1201": {
+    "title": "Applied Music - Piano",
+    "hours": 1.0
+  },
+  "MUS 1202": {
+    "title": "Applied Music - Piano",
+    "hours": 2.0
+  },
+  "MUS 1221": {
+    "title": "Applied Music - Organ",
+    "hours": 1.0
+  },
+  "MUS 1222": {
+    "title": "Applied Music - Organ",
+    "hours": 2.0
+  },
+  "MUS 1231": {
+    "title": "Applied Music - Voice",
+    "hours": 1.0
+  },
+  "MUS 1232": {
+    "title": "Applied Music - Voice",
+    "hours": 2.0
+  },
+  "MUS 1301": {
+    "title": "Opera Workshop",
+    "hours": 1.0
+  },
+  "MUS 1311": {
+    "title": "Jazz Ensemble",
+    "hours": 1.0
+  },
+  "MUS 1321": {
+    "title": "Jazz Piano",
+    "hours": 1.0
+  },
+  "MUS 1411": {
+    "title": "Class Piano I",
+    "hours": 1.0
+  },
+  "MUS 1421": {
+    "title": "Class Piano II",
+    "hours": 1.0
+  },
+  "MUS 1431": {
+    "title": "Class Piano III",
+    "hours": 1.0
+  },
+  "MUS 1440": {
+    "title": "Piano Proficiency",
+    "hours": 0.0
+  },
+  "MUS 1441": {
+    "title": "Class Piano IV",
+    "hours": 1.0
+  },
+  "MUS 1501": {
+    "title": "Band",
+    "hours": 1.0
+  },
+  "MUS 1511": {
+    "title": "Brass Choir",
+    "hours": 1.0
+  },
+  "MUS 1521": {
+    "title": "Woodwind Ensembles",
+    "hours": 1.0
+  },
+  "MUS 1531": {
+    "title": "Brass Ensembles",
+    "hours": 1.0
+  },
+  "MUS 1541": {
+    "title": "Percussion Ensembles",
+    "hours": 1.0
+  },
+  "MUS 1551": {
+    "title": "Chamber Ensembles",
+    "hours": 1.0
+  },
+  "MUS 1571": {
+    "title": "University Choir",
+    "hours": 1.0
+  },
+  "MUS 1581": {
+    "title": "Choral Artists",
+    "hours": 1.0
+  },
+  "MUS 1631": {
+    "title": "Symphonic Wind Ensemble",
+    "hours": 1.0
+  },
+  "MUS 1681": {
+    "title": "Concert Chorale",
+    "hours": 1.0
+  },
+  "MUS 1713": {
+    "title": "Theory I",
+    "hours": 3.0
+  },
+  "MUS 1723": {
+    "title": "Theory II",
+    "hours": 3.0
+  },
+  "MUS 1731": {
+    "title": "Ear Training I",
+    "hours": 1.0
+  },
+  "MUS 1741": {
+    "title": "Ear Training II",
+    "hours": 1.0
+  },
+  "MUS 1751": {
+    "title": "Orientation to Music",
+    "hours": 1.0
+  },
+  "MUS 2000": {
+    "title": "Applied Competency",
+    "hours": 0.0
+  },
+  "MUS 2003": {
+    "title": "Survey of Music History",
+    "hours": 3.0
+  },
+  "MUS 2013": {
+    "title": "Digital Audio Production",
+    "hours": 3.0
+  },
+  "MUS 2023": {
+    "title": "American Popular Music",
+    "hours": 3.0
+  },
+  "MUS 2191": {
+    "title": "Vocal Diction II",
+    "hours": 1.0
+  },
+  "MUS 2201": {
+    "title": "Accompanying Seminar",
+    "hours": 1.0
+  },
+  "MUS 2441": {
+    "title": "Class Voice",
+    "hours": 1.0
+  },
+  "MUS 2703": {
+    "title": "Music Technology",
+    "hours": 3.0
+  },
+  "MUS 2713": {
+    "title": "Theory III",
+    "hours": 3.0
+  },
+  "MUS 2723": {
+    "title": "Theory IV",
+    "hours": 3.0
+  },
+  "MUS 2731": {
+    "title": "Ear Training III",
+    "hours": 1.0
+  },
+  "MUS 2741": {
+    "title": "Ear Training IV",
+    "hours": 1.0
+  },
+  "MUS 3000": {
+    "title": "Recital Attendance",
+    "hours": 0.0
+  },
+  "MUS 3001": {
+    "title": "Applied Music - Trumpet",
+    "hours": 1.0
+  },
+  "MUS 3002": {
+    "title": "Applied Music - Trumpet",
+    "hours": 2.0
+  },
+  "MUS 3003": {
+    "title": "Applied Music - Trumpet",
+    "hours": 3.0
+  },
+  "MUS 3011": {
+    "title": "Applied Music - French Horn",
+    "hours": 1.0
+  },
+  "MUS 3012": {
+    "title": "Applied Music - French Horn",
+    "hours": 2.0
+  },
+  "MUS 3013": {
+    "title": "Applied Music - French Horn",
+    "hours": 3.0
+  },
+  "MUS 3021": {
+    "title": "Applied Music - Trombone",
+    "hours": 1.0
+  },
+  "MUS 3022": {
+    "title": "Applied Music - Trombone",
+    "hours": 2.0
+  },
+  "MUS 3023": {
+    "title": "Applied Music - Trombone",
+    "hours": 3.0
+  },
+  "MUS 3031": {
+    "title": "Applied Music - Euphonium",
+    "hours": 1.0
+  },
+  "MUS 3032": {
+    "title": "Applied Music - Euphonium",
+    "hours": 2.0
+  },
+  "MUS 3033": {
+    "title": "Applied Music - Euphonium",
+    "hours": 3.0
+  },
+  "MUS 3041": {
+    "title": "Applied Music - Tuba",
+    "hours": 1.0
+  },
+  "MUS 3042": {
+    "title": "Applied Music - Tuba",
+    "hours": 2.0
+  },
+  "MUS 3043": {
+    "title": "Applied Music - Tuba",
+    "hours": 3.0
+  },
+  "MUS 3051": {
+    "title": "Applied Music - Clarinet",
+    "hours": 1.0
+  },
+  "MUS 3052": {
+    "title": "Applied Music - Clarinet",
+    "hours": 2.0
+  },
+  "MUS 3053": {
+    "title": "Applied Music - Clarinet",
+    "hours": 3.0
+  },
+  "MUS 3061": {
+    "title": "Applied Music - Oboe",
+    "hours": 1.0
+  },
+  "MUS 3062": {
+    "title": "Applied Music - Oboe",
+    "hours": 2.0
+  },
+  "MUS 3063": {
+    "title": "Applied Music - Oboe",
+    "hours": 3.0
+  },
+  "MUS 3071": {
+    "title": "Applied Music - Flute",
+    "hours": 1.0
+  },
+  "MUS 3072": {
+    "title": "Applied Music - Flute",
+    "hours": 2.0
+  },
+  "MUS 3073": {
+    "title": "Applied Music - Flute",
+    "hours": 3.0
+  },
+  "MUS 3081": {
+    "title": "Applied Music - Saxophone",
+    "hours": 1.0
+  },
+  "MUS 3082": {
+    "title": "Applied Music - Saxophone",
+    "hours": 2.0
+  },
+  "MUS 3083": {
+    "title": "Applied Music - Saxophone",
+    "hours": 3.0
+  },
+  "MUS 3091": {
+    "title": "Applied Music - Bassoon",
+    "hours": 1.0
+  },
+  "MUS 3092": {
+    "title": "Applied Music - Bassoon",
+    "hours": 2.0
+  },
+  "MUS 3093": {
+    "title": "Applied Music - Bassoon",
+    "hours": 3.0
+  },
+  "MUS 3141": {
+    "title": "Applied Music - Percussion",
+    "hours": 1.0
+  },
+  "MUS 3142": {
+    "title": "Applied Music - Percussion",
+    "hours": 2.0
+  },
+  "MUS 3143": {
+    "title": "Applied Music - Percussion",
+    "hours": 3.0
+  },
+  "MUS 3191": {
+    "title": "Vocal Solo Literature",
+    "hours": 1.0
+  },
+  "MUS 3201": {
+    "title": "Applied Music - Piano",
+    "hours": 1.0
+  },
+  "MUS 3202": {
+    "title": "Applied Music - Piano",
+    "hours": 2.0
+  },
+  "MUS 3203": {
+    "title": "Applied Music - Piano",
+    "hours": 3.0
+  },
+  "MUS 3221": {
+    "title": "Applied Music - Organ",
+    "hours": 1.0
+  },
+  "MUS 3222": {
+    "title": "Applied Music - Organ",
+    "hours": 2.0
+  },
+  "MUS 3231": {
+    "title": "Applied Music - Voice",
+    "hours": 1.0
+  },
+  "MUS 3232": {
+    "title": "Applied Music - Voice",
+    "hours": 2.0
+  },
+  "MUS 3281": {
+    "title": "Secondary Instrumental Methods and Materials I",
+    "hours": 1.0
+  },
+  "MUS 3301": {
+    "title": "Opera Workshop",
+    "hours": 1.0
+  },
+  "MUS 3311": {
+    "title": "Jazz Ensemble",
+    "hours": 1.0
+  },
+  "MUS 3321": {
+    "title": "Practice of Improvisation",
+    "hours": 1.0
+  },
+  "MUS 3322": {
+    "title": "Theory of Improvisation (Jazz)",
+    "hours": 2.0
+  },
+  "MUS 3332": {
+    "title": "Theory of Improvisation (Jazz)",
+    "hours": 2.0
+  },
+  "MUS 3401": {
+    "title": "Brass Instruments",
+    "hours": 1.0
+  },
+  "MUS 3421": {
+    "title": "Woodwind Instruments, Double Reeds",
+    "hours": 1.0
+  },
+  "MUS 3431": {
+    "title": "Woodwind Instruments, Single Reeds",
+    "hours": 1.0
+  },
+  "MUS 3442": {
+    "title": "Piano Pedagogy",
+    "hours": 2.0
+  },
+  "MUS 3481": {
+    "title": "Stringed Instruments",
+    "hours": 1.0
+  },
+  "MUS 3501": {
+    "title": "Band",
+    "hours": 1.0
+  },
+  "MUS 3511": {
+    "title": "Brass Choir",
+    "hours": 1.0
+  },
+  "MUS 3521": {
+    "title": "Woodwind Ensembles",
+    "hours": 1.0
+  },
+  "MUS 3531": {
+    "title": "Brass Ensembles",
+    "hours": 1.0
+  },
+  "MUS 3541": {
+    "title": "Percussion Ensembles",
+    "hours": 1.0
+  },
+  "MUS 3551": {
+    "title": "Chamber Ensembles",
+    "hours": 1.0
+  },
+  "MUS 3571": {
+    "title": "University Choir",
+    "hours": 1.0
+  },
+  "MUS 3581": {
+    "title": "Choral Artists",
+    "hours": 1.0
+  },
+  "MUS 3631": {
+    "title": "Symphonic Wind Ensemble",
+    "hours": 1.0
+  },
+  "MUS 3681": {
+    "title": "Concert Chorale",
+    "hours": 1.0
+  },
+  "MUS 3692": {
+    "title": "History of Music III",
+    "hours": 2.0
+  },
+  "MUS 3723": {
+    "title": "Electronic Music Creation",
+    "hours": 3.0
+  },
+  "MUS 3762": {
+    "title": "Instrumental and Choral Arranging",
+    "hours": 2.0
+  },
+  "MUS 3771": {
+    "title": "Composition",
+    "hours": 1.0
+  },
+  "MUS 3772": {
+    "title": "Composition",
+    "hours": 2.0
+  },
+  "MUS 3773": {
+    "title": "History of Music I",
+    "hours": 3.0
+  },
+  "MUS 3783": {
+    "title": "History of Music II",
+    "hours": 3.0
+  },
+  "MUS 3801": {
+    "title": "Principles of Conducting",
+    "hours": 1.0
+  },
+  "MUS 3821": {
+    "title": "Secondary Choral Methods and Materials I",
+    "hours": 1.0
+  },
+  "MUS 3853": {
+    "title": "Music in the Elementary Classroom",
+    "hours": 3.0
+  },
+  "MUS 3901": {
+    "title": "Secondary Music Methods and Materials I",
+    "hours": 1.0
+  },
+  "MUS 4000": {
+    "title": "Capstone Recital",
+    "hours": 0.0
+  },
+  "MUS 4201": {
+    "title": "Accompanying Seminar",
+    "hours": 1.0
+  },
+  "MUS 4281": {
+    "title": "Secondary Instrumental Methods and Materials II",
+    "hours": 1.0
+  },
+  "MUS 4461": {
+    "title": "Percussion Instruments",
+    "hours": 1.0
+  },
+  "MUS 4701": {
+    "title": "Teaching Music in the Elementary and Secondary School",
+    "hours": 1.0
+  },
+  "MUS 4712": {
+    "title": "Form and Analysis",
+    "hours": 2.0
+  },
+  "MUS 4801": {
+    "title": "Advanced Conducting",
+    "hours": 1.0
+  },
+  "MUS 4811": {
+    "title": "Keyboard Literature",
+    "hours": 1.0
+  },
+  "MUS 4821": {
+    "title": "Secondary Choral Methods and Materials II",
+    "hours": 1.0
+  },
+  "MUS 4832": {
+    "title": "Vocal Pedagogy",
+    "hours": 2.0
+  },
+  "MUS 4853": {
+    "title": "Music of the World&#39;s Peoples",
+    "hours": 3.0
+  },
+  "MUS 4901": {
+    "title": "Secondary Music Methods and Materials II",
+    "hours": 1.0
+  },
+  "MUS 4951": {
+    "title": "Undergraduate Research in Music",
+    "hours": 1.0
+  },
+  "MUS 4952": {
+    "title": "Undergraduate Research in Music",
+    "hours": 2.0
+  },
+  "MUS 4953": {
+    "title": "Undergraduate Research in Music",
+    "hours": 3.0
+  },
+  "MUS 4954": {
+    "title": "Undergraduate Research in Music",
+    "hours": 4.0
+  },
+  "MUS 4971": {
+    "title": "Marching Band Techniques",
+    "hours": 1.0
+  },
+  "MUS 4983": {
+    "title": "Sound Design Seminar",
+    "hours": 3.0
+  },
+  "MUS 4991": {
+    "title": "Special Problems in Music",
+    "hours": 1.0
+  },
+  "MUS 4992": {
+    "title": "Special Problems in Music",
+    "hours": 2.0
+  },
+  "MUS 4993": {
+    "title": "Special Problems in Music",
+    "hours": 3.0
+  },
+  "MUS 5853": {
+    "title": "Music of the World&#39;s Peoples",
+    "hours": 3.0
+  },
+  "MUS 6001": {
+    "title": "Applied Music",
+    "hours": 1.0
+  },
+  "MUS 6002": {
+    "title": "Applied Music",
+    "hours": 2.0
+  },
+  "MUS 6013": {
+    "title": "Introduction to Music Education Research",
+    "hours": 3.0
+  },
+  "MUS 6023": {
+    "title": "Music Curriculum &amp; Assessment",
+    "hours": 3.0
+  },
+  "MUS 6032": {
+    "title": "Contemporary Issues in Music Education",
+    "hours": 2.0
+  },
+  "MUS 6042": {
+    "title": "Applied Music Pedagogy",
+    "hours": 2.0
+  },
+  "MUS 6103": {
+    "title": "Graduate Capstone Project",
+    "hours": 3.0
+  },
+  "MUS 6203": {
+    "title": "Topics in Music Theory &amp; Analysis",
+    "hours": 3.0
+  },
+  "MUS 6303": {
+    "title": "Topics in Music History",
+    "hours": 3.0
+  },
+  "MUS 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "MUS 6892": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "MUS 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "MUS 6894": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "NUR 1001": {
+    "title": "Orientation to Nursing",
+    "hours": 1.0
+  },
+  "NUR 2023": {
+    "title": "Introduction to Professional Nursing",
+    "hours": 3.0
+  },
+  "NUR 2303": {
+    "title": "Nutrition",
+    "hours": 3.0
+  },
+  "NUR 3103": {
+    "title": "Nursing Skills I",
+    "hours": 3.0
+  },
+  "NUR 3206": {
+    "title": "Concepts in Nursing I",
+    "hours": 6.0
+  },
+  "NUR 3303": {
+    "title": "Health Assessment",
+    "hours": 3.0
+  },
+  "NUR 3402": {
+    "title": "Pharmacology I",
+    "hours": 2.0
+  },
+  "NUR 3404": {
+    "title": "Clinical Nursing I",
+    "hours": 4.0
+  },
+  "NUR 3513": {
+    "title": "Nursing Skills II",
+    "hours": 3.0
+  },
+  "NUR 3606": {
+    "title": "Concepts in Nursing II",
+    "hours": 6.0
+  },
+  "NUR 3792": {
+    "title": "Concepts Competency I",
+    "hours": 2.0
+  },
+  "NUR 3801": {
+    "title": "Pharmacology II",
+    "hours": 1.0
+  },
+  "NUR 3803": {
+    "title": "Applied Pathophysiology",
+    "hours": 3.0
+  },
+  "NUR 3805": {
+    "title": "Clinical Nursing II",
+    "hours": 5.0
+  },
+  "NUR 3892": {
+    "title": "Clinical Competency I",
+    "hours": 2.0
+  },
+  "NUR 4002": {
+    "title": "Nursing Informatics",
+    "hours": 2.0
+  },
+  "NUR 4206": {
+    "title": "Concepts in Nursing III",
+    "hours": 6.0
+  },
+  "NUR 4303": {
+    "title": "Nursing Research",
+    "hours": 3.0
+  },
+  "NUR 4405": {
+    "title": "Clinical Nursing III",
+    "hours": 5.0
+  },
+  "NUR 4501": {
+    "title": "Pharmacology III",
+    "hours": 1.0
+  },
+  "NUR 4502": {
+    "title": "Principles of ACLS",
+    "hours": 2.0
+  },
+  "NUR 4606": {
+    "title": "Concepts in Nursing IV",
+    "hours": 6.0
+  },
+  "NUR 4792": {
+    "title": "Concepts Competency II",
+    "hours": 2.0
+  },
+  "NUR 4804": {
+    "title": "Clinical Nursing IV",
+    "hours": 4.0
+  },
+  "NUR 4892": {
+    "title": "Clinical Competency II",
+    "hours": 2.0
+  },
+  "NUR 4903": {
+    "title": "Synthesis of Clinical and Theoretical Concepts",
+    "hours": 3.0
+  },
+  "NUR 4951": {
+    "title": "Undergraduate Research in Nursing",
+    "hours": 1.0
+  },
+  "NUR 4952": {
+    "title": "Undergraduate Research in Nursing",
+    "hours": 2.0
+  },
+  "NUR 4953": {
+    "title": "Undergraduate Research in Nursing",
+    "hours": 3.0
+  },
+  "NUR 4954": {
+    "title": "Undergraduate Research in Nursing",
+    "hours": 4.0
+  },
+  "NUR 4971": {
+    "title": "Pharmacology Review",
+    "hours": 1.0
+  },
+  "NUR 4990": {
+    "title": "Independent Study",
+    "hours": 0.0
+  },
+  "NUR 4991": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "NUR 4992": {
+    "title": "Independent Study",
+    "hours": 2.0
+  },
+  "NUR 4993": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "NUR 4994": {
+    "title": "Independent Study",
+    "hours": 4.0
+  },
+  "NUR 6103": {
+    "title": "Theoretical Perspectives",
+    "hours": 3.0
+  },
+  "NUR 6203": {
+    "title": "Research Design and Methods",
+    "hours": 3.0
+  },
+  "NUR 6303": {
+    "title": "Law, Ethics, and Policy in Healthcare",
+    "hours": 3.0
+  },
+  "NUR 6313": {
+    "title": "Role of the Healthcare Administrator",
+    "hours": 3.0
+  },
+  "NUR 6333": {
+    "title": "Epidemics and Pandemics",
+    "hours": 3.0
+  },
+  "NUR 6403": {
+    "title": "Non-Thesis Project",
+    "hours": 3.0
+  },
+  "NUR 6503": {
+    "title": "Organizational Behavior in Healthcare",
+    "hours": 3.0
+  },
+  "NUR 6513": {
+    "title": "Fiscal Management in Health Care System",
+    "hours": 3.0
+  },
+  "NUR 6526": {
+    "title": "Nursing Administration Practicum",
+    "hours": 6.0
+  },
+  "NUR 6991": {
+    "title": "Research Thesis",
+    "hours": 1.0
+  },
+  "NUR 6992": {
+    "title": "Research Thesis",
+    "hours": 2.0
+  },
+  "NUR 6993": {
+    "title": "Research Thesis",
+    "hours": 3.0
+  },
+  "NUR 6994": {
+    "title": "Research Thesis",
+    "hours": 4.0
+  },
+  "NUR 6995": {
+    "title": "Research Thesis",
+    "hours": 5.0
+  },
+  "NUR 6996": {
+    "title": "Research Thesis",
+    "hours": 6.0
+  },
+  "PE 1051": {
+    "title": "Volleyball",
+    "hours": 1.0
+  },
+  "PE 1201": {
+    "title": "Orientation to Kinesiology",
+    "hours": 1.0
+  },
+  "PE 1401": {
+    "title": "Archery and Recreational Games",
+    "hours": 1.0
+  },
+  "PE 1411": {
+    "title": "Badminton",
+    "hours": 1.0
+  },
+  "PE 1431": {
+    "title": "Bowling",
+    "hours": 1.0
+  },
+  "PE 1481": {
+    "title": "Tennis",
+    "hours": 1.0
+  },
+  "PE 1491": {
+    "title": "Pickleball",
+    "hours": 1.0
+  },
+  "PE 1991": {
+    "title": "Racquetball",
+    "hours": 1.0
+  },
+  "PE 2101": {
+    "title": "Methods of Teaching Team Activities",
+    "hours": 1.0
+  },
+  "PE 2111": {
+    "title": "Methods of Teaching Individual Activities",
+    "hours": 1.0
+  },
+  "PE 2301": {
+    "title": "Beginning Golf",
+    "hours": 1.0
+  },
+  "PE 2513": {
+    "title": "First Aid",
+    "hours": 3.0
+  },
+  "PE 2523": {
+    "title": "Foundations in Health and Physical Education",
+    "hours": 3.0
+  },
+  "PE 2533": {
+    "title": "Sports Officiating",
+    "hours": 3.0
+  },
+  "PE 2653": {
+    "title": "Anatomy and Physiology",
+    "hours": 3.0
+  },
+  "PE 3051": {
+    "title": "Methods of Teaching Fitness and Wellness Concepts",
+    "hours": 1.0
+  },
+  "PE 3101": {
+    "title": "Methods of Teaching Rhythmic and Gymnastic Movements",
+    "hours": 1.0
+  },
+  "PE 3413": {
+    "title": "Coaching Theory",
+    "hours": 3.0
+  },
+  "PE 3512": {
+    "title": "Coaching Strategies: Football &amp; Baseball",
+    "hours": 2.0
+  },
+  "PE 3522": {
+    "title": "Coaching Strategies: Basketball &amp; Track and Field",
+    "hours": 2.0
+  },
+  "PE 3532": {
+    "title": "Coaching Strategies: Softball and Volleyball",
+    "hours": 2.0
+  },
+  "PE 3543": {
+    "title": "Lifespan Motor Development",
+    "hours": 3.0
+  },
+  "PE 3573": {
+    "title": "Prevention and Care of Activity Injuries",
+    "hours": 3.0
+  },
+  "PE 3583": {
+    "title": "Coaching Physical Activity K-12",
+    "hours": 3.0
+  },
+  "PE 3593": {
+    "title": "Methods of Teaching Health and Physical Education for K-6 Teachers",
+    "hours": 3.0
+  },
+  "PE 3603": {
+    "title": "Methods and Materials in Physical Education for Secondary Schools",
+    "hours": 3.0
+  },
+  "PE 3661": {
+    "title": "Laboratory Experiences in Anatomy/Physiology and Kinesiology",
+    "hours": 1.0
+  },
+  "PE 3663": {
+    "title": "Kinesiology",
+    "hours": 3.0
+  },
+  "PE 4033": {
+    "title": "Exercise Physiology",
+    "hours": 3.0
+  },
+  "PE 4103": {
+    "title": "Principles of Adapted Physical Activity",
+    "hours": 3.0
+  },
+  "PE 4203": {
+    "title": "Methods of Teaching Adapted Physical Education",
+    "hours": 3.0
+  },
+  "PE 4513": {
+    "title": "Organization and Administration of Athletics and Physical Activity",
+    "hours": 3.0
+  },
+  "PE 4523": {
+    "title": "Measurement and Evaluation in Health and Physical Education",
+    "hours": 3.0
+  },
+  "PE 4701": {
+    "title": "Special Methods in Health and Physical Education",
+    "hours": 1.0
+  },
+  "PE 4991": {
+    "title": "Special Problems in Health and Physical Education",
+    "hours": 1.0
+  },
+  "PE 4992": {
+    "title": "Special Problems in Health and Physical Education",
+    "hours": 2.0
+  },
+  "PE 4993": {
+    "title": "Special Problems in Health and Physical Education",
+    "hours": 3.0
+  },
+  "PE 6033": {
+    "title": "Exercise Physiology",
+    "hours": 3.0
+  },
+  "PE 6043": {
+    "title": "Motor Learning and Control",
+    "hours": 3.0
+  },
+  "PE 6053": {
+    "title": "Biomechanics",
+    "hours": 3.0
+  },
+  "PE 6063": {
+    "title": "Current Issues in Coaching and Athletics",
+    "hours": 3.0
+  },
+  "PE 6891": {
+    "title": "Independent Study",
+    "hours": 1.0
+  },
+  "PE 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "PHIL 1XXX": {
+    "title": "PHILOSOPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHIL 2003": {
+    "title": "Introduction to Philosophy",
+    "hours": 3.0
+  },
+  "PHIL 2013": {
+    "title": "Religions of the World",
+    "hours": 3.0
+  },
+  "PHIL 2043": {
+    "title": "Honors Introduction to Philosophy",
+    "hours": 3.0
+  },
+  "PHIL 2053": {
+    "title": "Introduction to Critical Thinking",
+    "hours": 3.0
+  },
+  "PHIL 2253": {
+    "title": "Survey of Western Political Thought",
+    "hours": 3.0
+  },
+  "PHIL 2XXX": {
+    "title": "PHILOSOPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHIL 3053": {
+    "title": "Philosophy of Religion",
+    "hours": 3.0
+  },
+  "PHIL 3063": {
+    "title": "Modern Political Thought",
+    "hours": 3.0
+  },
+  "PHIL 3073": {
+    "title": "Philosophy of Law",
+    "hours": 3.0
+  },
+  "PHIL 3103": {
+    "title": "Logic",
+    "hours": 3.0
+  },
+  "PHIL 3253": {
+    "title": "Classical Political Thought",
+    "hours": 3.0
+  },
+  "PHIL 3XXX": {
+    "title": "PHILOSOPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHIL 4233": {
+    "title": "American Political Thought",
+    "hours": 3.0
+  },
+  "PHIL 4951": {
+    "title": "Undergraduate Research in Philosophy",
+    "hours": 1.0
+  },
+  "PHIL 4952": {
+    "title": "Undergraduate Research in Philosophy",
+    "hours": 2.0
+  },
+  "PHIL 4953": {
+    "title": "Undergraduate Research in Philosophy",
+    "hours": 3.0
+  },
+  "PHIL 4954": {
+    "title": "Undergraduate Research in Philosophy",
+    "hours": 4.0
+  },
+  "PHIL 4991": {
+    "title": "Special Problems In Philosophy",
+    "hours": 1.0
+  },
+  "PHIL 4992": {
+    "title": "Special Problems In Philosophy",
+    "hours": 2.0
+  },
+  "PHIL 4993": {
+    "title": "Special Problems In Philosophy",
+    "hours": 3.0
+  },
+  "PHIL 4994": {
+    "title": "Special Problems In Philosophy",
+    "hours": 4.0
+  },
+  "PHIL 4XXX": {
+    "title": "PHILOSOPHY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHSC 1001": {
+    "title": "Orientation to Physical Science",
+    "hours": 1.0
+  },
+  "PHSC 1011": {
+    "title": "Orientation to Physical Science II",
+    "hours": 1.0
+  },
+  "PHSC 1013": {
+    "title": "Introduction to Physical Science",
+    "hours": 3.0
+  },
+  "PHSC 1021": {
+    "title": "Physical Science Laboratory",
+    "hours": 1.0
+  },
+  "PHSC 1051": {
+    "title": "Observational Astronomy Laboratory",
+    "hours": 1.0
+  },
+  "PHSC 1053": {
+    "title": "Astronomy",
+    "hours": 3.0
+  },
+  "PHSC 1XXX": {
+    "title": "PHYSICAL SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHSC 2XXX": {
+    "title": "PHYSICAL SCI TRANSFER ELECTIE",
+    "hours": 1.0
+  },
+  "PHSC 3053": {
+    "title": "Astronomy",
+    "hours": 3.0
+  },
+  "PHSC 3243": {
+    "title": "Integrating the Three Dimensions of Science",
+    "hours": 3.0
+  },
+  "PHSC 3252": {
+    "title": "The Nature and Context of Science",
+    "hours": 2.0
+  },
+  "PHSC 3253": {
+    "title": "Teaching Methods for STEM",
+    "hours": 3.0
+  },
+  "PHSC 3XXX": {
+    "title": "PHYSICAL SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHSC 4XXX": {
+    "title": "PHYSICAL SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHSC 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "PHSC XXXX": {
+    "title": "Physical Science with Laboratory",
+    "hours": 1.0
+  },
+  "PHYS 1114": {
+    "title": "Applied Physics",
+    "hours": 4.0
+  },
+  "PHYS 1XXX": {
+    "title": "PHYSICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHYS 2000": {
+    "title": "Physics Laboratory I",
+    "hours": 0.0
+  },
+  "PHYS 2010": {
+    "title": "Physics Laboratory II",
+    "hours": 0.0
+  },
+  "PHYS 2014": {
+    "title": "Algebra-Based Physics I",
+    "hours": 4.0
+  },
+  "PHYS 2024": {
+    "title": "Algebra-Based Physics II",
+    "hours": 4.0
+  },
+  "PHYS 2114": {
+    "title": "Calculus-Based Physics I",
+    "hours": 4.0
+  },
+  "PHYS 2124": {
+    "title": "Calculus-Based Physics II",
+    "hours": 4.0
+  },
+  "PHYS 2914": {
+    "title": "Honors Calculus Based Physics I",
+    "hours": 4.0
+  },
+  "PHYS 2XXX": {
+    "title": "PHYSICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHYS 3003": {
+    "title": "Optics",
+    "hours": 3.0
+  },
+  "PHYS 3023": {
+    "title": "Mechanics",
+    "hours": 3.0
+  },
+  "PHYS 3133": {
+    "title": "Theory of Electricity and Magnetism",
+    "hours": 3.0
+  },
+  "PHYS 3213": {
+    "title": "Modern Physics",
+    "hours": 3.0
+  },
+  "PHYS 3991": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 1.0
+  },
+  "PHYS 3992": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 2.0
+  },
+  "PHYS 3993": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 3.0
+  },
+  "PHYS 3XXX": {
+    "title": "PHYSICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHYS 4003": {
+    "title": "Thermodynamics and Statistical Mechanics",
+    "hours": 3.0
+  },
+  "PHYS 4013": {
+    "title": "Quantum Mechanics",
+    "hours": 3.0
+  },
+  "PHYS 4023": {
+    "title": "Computational Physics",
+    "hours": 3.0
+  },
+  "PHYS 4061": {
+    "title": "Engineering Physics Design",
+    "hours": 1.0
+  },
+  "PHYS 4113": {
+    "title": "Advanced Physics Laboratory",
+    "hours": 3.0
+  },
+  "PHYS 4213": {
+    "title": "Advanced Topics in Physics and Astronomy",
+    "hours": 3.0
+  },
+  "PHYS 4951": {
+    "title": "Physics or Engineering Physics Capstone",
+    "hours": 1.0
+  },
+  "PHYS 4952": {
+    "title": "Physics or Engineering Physics Capstone",
+    "hours": 2.0
+  },
+  "PHYS 4953": {
+    "title": "Physics or Engineering Physics Capstone",
+    "hours": 3.0
+  },
+  "PHYS 4954": {
+    "title": "Physics or Engineering Physics Capstone",
+    "hours": 4.0
+  },
+  "PHYS 4991": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 1.0
+  },
+  "PHYS 4992": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 2.0
+  },
+  "PHYS 4993": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 3.0
+  },
+  "PHYS 4994": {
+    "title": "Special Problems in Physics and Astronomy",
+    "hours": 4.0
+  },
+  "PHYS 4XXX": {
+    "title": "PHYSICS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PHYS 6881": {
+    "title": "Workshop",
+    "hours": 1.0
+  },
+  "PHYS 6882": {
+    "title": "Workshop",
+    "hours": 2.0
+  },
+  "PHYS 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "PHYS 6884": {
+    "title": "Workshop",
+    "hours": 4.0
+  },
+  "POLS 1XXX": {
+    "title": "POLS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "POLS 2003": {
+    "title": "American Government",
+    "hours": 3.0
+  },
+  "POLS 2253": {
+    "title": "Survey of Western Political Thought",
+    "hours": 3.0
+  },
+  "POLS 2403": {
+    "title": "Comparative Government",
+    "hours": 3.0
+  },
+  "POLS 2413": {
+    "title": "World Politics",
+    "hours": 3.0
+  },
+  "POLS 2513": {
+    "title": "Research Design",
+    "hours": 3.0
+  },
+  "POLS 2XXX": {
+    "title": "POLS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "POLS 3013": {
+    "title": "United States Foreign Policy",
+    "hours": 3.0
+  },
+  "POLS 3023": {
+    "title": "Judicial Process",
+    "hours": 3.0
+  },
+  "POLS 3033": {
+    "title": "American State and Local Government",
+    "hours": 3.0
+  },
+  "POLS 3043": {
+    "title": "Judicial Politics",
+    "hours": 3.0
+  },
+  "POLS 3053": {
+    "title": "Introduction to Public Administration",
+    "hours": 3.0
+  },
+  "POLS 3063": {
+    "title": "Modern Political Thought",
+    "hours": 3.0
+  },
+  "POLS 3083": {
+    "title": "Political Parties and Interest Groups",
+    "hours": 3.0
+  },
+  "POLS 3123": {
+    "title": "American Political Behavior",
+    "hours": 3.0
+  },
+  "POLS 3133": {
+    "title": "United States Congress",
+    "hours": 3.0
+  },
+  "POLS 3143": {
+    "title": "The United States Presidency",
+    "hours": 3.0
+  },
+  "POLS 3153": {
+    "title": "Sports and Politics",
+    "hours": 3.0
+  },
+  "POLS 3253": {
+    "title": "Classical Political Thought",
+    "hours": 3.0
+  },
+  "POLS 3423": {
+    "title": "Problems in International Affairs",
+    "hours": 3.0
+  },
+  "POLS 3433": {
+    "title": "United Nations",
+    "hours": 3.0
+  },
+  "POLS 3473": {
+    "title": "American National Security",
+    "hours": 3.0
+  },
+  "POLS 3XXX": {
+    "title": "POLS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "POLS 4033": {
+    "title": "Principles of Legal Study",
+    "hours": 3.0
+  },
+  "POLS 4043": {
+    "title": "American Constitutional Law",
+    "hours": 3.0
+  },
+  "POLS 4183": {
+    "title": "American Legal History",
+    "hours": 3.0
+  },
+  "POLS 4233": {
+    "title": "American Political Thought",
+    "hours": 3.0
+  },
+  "POLS 4951": {
+    "title": "Undergraduate Research in Political Science",
+    "hours": 1.0
+  },
+  "POLS 4952": {
+    "title": "Undergraduate Research in Political Science",
+    "hours": 2.0
+  },
+  "POLS 4953": {
+    "title": "Undergraduate Research in Political Science",
+    "hours": 3.0
+  },
+  "POLS 4954": {
+    "title": "Undergraduate Research in Political Science",
+    "hours": 4.0
+  },
+  "POLS 4963": {
+    "title": "Senior Seminar",
+    "hours": 3.0
+  },
+  "POLS 4971": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "POLS 4972": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "POLS 4973": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "POLS 4974": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "POLS 4975": {
+    "title": "Internship",
+    "hours": 5.0
+  },
+  "POLS 4976": {
+    "title": "Internship",
+    "hours": 6.0
+  },
+  "POLS 4983": {
+    "title": "Political Science Seminar",
+    "hours": 3.0
+  },
+  "POLS 4991": {
+    "title": "Special Problems in Political Science",
+    "hours": 1.0
+  },
+  "POLS 4992": {
+    "title": "Special Problems in Political Science",
+    "hours": 2.0
+  },
+  "POLS 4993": {
+    "title": "Special Problems in Political Science",
+    "hours": 3.0
+  },
+  "POLS 4994": {
+    "title": "Special Problems in Political Science",
+    "hours": 4.0
+  },
+  "POLS 4XXX": {
+    "title": "POLS TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "POLS 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "PSY 1XXX": {
+    "title": "PSYCHOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PSY 2003": {
+    "title": "General Psychology",
+    "hours": 3.0
+  },
+  "PSY 2023": {
+    "title": "Consumer Psychology",
+    "hours": 3.0
+  },
+  "PSY 2033": {
+    "title": "Psychology of Adjustment",
+    "hours": 3.0
+  },
+  "PSY 2053": {
+    "title": "Statistics for the Behavioral Sciences",
+    "hours": 3.0
+  },
+  "PSY 2063": {
+    "title": "Research Design for the Behavioral Sciences",
+    "hours": 3.0
+  },
+  "PSY 2093": {
+    "title": "Human Sexuality",
+    "hours": 3.0
+  },
+  "PSY 2133": {
+    "title": "Cross-Cultural Psychology",
+    "hours": 3.0
+  },
+  "PSY 2XXX": {
+    "title": "PSYCHOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PSY 3003": {
+    "title": "Abnormal Psychology",
+    "hours": 3.0
+  },
+  "PSY 3013": {
+    "title": "Psychosocial Aspects of Death and Dying",
+    "hours": 3.0
+  },
+  "PSY 3033": {
+    "title": "Criminal Psychology",
+    "hours": 3.0
+  },
+  "PSY 3053": {
+    "title": "Behavioral Neuroscience",
+    "hours": 3.0
+  },
+  "PSY 3063": {
+    "title": "Developmental Psychology: Childhood",
+    "hours": 3.0
+  },
+  "PSY 3073": {
+    "title": "Psychology of Learning",
+    "hours": 3.0
+  },
+  "PSY 3083": {
+    "title": "Psychology of Women",
+    "hours": 3.0
+  },
+  "PSY 3093": {
+    "title": "Industrial and Organizational Psychology",
+    "hours": 3.0
+  },
+  "PSY 3103": {
+    "title": "Health Psychology",
+    "hours": 3.0
+  },
+  "PSY 3123": {
+    "title": "Evolutionary Psychology",
+    "hours": 3.0
+  },
+  "PSY 3133": {
+    "title": "Self and Society",
+    "hours": 3.0
+  },
+  "PSY 3141": {
+    "title": "Seminar in Psychology",
+    "hours": 1.0
+  },
+  "PSY 3142": {
+    "title": "Seminar in Psychology",
+    "hours": 2.0
+  },
+  "PSY 3143": {
+    "title": "Seminar in Psychology",
+    "hours": 3.0
+  },
+  "PSY 3144": {
+    "title": "Seminar in Psychology",
+    "hours": 4.0
+  },
+  "PSY 3153": {
+    "title": "Personality Psychology",
+    "hours": 3.0
+  },
+  "PSY 3163": {
+    "title": "Developmental Psychology: Adulthood",
+    "hours": 3.0
+  },
+  "PSY 3173": {
+    "title": "Psychology of Consciousness",
+    "hours": 3.0
+  },
+  "PSY 3183": {
+    "title": "Development Psychology: Adolescence",
+    "hours": 3.0
+  },
+  "PSY 3184": {
+    "title": "Animal Behavior",
+    "hours": 4.0
+  },
+  "PSY 3191": {
+    "title": "Careers in Psychology",
+    "hours": 1.0
+  },
+  "PSY 3203": {
+    "title": "Serial and Mass Murder",
+    "hours": 3.0
+  },
+  "PSY 3813": {
+    "title": "Lifespan Development",
+    "hours": 3.0
+  },
+  "PSY 3XXX": {
+    "title": "PSYCHOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "PSY 4003": {
+    "title": "Capstone: Advanced Research Method and Lab for Psychology",
+    "hours": 3.0
+  },
+  "PSY 4013": {
+    "title": "History of Psychology",
+    "hours": 3.0
+  },
+  "PSY 4021": {
+    "title": "Internships in Psychology",
+    "hours": 1.0
+  },
+  "PSY 4022": {
+    "title": "Internships in Psychology",
+    "hours": 2.0
+  },
+  "PSY 4023": {
+    "title": "Internships in Psychology",
+    "hours": 3.0
+  },
+  "PSY 4024": {
+    "title": "Internships in Psychology",
+    "hours": 4.0
+  },
+  "PSY 4033": {
+    "title": "Psychological Tests and Measurements",
+    "hours": 3.0
+  },
+  "PSY 4043": {
+    "title": "Social Psychology",
+    "hours": 3.0
+  },
+  "PSY 4053": {
+    "title": "Sensation and Perception",
+    "hours": 3.0
+  },
+  "PSY 4073": {
+    "title": "Cognitive Psychology",
+    "hours": 3.0
+  },
+  "PSY 4103": {
+    "title": "Capstone: Advanced Psychological Science",
+    "hours": 3.0
+  },
+  "PSY 4133": {
+    "title": "Psychopharmacology",
+    "hours": 3.0
+  },
+  "PSY 4203": {
+    "title": "Capstone: Psychology in the Community",
+    "hours": 3.0
+  },
+  "PSY 4951": {
+    "title": "Undergraduate Research in Psychology",
+    "hours": 1.0
+  },
+  "PSY 4952": {
+    "title": "Undergraduate Research in Psychology",
+    "hours": 2.0
+  },
+  "PSY 4953": {
+    "title": "Undergraduate Research in Psychology",
+    "hours": 3.0
+  },
+  "PSY 4954": {
+    "title": "Undergraduate Research in Psychology",
+    "hours": 4.0
+  },
+  "PSY 4991": {
+    "title": "Special Problems in Psychology",
+    "hours": 1.0
+  },
+  "PSY 4992": {
+    "title": "Special Problems in Psychology",
+    "hours": 2.0
+  },
+  "PSY 4993": {
+    "title": "Special Problems in Psychology",
+    "hours": 3.0
+  },
+  "PSY 4994": {
+    "title": "Special Problems in Psychology",
+    "hours": 4.0
+  },
+  "PSY 4XXX": {
+    "title": "PSYCHOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RDNG 3003": {
+    "title": "Teaching Literacy Foundations",
+    "hours": 3.0
+  },
+  "RDNG 3163": {
+    "title": "Content Area Literacy",
+    "hours": 3.0
+  },
+  "RDNG 4003": {
+    "title": "Literacy Assessment and Intervention",
+    "hours": 3.0
+  },
+  "RDNG 4013": {
+    "title": "Child and Adolescent Literature",
+    "hours": 3.0
+  },
+  "RDNG 5023": {
+    "title": "Literacy Curriculum Design and Analysis",
+    "hours": 3.0
+  },
+  "RDNG 5053": {
+    "title": "Literacy, Technology, and the Reading Environment",
+    "hours": 3.0
+  },
+  "RDNG 6043": {
+    "title": "Multicultural Literacy, Language, and Culture",
+    "hours": 3.0
+  },
+  "RDNG 6086": {
+    "title": "Reading Practicum",
+    "hours": 6.0
+  },
+  "RP 1002": {
+    "title": "Backpacking",
+    "hours": 2.0
+  },
+  "RP 1011": {
+    "title": "Sport Hunting",
+    "hours": 1.0
+  },
+  "RP 1013": {
+    "title": "Principles of Tourism",
+    "hours": 3.0
+  },
+  "RP 1021": {
+    "title": "Boating Education",
+    "hours": 1.0
+  },
+  "RP 1041": {
+    "title": "Principles and Techniques of Fishing",
+    "hours": 1.0
+  },
+  "RP 1993": {
+    "title": "Basic Forest Firefighting",
+    "hours": 3.0
+  },
+  "RP 1XXX": {
+    "title": "REC/PARK TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RP 2003": {
+    "title": "Events and Experience Management",
+    "hours": 3.0
+  },
+  "RP 2013": {
+    "title": "Open Space Management",
+    "hours": 3.0
+  },
+  "RP 2023": {
+    "title": "Trail Planning and Management",
+    "hours": 3.0
+  },
+  "RP 2033": {
+    "title": "Leadership in Experience Industries",
+    "hours": 3.0
+  },
+  "RP 2043": {
+    "title": "Trail Advocacy",
+    "hours": 3.0
+  },
+  "RP 2112": {
+    "title": "Introduction to Professional Practice",
+    "hours": 2.0
+  },
+  "RP 2113": {
+    "title": "Global Perspectives of Tourism",
+    "hours": 3.0
+  },
+  "RP 2133": {
+    "title": "Introduction to Travel and Tourism",
+    "hours": 3.0
+  },
+  "RP 2881": {
+    "title": "Special Topics",
+    "hours": 1.0
+  },
+  "RP 2882": {
+    "title": "Special Topics",
+    "hours": 2.0
+  },
+  "RP 2883": {
+    "title": "Special Topics",
+    "hours": 3.0
+  },
+  "RP 2991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "RP 2992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "RP 2993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "RP 2XXX": {
+    "title": "REC/PARK TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RP 3013": {
+    "title": "Inclusive Recreation",
+    "hours": 3.0
+  },
+  "RP 3023": {
+    "title": "Camp Administration",
+    "hours": 3.0
+  },
+  "RP 3033": {
+    "title": "Entrepreneurship in Experience Industries",
+    "hours": 3.0
+  },
+  "RP 3034": {
+    "title": "Master Planning for Parks and Tourism",
+    "hours": 4.0
+  },
+  "RP 3043": {
+    "title": "Developing Professional Practices",
+    "hours": 3.0
+  },
+  "RP 3053": {
+    "title": "Natural Resource Management",
+    "hours": 3.0
+  },
+  "RP 3063": {
+    "title": "Outdoor Education",
+    "hours": 3.0
+  },
+  "RP 3093": {
+    "title": "Interpretive Methods",
+    "hours": 3.0
+  },
+  "RP 3113": {
+    "title": "Talent Acquisition and Management",
+    "hours": 3.0
+  },
+  "RP 3133": {
+    "title": "Tourism Planning",
+    "hours": 3.0
+  },
+  "RP 3403": {
+    "title": "Experience Industry Finance Management",
+    "hours": 3.0
+  },
+  "RP 3503": {
+    "title": "Sports for Communities and Tourism",
+    "hours": 3.0
+  },
+  "RP 3993": {
+    "title": "Wildland Fire Practices in Natural Resource Management",
+    "hours": 3.0
+  },
+  "RP 3XXX": {
+    "title": "REC/PARK TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RP 4001": {
+    "title": "Internship Preparation",
+    "hours": 1.0
+  },
+  "RP 4013": {
+    "title": "Experience Industry Administration",
+    "hours": 3.0
+  },
+  "RP 4023": {
+    "title": "Tourism Research",
+    "hours": 3.0
+  },
+  "RP 4043": {
+    "title": "Field Seminar in Interpretive Methods",
+    "hours": 3.0
+  },
+  "RP 4053": {
+    "title": "Water Resources Development",
+    "hours": 3.0
+  },
+  "RP 4063": {
+    "title": "Park Management",
+    "hours": 3.0
+  },
+  "RP 4073": {
+    "title": "Principles and Techniques of Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "RP 4093": {
+    "title": "Resort and Club Management",
+    "hours": 3.0
+  },
+  "RP 4103": {
+    "title": "Recreation Law and Policy",
+    "hours": 3.0
+  },
+  "RP 4112": {
+    "title": "Internship II",
+    "hours": 2.0
+  },
+  "RP 4116": {
+    "title": "Internship",
+    "hours": 6.0
+  },
+  "RP 4119": {
+    "title": "Mastery in Professional Practice",
+    "hours": 9.0
+  },
+  "RP 4173": {
+    "title": "Therapeutic Recreation Assessment and Documentation",
+    "hours": 3.0
+  },
+  "RP 4273": {
+    "title": "Administration and Operation of Therapeutic Recreation Programs",
+    "hours": 3.0
+  },
+  "RP 4373": {
+    "title": "Interventions in Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "RP 4473": {
+    "title": "Issues and Trends in Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "RP 4573": {
+    "title": "Interventions in Therapeutic Recreation II",
+    "hours": 3.0
+  },
+  "RP 4881": {
+    "title": "Advanced Special Topics",
+    "hours": 1.0
+  },
+  "RP 4882": {
+    "title": "Advanced Special Topics",
+    "hours": 2.0
+  },
+  "RP 4883": {
+    "title": "Advanced Special Topics",
+    "hours": 3.0
+  },
+  "RP 4951": {
+    "title": "Undergraduate Research in Recreation and Park Administration",
+    "hours": 1.0
+  },
+  "RP 4952": {
+    "title": "Undergraduate Research in Recreation and Park Administration",
+    "hours": 2.0
+  },
+  "RP 4953": {
+    "title": "Undergraduate Research in Recreation and Park Administration",
+    "hours": 3.0
+  },
+  "RP 4954": {
+    "title": "Undergraduate Research in Recreation and Park Administration",
+    "hours": 4.0
+  },
+  "RP 4991": {
+    "title": "Special Problems",
+    "hours": 1.0
+  },
+  "RP 4992": {
+    "title": "Special Problems",
+    "hours": 2.0
+  },
+  "RP 4993": {
+    "title": "Special Problems",
+    "hours": 3.0
+  },
+  "RP 4XXX": {
+    "title": "REC/PARK TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RS 1XXX": {
+    "title": "REHAB SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RS 2003": {
+    "title": "Introduction to Rehabilitation Science",
+    "hours": 3.0
+  },
+  "RS 2043": {
+    "title": "Introduction to Social Services",
+    "hours": 3.0
+  },
+  "RS 2163": {
+    "title": "Introduction to Addictions",
+    "hours": 3.0
+  },
+  "RS 2XXX": {
+    "title": "REHAB SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RS 3013": {
+    "title": "The World of Work",
+    "hours": 3.0
+  },
+  "RS 3143": {
+    "title": "Rehabilitation Science Seminar",
+    "hours": 3.0
+  },
+  "RS 3153": {
+    "title": "Assistive Technology in Rehabilitation Settings",
+    "hours": 3.0
+  },
+  "RS 3163": {
+    "title": "Addictions Assessment, Planning, and Treatment Strategies",
+    "hours": 3.0
+  },
+  "RS 3173": {
+    "title": "Addictions and the Family",
+    "hours": 3.0
+  },
+  "RS 3204": {
+    "title": "Interviewing Skills",
+    "hours": 4.0
+  },
+  "RS 3243": {
+    "title": "Child Welfare",
+    "hours": 3.0
+  },
+  "RS 3263": {
+    "title": "Resiliency, Vulnerability, and Crisis",
+    "hours": 3.0
+  },
+  "RS 3XXX": {
+    "title": "REHAB SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "RS 4003": {
+    "title": "Medical and Psychosocial Aspects of Disability",
+    "hours": 3.0
+  },
+  "RS 4012": {
+    "title": "Internship in Rehabilitation Services",
+    "hours": 12.0
+  },
+  "RS 4023": {
+    "title": "Case Management Strategies",
+    "hours": 3.0
+  },
+  "RS 4104": {
+    "title": "Service Learning in Rehabilitation Science",
+    "hours": 4.0
+  },
+  "RS 4119": {
+    "title": "Mastery Professional Practice",
+    "hours": 9.0
+  },
+  "RS 4123": {
+    "title": "Survey of Counseling Theories",
+    "hours": 3.0
+  },
+  "RS 4143": {
+    "title": "Disabilities throughout the Life Span",
+    "hours": 3.0
+  },
+  "RS 4194": {
+    "title": "Field Placement Experiences",
+    "hours": 4.0
+  },
+  "RS 4223": {
+    "title": "Ethics and Professional Development",
+    "hours": 3.0
+  },
+  "RS 4233": {
+    "title": "Human Dynamics for Helping Professionals",
+    "hours": 3.0
+  },
+  "RS 4253": {
+    "title": "Psychopathology",
+    "hours": 3.0
+  },
+  "RS 4951": {
+    "title": "Undergraduate Research in Rehabilitation Science",
+    "hours": 1.0
+  },
+  "RS 4952": {
+    "title": "Undergraduate Research in Rehabilitation Science",
+    "hours": 2.0
+  },
+  "RS 4953": {
+    "title": "Undergraduate Research in Rehabilitation Science",
+    "hours": 3.0
+  },
+  "RS 4954": {
+    "title": "Undergraduate Research in Rehabilitation Science",
+    "hours": 4.0
+  },
+  "RS 4991": {
+    "title": "Special Problems in Rehabilitation Science",
+    "hours": 1.0
+  },
+  "RS 4992": {
+    "title": "Special Problems in Rehabilitation Science",
+    "hours": 2.0
+  },
+  "RS 4993": {
+    "title": "Special Problems in Rehabilitation Science",
+    "hours": 3.0
+  },
+  "RS 4994": {
+    "title": "Special Problems in Rehabilitation Science",
+    "hours": 4.0
+  },
+  "RS 4XXX": {
+    "title": "REHAB SCI TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SEED 2003": {
+    "title": "Education as a Profession",
+    "hours": 3.0
+  },
+  "SEED 2113": {
+    "title": "Human Development and Learning Theories",
+    "hours": 3.0
+  },
+  "SEED 4503": {
+    "title": "Seminar in Secondary Education",
+    "hours": 3.0
+  },
+  "SEED 4553": {
+    "title": "Classroom Application of Educational Psychology",
+    "hours": 3.0
+  },
+  "SEED 4809": {
+    "title": "Residency B",
+    "hours": 9.0
+  },
+  "SEED 4909": {
+    "title": "Residency B",
+    "hours": 9.0
+  },
+  "SEED 4991": {
+    "title": "Special Problems in Secondary Education",
+    "hours": 1.0
+  },
+  "SEED 4992": {
+    "title": "Special Problems in Secondary Education",
+    "hours": 2.0
+  },
+  "SEED 4993": {
+    "title": "Special Problems in Secondary Education",
+    "hours": 3.0
+  },
+  "SEED 4994": {
+    "title": "Special Problems in Secondary Education",
+    "hours": 4.0
+  },
+  "SOC 1003": {
+    "title": "Introductory Sociology",
+    "hours": 3.0
+  },
+  "SOC 1XXX": {
+    "title": "SOCIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SOC 2003": {
+    "title": "Introduction to Criminal Justice",
+    "hours": 3.0
+  },
+  "SOC 2033": {
+    "title": "Social Problems",
+    "hours": 3.0
+  },
+  "SOC 2043": {
+    "title": "Crime and Delinquency",
+    "hours": 3.0
+  },
+  "SOC 2053": {
+    "title": "Statistics for the Behavioral Sciences",
+    "hours": 3.0
+  },
+  "SOC 2063": {
+    "title": "Research Design for the Behavioral Sciences",
+    "hours": 3.0
+  },
+  "SOC 2073": {
+    "title": "Survey of Sociological Theories",
+    "hours": 3.0
+  },
+  "SOC 2083": {
+    "title": "Contemporary Theories of Sociology",
+    "hours": 3.0
+  },
+  "SOC 2XXX": {
+    "title": "SOCIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SOC 3013": {
+    "title": "Psychosocial Aspects of Death and Dying",
+    "hours": 3.0
+  },
+  "SOC 3023": {
+    "title": "The Family",
+    "hours": 3.0
+  },
+  "SOC 3083": {
+    "title": "Social Deviance",
+    "hours": 3.0
+  },
+  "SOC 3103": {
+    "title": "The Juvenile Justice System",
+    "hours": 3.0
+  },
+  "SOC 3123": {
+    "title": "Sociology of Culture",
+    "hours": 3.0
+  },
+  "SOC 3133": {
+    "title": "Self and Society",
+    "hours": 3.0
+  },
+  "SOC 3141": {
+    "title": "Careers in Sociology",
+    "hours": 1.0
+  },
+  "SOC 3143": {
+    "title": "Qualitative Research Methods",
+    "hours": 3.0
+  },
+  "SOC 3153": {
+    "title": "Prison and Corrections",
+    "hours": 3.0
+  },
+  "SOC 3163": {
+    "title": "Introduction to Social Research",
+    "hours": 3.0
+  },
+  "SOC 3203": {
+    "title": "Serial and Mass Murder",
+    "hours": 3.0
+  },
+  "SOC 3223": {
+    "title": "Cybercrimes",
+    "hours": 3.0
+  },
+  "SOC 3273": {
+    "title": "Victimology",
+    "hours": 3.0
+  },
+  "SOC 3XXX": {
+    "title": "SOCIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SOC 4003": {
+    "title": "Communities and Societal Relations",
+    "hours": 3.0
+  },
+  "SOC 4013": {
+    "title": "Drugs in Society",
+    "hours": 3.0
+  },
+  "SOC 4023": {
+    "title": "Sociology of Gender",
+    "hours": 3.0
+  },
+  "SOC 4033": {
+    "title": "Policing and Society",
+    "hours": 3.0
+  },
+  "SOC 4043": {
+    "title": "Social Psychology",
+    "hours": 3.0
+  },
+  "SOC 4053": {
+    "title": "Sociology of Health and Illness",
+    "hours": 3.0
+  },
+  "SOC 4063": {
+    "title": "Social Stratification",
+    "hours": 3.0
+  },
+  "SOC 4073": {
+    "title": "Sociology of Religion",
+    "hours": 3.0
+  },
+  "SOC 4093": {
+    "title": "Technology, Power, and Social Change",
+    "hours": 3.0
+  },
+  "SOC 4103": {
+    "title": "White Collar Crime",
+    "hours": 3.0
+  },
+  "SOC 4113": {
+    "title": "Criminal Law",
+    "hours": 3.0
+  },
+  "SOC 4123": {
+    "title": "Crime and Gender",
+    "hours": 3.0
+  },
+  "SOC 4143": {
+    "title": "Seminar in Sociology",
+    "hours": 3.0
+  },
+  "SOC 4183": {
+    "title": "Social Gerontology",
+    "hours": 3.0
+  },
+  "SOC 4206": {
+    "title": "The Law in Action",
+    "hours": 6.0
+  },
+  "SOC 4223": {
+    "title": "Family Violence",
+    "hours": 3.0
+  },
+  "SOC 4283": {
+    "title": "Sociology Capstone",
+    "hours": 3.0
+  },
+  "SOC 4303": {
+    "title": "Criminal Evidence",
+    "hours": 3.0
+  },
+  "SOC 4951": {
+    "title": "Undergraduate Research in Sociology",
+    "hours": 1.0
+  },
+  "SOC 4952": {
+    "title": "Undergraduate Research in Sociology",
+    "hours": 2.0
+  },
+  "SOC 4953": {
+    "title": "Undergraduate Research in Sociology",
+    "hours": 3.0
+  },
+  "SOC 4954": {
+    "title": "Undergraduate Research in Sociology",
+    "hours": 4.0
+  },
+  "SOC 4971": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "SOC 4972": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "SOC 4973": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "SOC 4974": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "SOC 4991": {
+    "title": "Special Problems in Sociology",
+    "hours": 1.0
+  },
+  "SOC 4992": {
+    "title": "Special Problems in Sociology",
+    "hours": 2.0
+  },
+  "SOC 4993": {
+    "title": "Special Problems in Sociology",
+    "hours": 3.0
+  },
+  "SOC 4994": {
+    "title": "Special Problems in Sociology",
+    "hours": 4.0
+  },
+  "SOC 4XXX": {
+    "title": "SOCIOLOGY TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SPAN 1013": {
+    "title": "Beginning Spanish I",
+    "hours": 3.0
+  },
+  "SPAN 1023": {
+    "title": "Beginning Spanish II",
+    "hours": 3.0
+  },
+  "SPAN 2001": {
+    "title": "La Casa Immersion Experience",
+    "hours": 1.0
+  },
+  "SPAN 2013": {
+    "title": "Intermediate Spanish I",
+    "hours": 3.0
+  },
+  "SPAN 2023": {
+    "title": "Intermediate Spanish II",
+    "hours": 3.0
+  },
+  "SPAN 2033": {
+    "title": "Intermediate Spanish II for Heritage Speakers",
+    "hours": 3.0
+  },
+  "SPAN 2303": {
+    "title": "Spanish for Health and Social Services Translation I",
+    "hours": 3.0
+  },
+  "SPAN 2313": {
+    "title": "Spanish for Health and Social Services Translation II",
+    "hours": 3.0
+  },
+  "SPAN 3003": {
+    "title": "Conversation and Composition I",
+    "hours": 3.0
+  },
+  "SPAN 3013": {
+    "title": "Conversation and Composition II",
+    "hours": 3.0
+  },
+  "SPAN 3023": {
+    "title": "Introduction to Linguistics",
+    "hours": 3.0
+  },
+  "SPAN 3113": {
+    "title": "Business Spanish",
+    "hours": 3.0
+  },
+  "SPAN 3123": {
+    "title": "Spanish Civilization and Culture",
+    "hours": 3.0
+  },
+  "SPAN 3133": {
+    "title": "Spanish-American Civilization and Culture",
+    "hours": 3.0
+  },
+  "SPAN 3143": {
+    "title": "Study Abroad",
+    "hours": 3.0
+  },
+  "SPAN 3163": {
+    "title": "Community Internship Experience",
+    "hours": 3.0
+  },
+  "SPAN 3173": {
+    "title": "Hispanic Civilizations and Cultures",
+    "hours": 3.0
+  },
+  "SPAN 3213": {
+    "title": "Advanced Grammar and Usage",
+    "hours": 3.0
+  },
+  "SPAN 3233": {
+    "title": "Introduction to Literature",
+    "hours": 3.0
+  },
+  "SPAN 3383": {
+    "title": "Principles of Interpretation",
+    "hours": 3.0
+  },
+  "SPAN 3XXX": {
+    "title": "SPANISH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SPAN 4003": {
+    "title": "Oral Communication",
+    "hours": 3.0
+  },
+  "SPAN 4023": {
+    "title": "Introduction to Spanish Linguistics",
+    "hours": 3.0
+  },
+  "SPAN 4213": {
+    "title": "Spanish Literature",
+    "hours": 3.0
+  },
+  "SPAN 4223": {
+    "title": "Spanish-American Literature",
+    "hours": 3.0
+  },
+  "SPAN 4233": {
+    "title": "Hispanic Literature",
+    "hours": 3.0
+  },
+  "SPAN 4283": {
+    "title": "Seminar in Spanish",
+    "hours": 3.0
+  },
+  "SPAN 4701": {
+    "title": "Foreign Language Pedagogy",
+    "hours": 1.0
+  },
+  "SPAN 4703": {
+    "title": "Foreign Language Teaching Methods",
+    "hours": 3.0
+  },
+  "SPAN 4991": {
+    "title": "Special Problems in Spanish",
+    "hours": 1.0
+  },
+  "SPAN 4992": {
+    "title": "Special Problems in Spanish",
+    "hours": 2.0
+  },
+  "SPAN 4993": {
+    "title": "Special Problems in Spanish",
+    "hours": 3.0
+  },
+  "SPAN 4XXX": {
+    "title": "SPANISH TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "SPAN 6883": {
+    "title": "Workshop",
+    "hours": 3.0
+  },
+  "SPED 2023": {
+    "title": "Development and Characteristics of Diverse Learners",
+    "hours": 3.0
+  },
+  "SPED 3033": {
+    "title": "Foundations of Special Education",
+    "hours": 3.0
+  },
+  "SPED 3153": {
+    "title": "Planning, Instruction, and Assessment for Students with Exceptionalities",
+    "hours": 3.0
+  },
+  "SPED 4052": {
+    "title": "Educating Diverse and Exceptional Learners",
+    "hours": 2.0
+  },
+  "SPED 5003": {
+    "title": "Characteristics of Children with Exceptionalities",
+    "hours": 3.0
+  },
+  "SPED 5013": {
+    "title": "Assessment of Children with Exceptionalities",
+    "hours": 3.0
+  },
+  "SPED 5023": {
+    "title": "Planning Instruction for Children with Exceptionalities K-6",
+    "hours": 3.0
+  },
+  "SPED 5053": {
+    "title": "Planning Instruction for Children with Exceptionalities 7 - 12",
+    "hours": 3.0
+  },
+  "SPED 5073": {
+    "title": "Planning Instruction in an Early Childhood Setting",
+    "hours": 3.0
+  },
+  "SPED 5083": {
+    "title": "B - K Supervised Practicum",
+    "hours": 3.0
+  },
+  "SPED 6033": {
+    "title": "Working with Families of Exceptional Children",
+    "hours": 3.0
+  },
+  "SPED 6063": {
+    "title": "K-12 Supervised Practicum",
+    "hours": 3.0
+  },
+  "SPED 6093": {
+    "title": "Using Research, Assessment, and Data in Special Education",
+    "hours": 3.0
+  },
+  "STAT 2163": {
+    "title": "Introduction to Statistical Methods",
+    "hours": 3.0
+  },
+  "STAT 2304": {
+    "title": "Programming Languages for Data Science",
+    "hours": 4.0
+  },
+  "STAT 3113": {
+    "title": "Regression Analysis",
+    "hours": 3.0
+  },
+  "STAT 3153": {
+    "title": "Applied Statistics",
+    "hours": 3.0
+  },
+  "STAT 3183": {
+    "title": "Statistical Process Control",
+    "hours": 3.0
+  },
+  "STAT 3203": {
+    "title": "Actuarial Probability I",
+    "hours": 3.0
+  },
+  "STAT 3213": {
+    "title": "Actuarial Probability II",
+    "hours": 3.0
+  },
+  "STAT 4113": {
+    "title": "Categorical Data Analysis",
+    "hours": 3.0
+  },
+  "STAT 4153": {
+    "title": "Experimental Design and Analysis",
+    "hours": 3.0
+  },
+  "STAT 4163": {
+    "title": "Mathematical Statistics",
+    "hours": 3.0
+  },
+  "STAT 4173": {
+    "title": "Advanced Biostatistics",
+    "hours": 3.0
+  },
+  "STAT 4283": {
+    "title": "Financial Mathematics I",
+    "hours": 3.0
+  },
+  "STAT 4383": {
+    "title": "Machine Learning",
+    "hours": 3.0
+  },
+  "STAT 4393": {
+    "title": "Statistical Learning",
+    "hours": 3.0
+  },
+  "STAT 5113": {
+    "title": "Categorical Data Analysis",
+    "hours": 3.0
+  },
+  "STAT 5383": {
+    "title": "Machine Learning",
+    "hours": 3.0
+  },
+  "STAT 5393": {
+    "title": "Statistical Learning",
+    "hours": 3.0
+  },
+  "STEM 1001": {
+    "title": "Orientation to the College of Science, Technology, Engineering, and Mathematics",
+    "hours": 1.0
+  },
+  "TECH 1001": {
+    "title": "Orientation to the University",
+    "hours": 1.0
+  },
+  "TECH 1013": {
+    "title": "Introduction to the University",
+    "hours": 3.0
+  },
+  "TH 1XXX": {
+    "title": "THEATRE TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "TH 2273": {
+    "title": "Introduction to Theatre",
+    "hours": 3.0
+  },
+  "TH 2293": {
+    "title": "Social Media Influencing I",
+    "hours": 3.0
+  },
+  "TH 2513": {
+    "title": "Introduction to Theatrical Design and Production",
+    "hours": 3.0
+  },
+  "TH 2611": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 2621": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 2703": {
+    "title": "Acting Theories and Techniques",
+    "hours": 3.0
+  },
+  "TH 2XXX": {
+    "title": "THEATRE TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "TH 3263": {
+    "title": "Narrative Film Production",
+    "hours": 3.0
+  },
+  "TH 3513": {
+    "title": "Stagecraft Techniques",
+    "hours": 3.0
+  },
+  "TH 3523": {
+    "title": "Principles of Theatrical Lighting",
+    "hours": 3.0
+  },
+  "TH 3711": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 3721": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 3803": {
+    "title": "Directing Theories and Techniques",
+    "hours": 3.0
+  },
+  "TH 3833": {
+    "title": "Advanced Directing",
+    "hours": 3.0
+  },
+  "TH 3XXX": {
+    "title": "THEATRE TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "TH 4091": {
+    "title": "Internship",
+    "hours": 1.0
+  },
+  "TH 4092": {
+    "title": "Internship",
+    "hours": 2.0
+  },
+  "TH 4093": {
+    "title": "Internship",
+    "hours": 3.0
+  },
+  "TH 4094": {
+    "title": "Internship",
+    "hours": 4.0
+  },
+  "TH 4243": {
+    "title": "Senior Project in Theatre History",
+    "hours": 3.0
+  },
+  "TH 4293": {
+    "title": "Social Media Influencing II",
+    "hours": 3.0
+  },
+  "TH 4313": {
+    "title": "Theatre History I: Antiquity to Romanticism",
+    "hours": 3.0
+  },
+  "TH 4323": {
+    "title": "Theatre History II: Late 18th Century to the Present",
+    "hours": 3.0
+  },
+  "TH 4503": {
+    "title": "Scene Design",
+    "hours": 3.0
+  },
+  "TH 4543": {
+    "title": "Senior Project in Design",
+    "hours": 3.0
+  },
+  "TH 4563": {
+    "title": "Sound Design for Moving Image",
+    "hours": 3.0
+  },
+  "TH 4613": {
+    "title": "Introduction to Costuming",
+    "hours": 3.0
+  },
+  "TH 4711": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 4721": {
+    "title": "Performance Production Practicum",
+    "hours": 1.0
+  },
+  "TH 4843": {
+    "title": "Senior Project in Theatrical Performance",
+    "hours": 3.0
+  },
+  "TH 4983": {
+    "title": "Theatre Seminar:",
+    "hours": 3.0
+  },
+  "TH 4991": {
+    "title": "Special Problems in Theatre",
+    "hours": 1.0
+  },
+  "TH 4992": {
+    "title": "Special Problems in Theatre",
+    "hours": 2.0
+  },
+  "TH 4993": {
+    "title": "Special Problems in Theatre",
+    "hours": 3.0
+  },
+  "TH 4994": {
+    "title": "Special Problems in Theatre",
+    "hours": 4.0
+  },
+  "TH 4XXX": {
+    "title": "THEATRE TRANSFER ELECTIVE",
+    "hours": 1.0
+  },
+  "TH 5313": {
+    "title": "Theatre History I: Antiquity to Romanticism",
+    "hours": 3.0
+  },
+  "TH 5323": {
+    "title": "Theatre History II: Late 18th Century to the Present",
+    "hours": 3.0
+  },
+  "TH 5983": {
+    "title": "Theatre Seminar",
+    "hours": 3.0
+  },
+  "TH 6893": {
+    "title": "Independent Study",
+    "hours": 3.0
+  },
+  "TMAT 1203": {
+    "title": "Technical Mathematics",
+    "hours": 3.0
+  },
+  "TR 3013": {
+    "title": "Inclusive Recreation",
+    "hours": 3.0
+  },
+  "TR 4073": {
+    "title": "Principles and Techniques of Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "TR 4119": {
+    "title": "Mastery Professional Practice",
+    "hours": 9.0
+  },
+  "TR 4173": {
+    "title": "Therapeutic Recreation Assessment and Documentation",
+    "hours": 3.0
+  },
+  "TR 4273": {
+    "title": "Administration and Operation of Therapeutic Recreation Programs",
+    "hours": 3.0
+  },
+  "TR 4373": {
+    "title": "Interventions in Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "TR 4473": {
+    "title": "Issues and Trends in Therapeutic Recreation",
+    "hours": 3.0
+  },
+  "TR 4573": {
+    "title": "Interventions in Therapeutic Recreation II",
+    "hours": 3.0
+  },
+  "WS 1031": {
+    "title": "Food, Exercise, and Body Composition",
+    "hours": 1.0
+  },
+  "WS 1081": {
+    "title": "Muscle Fitness for Men",
+    "hours": 1.0
+  },
+  "WS 1091": {
+    "title": "Fitness Walking/Jogging",
+    "hours": 1.0
+  }
+}

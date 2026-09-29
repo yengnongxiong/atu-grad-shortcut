@@ -1,33 +1,31 @@
 @import 'tailwindcss';
 
 @theme {
-  --font-display: 'Fraunces', 'Iowan Old Style', Georgia, serif;
-  --font-sans: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
-  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-display: var(--font-sans);
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
 
-  /* Paper and ink */
-  --color-paper: #faf7f2;
-  --color-paper-deep: #f2ede4;
+  /* Black on white. Grays for structure; red only for errors that block a plan. */
+  --color-paper: #ffffff;
+  --color-paper-deep: #f5f5f5;
   --color-surface: #ffffff;
-  --color-ink: #16181d;
-  --color-ink-soft: #2c2f36;
-  --color-muted: #585d68;
-  --color-line: #e2dcd1;
-  --color-line-strong: #cfc7b9;
+  --color-ink: #000000;
+  --color-ink-soft: #262626;
+  --color-muted: #666666;
+  --color-line: #e5e5e5;
+  --color-line-strong: #d4d4d4;
 
-  /* One accent for "critical", one for "time saved" (both ≥ 4.5:1 on white and paper) */
-  --color-critical: #b93a0d;
-  --color-critical-soft: #fbe9df;
-  --color-saved: #0d6e63;
-  --color-saved-soft: #dff1ec;
-
-  /* Status */
-  --color-warn: #8a5a00;
-  --color-warn-soft: #fbf0d6;
-  --color-error: #a61b1b;
-  --color-error-soft: #fbe3e3;
-  --color-info: #2f4f8a;
-  --color-info-soft: #e5ecf8;
+  /* "Critical" and "time saved" are said in words and weight, not color. */
+  --color-critical: #000000;
+  --color-critical-soft: #f5f5f5;
+  --color-saved: #000000;
+  --color-saved-soft: #f5f5f5;
+  --color-warn: #000000;
+  --color-warn-soft: #f5f5f5;
+  --color-info: #000000;
+  --color-info-soft: #f5f5f5;
+  --color-error: #b00020;
+  --color-error-soft: #fff5f5;
 }
 
 @layer base {
@@ -36,38 +34,40 @@
   }
   body {
     @apply bg-paper text-ink font-sans antialiased;
-    font-feature-settings: 'ss01', 'cv11';
   }
   h1,
   h2,
   h3 {
-    @apply font-display;
     letter-spacing: -0.01em;
   }
   a {
     @apply underline decoration-line-strong underline-offset-2 hover:decoration-ink;
   }
   :focus-visible {
-    outline: 3px solid #2f4f8a;
+    outline: 2px solid #000000;
     outline-offset: 2px;
-    border-radius: 4px;
+    border-radius: 6px;
   }
   ::selection {
-    background: #f3d9c9;
+    background: #e5e5e5;
+  }
+  input[type='checkbox'],
+  input[type='radio'] {
+    accent-color: var(--color-ink);
   }
 }
 
 @layer components {
   .card {
-    @apply rounded-xl border border-line bg-surface shadow-[0_1px_0_rgba(22,24,29,0.04)];
+    @apply rounded-md border border-line bg-surface;
   }
   .eyebrow {
-    @apply text-[0.7rem] font-semibold uppercase tracking-[0.14em] text-muted;
+    @apply text-xs font-medium text-muted;
   }
   .btn-primary,
   .btn-secondary,
   .btn-ghost {
-    @apply inline-flex items-center justify-center gap-2 rounded-lg px-4 py-2 text-sm font-semibold no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-50;
+    @apply inline-flex items-center justify-center gap-2 rounded-md px-4 py-2 text-sm font-medium no-underline transition-colors disabled:cursor-not-allowed disabled:opacity-50;
   }
   .btn-primary {
     @apply bg-ink text-paper hover:bg-ink-soft;
@@ -79,10 +79,10 @@
     @apply text-ink hover:bg-paper-deep;
   }
   .input {
-    @apply w-full rounded-lg border border-line-strong bg-surface px-3 py-2 text-sm text-ink placeholder:text-muted focus:border-ink focus:outline-none disabled:cursor-not-allowed disabled:bg-paper-deep disabled:text-muted;
+    @apply w-full rounded-md border border-line-strong bg-surface px-3 py-2 text-sm text-ink placeholder:text-muted focus:border-ink focus:outline-none disabled:cursor-not-allowed disabled:bg-paper-deep disabled:text-muted;
   }
   .chip {
-    @apply inline-flex items-center gap-1 rounded-md border px-1.5 py-0.5 text-[0.7rem] font-semibold leading-none;
+    @apply inline-flex items-center gap-1 rounded border border-line-strong px-1.5 py-0.5 text-[0.7rem] font-medium leading-none text-ink-soft;
   }
 }
 

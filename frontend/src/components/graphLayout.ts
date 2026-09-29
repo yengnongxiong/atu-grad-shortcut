@@ -53,11 +53,11 @@ export function layoutGraph(plan: PlanResponse, showIsolated: boolean): { nodes:
         target: e.target,
         animated: e.critical,
         style: {
-          stroke: e.critical ? '#b93a0d' : '#a9a293',
+          stroke: e.critical ? '#000000' : '#bdbdbd',
           strokeWidth: e.critical ? 2.4 : 1.4,
           strokeDasharray: e.kind === 'coreq' ? '4 3' : undefined,
         },
-        markerEnd: { type: MarkerType.ArrowClosed, color: e.critical ? '#b93a0d' : '#a9a293' },
+        markerEnd: { type: MarkerType.ArrowClosed, color: e.critical ? '#000000' : '#bdbdbd' },
       })),
   }
 }

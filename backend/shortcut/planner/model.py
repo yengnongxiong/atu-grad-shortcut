@@ -7,6 +7,7 @@ terms and overload hours, then closeness to preferred hours, then balanced loads
 
 from __future__ import annotations
 
+import math
 import time
 from collections.abc import Sequence
 from dataclasses import dataclass, field
@@ -17,7 +18,7 @@ from ortools.sat.python import cp_model
 
 from shortcut.planner.policies import Policies
 from shortcut.planner.profile import Item, StudentState, _test_ok, offered_ok
-from shortcut.planner.terms import Term
+from shortcut.planner.terms import Term, terms_between
 
 SEED = 20260929
 W_GRAD = 10_000_000
@@ -26,6 +27,9 @@ W_OVERLOAD_HOUR = 20_000
 W_ABOVE_PREF = 400
 W_MAX_LOAD = 80
 W_ORDER = 1  # tie-break: keep courses near their degree-map semester
+# tie-break: a course planned after its degree-map semester costs this much per semester behind,
+# so a 1-hour first-semester course isn't used as filler to pack later terms
+W_MAP_LATE = 50
 
 
 @dataclass(frozen=True)
@@ -425,11 +429,15 @@ def solve(
 
     grad = model.new_int_var(0, len(slots) - 1, "graduation")
     early: list[Any] = []
+    late: list[Any] = []
     for item in items:
         weight = order_weight(item)
         for t, var in by_item[item.id]:
             model.add(grad >= conferral_index(slots, t) * var)
             early.append(weight * t * var)
+            behind = semesters_behind_map(item, slots[t].term, config.first_atu_term)
+            if behind:
+                late.append(weight * behind * var)
 
     _symmetry_breaking(model, items, by_item, trees)
 
@@ -465,6 +473,7 @@ def solve(
             + W_ABOVE_PREF * sum(above_pref)
             + W_MAX_LOAD * max_load
             + W_ORDER * sum(early)
+            + W_MAP_LATE * sum(late)
         )
         remaining = max(0.2, config.time_limit_s - (time.perf_counter() - started))
         polish = _solver(min(remaining, config.polish_time_s))
@@ -495,7 +504,9 @@ def _solver(limit_s: float) -> cp_model.CpSolver:
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = limit_s
     solver.parameters.random_seed = SEED
-    solver.parameters.num_workers = 4
+    # One worker: parallel workers race to different tie-optimal schedules, so the same
+    # request could move courses between terms on reload (D26).
+    solver.parameters.num_workers = 1
     return solver
 
 
@@ -505,6 +516,15 @@ def _status(code: Any) -> str:
         cp_model.FEASIBLE: "feasible",
         cp_model.INFEASIBLE: "infeasible",
     }.get(code, "unknown")
+
+
+def semesters_behind_map(item: Item, term: Term, first_atu_term: Term) -> int:
+    """How many regular semesters after its degree-map semester a placement lands (0 if on time
+    or ahead). Semester 1 is the student's first ATU term; winter/summer count with the term before."""
+    if item.map_semester is None:
+        return 0
+    semester = math.floor(terms_between(first_atu_term, term)) + 1
+    return max(0, semester - item.map_semester)
 
 
 def order_weight(item: Item) -> int:

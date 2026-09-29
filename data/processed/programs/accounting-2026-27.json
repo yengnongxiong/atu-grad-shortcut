@@ -1769,5 +1769,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "accounting",
+  "successors": []
 }

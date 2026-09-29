@@ -1,0 +1,40 @@
+{
+ "catalog_edition": "2026-2027",
+ "captured_at": "2026-09-29",
+ "method": "Opened in a regular browser session; paragraphs copied verbatim (innerText, whitespace collapsed). Excerpts only: the paragraphs Shortcut's policies cite.",
+ "pages": [
+  {
+   "key": "institutional_credit",
+   "url": "https://catalog.atu.edu/undergraduate/institutional-credit/",
+   "title": "Institutional Credit | Arkansas Tech University Academic Catalog",
+   "paragraphs": [
+    "A maximum of 50% of credit earned through correspondence, extension, military service, credit by examination, or credit for prior learning may be applied toward a certificate or degree program. Students who have already earned credit for a course may not receive duplicate credit for the same course through institutional credit. Institutional credit is not used to calculate a student's grade point average, and therefore, cannot be used to retain scholarship awards."
+   ]
+  },
+  {
+   "key": "graduation_requirements",
+   "url": "https://catalog.atu.edu/undergraduate/graduation-requirements/",
+   "title": "Graduation Requirements | Arkansas Tech University Academic Catalog",
+   "paragraphs": [
+    "Students may graduate under the catalog in force when they first enroll in the University, or any subsequent catalog, subject to the approval of the appropriate department head and dean. Students should keep in mind that curricula change in order to maintain relevance, up-to-date knowledge, and, in some cases, accreditation standards. The University reserves the right to make effective immediately any change in graduation requirements for students whose studies have not advanced beyond the level at which the change becomes operative.",
+    "Candidates for graduation must complete the application for graduation located within their Degree Works Audit.",
+    "A maximum of 50% of credit earned through correspondence, extension, military service, credit by examination, or credit for prior learning may be applied toward a certificate or degree program.",
+    "The cumulative grade point average must not be less than 2.00 and not more than 25 percent of the semester hours may carry the “D” grade. Students must have a 2.00 grade point in their major.",
+    "In compliance with Act 1014 of 2005, Arkansas Tech University has developed guaranteed, eight-semester degree completion plans for most of the baccalaureate degree programs offered by the institution.",
+    "A student must earn a minimum of 30 hours taken from Arkansas Tech, at least 6 semesters hours of which must be upper division work in the student's major."
+   ]
+  },
+  {
+   "key": "regulations_procedures",
+   "url": "https://catalog.atu.edu/undergraduate/regulations-procedures/",
+   "title": "Regulations & Procedures | Arkansas Tech University Academic Catalog",
+   "paragraphs": [
+    "A student can expect to spend 2-3 hours outside the class (for studying, homework, preparation, etc.) for each hour in the class. This means that a student can expect to spend 24-36 hours in studying for a 12 semester credit hour load. It is therefore recommended that a full-time student enroll in no more than 18 hours per semester. Students working full-time are encouraged to take no more than 12 hours per semester. Students readmitted after academic suspension cannot take more than 12 hours per semester. Students on academic probation must obtain approval from their advisor to enroll in more than 15 hours per semester.",
+    "Students who enroll above the maximum loads without securing permission from the dean will be dropped from their classes. To be considered for a course overload, the student must submit a petition to the dean and should meet the following criteria:",
+    "Have a 3.25 minimum grade point average in the preceding summer term (minimum: 12 semester hours) or in the preceding fall or spring semester (minimum: 12 semester hours) at the university, or",
+    "Be in good academic standing in the college if in the last semester before graduation. The maximum overload permitted in any college by an approved petition is a load totaling 24 hours for a fall, spring or summer term. Overloads over 21 hours will be subject to review by the Office of Academic Affairs.",
+    "Students with fewer than 30 semester hours are classified as freshmen, students with 30 through 59 semester hours as sophomores, students with 60 through 89 hours as juniors, and students with at least 90 hours as seniors."
+   ]
+  }
+ ]
+}

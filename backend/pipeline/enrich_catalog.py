@@ -268,6 +268,17 @@ def build_course(code: str, ctx: CourseBuildContext) -> dict[str, Any]:
     }
 
 
+def build_course_index(catalog: dict[str, dict[str, Any]]) -> dict[str, dict[str, Any]]:
+    """Title and hours for every Banner catalog course, so any code a student enters resolves.
+
+    Hours use creditHourLow, the same reading build_course uses for program courses.
+    """
+    return {
+        code: {"title": str(row.get("courseTitle") or code), "hours": _num(row.get("creditHourLow"))}
+        for code, row in sorted(catalog.items())
+    }
+
+
 def _num(value: Any) -> float | None:
     return float(value) if isinstance(value, int | float) else None
 

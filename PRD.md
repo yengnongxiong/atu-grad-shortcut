@@ -1,6 +1,8 @@
 # Shortcut: Product Requirements Document (v1)
 
-Owner: Yengnong Xiong · Status: Ready to build · Last updated: 2026-09-29
+Owner: Yengnong Xiong · Status: Shipped (v1) · Last updated: 2026-09-29
+
+> **v1.1:** [docs/prd-v1.1-atu-sources.md](docs/prd-v1.1-atu-sources.md) builds on ATU's own tools: the catalog's AP/CLEP/IB tables, degree maps for every catalog year, and a Degree Works import.
 
 ## 1. Summary
 Shortcut is a web app that builds an Arkansas Tech University (ATU) student's fastest realistic path to graduation. It starts from where the student is now (completed courses, AP/CLEP/IB scores, transfer credit, placement). It models every acceleration option ATU allows: exam credit, summer, winter intersession, heavier loads, overloads, and transfer. It outputs three things:

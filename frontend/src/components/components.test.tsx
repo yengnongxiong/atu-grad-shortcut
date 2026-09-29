@@ -36,14 +36,20 @@ describe('plan components', () => {
     expect(screen.getByRole('note')).toHaveTextContent(/Why you’re behind the map/)
   })
 
-  it('timeline marks critical courses with an icon and text, not color alone', () => {
+  it('timeline shows grade minimums, offering doubts, and workload', () => {
     render(<Timeline terms={samplePlan().terms} credited={[]} />)
     const fall = screen.getByRole('region', { name: /Fall 2026/ })
-    expect(within(fall).getByText('Critical.')).toBeInTheDocument()
     expect(within(fall).getByText('C or better')).toBeInTheDocument()
     const summer = screen.getByRole('region', { name: /Summer 2027/ })
     expect(within(summer).getByText(/Unconfirmed offering/)).toBeInTheDocument()
     expect(within(fall).getByText(/hrs\/week/)).toBeInTheDocument()
+  })
+
+  it('timeline labels critical courses with a visible word instead of an icon', () => {
+    render(<Timeline terms={samplePlan().terms} credited={[]} />)
+    const fall = screen.getByRole('region', { name: /Fall 2026/ })
+    expect(within(fall).getByText('Critical')).toBeVisible()
+    expect(fall.querySelector('svg')).toBeNull()
   })
 
   it('lever panel shows marginal savings and blocks ineligible overloads', async () => {
@@ -56,6 +62,12 @@ describe('plan components', () => {
     await user.click(screen.getByRole('switch', { name: 'Summer terms' }))
     expect(onToggle).toHaveBeenCalledWith('summer', false)
     expect(screen.getByText(/Credit for Prior Learning/)).toBeInTheDocument()
+  })
+
+  it('lever numbers link to their policy on the About page', () => {
+    const results = samplePlan().levers.map((l) => (l.id === 'summer' ? { ...l, policy_key: 'summer_max_load' } : l))
+    render(<LeverPanel levers={request.levers} results={results} busy={false} onToggle={vi.fn()} onOpenExams={() => undefined} />)
+    expect(screen.getByRole('link', { name: 'Policy' })).toHaveAttribute('href', '/about#policy-summer_max_load')
   })
 
   it('warnings link to the policy on the About page and to the source', () => {

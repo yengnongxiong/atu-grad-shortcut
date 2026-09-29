@@ -159,3 +159,23 @@ def test_residency_and_total_hours_reported() -> None:
     totals = detail.response.totals  # type: ignore[attr-defined]
     assert totals["total_hours"] >= 18
     assert totals["atu_hours"] == totals["planned_hours"]
+
+
+def test_lever_labels_come_from_policies() -> None:
+    from shortcut.planner.policies import Policies
+    from shortcut.planner.service import lever_meta
+
+    meta = lever_meta(P)
+    assert meta["heavier_terms"]["label"] == "Heavier regular terms (up to 18 hrs)"
+    assert meta["heavier_terms"]["workload"] == "up to 18 hrs/term: about 54–72 hrs/week"
+    assert meta["overload"]["label"] == "Overloads (19–21 hrs)"
+    assert meta["overload"]["note"] == "Dean petition; 3.25 GPA in the preceding term on 12+ ATU hours."
+    assert meta["aggressive_overload"]["workload"] == "22–24 hrs/term: about 66–96 hrs/week"
+
+    raw = json.loads(json.dumps(P.raw))
+    raw["rules"]["regular_load_max"]["value"] = 17
+    raw["rules"]["overload_gpa_min"]["value"] = 3.0
+    changed = lever_meta(Policies(raw))
+    assert changed["heavier_terms"]["label"] == "Heavier regular terms (up to 17 hrs)"
+    assert changed["overload"]["label"] == "Overloads (18–21 hrs)"
+    assert changed["overload"]["note"].startswith("Dean petition; 3.00 GPA")

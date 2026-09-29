@@ -1,5 +1,6 @@
 import { useId, useMemo, useState } from 'react'
 import type { ProgramListItem } from '../api/types'
+import { onePerMajor, versionsOf } from '../catalogYear'
 import { TrustBadge } from './ui'
 
 function matches(program: ProgramListItem, query: string): boolean {
@@ -11,23 +12,34 @@ function matches(program: ProgramListItem, query: string): boolean {
     .every((word) => haystack.includes(word))
 }
 
+function yearsLabel(programs: ProgramListItem[], program: ProgramListItem): string {
+  const others = versionsOf(programs, program.id).filter((p) => p.id !== program.id)
+  return `${program.catalog_year} catalog${others.length ? ` · also ${others.map((p) => p.catalog_year).join(', ')}` : ''}`
+}
+
 export function ProgramPicker({
   programs,
   value,
   onSelect,
   autoFocus = false,
   compact = false,
+  preferredYear,
 }: {
   programs: ProgramListItem[]
   value?: string
   onSelect: (program: ProgramListItem) => void
   autoFocus?: boolean
   compact?: boolean
+  /** Catalog year to pick when a major has several (the student's catalog of entry). */
+  preferredYear?: string
 }) {
   const [query, setQuery] = useState('')
   const [active, setActive] = useState(0)
   const listId = useId()
-  const results = useMemo(() => programs.filter((p) => matches(p, query)).slice(0, compact ? 6 : 10), [programs, query, compact])
+  const results = useMemo(
+    () => onePerMajor(programs.filter((p) => matches(p, query)), preferredYear).slice(0, compact ? 6 : 10),
+    [programs, query, compact, preferredYear],
+  )
   const selected = programs.find((p) => p.id === value)
   const showList = !selected || query.trim() !== ''
 
@@ -74,7 +86,7 @@ export function ProgramPicker({
         role="listbox"
         aria-label="Majors"
         hidden={!showList}
-        className="mt-2 divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface"
+        className="mt-2 divide-y divide-line overflow-hidden rounded-md border border-line bg-surface"
       >
         {results.length === 0 && <li className="px-4 py-3 text-sm text-muted">No majors match “{query}”.</li>}
         {results.map((program, index) => (
@@ -92,7 +104,7 @@ export function ProgramPicker({
             <span className="min-w-0">
               <span className="block truncate font-medium">{program.listed_title}</span>
               <span className="block truncate text-xs text-muted">
-                {[program.degree_abbr || program.degree, program.college, `${program.catalog_year} catalog`].filter(Boolean).join(' · ')}
+                {[program.degree_abbr || program.degree, program.college, yearsLabel(programs, program)].filter(Boolean).join(' · ')}
               </span>
             </span>
             <TrustBadge tier={program.trust_tier} compact />
@@ -100,7 +112,7 @@ export function ProgramPicker({
         ))}
       </ul>
       {selected?.trust_tier === 'needs_review' && (
-        <p role="note" className="mt-2 rounded-md border border-warn/40 bg-warn-soft px-3 py-2 text-sm text-warn">
+        <p role="note" className="mt-2 rounded-md border border-ink px-3 py-2 text-sm">
           <strong>Needs review:</strong> automated checks found problems in this program’s data ({selected.issues.length}{' '}
           issue{selected.issues.length === 1 ? '' : 's'}). You can still plan, but compare the result with the degree map.
         </p>

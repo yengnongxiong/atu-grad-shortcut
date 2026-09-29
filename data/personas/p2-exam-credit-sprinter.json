@@ -3,7 +3,7 @@
   "name": "Exam-credit sprinter",
   "tagline": "CS freshman arriving with CLEP credit and one dual-credit course.",
   "sample_data": true,
-  "story": "Sample data, not a real student. Shows how exam credit that lands on still-needed requirements moves the date, and which remaining exams are worth taking. AP/IB tables aren't available yet, so this persona uses CLEP only.",
+  "story": "Sample data, not a real student. Shows how exam credit that lands on still-needed requirements moves the date, and which remaining exams are worth taking.",
   "request": {
     "profile": {
       "program_id": "computer-science-2025-26",

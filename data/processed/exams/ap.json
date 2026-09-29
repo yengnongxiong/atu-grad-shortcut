@@ -1,10 +1,1258 @@
 {
   "program": "AP",
-  "status": "unavailable",
-  "note": "ATU's AP and IB course tables are published only on catalog.atu.edu, which could not be reached from the build environment (WAF challenge). They are not guessed; add them to data/manual/ once transcribed.",
+  "status": "available",
   "source": {
-    "title": "ATU catalog: AP credit",
-    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/"
+    "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+    "captured_at": "2026-09-29"
   },
-  "equivalencies": []
+  "equivalencies": [
+    {
+      "id": "ap-african-american-studies-3",
+      "program": "AP",
+      "exam": "African American Studies",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Education Humanities",
+      "credit_text": "3 hours General Education Humanities",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-art-history-3",
+      "program": "AP",
+      "exam": "Art History",
+      "min_score": 3,
+      "awards": [
+        [
+          "ART 2123"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ART 2123",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-biology-3",
+      "program": "AP",
+      "exam": "Biology",
+      "min_score": 3,
+      "awards": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1014",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-biology-4",
+      "program": "AP",
+      "exam": "Biology",
+      "min_score": 4,
+      "awards": [
+        [
+          "BIOL 1114"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1114",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-business-w-personal-finance-3",
+      "program": "AP",
+      "exam": "Business w/Personal Finance",
+      "min_score": 3,
+      "awards": [
+        [
+          "FIN 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FIN 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-calculus-ab-3",
+      "program": "AP",
+      "exam": "Calculus AB",
+      "min_score": 3,
+      "awards": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-calculus-bc-ab-subscore-3",
+      "program": "AP",
+      "exam": "Calculus BC (AB Subscore)",
+      "min_score": 3,
+      "awards": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-calculus-bc-3",
+      "program": "AP",
+      "exam": "Calculus BC",
+      "min_score": 3,
+      "awards": [
+        [
+          "MATH 2914",
+          "MATH 2924"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914 & MATH 2924",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-capstone-research-3",
+      "program": "AP",
+      "exam": "Capstone: Research",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-capstone-seminar-3",
+      "program": "AP",
+      "exam": "Capstone: Seminar",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-chemistry-3",
+      "program": "AP",
+      "exam": "Chemistry",
+      "min_score": 3,
+      "awards": [
+        [
+          "CHEM 1113",
+          "CHEM 1111",
+          "CHEM 2204"
+        ],
+        [
+          "CHEM 2124",
+          "CHEM 2134"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "CHEM 1113, CHEM 1111, & CHEM 2204, or CHEM 2124 & CHEM 2134",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0,
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-chinese-language-culture-3",
+      "program": "AP",
+      "exam": "Chinese Language & Culture",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Education Humanities",
+      "credit_text": "3 hours General Education Humanities",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-computer-science-principles-3",
+      "program": "AP",
+      "exam": "Computer Science Principles",
+      "min_score": 3,
+      "awards": [
+        [
+          "COMS 1403",
+          "COMS 1411"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "COMS 1403 & COMS 1411",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-computer-science-a-3",
+      "program": "AP",
+      "exam": "Computer Science A",
+      "min_score": 3,
+      "awards": [
+        [
+          "COMS 1013",
+          "COMS 1011"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "COMS 1013 & COMS 1011",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-computer-science-a-4",
+      "program": "AP",
+      "exam": "Computer Science A",
+      "min_score": 4,
+      "awards": [
+        [
+          "COMS 1013",
+          "COMS 1011",
+          "COMS 2203"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "COMS 1013, COMS 1011, & COMS 2203",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        7.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-cybersecurity-3",
+      "program": "AP",
+      "exam": "Cybersecurity",
+      "min_score": 3,
+      "awards": [
+        [
+          "CSEC 1003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "CSEC 1003",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-english-lang-comp-or-lit-comp-3",
+      "program": "AP",
+      "exam": "English Lang/Comp or Lit/Comp",
+      "min_score": 3,
+      "awards": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-english-lang-comp-or-lit-comp-4",
+      "program": "AP",
+      "exam": "English Lang/Comp or Lit/Comp",
+      "min_score": 4,
+      "awards": [
+        [
+          "ENGL 1013",
+          "ENGL 1053"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013 & ENGL 1053",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-english-lang-comp-or-lit-comp-5",
+      "program": "AP",
+      "exam": "English Lang/Comp or Lit/Comp",
+      "min_score": 5,
+      "awards": [
+        [
+          "ENGL 1043",
+          "ENGL 1053"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1043 & ENGL 1053",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-environmental-science-3",
+      "program": "AP",
+      "exam": "Environmental Science",
+      "min_score": 3,
+      "awards": [
+        [
+          "BIOL 1004"
+        ],
+        [
+          "ENVS 1004"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1004 or ENVS 1004",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0,
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-european-history-3",
+      "program": "AP",
+      "exam": "European History",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-french-language-3",
+      "program": "AP",
+      "exam": "French Language",
+      "min_score": 3,
+      "awards": [
+        [
+          "FR 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-german-language-3",
+      "program": "AP",
+      "exam": "German Language",
+      "min_score": 3,
+      "awards": [
+        [
+          "GER 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-government-politics-comparative-3",
+      "program": "AP",
+      "exam": "Government & Politics: Comparative",
+      "min_score": 3,
+      "awards": [
+        [
+          "POLS 2403"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "POLS 2403",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-government-politics-us-3",
+      "program": "AP",
+      "exam": "Government & Politics: US",
+      "min_score": 3,
+      "awards": [
+        [
+          "POLS 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "POLS 2003",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-human-geography-3",
+      "program": "AP",
+      "exam": "Human Geography",
+      "min_score": 3,
+      "awards": [
+        [
+          "GEOG 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GEOG 2023",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-italian-language-culture-3",
+      "program": "AP",
+      "exam": "Italian Language & Culture",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Education Humanities",
+      "credit_text": "3 hours General Education Humanities",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-japanese-language-culture-3",
+      "program": "AP",
+      "exam": "Japanese Language & Culture",
+      "min_score": 3,
+      "awards": [
+        [
+          "JPN 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-latin-3",
+      "program": "AP",
+      "exam": "Latin",
+      "min_score": 3,
+      "awards": [
+        [
+          "LAT 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "LAT 1013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-macroeconomics-3",
+      "program": "AP",
+      "exam": "Macroeconomics",
+      "min_score": 3,
+      "awards": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2003",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-macroeconomics-5",
+      "program": "AP",
+      "exam": "Macroeconomics",
+      "min_score": 5,
+      "awards": [
+        [
+          "ECON 2103"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2103",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-microeconomics-3",
+      "program": "AP",
+      "exam": "Microeconomics",
+      "min_score": 3,
+      "awards": [
+        [
+          "ECON 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-music-theory-3",
+      "program": "AP",
+      "exam": "Music Theory",
+      "min_score": 3,
+      "awards": [
+        [
+          "MUS 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MUS 2003",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-music-theory-4",
+      "program": "AP",
+      "exam": "Music Theory",
+      "min_score": 4,
+      "awards": [
+        [
+          "MUS 2003",
+          "MUS 1713"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MUS 2003 & MUS 1713",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-networking-3",
+      "program": "AP",
+      "exam": "Networking",
+      "min_score": 3,
+      "awards": [
+        [
+          "CSEC 1113"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "CSEC 1113",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-b-3",
+      "program": "AP",
+      "exam": "Physics B",
+      "min_score": 3,
+      "awards": [
+        [
+          "PHYS 2014",
+          "PHYS 2024"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2014 & PHYS 2024",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-c-electricity-magnetism-3",
+      "program": "AP",
+      "exam": "Physics C: Electricity & Magnetism",
+      "min_score": 3,
+      "awards": [
+        [
+          "PHYS 2024"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2024",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-c-electricity-magnetism-4",
+      "program": "AP",
+      "exam": "Physics C: Electricity & Magnetism",
+      "min_score": 4,
+      "awards": [
+        [
+          "PHYS 2124"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2124",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-c-mechanics-3",
+      "program": "AP",
+      "exam": "Physics C: Mechanics",
+      "min_score": 3,
+      "awards": [
+        [
+          "PHYS 2014"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2014",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-c-mechanics-4",
+      "program": "AP",
+      "exam": "Physics C: Mechanics",
+      "min_score": 4,
+      "awards": [
+        [
+          "PHYS 2114"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2114",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-c-mechanics-5",
+      "program": "AP",
+      "exam": "Physics C: Mechanics",
+      "min_score": 5,
+      "awards": [
+        [
+          "PHYS 2914"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2914",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-1-3",
+      "program": "AP",
+      "exam": "Physics 1",
+      "min_score": 3,
+      "awards": [
+        [
+          "PHYS 2014"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2014",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-physics-2-3",
+      "program": "AP",
+      "exam": "Physics 2",
+      "min_score": 3,
+      "awards": [
+        [
+          "PHYS 2024"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2024",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-pre-calculus-3",
+      "program": "AP",
+      "exam": "Pre-Calculus",
+      "min_score": 3,
+      "awards": [
+        [
+          "MATH 1914"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 1914",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-psychology-3",
+      "program": "AP",
+      "exam": "Psychology",
+      "min_score": 3,
+      "awards": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PSY 2003",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-spanish-language-3",
+      "program": "AP",
+      "exam": "Spanish Language",
+      "min_score": 3,
+      "awards": [
+        [
+          "SPAN 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-spanish-literature-3",
+      "program": "AP",
+      "exam": "Spanish Literature",
+      "min_score": 3,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ap-statistics-3",
+      "program": "AP",
+      "exam": "Statistics",
+      "min_score": 3,
+      "awards": [
+        [
+          "STAT 2163"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "STAT 2163",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-studio-art-design-2-d-3",
+      "program": "AP",
+      "exam": "Studio Art Design 2-D",
+      "min_score": 3,
+      "awards": [
+        [
+          "ART 1403"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ART 1403",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-studio-art-design-3-d-3",
+      "program": "AP",
+      "exam": "Studio Art Design 3-D",
+      "min_score": 3,
+      "awards": [
+        [
+          "ART 2413"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ART 2413",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-studio-art-drawing-3",
+      "program": "AP",
+      "exam": "Studio Art Drawing",
+      "min_score": 3,
+      "awards": [
+        [
+          "ART 1303"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ART 1303",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-united-states-history-3",
+      "program": "AP",
+      "exam": "United States History",
+      "min_score": 3,
+      "awards": [
+        [
+          "HIST 2003",
+          "HIST 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2003 & HIST 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-united-states-history-5",
+      "program": "AP",
+      "exam": "United States History",
+      "min_score": 5,
+      "awards": [
+        [
+          "HIST 2043",
+          "HIST 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2043 & HIST 2013",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-world-history-3",
+      "program": "AP",
+      "exam": "World History",
+      "min_score": 3,
+      "awards": [
+        [
+          "HIST 1503",
+          "HIST 1513"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1503 & HIST 1513",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ap-world-history-5",
+      "program": "AP",
+      "exam": "World History",
+      "min_score": 5,
+      "awards": [
+        [
+          "HIST 1543",
+          "HIST 1513"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1543 & HIST 1513",
+      "source": {
+        "title": "Advanced Placement (AP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    }
+  ]
 }

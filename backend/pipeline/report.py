@@ -21,6 +21,28 @@ def _cell(text: str) -> str:
     return text.replace("|", "\\|").replace("\n", " ")
 
 
+def snapshot_lines(snapshots: list[dict[str, str]], newest_catalog_year: str) -> list[str]:
+    """The saved catalog pages, flagging any older than the newest catalog year (D23)."""
+    newest_start = newest_catalog_year[:4]
+    lines = [
+        "## Catalog snapshots",
+        "",
+        "Saved from a regular browser because catalog.atu.edu blocks automated tools (D23). "
+        "Re-save any page older than the newest catalog year.",
+        "",
+        "| Page | Catalog | Saved | Status |",
+        "|---|---|---|---|",
+    ]
+    for snap in snapshots:
+        stale = snap["catalog_edition"][:4] < newest_start
+        status = f"Older than the newest catalog year ({newest_catalog_year})" if stale else "Current"
+        lines.append(
+            f"| [{_cell(snap['title'])}]({snap['url']}) | {snap['catalog_edition']} | "
+            f"{snap['captured_at']} | {status} |"
+        )
+    return [*lines, ""]
+
+
 def write_report(
     meta: dict[str, Any],
     rows: list[dict[str, Any]],
@@ -32,13 +54,32 @@ def write_report(
     bachelors = [r for r in rows if r["tier"] in ("cross_checked", "auto_imported", "needs_review")]
     good = [r for r in bachelors if r["tier"] in ("cross_checked", "auto_imported")]
     pct = 100.0 * len(good) / len(bachelors) if bachelors else 0.0
+    years = meta.get("catalog_years") or [meta["newest_catalog_year"]]
     lines: list[str] = [
         "# Shortcut data pipeline report",
         "",
-        f"Generated {meta['generated_at']} · mode `{meta['pipeline_mode']}` · newest catalog year "
-        f"**{meta['newest_catalog_year']}** (plus the 2025–26 Computer Science ground truth).",
+        f"Generated {meta['generated_at']} · mode `{meta['pipeline_mode']}` · catalog years "
+        f"**{', '.join(years)}** (newest {meta['newest_catalog_year']}).",
         "",
         "## Coverage",
+        "",
+        "| Catalog year | Bachelor's programs | Cross-checked | Auto-imported | Needs review "
+        "| Auto-imported or better |",
+        "|---|---|---|---|---|---|",
+    ]
+    for year in years:
+        in_year = [r for r in bachelors if r["catalog_year"] == year]
+        count = {
+            t: sum(r["tier"] == t for r in in_year)
+            for t in ("cross_checked", "auto_imported", "needs_review")
+        }
+        ok = count["cross_checked"] + count["auto_imported"]
+        share = 100.0 * ok / len(in_year) if in_year else 0.0
+        lines.append(
+            f"| {year} | {len(in_year)} | {count['cross_checked']} | {count['auto_imported']} | "
+            f"{count['needs_review']} | {ok} ({share:.0f}%) |"
+        )
+    lines += [
         "",
         f"- Degree maps discovered: **{meta['discovered_maps']}**",
         f"- Bachelor's programs ingested: **{len(bachelors)}** "
@@ -51,6 +92,7 @@ def write_report(
         f"- catalog.atu.edu: {meta['catalog_status']}",
         f"- Banner (public course catalog + class schedule): {meta['banner_status']}",
         "",
+        *snapshot_lines(meta.get("catalog_snapshots", []), meta["newest_catalog_year"]),
         "## Every discovered program",
         "",
         "| Program | Year | Degree | College | Tier | Issues |",
@@ -96,9 +138,11 @@ def write_report(
         "",
         "## Data caveats",
         "",
-        "- catalog.atu.edu is WAF-gated from the build environment, so course data comes from ATU's "
-        "public Banner course catalog and class schedule (DECISIONS.md D5).",
-        "- AP and IB course tables are not available (catalog-only); CLEP comes from PRD Appendix B (D6).",
+        "- catalog.atu.edu blocks automated tools, so course data comes from ATU's public Banner course "
+        "catalog and class schedule (DECISIONS.md D5). AP, CLEP, and IB tables and credit policies come "
+        "from catalog pages saved once in a regular browser (data/raw/catalog, D23).",
+        "- Prerequisites and offerings come from the current Banner catalog for every catalog year; a "
+        "2025–26 program is planned with today's course rules.",
         "- Summer/winter availability is inferred from three years of public schedules (D8); a course "
         "that ran before may not run again.",
         "- Rows the parser couldn't classify keep the program selectable but mark it Needs review.",

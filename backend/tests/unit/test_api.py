@@ -53,12 +53,12 @@ def test_programs_list_and_detail() -> None:
     assert client().get("/api/programs/nope").status_code == 404
 
 
-def test_exams_endpoint_has_clep_and_unavailable_ap_ib() -> None:
+def test_exams_endpoint_has_clep_ap_and_ib_from_the_catalog() -> None:
     body = client().get("/api/exams").json()
     tables = {t["program"]: t for t in body["tables"]}
-    assert tables["CLEP"]["status"] == "available" and tables["CLEP"]["equivalencies"]
-    assert tables["AP"]["status"] == "unavailable"
-    assert tables["IB"]["status"] == "unavailable"
+    for program in ("CLEP", "AP", "IB"):
+        assert tables[program]["status"] == "available" and tables[program]["equivalencies"]
+        assert tables[program]["source"]["url"].startswith("https://catalog.atu.edu/")
 
 
 def test_personas_endpoint() -> None:
@@ -110,3 +110,33 @@ def test_delay_impact_endpoint() -> None:
     assert response.status_code == 200
     data = response.json()
     assert data["explanation"] and data["before"]
+
+
+def test_programs_list_links_catalog_years() -> None:
+    items = {p["id"]: p for p in client().get("/api/programs").json()}
+    assert items["accounting-2025-26"]["major_key"] == items["accounting-2026-27"]["major_key"]
+    assert items["accounting-2025-26"]["successors"] == ["accounting-2026-27"]
+    assert set(items[CS]["successors"]) == {
+        "computer-science-ai-2026-27",
+        "computer-science-software-dev-2026-27",
+    }
+
+
+def test_meta_reports_tiers_per_catalog_year_and_snapshot_dates() -> None:
+    body = client().get("/api/meta").json()
+    by_year = body["tier_counts_by_year"]
+    assert set(by_year) == set(body["catalog_years"])
+    for tier in ("cross_checked", "auto_imported", "needs_review"):
+        assert sum(counts.get(tier, 0) for counts in by_year.values()) == body["tier_counts"].get(tier, 0)
+    snapshots = {s["url"]: s for s in body["catalog_snapshots"]}
+    ap = snapshots["https://catalog.atu.edu/undergraduate/institutional-credit/ap/"]
+    assert (ap["catalog_edition"], ap["captured_at"]) == ("2026-2027", "2026-09-29")
+    assert all(s["title"] and s["captured_at"] for s in body["catalog_snapshots"])
+
+
+def test_levers_name_the_policy_behind_their_numbers() -> None:
+    levers = {lever["id"]: lever for lever in client().post("/api/plan", json=p1_body()).json()["levers"]}
+    assert levers["heavier_terms"]["policy_key"] == "regular_load_max"
+    assert levers["overload"]["policy_key"] == "overload_review_threshold"
+    assert levers["aggressive_overload"]["policy_key"] == "overload_ceiling"
+    assert levers["transfer_summer"]["policy_key"] is None

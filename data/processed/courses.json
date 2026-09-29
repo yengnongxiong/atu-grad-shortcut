@@ -503,7 +503,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -515,7 +515,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27)"
       },
       "SU": {
         "available": false,
@@ -577,7 +577,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27)"
       },
       "WI": {
         "available": false,
@@ -589,7 +589,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -691,7 +691,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27)"
       },
       "WI": {
         "available": false,
@@ -703,7 +703,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -810,7 +810,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -822,7 +822,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27)"
       },
       "SU": {
         "available": false,
@@ -1037,7 +1037,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -1049,7 +1049,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (accounting-2026-27)"
+        "note": "map note 'FA only' (accounting-2025-26, accounting-2026-27)"
       },
       "SU": {
         "available": false,
@@ -1131,7 +1131,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27)"
       },
       "WI": {
         "available": false,
@@ -1143,7 +1143,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (accounting-2025-26, accounting-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -1540,7 +1540,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-animal-science-2026-27); ran 1x in FA (202470)"
+        "note": "map note 'SP only' (agbu-animal-science-2025-26, agbu-animal-science-2026-27); ran 1x in FA (202470)"
       },
       "WI": {
         "available": false,
@@ -1552,7 +1552,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-animal-science-2026-27); ran 3x in SP (202520, 202620, 202720)"
+        "note": "map note 'SP only' (agbu-animal-science-2025-26, agbu-animal-science-2026-27); ran 3x in SP (202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -4272,7 +4272,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agriculture-education-2026-27)"
+        "note": "map note 'SP only' (agriculture-education-2025-26, agriculture-education-2026-27)"
       },
       "WI": {
         "available": false,
@@ -4284,7 +4284,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agriculture-education-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (agriculture-education-2025-26, agriculture-education-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -4411,6 +4411,10 @@
       {
         "program_id": "agriculture-education-2026-27",
         "text": "AGED 2104"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
+        "text": "AGED 2104"
       }
     ],
     "corequisites": [],
@@ -4489,6 +4493,10 @@
     "map_prereq_notes": [
       {
         "program_id": "agriculture-education-2026-27",
+        "text": "AGED 1013"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
         "text": "AGED 1013"
       }
     ],
@@ -4569,6 +4577,10 @@
       {
         "program_id": "agriculture-education-2026-27",
         "text": "AGED 3033"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
+        "text": "AGED 3033"
       }
     ],
     "corequisites": [],
@@ -4648,6 +4660,10 @@
       {
         "program_id": "agriculture-education-2026-27",
         "text": "AGED 4033"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
+        "text": "AGED 4033"
       }
     ],
     "corequisites": [],
@@ -4722,6 +4738,10 @@
     "map_prereq_notes": [
       {
         "program_id": "agriculture-education-2026-27",
+        "text": "AGED 3033"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
         "text": "AGED 3033"
       }
     ],
@@ -4867,6 +4887,10 @@
     "map_prereq_notes": [
       {
         "program_id": "agriculture-education-2026-27",
+        "text": "Junior Standing"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
         "text": "Junior Standing"
       }
     ],
@@ -5155,6 +5179,10 @@
     "map_prereq_notes": [
       {
         "program_id": "agriculture-education-2026-27",
+        "text": "AGPS 1024,Junior Standing"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
         "text": "AGPS 1024,Junior Standing"
       }
     ],
@@ -5471,6 +5499,10 @@
     "map_prereq_notes": [
       {
         "program_id": "agriculture-education-2026-27",
+        "text": "AGPS 1024,Junior Standing"
+      },
+      {
+        "program_id": "agriculture-education-2025-26",
         "text": "AGPS 1024,Junior Standing"
       }
     ],
@@ -6051,7 +6083,12 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [],
+    "map_prereq_notes": [
+      {
+        "program_id": "rehab-science-therapeutic-rec-2025-26",
+        "text": "PSY 2003"
+      }
+    ],
     "corequisites": [],
     "standing": null,
     "standing_raw": "",
@@ -7439,6 +7476,22 @@
       },
       {
         "program_id": "bfa-graphic-design-2026-27",
+        "text": "to all UD ART courses"
+      },
+      {
+        "program_id": "art-education-2025-26",
+        "text": "to All UD ART Courses"
+      },
+      {
+        "program_id": "bfa-fine-art-2025-26",
+        "text": "to all UD ART courses"
+      },
+      {
+        "program_id": "bfa-game-design-2025-26",
+        "text": "to all UD ART courses"
+      },
+      {
+        "program_id": "bfa-graphic-design-2025-26",
         "text": "to all UD ART courses"
       }
     ],
@@ -9714,6 +9767,10 @@
       {
         "program_id": "health-information-mgmt-2026-27",
         "text": "BUAD 2003"
+      },
+      {
+        "program_id": "health-information-mgmt-2025-26",
+        "text": "BUAD 2003"
       }
     ],
     "corequisites": [],
@@ -9817,7 +9874,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -9829,7 +9886,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "SU": {
         "available": false,
@@ -9901,7 +9958,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -9913,7 +9970,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "SU": {
         "available": false,
@@ -10057,7 +10114,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -10069,7 +10126,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (business-data-analytics-2026-27)"
+        "note": "map note 'FA only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "SU": {
         "available": false,
@@ -10151,7 +10208,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "WI": {
         "available": false,
@@ -10163,7 +10220,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -10245,7 +10302,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "WI": {
         "available": false,
@@ -10257,7 +10314,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -11773,6 +11830,10 @@
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
         "text": "C or better in CHEM course"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
+        "text": "C or better in CHEM course"
       }
     ],
     "corequisites": [],
@@ -11865,6 +11926,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
+        "text": "C or better in BIOL 2404"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
         "text": "C or better in BIOL 2404"
       }
     ],
@@ -15074,6 +15139,76 @@
       }
     ]
   },
+  "BUAD 1111": {
+    "code": "BUAD 1111",
+    "subject": "BUAD",
+    "number": "1111",
+    "title": "",
+    "hours": null,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "",
+    "department": "",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in SP (202420, 202520, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": false,
+    "warnings": [
+      "course not found in the Banner catalog"
+    ],
+    "sources": []
+  },
   "BUAD 1113": {
     "code": "BUAD 1113",
     "subject": "BUAD",
@@ -15163,6 +15298,10 @@
     "map_prereq_notes": [
       {
         "program_id": "health-information-mgmt-2026-27",
+        "text": ". for BDA 2003"
+      },
+      {
+        "program_id": "health-information-mgmt-2025-26",
         "text": ". for BDA 2003"
       }
     ],
@@ -16037,7 +16176,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (fisheries-wildlife-bio-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -16049,7 +16188,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (fisheries-wildlife-bio-2026-27)"
+        "note": "map note 'FA only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27)"
       },
       "SU": {
         "available": false,
@@ -16598,6 +16737,10 @@
     "map_prereq_notes": [
       {
         "program_id": "chem-biochemistry-2026-27",
+        "text": "PHYS 2114"
+      },
+      {
+        "program_id": "chem-biochemistry-2025-26",
         "text": "PHYS 2114"
       }
     ],
@@ -17155,7 +17298,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (chemistry-professional-2026-27)"
+        "note": "map note 'SP only' (chemistry-professional-2025-26, chemistry-professional-2026-27)"
       },
       "WI": {
         "available": false,
@@ -17167,7 +17310,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (chemistry-professional-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (chemistry-professional-2025-26, chemistry-professional-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -17374,7 +17517,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (chemistry-professional-2026-27); ran 2x in FA (202370, 202570)"
+        "note": "map note 'SP only' (chemistry-professional-2025-26, chemistry-professional-2026-27); ran 2x in FA (202370, 202570)"
       },
       "WI": {
         "available": false,
@@ -17386,7 +17529,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (chemistry-professional-2026-27)"
+        "note": "map note 'SP only' (chemistry-professional-2025-26, chemistry-professional-2026-27)"
       },
       "SU": {
         "available": false,
@@ -17801,6 +17944,14 @@
       },
       {
         "program_id": "criminal-justice-ba-2026-27",
+        "text": "SOC 1003"
+      },
+      {
+        "program_id": "criminal-justice-as-2025-26",
+        "text": "SOC 1003"
+      },
+      {
+        "program_id": "criminal-justice-ba-2025-26",
         "text": "SOC 1003"
       }
     ],
@@ -19759,6 +19910,10 @@
       {
         "program_id": "physics-2026-27",
         "text": "#C or > in MATH 1113 or higher math"
+      },
+      {
+        "program_id": "physical-sci-physics-2025-26",
+        "text": "#C or > in MATH 1113 or higher math"
       }
     ],
     "corequisites": [
@@ -19929,8 +20084,40 @@
         "text": "#C or > in MATH 1113 or higher math"
       },
       {
+        "program_id": "bfa-game-design-2025-26",
+        "text": "# MATH 1113 or higher"
+      },
+      {
         "program_id": "computer-science-2025-26",
         "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "physical-sci-engineering-phys-2025-26",
+        "text": "#C or > in MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-aas-2025-26",
+        "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "MATH 1113 or higher"
+      },
+      {
+        "program_id": "physical-sci-physics-2025-26",
+        "text": "#C or > in MATH 1113 or higher math"
       }
     ],
     "corequisites": [
@@ -19987,7 +20174,7 @@
     },
     "acts_equivalent": null,
     "pass_fail": false,
-    "gen_ed": false,
+    "gen_ed": true,
     "in_catalog": true,
     "warnings": [],
     "sources": [
@@ -20058,6 +20245,136 @@
         "202620",
         "202720"
       ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "COMS 1403": {
+    "code": "COMS 1403",
+    "subject": "COMS",
+    "number": "1403",
+    "title": "Orientation to Computing, Information, and Technology",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "COMS 1411": {
+    "code": "COMS 1411",
+    "subject": "COMS",
+    "number": "1411",
+    "title": "Computer and Information Science Lab",
+    "hours": 1.0,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
       "SU": []
     },
     "acts_equivalent": null,
@@ -20334,6 +20651,10 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "COMS 1333 & COMS 2203"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 1333 and COMS 2203"
       }
     ],
     "corequisites": [],
@@ -20466,6 +20787,26 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "C> COMS 1013 & C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "C> COMS 1013 & C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "C> COMS 1013 and C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-aas-2025-26",
+        "text": "# COMS 1013 & # MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "C> COMS 1013 & C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "C> COMS 1013 & C> MATH 1113 or higher"
       }
     ],
     "corequisites": [],
@@ -20591,6 +20932,22 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "MATH 2703 and C> in COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "MATH 2703 and C> in COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "MATH 2703 and C> in COMS 2203"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "MATH 2703 and C> in COMS 2203"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "MATH 2703 and C> in COMS 2203"
       }
     ],
     "corequisites": [],
@@ -20598,10 +20955,10 @@
     "standing_raw": "",
     "offered": {
       "FA": {
-        "available": true,
-        "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: FA, SP'; ran 4x in FA (202370, 202470, 202570, 202670)"
+        "available": false,
+        "confidence": "conflicting",
+        "source": "catalog+map",
+        "note": "catalog 'Offered: FA, SP' vs map 'SP only' (comp-engineering-2025-26); using the stricter; ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -20612,8 +20969,8 @@
       "SP": {
         "available": true,
         "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: FA, SP'; ran 4x in SP (202420, 202520, 202620, 202720)"
+        "source": "degree_map",
+        "note": "map note 'SP only' (comp-engineering-2025-26); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -20701,6 +21058,10 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "COMS 2203 & MATH 2703"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2203 and MATH 2703"
       }
     ],
     "corequisites": [],
@@ -20708,10 +21069,10 @@
     "standing_raw": "",
     "offered": {
       "FA": {
-        "available": true,
-        "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: FA, SP'; ran 4x in FA (202370, 202470, 202570, 202670)"
+        "available": false,
+        "confidence": "conflicting",
+        "source": "catalog+map",
+        "note": "catalog 'Offered: FA, SP' vs map 'SP only' (comp-engineering-2025-26); using the stricter; ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -20722,8 +21083,8 @@
       "SP": {
         "available": true,
         "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: FA, SP'; ran 4x in SP (202420, 202520, 202620, 202720)"
+        "source": "degree_map",
+        "note": "map note 'SP only' (comp-engineering-2025-26); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -20882,6 +21243,18 @@
       },
       {
         "program_id": "computer-science-2025-26",
+        "text": "COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2203"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
         "text": "COMS 2203"
       }
     ],
@@ -21084,6 +21457,97 @@
       }
     ]
   },
+  "COMS 2803": {
+    "code": "COMS 2803",
+    "subject": "COMS",
+    "number": "2803",
+    "title": "Programming in C",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "description": "Prerequisite: MATH 1113 or higher. For non-computing majors. This course involves the design, coding, debugging, and implementation of programs using the C language. The UNIX operating system is introduced. Note: May not be taken for credit after the successful completion of COMS 1013.",
+    "prerequisites": {
+      "type": "or",
+      "items": [
+        {
+          "type": "course",
+          "code": "MATH 1113",
+          "min_grade": "C"
+        },
+        {
+          "type": "course",
+          "code": "MATH 1914",
+          "min_grade": "C"
+        },
+        {
+          "type": "course",
+          "code": "MATH 2914",
+          "min_grade": "C"
+        },
+        {
+          "type": "course",
+          "code": "MATH 1203",
+          "min_grade": "C"
+        }
+      ]
+    },
+    "prereq_raw": "MATH 1113 or higher",
+    "prerequisite_scope": "course",
+    "prereq_source": "banner_prerequisite_table",
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in FA (202370)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "COMS 3053": {
     "code": "COMS 3053",
     "subject": "COMS",
@@ -21120,6 +21584,14 @@
       },
       {
         "program_id": "computer-science-2025-26",
+        "text": "Junior standing in COMS"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "Junior standing in COMS"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
         "text": "Junior standing in COMS"
       }
     ],
@@ -21222,6 +21694,10 @@
       {
         "program_id": "information-tech-prog-data-web-bs-2026-27",
         "text": "COMS 1333, COMS 2213, and COMS 3233"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 1333, COMS 2213, and COMS 3233"
       }
     ],
     "corequisites": [],
@@ -21232,7 +21708,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -21244,7 +21720,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -21408,6 +21884,18 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2203"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 2203"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "COMS 2203"
       }
     ],
     "corequisites": [],
@@ -21522,6 +22010,10 @@
       {
         "program_id": "information-tech-prog-data-web-bs-2026-27",
         "text": "COMS 3233 and 3-hr stats"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 3233 and 3-hr stats"
       }
     ],
     "corequisites": [],
@@ -21532,7 +22024,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (computer-science-ai-2026-27, information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'SP only' (computer-science-ai-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -21544,7 +22036,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (computer-science-ai-2026-27, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (computer-science-ai-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -21705,6 +22197,10 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "COMS 2703 and 2713"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "COMS 2703 and 2713"
       }
     ],
     "corequisites": [],
@@ -21715,7 +22211,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-network-security-bs-2026-27, information-tech-prog-data-web-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -21727,7 +22223,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-network-security-bs-2026-27, information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'FA only' (information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -21799,7 +22295,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-network-security-bs-2026-27)"
+        "note": "map note 'SP only' (information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -21811,7 +22307,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-network-security-bs-2026-27); ran 3x in SP (202420, 202620, 202720)"
+        "note": "map note 'SP only' (information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27); ran 3x in SP (202420, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -21877,6 +22373,10 @@
       {
         "program_id": "information-tech-prog-data-web-bs-2026-27",
         "text": "COMS 1333 and 2213"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 1333 and 2213"
       }
     ],
     "corequisites": [],
@@ -21887,7 +22387,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27); ran 3x in FA (202470, 202570, 202670)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 3x in FA (202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -21899,7 +22399,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -21955,6 +22455,14 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "Jr standing"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "Jr standing"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "Jr standing"
       }
     ],
     "corequisites": [],
@@ -21965,7 +22473,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -21977,7 +22485,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -22148,6 +22656,10 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "COMS 2213 & COMS 2223"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2213 and COMS 2223"
       }
     ],
     "corequisites": [],
@@ -22158,7 +22670,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA/SP only' (comp-engineering-2025-26, computer-science-2025-26, computer-science-software-dev-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -22167,10 +22679,10 @@
         "note": "catalog 'Offered: FA, SP'"
       },
       "SP": {
-        "available": false,
-        "confidence": "conflicting",
-        "source": "catalog+map",
-        "note": "catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-software-dev-2026-27); using the stricter; ran 4x in SP (202420, 202520, 202620, 202720)"
+        "available": true,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA/SP only' (comp-engineering-2025-26, computer-science-2025-26, computer-science-software-dev-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -22232,6 +22744,10 @@
       {
         "program_id": "information-tech-prog-data-web-bs-2026-27",
         "text": "COMS 3233"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "COMS 3233"
       }
     ],
     "corequisites": [],
@@ -22242,7 +22758,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27); ran 2x in FA (202370, 202570)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 2x in FA (202370, 202570)"
       },
       "WI": {
         "available": false,
@@ -22254,7 +22770,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'FA only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -22407,7 +22923,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -22419,7 +22935,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -22979,7 +23495,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (computer-science-ai-2026-27, computer-science-software-dev-2026-27, information-tech-prog-data-web-bs-2026-27)"
+        "note": "map note 'SP only' (computer-science-ai-2026-27, computer-science-software-dev-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -22991,7 +23507,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (computer-science-ai-2026-27, computer-science-software-dev-2026-27, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (computer-science-ai-2026-27, computer-science-software-dev-2026-27, information-tech-prog-data-web-bs-2025-26, information-tech-prog-data-web-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23204,6 +23720,14 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "CSEC 1113"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "CSEC 1113"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 1113"
       }
     ],
     "corequisites": [],
@@ -23214,7 +23738,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -23226,7 +23750,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23360,6 +23884,18 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "CSEC 1113"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "CSEC 1113"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 1113"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "CSEC 1113"
       }
     ],
     "corequisites": [],
@@ -23370,7 +23906,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23382,7 +23918,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23448,6 +23984,18 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "COMS 1333 and COMS 2203"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "CSEC 1113"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2203 and MATH 2703"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "CSEC 1113"
       }
     ],
     "corequisites": [],
@@ -23458,7 +24006,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-aas-2026-27); ran 3x in FA (202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-aas-2025-26, cybersecurity-aas-2026-27, information-tech-network-security-bs-2025-26); ran 3x in FA (202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23470,7 +24018,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-aas-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'FA only' (cybersecurity-aas-2025-26, cybersecurity-aas-2026-27, information-tech-network-security-bs-2025-26); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23545,6 +24093,14 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "CSEC 2213 and CSEC 2223"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 2213 and CSEC 2223"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "CSEC 2213 and CSEC 2223"
       }
     ],
     "corequisites": [],
@@ -23555,7 +24111,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23567,7 +24123,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -23634,6 +24190,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "COMS 2213 and CSEC 2223"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2213 and CSEC 2223"
       }
     ],
     "corequisites": [],
@@ -23644,7 +24204,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -23656,7 +24216,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23717,6 +24277,14 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "CSEC 3123"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 3123"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "CSEC 3123"
       }
     ],
     "corequisites": [],
@@ -23727,7 +24295,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -23739,7 +24307,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (cybersecurity-bs-2026-27, information-tech-network-security-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27, information-tech-network-security-bs-2025-26, information-tech-network-security-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -23796,6 +24364,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "COMS 2223"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "COMS 2223"
       }
     ],
     "corequisites": [],
@@ -23806,7 +24378,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 2x in FA (202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 2x in FA (202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23818,7 +24390,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 2x in SP (202420, 202520)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 2x in SP (202420, 202520)"
       },
       "SU": {
         "available": false,
@@ -23876,6 +24448,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "CSEC 3243"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 3243"
       }
     ],
     "corequisites": [],
@@ -23886,7 +24462,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23898,7 +24474,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -23955,6 +24531,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "CSEC 2223 and junior standing in"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 2223 and junior standing in"
       }
     ],
     "corequisites": [],
@@ -23965,7 +24545,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -23977,7 +24557,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -24034,6 +24614,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "CSEC 3243"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 3243"
       }
     ],
     "corequisites": [],
@@ -24044,7 +24628,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -24056,7 +24640,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -24113,6 +24697,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "CSEC 3223"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "CSEC 3223"
       }
     ],
     "corequisites": [],
@@ -24123,7 +24711,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -24135,7 +24723,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -24187,6 +24775,10 @@
     "map_prereq_notes": [
       {
         "program_id": "cybersecurity-bs-2026-27",
+        "text": "CSEC 2113 and 3233"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
         "text": "CSEC 2113 and 3233"
       }
     ],
@@ -24265,6 +24857,10 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "Jr Standing"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "Jr Standing"
       }
     ],
     "corequisites": [],
@@ -24275,7 +24871,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -24287,7 +24883,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (cybersecurity-bs-2026-27)"
+        "note": "map note 'FA only' (cybersecurity-bs-2025-26, cybersecurity-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -26600,6 +27196,75 @@
       }
     ]
   },
+  "ECON 2103": {
+    "code": "ECON 2103",
+    "subject": "ECON",
+    "number": "2103",
+    "title": "Honors Principles of Economics I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "ECON 3003": {
     "code": "ECON 3003",
     "subject": "ECON",
@@ -28318,6 +28983,14 @@
       {
         "program_id": "eleg-biomedical-2026-27",
         "text": "ELEG 1011 or COMS 1013"
+      },
+      {
+        "program_id": "comp-engineering-2025-26",
+        "text": "ELEG 1011"
+      },
+      {
+        "program_id": "electrical-engineering-2025-26",
+        "text": "ELEG 1011"
       }
     ],
     "corequisites": [
@@ -28615,7 +29288,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -28627,7 +29300,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "SU": {
         "available": false,
@@ -28712,7 +29385,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "WI": {
         "available": false,
@@ -28724,7 +29397,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -28906,7 +29579,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "WI": {
         "available": false,
@@ -28918,7 +29591,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -28983,27 +29656,27 @@
     "offered": {
       "FA": {
         "available": true,
-        "confidence": "derived",
-        "source": "schedule_history",
-        "note": "ran 4x in FA (202370, 202470, 202570, 202670)"
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only' (electrical-engineering-2025-26); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
-        "available": true,
-        "confidence": "unknown",
-        "source": "schedule_history",
-        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only'"
       },
       "SP": {
-        "available": true,
-        "confidence": "unknown",
-        "source": "schedule_history",
-        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only' (electrical-engineering-2025-26)"
       },
       "SU": {
-        "available": true,
-        "confidence": "unknown",
-        "source": "schedule_history",
-        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only'"
       }
     },
     "history": {
@@ -29072,7 +29745,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "WI": {
         "available": false,
@@ -29084,7 +29757,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -29179,7 +29852,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -29191,7 +29864,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "SU": {
         "available": false,
@@ -29266,7 +29939,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "WI": {
         "available": false,
@@ -29278,7 +29951,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -29345,7 +30018,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -29357,7 +30030,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27)"
       },
       "SU": {
         "available": false,
@@ -29432,7 +30105,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -29444,7 +30117,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (comp-engineering-2026-27, electrical-engineering-2026-27, eleg-biomedical-2026-27)"
+        "note": "map note 'FA only' (comp-engineering-2025-26, comp-engineering-2026-27, electrical-engineering-2025-26, electrical-engineering-2026-27, eleg-biomedical-2025-26, eleg-biomedical-2026-27)"
       },
       "SU": {
         "available": false,
@@ -30964,6 +31637,75 @@
       }
     ]
   },
+  "ENGL 2023": {
+    "code": "ENGL 2023",
+    "subject": "ENGL",
+    "number": "2023",
+    "title": "Honors World Literature",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in SP (202420, 202520, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "ENGL 2043": {
     "code": "ENGL 2043",
     "subject": "ENGL",
@@ -31098,7 +31840,31 @@
         "text": "ENGL 1023"
       },
       {
+        "program_id": "accounting-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
+        "program_id": "business-data-analytics-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
         "program_id": "computer-science-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
+        "program_id": "information-tech-aas-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "ENGL 1023"
+      },
+      {
+        "program_id": "marketing-digital-marketing-2025-26",
         "text": "ENGL 1023"
       }
     ],
@@ -31331,6 +32097,76 @@
     "acts_equivalent": null,
     "pass_fail": false,
     "gen_ed": true,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "ENGL 2183": {
+    "code": "ENGL 2183",
+    "subject": "ENGL",
+    "number": "2183",
+    "title": "Honors Introduction to Film",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 4x in SP (202420, 202520, 202620, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
     "in_catalog": true,
     "warnings": [],
     "sources": [
@@ -34055,6 +34891,136 @@
       "FR 1014"
     ]
   },
+  "FR 2013": {
+    "code": "FR 2013",
+    "subject": "FR",
+    "number": "2013",
+    "title": "Intermediate French I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "FR 2023": {
+    "code": "FR 2023",
+    "subject": "FR",
+    "number": "2023",
+    "title": "Intermediate French II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "FW 1001": {
     "code": "FW 1001",
     "subject": "FW",
@@ -34303,7 +35269,7 @@
         "available": true,
         "confidence": "conflicting",
         "source": "catalog+map+schedule_history",
-        "note": "catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -34315,7 +35281,7 @@
         "available": false,
         "confidence": "conflicting",
         "source": "catalog+map+schedule_history",
-        "note": "catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides"
+        "note": "catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides"
       },
       "SU": {
         "available": false,
@@ -34553,7 +35519,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (fisheries-wildlife-bio-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -34565,7 +35531,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (fisheries-wildlife-bio-2026-27); ran 3x in SP (202420, 202520, 202620)"
+        "note": "map note 'FA only' (fisheries-wildlife-bio-2025-26, fisheries-wildlife-bio-2026-27); ran 3x in SP (202420, 202520, 202620)"
       },
       "SU": {
         "available": false,
@@ -35610,6 +36576,10 @@
       {
         "program_id": "bfa-game-design-2026-27",
         "text": "ART 2213"
+      },
+      {
+        "program_id": "bfa-game-design-2025-26",
+        "text": "ART 2213"
       }
     ],
     "corequisites": [],
@@ -35690,6 +36660,10 @@
     "map_prereq_notes": [
       {
         "program_id": "bfa-game-design-2026-27",
+        "text": "GAME 1003"
+      },
+      {
+        "program_id": "bfa-game-design-2025-26",
         "text": "GAME 1003"
       }
     ],
@@ -36370,6 +37344,74 @@
       }
     ]
   },
+  "GEOG 2023": {
+    "code": "GEOG 2023",
+    "subject": "GEOG",
+    "number": "2023",
+    "title": "Human Geography",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "History and Political Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202420, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "GEOG 2833": {
     "code": "GEOG 2833",
     "subject": "GEOG",
@@ -36842,7 +37884,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -36854,7 +37896,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -37010,7 +38052,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -37022,7 +38064,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27); ran 2x in SP (202420, 202620)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 2x in SP (202420, 202620)"
       },
       "SU": {
         "available": false,
@@ -37092,7 +38134,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -37104,7 +38146,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -37181,7 +38223,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27); ran 2x in FA (202470, 202670)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 2x in FA (202470, 202670)"
       },
       "WI": {
         "available": false,
@@ -37193,7 +38235,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -37268,7 +38310,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27); ran 2x in FA (202470, 202670)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 2x in FA (202470, 202670)"
       },
       "WI": {
         "available": false,
@@ -37280,7 +38322,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -37494,7 +38536,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "WI": {
         "available": false,
@@ -37506,7 +38548,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (geosciences-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -37756,7 +38798,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27); ran 2x in FA (202370, 202570)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27); ran 2x in FA (202370, 202570)"
       },
       "WI": {
         "available": false,
@@ -37768,7 +38810,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (geosciences-bs-2026-27)"
+        "note": "map note 'FA only' (geoscience-bs-2025-26, geosciences-bs-2026-27)"
       },
       "SU": {
         "available": false,
@@ -38009,6 +39051,138 @@
     ],
     "pruned_prerequisites": [
       "GER 1014"
+    ]
+  },
+  "GER 2013": {
+    "code": "GER 2013",
+    "subject": "GER",
+    "number": "2013",
+    "title": "Intermediate German I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in FA (202470)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202470"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "GER 2023": {
+    "code": "GER 2023",
+    "subject": "GER",
+    "number": "2023",
+    "title": "Intermediate German II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
     ]
   },
   "HA 1011": {
@@ -39197,6 +40371,14 @@
       {
         "program_id": "healthand-exercise-science-kinesiology-2026-27",
         "text": "HES 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "HES 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "HES 1003"
       }
     ],
     "corequisites": [],
@@ -39207,7 +40389,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (healthand-exercise-science-heca-non-teaching-2026-27, healthand-exercise-science-heca-teaching-2026-27); ran 1x in FA (202670)"
+        "note": "map note 'FA only' (healthand-exercise-science-heca-non-teaching-2025-26, healthand-exercise-science-heca-non-teaching-2026-27, healthand-exercise-science-heca-teaching-2025-26, healthand-exercise-science-heca-teaching-2026-27); ran 1x in FA (202670)"
       },
       "WI": {
         "available": false,
@@ -39219,7 +40401,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (healthand-exercise-science-heca-non-teaching-2026-27, healthand-exercise-science-heca-teaching-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'FA only' (healthand-exercise-science-heca-non-teaching-2025-26, healthand-exercise-science-heca-non-teaching-2026-27, healthand-exercise-science-heca-teaching-2025-26, healthand-exercise-science-heca-teaching-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -39281,6 +40463,14 @@
       },
       {
         "program_id": "healthand-exercise-science-kinesiology-2026-27",
+        "text": "HES 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE2653, PE3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
         "text": "HES 1003"
       }
     ],
@@ -39418,6 +40608,14 @@
       },
       {
         "program_id": "healthand-exercise-science-kinesiology-2026-27",
+        "text": "PE2653, PE3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE2653, PE3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
         "text": "PE2653, PE3663"
       }
     ],
@@ -39564,6 +40762,18 @@
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
         "text": "HES 2043"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "HES 2043"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "HES 2043"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
+        "text": "HES 2043"
       }
     ],
     "corequisites": [],
@@ -39651,6 +40861,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-kinesiology-2026-27",
+        "text": "HES 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
         "text": "HES 1003"
       }
     ],
@@ -40246,6 +41460,18 @@
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
         "text": "HES 2043 and 3003"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "HES 2043 and 3003"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "HES 2043 and 3003"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
+        "text": "HES 2043 and 3003"
       }
     ],
     "corequisites": [],
@@ -40348,6 +41574,14 @@
       {
         "program_id": "healthand-exercise-science-kinesiology-2026-27",
         "text": "PE2653, 3661,and 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE2653, 3661,and 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE2653, 3661,and 4033"
       }
     ],
     "corequisites": [],
@@ -40358,7 +41592,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (healthand-exercise-science-2026-27, healthand-exercise-science-kinesiology-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (healthand-exercise-science-2025-26, healthand-exercise-science-2026-27, healthand-exercise-science-kinesiology-2025-26, healthand-exercise-science-kinesiology-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -40370,7 +41604,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (healthand-exercise-science-2026-27, healthand-exercise-science-kinesiology-2026-27)"
+        "note": "map note 'FA only' (healthand-exercise-science-2025-26, healthand-exercise-science-2026-27, healthand-exercise-science-kinesiology-2025-26, healthand-exercise-science-kinesiology-2026-27)"
       },
       "SU": {
         "available": false,
@@ -40432,6 +41666,14 @@
       },
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
+        "text": "PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
         "text": "PE 4033"
       }
     ],
@@ -40516,6 +41758,14 @@
       },
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
+        "text": "PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
         "text": "PE 4033"
       }
     ],
@@ -40640,6 +41890,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-2026-27",
+        "text": "PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
         "text": "PE 4033"
       }
     ],
@@ -40959,6 +42213,10 @@
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
         "text": "HIM 3023"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
+        "text": "HIM 3023"
       }
     ],
     "corequisites": [],
@@ -41259,6 +42517,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "HIM 3023"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "HIM 3023"
       }
     ],
@@ -41567,6 +42829,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "AHS 2013, BIOL 2004"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "AHS 2013, BIOL 2004"
       }
     ],
@@ -42595,6 +43861,76 @@
       }
     ]
   },
+  "HIST 2043": {
+    "code": "HIST 2043",
+    "subject": "HIST",
+    "number": "2043",
+    "title": "Honors United States History to 1877",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "History and Political Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in FA (202370, 202470)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in SP (202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470"
+      ],
+      "WI": [],
+      "SP": [
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "HIST 2153": {
     "code": "HIST 2153",
     "subject": "HIST",
@@ -43307,6 +44643,22 @@
       },
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "PE 2653 and PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE 2653 and PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE 2653 and PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
+        "text": "PE 2653 and PE 4033"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "PE 2653 and PE 4033"
       }
     ],
@@ -44751,6 +46103,143 @@
       "JPN 1014"
     ]
   },
+  "JPN 2013": {
+    "code": "JPN 2013",
+    "subject": "JPN",
+    "number": "2013",
+    "title": "Intermediate Japanese I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "JPN 2023": {
+    "code": "JPN 2023",
+    "subject": "JPN",
+    "number": "2023",
+    "title": "Intermediate Japanese II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202520, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202520",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "LAT 1013": {
     "code": "LAT 1013",
     "subject": "LAT",
@@ -45292,7 +46781,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (mathematics-2026-27); ran 1x in FA (202370)"
+        "note": "map note 'FA only' (mathematics-2025-26, mathematics-2026-27); ran 1x in FA (202370)"
       },
       "WI": {
         "available": false,
@@ -45304,7 +46793,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (mathematics-2026-27)"
+        "note": "map note 'FA only' (mathematics-2025-26, mathematics-2026-27)"
       },
       "SU": {
         "available": false,
@@ -46166,6 +47655,14 @@
       {
         "program_id": "cybersecurity-bs-2026-27",
         "text": "22 or higher on Math ACT or C> in MATH"
+      },
+      {
+        "program_id": "business-data-analytics-2025-26",
+        "text": ". of MATH 1113"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "22 or higher on Math ACT or C> in MATH 1113 or"
       }
     ],
     "corequisites": [],
@@ -46325,6 +47822,26 @@
       {
         "program_id": "computer-science-2025-26",
         "text": "C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-aas-2025-26",
+        "text": "C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "cybersecurity-bs-2025-26",
+        "text": "C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "C> MATH 1113 or higher"
+      },
+      {
+        "program_id": "information-tech-network-security-bs-2025-26",
+        "text": "# MATH 1113 or higher"
+      },
+      {
+        "program_id": "mathematics-2025-26",
+        "text": "C in MATH 1113 or higher"
       }
     ],
     "corequisites": [],
@@ -47307,6 +48824,71 @@
       }
     ]
   },
+  "MATH 3771": {
+    "code": "MATH 3771",
+    "subject": "MATH",
+    "number": "3771",
+    "title": "Praxis Middle School and Secondary Mathematics Test Preparation",
+    "hours": 1.0,
+    "hours_max": null,
+    "level": 3000,
+    "upper_division": true,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Mathematical and Physical Sci",
+    "description": "This course is designed to provide preservice teacher candidates with an intensive study of the mathematical knowledge and competencies assessed by the Praxis Mathematics: Middle School and Secondary Content Knowledge tests.",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "MATH 4003": {
     "code": "MATH 4003",
     "subject": "MATH",
@@ -47618,6 +49200,74 @@
     },
     "history": {
       "FA": [
+        "202570"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "MATH 4703": {
+    "code": "MATH 4703",
+    "subject": "MATH",
+    "number": "4703",
+    "title": "Special Methods in Mathematics",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 4000,
+    "upper_division": true,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Mathematical and Physical Sci",
+    "description": "This course provides preservice teacher candidates with knowledge of current research and practice in mathematics education; a setting in which to apply that knowledge; and the opportunity to assess their teaching performance and formulate a plan for improvement. Note: A grade of \"C\" or better must be earned in the course to be used to satisfy the general education mathematics requirement.",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in FA (202370, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
         "202570"
       ],
       "WI": [],
@@ -48505,6 +50155,10 @@
       {
         "program_id": "mechanical-engineering-2026-27",
         "text": "MCEG 2013"
+      },
+      {
+        "program_id": "physical-sci-engineering-phys-2025-26",
+        "text": "COMS 2203"
       }
     ],
     "corequisites": [],
@@ -50874,7 +52528,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27)"
       },
       "WI": {
         "available": false,
@@ -50886,7 +52540,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (business-data-analytics-2025-26, business-data-analytics-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -51421,8 +53075,8 @@
       "FA": {
         "available": false,
         "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: SP'"
+        "source": "degree_map",
+        "note": "map note 'SP only' (business-data-analytics-2025-26)"
       },
       "WI": {
         "available": false,
@@ -51433,8 +53087,8 @@
       "SP": {
         "available": true,
         "confidence": "documented",
-        "source": "catalog",
-        "note": "catalog 'Offered: SP'; ran 4x in SP (202420, 202520, 202620, 202720)"
+        "source": "degree_map",
+        "note": "map note 'SP only' (business-data-analytics-2025-26); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -53988,7 +55642,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54000,7 +55654,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54066,7 +55720,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "WI": {
         "available": false,
@@ -54078,7 +55732,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -54136,7 +55790,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54148,7 +55802,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54206,7 +55860,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "WI": {
         "available": false,
@@ -54218,7 +55872,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -54276,7 +55930,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54288,7 +55942,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27)"
+        "note": "map note 'FA only' (music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54588,7 +56242,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54600,7 +56254,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2026-27)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54745,7 +56399,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54757,7 +56411,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54823,7 +56477,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "WI": {
         "available": false,
@@ -54835,7 +56489,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -54893,7 +56547,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -54905,7 +56559,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'FA only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -54963,7 +56617,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "WI": {
         "available": false,
@@ -54975,7 +56629,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-2026-27, music-arts-2026-27, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (music-2025-26, music-2026-27, music-arts-2025-26, music-arts-2026-27, music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -55111,7 +56765,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-education-vocal-2026-27); ran 1x in FA (202670)"
+        "note": "map note 'SP only' (music-education-vocal-2025-26, music-education-vocal-2026-27); ran 1x in FA (202670)"
       },
       "WI": {
         "available": false,
@@ -55123,7 +56777,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-education-vocal-2026-27); ran 3x in SP (202420, 202520, 202620)"
+        "note": "map note 'SP only' (music-education-vocal-2025-26, music-education-vocal-2026-27); ran 3x in SP (202420, 202520, 202620)"
       },
       "SU": {
         "available": false,
@@ -55953,7 +57607,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27); ran 1x in FA (202670)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27); ran 1x in FA (202670)"
       },
       "WI": {
         "available": false,
@@ -55965,7 +57619,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27); ran 3x in SP (202420, 202520, 202620)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27); ran 3x in SP (202420, 202520, 202620)"
       },
       "SU": {
         "available": false,
@@ -56028,7 +57682,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -56040,7 +57694,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2026-27, music-education-vocal-2026-27)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27, music-education-vocal-2025-26, music-education-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -56173,7 +57827,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27); ran 3x in FA (202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27); ran 3x in FA (202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -56185,7 +57839,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-instrumental-2026-27, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2026-27)"
+        "note": "map note 'FA only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27, music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27, music-ed-keyboard-vocal-2025-26, music-ed-keyboard-vocal-2026-27)"
       },
       "SU": {
         "available": false,
@@ -56252,6 +57906,22 @@
       },
       {
         "program_id": "music-education-vocal-2026-27",
+        "text": "SEED2003, MUS2723, Piano Exit Exam"
+      },
+      {
+        "program_id": "music-ed-instrumental-2025-26",
+        "text": "SEED2003, MUS2723, Piano Exit Exam"
+      },
+      {
+        "program_id": "music-ed-keyboard-instr-2025-26",
+        "text": "SEED2003, MUS2723, Piano Exit Exam"
+      },
+      {
+        "program_id": "music-ed-keyboard-vocal-2025-26",
+        "text": "SEED2003, MUS2723, Piano Exit Exam"
+      },
+      {
+        "program_id": "music-education-vocal-2025-26",
         "text": "SEED2003, MUS2723, Piano Exit Exam"
       }
     ],
@@ -56629,7 +58299,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-ed-instrumental-2026-27)"
+        "note": "map note 'SP only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27)"
       },
       "WI": {
         "available": false,
@@ -56641,7 +58311,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (music-ed-instrumental-2026-27); ran 2x in SP (202520, 202620)"
+        "note": "map note 'SP only' (music-ed-instrumental-2025-26, music-ed-instrumental-2026-27); ran 2x in SP (202520, 202620)"
       },
       "SU": {
         "available": false,
@@ -56847,7 +58517,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-keyboard-instr-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -56859,7 +58529,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (music-ed-keyboard-instr-2026-27)"
+        "note": "map note 'FA only' (music-ed-keyboard-instr-2025-26, music-ed-keyboard-instr-2026-27)"
       },
       "SU": {
         "available": false,
@@ -56886,6 +58556,78 @@
     "warnings": [
       "unparsed prerequisite words: Music pass Sophomore Barrier"
     ],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "NUR 1001": {
+    "code": "NUR 1001",
+    "subject": "NUR",
+    "number": "1001",
+    "title": "Orientation to Nursing",
+    "hours": 1.0,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "Education and Health",
+    "department": "Nursing",
+    "description": "A one hour elective course for students interested in pursuing nursing as a professional career. The student is introduced to the history of nursing, issues and trends, basic nursing education, advanced education for nurses, and nursing career opportunities. Students interested in nursing or a career in science are encouraged to take this course during the fall semester of their freshman year.",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202420, 202520)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
     "sources": [
       {
         "title": "ATU Banner course catalog",
@@ -57299,6 +59041,76 @@
         "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
       }
     ]
+  },
+  "NUR 3213": {
+    "code": "NUR 3213",
+    "subject": "NUR",
+    "number": "3213",
+    "title": "",
+    "hours": null,
+    "hours_max": null,
+    "level": 3000,
+    "upper_division": true,
+    "college": "",
+    "department": "",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in SP (202420, 202520, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": false,
+    "warnings": [
+      "course not found in the Banner catalog"
+    ],
+    "sources": []
   },
   "NUR 3303": {
     "code": "NUR 3303",
@@ -59286,6 +61098,10 @@
       {
         "program_id": "healthand-exercise-science-heca-teaching-2026-27",
         "text": "Admission to Stage II"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-teaching-2025-26",
+        "text": "Admission to Stage II"
       }
     ],
     "corequisites": [],
@@ -59393,6 +61209,22 @@
       },
       {
         "program_id": "healthand-exercise-science-heca-non-teaching-2026-27",
+        "text": "BIOL 2014, 3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE2653, PE3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE2653, PE3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-teaching-2025-26",
+        "text": "BIOL 2014, 3663"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-non-teaching-2025-26",
         "text": "BIOL 2014, 3663"
       }
     ],
@@ -59644,6 +61476,26 @@
       {
         "program_id": "healthand-exercise-science-heca-non-teaching-2026-27",
         "text": "BIOL 2014 or BIOL 2004"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE 2653"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE 2653"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
+        "text": "PE 2653"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-teaching-2025-26",
+        "text": "BIOL 2014"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-non-teaching-2025-26",
+        "text": "BIOL 2014 or BIOL 2004"
       }
     ],
     "corequisites": [],
@@ -59739,6 +61591,22 @@
       },
       {
         "program_id": "healthand-exercise-science-heca-non-teaching-2026-27",
+        "text": "BIOL 2014 or BIOL 2004"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE 2653"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE 2653"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-teaching-2025-26",
+        "text": "BIOL 2014"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-non-teaching-2025-26",
         "text": "BIOL 2014 or BIOL 2004"
       }
     ],
@@ -59914,6 +61782,22 @@
       },
       {
         "program_id": "healthand-exercise-science-heca-non-teaching-2026-27",
+        "text": "BIOL 2014, 3663, and 3661"
+      },
+      {
+        "program_id": "healthand-exercise-science-2025-26",
+        "text": "PE 2653, 3663, and 3661"
+      },
+      {
+        "program_id": "healthand-exercise-science-kinesiology-2025-26",
+        "text": "PE2653, PE3663. PE 3661"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-teaching-2025-26",
+        "text": "BIOL 2014, 3663, and 3661"
+      },
+      {
+        "program_id": "healthand-exercise-science-heca-non-teaching-2025-26",
         "text": "BIOL 2014, 3663, and 3661"
       }
     ],
@@ -60552,7 +62436,7 @@
     },
     "acts_equivalent": null,
     "pass_fail": false,
-    "gen_ed": false,
+    "gen_ed": true,
     "in_catalog": true,
     "warnings": [],
     "sources": [
@@ -61669,7 +63553,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -61681,7 +63565,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'FA only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -61749,7 +63633,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'SP only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -61761,7 +63645,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -61852,7 +63736,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
+        "note": "map note 'FA only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -61864,7 +63748,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'FA only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27)"
+        "note": "map note 'FA only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27)"
       },
       "SU": {
         "available": true,
@@ -61930,7 +63814,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27)"
+        "note": "map note 'SP only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27)"
       },
       "WI": {
         "available": false,
@@ -61942,7 +63826,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (agbu-pre-veterinary-2026-27, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (agbu-pre-veterinary-2025-26, agbu-pre-veterinary-2026-27, geoscience-bs-2025-26, geosciences-bs-2026-27, healthand-exercise-science-pre-allied-health-studies-2025-26, healthand-exercise-science-pre-allied-health-studies-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": true,
@@ -62170,6 +64054,73 @@
       "SU": []
     },
     "acts_equivalent": "PHYS 2044",
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "PHYS 2914": {
+    "code": "PHYS 2914",
+    "subject": "PHYS",
+    "number": "2914",
+    "title": "Honors Calculus Based Physics I",
+    "hours": 4.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Mathematical and Physical Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in SP (202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
     "pass_fail": false,
     "gen_ed": false,
     "in_catalog": true,
@@ -63764,6 +65715,10 @@
       {
         "program_id": "healthand-exercise-science-pre-allied-health-studies-2026-27",
         "text": "C in MATH and PSY 2003"
+      },
+      {
+        "program_id": "healthand-exercise-science-pre-allied-health-studies-2025-26",
+        "text": "C in MATH and PSY 2003"
       }
     ],
     "corequisites": [],
@@ -64208,6 +66163,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "PSY 2003"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "PSY 2003"
       }
     ],
@@ -68604,7 +70563,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (rehab-science-2026-27); ran 3x in FA (202470, 202570, 202670)"
+        "note": "map note 'SP only' (rehab-science-2025-26, rehab-science-2026-27); ran 3x in FA (202470, 202570, 202670)"
       },
       "WI": {
         "available": false,
@@ -68616,7 +70575,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (rehab-science-2026-27); ran 2x in SP (202520, 202620)"
+        "note": "map note 'SP only' (rehab-science-2025-26, rehab-science-2026-27); ran 2x in SP (202520, 202620)"
       },
       "SU": {
         "available": false,
@@ -68951,7 +70910,7 @@
         "available": false,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (rehab-science-2026-27)"
+        "note": "map note 'SP only' (rehab-science-2025-26, rehab-science-2026-27)"
       },
       "WI": {
         "available": false,
@@ -68963,7 +70922,7 @@
         "available": true,
         "confidence": "documented",
         "source": "degree_map",
-        "note": "map note 'SP only' (rehab-science-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
+        "note": "map note 'SP only' (rehab-science-2025-26, rehab-science-2026-27); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
         "available": false,
@@ -69094,6 +71053,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "RS 2003"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "RS 2003"
       }
     ],
@@ -69953,6 +71916,14 @@
       {
         "program_id": "criminal-justice-ba-2026-27",
         "text": "SOC 1003"
+      },
+      {
+        "program_id": "criminal-justice-as-2025-26",
+        "text": "SOC 1003"
+      },
+      {
+        "program_id": "criminal-justice-ba-2025-26",
+        "text": "SOC 1003"
       }
     ],
     "corequisites": [],
@@ -70443,6 +72414,75 @@
       ],
       "WI": [],
       "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "SOC 2083": {
+    "code": "SOC 2083",
+    "subject": "SOC",
+    "number": "2083",
+    "title": "Contemporary Theories of Sociology",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "Behavioral Sciences",
+    "description": "A survey course of sociological theories and theory development from the classical period to post-modernism.",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in SP (202420, 202520, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620"
+      ],
       "SU": []
     },
     "acts_equivalent": null,
@@ -71153,6 +73193,10 @@
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
         "text": "SOC 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
+        "text": "SOC 1003"
       }
     ],
     "corequisites": [],
@@ -71484,6 +73528,10 @@
     "map_prereq_notes": [
       {
         "program_id": "healthand-exercise-science-public-health-2026-27",
+        "text": "SOC 1003"
+      },
+      {
+        "program_id": "healthand-exercise-science-public-health-2025-26",
         "text": "SOC 1003"
       }
     ],
@@ -71836,6 +73884,142 @@
     "acts_equivalent": "SPAN 1023",
     "pass_fail": false,
     "gen_ed": true,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "SPAN 2013": {
+    "code": "SPAN 2013",
+    "subject": "SPAN",
+    "number": "2013",
+    "title": "Intermediate Spanish I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in FA (202370, 202670)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202670"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "SPAN 2023": {
+    "code": "SPAN 2023",
+    "subject": "SPAN",
+    "number": "2023",
+    "title": "Intermediate Spanish II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202420, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
     "in_catalog": true,
     "warnings": [],
     "sources": [
@@ -72281,6 +74465,10 @@
       {
         "program_id": "information-tech-network-security-bs-2026-27",
         "text": "MATH 2703 and C> in COMS 2203"
+      },
+      {
+        "program_id": "information-tech-prog-data-web-bs-2025-26",
+        "text": "MATH 1003 or higher"
       }
     ],
     "corequisites": [],
@@ -72667,27 +74855,27 @@
     "offered": {
       "FA": {
         "available": true,
-        "confidence": "derived",
-        "source": "schedule_history",
-        "note": "ran 4x in FA (202370, 202470, 202570, 202670)"
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only' (mathematics-2025-26); ran 4x in FA (202370, 202470, 202570, 202670)"
       },
       "WI": {
-        "available": true,
-        "confidence": "unknown",
-        "source": "schedule_history",
-        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only'"
       },
       "SP": {
-        "available": true,
-        "confidence": "derived",
-        "source": "schedule_history",
-        "note": "ran 4x in SP (202420, 202520, 202620, 202720)"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only' (mathematics-2025-26); ran 4x in SP (202420, 202520, 202620, 202720)"
       },
       "SU": {
-        "available": true,
-        "confidence": "unknown",
-        "source": "schedule_history",
-        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+        "available": false,
+        "confidence": "documented",
+        "source": "degree_map",
+        "note": "map note 'FA only'"
       }
     },
     "history": {

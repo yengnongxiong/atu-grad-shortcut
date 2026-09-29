@@ -65,6 +65,7 @@ class ExamAward:
     exam: str
     options: list[list[str]]
     source: str  # exam | planned_exam
+    program: str = "CLEP"
 
 
 @dataclass
@@ -98,15 +99,23 @@ class StudentState:
 
 
 def course_hours(dataset: Dataset, code: str, fallback: float = 3.0) -> float:
-    course = dataset.courses.get(code)
-    if course and course.get("hours") is not None:
-        return float(course["hours"])
+    for table in (dataset.courses, dataset.course_index):
+        entry = table.get(code)
+        if entry and entry.get("hours") is not None:
+            return float(entry["hours"])
     return fallback
 
 
 def course_title(dataset: Dataset, code: str) -> str:
-    course = dataset.courses.get(code)
-    return str(course["title"]) if course else code
+    for table in (dataset.courses, dataset.course_index):
+        entry = table.get(code)
+        if entry and entry.get("title"):
+            return str(entry["title"])
+    return code
+
+
+def course_known(dataset: Dataset, code: str) -> bool:
+    return code in dataset.courses or code in dataset.course_index
 
 
 def level_of(code: str) -> int:
@@ -132,9 +141,9 @@ def build_state(
         credit = Credit(
             code=done.code,
             title=course_title(dataset, done.code),
-            hours=course_hours(dataset, done.code),
+            hours=done.hours if done.hours is not None else course_hours(dataset, done.code),
             source=done.source,
-            grade=done.grade,
+            grade=None if done.source == "exam" else done.grade,
             level=level_of(done.code),
         )
         if credit.earned:
@@ -185,14 +194,16 @@ def exam_awards(dataset: Dataset, profile: StudentProfile, planned_exam_ids: lis
         ]
         if matching:
             best = max(matching, key=lambda r: r["min_score"])
-            awards.append(ExamAward(best["id"], best["exam"], best["awards"], "exam"))
+            awards.append(ExamAward(best["id"], best["exam"], best["awards"], "exam", best["program"]))
     by_id = {r["id"]: r for r in rows}
-    held = {a.exam.lower() for a in awards}
+    # AP and CLEP share exam names ("French Language"), so an exam is its program + name.
+    held = {(a.program, a.exam.lower()) for a in awards}
     for exam_id in planned_exam_ids:
         row = by_id.get(exam_id)
-        if row and row["exam"].lower() not in held:
-            awards.append(ExamAward(row["id"], row["exam"], row["awards"], "planned_exam"))
-    return awards
+        if row and (row["program"], row["exam"].lower()) not in held:
+            awards.append(ExamAward(row["id"], row["exam"], row["awards"], "planned_exam", row["program"]))
+    # Generic credit ("3 hours General Education Humanities") names no course: never guessed.
+    return [a for a in awards if a.options]
 
 
 # ----------------------------------------------------------------------------- matching

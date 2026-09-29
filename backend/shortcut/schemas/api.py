@@ -23,17 +23,27 @@ class PolicyOut(BaseModel):
     sources: list[SourceLink]
 
 
+class CatalogSnapshot(BaseModel):
+    title: str
+    url: str
+    catalog_edition: str
+    captured_at: str
+
+
 class MetaResponse(BaseModel):
     generated_at: str
     pipeline_mode: str
     newest_catalog_year: str
+    catalog_years: list[str] = Field(default_factory=list)
     catalog_status: str
     banner_status: str
     discovered_maps: int
     bachelor_programs: int
     tier_counts: dict[str, int]
+    tier_counts_by_year: dict[str, dict[str, int]] = Field(default_factory=dict)
     course_count: int
     sources: list[SourceLink]
+    catalog_snapshots: list[CatalogSnapshot] = Field(default_factory=list)
     policies: list[PolicyOut]
     assumptions: list[str]
     exam_programs: dict[str, str]
@@ -50,6 +60,8 @@ class ProgramListItem(BaseModel):
     catalog_year: str
     trust_tier: str
     issues: list[str]
+    major_key: str = ""  # the same major across catalog years
+    successors: list[str] = Field(default_factory=list)  # this major in newer catalogs
 
 
 class RequirementOut(BaseModel):
@@ -112,6 +124,7 @@ class ExamRow(BaseModel):
     min_score: float
     awards: list[list[str]]
     award_hours: list[float | None]
+    generic_credit: str | None = None  # e.g. "3 hours General Education Humanities" (no course named)
 
 
 class ExamTable(BaseModel):
