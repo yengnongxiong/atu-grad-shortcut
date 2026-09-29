@@ -112,6 +112,7 @@ class ExamRow(BaseModel):
     min_score: float
     awards: list[list[str]]
     award_hours: list[float | None]
+    generic_credit: str | None = None  # e.g. "3 hours General Education Humanities" (no course named)
 
 
 class ExamTable(BaseModel):

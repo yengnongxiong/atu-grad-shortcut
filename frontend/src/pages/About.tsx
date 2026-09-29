@@ -103,8 +103,9 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
           ))}
         </ul>
         <p className="mt-3 text-sm text-ink-soft">
-          Exam tables: {Object.entries(meta.exam_programs).map(([k, v]) => `${k} ${v}`).join(' · ')}. AP and IB course tables are only on
-          the catalog site, which couldn’t be reached when the data was built, so they aren’t guessed.
+          Exam tables: {Object.entries(meta.exam_programs).map(([k, v]) => `${k} ${v}`).join(' · ')}. The AP, CLEP, and IB tables come from
+          the 2026–27 catalog, saved from a regular browser because the catalog site blocks automated tools. Rows that award generic
+          credit (for example “3 hours General Education Humanities”) aren’t mapped to a course.
         </p>
       </section>
 

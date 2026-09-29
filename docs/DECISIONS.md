@@ -145,3 +145,17 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
 - **Decision:** A second tie-break charges each course, per regular semester it lands after its degree-map semester, `W_MAP_LATE × order_weight` (semester 1 courses weigh 9, semester 8 courses 2). Courses planned ahead of the map cost nothing, so students with credit still accelerate. `W_MAP_LATE = 50` makes a foundational course one semester late (450) cost more than one hour above the preferred load (400), while later-map courses still defer to the student's preference. Graduation dates are unchanged: the tie-break runs only after the earliest graduation term is fixed.
 - **Alternatives:** A larger weight on the existing "earliest-first" term (still front-loads by hours and fights map order); pinning specific courses to the first term (special cases, not a rule).
 - **Reason:** A plan an advisor reads should look like the map they know unless there's a reason to differ. Measured: all 74 programs still plan, and the CS plan with every lever solves in ~0.3 s.
+
+### D23 · Catalog snapshots replace the unreachable catalog (supersedes D6)
+- **Finding:** catalog.atu.edu still answers automated tools with an AWS WAF challenge (D5), but it loads normally in a regular browser.
+- **Decision:** The owner's browser opened each needed page once, and its tables and policy paragraphs were saved verbatim as JSON under `data/raw/catalog/`: AP (55 rows), CLEP (43), IB (82), and the credit, graduation, and load policy text. Each table's rows were checked against the live page by SHA-256. The pipeline parses these snapshots offline (`pipeline/catalog_tables.py`), and automated code never works around the challenge.
+  - Credit text maps to exact course codes only. "A & B" awards both, "A or B" is a choice, "6 hours from the following courses: …" becomes every combination worth 6 hours, and generic credit ("3 hours General Education Humanities") is kept as text and never mapped to a course.
+  - CLEP now comes from the catalog, not PRD Appendix B. The catalog adds 11 exams the appendix lacked (e.g. Principles of Microeconomics, Western Civilization I/II) and changes none; the diff is stored in `exams/clep.json`.
+  - An exam is identified by program and name together, because AP and CLEP share names ("French Language").
+  - AP and IB exams are offered as opportunities only before a student starts at ATU, since they're taken in high school.
+- **Alternatives:** Keep AP/IB unavailable (the owner's own record has AP credit); transcribe from third-party sites (not a source).
+
+### D24 · The exam-credit cap conflict, restated
+- **Finding:** Both 2026–27 catalog pages (institutional credit and graduation requirements) now say up to 50% of a degree may come from correspondence, extension, military, exam, or prior-learning credit. ATU's admissions credit page (www.atu.edu/admissions/credit.php, checked live 2026-09-29) still says no more than 30 semester hours. The v1 note said the graduation-requirements page was on the 30-hour side; it no longer is.
+- **Decision:** Keep the stricter 30 hours, labeled *conflicting*, with the note corrected. A plan should never look shorter than it is. The owner's own record uses 23 of those hours.
+- **Alternatives:** 50% (the catalog governs graduation requirements, but the admissions page is also current and official).

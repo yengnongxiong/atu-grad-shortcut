@@ -9,12 +9,12 @@
     "grad_reqs": {
       "title": "ATU catalog: Graduation Requirements",
       "url": "https://catalog.atu.edu/undergraduate/graduation-requirements/",
-      "retrieval": "PRD appendix (transcribed)"
+      "retrieval": "data/raw/catalog/policies.json (captured 2026-09-29 from the 2026-2027 catalog in a regular browser)"
     },
     "inst_credit": {
       "title": "ATU catalog: Institutional Credit",
       "url": "https://catalog.atu.edu/undergraduate/institutional-credit/",
-      "retrieval": "PRD appendix (transcribed)"
+      "retrieval": "data/raw/catalog/policies.json (captured 2026-09-29 from the 2026-2027 catalog in a regular browser)"
     },
     "admissions_credit": {
       "title": "ATU Admissions: Credit by Exam & International Baccalaureate",
@@ -221,7 +221,17 @@
         "cpl",
         "inst_credit"
       ],
-      "note": "CONFLICT: www.atu.edu/admissions/credit.php (and the catalog graduation-requirements page) say no more than 30 semester hours of correspondence, extension, military service, or credit by examination may apply toward a degree; www.atu.edu/cpl/students.php (and the catalog institutional-credit page) allow up to 50% of credit from those sources plus credit for prior learning. Shortcut uses the stricter 30 hours. Confirm with the registrar."
+      "note": "CONFLICT: the 2026-2027 catalog (institutional credit and graduation requirements pages) allows up to 50% of a degree from correspondence, extension, military service, credit by examination, or credit for prior learning; www.atu.edu/admissions/credit.php says no more than 30 semester hours of correspondence, extension, military service, or credit by examination. Shortcut uses the stricter 30 hours so a plan never looks shorter than it is. Confirm with the registrar."
+    },
+    "catalog_of_entry": {
+      "label": "Catalog you graduate under",
+      "value": "entry or any later catalog",
+      "unit": "",
+      "confidence": "documented",
+      "sources": [
+        "grad_reqs"
+      ],
+      "note": "Students may graduate under the catalog in force when they first enroll, or any subsequent catalog, with the approval of the department head and dean."
     },
     "exam_credit_gpa": {
       "label": "Exam credit and GPA",

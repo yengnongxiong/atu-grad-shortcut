@@ -53,12 +53,12 @@ def test_programs_list_and_detail() -> None:
     assert client().get("/api/programs/nope").status_code == 404
 
 
-def test_exams_endpoint_has_clep_and_unavailable_ap_ib() -> None:
+def test_exams_endpoint_has_clep_ap_and_ib_from_the_catalog() -> None:
     body = client().get("/api/exams").json()
     tables = {t["program"]: t for t in body["tables"]}
-    assert tables["CLEP"]["status"] == "available" and tables["CLEP"]["equivalencies"]
-    assert tables["AP"]["status"] == "unavailable"
-    assert tables["IB"]["status"] == "unavailable"
+    for program in ("CLEP", "AP", "IB"):
+        assert tables[program]["status"] == "available" and tables[program]["equivalencies"]
+        assert tables[program]["source"]["url"].startswith("https://catalog.atu.edu/")
 
 
 def test_personas_endpoint() -> None:

@@ -2,9 +2,9 @@
   "program": "CLEP",
   "status": "available",
   "source": {
-    "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+    "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
     "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-    "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+    "captured_at": "2026-09-29"
   },
   "equivalencies": [
     {
@@ -17,15 +17,17 @@
           "POLS 2003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "POLS 2003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -38,15 +40,34 @@
           "ENGL 2013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 2013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-analyzing-interpreting-literature-50",
+      "program": "CLEP",
+      "exam": "Analyzing & Interpreting Literature",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [],
       "warnings": []
     },
     {
@@ -62,16 +83,35 @@
           "BIOL 1114"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1014 or BIOL 1114",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         4.0,
         4.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-business-law-introductory-50",
+      "program": "CLEP",
+      "exam": "Business Law, Introductory",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [],
       "warnings": []
     },
     {
@@ -84,15 +124,17 @@
           "MATH 2914"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         4.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -105,15 +147,17 @@
           "CHEM 2124"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "CHEM 2124",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         4.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -127,15 +171,17 @@
           "CHEM 2134"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "CHEM 2124 & CHEM 2134",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         8.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -148,36 +194,17 @@
           "MATH 1113"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "MATH 1113",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
-      "warnings": []
-    },
-    {
-      "id": "clep-college-mathematics-50",
-      "program": "CLEP",
-      "exam": "College Mathematics",
-      "min_score": 50,
-      "awards": [
-        [
-          "MATH 1003"
-        ]
-      ],
-      "award_hours": [
-        3.0
-      ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -190,15 +217,17 @@
           "ENGL 1013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -212,15 +241,17 @@
           "ENGL 1023"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013 & ENGL 1023",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -233,15 +264,17 @@
           "ENGL 1013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -255,15 +288,57 @@
           "ENGL 1023"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013 & ENGL 1023",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-college-mathematics-50",
+      "program": "CLEP",
+      "exam": "College Mathematics",
+      "min_score": 50,
+      "awards": [
+        [
+          "MATH 1003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 1003",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "clep-educational-psychology-introductory-50",
+      "program": "CLEP",
+      "exam": "Educational Psychology, Introductory",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
       "warnings": []
     },
     {
@@ -276,15 +351,17 @@
           "ENGL 3413"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 3413",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -298,15 +375,34 @@
           "ENGL 3423"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ENGL 3413 & ENGL 3423",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-financial-accounting-50",
+      "program": "CLEP",
+      "exam": "Financial Accounting",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [],
       "warnings": []
     },
     {
@@ -319,15 +415,17 @@
           "FR 1013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "FR 1013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -341,15 +439,17 @@
           "FR 1023"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "FR 1013 & FR 1023",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -362,15 +462,17 @@
           "GER 1013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "GER 1013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -384,15 +486,17 @@
           "GER 1023"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "GER 1013 & GER 1023",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -405,15 +509,17 @@
           "HIST 2003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "HIST 2003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -426,15 +532,17 @@
           "HIST 2013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "HIST 2013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -447,15 +555,17 @@
           "PSY 3813"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "PSY 3813",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -468,15 +578,17 @@
           "HUM 2003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "HUM 2003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         null
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": [
         "HUM 2003 not found in the Banner catalog"
       ]
@@ -491,15 +603,17 @@
           "COMS 1003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "COMS 1003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -514,15 +628,17 @@
           "PHSC 1021"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1014, PHSC 1013, & PHSC 1021",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         8.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -535,15 +651,17 @@
           "MATH 1914"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "MATH 1914",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         4.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -556,15 +674,86 @@
           "ECON 2003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "ECON 2003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-principles-of-management-65",
+      "program": "CLEP",
+      "exam": "Principles of Management",
+      "min_score": 65,
+      "awards": [
+        [
+          "MGMT 3003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MGMT 3003",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "clep-principles-of-marketing-50",
+      "program": "CLEP",
+      "exam": "Principles of Marketing",
+      "min_score": 50,
+      "awards": [
+        [
+          "MKT 3043"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MKT 3043",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "clep-principles-of-microeconomics-50",
+      "program": "CLEP",
+      "exam": "Principles of Microeconomics",
+      "min_score": 50,
+      "awards": [
+        [
+          "ECON 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
       "warnings": []
     },
     {
@@ -577,15 +766,17 @@
           "PSY 2003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "PSY 2003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -598,15 +789,17 @@
           "HIST 1503"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "HIST 1503",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -620,15 +813,17 @@
           "HIST 1513"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "HIST 1503 & HIST 1513",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -641,15 +836,17 @@
           "SOC 1003"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "SOC 1003",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -662,15 +859,17 @@
           "SPAN 1013"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         3.0
       ],
-      "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
-        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
-      },
-      "confidence": "documented",
       "warnings": []
     },
     {
@@ -684,16 +883,103 @@
           "SPAN 1023"
         ]
       ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013 & SPAN 1023",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
       "award_hours": [
         6.0
       ],
+      "warnings": []
+    },
+    {
+      "id": "clep-spanish-with-writing-i-ii-50",
+      "program": "CLEP",
+      "exam": "Spanish with Writing I & II",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "6 hours General Elective",
+      "credit_text": "6 hours General Elective",
       "source": {
-        "title": "PRD Appendix B: ATU CLEP equivalencies (catalog 2026-27)",
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
         "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
-        "retrieval": "PRD appendix (transcribed); the CLEP page is on WAF-gated catalog.atu.edu"
+        "captured_at": "2026-09-29"
       },
       "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "clep-spanish-with-writing-i-ii-55",
+      "program": "CLEP",
+      "exam": "Spanish with Writing I & II",
+      "min_score": 55,
+      "awards": [],
+      "generic_credit": "12 hours General Elective",
+      "credit_text": "12 hours General Elective",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "clep-western-civilization-i-50",
+      "program": "CLEP",
+      "exam": "Western Civilization I",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Education Social Science",
+      "credit_text": "3 hours General Education Social Science",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "clep-western-civilization-ii-50",
+      "program": "CLEP",
+      "exam": "Western Civilization II",
+      "min_score": 50,
+      "awards": [],
+      "generic_credit": "3 hours General Education Social Science",
+      "credit_text": "3 hours General Education Social Science",
+      "source": {
+        "title": "College Level Examination Program (CLEP) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
       "warnings": []
     }
-  ]
+  ],
+  "appendix_b_diff": {
+    "added": [
+      "clep-analyzing-interpreting-literature-50",
+      "clep-business-law-introductory-50",
+      "clep-educational-psychology-introductory-50",
+      "clep-financial-accounting-50",
+      "clep-principles-of-management-65",
+      "clep-principles-of-marketing-50",
+      "clep-principles-of-microeconomics-50",
+      "clep-spanish-with-writing-i-ii-50",
+      "clep-spanish-with-writing-i-ii-55",
+      "clep-western-civilization-i-50",
+      "clep-western-civilization-ii-50"
+    ],
+    "removed": [],
+    "changed": []
+  }
 }

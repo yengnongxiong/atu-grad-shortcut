@@ -39,7 +39,7 @@ from pipeline.enrich_catalog import (
     prerequisite_closure,
     prune_retired,
 )
-from pipeline.exams import build_exam_tables
+from pipeline.exams import build_exam_tables, exam_codes
 from pipeline.fetch_banner import fetch_all
 from pipeline.parse_degree_map import ParsedMap, parse_degree_map
 from pipeline.programs import ProgramContext, build_program, list_category
@@ -168,13 +168,7 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         math_act_min=int(rules["math_placement_act_min"]["value"]),
         appendix_a=appendix_a_courses(),
     )
-    exam_codes = {
-        c
-        for row in read_json(MANUAL_DIR / "clep_appendix_b.json")["equivalencies"]
-        for option in row["awards"]
-        for c in option
-    }
-    wanted = set(seeds) | exam_codes | set(ctx.appendix_a) | set(rules["math_ladder"]["value"])
+    wanted = set(seeds) | exam_codes() | set(ctx.appendix_a) | set(rules["math_ladder"]["value"])
     wanted |= {c for c in banner.details}
     courses = {code: build_course(code, ctx) for code in sorted(wanted)}
     closure = prerequisite_closure(set(courses), courses)

@@ -20072,6 +20072,136 @@
       }
     ]
   },
+  "COMS 1403": {
+    "code": "COMS 1403",
+    "subject": "COMS",
+    "number": "1403",
+    "title": "Orientation to Computing, Information, and Technology",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "COMS 1411": {
+    "code": "COMS 1411",
+    "subject": "COMS",
+    "number": "1411",
+    "title": "Computer and Information Science Lab",
+    "hours": 1.0,
+    "hours_max": null,
+    "level": 1000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "COMS 2003": {
     "code": "COMS 2003",
     "subject": "COMS",
@@ -26600,6 +26730,75 @@
       }
     ]
   },
+  "ECON 2103": {
+    "code": "ECON 2103",
+    "subject": "ECON",
+    "number": "2103",
+    "title": "Honors Principles of Economics I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "ECON 3003": {
     "code": "ECON 3003",
     "subject": "ECON",
@@ -30964,6 +31163,75 @@
       }
     ]
   },
+  "ENGL 2023": {
+    "code": "ENGL 2023",
+    "subject": "ENGL",
+    "number": "2023",
+    "title": "Honors World Literature",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in SP (202420, 202520, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "ENGL 2043": {
     "code": "ENGL 2043",
     "subject": "ENGL",
@@ -31331,6 +31599,76 @@
     "acts_equivalent": null,
     "pass_fail": false,
     "gen_ed": true,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "ENGL 2183": {
+    "code": "ENGL 2183",
+    "subject": "ENGL",
+    "number": "2183",
+    "title": "Honors Introduction to Film",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 4x in SP (202420, 202520, 202620, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202520",
+        "202620",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
     "in_catalog": true,
     "warnings": [],
     "sources": [
@@ -34055,6 +34393,136 @@
       "FR 1014"
     ]
   },
+  "FR 2013": {
+    "code": "FR 2013",
+    "subject": "FR",
+    "number": "2013",
+    "title": "Intermediate French I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "FR 2023": {
+    "code": "FR 2023",
+    "subject": "FR",
+    "number": "2023",
+    "title": "Intermediate French II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "FW 1001": {
     "code": "FW 1001",
     "subject": "FW",
@@ -36370,6 +36838,74 @@
       }
     ]
   },
+  "GEOG 2023": {
+    "code": "GEOG 2023",
+    "subject": "GEOG",
+    "number": "2023",
+    "title": "Human Geography",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "History and Political Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202420, 202620)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202620"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "GEOG 2833": {
     "code": "GEOG 2833",
     "subject": "GEOG",
@@ -38009,6 +38545,138 @@
     ],
     "pruned_prerequisites": [
       "GER 1014"
+    ]
+  },
+  "GER 2013": {
+    "code": "GER 2013",
+    "subject": "GER",
+    "number": "2013",
+    "title": "Intermediate German I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in FA (202470)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202470"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "GER 2023": {
+    "code": "GER 2023",
+    "subject": "GER",
+    "number": "2023",
+    "title": "Intermediate German II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "default",
+        "note": "no evidence"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
     ]
   },
   "HA 1011": {
@@ -42595,6 +43263,76 @@
       }
     ]
   },
+  "HIST 2043": {
+    "code": "HIST 2043",
+    "subject": "HIST",
+    "number": "2043",
+    "title": "Honors United States History to 1877",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "History and Political Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in FA (202370, 202470)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in SP (202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470"
+      ],
+      "WI": [],
+      "SP": [
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "HIST 2153": {
     "code": "HIST 2153",
     "subject": "HIST",
@@ -44749,6 +45487,143 @@
     ],
     "pruned_prerequisites": [
       "JPN 1014"
+    ]
+  },
+  "JPN 2013": {
+    "code": "JPN 2013",
+    "subject": "JPN",
+    "number": "2013",
+    "title": "Intermediate Japanese I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 3x in FA (202370, 202470, 202570)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202470",
+        "202570"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "JPN 2023": {
+    "code": "JPN 2023",
+    "subject": "JPN",
+    "number": "2023",
+    "title": "Intermediate Japanese II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202520, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202520",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
     ]
   },
   "LAT 1013": {
@@ -62181,6 +63056,73 @@
       }
     ]
   },
+  "PHYS 2914": {
+    "code": "PHYS 2914",
+    "subject": "PHYS",
+    "number": "2914",
+    "title": "Honors Calculus Based Physics I",
+    "hours": 4.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Mathematical and Physical Sci",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "assumed",
+        "source": "default",
+        "note": "PRD §7.4 default"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 1x in SP (202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "PHYS 3003": {
     "code": "PHYS 3003",
     "subject": "PHYS",
@@ -71836,6 +72778,142 @@
     "acts_equivalent": "SPAN 1023",
     "pass_fail": false,
     "gen_ed": true,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "SPAN 2013": {
+    "code": "SPAN 2013",
+    "subject": "SPAN",
+    "number": "2013",
+    "title": "Intermediate Spanish I",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in FA (202370, 202670)"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SP in the Fall 2023-Spring 2027 schedule"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [
+        "202370",
+        "202670"
+      ],
+      "WI": [],
+      "SP": [],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "SPAN 2023": {
+    "code": "SPAN 2023",
+    "subject": "SPAN",
+    "number": "2023",
+    "title": "Intermediate Spanish II",
+    "hours": 3.0,
+    "hours_max": null,
+    "level": 2000,
+    "upper_division": false,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "description": "",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in FA in the Fall 2023-Spring 2027 schedule"
+      },
+      "WI": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in WI in the Fall 2023-Spring 2027 schedule"
+      },
+      "SP": {
+        "available": true,
+        "confidence": "derived",
+        "source": "schedule_history",
+        "note": "ran 2x in SP (202420, 202720)"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "unknown",
+        "source": "schedule_history",
+        "note": "not offered in SU in the Fall 2023-Spring 2027 schedule"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [
+        "202420",
+        "202720"
+      ],
+      "SU": []
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
     "in_catalog": true,
     "warnings": [],
     "sources": [

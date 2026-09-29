@@ -218,6 +218,7 @@ def exams(ds: DS) -> ExamsResponse:
                         min_score=float(r["min_score"]),
                         awards=r["awards"],
                         award_hours=r.get("award_hours", []),
+                        generic_credit=r.get("generic_credit"),
                     )
                     for r in table.get("equivalencies", [])
                 ],

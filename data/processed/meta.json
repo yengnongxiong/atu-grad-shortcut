@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:03:09+00:00",
+  "generated_at": "2026-09-29T16:31:58+00:00",
   "pipeline_mode": "offline",
   "newest_catalog_year": "2026-27",
   "ground_truth_program": "computer-science-2025-26",
@@ -13,7 +13,7 @@
     "needs_review": 13,
     "excluded": 8
   },
-  "course_count": 888,
+  "course_count": 904,
   "supporting_pages": {
     "admissions-credit.html": "ok",
     "registrar-registrationinfo.html": "ok",

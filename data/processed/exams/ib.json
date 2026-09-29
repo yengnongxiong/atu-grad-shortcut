@@ -1,10 +1,1917 @@
 {
   "program": "IB",
-  "status": "unavailable",
-  "note": "ATU's AP and IB course tables are published only on catalog.atu.edu, which could not be reached from the build environment (WAF challenge). They are not guessed; add them to data/manual/ once transcribed. The IB Diploma rule (24 gen-ed hours) is recorded in policies.json.",
+  "status": "available",
   "source": {
-    "title": "ATU catalog: IB credit",
-    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/"
+    "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+    "captured_at": "2026-09-29"
   },
-  "equivalencies": []
+  "equivalencies": [
+    {
+      "id": "ib-biology-standard-4",
+      "program": "IB",
+      "exam": "Biology/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1014",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-biology-higher-4",
+      "program": "IB",
+      "exam": "Biology/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "BIOL 1014"
+        ],
+        [
+          "BIOL 1114"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1014 or BIOL 1114",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0,
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-business-management-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Business Management/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-chemistry-standard-4",
+      "program": "IB",
+      "exam": "Chemistry/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "CHEM 2124"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "CHEM 2124",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-chemistry-higher-4",
+      "program": "IB",
+      "exam": "Chemistry/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "CHEM 2124",
+          "CHEM 2134"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "CHEM 2124 & CHEM 2134",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-computer-science-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Computer Science/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "COMS 1013",
+          "COMS 1011"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "COMS 1013 & COMS 1011",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-dance-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Dance/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-design-technology-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Design Technology/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-economics-standard-4",
+      "program": "IB",
+      "exam": "Economics/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-economics-standard-6",
+      "program": "IB",
+      "exam": "Economics/Standard",
+      "min_score": 6,
+      "awards": [
+        [
+          "ECON 2103"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2103",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-economics-higher-4",
+      "program": "IB",
+      "exam": "Economics/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "ECON 2003",
+          "ECON 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2003 & ECON 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-economics-higher-6",
+      "program": "IB",
+      "exam": "Economics/Higher",
+      "min_score": 6,
+      "awards": [
+        [
+          "ECON 2103",
+          "ECON 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ECON 2103 & ECON 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-english-standard-4",
+      "program": "IB",
+      "exam": "English/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "ENGL 1013"
+        ],
+        [
+          "ENGL 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013 or ENGL 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0,
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-english-standard-6",
+      "program": "IB",
+      "exam": "English/Standard",
+      "min_score": 6,
+      "awards": [
+        [
+          "ENGL 1013"
+        ],
+        [
+          "ENGL 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 1013 or ENGL 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0,
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-english-higher-4",
+      "program": "IB",
+      "exam": "English/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "ENGL 1013",
+          "ENGL 1023"
+        ],
+        [
+          "ENGL 1013",
+          "ENGL 2003"
+        ],
+        [
+          "ENGL 1013",
+          "ENGL 2013"
+        ],
+        [
+          "ENGL 1023",
+          "ENGL 2003"
+        ],
+        [
+          "ENGL 1023",
+          "ENGL 2013"
+        ],
+        [
+          "ENGL 2003",
+          "ENGL 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "6 hours from the following courses: ENGL 1013, ENGL 1023, ENGL 2003, ENGL 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-english-higher-6",
+      "program": "IB",
+      "exam": "English/Higher",
+      "min_score": 6,
+      "awards": [
+        [
+          "ENGL 1013",
+          "ENGL 1023"
+        ],
+        [
+          "ENGL 1013",
+          "ENGL 2183"
+        ],
+        [
+          "ENGL 1013",
+          "ENGL 2023"
+        ],
+        [
+          "ENGL 1023",
+          "ENGL 2183"
+        ],
+        [
+          "ENGL 1023",
+          "ENGL 2023"
+        ],
+        [
+          "ENGL 2183",
+          "ENGL 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "6 hours from the following courses: ENGL 1013, ENGL 1023, ENGL 2183, ENGL 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0,
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-environmental-systems-higher-4",
+      "program": "IB",
+      "exam": "Environmental Systems/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "BIOL 1004"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "BIOL 1004",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-film-studies-higher-4",
+      "program": "IB",
+      "exam": "Film Studies/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "ENGL 2173"
+        ],
+        [
+          "JOUR 2173"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ENGL 2173 or JOUR 2173",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0,
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-french-language-a-standard-4",
+      "program": "IB",
+      "exam": "French: Language A/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "FR 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 1013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-french-language-a-standard-5",
+      "program": "IB",
+      "exam": "French: Language A/Standard",
+      "min_score": 5,
+      "awards": [
+        [
+          "FR 1013",
+          "FR 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 1013 & FR 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-french-language-a-higher-4",
+      "program": "IB",
+      "exam": "French: Language A/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "FR 1013",
+          "FR 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 1013 & FR 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-french-language-a-higher-5",
+      "program": "IB",
+      "exam": "French: Language A/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "FR 1013",
+          "FR 1023",
+          "FR 2013",
+          "FR 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 1013, FR 1023, FR 2013, & FR 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-french-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "French: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "FR 1013",
+          "FR 1023",
+          "FR 2013",
+          "FR 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "FR 1013, FR 1023, FR 2013, & FR 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-geography-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Geography/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "GEOG 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GEOG 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-german-language-a-standard-4",
+      "program": "IB",
+      "exam": "German: Language A/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "GER 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 1013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-german-language-a-standard-5",
+      "program": "IB",
+      "exam": "German: Language A/Standard",
+      "min_score": 5,
+      "awards": [
+        [
+          "GER 1013",
+          "GER 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 1013 & GER 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-german-language-a-higher-4",
+      "program": "IB",
+      "exam": "German: Language A/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "GER 1013",
+          "GER 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 1013 & GER 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-german-language-a-higher-5",
+      "program": "IB",
+      "exam": "German: Language A/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "GER 1013",
+          "GER 1023",
+          "GER 2013",
+          "GER 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 1013, GER 1023, GER 2013, & GER 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-german-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "German: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "GER 1013",
+          "GER 1023",
+          "GER 2013",
+          "GER 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "GER 1013, GER 1023, GER 2013, & GER 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-global-politics-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Global Politics/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "POLS 2413"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "POLS 2413",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-greek-language-a-standard-4",
+      "program": "IB",
+      "exam": "Greek: Language A/Standard",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Education Humanities",
+      "credit_text": "3 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-greek-language-a-standard-5",
+      "program": "IB",
+      "exam": "Greek: Language A/Standard",
+      "min_score": 5,
+      "awards": [],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-greek-language-a-higher-4",
+      "program": "IB",
+      "exam": "Greek: Language A/Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-greek-language-a-higher-5",
+      "program": "IB",
+      "exam": "Greek: Language A/Higher",
+      "min_score": 5,
+      "awards": [],
+      "generic_credit": "12 hours General Education Humanities",
+      "credit_text": "12 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-greek-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Greek: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "12 hours General Education Humanities",
+      "credit_text": "12 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-u-s-standard-4",
+      "program": "IB",
+      "exam": "History (U.S.)/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "HIST 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-u-s-standard-6",
+      "program": "IB",
+      "exam": "History (U.S.)/Standard",
+      "min_score": 6,
+      "awards": [
+        [
+          "HIST 2043"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2043",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-u-s-higher-4",
+      "program": "IB",
+      "exam": "History (U.S.)/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "HIST 2003",
+          "HIST 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2003 & HIST 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-u-s-higher-6",
+      "program": "IB",
+      "exam": "History (U.S.)/Higher",
+      "min_score": 6,
+      "awards": [
+        [
+          "HIST 2043",
+          "HIST 2013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 2043 & HIST 2013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-world-standard-4",
+      "program": "IB",
+      "exam": "History (World)/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "HIST 1503"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1503",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-world-standard-6",
+      "program": "IB",
+      "exam": "History (World)/Standard",
+      "min_score": 6,
+      "awards": [
+        [
+          "HIST 1543"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1543",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-world-higher-4",
+      "program": "IB",
+      "exam": "History(World)/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "HIST 1503",
+          "HIST 1513"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1503 & HIST 1513",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-history-world-higher-6",
+      "program": "IB",
+      "exam": "History (World)/Higher",
+      "min_score": 6,
+      "awards": [
+        [
+          "HIST 1543",
+          "HIST 1513"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "HIST 1543 & HIST 1513",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-it-global-society-standard-or-higher-4",
+      "program": "IB",
+      "exam": "IT Global Society/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-japanese-language-a-standard-4",
+      "program": "IB",
+      "exam": "Japanese: Language A/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "JPN 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 1013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-japanese-language-a-standard-5",
+      "program": "IB",
+      "exam": "Japanese: Language A/Standard",
+      "min_score": 5,
+      "awards": [
+        [
+          "JPN 1013",
+          "JPN 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 1013 & JPN 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-japanese-language-a-higher-4",
+      "program": "IB",
+      "exam": "Japanese: Language A/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "JPN 1013",
+          "JPN 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 1013 & JPN 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-japanese-language-a-higher-5",
+      "program": "IB",
+      "exam": "Japanese: Language A/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "JPN 1013",
+          "JPN 1023",
+          "JPN 2013",
+          "JPN 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 1013, JPN 1023, JPN 2013, & JPN 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-japanese-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Japanese: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "JPN 1013",
+          "JPN 1023",
+          "JPN 2013",
+          "JPN 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "JPN 1013, JPN 1023, JPN 2013, & JPN 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-latin-language-a-standard-4",
+      "program": "IB",
+      "exam": "Latin: Language A/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "LAT 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "LAT 1013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-latin-language-a-standard-5",
+      "program": "IB",
+      "exam": "Latin: Language A/Standard",
+      "min_score": 5,
+      "awards": [
+        [
+          "LAT 1013",
+          "LAT 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "LAT 1013 & LAT 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-latin-language-a-higher-4",
+      "program": "IB",
+      "exam": "Latin: Language A/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "LAT 1013",
+          "LAT 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "LAT 1013 & LAT 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-latin-language-a-higher-5",
+      "program": "IB",
+      "exam": "Latin: Language A/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "LAT 1013",
+          "LAT 1023"
+        ]
+      ],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "LAT 1013, LAT 1023, & 6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-latin-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Latin: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "LAT 1013",
+          "LAT 1023"
+        ]
+      ],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "LAT 1013, LAT 1023, & 6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-literature-performance-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Literature & Performance/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "COMM 3063"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "COMM 3063",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-mandarin-language-a-standard-4",
+      "program": "IB",
+      "exam": "Mandarin: Language A/Standard",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Education Humanities",
+      "credit_text": "3 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-mandarin-language-a-standard-5",
+      "program": "IB",
+      "exam": "Mandarin: Language A/Standard",
+      "min_score": 5,
+      "awards": [],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-mandarin-language-a-higher-4",
+      "program": "IB",
+      "exam": "Mandarin: Language A/Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "6 hours General Education Humanities",
+      "credit_text": "6 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-mandarin-language-a-higher-5",
+      "program": "IB",
+      "exam": "Mandarin: Language A/Higher",
+      "min_score": 5,
+      "awards": [],
+      "generic_credit": "12 hours General Education Humanities",
+      "credit_text": "12 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-mandarin-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Mandarin: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "12 hours General Education Humanities",
+      "credit_text": "12 hours General Education Humanities",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-math-appl-interpretations-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Math Appl Interpretations/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 1113",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-math-appl-interpretations-standard-or-higher-5",
+      "program": "IB",
+      "exam": "Math Appl Interpretations/Standard or Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "MATH 1113",
+          "MATH 1203"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 1113 & MATH 1203",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-math-analyst-approach-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Math Analyst Approach/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-math-analyst-approach-higher-5",
+      "program": "IB",
+      "exam": "Math Analyst Approach/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "MATH 2914",
+          "MATH 2924"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MATH 2914 & MATH 2924",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-music-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Music/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "MUS 1713"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MUS 1713",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-music-higher-5",
+      "program": "IB",
+      "exam": "Music/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "MUS 1713",
+          "MUS 1723"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "MUS 1713 & MUS 1723",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-philosophy-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Philosophy/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "PHIL 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHIL 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-philosophy-standard-or-higher-6",
+      "program": "IB",
+      "exam": "Philosophy/Standard or Higher",
+      "min_score": 6,
+      "awards": [
+        [
+          "PHIL 2043"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHIL 2043",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-physics-standard-4",
+      "program": "IB",
+      "exam": "Physics/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "PHYS 2014"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2014",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        4.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-physics-higher-4",
+      "program": "IB",
+      "exam": "Physics/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "PHYS 2014",
+          "PHYS 2024"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PHYS 2014 & PHYS 2024",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        8.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-psychology-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Psychology/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "PSY 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "PSY 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-social-and-cultural-anthropology-standard-4",
+      "program": "IB",
+      "exam": "Social and Cultural Anthropology/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "ANTH 1213"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ANTH 1213",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-social-and-cultural-anthropology-higher-4",
+      "program": "IB",
+      "exam": "Social and Cultural Anthropology/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "ANTH 2003"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ANTH 2003",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-spanish-language-a-standard-4",
+      "program": "IB",
+      "exam": "Spanish: Language A/Standard",
+      "min_score": 4,
+      "awards": [
+        [
+          "SPAN 1013"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-spanish-language-a-standard-5",
+      "program": "IB",
+      "exam": "Spanish: Language A/Standard",
+      "min_score": 5,
+      "awards": [
+        [
+          "SPAN 1013",
+          "SPAN 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013 & SPAN 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-spanish-language-a-higher-4",
+      "program": "IB",
+      "exam": "Spanish: Language A/Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "SPAN 1013",
+          "SPAN 1023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013 & SPAN 1023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        6.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-spanish-language-a-higher-5",
+      "program": "IB",
+      "exam": "Spanish: Language A/Higher",
+      "min_score": 5,
+      "awards": [
+        [
+          "SPAN 1013",
+          "SPAN 1023",
+          "SPAN 2013",
+          "SPAN 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013, SPAN 1023, SPAN 2013, & SPAN 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-spanish-language-b-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Spanish: Language B/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "SPAN 1013",
+          "SPAN 1023",
+          "SPAN 2013",
+          "SPAN 2023"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "SPAN 1013, SPAN 1023, SPAN 2013, & SPAN 2023",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        12.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-sports-exercise-health-science-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Sports, Exercise Health Science/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    },
+    {
+      "id": "ib-theater-arts-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Theater Arts/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "TH 2273"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "TH 2273",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-visual-arts-standard-or-higher-4",
+      "program": "IB",
+      "exam": "Visual Arts/Standard or Higher",
+      "min_score": 4,
+      "awards": [
+        [
+          "ART 2123"
+        ]
+      ],
+      "generic_credit": null,
+      "credit_text": "ART 2123",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [
+        3.0
+      ],
+      "warnings": []
+    },
+    {
+      "id": "ib-world-religions-standard-or-higher-4",
+      "program": "IB",
+      "exam": "World Religions/Standard or Higher",
+      "min_score": 4,
+      "awards": [],
+      "generic_credit": "3 hours General Elective",
+      "credit_text": "3 hours General Elective",
+      "source": {
+        "title": "International Baccalaureate (IB) | Arkansas Tech University Academic Catalog",
+        "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+        "captured_at": "2026-09-29"
+      },
+      "confidence": "documented",
+      "award_hours": [],
+      "warnings": []
+    }
+  ]
 }

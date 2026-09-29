@@ -360,6 +360,8 @@ export interface ExamRow {
   min_score: number
   awards: string[][]
   award_hours: (number | null)[]
+  /** Credit that names no course, e.g. "3 hours General Education Humanities". */
+  generic_credit?: string | null
 }
 
 export interface ExamTable {

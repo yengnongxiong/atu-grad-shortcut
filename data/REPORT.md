@@ -1,6 +1,6 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T16:03:09+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T16:31:58+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 
@@ -8,7 +8,7 @@ Generated 2026-09-29T16:03:09+00:00 · mode `offline` · newest catalog year **2
 - Bachelor's programs ingested: **74** (8 associate/other maps listed below as excluded, 0 not ingested)
 - Auto-imported or better: **61 of 74 (82%)**
 - Cross-checked: **5** · Auto-imported: **56** · Needs review: **13**
-- Courses in courses.json: **888**
+- Courses in courses.json: **904**
 - catalog.atu.edu: not probed
 - Banner (public course catalog + class schedule): loaded committed snapshots (838 course details)
 

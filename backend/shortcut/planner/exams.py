@@ -53,13 +53,18 @@ def exam_opportunities(dataset: Dataset, request: PlanRequest) -> ExamOpportunit
     ctx = make_context(dataset, request)
     planned = list(request.levers.planned_exams)
     base = run_solve(ctx, ctx.levers, planned)
-    held = {e.exam.lower() for e in request.profile.exams}
+    held = {(e.program, e.exam.lower()) for e in request.profile.exams}
     cap = float(ctx.policies.exam_credit_cap_hours)
     exam_hours = base.state.exam_hours
     needed = needed_codes(base)
+    # AP and IB exams are taken in high school: offer them only before a student starts at ATU.
+    profile = request.profile
+    incoming = not profile.in_progress and not any(c.source == "atu" for c in profile.completed)
     rows: list[ExamOpportunity] = []
     for row in dataset.equivalencies():
-        if row["exam"].lower() in held or row["id"] in planned:
+        if (row["program"], row["exam"].lower()) in held or row["id"] in planned:
+            continue
+        if row["program"] in ("AP", "IB") and not incoming:
             continue
         candidate = _evaluate_row(ctx, row, needed, base, planned, exam_hours, cap)
         if candidate is not None:

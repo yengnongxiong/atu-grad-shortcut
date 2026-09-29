@@ -6,8 +6,8 @@ from shortcut.planner.profile import course_hours, course_known
 
 def test_lab_outside_program_data_keeps_its_catalog_hours() -> None:
     ds = load_dataset()
-    assert "COMS 1411" not in ds.courses
-    assert course_hours(ds, "COMS 1411") == 1.0
+    assert "WS 1091" not in ds.courses  # Fitness Walking/Jogging: in no program or exam table
+    assert course_hours(ds, "WS 1091") == 1.0
 
 
 def test_unknown_code_is_flagged() -> None:
