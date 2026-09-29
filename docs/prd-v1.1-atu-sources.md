@@ -1,6 +1,6 @@
 # Shortcut PRD v1.1: Build on ATU's own planning tools
 
-Owner: Yengnong Xiong · Status: Draft for review · 2026-09-29 · Extends [PRD.md](../PRD.md) v1
+Owner: Yengnong Xiong · Status: Shipped · 2026-09-29 · Extends [PRD.md](../PRD.md) v1 · Build plan: [plans/2026-09-29-atu-sources-plan.md](plans/2026-09-29-atu-sources-plan.md)
 
 ## 1. Why this release
 

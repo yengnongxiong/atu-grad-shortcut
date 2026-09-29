@@ -159,3 +159,14 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
 - **Finding:** Both 2026–27 catalog pages (institutional credit and graduation requirements) now say up to 50% of a degree may come from correspondence, extension, military, exam, or prior-learning credit. ATU's admissions credit page (www.atu.edu/admissions/credit.php, checked live 2026-09-29) still says no more than 30 semester hours. The v1 note said the graduation-requirements page was on the 30-hour side; it no longer is.
 - **Decision:** Keep the stricter 30 hours, labeled *conflicting*, with the note corrected. A plan should never look shorter than it is. The owner's own record uses 23 of those hours.
 - **Alternatives:** 50% (the catalog governs graduation requirements, but the admissions page is also current and official).
+
+### D25 · Degree Works import runs in the browser and compares, never overrides
+- **Decision:**
+  - A student's Degree Works audit (saved as PDF) is read with pdf.js in the browser. No file is uploaded, and the parser never reads the name or student ID into anything it returns. The parsed audit (codes, grades, terms, still-needed lines) lives in this tab's sessionStorage only, so the plan page can compare against it.
+  - The parser keys off stable tokens (course codes, the grade column, "Satisfied by:", "Still needed:") rather than positions. It handles wrapped term and title cells, page headers between a row and its exam line, "Choose from N of the following" blocks, and subject carry-forward in "PHSC 1013 or 1053" lists. Rows it can't read are listed, not dropped.
+  - `CE` rows become posted exam credit (`source: "exam"`, the audit's own hours), T-grades transfer credit, `IP` rows in progress, and `W` rows are left out. The Not Used section still counts toward hours and standing.
+  - The first ATU term is the earliest ATU-graded term, and the plan starts the term after the latest in-progress one.
+  - An overall GPA of 3.25+ sets the "expect 3.25+" preference, labeled as an assumption (overloads use the preceding term's GPA).
+  - The plan page compares Degree Works' still-needed lines with the plan ("agree on N of M"). Each planned item covers one line; a generic "3000–4000 level" line covers every upper-level elective slot. Differences are shown for the advisor, and Shortcut doesn't pick a winner.
+- **Verified:** Locally, against the owner's real audit (never committed): 27 courses, 77 credits applied, and 12 still-needed lines, matching Degree Works exactly. The committed test fixture is synthetic.
+- **Alternatives:** Server-side parsing with pdfplumber (would upload a document carrying the student's name and ID); asking students to retype their record (the source of the v1.1 exam-credit bugs).
