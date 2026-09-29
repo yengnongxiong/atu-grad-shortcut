@@ -83,7 +83,16 @@ Both gaps go away when the audit is the input instead of manual entry.
 - One anonymized line about the owner's own result (outcome only; no grades, GPA, or ID), updated after the fixes above.
 - Refreshed numbers and resume bullets.
 
-### 3.5 Repository hygiene and QA
+### 3.5 Visual design: minimal
+The owner's direction: very simple and minimal, so it doesn't read as generated.
+- **Color:** white background and black text only, with grays for borders and secondary text. The one exception is red, reserved for errors that block a plan. There are no accent colors for "critical" or "time saved"; those are shown in words and weight ("Critical" label, bold).
+- **Type:** one sans-serif family (the system UI font) for everything, and no display serif. Monospace only for course codes.
+- **Shape:** slightly rounded corners (6px) and 1px gray borders. No shadows, gradients, tinted panels, or colored top borders.
+- **Icons:** the logo mark is removed, and the wordmark is text. Other icons are kept only where a word wouldn't fit. Critical courses use a text label instead of the diamond icon, which still satisfies "color is never the only signal".
+- **Controls:** toggles and buttons are black and white. Tags become plain gray-bordered text.
+- The bottleneck graph and the advisor export follow the same palette.
+
+### 3.6 Repository hygiene and QA
 - Delete the merged branch and turn on auto-delete of head branches.
 - Remove the committed `.claude/settings.json`, which grants blanket tool permissions to anyone who clones the repo.
 - Git-ignore personal files (`data/personas/my-*.json` except the template, and `*audit*.pdf`).
