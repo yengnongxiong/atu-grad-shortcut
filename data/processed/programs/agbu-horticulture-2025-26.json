@@ -1691,5 +1691,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "agbu-horticulture",
+  "successors": [
+    "agbu-horticulture-2026-27"
+  ]
 }

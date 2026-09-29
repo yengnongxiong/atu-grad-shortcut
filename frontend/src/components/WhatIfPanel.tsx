@@ -4,13 +4,15 @@ import type { PlanRequest, PlanResponse, ProgramListItem, WhatIfEvent, WhatIfRes
 import { formatTerms } from '../format'
 import { ErrorBox, Spinner } from './ui'
 
-type EventType = WhatIfEvent['type']
+// "newer_catalog" is a change_major event aimed at this major's newer catalog year.
+type EventType = WhatIfEvent['type'] | 'newer_catalog'
 
 const LABELS: Record<EventType, string> = {
   fail: 'I fail a course',
   drop: 'I drop to fewer hours',
   skip: 'I skip a term',
   change_major: 'I change my major',
+  newer_catalog: 'I switch to a newer catalog',
 }
 
 export function WhatIfPanel({
@@ -37,6 +39,11 @@ export function WhatIfPanel({
   const [term, setTerm] = useState(regularTerms[1]?.id ?? regularTerms[0]?.id ?? '')
   const [hours, setHours] = useState(9)
   const [programId, setProgramId] = useState('')
+  const successors = useMemo(() => {
+    const ids = programs.find((p) => p.id === plan.program.id)?.successors ?? []
+    return ids.map((id) => programs.find((p) => p.id === id)).filter((p): p is ProgramListItem => Boolean(p))
+  }, [programs, plan.program.id])
+  const eventTypes = (Object.keys(LABELS) as EventType[]).filter((key) => key !== 'newer_catalog' || successors.length > 0)
   const [result, setResult] = useState<WhatIfResponse | null>(null)
   const [busy, setBusy] = useState(false)
   const [error, setError] = useState<string | null>(null)
@@ -45,9 +52,9 @@ export function WhatIfPanel({
     if (type === 'fail') return { type, code }
     if (type === 'drop') return { type, term, hours }
     if (type === 'skip') return { type, term }
-    return { type, program_id: programId }
+    return { type: 'change_major', program_id: programId }
   }
-  const ready = type === 'fail' ? Boolean(code) : type === 'change_major' ? Boolean(programId) : Boolean(term)
+  const ready = type === 'fail' ? Boolean(code) : type === 'change_major' || type === 'newer_catalog' ? Boolean(programId) : Boolean(term)
 
   const run = async () => {
     setBusy(true)
@@ -74,9 +81,18 @@ export function WhatIfPanel({
         <fieldset>
           <legend className="text-sm font-semibold">What if…</legend>
           <div className="mt-2 grid grid-cols-2 gap-2">
-            {(Object.keys(LABELS) as EventType[]).map((key) => (
+            {eventTypes.map((key) => (
               <label key={key} className={`cursor-pointer rounded-md border px-2 py-2 text-sm ${type === key ? 'border-ink bg-paper-deep font-semibold' : 'border-line'}`}>
-                <input type="radio" name="whatif-type" className="sr-only" checked={type === key} onChange={() => setType(key)} />
+                <input
+                  type="radio"
+                  name="whatif-type"
+                  className="sr-only"
+                  checked={type === key}
+                  onChange={() => {
+                    setType(key)
+                    setProgramId('')
+                  }}
+                />
                 {LABELS[key]}
               </label>
             ))}
@@ -126,6 +142,23 @@ export function WhatIfPanel({
                   </option>
                 ))}
             </select>
+          </label>
+        )}
+        {type === 'newer_catalog' && (
+          <label className="block text-sm">
+            <span className="font-semibold">Newer catalog</span>
+            <select aria-label="Newer catalog" className="input mt-1" value={programId} onChange={(e) => setProgramId(e.target.value)}>
+              <option value="">Choose…</option>
+              {successors.map((p) => (
+                <option key={p.id} value={p.id}>
+                  {p.listed_title} ({p.catalog_year})
+                </option>
+              ))}
+            </select>
+            <span className="mt-1 block text-xs text-muted">
+              ATU lets you graduate under the catalog in force when you entered or any later catalog, with your department head’s and dean’s approval.
+              This re-plans your same credits against the newer map.
+            </span>
           </label>
         )}
         <button type="submit" className="btn-primary w-full" disabled={!ready || busy}>

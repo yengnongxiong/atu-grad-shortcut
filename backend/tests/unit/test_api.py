@@ -110,3 +110,13 @@ def test_delay_impact_endpoint() -> None:
     assert response.status_code == 200
     data = response.json()
     assert data["explanation"] and data["before"]
+
+
+def test_programs_list_links_catalog_years() -> None:
+    items = {p["id"]: p for p in client().get("/api/programs").json()}
+    assert items["accounting-2025-26"]["major_key"] == items["accounting-2026-27"]["major_key"]
+    assert items["accounting-2025-26"]["successors"] == ["accounting-2026-27"]
+    assert set(items[CS]["successors"]) == {
+        "computer-science-ai-2026-27",
+        "computer-science-software-dev-2026-27",
+    }

@@ -1821,5 +1821,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "finance",
+  "successors": [
+    "finance-2026-27"
+  ]
 }

@@ -1672,5 +1672,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "agbu-animal-science",
+  "successors": [
+    "agbu-animal-science-2026-27"
+  ]
 }

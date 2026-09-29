@@ -2720,5 +2720,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "music-ed-keyboard-instr",
+  "successors": [
+    "music-ed-keyboard-instr-2026-27"
+  ]
 }

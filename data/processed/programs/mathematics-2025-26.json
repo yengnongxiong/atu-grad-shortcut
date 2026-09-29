@@ -1918,5 +1918,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "mathematics",
+  "successors": [
+    "mathematics-2026-27"
+  ]
 }

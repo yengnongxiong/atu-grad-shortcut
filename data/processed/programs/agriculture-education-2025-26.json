@@ -1685,5 +1685,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "agriculture-education",
+  "successors": [
+    "agriculture-education-2026-27"
+  ]
 }

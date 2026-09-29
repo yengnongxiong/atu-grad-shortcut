@@ -1858,5 +1858,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "mgmt-business-mgmt",
+  "successors": [
+    "mgmt-business-mgmt-2026-27"
+  ]
 }

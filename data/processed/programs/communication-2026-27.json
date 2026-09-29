@@ -2001,5 +2001,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "communication",
+  "successors": []
 }

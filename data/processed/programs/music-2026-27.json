@@ -2497,5 +2497,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "music",
+  "successors": []
 }

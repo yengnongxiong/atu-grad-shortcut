@@ -1828,5 +1828,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "cybersecurity-bs",
+  "successors": [
+    "cybersecurity-bs-2026-27"
+  ]
 }

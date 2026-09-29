@@ -1752,5 +1752,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "healthand-exercise-science-heca-non-teaching",
+  "successors": [
+    "healthand-exercise-science-heca-non-teaching-2026-27"
+  ]
 }

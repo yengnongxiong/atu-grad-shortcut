@@ -1704,5 +1704,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "rehab-science-therapeutic-rec",
+  "successors": [
+    "rehab-science-therapeutic-rec-2026-27"
+  ]
 }

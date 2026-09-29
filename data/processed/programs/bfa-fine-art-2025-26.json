@@ -2012,5 +2012,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "bfa-fine-art",
+  "successors": [
+    "bfa-fine-art-2026-27"
+  ]
 }

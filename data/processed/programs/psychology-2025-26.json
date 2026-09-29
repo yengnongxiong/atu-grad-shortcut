@@ -1986,5 +1986,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "psychology",
+  "successors": [
+    "psychology-2026-27"
+  ]
 }

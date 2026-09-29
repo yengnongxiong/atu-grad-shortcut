@@ -2717,5 +2717,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "music-education-vocal",
+  "successors": [
+    "music-education-vocal-2026-27"
+  ]
 }

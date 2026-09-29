@@ -1678,5 +1678,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "biology-biostats",
+  "successors": [
+    "biology-biostats-2026-27"
+  ]
 }

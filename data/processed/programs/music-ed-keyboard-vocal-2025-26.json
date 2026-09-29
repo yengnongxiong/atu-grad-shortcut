@@ -2730,5 +2730,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "music-ed-keyboard-vocal",
+  "successors": [
+    "music-ed-keyboard-vocal-2026-27"
+  ]
 }

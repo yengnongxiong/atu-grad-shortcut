@@ -2001,5 +2001,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "communication",
+  "successors": [
+    "communication-2026-27"
+  ]
 }

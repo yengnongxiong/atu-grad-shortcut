@@ -2121,5 +2121,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "communication-theatre-film",
+  "successors": [
+    "communication-theatre-film-2026-27"
+  ]
 }

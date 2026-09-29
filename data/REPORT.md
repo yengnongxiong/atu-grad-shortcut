@@ -1,6 +1,6 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T16:38:32+00:00 · mode `offline` · catalog years **2025-26, 2026-27** (newest 2026-27).
+Generated 2026-09-29T16:40:41+00:00 · mode `offline` · catalog years **2025-26, 2026-27** (newest 2026-27).
 
 ## Coverage
 

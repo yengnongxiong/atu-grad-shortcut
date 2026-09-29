@@ -1810,5 +1810,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "chem-biochemistry",
+  "successors": [
+    "chem-biochemistry-2026-27"
+  ]
 }

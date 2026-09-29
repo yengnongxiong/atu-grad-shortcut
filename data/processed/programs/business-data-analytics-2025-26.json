@@ -1787,5 +1787,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "business-data-analytics",
+  "successors": [
+    "business-data-analytics-2026-27"
+  ]
 }

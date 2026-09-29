@@ -1816,5 +1816,10 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "computer-science",
+  "successors": [
+    "computer-science-ai-2026-27",
+    "computer-science-software-dev-2026-27"
+  ]
 }

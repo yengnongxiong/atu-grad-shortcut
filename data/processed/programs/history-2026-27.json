@@ -1884,5 +1884,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "history",
+  "successors": []
 }

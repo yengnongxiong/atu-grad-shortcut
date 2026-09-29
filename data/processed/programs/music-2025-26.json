@@ -2497,5 +2497,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "music",
+  "successors": [
+    "music-2026-27"
+  ]
 }

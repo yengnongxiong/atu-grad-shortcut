@@ -1635,5 +1635,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "elementary-education",
+  "successors": [
+    "elementary-education-2026-27"
+  ]
 }

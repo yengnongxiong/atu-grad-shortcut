@@ -1780,5 +1780,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "geosciences-bs",
+  "successors": [
+    "geosciences-bs-2026-27"
+  ]
 }

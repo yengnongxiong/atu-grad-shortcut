@@ -1615,5 +1615,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "agbu-pre-veterinary",
+  "successors": [
+    "agbu-pre-veterinary-2026-27"
+  ]
 }

@@ -27,6 +27,7 @@ class MetaResponse(BaseModel):
     generated_at: str
     pipeline_mode: str
     newest_catalog_year: str
+    catalog_years: list[str] = Field(default_factory=list)
     catalog_status: str
     banner_status: str
     discovered_maps: int
@@ -50,6 +51,8 @@ class ProgramListItem(BaseModel):
     catalog_year: str
     trust_tier: str
     issues: list[str]
+    major_key: str = ""  # the same major across catalog years
+    successors: list[str] = Field(default_factory=list)  # this major in newer catalogs
 
 
 class RequirementOut(BaseModel):

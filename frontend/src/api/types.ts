@@ -275,6 +275,7 @@ export interface MetaResponse {
   generated_at: string
   pipeline_mode: string
   newest_catalog_year: string
+  catalog_years?: string[]
   catalog_status: string
   banner_status: string
   discovered_maps: number
@@ -298,6 +299,10 @@ export interface ProgramListItem {
   catalog_year: string
   trust_tier: TrustTier
   issues: string[]
+  /** The same major across catalog years */
+  major_key?: string
+  /** This major in newer catalogs */
+  successors?: string[]
 }
 
 export interface RequirementOut {

@@ -1713,5 +1713,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "biology-biomedical",
+  "successors": [
+    "biology-biomedical-2026-27"
+  ]
 }

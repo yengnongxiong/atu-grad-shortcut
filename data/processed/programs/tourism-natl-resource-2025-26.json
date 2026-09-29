@@ -1777,5 +1777,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "tourism-natl-resource",
+  "successors": [
+    "tourism-natl-resource-2026-27"
+  ]
 }

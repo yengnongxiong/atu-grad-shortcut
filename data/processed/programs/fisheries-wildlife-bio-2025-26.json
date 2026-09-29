@@ -1871,5 +1871,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "fisheries-wildlife-bio",
+  "successors": [
+    "fisheries-wildlife-bio-2026-27"
+  ]
 }

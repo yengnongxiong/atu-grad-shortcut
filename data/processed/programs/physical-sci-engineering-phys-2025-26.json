@@ -1857,5 +1857,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "engineering-phys",
+  "successors": [
+    "engineering-phys-2026-27"
+  ]
 }

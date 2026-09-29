@@ -1870,5 +1870,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "history",
+  "successors": [
+    "history-2026-27"
+  ]
 }

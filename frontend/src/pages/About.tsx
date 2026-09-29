@@ -64,7 +64,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
         <h2 id="coverage" className="text-2xl font-semibold">Coverage</h2>
         <dl className="mt-4 grid gap-3 sm:grid-cols-4">
           {[
-            ['Catalog year', meta.newest_catalog_year],
+            ['Catalog years', (meta.catalog_years ?? [meta.newest_catalog_year]).join(', ')],
             ['Last pipeline run', new Date(meta.generated_at).toLocaleString()],
             ['Degree maps found', String(meta.discovered_maps)],
             ['Courses', String(meta.course_count)],

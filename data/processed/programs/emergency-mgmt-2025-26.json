@@ -1822,5 +1822,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "emergency-management",
+  "successors": [
+    "emergency-management-2026-27"
+  ]
 }

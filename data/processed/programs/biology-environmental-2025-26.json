@@ -1679,5 +1679,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "biology-environmental",
+  "successors": [
+    "biology-environmental-2026-27"
+  ]
 }

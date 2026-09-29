@@ -1897,5 +1897,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "chemistry-general",
+  "successors": [
+    "chemistry-general-2026-27"
+  ]
 }

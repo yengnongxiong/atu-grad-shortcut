@@ -8,6 +8,7 @@ import type {
   ProgramListItem,
   StudentProfile,
 } from '../api/types'
+import { catalogYearFor, versionFor, versionsOf } from '../catalogYear'
 import { ExamEntry } from '../components/ExamEntry'
 import { OtherCourses } from '../components/OtherCourses'
 import { ProgramPicker } from '../components/ProgramPicker'
@@ -121,7 +122,7 @@ export function Setup({
   )
 }
 
-function StepMajor({
+export function StepMajor({
   profile,
   programs,
   detail,
@@ -134,6 +135,8 @@ function StepMajor({
 }) {
   const terms = useMemo(() => termOptions(2023, 2030), [])
   const selected = programs.find((p) => p.id === profile.program_id)
+  const versions = versionsOf(programs, profile.program_id)
+  const entryYear = catalogYearFor(profile.first_term)
   return (
     <div className="space-y-6">
       <div>
@@ -145,13 +148,41 @@ function StepMajor({
           </p>
         )}
         <div className="mt-3">
-          <ProgramPicker programs={programs} value={profile.program_id} onSelect={(p) => update({ program_id: p.id, completed: [], in_progress: [] })} />
+          <ProgramPicker
+            programs={programs}
+            value={profile.program_id}
+            preferredYear={entryYear}
+            onSelect={(p) => update({ program_id: p.id, completed: [], in_progress: [] })}
+          />
         </div>
       </div>
+      {versions.length > 1 && (
+        <label className="block text-sm">
+          <span className="font-semibold">Catalog year</span>
+          <select aria-label="Catalog year" className="input mt-1 max-w-xs" value={profile.program_id} onChange={(e) => update({ program_id: e.target.value })}>
+            {versions.map((v) => (
+              <option key={v.id} value={v.id}>
+                {v.catalog_year} degree map{v.catalog_year === entryYear ? ' (the year you started)' : ''}
+              </option>
+            ))}
+          </select>
+          <span className="mt-1 block text-xs text-muted">
+            Use the map for the year you started. Your catalog year is on your Degree Works audit. ATU lets you graduate under that catalog or any
+            later one, with your department head’s and dean’s approval.
+          </span>
+        </label>
+      )}
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm">
           <span className="font-semibold">First term at ATU</span>
-          <select className="input mt-1" value={profile.first_term} onChange={(e) => update({ first_term: e.target.value })}>
+          <select
+            aria-label="First term at ATU"
+            className="input mt-1"
+            value={profile.first_term}
+            onChange={(e) =>
+              update({ first_term: e.target.value, program_id: versionFor(programs, profile.program_id, catalogYearFor(e.target.value)) })
+            }
+          >
             {terms.map((t) => (
               <option key={t.id} value={t.id}>
                 {t.label}

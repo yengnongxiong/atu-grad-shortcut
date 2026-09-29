@@ -1756,5 +1756,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "rehab-science",
+  "successors": [
+    "rehab-science-2026-27"
+  ]
 }

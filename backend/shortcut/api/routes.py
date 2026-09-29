@@ -95,6 +95,7 @@ def meta(ds: DS) -> MetaResponse:
         generated_at=m["generated_at"],
         pipeline_mode=m["pipeline_mode"],
         newest_catalog_year=m["newest_catalog_year"],
+        catalog_years=m.get("catalog_years", [m["newest_catalog_year"]]),
         catalog_status=m["catalog_status"],
         banner_status=m["banner_status"],
         discovered_maps=m["discovered_maps"],
@@ -122,6 +123,8 @@ def programs(ds: DS) -> list[ProgramListItem]:
             catalog_year=p["catalog_year"],
             trust_tier=p["trust_tier"],
             issues=[f"{v['check']}: {v['detail']}" for v in p.get("validation", []) if not v["passed"]],
+            major_key=p.get("major_key", ""),
+            successors=p.get("successors", []),
         )
         for p in ds.programs.values()
     ]

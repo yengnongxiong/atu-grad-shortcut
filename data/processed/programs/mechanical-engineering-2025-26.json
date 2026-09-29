@@ -1863,5 +1863,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "mechanical-engineering",
+  "successors": [
+    "mechanical-engineering-2026-27"
+  ]
 }

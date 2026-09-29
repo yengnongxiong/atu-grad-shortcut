@@ -1703,5 +1703,7 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "nursing-bsn",
+  "successors": []
 }

@@ -1796,5 +1796,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "art-education",
+  "successors": [
+    "art-education-2026-27"
+  ]
 }

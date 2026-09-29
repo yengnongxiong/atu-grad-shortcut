@@ -1775,5 +1775,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "agriculture-business",
+  "successors": [
+    "agriculture-business-2026-27"
+  ]
 }

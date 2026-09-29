@@ -1846,5 +1846,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "information-tech-network-security-bs",
+  "successors": [
+    "information-tech-network-security-bs-2026-27"
+  ]
 }

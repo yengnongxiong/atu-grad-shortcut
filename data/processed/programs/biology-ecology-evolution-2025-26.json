@@ -1715,5 +1715,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "biology-ecology-evolution",
+  "successors": [
+    "biology-ecology-evolution-2026-27"
+  ]
 }

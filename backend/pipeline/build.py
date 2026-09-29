@@ -17,6 +17,7 @@ from typing import Any
 import httpx
 
 from pipeline.banner import BannerClient
+from pipeline.catalog_years import link_catalog_years
 from pipeline.codes import code_groups, extract_codes, strip_acts
 from pipeline.common import (
     MANUAL_DIR,
@@ -235,6 +236,7 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         programs.append(program)
         report_rows.append(_report_row(ref, program, tier, results, ""))
 
+    link_catalog_years(programs, read_json(MANUAL_DIR / "catalog_successors.json")["successors"])
     exams = build_exam_tables(courses)
     tier_counts = Counter(r["tier"] for r in report_rows)
     meta = {

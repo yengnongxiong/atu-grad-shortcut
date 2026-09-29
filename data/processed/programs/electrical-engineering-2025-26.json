@@ -1815,5 +1815,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "electrical-engineering",
+  "successors": [
+    "electrical-engineering-2026-27"
+  ]
 }

@@ -1697,5 +1697,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "nursing-bsn",
+  "successors": [
+    "nursing-bsn-2026-27"
+  ]
 }

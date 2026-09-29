@@ -1796,5 +1796,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "tourism",
+  "successors": [
+    "tourism-2026-27"
+  ]
 }

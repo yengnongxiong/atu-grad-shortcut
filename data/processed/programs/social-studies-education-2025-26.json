@@ -1547,5 +1547,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "social-studies-education",
+  "successors": [
+    "social-studies-education-2026-27"
+  ]
 }

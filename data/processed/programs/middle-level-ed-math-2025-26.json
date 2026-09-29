@@ -1712,5 +1712,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "middle-level-ed-math",
+  "successors": [
+    "middle-level-ed-math-2026-27"
+  ]
 }

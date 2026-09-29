@@ -1795,5 +1795,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "accounting",
+  "successors": [
+    "accounting-2026-27"
+  ]
 }

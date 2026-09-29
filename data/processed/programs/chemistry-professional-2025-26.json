@@ -1735,5 +1735,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "chemistry-professional",
+  "successors": [
+    "chemistry-professional-2026-27"
+  ]
 }

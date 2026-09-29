@@ -1871,5 +1871,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "political-science",
+  "successors": [
+    "political-science-2026-27"
+  ]
 }

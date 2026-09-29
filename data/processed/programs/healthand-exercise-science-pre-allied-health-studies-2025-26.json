@@ -1670,5 +1670,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "healthand-exercise-science-pre-allied-health-studies",
+  "successors": [
+    "healthand-exercise-science-pre-allied-health-studies-2026-27"
+  ]
 }

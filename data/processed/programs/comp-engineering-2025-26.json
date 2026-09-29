@@ -1785,5 +1785,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "comp-engineering",
+  "successors": [
+    "comp-engineering-2026-27"
+  ]
 }

@@ -1963,5 +1963,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "bfa-game-design",
+  "successors": [
+    "bfa-game-design-2026-27"
+  ]
 }

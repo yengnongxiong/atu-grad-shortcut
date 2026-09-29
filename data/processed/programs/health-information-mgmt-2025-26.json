@@ -1858,5 +1858,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "health-information-mgmt",
+  "successors": [
+    "health-information-mgmt-2026-27"
+  ]
 }

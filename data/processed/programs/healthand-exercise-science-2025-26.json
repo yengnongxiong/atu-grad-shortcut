@@ -1720,5 +1720,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "healthand-exercise-science",
+  "successors": [
+    "healthand-exercise-science-2026-27"
+  ]
 }

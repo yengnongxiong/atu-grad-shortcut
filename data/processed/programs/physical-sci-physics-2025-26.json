@@ -1885,5 +1885,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "physics",
+  "successors": [
+    "physics-2026-27"
+  ]
 }

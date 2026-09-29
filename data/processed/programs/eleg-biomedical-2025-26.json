@@ -1828,5 +1828,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "eleg-biomedical",
+  "successors": [
+    "eleg-biomedical-2026-27"
+  ]
 }

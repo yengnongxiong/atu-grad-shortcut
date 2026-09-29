@@ -2001,5 +2001,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "english",
+  "successors": [
+    "english-2026-27"
+  ]
 }

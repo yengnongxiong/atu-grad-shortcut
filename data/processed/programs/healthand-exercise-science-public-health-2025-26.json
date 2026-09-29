@@ -1677,5 +1677,9 @@
         ]
       }
     ]
-  }
+  },
+  "major_key": "healthand-exercise-science-public-health",
+  "successors": [
+    "healthand-exercise-science-public-health-2026-27"
+  ]
 }
