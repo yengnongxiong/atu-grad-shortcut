@@ -103,7 +103,7 @@ data/raw  ── pipeline ──▶  data/processed/*.json  ──▶  FastAPI (
 - The plan state lives in the URL (`?s=`, shareable) and in localStorage.
 - It's keyboard navigable, targets WCAG AA contrast, and never uses color as the only signal: critical courses carry an icon and text too.
 
-**Performance.** A full CS plan with lever attribution across all 64 lever combinations takes a median 0.85 s and p95 2.43 s. The PRD target is p95 under 3 s.
+**Performance.** A full CS plan with lever attribution, measured over all 64 lever combinations in the build container, takes a median 0.8 s and p95 2.2 s. The PRD target is p95 under 3 s.
 
 ## Data and trust
 
@@ -140,5 +140,5 @@ The tiers mean:
 
 > Built **Shortcut**, a graduation planner for Arkansas Tech students.
 > - A Python pipeline turns 82 degree-map PDFs and 836 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 78% auto-imported or better).
-> - An OR-Tools CP-SAT scheduler returns the fastest realistic term-by-term plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.4 s.
-> - Stack: FastAPI, React/TypeScript, 91 automated tests, Docker, and GitHub Actions CI.
+> - An OR-Tools CP-SAT scheduler returns the fastest realistic term-by-term plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.2 s.
+> - Stack: FastAPI, React/TypeScript, 95 automated tests, Docker, and GitHub Actions CI.
