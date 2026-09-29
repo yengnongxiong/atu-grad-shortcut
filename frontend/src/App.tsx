@@ -9,7 +9,7 @@ import { Landing } from './pages/Landing'
 import { PlanPage } from './pages/PlanPage'
 import { Setup } from './pages/Setup'
 import { navigate, useRoute } from './router'
-import { type StoredAudit, loadAudit, saveAudit } from './state/audit'
+import { type StoredAudit, auditFor, loadAudit, recordKey, saveAudit } from './state/audit'
 import { SHARE_PARAM, decodeRequest, defaultRequest, encodeRequest, loadRequest, saveRequest } from './state/profile'
 
 function initialRequest(): PlanRequest | null {
@@ -78,7 +78,7 @@ export default function App() {
           programs={programs}
           loading={loading}
           onApply={(next, audit) => {
-            const stored = { programId: next.profile.program_id, audit }
+            const stored = { programId: next.profile.program_id, recordKey: recordKey(next.profile), audit }
             setImported(stored)
             saveAudit(stored)
             openPlan(next)
@@ -91,7 +91,7 @@ export default function App() {
           request={request}
           programs={programs}
           onChange={update}
-          audit={imported && imported.programId === request?.profile.program_id ? imported.audit : null}
+          audit={request ? auditFor(imported, request.profile) : null}
         />
       )}
       {route === 'about' && <About programs={programs} />}
