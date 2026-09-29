@@ -223,8 +223,9 @@ def attribute_levers(ctx: PlanContext, full: Outcome, standard: Outcome) -> list
     full_grad = full.graduation
     bound = standard.result.graduation_index if standard.result.feasible else None
     eligible = _overload_eligible(ctx)
+    all_meta = lever_meta(ctx.policies)
     for lever in (*LEVER_IDS, "planned_exams"):
-        meta = LEVER_META[lever]
+        meta = all_meta[lever]
         enabled = bool(full.planned_exams) if lever == "planned_exams" else bool(getattr(ctx.levers, lever))
         saved: float | None = None
         months: int | None = None
@@ -248,7 +249,7 @@ def attribute_levers(ctx: PlanContext, full: Outcome, standard: Outcome) -> list
             available = False
             note = (
                 f"Needs a {ctx.policies.overload_gpa_min:.2f}+ GPA in the preceding term: check "
-                "'I expect to keep a 3.25+ GPA' or enter your last-term GPA."
+                f"'I expect to keep a {ctx.policies.overload_gpa_min:.2f}+ GPA' or enter your last-term GPA."
             )
         results.append(
             LeverResult(
@@ -262,62 +263,84 @@ def attribute_levers(ctx: PlanContext, full: Outcome, standard: Outcome) -> list
                 approval=meta["approval"],
                 workload=meta["workload"],
                 note=note,
+                policy_key=meta.get("policy_key"),
             )
         )
     return results
 
 
-LEVER_META: dict[str, dict[str, Any]] = {
-    "heavier_terms": {
-        "label": "Heavier regular terms (up to 18 hrs)",
-        "cost": "none",
-        "approval": "none",
-        "workload": "up to 18 hrs/term: about 54–72 hrs/week",
-        "note": "No petition needed up to 18 hours.",
-    },
-    "summer": {
-        "label": "Summer terms",
-        "cost": "extra tuition",
-        "approval": "none",
-        "workload": "compressed sessions (May, June/July, 10-week, July/Aug)",
-        "note": "Planning cap per summer from policies.json.",
-    },
-    "winter": {
-        "label": "Winter intersession",
-        "cost": "extra tuition",
-        "approval": "none",
-        "workload": "one intensive course over about three weeks",
-        "note": "Mid-December to New Year's.",
-    },
-    "overload": {
-        "label": "Overloads (19–21 hrs)",
-        "cost": "none",
-        "approval": "dean petition",
-        "workload": "19–21 hrs/term: about 57–84 hrs/week",
-        "note": "Dean petition; 3.25 GPA in the preceding term on 12+ ATU hours.",
-    },
-    "aggressive_overload": {
-        "label": "Aggressive overloads (22–24 hrs)",
-        "cost": "none",
-        "approval": "dean petition + Academic Affairs",
-        "workload": "22–24 hrs/term: about 66–96 hrs/week",
-        "note": "Loads over 21 hours are flagged for Academic Affairs review.",
-    },
-    "transfer_summer": {
-        "label": "Transfer summer courses (Arkansas public college)",
-        "cost": "extra tuition",
-        "approval": "advisor",
-        "workload": "summer course elsewhere; ACTS-equivalent lower-level only",
-        "note": "Transfer hours count toward total hours, not ATU residency.",
-    },
-    "planned_exams": {
-        "label": "Planned exams (from Exam opportunities)",
-        "cost": "exam fee",
-        "approval": "none",
-        "workload": "self-study for each exam",
-        "note": "Exam credit doesn't count in GPA.",
-    },
-}
+def lever_meta(policies: Policies) -> dict[str, dict[str, Any]]:
+    """Lever copy for the plan page, with every number read from policies.json."""
+    regular, review, ceiling = (
+        policies.regular_load_max,
+        policies.overload_review_threshold,
+        policies.overload_ceiling,
+    )
+    low, high = policies.workload_per_credit
+
+    def workload(first: int, last: int) -> str:
+        span = f"up to {last}" if first == last else f"{first}–{last}"
+        return f"{span} hrs/term: about {first * (1 + low)}–{last * (1 + high)} hrs/week"
+
+    return {
+        "heavier_terms": {
+            "label": f"Heavier regular terms (up to {regular} hrs)",
+            "cost": "none",
+            "approval": "none",
+            "workload": workload(regular, regular),
+            "note": f"No petition needed up to {regular} hours.",
+            "policy_key": "regular_load_max",
+        },
+        "summer": {
+            "label": "Summer terms",
+            "cost": "extra tuition",
+            "approval": "none",
+            "workload": "compressed sessions (May, June/July, 10-week, July/Aug)",
+            "note": "Planning cap per summer from policies.json.",
+            "policy_key": "summer_max_load",
+        },
+        "winter": {
+            "label": "Winter intersession",
+            "cost": "extra tuition",
+            "approval": "none",
+            "workload": "one intensive course over about three weeks",
+            "note": "Mid-December to New Year's.",
+            "policy_key": "winter_max_hours",
+        },
+        "overload": {
+            "label": f"Overloads ({regular + 1}–{review} hrs)",
+            "cost": "none",
+            "approval": "dean petition",
+            "workload": workload(regular + 1, review),
+            "note": (
+                f"Dean petition; {policies.overload_gpa_min:.2f} GPA in the preceding term on "
+                f"{policies.overload_prior_term_min_hours}+ ATU hours."
+            ),
+            "policy_key": "overload_review_threshold",
+        },
+        "aggressive_overload": {
+            "label": f"Aggressive overloads ({review + 1}–{ceiling} hrs)",
+            "cost": "none",
+            "approval": "dean petition + Academic Affairs",
+            "workload": workload(review + 1, ceiling),
+            "note": f"Loads over {review} hours are flagged for Academic Affairs review.",
+            "policy_key": "overload_ceiling",
+        },
+        "transfer_summer": {
+            "label": "Transfer summer courses (Arkansas public college)",
+            "cost": "extra tuition",
+            "approval": "advisor",
+            "workload": "summer course elsewhere; ACTS-equivalent lower-level only",
+            "note": "Transfer hours count toward total hours, not ATU residency.",
+        },
+        "planned_exams": {
+            "label": "Planned exams (from Exam opportunities)",
+            "cost": "exam fee",
+            "approval": "none",
+            "workload": "self-study for each exam",
+            "note": "Exam credit doesn't count in GPA.",
+        },
+    }
 
 
 def _overload_eligible(ctx: PlanContext) -> bool:
@@ -491,7 +514,7 @@ def pace_note(
 ) -> str | None:
     """Explain what fixes the date when the levers that are on don't move it (PRD P4: say so
     honestly), or when a student is behind the degree map."""
-    enabled = any(getattr(ctx.levers, name) for name in LEVER_META if hasattr(ctx.levers, name))
+    enabled = any(getattr(ctx.levers, name) for name in LEVER_IDS)
     enabled = enabled or bool(ctx.request.levers.planned_exams)
     behind = sooner_than_map is not None and sooner_than_map < -0.01
     if not (enabled or behind):
@@ -788,8 +811,8 @@ def policy_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]
                 severity="error",
                 category="policy",
                 message=f"{outcome.state.exam_hours:g} hours of exam credit exceed the "
-                f"{cap}-hour cap. The cap itself is disputed between ATU pages "
-                "(30 hours vs. 50% of the degree); confirm with the registrar.",
+                f"{cap}-hour cap. ATU pages disagree on the cap itself (see the policy); "
+                "confirm with the registrar.",
                 source=_policy_source(ctx, "exam_credit_cap_hours"),
                 policy_key="exam_credit_cap_hours",
             )
@@ -1000,8 +1023,8 @@ def base_assumptions(ctx: PlanContext, outcome: Outcome) -> list[str]:
         f"{policies.winter_max_courses} course (≤{policies.winter_max_hours} hours) for planning.",
         "Class standing counts exam and transfer hours (confirm with the registrar).",
         "Elective slots can be filled by any qualifying course; approved electives need advisor sign-off.",
-        "Upper-level elective slots are placed after junior standing (60 hours), since most 3000-4000 "
-        "courses require it.",
+        f"Upper-level elective slots are placed after junior standing "
+        f"({policies.standing_thresholds['JR']} hours), since most 3000-4000 courses require it.",
     ]
     if ctx.mode == "conservative":
         items.append(

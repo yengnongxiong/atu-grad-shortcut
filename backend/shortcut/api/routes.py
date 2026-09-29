@@ -8,6 +8,7 @@ from fastapi import APIRouter, Depends, HTTPException
 
 from shortcut.data.loader import Dataset, load_dataset
 from shortcut.planner.exams import delay_impact, exam_opportunities
+from shortcut.planner.policies import Policies
 from shortcut.planner.profile import offered_ok
 from shortcut.planner.service import plan
 from shortcut.planner.whatif import WhatIfError, run_whatif
@@ -57,8 +58,14 @@ ASSUMPTIONS = [
     "Upper-level elective slots are placed after junior standing.",
     "Transfer courses must be ACTS-equivalent and lower-level; availability elsewhere is assumed.",
     "Planned exams are assumed passed at the qualifying score before the plan starts.",
-    "The exam-credit cap uses the stricter of two conflicting ATU rules (30 hours).",
 ]
+
+
+def assumptions(policies: Policies) -> list[str]:
+    cap = policies.exam_credit_cap_hours
+    cap_note = f"The exam-credit cap uses the stricter of two conflicting ATU rules ({cap} hours)."
+    return [*ASSUMPTIONS, cap_note]
+
 
 router = APIRouter(prefix="/api")
 
@@ -107,7 +114,7 @@ def meta(ds: DS) -> MetaResponse:
         sources=[SourceLink(**s) for s in m["sources"]],
         catalog_snapshots=[CatalogSnapshot(**s) for s in m.get("catalog_snapshots", [])],
         policies=rules,
-        assumptions=ASSUMPTIONS,
+        assumptions=assumptions(ds.policies),
         exam_programs={t["program"]: t["status"] for t in ds.exams.values()},
         disclaimer=DISCLAIMER,
     )

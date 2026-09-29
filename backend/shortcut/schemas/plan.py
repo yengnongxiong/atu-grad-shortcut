@@ -131,6 +131,7 @@ class LeverResult(BaseModel):
     approval: Literal["none", "advisor", "dean petition", "dean petition + Academic Affairs"]
     workload: str
     note: str = ""
+    policy_key: str | None = None  # the policies.json rule behind the lever's numbers
 
 
 class Warning(BaseModel):

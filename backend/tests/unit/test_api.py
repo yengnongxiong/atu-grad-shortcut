@@ -132,3 +132,11 @@ def test_meta_reports_tiers_per_catalog_year_and_snapshot_dates() -> None:
     ap = snapshots["https://catalog.atu.edu/undergraduate/institutional-credit/ap/"]
     assert (ap["catalog_edition"], ap["captured_at"]) == ("2026-2027", "2026-09-29")
     assert all(s["title"] and s["captured_at"] for s in body["catalog_snapshots"])
+
+
+def test_levers_name_the_policy_behind_their_numbers() -> None:
+    levers = {lever["id"]: lever for lever in client().post("/api/plan", json=p1_body()).json()["levers"]}
+    assert levers["heavier_terms"]["policy_key"] == "regular_load_max"
+    assert levers["overload"]["policy_key"] == "overload_review_threshold"
+    assert levers["aggressive_overload"]["policy_key"] == "overload_ceiling"
+    assert levers["transfer_summer"]["policy_key"] is None
