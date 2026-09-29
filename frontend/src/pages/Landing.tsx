@@ -17,10 +17,11 @@ export function Landing({
   onPersona: (persona: Persona) => void
 }) {
   const crossChecked = programs.filter((p) => p.trust_tier === 'cross_checked').length
+  const majors = new Set(programs.map((p) => p.major_key || p.id)).size
   return (
     <div>
       <section className="border-b border-line bg-paper">
-        <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
+        <div className="mx-auto grid max-w-7xl grid-cols-1 gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
           <div>
             <p className="eyebrow">For Arkansas Tech students · Unofficial</p>
             <h1 className="mt-3 text-4xl font-semibold leading-tight sm:text-5xl">
@@ -29,8 +30,8 @@ export function Landing({
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-soft">
               Start from the credit you already have. Shortcut models summer, winter, heavier terms, overloads,
-              CLEP, and transfer courses, then shows your fastest realistic graduation date, the courses that
-              actually set it, and how much time each option buys.
+              transfer courses, and AP, IB, and CLEP credit, then shows your fastest realistic graduation date,
+              the courses that actually set it, and how much time each option buys.
             </p>
             <p className="mt-6">
               <a
@@ -48,7 +49,7 @@ export function Landing({
             <dl className="mt-8 grid max-w-lg grid-cols-3 gap-4 text-sm">
               <div>
                 <dt className="text-muted">Majors</dt>
-                <dd className="text-3xl font-semibold">{programs.length || '—'}</dd>
+                <dd className="text-3xl font-semibold">{majors || '—'}</dd>
               </div>
               <div>
                 <dt className="text-muted">Cross-checked</dt>
