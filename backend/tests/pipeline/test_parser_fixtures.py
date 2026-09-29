@@ -52,3 +52,21 @@ def test_fisheries_two_page_map() -> None:
     sem8 = parsed.semesters[7]
     assert any("FW 4083" in r.text for r in sem8.rows)
     assert parsed.min_total_hours == 120
+
+
+def test_subject_wrapped_away_from_its_number_joins_the_next_line() -> None:
+    """Mechanical Engineering: "CHEM 2134/2130 ... OR PHYS" / "2124/2010 ... 4" is one row."""
+    parsed = parse_degree_map(MAPS / "MechanicalEngineering.pdf")
+    sem3 = parsed.semesters[2]
+    first = sem3.rows[0]
+    assert "OR PHYS 2124/2010" in first.text and first.hours_min == 4
+    assert sum(r.hours_min or 0 for r in sem3.rows) == sem3.stated_total_min == 14
+
+
+def test_option_list_under_choose_from_row_stays_in_that_row() -> None:
+    """Biology-Biomedical: the small-print options belong to "Major Support Elective"."""
+    parsed = parse_degree_map(MAPS / "BiologyBiomedical.pdf")
+    sem4 = parsed.semesters[3]
+    elective = next(r for r in sem4.rows if "Major Support Elective" in r.text)
+    assert "AHS 2013" in elective.text and "PHIL 3103" in elective.text
+    assert sum(r.hours_min or 0 for r in sem4.rows) == sem4.stated_total_min == 15

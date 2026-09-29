@@ -255,57 +255,27 @@
       "map_semester": 3,
       "hours": 4.0,
       "hours_max": null,
-      "hours_source": "catalog",
+      "hours_source": "degree_map",
       "min_grade": null,
-      "raw_text": "CHEM 2134/2130 - General Chemistry II and lab OR PHYS",
-      "notes": "Prereq: C> in CHEM 2124",
-      "warnings": [
-        "no hours value in the PDF text for this row",
-        "0-credit lab(s) CHEM 2130 left to corequisite rules, not listed as alternatives",
-        "alternative without a course code: PHYS",
-        "hours missing from the PDF text; taken from the catalog"
-      ],
+      "raw_text": "CHEM 2134/2130 - General Chemistry II and lab OR PHYS 2124/2010 - Calculus-Based Physics II and lab",
+      "notes": "Prereq: C> in CHEM 2124 Prereq or Coreq: MATH 2924",
+      "warnings": [],
       "kind": "course",
-      "label": "General Chemistry II",
+      "label": "General Chemistry II + General Chemistry II Lab",
       "options": [
         [
-          "CHEM 2134"
+          "CHEM 2134",
+          "CHEM 2130"
+        ],
+        [
+          "PHYS 2124",
+          "PHYS 2010"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s3r2",
-      "map_semester": 3,
-      "hours": 4.0,
-      "hours_max": null,
-      "hours_source": "degree_map",
-      "min_grade": null,
-      "raw_text": "2124/2010 - Calculus-Based Physics II and lab",
-      "notes": "Prereq or Coreq: MATH 2924",
-      "warnings": [
-        "rule inferred from the label '2124/2010 - Calculus-Based Physics II and lab'"
-      ],
-      "kind": "bucket",
-      "label": "2124/2010 - Calculus-Based Physics II and lab",
-      "confidence": "medium",
-      "bucket": {
-        "category": "rule",
-        "codes": [],
-        "rule": {
-          "min_level": null,
-          "max_level": null,
-          "subjects": [
-            "PHYS"
-          ],
-          "approved": true,
-          "general": false
-        },
-        "recommended": []
-      }
-    },
-    {
-      "id": "s3r3",
       "map_semester": 3,
       "hours": 4.0,
       "hours_max": null,
@@ -324,7 +294,7 @@
       "confidence": "high"
     },
     {
-      "id": "s3r4",
+      "id": "s3r3",
       "map_semester": 3,
       "hours": 3.0,
       "hours_max": null,
@@ -343,7 +313,7 @@
       "confidence": "high"
     },
     {
-      "id": "s3r5",
+      "id": "s3r4",
       "map_semester": 3,
       "hours": 3.0,
       "hours_max": null,
@@ -1081,34 +1051,27 @@
       "items": [
         {
           "requirement_id": "s3r1",
-          "label": "General Chemistry II",
-          "hours": 4.0,
-          "hours_max": null,
-          "hours_source": "catalog"
-        },
-        {
-          "requirement_id": "s3r2",
-          "label": "2124/2010 - Calculus-Based Physics II and lab",
+          "label": "General Chemistry II + General Chemistry II Lab",
           "hours": 4.0,
           "hours_max": null,
           "hours_source": "degree_map"
         },
         {
-          "requirement_id": "s3r3",
+          "requirement_id": "s3r2",
           "label": "Calculus III",
           "hours": 4.0,
           "hours_max": null,
           "hours_source": "degree_map"
         },
         {
-          "requirement_id": "s3r4",
+          "requirement_id": "s3r3",
           "label": "Statics",
           "hours": 3.0,
           "hours_max": null,
           "hours_source": "degree_map"
         },
         {
-          "requirement_id": "s3r5",
+          "requirement_id": "s3r4",
           "label": "Engineering Materials",
           "hours": 3.0,
           "hours_max": null,
@@ -1415,15 +1378,15 @@
   "validation": [
     {
       "check": "semester_hours_match",
-      "passed": false,
-      "severity": "error",
-      "detail": "semester 3: rows sum to 18 but the map states 14"
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     },
     {
       "check": "hours_inferred",
       "passed": true,
       "severity": "ok",
-      "detail": "s3r1 (General Chemistry II): 4 from catalog"
+      "detail": ""
     },
     {
       "check": "total_hours_meet_minimum",
@@ -1471,7 +1434,7 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "47 upper-division hours required + 13 flexible elective hours vs 40 needed"
+      "detail": "47 upper-division hours required + 9 flexible elective hours vs 40 needed"
     },
     {
       "check": "repeated_courses_consistent",
@@ -1480,7 +1443,7 @@
       "detail": ""
     }
   ],
-  "trust_tier": "needs_review",
+  "trust_tier": "auto_imported",
   "cross_check": null,
   "parsed_map": {
     "gen_ed_list_names": [
@@ -1600,20 +1563,12 @@
         "stated_total_max": 14.0,
         "rows": [
           {
-            "text": "CHEM 2134/2130 - General Chemistry II and lab OR PHYS",
-            "hours_text": "",
-            "hours_min": null,
-            "hours_max": null,
-            "grade_c": false,
-            "notes": "Prereq: C> in CHEM 2124"
-          },
-          {
-            "text": "2124/2010 - Calculus-Based Physics II and lab",
+            "text": "CHEM 2134/2130 - General Chemistry II and lab OR PHYS 2124/2010 - Calculus-Based Physics II and lab",
             "hours_text": "4",
             "hours_min": 4.0,
             "hours_max": 4.0,
             "grade_c": false,
-            "notes": "Prereq or Coreq: MATH 2924"
+            "notes": "Prereq: C> in CHEM 2124 Prereq or Coreq: MATH 2924"
           },
           {
             "text": "MATH 2934- Calculus III (ACTS= MATH 2603)",

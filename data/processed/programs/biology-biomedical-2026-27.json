@@ -366,8 +366,8 @@
       "hours_max": null,
       "hours_source": "degree_map",
       "min_grade": null,
-      "raw_text": "Major Support Elective (choose from list below)",
-      "notes": "Sophomore Milestone: Begin researching",
+      "raw_text": "Major Support Elective (choose from list below) AHS 2013- Medical Terminology, PE 2513- First Aid, PHIL 3103- Logic",
+      "notes": "Sophomore Milestone: Begin researching graduate programs",
       "warnings": [
         "approved elective with no level/subject rule; any course assumed"
       ],
@@ -383,37 +383,13 @@
           "approved": true,
           "general": false
         },
-        "recommended": []
-      },
-      "confidence": "medium"
-    },
-    {
-      "id": "s4r5",
-      "map_semester": 4,
-      "hours": 3.0,
-      "hours_max": null,
-      "hours_source": "catalog",
-      "min_grade": null,
-      "raw_text": "AHS 2013- Medical Terminology, PE 2513- First Aid, PHIL 3103- Logic",
-      "notes": "graduate programs",
-      "warnings": [
-        "no hours value in the PDF text for this row",
-        "hours missing from the PDF text; taken from the catalog"
-      ],
-      "kind": "course",
-      "label": "Medical Terminology",
-      "options": [
-        [
-          "AHS 2013"
-        ],
-        [
-          "PE 2513"
-        ],
-        [
+        "recommended": [
+          "AHS 2013",
+          "PE 2513",
           "PHIL 3103"
         ]
-      ],
-      "confidence": "high"
+      },
+      "confidence": "medium"
     },
     {
       "id": "s5r1",
@@ -1055,13 +1031,6 @@
           "hours": 3.0,
           "hours_max": null,
           "hours_source": "degree_map"
-        },
-        {
-          "requirement_id": "s4r5",
-          "label": "Medical Terminology",
-          "hours": 3.0,
-          "hours_max": null,
-          "hours_source": "catalog"
         }
       ]
     },
@@ -1293,15 +1262,15 @@
   "validation": [
     {
       "check": "semester_hours_match",
-      "passed": false,
-      "severity": "error",
-      "detail": "semester 4: rows sum to 18 but the map states 15"
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     },
     {
       "check": "hours_inferred",
       "passed": true,
       "severity": "ok",
-      "detail": "s4r5 (Medical Terminology): 3 from catalog"
+      "detail": ""
     },
     {
       "check": "total_hours_meet_minimum",
@@ -1349,7 +1318,7 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "35 upper-division hours required + 29 flexible elective hours vs 40 needed"
+      "detail": "35 upper-division hours required + 26 flexible elective hours vs 40 needed"
     },
     {
       "check": "repeated_courses_consistent",
@@ -1358,7 +1327,7 @@
       "detail": ""
     }
   ],
-  "trust_tier": "needs_review",
+  "trust_tier": "auto_imported",
   "cross_check": null,
   "parsed_map": {
     "gen_ed_list_names": [
@@ -1534,20 +1503,12 @@
             "notes": ""
           },
           {
-            "text": "Major Support Elective (choose from list below)",
+            "text": "Major Support Elective (choose from list below) AHS 2013- Medical Terminology, PE 2513- First Aid, PHIL 3103- Logic",
             "hours_text": "3",
             "hours_min": 3.0,
             "hours_max": 3.0,
             "grade_c": false,
-            "notes": "Sophomore Milestone: Begin researching"
-          },
-          {
-            "text": "AHS 2013- Medical Terminology, PE 2513- First Aid, PHIL 3103- Logic",
-            "hours_text": "",
-            "hours_min": null,
-            "hours_max": null,
-            "grade_c": false,
-            "notes": "graduate programs"
+            "notes": "Sophomore Milestone: Begin researching graduate programs"
           }
         ]
       },

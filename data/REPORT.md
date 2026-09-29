@@ -1,13 +1,13 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T08:06:19+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 
 - Degree maps discovered: **82**
 - Bachelor's programs ingested: **74** (8 associate/other maps listed below as excluded, 0 not ingested)
-- Auto-imported or better: **58 of 74 (78%)**
-- Cross-checked: **5** · Auto-imported: **53** · Needs review: **16**
+- Auto-imported or better: **60 of 74 (81%)**
+- Cross-checked: **5** · Auto-imported: **55** · Needs review: **14**
 - Courses in courses.json: **886**
 - catalog.atu.edu: not probed
 - Banner (public course catalog + class schedule): loaded committed snapshots (836 course details)
@@ -31,6 +31,7 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 | [Art - Game Design (BFA)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BFAGameDesign.pdf) | 2026-27 | BFA | Arts and Humanities | Auto-imported | — |
 | [Art - Graphic Design (BFA)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BFAGraphicDesign.pdf) | 2026-27 | BFA | Arts and Humanities | Auto-imported | — |
 | [Art Education](https://www.atu.edu/advising/degreemaps_docs/2026-2027/ArtEducation.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
+| [Biology - Biomedical](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BiologyBiomedical.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Biology- Biostatistics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BiologyBiostats.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Biology-Ecology and Evolution](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BiologyEcologyEvolution.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Chemistry - General](https://www.atu.edu/advising/degreemaps_docs/2026-2027/ChemistryGeneral.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
@@ -57,6 +58,7 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 | [Information Technology - Track 2: Network & Security (BS)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechNetworkSecurityBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Journalism](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Journalism.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Management - Business Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MgmtBusinessMgmt.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
+| [Mechanical Engineering](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MechanicalEngineering.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | — |
 | [Middle Level Education - English/Language Arts](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdEnglish.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Middle Level Education - Mathematics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdMath.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Middle Level Education - Science](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdScience.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
@@ -74,7 +76,6 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 | [Social Studies Education](https://www.atu.edu/advising/degreemaps_docs/2026-2027/SocialStudiesEducation.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Sociology](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Sociology.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
 | [Tourism](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Tourism.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
-| [Biology - Biomedical](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BiologyBiomedical.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 4: rows sum to 18 but the map states 15 |
 | [Biology - Environmental](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BiologyEnvironmental.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 6: rows sum to 16-17 but the map states 15-17 |
 | [Business Data Analytics](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BusinessDataAnalytics.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | total_hours_meet_minimum: map totals 119 vs required 120 |
 | [Chemistry - Biochemistry](https://www.atu.edu/advising/degreemaps_docs/2026-2027/ChemBiochemistry.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 7: rows sum to 16 but the map states 15 |
@@ -87,7 +88,6 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 | [Geosciences](https://www.atu.edu/advising/degreemaps_docs/2026-2027/GeosciencesBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 3: rows sum to 14 but the map states 11-14 |
 | [Health Information Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthInformationMgmt.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | total_hours_meet_minimum: map totals 113 vs required 120 |
 | [Marketing - Digital Marketing](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MarketingDigitalMarketing.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | semester_hours_match: semester 7: rows sum to 15 but the map states 14 |
-| [Mechanical Engineering](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MechanicalEngineering.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 3: rows sum to 18 but the map states 14 |
 | [Music Education - Keyboard & Instrumental](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEdKeyboardInstr.pdf) | 2026-27 | BME | Arts and Humanities | Needs review | required_courses_in_catalog: MUS 4661 |
 | [Tourism - Natural Resource Emphasis](https://www.atu.edu/advising/degreemaps_docs/2026-2027/TourismNatlResource.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | semester_hours_match: semester 7: rows sum to 14 but the map states 15; repeated_courses_consistent: BIOL 2134 is listed as both 'BIOL 2134 - Principles of Botany' and 'BIOL 2134 - Principles of Zoology' |
 | [Business Administration (ABA)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/BusinessAdminABA.pdf) | 2026-27 |  | Business/Economic Development | Excluded (not bachelor's) | not a bachelor's degree (PRD §5 non-goal) |
@@ -161,7 +161,7 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 - **Art - Game Design (BFA)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 43 upper-division hours required + 13 flexible elective hours vs 40 needed
 - **Art - Graphic Design (BFA)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 55 upper-division hours required + 5 flexible elective hours vs 40 needed
 - **Art Education**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: SEED 4503, SEED 4553, SEED 4809, SPED 4052; upper_level_achievable: 48 upper-division hours required + 0 flexible elective hours vs 40 needed
-- **Biology - Biomedical**: hours_inferred: s4r5 (Medical Terminology): 3 from catalog; total_hours_meet_minimum: map totals 124 vs required 120; upper_level_achievable: 35 upper-division hours required + 29 flexible elective hours vs 40 needed
+- **Biology - Biomedical**: total_hours_meet_minimum: map totals 124 vs required 120; upper_level_achievable: 35 upper-division hours required + 26 flexible elective hours vs 40 needed
 - **Biology - Environmental**: total_hours_meet_minimum: map totals 124 vs required 120; upper_level_achievable: 28 upper-division hours required + 29 flexible elective hours vs 40 needed
 - **Biology- Biostatistics**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 30 upper-division hours required + 27 flexible elective hours vs 40 needed
 - **Biology-Ecology and Evolution**: total_hours_meet_minimum: map totals 125 vs required 120; upper_level_achievable: 21 upper-division hours required + 45 flexible elective hours vs 40 needed
@@ -203,7 +203,7 @@ Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2
 - **Management - Business Management**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 42 upper-division hours required + 12 flexible elective hours vs 40 needed
 - **Marketing - Digital Marketing**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 45 upper-division hours required + 12 flexible elective hours vs 40 needed
 - **Mathematics**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 40 upper-division hours required + 19 flexible elective hours vs 40 needed
-- **Mechanical Engineering**: hours_inferred: s3r1 (General Chemistry II): 4 from catalog; total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 47 upper-division hours required + 13 flexible elective hours vs 40 needed
+- **Mechanical Engineering**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 47 upper-division hours required + 9 flexible elective hours vs 40 needed
 - **Middle Level Education - English/Language Arts**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909; upper_level_achievable: 51 upper-division hours required + 3 flexible elective hours vs 40 needed
 - **Middle Level Education - Mathematics**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909, SPED 3153; upper_level_achievable: 48 upper-division hours required + 9 flexible elective hours vs 40 needed
 - **Middle Level Education - Science**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909; upper_level_achievable: 42 upper-division hours required + 0 flexible elective hours vs 40 needed

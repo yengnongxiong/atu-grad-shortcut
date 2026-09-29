@@ -14,7 +14,7 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - [x] **M3 API**: every PRD §11 endpoint plus `/api/personas`; `tests/unit/test_api.py`. Latency is measured below.
 - [x] **M4 Frontend core**: landing (search + personas), 3-step setup, plan view (comparison headline, timeline, lever panel, warnings), share URL + localStorage.
 - [x] **M5**: bottleneck graph (xyflow + dagre, click to delay or fail), exam opportunities with add-to-plan, what-if panel, advisor export with print CSS.
-- [x] **M6 All majors**: pipeline runs on all 74 bachelor's maps: 5 Cross-checked, 53 Auto-imported, 16 Needs review (78% Auto-imported or better). All 74 produce a feasible standard-pace plan. The sweep fixed 11 infeasible programs (D12–D14). The 5 cross-checks (CS, Accounting, History, Nursing, Mathematics) cover all four colleges (D15).
+- [x] **M6 All majors**: pipeline runs on all 74 bachelor's maps: 5 Cross-checked, 55 Auto-imported, 14 Needs review (81% Auto-imported or better). All 74 produce a feasible standard-pace plan. The sweep fixed 11 infeasible programs (D12–D14). The 5 cross-checks (CS, Accounting, History, Nursing, Mathematics) cover all four colleges (D15).
 - [x] **M7**: P3 (Accounting, off-track after an F in fall-only ACCT 3003) and P4 (Nursing, "no shortcut") personas, the my-path template, and a README with a browser-verified 60-second demo and screenshots (`docs/screenshots`). Polish:
   - `pace_note` explains the date when no lever helps.
   - `critical_chain` is the true longest prerequisite chain.

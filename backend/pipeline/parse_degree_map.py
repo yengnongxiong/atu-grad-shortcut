@@ -348,6 +348,10 @@ ROW_START_RE = re.compile(
 )
 CONTINUATION_RE = re.compile(r"^(or\b|OR\b|\(|&|and\b|-|[a-z])")
 TRAILING_CONNECTOR_RE = re.compile(r"(?:\s|^)(?:or|OR|and|&)\s*$")
+# "CHEM 2134/2130 ... OR PHYS" + next line "2124/2010 ... 4": the subject wrapped away from its number.
+SPLIT_CODE_RE = re.compile(r"(?:\s|^)(?:or|OR|and|&)\s+[A-Z]{2,5}\s*$")
+# "Major Support Elective (choose from list below)" + a small-print line of options, no hours.
+OPTION_LIST_RE = re.compile(r"choose from|select from|from (?:the )?list", re.IGNORECASE)
 
 
 def _group_rows(parts: list[dict[str, Any]], header: _Header) -> list[MapRow]:
@@ -394,6 +398,14 @@ def _group_rows(parts: list[dict[str, Any]], header: _Header) -> list[MapRow]:
             owner[i] = current  # "COMM 2173 ... or" + next line "COMM 2003 ..."
         elif TRAILING_CONNECTOR_RE.search(text) and next_anchor == i + 1:
             owner[i] = next_anchor  # "STAT 2163 ... or" + next line "PSY/SOC 2053 ... 3"
+        elif (
+            SPLIT_CODE_RE.search(text)
+            and next_anchor == i + 1
+            and re.match(r"\d{4}", join_words(parts[i + 1]["course"]))
+        ):
+            owner[i] = next_anchor
+        elif current is not None and OPTION_LIST_RE.search(row_text(current)):
+            owner[i] = current  # the listed options belong to the elective row above
         elif current is not None and (indented or CONTINUATION_RE.match(text)):
             owner[i] = current
         elif not indented and ROW_START_RE.match(text):

@@ -109,7 +109,7 @@ data/raw  ── pipeline ──▶  data/processed/*.json  ──▶  FastAPI (
 
 From [`data/REPORT.md`](data/REPORT.md):
 - 82 degree maps discovered, 74 bachelor's programs ingested, and 8 associate or other maps excluded (PRD non-goal).
-- Of the 74, **5 are Cross-checked, 53 Auto-imported, and 16 Need review**, so **78% are Auto-imported or better**.
+- Of the 74, **5 are Cross-checked, 55 Auto-imported, and 14 Need review**, so **81% are Auto-imported or better**.
 - **886 courses** in total.
 - All 74 programs produce a feasible plan at standard pace.
 
@@ -139,6 +139,6 @@ The tiers mean:
 ## Resume bullet
 
 > Built **Shortcut**, a graduation planner for Arkansas Tech students.
-> - A Python pipeline turns 82 degree-map PDFs and 836 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 78% auto-imported or better).
+> - A Python pipeline turns 82 degree-map PDFs and 836 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 81% auto-imported or better).
 > - An OR-Tools CP-SAT scheduler returns the fastest realistic term-by-term plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.2 s.
 > - Stack: FastAPI, React/TypeScript, 95 automated tests, Docker, and GitHub Actions CI.
