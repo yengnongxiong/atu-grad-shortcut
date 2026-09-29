@@ -15,12 +15,17 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - [x] **M4 Frontend core**: landing (search + personas), 3-step setup, plan view (comparison headline, timeline, lever panel, warnings), share URL + localStorage.
 - [x] **M5**: bottleneck graph (xyflow + dagre, click to delay or fail), exam opportunities with add-to-plan, what-if panel, advisor export with print CSS.
 - [x] **M6 All majors**: pipeline runs on all 74 bachelor's maps: 5 Cross-checked, 53 Auto-imported, 16 Needs review (78% Auto-imported or better). All 74 produce a feasible standard-pace plan. The sweep fixed 11 infeasible programs (D12–D14). The 5 cross-checks (CS, Accounting, History, Nursing, Mathematics) cover all four colleges (D15).
-- [ ] **M7**: P3/P4 personas + my-path template, README, polish. Dockerfile and CI are drafted.
+- [x] **M7**: P3 (Accounting, off-track after an F in fall-only ACCT 3003) and P4 (Nursing, "no shortcut") personas, the my-path template, and a README with a browser-verified 60-second demo and screenshots (`docs/screenshots`). Polish:
+  - `pace_note` explains the date when no lever helps.
+  - `critical_chain` is the true longest prerequisite chain.
+  - The graph opens at its first term.
+  - The headline is honest when a student is behind the map.
+  - Dockerfile and CI are in place.
 - [ ] **M8 Final QA**
 
 ## Checks (last run)
-- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 76 tests pass, including A1–A10 (A10 requires `make build` first).
-- Frontend: `tsc -b`, `eslint`: clean. `vitest`: 11 tests pass. `npm run build` OK.
+- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 79 tests pass, including A1–A10 (A10 requires `make build` first).
+- Frontend: `tsc -b`, `eslint`: clean. `vitest`: 12 tests pass. `npm run build` OK.
 
 ## Environment notes
 - Network: www.atu.edu, reg-prod.ec.atu.edu (Banner), and adhe.edu are reachable. catalog.atu.edu is not (its WAF challenge host `*.token.awswaf.com` is denied).
@@ -29,4 +34,4 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - Git author is the owner's GitHub noreply address (D1).
 
 ## Next step
-M7: personas P3 (Accounting, off-track after failing Fall-only ACCT 3003) and P4 (Nursing, "no shortcut"), the my-path template, README, screenshots, polish. Then M8.
+M8: final QA (lint/test/build/serve, HTTP smoke test of every endpoint and persona, README demo), final summary at the top of this file, PR.
