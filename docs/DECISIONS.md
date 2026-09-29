@@ -137,3 +137,11 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
   - For a program-scoped prerequisite of the form "all required SUBJ courses [except …]" (D12), the planner requires every planned SUBJ course of the student's program, minus the exclusions. The HIM Affiliation therefore follows the last HIM course, in the summer the map shows.
   - An identical "X or Y" row repeated more times than it has options names repeatable courses, so the same choice is kept each time. D14's one-of-each rule still applies when the repeats don't exceed the options (COMS 2213 or COMS 2323, twice).
 - **Guard:** `tests/acceptance/test_all_programs.py` plans every program at standard pace. It checks feasibility, the total-hours minimum, no winter graduation, and that no course is planned more times than the map lists it.
+
+## 2026-09-29 (v1.1)
+
+### D22 · Degree-map courses are charged for landing behind their map semester
+- **Finding (v1.1 QA):** The map-order tie-break (D10) only rewarded placing courses early. With every term packed to the preferred 16 hours, the polish pass used 1-hour TECH 1001 (Orientation) as filler and put a freshman's orientation in their third term. With every lever on, it also moved Calculus I, the head of the CS critical chain, out of the first term to avoid a 17-hour first term.
+- **Decision:** A second tie-break charges each course, per regular semester it lands after its degree-map semester, `W_MAP_LATE × order_weight` (semester 1 courses weigh 9, semester 8 courses 2). Courses planned ahead of the map cost nothing, so students with credit still accelerate. `W_MAP_LATE = 50` makes a foundational course one semester late (450) cost more than one hour above the preferred load (400), while later-map courses still defer to the student's preference. Graduation dates are unchanged: the tie-break runs only after the earliest graduation term is fixed.
+- **Alternatives:** A larger weight on the existing "earliest-first" term (still front-loads by hours and fights map order); pinning specific courses to the first term (special cases, not a rule).
+- **Reason:** A plan an advisor reads should look like the map they know unless there's a reason to differ. Measured: all 74 programs still plan, and the CS plan with every lever solves in ~0.3 s.

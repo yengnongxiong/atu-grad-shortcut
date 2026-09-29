@@ -15,3 +15,9 @@ def test_orientation_stays_in_the_first_term_at_standard_pace() -> None:
 
 def test_orientation_stays_in_the_first_term_with_every_lever() -> None:
     assert placements_by_code(a2_plan())["TECH 1001"].id == "2026FA"
+
+
+def test_calculus_stays_in_the_first_term_with_every_lever() -> None:
+    """With a 27 math ACT, Calculus I (map semester 1, head of the critical chain) goes first."""
+    assert placements_by_code(a1_plan())["MATH 2914"].id == "2026FA"
+    assert placements_by_code(a2_plan())["MATH 2914"].id == "2026FA"

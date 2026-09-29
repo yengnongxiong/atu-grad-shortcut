@@ -29,7 +29,7 @@ W_MAX_LOAD = 80
 W_ORDER = 1  # tie-break: keep courses near their degree-map semester
 # tie-break: a course planned after its degree-map semester costs this much per semester behind,
 # so a 1-hour first-semester course isn't used as filler to pack later terms
-W_MAP_LATE = 5
+W_MAP_LATE = 50
 
 
 @dataclass(frozen=True)
