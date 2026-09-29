@@ -113,7 +113,8 @@ def _evaluate_row(
         if label not in labels:
             labels.append(label)
     hours_saved = sum(course_hours(ctx.dataset, c) for c in best_useful)
-    award_hours = sum(course_hours(ctx.dataset, c) for c in best_option)
+    # ATU grants no duplicate credit: courses the student already holds add no exam hours.
+    award_hours = sum(course_hours(ctx.dataset, c) for c in best_option if not base.state.has(c))
     exceeds = exam_hours + award_hours > cap
     terms_saved: float | None = None
     months: int | None = None

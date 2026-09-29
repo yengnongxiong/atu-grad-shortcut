@@ -55,3 +55,30 @@ def test_plan_accepts_posted_exam_credit() -> None:
     credited = {c["code"]: c for c in res.json()["credited"]}
     assert credited["COMS 1411"]["hours"] == 1.0
     assert credited["COMS 1411"]["source"] == "exam"
+
+
+def test_exam_cap_counts_only_courses_the_exam_would_actually_add() -> None:
+    """ATU grants no duplicate credit, so a course already held adds no exam-credit hours."""
+    from shortcut.planner.exams import exam_opportunities
+    from shortcut.schemas.plan import PlanRequest
+
+    ds = load_dataset()
+    cap = float(ds.policies.exam_credit_cap_hours)
+    # other posted exam credit (outside the program) that brings the total to 3 hours under the cap
+    filler, left, n = [], cap - 6, 0
+    while left > 0:
+        filler.append({"code": f"XEXM {1000 + n}", "grade": "P", "source": "exam", "hours": min(12, left)})
+        left, n = left - min(12, left), n + 1
+    request = PlanRequest.model_validate(
+        {
+            "profile": {
+                "program_id": CS,
+                "first_term": "2025FA",
+                "completed": [{"code": "ENGL 1013", "grade": "P", "source": "exam"}, *filler],
+            }
+        }
+    )
+    rows = {r.id: r for r in exam_opportunities(ds, request).opportunities}
+    comp = next(r for r in rows.values() if r.exam == "College Composition" and r.min_score >= 59)
+    assert comp.hours_saved == 3.0  # only ENGL 1023 is new
+    assert not comp.exceeds_cap
