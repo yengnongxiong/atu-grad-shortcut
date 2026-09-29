@@ -74,7 +74,7 @@ export function ProgramPicker({
         role="listbox"
         aria-label="Majors"
         hidden={!showList}
-        className="mt-2 divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface"
+        className="mt-2 divide-y divide-line overflow-hidden rounded-md border border-line bg-surface"
       >
         {results.length === 0 && <li className="px-4 py-3 text-sm text-muted">No majors match “{query}”.</li>}
         {results.map((program, index) => (

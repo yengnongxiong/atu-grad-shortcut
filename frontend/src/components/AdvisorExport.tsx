@@ -53,7 +53,7 @@ export function AdvisorExport({ plan, request }: { plan: PlanResponse; request: 
             </p>
           </div>
           <div className="text-right">
-            <p className="font-display text-xl font-semibold text-saved">Graduate {plan.graduation?.date_label ?? '—'}</p>
+            <p className="text-xl font-semibold text-saved">Graduate {plan.graduation?.date_label ?? '—'}</p>
             <p className="text-muted">
               Map {plan.degree_map.graduation?.date_label ?? '—'} · standard pace {plan.standard_pace.graduation?.date_label ?? '—'}
               {plan.terms_sooner_than_standard ? ` · ${formatTerms(plan.terms_sooner_than_standard)} sooner` : ''}
@@ -86,7 +86,7 @@ export function AdvisorExport({ plan, request }: { plan: PlanResponse; request: 
                 <th scope="row" className="py-1 pr-2 text-left align-top font-semibold whitespace-nowrap">{t.label}</th>
                 <td className="py-1 pr-2">
                   {t.courses
-                    .map((c) => `${c.critical ? '◆ ' : ''}${c.label}${c.transfer ? ' (transfer)' : ''}${c.low_confidence ? ' (?)' : ''}`)
+                    .map((c) => `${c.label}${c.critical ? '*' : ''}${c.transfer ? ' (transfer)' : ''}${c.low_confidence ? ' (?)' : ''}`)
                     .join(', ')}
                 </td>
                 <td className="py-1 text-right align-top">{formatHours(t.hours)}</td>
@@ -94,7 +94,7 @@ export function AdvisorExport({ plan, request }: { plan: PlanResponse; request: 
             ))}
           </tbody>
         </table>
-        <p className="mt-1 text-[0.7rem] text-muted">◆ critical (delaying it delays graduation) · (?) summer/winter offering not confirmed</p>
+        <p className="mt-1 text-[0.7rem] text-muted">* critical (delaying it delays graduation) · (?) summer/winter offering not confirmed</p>
 
         <div className="mt-4 grid gap-4 sm:grid-cols-2">
           <section>

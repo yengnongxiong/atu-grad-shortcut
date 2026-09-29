@@ -36,14 +36,20 @@ describe('plan components', () => {
     expect(screen.getByRole('note')).toHaveTextContent(/Why you’re behind the map/)
   })
 
-  it('timeline marks critical courses with an icon and text, not color alone', () => {
+  it('timeline shows grade minimums, offering doubts, and workload', () => {
     render(<Timeline terms={samplePlan().terms} credited={[]} />)
     const fall = screen.getByRole('region', { name: /Fall 2026/ })
-    expect(within(fall).getByText('Critical.')).toBeInTheDocument()
     expect(within(fall).getByText('C or better')).toBeInTheDocument()
     const summer = screen.getByRole('region', { name: /Summer 2027/ })
     expect(within(summer).getByText(/Unconfirmed offering/)).toBeInTheDocument()
     expect(within(fall).getByText(/hrs\/week/)).toBeInTheDocument()
+  })
+
+  it('timeline labels critical courses with a visible word instead of an icon', () => {
+    render(<Timeline terms={samplePlan().terms} credited={[]} />)
+    const fall = screen.getByRole('region', { name: /Fall 2026/ })
+    expect(within(fall).getByText('Critical')).toBeVisible()
+    expect(fall.querySelector('svg')).toBeNull()
   })
 
   it('lever panel shows marginal savings and blocks ineligible overloads', async () => {

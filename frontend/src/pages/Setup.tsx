@@ -76,7 +76,7 @@ export function Setup({
               type="button"
               onClick={() => (index === 0 || profile.program_id ? setStep(index) : undefined)}
               aria-current={index === step ? 'step' : undefined}
-              className={`rounded-full border px-3 py-1 text-sm font-medium ${
+              className={`rounded-md border px-3 py-1 text-sm font-medium ${
                 index === step ? 'border-ink bg-ink text-paper' : 'border-line-strong bg-surface text-ink-soft'
               }`}
             >
@@ -255,7 +255,7 @@ function StepCredit({
         {detailError && <ErrorBox message={detailError} />}
         {!detail && !detailError && <Spinner label="Loading the program…" />}
         {detail && (
-          <div className="mt-3 max-h-[26rem] overflow-y-auto rounded-lg border border-line">
+          <div className="mt-3 max-h-[26rem] overflow-y-auto rounded-md border border-line">
             <table className="w-full text-sm">
               <thead className="sticky top-0 bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
                 <tr>
@@ -421,7 +421,7 @@ function StepPreferences({ profile, update }: { profile: StudentProfile; update:
         <legend className="text-sm font-semibold">Summer & winter availability</legend>
         <div className="mt-2 grid gap-3 sm:grid-cols-2">
           {(['conservative', 'optimistic'] as const).map((mode) => (
-            <label key={mode} className={`card flex cursor-pointer items-start gap-3 p-3 text-sm ${prefs.mode === mode ? 'ring-2 ring-ink' : ''}`}>
+            <label key={mode} className={`card flex cursor-pointer items-start gap-3 p-3 text-sm ${prefs.mode === mode ? 'outline outline-2 outline-ink' : ''}`}>
               <input type="radio" name="mode" className="mt-1" checked={prefs.mode === mode} onChange={() => setPrefs({ mode })} />
               <span>
                 <span className="font-semibold capitalize">{mode}</span>

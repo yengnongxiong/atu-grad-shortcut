@@ -4,9 +4,9 @@ import { TrustBadge } from './ui'
 
 function Stat({ label, value, sub, tone = 'neutral' }: { label: string; value: string; sub?: string; tone?: 'neutral' | 'saved' }) {
   return (
-    <div className={`rounded-xl border p-4 ${tone === 'saved' ? 'border-saved/40 bg-saved-soft' : 'border-line bg-surface'}`}>
-      <p className={`text-xs font-semibold uppercase tracking-wider ${tone === 'saved' ? 'text-saved' : 'text-muted'}`}>{label}</p>
-      <p className={`mt-1 font-display text-3xl font-semibold ${tone === 'saved' ? 'text-saved' : ''}`}>{value}</p>
+    <div className={`rounded-md border bg-surface p-4 ${tone === 'saved' ? 'border-ink' : 'border-line'}`}>
+      <p className={`text-sm ${tone === 'saved' ? 'font-medium text-ink' : 'text-muted'}`}>{label}</p>
+      <p className="mt-1 text-3xl font-semibold">{value}</p>
       {sub && <p className="mt-1 text-xs text-muted">{sub}</p>}
     </div>
   )
@@ -56,7 +56,7 @@ export function PlanHeadline({ plan }: { plan: PlanResponse }) {
         />
       </div>
       {plan.pace_note && (
-        <p role="note" className="rounded-lg border border-line-strong bg-paper-deep px-4 py-3 text-sm text-ink-soft">
+        <p role="note" className="rounded-md border border-line-strong bg-paper-deep px-4 py-3 text-sm text-ink-soft">
           <strong className="text-ink">{soonerMap < 0 && sooner <= 0 ? 'Why you’re behind the map: ' : 'No shortcut here: '}</strong>
           {plan.pace_note}
         </p>

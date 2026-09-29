@@ -82,7 +82,7 @@ export function LeverPanel({
           )
         })}
       </ul>
-      <div className="mt-2 rounded-lg border border-dashed border-line-strong bg-paper p-3 text-sm">
+      <div className="mt-2 rounded-md border border-dashed border-line-strong bg-paper p-3 text-sm">
         <p className="font-semibold">Credit for Prior Learning</p>
         <p className="mt-1 text-xs text-ink-soft">
           Work experience, certifications, military training, or a department exam may earn credit. It’s decided case by case,

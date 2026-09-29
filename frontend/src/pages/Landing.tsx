@@ -1,6 +1,6 @@
 import type { Persona, ProgramListItem } from '../api/types'
 import { ProgramPicker } from '../components/ProgramPicker'
-import { ArrowIcon, CriticalIcon, Spinner } from '../components/ui'
+import { Spinner } from '../components/ui'
 
 export function Landing({
   programs,
@@ -22,9 +22,9 @@ export function Landing({
         <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:px-6 lg:grid-cols-[1.15fr_1fr] lg:py-20">
           <div>
             <p className="eyebrow">For Arkansas Tech students · Unofficial</p>
-            <h1 className="mt-3 text-4xl font-semibold leading-[1.08] sm:text-5xl lg:text-6xl">
+            <h1 className="mt-3 text-4xl font-semibold leading-tight sm:text-5xl">
               The degree map is the path for the average student.{' '}
-              <span className="text-saved">Shortcut is the path for you.</span>
+              <span className="text-muted">Shortcut is the path for you.</span>
             </h1>
             <p className="mt-6 max-w-xl text-lg text-ink-soft">
               Start from the credit you already have. Shortcut models summer, winter, heavier terms, overloads,
@@ -34,15 +34,15 @@ export function Landing({
             <dl className="mt-8 grid max-w-lg grid-cols-3 gap-4 text-sm">
               <div>
                 <dt className="text-muted">Majors</dt>
-                <dd className="font-display text-3xl font-semibold">{programs.length || '—'}</dd>
+                <dd className="text-3xl font-semibold">{programs.length || '—'}</dd>
               </div>
               <div>
                 <dt className="text-muted">Cross-checked</dt>
-                <dd className="font-display text-3xl font-semibold">{programs.length ? crossChecked : '—'}</dd>
+                <dd className="text-3xl font-semibold">{programs.length ? crossChecked : '—'}</dd>
               </div>
               <div>
                 <dt className="text-muted">Per plan</dt>
-                <dd className="font-display text-3xl font-semibold">~2 s</dd>
+                <dd className="text-3xl font-semibold">~2 s</dd>
               </div>
             </dl>
           </div>
@@ -69,24 +69,22 @@ export function Landing({
               key={persona.id}
               type="button"
               onClick={() => onPersona(persona)}
-              className="card group flex flex-col items-start p-5 text-left transition-shadow hover:shadow-md focus-visible:shadow-md"
+              className="card flex flex-col items-start p-5 text-left hover:border-ink"
             >
               <span className="eyebrow">P{index + 1}</span>
-              <span className="mt-1 font-display text-xl font-semibold">{persona.name}</span>
+              <span className="mt-1 text-lg font-semibold">{persona.name}</span>
               <span className="mt-2 text-sm text-ink-soft">{persona.tagline}</span>
               {persona.sample_data && (
-                <span className="mt-3 rounded bg-warn-soft px-2 py-0.5 text-xs font-semibold text-warn">Sample data</span>
+                <span className="chip mt-3">Sample data</span>
               )}
-              <span className="mt-auto inline-flex items-center gap-1 pt-4 text-sm font-semibold">
-                Open plan <ArrowIcon className="transition-transform group-hover:translate-x-0.5" />
-              </span>
+              <span className="mt-auto pt-4 text-sm font-medium underline underline-offset-2">Open plan</span>
             </button>
           ))}
           {!loading && personas.length === 0 && <p className="text-sm text-muted">No demo profiles available.</p>}
         </div>
       </section>
 
-      <section className="border-t border-line bg-paper-deep">
+      <section className="border-t border-line">
         <div className="mx-auto grid max-w-7xl gap-8 px-4 py-12 sm:px-6 md:grid-cols-3">
           <div>
             <p className="eyebrow">01 · Your starting point</p>
@@ -100,9 +98,7 @@ export function Landing({
           </div>
           <div>
             <p className="eyebrow">03 · What actually sets the date</p>
-            <h3 className="mt-2 flex items-center gap-2 text-xl font-semibold">
-              <CriticalIcon className="text-critical" /> The critical chain
-            </h3>
+            <h3 className="mt-2 text-xl font-semibold">The critical chain</h3>
             <p className="mt-2 text-sm text-ink-soft">Miss one link in a fall-only chain and graduation slips a year. Shortcut shows which link.</p>
           </div>
         </div>

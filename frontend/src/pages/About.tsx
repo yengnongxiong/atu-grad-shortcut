@@ -57,7 +57,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
           inference carries a confidence label: <em>documented</em>, <em>derived</em>, <em>assumed</em>, <em>unknown</em>, or{' '}
           <em>conflicting</em>.
         </p>
-        <p className="mt-3 rounded-lg border border-line-strong bg-surface p-3 font-semibold">{DISCLAIMER}</p>
+        <p className="mt-3 rounded-md border border-line-strong bg-surface p-3 font-semibold">{DISCLAIMER}</p>
       </header>
 
       <section aria-labelledby="coverage">
@@ -71,7 +71,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
           ].map(([label, value]) => (
             <div key={label} className="card p-3">
               <dt className="text-xs text-muted">{label}</dt>
-              <dd className="font-display text-xl font-semibold">{value}</dd>
+              <dd className="text-xl font-semibold">{value}</dd>
             </div>
           ))}
         </dl>
@@ -79,7 +79,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
           {(['cross_checked', 'auto_imported', 'needs_review'] as const).map((tier) => (
             <div key={tier} className="card p-3">
               <TrustBadge tier={tier} compact />
-              <p className="mt-2 font-display text-3xl font-semibold">{meta.tier_counts[tier] ?? 0}</p>
+              <p className="mt-2 text-3xl font-semibold">{meta.tier_counts[tier] ?? 0}</p>
               <p className="text-xs text-muted">{TIER_HELP[tier]}</p>
             </div>
           ))}
@@ -111,7 +111,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
       <section aria-labelledby="policies">
         <h2 id="policies" className="text-2xl font-semibold">Policies</h2>
         <p className="mt-1 text-sm text-muted">Every policy number the planner uses. Warnings in your plan link here.</p>
-        <div className="mt-4 overflow-x-auto rounded-xl border border-line">
+        <div className="mt-4 overflow-x-auto rounded-md border border-line">
           <table className="w-full min-w-[44rem] text-sm">
             <thead className="bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
               <tr>
@@ -167,7 +167,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
         <h2 id="programs-list" className="text-2xl font-semibold">Programs by trust tier</h2>
         <ul className="mt-3 grid gap-2 sm:grid-cols-2">
           {programs.map((p) => (
-            <li key={p.id} className="flex items-start justify-between gap-2 rounded-lg border border-line bg-surface px-3 py-2 text-sm">
+            <li key={p.id} className="flex items-start justify-between gap-2 rounded-md border border-line bg-surface px-3 py-2 text-sm">
               <span>
                 <span className="font-medium">{p.listed_title}</span>
                 <span className="block text-xs text-muted">

@@ -7,19 +7,17 @@ const GROUPS: { key: PlanWarning['category']; title: string }[] = [
   { key: 'plan', title: 'Plan notes' },
 ]
 
-const SEVERITY: Record<PlanWarning['severity'], { label: string; className: string; glyph: string }> = {
-  error: { label: 'Problem', className: 'border-error/40 bg-error-soft text-error', glyph: '✕' },
-  warning: { label: 'Check', className: 'border-warn/40 bg-warn-soft text-warn', glyph: '!' },
-  info: { label: 'Note', className: 'border-info/30 bg-info-soft text-info', glyph: 'i' },
+const SEVERITY: Record<PlanWarning['severity'], { label: string; className: string }> = {
+  error: { label: 'Problem', className: 'border-error text-error' },
+  warning: { label: 'Check', className: 'border-ink text-ink' },
+  info: { label: 'Note', className: '' },
 }
 
 function WarningItem({ warning }: { warning: PlanWarning }) {
   const severity = SEVERITY[warning.severity]
   return (
     <li className="flex gap-2 text-sm">
-      <span className={`chip mt-0.5 h-5 shrink-0 ${severity.className}`} aria-label={severity.label}>
-        {severity.glyph}
-      </span>
+      <span className={`chip mt-0.5 h-5 w-16 shrink-0 justify-center ${severity.className}`}>{severity.label}</span>
       <span>
         {warning.message}{' '}
         {warning.policy_key && (
@@ -70,7 +68,7 @@ export function WarningsPanel({ warnings, assumptions }: { warnings: PlanWarning
           </div>
         )
       })}
-      <details className="mt-4 rounded-lg border border-line bg-paper p-3 text-sm">
+      <details className="mt-4 rounded-md border border-line bg-paper p-3 text-sm">
         <summary className="cursor-pointer font-semibold">Assumptions behind this plan ({assumptions.length})</summary>
         <ul className="mt-2 list-disc space-y-1 pl-5 text-ink-soft">
           {assumptions.map((a) => (
