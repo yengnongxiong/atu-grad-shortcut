@@ -241,6 +241,7 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         "generated_at": utc_now_iso(),
         "pipeline_mode": stats.mode,
         "newest_catalog_year": newest,
+        "catalog_years": sorted({ref.catalog_year for ref in refs}),
         "ground_truth_program": "computer-science-2025-26",
         "catalog_status": stats.catalog_status,
         "banner_status": stats.banner_status,
@@ -262,6 +263,7 @@ def _report_row(
 ) -> dict[str, Any]:
     issues = [f"{r['check']}: {r['detail']}" for r in results if not r["passed"]]
     warnings = [f"{r['check']}: {r['detail']}" for r in results if r["passed"] and r["detail"]]
+    warnings += [f"ATU's index also links “{title}” to this map" for title in ref.also_listed_as]
     return {
         "program_id": ref.program_id,
         "title": ref.title,

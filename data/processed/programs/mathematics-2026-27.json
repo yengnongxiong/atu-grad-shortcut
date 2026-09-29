@@ -1500,9 +1500,9 @@
     },
     {
       "check": "offering_flags_agree",
-      "passed": true,
-      "severity": "ok",
-      "detail": ""
+      "passed": false,
+      "severity": "warning",
+      "detail": "COMS 2213: catalog 'Offered: FA, SP' vs map 'SP only' (comp-engineering-2025-26); using the stricter; ran 4x in FA (202370, 202470, 202570, 202670)"
     },
     {
       "check": "buckets_nonempty",
