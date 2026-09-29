@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { loadPolicies, policyNumber } from '../api/policies'
 import type { PlanRequest, ProgramListItem } from '../api/types'
 import { readPdfLines } from '../degreeworks/pdfLines'
 import { parseAudit } from '../degreeworks/parse'
@@ -22,7 +23,8 @@ export function AuditImport({ programs, onApply }: { programs: ProgramListItem[]
     if (!file) return
     setStage({ kind: 'reading' })
     try {
-      const audit = parseAudit(await readPdfLines(file))
+      const [lines, policies] = await Promise.all([readPdfLines(file), loadPolicies()])
+      const audit = parseAudit(lines)
       if (!audit.degree && audit.courses.length === 0) {
         setStage({
           kind: 'error',
@@ -30,7 +32,7 @@ export function AuditImport({ programs, onApply }: { programs: ProgramListItem[]
         })
         return
       }
-      const result = auditToProfile(audit, programs)
+      const result = auditToProfile(audit, programs, policyNumber(policies, 'overload_gpa_min') ?? Number.POSITIVE_INFINITY)
       setProgramId(result.profile.program_id)
       setStage({ kind: 'review', audit, result })
     } catch (err) {

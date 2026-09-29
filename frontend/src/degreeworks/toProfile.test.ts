@@ -14,7 +14,7 @@ const audit = parseAudit(SAMPLE_AUDIT)
 const today = new Date('2026-09-29')
 
 describe('auditToProfile', () => {
-  const { profile, programMatch, notes } = auditToProfile(audit, PROGRAMS, today)
+  const { profile, programMatch, notes } = auditToProfile(audit, PROGRAMS, 3.25, today)
   const row = (code: string) => profile.completed.find((c) => c.code === code)
 
   it('matches the major and the catalog year', () => {
@@ -48,15 +48,21 @@ describe('auditToProfile', () => {
     expect(notes.join(' ')).toMatch(/3\.50/)
   })
 
+  it('takes the overload GPA from policy, not a fixed number', () => {
+    const r = auditToProfile(audit, PROGRAMS, 3.6, today)
+    expect(r.profile.preferences.expect_high_gpa).toBe(false)
+    expect(r.notes.join(' ')).toMatch(/3\.50 on your audit is below the GPA overloads need/)
+  })
+
   it('falls back to the newest catalog year Shortcut has, and says so', () => {
-    const r = auditToProfile({ ...audit, degree: 'BBA Accounting', catalogYear: '2019-20' }, PROGRAMS, today)
+    const r = auditToProfile({ ...audit, degree: 'BBA Accounting', catalogYear: '2019-20' }, PROGRAMS, 3.25, today)
     expect(r.programMatch).toBe('year_missing')
     expect(r.profile.program_id).toBe('accounting-2026-27')
     expect(r.notes.join(' ')).toMatch(/2019-20/)
   })
 
   it('reports an unknown major instead of guessing', () => {
-    const r = auditToProfile({ ...audit, degree: 'BS Underwater Basketry' }, PROGRAMS, today)
+    const r = auditToProfile({ ...audit, degree: 'BS Underwater Basketry' }, PROGRAMS, 3.25, today)
     expect(r.programMatch).toBe('none')
     expect(r.profile.program_id).toBe('')
   })

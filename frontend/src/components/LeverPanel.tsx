@@ -52,6 +52,12 @@ export function LeverPanel({
                   <p className="font-semibold leading-tight">{result.label}</p>
                   <p id={descId} className="mt-0.5 text-xs text-muted">
                     {result.workload}
+                    {result.policy_key && (
+                      <>
+                        {' '}
+                        <a href={`/about#policy-${result.policy_key}`}>Policy</a>
+                      </>
+                    )}
                   </p>
                 </div>
                 {isExams ? (

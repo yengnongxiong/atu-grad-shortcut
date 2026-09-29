@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react'
 import { api } from '../api/client'
+import { policyNumber, usePolicies } from '../api/policies'
 import type {
   ExamTable,
   Grade,
@@ -12,7 +13,7 @@ import { catalogYearFor, versionFor, versionsOf } from '../catalogYear'
 import { ExamEntry } from '../components/ExamEntry'
 import { OtherCourses } from '../components/OtherCourses'
 import { ProgramPicker } from '../components/ProgramPicker'
-import { ErrorBox, Spinner, TrustBadge } from '../components/ui'
+import { ErrorBox, PolicyLink, Spinner, TrustBadge } from '../components/ui'
 import { navigate } from '../router'
 import { defaultRequest, termOptions } from '../state/profile'
 
@@ -361,26 +362,37 @@ function StepCredit({
   )
 }
 
-function StepPreferences({ profile, update }: { profile: StudentProfile; update: (patch: Partial<StudentProfile>) => void }) {
+export function StepPreferences({ profile, update }: { profile: StudentProfile; update: (patch: Partial<StudentProfile>) => void }) {
   const prefs = profile.preferences
   const setPrefs = (patch: Partial<StudentProfile['preferences']>) => update({ preferences: { ...prefs, ...patch } })
+  const policies = usePolicies()
+  const standard = policyNumber(policies, 'preferred_hours_default')
+  const regularMax = policyNumber(policies, 'regular_load_max')
+  const loads = regularMax === null ? [] : Array.from({ length: Math.max(0, regularMax - 11) }, (_, i) => 12 + i)
   return (
     <div className="space-y-6">
       <label className="block text-sm">
         <span className="font-semibold">Preferred maximum hours per fall/spring term</span>
         <select
           className="input mt-1 max-w-48"
-          value={prefs.preferred_hours ?? ''}
-          onChange={(e) => setPrefs({ preferred_hours: e.target.value ? Number(e.target.value) : null })}
+          value={prefs.preferred_hours ?? standard ?? ''}
+          disabled={standard === null}
+          onChange={(e) => {
+            const hours = Number(e.target.value)
+            setPrefs({ preferred_hours: hours === standard ? null : hours })
+          }}
         >
-          <option value="">16 (default)</option>
-          {[12, 13, 14, 15, 16, 17, 18].map((h) => (
+          {standard === null && <option value="">Loading…</option>}
+          {loads.map((h) => (
             <option key={h} value={h}>
-              {h}
+              {h === standard ? `${String(h)} (default)` : h}
             </option>
           ))}
         </select>
-        <span className="mt-1 block text-xs text-muted">This defines “standard pace”. Heavier terms and overloads are separate levers on the plan.</span>
+        <span className="mt-1 block text-xs text-muted">
+          This defines “standard pace” (default <PolicyLink policies={policies} name="preferred_hours_default" /> hours). Heavier terms and
+          overloads are separate levers on the plan.
+        </span>
       </label>
       <div className="grid gap-4 sm:grid-cols-2">
         <label className="block text-sm">
@@ -398,8 +410,13 @@ function StepPreferences({ profile, update }: { profile: StudentProfile; update:
         <label className="mt-6 flex items-start gap-3 text-sm">
           <input type="checkbox" className="mt-1 h-4 w-4" checked={prefs.expect_high_gpa} onChange={(e) => setPrefs({ expect_high_gpa: e.target.checked })} />
           <span>
-            <span className="font-semibold">I expect to keep a 3.25+ GPA</span>
-            <span className="block text-xs text-muted">Needed for overloads (19+ hours), which also need a dean’s petition.</span>
+            <span className="font-semibold">
+              I expect to keep a <PolicyLink policies={policies} name="overload_gpa_min" format={(v) => v.toFixed(2)} />+ GPA
+            </span>
+            <span className="block text-xs text-muted">
+              Needed for overloads (more than <PolicyLink policies={policies} name="regular_load_max" /> hours), which also need a dean’s
+              petition.
+            </span>
           </span>
         </label>
       </div>

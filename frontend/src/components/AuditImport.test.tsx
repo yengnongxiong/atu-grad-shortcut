@@ -7,6 +7,14 @@ import { readPdfLines } from '../degreeworks/pdfLines'
 import { AuditImport } from './AuditImport'
 
 vi.mock('../degreeworks/pdfLines', () => ({ readPdfLines: vi.fn(async () => SAMPLE_AUDIT) }))
+vi.mock('../api/client', () => ({
+  api: {
+    meta: () =>
+      Promise.resolve({
+        policies: [{ key: 'overload_gpa_min', label: '', value: 3.25, unit: 'GPA', confidence: 'documented', note: '', sources: [] }],
+      }),
+  },
+}))
 
 const base = { name: '', degree: 'Bachelor of Science', degree_abbr: 'BS', college: 'STEM', trust_tier: 'cross_checked' as const, issues: [] }
 const cs: ProgramListItem = {

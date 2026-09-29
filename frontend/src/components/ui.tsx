@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { policyNumber, type Policies } from '../api/policies'
 import type { TrustTier } from '../api/types'
 import { TIER_HELP, TIER_LABEL } from '../format'
 
@@ -102,4 +103,11 @@ export function Toggle({
       />
     </button>
   )
+}
+
+/** A policy number, linked to its source on the About page (CLAUDE.md UI rules). */
+export function PolicyLink({ policies, name, format = String }: { policies: Policies | null; name: string; format?: (value: number) => string }) {
+  const value = policyNumber(policies, name)
+  if (value === null) return <span aria-busy="true">…</span>
+  return <a href={`/about#policy-${name}`}>{format(value)}</a>
 }

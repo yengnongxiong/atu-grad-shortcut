@@ -122,6 +122,7 @@ export interface LeverResult {
   approval: 'none' | 'advisor' | 'dean petition' | 'dean petition + Academic Affairs'
   workload: string
   note: string
+  policy_key?: string | null
 }
 
 export interface PlanWarning {

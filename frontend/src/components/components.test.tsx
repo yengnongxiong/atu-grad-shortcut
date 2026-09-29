@@ -64,6 +64,12 @@ describe('plan components', () => {
     expect(screen.getByText(/Credit for Prior Learning/)).toBeInTheDocument()
   })
 
+  it('lever numbers link to their policy on the About page', () => {
+    const results = samplePlan().levers.map((l) => (l.id === 'summer' ? { ...l, policy_key: 'summer_max_load' } : l))
+    render(<LeverPanel levers={request.levers} results={results} busy={false} onToggle={vi.fn()} onOpenExams={() => undefined} />)
+    expect(screen.getByRole('link', { name: 'Policy' })).toHaveAttribute('href', '/about#policy-summer_max_load')
+  })
+
   it('warnings link to the policy on the About page and to the source', () => {
     render(<WarningsPanel warnings={samplePlan().warnings} assumptions={samplePlan().assumptions} />)
     expect(screen.getByRole('link', { name: 'Policy' })).toHaveAttribute('href', '/about#policy-exam_credit_cap_hours')

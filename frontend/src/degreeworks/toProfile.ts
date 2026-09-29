@@ -61,7 +61,8 @@ function toCompleted(course: AuditCourse): CompletedCourse | null {
   return null // W, NC, IP: no credit (in-progress is handled separately)
 }
 
-export function auditToProfile(audit: AuditImport, programs: ProgramListItem[], today = new Date()): ProfileImport {
+/** `overloadGpaMin` is the `overload_gpa_min` policy; an audit GPA at or above it sets "expect 3.25+". */
+export function auditToProfile(audit: AuditImport, programs: ProgramListItem[], overloadGpaMin: number, today = new Date()): ProfileImport {
   const notes: string[] = []
   const candidates = audit.degree ? matchMajor(audit.degree, programs) : []
   let programId = ''
@@ -95,12 +96,12 @@ export function auditToProfile(audit: AuditImport, programs: ProgramListItem[], 
   const planFrom = latestIp ? nextTermAfter(latestIp) : latestAtu ? nextTermAfter(latestAtu) : nextTermAfterDate(today)
   const firstTerm = atuTerms[0] ?? planFrom
 
-  const highGpa = audit.gpa !== null && audit.gpa >= 3.25
+  const highGpa = audit.gpa !== null && audit.gpa >= overloadGpaMin
   if (audit.gpa !== null) {
     notes.push(
       highGpa
-        ? `Overall GPA ${audit.gpa.toFixed(2)} on your audit, so Shortcut assumes you'll keep 3.25+ for overload eligibility.`
-        : `Overall GPA ${audit.gpa.toFixed(2)} on your audit, below the 3.25 overloads need.`,
+        ? `Overall GPA ${audit.gpa.toFixed(2)} on your audit meets the GPA overloads need, so Shortcut assumes you'll keep it.`
+        : `Overall GPA ${audit.gpa.toFixed(2)} on your audit is below the GPA overloads need.`,
     )
   }
   const withdrawn = audit.courses.filter((c) => c.grade === 'W').length
