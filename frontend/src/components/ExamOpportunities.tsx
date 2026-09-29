@@ -30,6 +30,14 @@ export function ExamOpportunities({
         </Tag>
       </div>
       {loading && <Spinner label="Updating…" />}
+      {data.opportunities.length > 0 &&
+        data.opportunities.every((o) => o.exceeds_cap || !o.terms_saved || o.terms_saved <= 0) && (
+          <p role="note" className="rounded-lg border border-info/30 bg-info-soft px-3 py-2 text-sm text-info">
+            None of these moves your graduation date on its own under your current levers: the date is set by the
+            prerequisite chain (see <strong>Bottlenecks</strong>), not by total hours. They still save the hours shown,
+            which lightens terms and saves tuition.
+          </p>
+        )}
       {data.opportunities.length === 0 ? (
         <p className="text-sm text-muted">No accepted exam maps to a requirement you still need.</p>
       ) : (

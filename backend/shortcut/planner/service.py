@@ -749,7 +749,7 @@ def policy_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]
     thresholds = policies.standing_thresholds
     standing_names = {"SO": "sophomore", "JR": "junior", "SR": "senior"}
     for item in outcome.build.items:
-        if item.standing:
+        if item.standing and item.code:
             when = outcome.result.slots[outcome.result.placements[item.id].term_index].term
             out.append(
                 Warning(
@@ -865,6 +865,8 @@ def base_assumptions(ctx: PlanContext, outcome: Outcome) -> list[str]:
         f"{policies.winter_max_courses} course (≤{policies.winter_max_hours} hours) for planning.",
         "Class standing counts exam and transfer hours (confirm with the registrar).",
         "Elective slots can be filled by any qualifying course; approved electives need advisor sign-off.",
+        "Upper-level elective slots are placed after junior standing (60 hours), since most 3000-4000 "
+        "courses require it.",
     ]
     if ctx.mode == "conservative":
         items.append(

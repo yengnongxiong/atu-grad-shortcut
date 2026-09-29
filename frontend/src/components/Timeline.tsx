@@ -25,7 +25,7 @@ function CourseChip({ course, onSelect }: { course: PlannedCourse; onSelect?: (c
         type="button"
         onClick={() => onSelect?.(course)}
         title={details}
-        className={`w-full rounded-lg border px-2.5 py-2 text-left text-sm transition-shadow hover:shadow-sm ${tone}`}
+        className={`relative w-full rounded-lg border px-2.5 py-2 text-left text-sm transition-shadow hover:shadow-sm ${tone}`}
       >
         <span className="flex items-start justify-between gap-2">
           <span className="min-w-0">
@@ -67,7 +67,7 @@ export function Timeline({
   onSelectCourse?: (course: PlannedCourse) => void
 }) {
   return (
-    <div className="overflow-x-auto pb-2" tabIndex={0} aria-label="Term-by-term plan (scrolls horizontally)">
+    <div className="relative overflow-x-auto pb-2" tabIndex={0} aria-label="Term-by-term plan (scrolls horizontally)">
       <ol className="flex min-w-max gap-3">
         {credited.length > 0 && (
           <li className="w-56 shrink-0">

@@ -413,14 +413,16 @@ def solve(
         return SolveResult(status, {}, None, [], slots, _ms(started), status == "unknown", [])
     timed_out = status == "feasible"
     best_grad = solver.value(grad)
-    values = {key: solver.value(var) for key, var in {**x, **y}.items()}
+    # x and y can share an (item, term) key (ATU vs. transfer in the same summer): keep both.
+    all_vars = {("x", *key): var for key, var in x.items()} | {("y", *key): var for key, var in y.items()}
+    values = {key: solver.value(var) for key, var in all_vars.items()}
 
     # Phase 2: hold the graduation term; polish summer/winter use, overloads, preferred
     # hours, balance, and map order within the remaining time budget.
     if config.phase == "full":
         model.add(grad == best_grad)
         model.clear_hints()  # type: ignore[no-untyped-call]
-        for key, var in {**x, **y}.items():
+        for key, var in all_vars.items():
             model.add_hint(var, values[key])
         model.minimize(
             W_SHORT_TERM * sum(short_used)
@@ -433,12 +435,12 @@ def solve(
         polish = _solver(min(remaining, config.polish_time_s))
         polish_code = polish.solve(model)
         if _status(polish_code) in ("optimal", "feasible"):
-            values = {key: polish.value(var) for key, var in {**x, **y}.items()}
+            values = {key: polish.value(var) for key, var in all_vars.items()}
 
     placements: dict[str, Placement] = {}
-    for (item_id, t), value in values.items():
+    for (kind, item_id, t), value in values.items():
         if value:
-            placements[item_id] = Placement(item_id, t, (item_id, t) in y)
+            placements[item_id] = Placement(item_id, t, kind == "y")
     load_values = [
         sum(item.hours for item in items if placements[item.id].term_index == s.index) for s in slots
     ]

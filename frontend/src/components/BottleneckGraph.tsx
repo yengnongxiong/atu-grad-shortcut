@@ -75,6 +75,7 @@ export function BottleneckGraph({
             edges={edges}
             nodeTypes={nodeTypes}
             fitView
+            fitViewOptions={{ padding: 0.08, minZoom: 0.7, maxZoom: 1.1 }}
             minZoom={0.25}
             nodesDraggable={false}
             nodesConnectable={false}

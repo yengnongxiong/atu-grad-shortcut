@@ -29,6 +29,7 @@ export function ProgramPicker({
   const listId = useId()
   const results = useMemo(() => programs.filter((p) => matches(p, query)).slice(0, compact ? 6 : 10), [programs, query, compact])
   const selected = programs.find((p) => p.id === value)
+  const showList = !selected || query.trim() !== ''
 
   const choose = (program: ProgramListItem | undefined) => {
     if (!program) return
@@ -48,7 +49,7 @@ export function ProgramPicker({
         value={query}
         autoFocus={autoFocus}
         role="combobox"
-        aria-expanded={results.length > 0}
+        aria-expanded={showList && results.length > 0}
         aria-controls={listId}
         aria-activedescendant={results[active] ? `${listId}-${results[active].id}` : undefined}
         onChange={(event) => {
@@ -68,7 +69,13 @@ export function ProgramPicker({
           }
         }}
       />
-      <ul id={listId} role="listbox" aria-label="Majors" className="mt-2 divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface">
+      <ul
+        id={listId}
+        role="listbox"
+        aria-label="Majors"
+        hidden={!showList}
+        className="mt-2 divide-y divide-line overflow-hidden rounded-lg border border-line bg-surface"
+      >
         {results.length === 0 && <li className="px-4 py-3 text-sm text-muted">No majors match “{query}”.</li>}
         {results.map((program, index) => (
           <li

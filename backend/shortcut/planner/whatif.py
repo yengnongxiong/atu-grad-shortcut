@@ -121,6 +121,8 @@ def build_response(
     if before_grad and after_grad:
         later = terms_between(Term.parse(before_grad.id), Term.parse(after_grad.id))
     changes = changed_terms(base.response, after.response, setup.event_term)
+    if event.type == "fail" and setup.event_term is not None:
+        changes = [_mark_failed(c, setup.event_term, event.code or "") for c in changes]
     return WhatIfResponse(
         event=event,
         explanation=explain(base, after, event, later),
@@ -130,6 +132,14 @@ def build_response(
         changed_terms=changes,
         plan=after.response,
     )
+
+
+def _mark_failed(change: TermChange, failed_term: Term, code: str) -> TermChange:
+    """The failed term is history in the re-solve: show what was completed there."""
+    if change.term != failed_term.id:
+        return change
+    after = [f"{c} (failed)" if c == code else c for c in change.before]
+    return change.model_copy(update={"after": after})
 
 
 def changed_terms(before: PlanResponse, after: PlanResponse, since: Term | None) -> list[TermChange]:

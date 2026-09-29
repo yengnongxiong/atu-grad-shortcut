@@ -216,3 +216,13 @@ def test_upper_level_filler_added() -> None:
     ds = syn.dataset(courses, [syn.program([syn.req(c["code"]) for c in courses], total=12, upper=6)])
     detail = plan_detailed(ds, request())
     assert detail.response.totals["upper_level_hours"] >= 6
+
+
+def test_summer_atu_and_transfer_both_enabled_places_every_item() -> None:
+    """Regression: x and y share (item, term) keys when both summer levers are on."""
+    offering = syn.offered(summer="derived")
+    courses = [syn.course(f"BTH {1000 + i}", acts=f"ACTS {1000 + i}", offering=offering) for i in range(14)]
+    ds = syn.dataset(courses, [syn.program([syn.req(c["code"]) for c in courses])])
+    detail = plan_detailed(ds, request(levers={"summer": True, "transfer_summer": True}))
+    placed = {c.code for t in detail.response.terms for c in t.courses}
+    assert placed == {c["code"] for c in courses}
