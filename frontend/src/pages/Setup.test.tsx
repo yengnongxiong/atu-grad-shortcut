@@ -51,6 +51,13 @@ describe('Setup: preferences', () => {
     expect(within(select).getAllByRole('option').map((o) => o.textContent)).toEqual(['12', '13', '14', '15', '16 (default)', '17', '18'])
   })
 
+  it('keeps a part-time load from a shared link selectable', async () => {
+    const partTime = { ...profile, preferences: { ...profile.preferences, preferred_hours: 9 } }
+    render(<StepPreferences profile={partTime} update={vi.fn()} />)
+    await screen.findByRole('option', { name: '16 (default)' })
+    expect(screen.getByRole('combobox', { name: /Preferred maximum hours/ })).toHaveValue('9')
+  })
+
   it('links the overload GPA to its policy on the About page', async () => {
     render(<StepPreferences profile={profile} update={vi.fn()} />)
     expect(await screen.findByRole('link', { name: '3.25' })).toHaveAttribute('href', '/about#policy-overload_gpa_min')

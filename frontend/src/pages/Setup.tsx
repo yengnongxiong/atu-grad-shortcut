@@ -368,7 +368,9 @@ export function StepPreferences({ profile, update }: { profile: StudentProfile; 
   const policies = usePolicies()
   const standard = policyNumber(policies, 'preferred_hours_default')
   const regularMax = policyNumber(policies, 'regular_load_max')
-  const loads = regularMax === null ? [] : Array.from({ length: Math.max(0, regularMax - 11) }, (_, i) => 12 + i)
+  const range = regularMax === null ? [] : Array.from({ length: Math.max(0, regularMax - 11) }, (_, i) => 12 + i)
+  const current = prefs.preferred_hours
+  const loads = current === null || range.length === 0 || range.includes(current) ? range : [...range, current].sort((a, b) => a - b)
   return (
     <div className="space-y-6">
       <label className="block text-sm">
