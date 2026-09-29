@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40015",
+    "subject": "MKT",
+    "courseNumber": "3043",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Principles of Marketing",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40014",
+    "subject": "MKT",
+    "courseNumber": "3063",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Social Media Marketing",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

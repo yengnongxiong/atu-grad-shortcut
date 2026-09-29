@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40399",
+    "subject": "AGBU",
+    "courseNumber": "3993",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Internship I in Agriculture",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40487",
+    "subject": "AGBU",
+    "courseNumber": "4991",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: INDEPENDENT RESEARCH",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

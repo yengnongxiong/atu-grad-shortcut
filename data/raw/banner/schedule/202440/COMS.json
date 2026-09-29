@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40281",
+    "subject": "COMS",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Computer Based Systems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40319",
+    "subject": "COMS",
+    "courseNumber": "1011",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Programming Foundations I Lab",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40283",
+    "subject": "COMS",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Programming Foundations I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40320",
+    "subject": "COMS",
+    "courseNumber": "2203",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Programming Foundations II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40321",
+    "subject": "COMS",
+    "courseNumber": "4933",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  }
+]

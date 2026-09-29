@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "70699",
+    "subject": "JPN",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70700",
+    "subject": "JPN",
+    "courseNumber": "2013",
+    "sequenceNumber": "001",
+    "courseTitle": "Intermediate Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70703",
+    "subject": "JPN",
+    "courseNumber": "3003",
+    "sequenceNumber": "001",
+    "courseTitle": "Conversation and Composition I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70968",
+    "subject": "JPN",
+    "courseNumber": "4993",
+    "sequenceNumber": "F01",
+    "courseTitle": "SP: JAPANESE: MANGA",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Hyflex Scheduling Section",
+    "partOfTerm": "1"
+  }
+]

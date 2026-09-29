@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40183",
+    "subject": "RP",
+    "courseNumber": "3043",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Developing Professional Practices",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40184",
+    "subject": "RP",
+    "courseNumber": "4119",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Mastery in Professional Practice",
+    "creditHours": null,
+    "creditHourLow": 9,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Applied Instruction",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40432",
+    "subject": "RP",
+    "courseNumber": "4992",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: CAMPS AND EVENTS",
+    "creditHours": null,
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  }
+]

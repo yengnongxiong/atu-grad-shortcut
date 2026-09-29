@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20875",
+    "subject": "MLED",
+    "courseNumber": "2003",
+    "sequenceNumber": "M01",
+    "courseTitle": "Education as a Profession",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20871",
+    "subject": "MLED",
+    "courseNumber": "3103",
+    "sequenceNumber": "M01",
+    "courseTitle": "Writing in the Content Area",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20891",
+    "subject": "MLED",
+    "courseNumber": "4903",
+    "sequenceNumber": "081",
+    "courseTitle": "Residency B Seminar",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Practice Teaching",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20897",
+    "subject": "MLED",
+    "courseNumber": "4909",
+    "sequenceNumber": "082",
+    "courseTitle": "Residency B",
+    "creditHours": null,
+    "creditHourLow": 9,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  }
+]

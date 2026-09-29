@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40124",
+    "subject": "EMHS",
+    "courseNumber": "6193",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to International Emergency Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40123",
+    "subject": "EMHS",
+    "courseNumber": "6203",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Crisis Communications",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

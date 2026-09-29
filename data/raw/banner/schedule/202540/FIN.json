@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40457",
+    "subject": "FIN",
+    "courseNumber": "3043",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Investments",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40342",
+    "subject": "FIN",
+    "courseNumber": "3063",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Business Finance",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40458",
+    "subject": "FIN",
+    "courseNumber": "4093",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Advanced Financial Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40343",
+    "subject": "FIN",
+    "courseNumber": "6103",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Corporate Financial Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

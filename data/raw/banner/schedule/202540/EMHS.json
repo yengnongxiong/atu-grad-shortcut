@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40149",
+    "subject": "EMHS",
+    "courseNumber": "6163",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Disaster Preparedness",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

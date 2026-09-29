@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40215",
+    "subject": "HES",
+    "courseNumber": "4012",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Health and Exercise Science Internship",
+    "creditHours": null,
+    "creditHourLow": 12,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40419",
+    "subject": "HES",
+    "courseNumber": "4053",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Biomechanics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  }
+]

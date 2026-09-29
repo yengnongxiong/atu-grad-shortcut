@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40139",
+    "subject": "LEAD",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40153",
+    "subject": "LEAD",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Ethics in Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

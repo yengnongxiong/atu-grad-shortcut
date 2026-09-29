@@ -1,0 +1,4 @@
+{
+  "_about": "Manual cross-checks (PRD §7.5). A program reaches Cross-checked only if every validation check passes AND a record here says result=passed. Each record lists what was compared and any findings.",
+  "programs": {}
+}

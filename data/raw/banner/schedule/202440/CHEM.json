@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40331",
+    "subject": "CHEM",
+    "courseNumber": "1111",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Survey of Chemistry Laboratory",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40367",
+    "subject": "CHEM",
+    "courseNumber": "1113",
+    "sequenceNumber": "TC1",
+    "courseTitle": "A Survey of Chemistry",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40334",
+    "subject": "CHEM",
+    "courseNumber": "2130",
+    "sequenceNumber": "001",
+    "courseTitle": "General Chemistry II Lab",
+    "creditHours": null,
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40369",
+    "subject": "CHEM",
+    "courseNumber": "2134",
+    "sequenceNumber": "001",
+    "courseTitle": "General Chemistry II",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40437",
+    "subject": "CHEM",
+    "courseNumber": "4951",
+    "sequenceNumber": "001",
+    "courseTitle": "UR: YERSINIA CYTOCHROME C",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "2"
+  }
+]

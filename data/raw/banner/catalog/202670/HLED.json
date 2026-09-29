@@ -1,0 +1,50 @@
+[
+  {
+    "subjectCode": "HLED",
+    "courseNumber": "1513",
+    "courseTitle": "Lifetime Health and Fitness",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Health Education"
+  },
+  {
+    "subjectCode": "HLED",
+    "courseNumber": "3203",
+    "courseTitle": "Consumer Health Programs",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Health Education"
+  },
+  {
+    "subjectCode": "HLED",
+    "courseNumber": "4303",
+    "courseTitle": "Methods and Materials in Health for Grades K-12",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Health Education"
+  },
+  {
+    "subjectCode": "HLED",
+    "courseNumber": "4403",
+    "courseTitle": "Sport and Exercise Nutrition",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Health Education"
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "term": "202670",
+  "description_html": "<section aria-labelledby=\"courseDescription\">\n    A capstone course to demonstrate academic achievement, clinical reasoning, and judgment through preceptorship and NCLEX preparation.\n    \n</section>",
+  "prerequisites_html": "<section aria-labelledby=\"preReqs\">\n    <h3>Catalog Prerequisites</h3>\n    \n        No prerequisite information available.\n    \n    \n\n\n    \n</section>",
+  "corequisites_html": "<section aria-labelledby=\"coReqs\">\n    <h3>Corequisites</h3>\n    \n        <table class=\"basePreqTable\">\n            <thead>\n            <tr>\n                <th>Subject</th>\n                <th>Course Number</th>\n                <th>Title</th>\n            </tr>\n            </thead>\n            <tbody>\n            \n                <tr>\n                    <td>Nursing</td>\n                    <td>4606</td>\n                    <td>CONCEPTS IN NURSING IV</td>\n                </tr>\n            \n                <tr>\n                    <td>Nursing</td>\n                    <td>4804</td>\n                    <td>CLINICAL NURSING IV</td>\n                </tr>\n            \n            </tbody>\n        </table>\n    \n    \n</section>"
+}

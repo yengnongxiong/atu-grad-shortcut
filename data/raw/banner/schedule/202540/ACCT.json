@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40335",
+    "subject": "ACCT",
+    "courseNumber": "2000",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Accounting Principles I Lab",
+    "creditHours": null,
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40336",
+    "subject": "ACCT",
+    "courseNumber": "2004",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Accounting Principles I",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40337",
+    "subject": "ACCT",
+    "courseNumber": "2013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Accounting Principles II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40465",
+    "subject": "ACCT",
+    "courseNumber": "4086",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Internship in Accounting",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  }
+]

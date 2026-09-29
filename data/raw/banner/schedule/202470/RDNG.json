@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "71874",
+    "subject": "RDNG",
+    "courseNumber": "3003",
+    "sequenceNumber": "AT1",
+    "courseTitle": "Teaching Literacy Foundations",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71875",
+    "subject": "RDNG",
+    "courseNumber": "3003",
+    "sequenceNumber": "M01",
+    "courseTitle": "Teaching Literacy Foundations",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71877",
+    "subject": "RDNG",
+    "courseNumber": "4003",
+    "sequenceNumber": "F01",
+    "courseTitle": "Literacy Assessment and Intervention",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Hyflex Scheduling Section",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71882",
+    "subject": "RDNG",
+    "courseNumber": "4013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Child and Adolescent Literature",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

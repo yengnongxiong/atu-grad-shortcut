@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "70067",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "001",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71703",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "002",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70072",
+    "subject": "AGPS",
+    "courseNumber": "3023",
+    "sequenceNumber": "001",
+    "courseTitle": "Forage Crops and Pasture Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70091",
+    "subject": "AGPS",
+    "courseNumber": "3093",
+    "sequenceNumber": "001",
+    "courseTitle": "Greenhouse Operation and Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70062",
+    "subject": "AGPS",
+    "courseNumber": "3244",
+    "sequenceNumber": "001",
+    "courseTitle": "Plant Pathology",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

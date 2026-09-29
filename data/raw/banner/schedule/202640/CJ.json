@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40064",
+    "subject": "CJ",
+    "courseNumber": "3033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Criminal Psychology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40008",
+    "subject": "CJ",
+    "courseNumber": "3083",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Social Deviance",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40016",
+    "subject": "CJ",
+    "courseNumber": "4033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Policing and Society",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40010",
+    "subject": "CJ",
+    "courseNumber": "4143",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SEM: CYBERCRIMES",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40018",
+    "subject": "CJ",
+    "courseNumber": "4206",
+    "sequenceNumber": "M01",
+    "courseTitle": "The Law in Action",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  }
+]

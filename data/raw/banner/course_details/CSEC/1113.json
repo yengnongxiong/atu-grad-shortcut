@@ -1,0 +1,6 @@
+{
+  "term": "202670",
+  "description_html": "<section aria-labelledby=\"courseDescription\">\n    Offered: Fall, Spring.\n\nComputer and communications networks are the very environment in which cyber operations are conducted. An understanding of these networks is essential to any discussion of cyber operations activities.\n\nSpecific topics to be covered to satisfy this knowledge unit must minimally include: Routing, network, and application protocols (TCP/IP (versions 4 and 6), ARP, BGP, SLL/TLS, DNS, SMTP, HTTP), network architectures, network security, wireless network technologies, network traffic analysis, protocol analysis (examining component-to-component communication to determine the protocol being used and what it is doing), and network mapping techniques (active and passive).\n    \n</section>",
+  "prerequisites_html": "<section aria-labelledby=\"preReqs\">\n    <h3>Catalog Prerequisites</h3>\n    \n        No prerequisite information available.\n    \n    \n\n\n    \n</section>",
+  "corequisites_html": "<section aria-labelledby=\"coReqs\">\n    <h3>Corequisites</h3>\n    \n        No corequisite course information available.\n    \n    \n</section>"
+}

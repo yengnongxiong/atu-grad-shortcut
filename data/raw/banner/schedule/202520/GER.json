@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "20556",
+    "subject": "GER",
+    "courseNumber": "1023",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "22052",
+    "subject": "GER",
+    "courseNumber": "4993",
+    "sequenceNumber": "001",
+    "courseTitle": "SP/GER: INTERMEDIATE GERMAN",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

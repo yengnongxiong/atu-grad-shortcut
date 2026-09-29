@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "20289",
+    "subject": "CMPE",
+    "courseNumber": "4191",
+    "sequenceNumber": "001",
+    "courseTitle": "Computer Engineering Design Project I",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20290",
+    "subject": "CMPE",
+    "courseNumber": "4192",
+    "sequenceNumber": "001",
+    "courseTitle": "Computer Engineering Design Project II",
+    "creditHours": null,
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

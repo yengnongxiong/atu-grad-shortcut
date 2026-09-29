@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40318",
+    "subject": "AGPS",
+    "courseNumber": "3083",
+    "sequenceNumber": "M01",
+    "courseTitle": "Small Fruit and Nut Culture",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40316",
+    "subject": "AGPS",
+    "courseNumber": "3244",
+    "sequenceNumber": "M01",
+    "courseTitle": "Plant Pathology",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "1"
+  }
+]

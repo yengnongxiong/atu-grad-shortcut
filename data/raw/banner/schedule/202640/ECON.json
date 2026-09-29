@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40243",
+    "subject": "ECON",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Principles of Macroeconomics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40244",
+    "subject": "ECON",
+    "courseNumber": "2013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Principles of Microeconomics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40374",
+    "subject": "ECON",
+    "courseNumber": "6103",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Managerial Economics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  }
+]

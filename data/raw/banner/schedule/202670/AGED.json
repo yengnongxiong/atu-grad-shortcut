@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "70407",
+    "subject": "AGED",
+    "courseNumber": "1001",
+    "sequenceNumber": "001",
+    "courseTitle": "Introduction to Agricultural Education",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70071",
+    "subject": "AGED",
+    "courseNumber": "2104",
+    "sequenceNumber": "001",
+    "courseTitle": "Introduction to Agricultural Systems Technology",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70064",
+    "subject": "AGED",
+    "courseNumber": "3033",
+    "sequenceNumber": "001",
+    "courseTitle": "Philosophy and Foundations of Program Development",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70073",
+    "subject": "AGED",
+    "courseNumber": "4044",
+    "sequenceNumber": "001",
+    "courseTitle": "Methods in Teaching Agriculture",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

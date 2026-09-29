@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40156",
+    "subject": "MATH",
+    "courseNumber": "1110",
+    "sequenceNumber": "ET1",
+    "courseTitle": "College Algebra Lab",
+    "creditHours": null,
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Applied Instruction",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40155",
+    "subject": "MATH",
+    "courseNumber": "1113",
+    "sequenceNumber": "ET1",
+    "courseTitle": "College Algebra",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40233",
+    "subject": "MATH",
+    "courseNumber": "1113",
+    "sequenceNumber": "TC1",
+    "courseTitle": "College Algebra",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40236",
+    "subject": "MATH",
+    "courseNumber": "1914",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Precalculus",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40234",
+    "subject": "MATH",
+    "courseNumber": "2924",
+    "sequenceNumber": "001",
+    "courseTitle": "Calculus II",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

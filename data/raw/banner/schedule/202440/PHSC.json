@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40256",
+    "subject": "PHSC",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Physical Science",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40257",
+    "subject": "PHSC",
+    "courseNumber": "1021",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Physical Science Laboratory",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40468",
+    "subject": "PHSC",
+    "courseNumber": "1021",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Physical Science Laboratory",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

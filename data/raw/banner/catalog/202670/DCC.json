@@ -1,0 +1,62 @@
+[
+  {
+    "subjectCode": "DCC",
+    "courseNumber": "1821",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "Communication/Media Studies",
+    "termEffective": "202620",
+    "subjectDescription": "Digital Content Creation"
+  },
+  {
+    "subjectCode": "DCC",
+    "courseNumber": "2293",
+    "courseTitle": "Social Media Influencing I",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "Communication/Media Studies",
+    "termEffective": "202620",
+    "subjectDescription": "Digital Content Creation"
+  },
+  {
+    "subjectCode": "DCC",
+    "courseNumber": "3821",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "Communication/Media Studies",
+    "termEffective": "202620",
+    "subjectDescription": "Digital Content Creation"
+  },
+  {
+    "subjectCode": "DCC",
+    "courseNumber": "4293",
+    "courseTitle": "Social Media Influencing II",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "Communication/Media Studies",
+    "termEffective": "202640",
+    "subjectDescription": "Digital Content Creation"
+  },
+  {
+    "subjectCode": "DCC",
+    "courseNumber": "4821",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "Communication/Media Studies",
+    "termEffective": "202620",
+    "subjectDescription": "Digital Content Creation"
+  }
+]

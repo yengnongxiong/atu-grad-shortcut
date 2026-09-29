@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "70068",
+    "subject": "AGLE",
+    "courseNumber": "3003",
+    "sequenceNumber": "001",
+    "courseTitle": "Personal Leadership Theory and Development",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71737",
+    "subject": "AGLE",
+    "courseNumber": "3013",
+    "sequenceNumber": "M01",
+    "courseTitle": "Team Leadership and Organizational Change",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "1"
+  }
+]

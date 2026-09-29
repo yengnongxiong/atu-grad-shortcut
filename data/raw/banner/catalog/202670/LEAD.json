@@ -1,0 +1,86 @@
+[
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "1003",
+    "courseTitle": "Introduction to Leadership",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "1013",
+    "courseTitle": "Honors Introduction to Leadership",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202640",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "2003",
+    "courseTitle": "Ethics in Leadership",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "2013",
+    "courseTitle": "Honors Ethics in Leadership",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202640",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "3003",
+    "courseTitle": "Leading Teams",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "4003",
+    "courseTitle": "Leadership Internship/Capstone Seminar",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "Leadership"
+  },
+  {
+    "subjectCode": "LEAD",
+    "courseNumber": "4103",
+    "courseTitle": "Special Problems in Leadership",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "Leadership"
+  }
+]

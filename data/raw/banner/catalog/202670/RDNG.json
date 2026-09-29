@@ -1,0 +1,98 @@
+[
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "3003",
+    "courseTitle": "Teaching Literacy Foundations",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "3163",
+    "courseTitle": "Content Area Literacy",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "4003",
+    "courseTitle": "Literacy Assessment and Intervention",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "4013",
+    "courseTitle": "Child and Adolescent Literature",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "5023",
+    "courseTitle": "Literacy Curriculum Design and Analysis",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "5053",
+    "courseTitle": "Literacy, Technology, and the Reading Environment",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "6043",
+    "courseTitle": "Multicultural Literacy, Language, and Culture",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  },
+  {
+    "subjectCode": "RDNG",
+    "courseNumber": "6086",
+    "courseTitle": "Reading Practicum",
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Reading"
+  }
+]

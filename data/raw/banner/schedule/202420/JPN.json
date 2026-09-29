@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "20888",
+    "subject": "JPN",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20889",
+    "subject": "JPN",
+    "courseNumber": "1023",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning Japanese II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20891",
+    "subject": "JPN",
+    "courseNumber": "3013",
+    "sequenceNumber": "001",
+    "courseTitle": "Conversation and Composition II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20893",
+    "subject": "JPN",
+    "courseNumber": "3113",
+    "sequenceNumber": "001",
+    "courseTitle": "Culture and Civilization",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "22195",
+    "subject": "JPN",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: INTERMEDIATE JAPANESE II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40271",
+    "subject": "PE",
+    "courseNumber": "3663",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Kinesiology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40272",
+    "subject": "PE",
+    "courseNumber": "4033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Exercise Physiology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

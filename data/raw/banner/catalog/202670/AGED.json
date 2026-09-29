@@ -1,0 +1,86 @@
+[
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "1001",
+    "courseTitle": "Introduction to Agricultural Education",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "1013",
+    "courseTitle": "Agricultural Youth Organizations",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "2104",
+    "courseTitle": "Introduction to Agricultural Systems Technology",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "2203",
+    "courseTitle": "Applied Agricultural Systems Technology",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "3033",
+    "courseTitle": "Philosophy and Foundations of Program Development",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "4033",
+    "courseTitle": "Curriculum Design and Assessment",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  },
+  {
+    "subjectCode": "AGED",
+    "courseNumber": "4044",
+    "courseTitle": "Methods in Teaching Agriculture",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Education"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "subjectCode": "WS",
+    "courseNumber": "1031",
+    "courseTitle": "Food, Exercise, and Body Composition",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Wellness Science"
+  },
+  {
+    "subjectCode": "WS",
+    "courseNumber": "1081",
+    "courseTitle": "Muscle Fitness for Men",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Wellness Science"
+  },
+  {
+    "subjectCode": "WS",
+    "courseNumber": "1091",
+    "courseTitle": "Fitness Walking/Jogging",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202240",
+    "subjectDescription": "Wellness Science"
+  }
+]

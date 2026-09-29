@@ -1,0 +1,62 @@
+[
+  {
+    "subjectCode": "ECE",
+    "courseNumber": "2113",
+    "courseTitle": "Basic Child Growth and Development",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Early Childhood Education (AS)"
+  },
+  {
+    "subjectCode": "ECE",
+    "courseNumber": "2313",
+    "courseTitle": "Foundations and Theories in Early Childhood Education",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Early Childhood Education (AS)"
+  },
+  {
+    "subjectCode": "ECE",
+    "courseNumber": "2513",
+    "courseTitle": "Curriculum for Early Childhood Education",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Early Childhood Education (AS)"
+  },
+  {
+    "subjectCode": "ECE",
+    "courseNumber": "2613",
+    "courseTitle": "Methods and Materials Using Developmentally Appropriate Practices and Activities for Young Children",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Early Childhood Education (AS)"
+  },
+  {
+    "subjectCode": "ECE",
+    "courseNumber": "2996",
+    "courseTitle": "Practicum in Early Childhood Education",
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Early Childhood Education (AS)"
+  }
+]

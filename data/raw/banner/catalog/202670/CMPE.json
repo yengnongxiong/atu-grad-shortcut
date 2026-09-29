@@ -1,0 +1,26 @@
+[
+  {
+    "subjectCode": "CMPE",
+    "courseNumber": "4191",
+    "courseTitle": "Computer Engineering Design Project I",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "termEffective": "202440",
+    "subjectDescription": "Computer Engineering"
+  },
+  {
+    "subjectCode": "CMPE",
+    "courseNumber": "4192",
+    "courseTitle": "Computer Engineering Design Project II",
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Engineering/Computer Sciences",
+    "termEffective": "202440",
+    "subjectDescription": "Computer Engineering"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40039",
+    "subject": "GEOG",
+    "courseNumber": "2013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Regional Geography of the World",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40040",
+    "subject": "GEOG",
+    "courseNumber": "3303",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Geography of Latin America",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

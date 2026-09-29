@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "70334",
+    "subject": "GER",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70336",
+    "subject": "GER",
+    "courseNumber": "4993",
+    "sequenceNumber": "001",
+    "courseTitle": "SP: CONVERSTATION/COMP I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "subjectCode": "AGLE",
+    "courseNumber": "3003",
+    "courseTitle": "Personal Leadership Theory and Development",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Leadership"
+  },
+  {
+    "subjectCode": "AGLE",
+    "courseNumber": "3013",
+    "courseTitle": "Team Leadership and Organizational Change",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agricultural Leadership"
+  }
+]

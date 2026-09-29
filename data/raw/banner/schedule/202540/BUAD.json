@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40339",
+    "subject": "BUAD",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Business Information Systems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

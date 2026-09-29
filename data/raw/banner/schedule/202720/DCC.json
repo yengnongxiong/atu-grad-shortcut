@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20814",
+    "subject": "DCC",
+    "courseNumber": "1821",
+    "sequenceNumber": "081",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20803",
+    "subject": "DCC",
+    "courseNumber": "2293",
+    "sequenceNumber": "001",
+    "courseTitle": "Social Media Influencing I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20816",
+    "subject": "DCC",
+    "courseNumber": "3821",
+    "sequenceNumber": "081",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20817",
+    "subject": "DCC",
+    "courseNumber": "4821",
+    "sequenceNumber": "081",
+    "courseTitle": "Digital Content Creation Practicum",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "1"
+  }
+]

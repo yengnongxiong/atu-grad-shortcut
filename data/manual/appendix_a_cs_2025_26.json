@@ -1,0 +1,374 @@
+{
+  "_about": "PRD Appendix A: the 2025-26 CS degree map transcribed by the owner. Parser ground truth (tests/pipeline/test_cs_ground_truth.py) and fallback seed.",
+  "source": {
+    "title": "PRD Appendix A (transcribed)",
+    "url": "https://www.atu.edu/advising/degreemaps_docs/2025-26/ComputerScience.pdf"
+  },
+  "program": {
+    "name": "Computer Science",
+    "degree": "Bachelor of Science",
+    "catalog_year": "2025-26",
+    "total_hours_min": 120,
+    "upper_level_hours_min": 40,
+    "gpa_min": 2.0,
+    "max_pe_hours": 4,
+    "approved_elective_hours": 9
+  },
+  "semesters": [
+    {
+      "number": 1,
+      "total": 14,
+      "rows": [
+        {
+          "code": "ENGL 1013",
+          "title": "Composition I",
+          "hours": 3,
+          "grade_c": true
+        },
+        {
+          "code": "CSEC 1003",
+          "title": "Intro to Cybersecurity",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "COMS 1333",
+          "title": "Web and Mobile Technologies",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "TECH 1001",
+          "title": "Orientation to the University",
+          "hours": 1,
+          "grade_c": false
+        },
+        {
+          "code": "MATH 2914",
+          "title": "Calculus I",
+          "hours": 4,
+          "grade_c": true,
+          "prereq": "math ACT >26, or C or better in MATH 1203/1914"
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "total": 14,
+      "rows": [
+        {
+          "code": "ENGL 1023",
+          "title": "Composition II",
+          "hours": 3,
+          "grade_c": true
+        },
+        {
+          "code": "CSEC 1113",
+          "title": "Intro to Networking",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "COMS 1013",
+          "title": "Programming Foundations I",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "MATH 1113 or higher"
+        },
+        {
+          "code": "COMS 1011",
+          "title": "Programming Foundations I Lab",
+          "hours": 1,
+          "grade_c": false,
+          "coreq": "COMS 1013",
+          "pass_fail": true
+        },
+        {
+          "code": "MATH 2924",
+          "title": "Calculus II",
+          "hours": 4,
+          "grade_c": false
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "total": 15,
+      "rows": [
+        {
+          "code": "COMS 2203",
+          "title": "Programming Foundations II",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "C or better in COMS 1013 and in MATH 1113 or higher"
+        },
+        {
+          "code": "MATH 2703",
+          "title": "Discrete Mathematics",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "C or better in MATH 1113 or higher"
+        },
+        {
+          "code": "COMS 2703",
+          "title": "Computer Hardware & Architecture",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "COMM 2173",
+          "title": "Business and Professional Speaking",
+          "hours": 3,
+          "grade_c": false,
+          "substitute": "COMM 2003"
+        },
+        {
+          "bucket": "Social Sciences",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "total": 16,
+      "rows": [
+        {
+          "code": "COMS 2213",
+          "title": "Data Structures",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "MATH 2703 and C or better in COMS 2203"
+        },
+        {
+          "code": "COMS 2223",
+          "title": "Computer Organization and Programming",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "COMS 2203 and MATH 2703"
+        },
+        {
+          "code": "COMS 2163",
+          "title": "Scripting Languages",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "COMS 1333 and COMS 2203"
+        },
+        {
+          "bucket": "Science with Lab",
+          "hours": 4
+        },
+        {
+          "code": "ENGL 2053",
+          "title": "Technical Writing",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "ENGL 1023"
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "total": 15,
+      "rows": [
+        {
+          "bucket": "Fine Arts & Humanities",
+          "hours": 3
+        },
+        {
+          "code": "COMS 3703",
+          "title": "Advanced Operating Systems",
+          "hours": 3,
+          "grade_c": false,
+          "only": "FA",
+          "prereq": "COMS 2213 and COMS 2223"
+        },
+        {
+          "code": "COMS 3213",
+          "title": "Algorithm Design & Analysis",
+          "hours": 3,
+          "grade_c": false,
+          "only": "FA",
+          "prereq": "COMS 2213"
+        },
+        {
+          "code": "COMS 2323",
+          "title": "Programming in Python",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "COMS 2203"
+        },
+        {
+          "bucket": "Approved Elective (3000-4000)",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "total": 16,
+      "rows": [
+        {
+          "bucket": "Science with Lab",
+          "hours": 4
+        },
+        {
+          "code": "COMS 3053",
+          "title": "Ethical Issues in Technology",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "junior standing in COMS"
+        },
+        {
+          "code": "COMS 3233",
+          "title": "Data Design and Implementation",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "COMS 2203"
+        },
+        {
+          "code": "COMS 3313",
+          "title": "Software Engineering",
+          "hours": 3,
+          "grade_c": false,
+          "only": "SP",
+          "prereq": "COMS 3213"
+        },
+        {
+          "bucket": "Approved Elective (3000-4000)",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "total": 15,
+      "rows": [
+        {
+          "code": "STAT 3153",
+          "title": "Applied Statistics",
+          "hours": 3,
+          "grade_c": false,
+          "prereq": "MATH 2924"
+        },
+        {
+          "code": "COMS 4913",
+          "title": "Capstone I",
+          "hours": 3,
+          "grade_c": false,
+          "only": "FA"
+        },
+        {
+          "code": "COMS 4103",
+          "title": "Organization of Programming Languages",
+          "hours": 3,
+          "grade_c": false,
+          "only": "FA",
+          "prereq": "COMS 2213 and COMS 2223"
+        },
+        {
+          "bucket": "U.S. History/Government",
+          "hours": 3
+        },
+        {
+          "bucket": "Fine Arts & Humanities",
+          "hours": 3
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "total": 15,
+      "rows": [
+        {
+          "bucket": "Social Sciences",
+          "hours": 3
+        },
+        {
+          "code": "MATH 4003",
+          "title": "Linear Algebra I",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "COMS 4413",
+          "title": "Parallel and Distributed Computing",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "code": "COMS 4923",
+          "title": "Capstone II",
+          "hours": 3,
+          "grade_c": false
+        },
+        {
+          "bucket": "Approved Elective (3000-4000)",
+          "hours": 3
+        }
+      ]
+    }
+  ],
+  "gen_ed_buckets": {
+    "Fine Arts & Humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "LEAD 2003",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023"
+    ],
+    "U.S. History & Government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "Social Sciences": [
+      "HIST 1503",
+      "HIST 1513",
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003",
+      "ANTH 1213",
+      "ANTH 2003",
+      "GEOG 2013",
+      "AMST 2003",
+      "FIN 2013",
+      "LEAD 1003"
+    ],
+    "Science with Lab": [
+      "BIOL 1014",
+      "BIOL 1004",
+      "PHSC 1004",
+      "GEOL 1014"
+    ]
+  },
+  "acts_equivalents": {
+    "ENGL 1013": "ENGL 1013",
+    "ENGL 1023": "ENGL 1023",
+    "MATH 2914": "MATH 2405",
+    "MATH 2924": "MATH 2505",
+    "ENGL 2053": "ENGL 2023"
+  }
+}

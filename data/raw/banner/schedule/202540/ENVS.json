@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40370",
+    "subject": "ENVS",
+    "courseNumber": "1004",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Principles of Environmental Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

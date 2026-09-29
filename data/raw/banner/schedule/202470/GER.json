@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "70223",
+    "subject": "GER",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71806",
+    "subject": "GER",
+    "courseNumber": "2013",
+    "sequenceNumber": "001",
+    "courseTitle": "Intermediate German I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

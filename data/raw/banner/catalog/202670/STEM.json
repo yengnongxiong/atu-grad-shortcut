@@ -1,0 +1,14 @@
+[
+  {
+    "subjectCode": "STEM",
+    "courseNumber": "1001",
+    "courseTitle": "Orientation to the College of Science, Technology, Engineering, and Mathematics",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Science/Technology/Engr/Math",
+    "department": "Mathematical and Physical Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Science/Tech/Engineering/Math"
+  }
+]

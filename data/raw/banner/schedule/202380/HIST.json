@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "80017",
+    "subject": "HIST",
+    "courseNumber": "1903",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Survey of American History",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

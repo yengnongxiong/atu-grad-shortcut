@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40263",
+    "subject": "RS",
+    "courseNumber": "3143",
+    "sequenceNumber": "TC3",
+    "courseTitle": "SEM: SURVIVING BURNOUT",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40302",
+    "subject": "RS",
+    "courseNumber": "4012",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Internship in Rehabilitation Services",
+    "creditHours": null,
+    "creditHourLow": 12,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40301",
+    "subject": "RS",
+    "courseNumber": "4194",
+    "sequenceNumber": "VC1",
+    "courseTitle": "Field Placement Experiences",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Applied Instruction",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Video Conferencing",
+    "partOfTerm": null
+  }
+]

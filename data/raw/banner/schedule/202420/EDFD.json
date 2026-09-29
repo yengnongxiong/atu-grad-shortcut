@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "21602",
+    "subject": "EDFD",
+    "courseNumber": "6003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Educational Research",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21789",
+    "subject": "EDFD",
+    "courseNumber": "6403",
+    "sequenceNumber": "VC1",
+    "courseTitle": "Social, Historical, and Legal Factors in Education",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Video Conferencing",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21793",
+    "subject": "EDFD",
+    "courseNumber": "6993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Project in Educational Research",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "21317",
+    "subject": "BLAW",
+    "courseNumber": "1033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Law for Life: Understanding the Law and Personal Legal Issues",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "6"
+  },
+  {
+    "courseReferenceNumber": "21213",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "001",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21214",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "002",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21437",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "22087",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC3",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

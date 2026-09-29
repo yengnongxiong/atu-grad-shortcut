@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "70387",
+    "subject": "JPN",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Beginning Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

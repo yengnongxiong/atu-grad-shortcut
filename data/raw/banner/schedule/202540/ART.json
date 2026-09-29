@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40358",
+    "subject": "ART",
+    "courseNumber": "2123",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Experiencing Art",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40412",
+    "subject": "ART",
+    "courseNumber": "4733",
+    "sequenceNumber": "001",
+    "courseTitle": "Art or Design Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40474",
+    "subject": "ART",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: 3D ANIMATION",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  }
+]

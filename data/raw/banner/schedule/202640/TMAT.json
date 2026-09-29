@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40109",
+    "subject": "TMAT",
+    "courseNumber": "1203",
+    "sequenceNumber": "001",
+    "courseTitle": "Technical Mathematics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Ozark",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40423",
+    "subject": "TMAT",
+    "courseNumber": "1203",
+    "sequenceNumber": "002",
+    "courseTitle": "Technical Mathematics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Ozark",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "2"
+  }
+]

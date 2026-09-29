@@ -1,0 +1,110 @@
+[
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "1024",
+    "courseTitle": "Principles of Plant Science",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3023",
+    "courseTitle": "Forage Crops and Pasture Management",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3044",
+    "courseTitle": "Plant Propagation",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3064",
+    "courseTitle": "Vegetable Growing",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3074",
+    "courseTitle": "Floriculture",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3083",
+    "courseTitle": "Small Fruit and Nut Culture",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3093",
+    "courseTitle": "Greenhouse Operation and Management",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "3244",
+    "courseTitle": "Plant Pathology",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  },
+  {
+    "subjectCode": "AGPS",
+    "courseNumber": "4103",
+    "courseTitle": "Crop and Garden Insects",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202240",
+    "subjectDescription": "Agriculture Plant Science"
+  }
+]

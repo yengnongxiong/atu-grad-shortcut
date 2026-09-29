@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40280",
+    "subject": "CSEC",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Cybersecurity",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40322",
+    "subject": "CSEC",
+    "courseNumber": "4933",
+    "sequenceNumber": "081",
+    "courseTitle": "Cybersecurity Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  }
+]

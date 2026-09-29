@@ -1,0 +1,98 @@
+[
+  {
+    "subjectCode": "TR",
+    "courseNumber": "3013",
+    "courseTitle": "Inclusive Recreation",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4073",
+    "courseTitle": "Principles and Techniques of Therapeutic Recreation",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4119",
+    "courseTitle": "Mastery Professional Practice",
+    "creditHourLow": 9,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "Agriculture and Tourism",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4173",
+    "courseTitle": "Therapeutic Recreation Assessment and Documentation",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4273",
+    "courseTitle": "Administration and Operation of Therapeutic Recreation Programs",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4373",
+    "courseTitle": "Interventions in Therapeutic Recreation",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4473",
+    "courseTitle": "Issues and Trends in Therapeutic Recreation",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  },
+  {
+    "subjectCode": "TR",
+    "courseNumber": "4573",
+    "courseTitle": "Interventions in Therapeutic Recreation II",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Kinesiology/Rehabilitation Sci",
+    "termEffective": "202540",
+    "subjectDescription": "Therapeutic Recreation"
+  }
+]

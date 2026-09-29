@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "21284",
+    "subject": "HLED",
+    "courseNumber": "1513",
+    "sequenceNumber": "001",
+    "courseTitle": "Lifetime Health and Fitness",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21509",
+    "subject": "HLED",
+    "courseNumber": "1513",
+    "sequenceNumber": "ET1",
+    "courseTitle": "Lifetime Health and Fitness",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "4"
+  },
+  {
+    "courseReferenceNumber": "21485",
+    "subject": "HLED",
+    "courseNumber": "1513",
+    "sequenceNumber": "P01",
+    "courseTitle": "Lifetime Health and Fitness",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "4"
+  },
+  {
+    "courseReferenceNumber": "21285",
+    "subject": "HLED",
+    "courseNumber": "1513",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Lifetime Health and Fitness",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21286",
+    "subject": "HLED",
+    "courseNumber": "4403",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Sport and Exercise Nutrition",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]
