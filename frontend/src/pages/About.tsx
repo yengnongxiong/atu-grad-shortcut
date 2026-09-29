@@ -41,13 +41,12 @@ const SOURCES: [string, string, string][] = [
   ],
 ]
 
-const CONFIDENCE_TONE: Record<string, string> = {
-  documented: 'border-saved/40 bg-saved-soft text-saved',
-  derived: 'border-info/30 bg-info-soft text-info',
-  assumed: 'border-warn/40 bg-warn-soft text-warn',
-  unknown: 'border-line-strong bg-paper text-muted',
-  conflicting: 'border-critical/40 bg-critical-soft text-critical',
-}
+const TIER_COLUMNS = [
+  ['cross_checked', 'Cross-checked'],
+  ['auto_imported', 'Auto-imported'],
+  ['needs_review', 'Needs review'],
+  ['excluded', 'Associate (not planned)'],
+] as const
 
 export function About({ programs }: { programs: ProgramListItem[] }) {
   const [meta, setMeta] = useState<MetaResponse | null>(null)
@@ -68,6 +67,11 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
   if (error) return <div className="mx-auto max-w-4xl px-4 py-10"><ErrorBox message={error} /></div>
   if (!meta) return <div className="mx-auto max-w-4xl px-4 py-10"><Spinner label="Loading data sources…" /></div>
 
+  const snapshots = meta.catalog_snapshots ?? []
+  const savedOn = [...new Set(snapshots.map((s) => s.captured_at))].sort().join(', ')
+  const sources = SOURCES.map(([name, answers, uses], i) =>
+    i === 0 && savedOn ? ([name, answers, `${uses} Saved ${savedOn}.`] as const) : ([name, answers, uses] as const),
+  )
   const bachelors = programs.length
   const good = programs.filter((p) => p.trust_tier !== 'needs_review').length
   return (
@@ -98,7 +102,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
               </tr>
             </thead>
             <tbody className="divide-y divide-line align-top">
-              {SOURCES.map(([name, answers, uses]) => (
+              {sources.map(([name, answers, uses]) => (
                 <tr key={name}>
                   <td className="py-2 pr-4 font-medium">{name}</td>
                   <td className="py-2 pr-4 text-ink-soft">{answers}</td>
@@ -138,7 +142,36 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
           {good} of {bachelors} bachelor’s programs pass every automated check ({bachelors ? Math.round((100 * good) / bachelors) : 0}%).
           Associate degrees ({meta.tier_counts.excluded ?? 0}) are listed in the pipeline report but not planned (PRD non-goal).
         </p>
-        <p className="mt-2 text-sm text-muted">catalog.atu.edu: {meta.catalog_status}. Banner: {meta.banner_status}.</p>
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full min-w-[32rem] text-left text-sm">
+            <caption className="sr-only">Programs by catalog year and trust tier</caption>
+            <thead className="border-b border-line text-xs text-muted">
+              <tr>
+                <th className="py-2 pr-4 font-medium">Catalog year</th>
+                {TIER_COLUMNS.map(([tier, label]) => (
+                  <th key={tier} className="py-2 pr-4 text-right font-medium">
+                    {label}
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line">
+              {Object.entries(meta.tier_counts_by_year ?? {}).map(([year, counts]) => (
+                <tr key={year}>
+                  <th scope="row" className="py-2 pr-4 text-left font-medium">
+                    {year}
+                  </th>
+                  {TIER_COLUMNS.map(([tier]) => (
+                    <td key={tier} className="py-2 pr-4 text-right tabular-nums">
+                      {counts[tier] ?? 0}
+                    </td>
+                  ))}
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+        <p className="mt-2 text-sm text-muted">Banner: {meta.banner_status}.</p>
       </section>
 
       <section aria-labelledby="sources">
@@ -152,6 +185,23 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
             </li>
           ))}
         </ul>
+        {snapshots.length > 0 && (
+          <>
+            <h3 className="mt-5 font-semibold">Saved catalog pages</h3>
+            <ul className="mt-2 space-y-1.5 text-sm">
+              {snapshots.map((s) => (
+                <li key={s.url}>
+                  <a href={s.url} target="_blank" rel="noreferrer">
+                    {s.title}
+                  </a>{' '}
+                  <span className="text-muted">
+                    ({s.catalog_edition} catalog, saved {s.captured_at})
+                  </span>
+                </li>
+              ))}
+            </ul>
+          </>
+        )}
         <p className="mt-3 text-sm text-ink-soft">
           Exam tables: {Object.entries(meta.exam_programs).map(([k, v]) => `${k} ${v}`).join(' · ')}. The AP, CLEP, and IB tables come from
           the 2026–27 catalog, saved from a regular browser because the catalog site blocks automated tools. Rows that award generic
@@ -164,7 +214,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
         <p className="mt-1 text-sm text-muted">Every policy number the planner uses. Warnings in your plan link here.</p>
         <div className="mt-4 overflow-x-auto rounded-md border border-line">
           <table className="w-full min-w-[44rem] text-sm">
-            <thead className="bg-paper-deep text-left text-xs uppercase tracking-wide text-muted">
+            <thead className="border-b border-line text-left text-xs uppercase tracking-wide text-muted">
               <tr>
                 <th scope="col" className="px-3 py-2">Rule</th>
                 <th scope="col" className="px-3 py-2">Value</th>
@@ -174,7 +224,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
             </thead>
             <tbody className="divide-y divide-line bg-surface">
               {meta.policies.map((p) => (
-                <tr key={p.key} id={`policy-${p.key}`} className="scroll-mt-24 target:bg-warn-soft">
+                <tr key={p.key} id={`policy-${p.key}`} className="scroll-mt-24 target:bg-paper-deep">
                   <th scope="row" className="px-3 py-2 text-left align-top font-semibold">
                     {p.label}
                     {p.note && <span className="mt-1 block text-xs font-normal text-muted">{p.note}</span>}
@@ -183,7 +233,7 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
                     {formatValue(p)} <span className="text-xs text-muted">{p.unit}</span>
                   </td>
                   <td className="px-3 py-2 align-top">
-                    <span className={`chip ${CONFIDENCE_TONE[p.confidence] ?? ''}`}>{CONFIDENCE_LABEL[p.confidence] ?? p.confidence}</span>
+                    <span className="chip">{CONFIDENCE_LABEL[p.confidence] ?? p.confidence}</span>
                   </td>
                   <td className="px-3 py-2 align-top text-xs">
                     {p.sources.map((s) =>

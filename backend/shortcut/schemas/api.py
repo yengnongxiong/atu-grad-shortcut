@@ -23,6 +23,13 @@ class PolicyOut(BaseModel):
     sources: list[SourceLink]
 
 
+class CatalogSnapshot(BaseModel):
+    title: str
+    url: str
+    catalog_edition: str
+    captured_at: str
+
+
 class MetaResponse(BaseModel):
     generated_at: str
     pipeline_mode: str
@@ -33,8 +40,10 @@ class MetaResponse(BaseModel):
     discovered_maps: int
     bachelor_programs: int
     tier_counts: dict[str, int]
+    tier_counts_by_year: dict[str, dict[str, int]] = Field(default_factory=dict)
     course_count: int
     sources: list[SourceLink]
+    catalog_snapshots: list[CatalogSnapshot] = Field(default_factory=list)
     policies: list[PolicyOut]
     assumptions: list[str]
     exam_programs: dict[str, str]

@@ -12,6 +12,7 @@ from shortcut.planner.profile import offered_ok
 from shortcut.planner.service import plan
 from shortcut.planner.whatif import WhatIfError, run_whatif
 from shortcut.schemas.api import (
+    CatalogSnapshot,
     CourseBrief,
     ExamRow,
     ExamsResponse,
@@ -101,8 +102,10 @@ def meta(ds: DS) -> MetaResponse:
         discovered_maps=m["discovered_maps"],
         bachelor_programs=m["bachelor_programs"],
         tier_counts=m["tier_counts"],
+        tier_counts_by_year=m.get("tier_counts_by_year", {}),
         course_count=m["course_count"],
         sources=[SourceLink(**s) for s in m["sources"]],
+        catalog_snapshots=[CatalogSnapshot(**s) for s in m.get("catalog_snapshots", [])],
         policies=rules,
         assumptions=ASSUMPTIONS,
         exam_programs={t["program"]: t["status"] for t in ds.exams.values()},

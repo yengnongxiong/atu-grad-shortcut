@@ -271,6 +271,13 @@ export interface PolicyOut {
   sources: SourceLink[]
 }
 
+export interface CatalogSnapshot {
+  title: string
+  url: string
+  catalog_edition: string
+  captured_at: string
+}
+
 export interface MetaResponse {
   generated_at: string
   pipeline_mode: string
@@ -281,8 +288,10 @@ export interface MetaResponse {
   discovered_maps: number
   bachelor_programs: number
   tier_counts: Record<string, number>
+  tier_counts_by_year?: Record<string, Record<string, number>>
   course_count: number
   sources: SourceLink[]
+  catalog_snapshots?: CatalogSnapshot[]
   policies: PolicyOut[]
   assumptions: string[]
   exam_programs: Record<string, string>

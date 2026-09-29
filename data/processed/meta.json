@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T16:40:41+00:00",
+  "generated_at": "2026-09-29T21:15:10+00:00",
   "pipeline_mode": "offline",
   "newest_catalog_year": "2026-27",
   "catalog_years": [
@@ -16,6 +16,20 @@
     "auto_imported": 110,
     "needs_review": 30,
     "excluded": 16
+  },
+  "tier_counts_by_year": {
+    "2025-26": {
+      "needs_review": 17,
+      "auto_imported": 54,
+      "excluded": 8,
+      "cross_checked": 1
+    },
+    "2026-27": {
+      "cross_checked": 4,
+      "auto_imported": 56,
+      "needs_review": 13,
+      "excluded": 8
+    }
   },
   "course_count": 911,
   "supporting_pages": {
@@ -70,6 +84,44 @@
     {
       "title": "ATU Credit for Prior Learning: for students",
       "url": "https://www.atu.edu/cpl/students.php"
+    }
+  ],
+  "catalog_snapshots": [
+    {
+      "title": "Advanced Placement (AP)",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
+    },
+    {
+      "title": "College Level Examination Program (CLEP)",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/clep/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
+    },
+    {
+      "title": "International Baccalaureate (IB)",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
+    },
+    {
+      "title": "Institutional Credit",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
+    },
+    {
+      "title": "Graduation Requirements",
+      "url": "https://catalog.atu.edu/undergraduate/graduation-requirements/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
+    },
+    {
+      "title": "Regulations & Procedures",
+      "url": "https://catalog.atu.edu/undergraduate/regulations-procedures/",
+      "catalog_edition": "2026-2027",
+      "captured_at": "2026-09-29"
     }
   ]
 }

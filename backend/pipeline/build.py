@@ -17,6 +17,7 @@ from typing import Any
 import httpx
 
 from pipeline.banner import BannerClient
+from pipeline.catalog_tables import snapshot_sources
 from pipeline.catalog_years import link_catalog_years
 from pipeline.codes import code_groups, extract_codes, strip_acts
 from pipeline.common import (
@@ -40,7 +41,7 @@ from pipeline.enrich_catalog import (
     prerequisite_closure,
     prune_retired,
 )
-from pipeline.exams import build_exam_tables, exam_codes
+from pipeline.exams import CATALOG_DIR, build_exam_tables, exam_codes
 from pipeline.fetch_banner import fetch_all
 from pipeline.parse_degree_map import ParsedMap, parse_degree_map
 from pipeline.programs import ProgramContext, build_program, list_category
@@ -250,14 +251,24 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         "discovered_maps": len(refs),
         "bachelor_programs": len(programs),
         "tier_counts": dict(tier_counts),
+        "tier_counts_by_year": tier_counts_by_year(report_rows),
         "course_count": len(courses),
         "supporting_pages": pages_status,
         "sources": _meta_sources(),
+        "catalog_snapshots": snapshot_sources(CATALOG_DIR),
     }
 
     _write_outputs(programs, courses, build_course_index(banner.catalog), exams, policies, meta)
     write_report(meta, report_rows, programs, courses, parsed)
     return meta
+
+
+def tier_counts_by_year(report_rows: list[dict[str, Any]]) -> dict[str, dict[str, int]]:
+    """Trust-tier counts for each catalog year's maps (excluded maps included)."""
+    by_year: dict[str, Counter[str]] = {}
+    for row in report_rows:
+        by_year.setdefault(row["catalog_year"], Counter())[row["tier"]] += 1
+    return {year: dict(counts) for year, counts in sorted(by_year.items())}
 
 
 def _report_row(

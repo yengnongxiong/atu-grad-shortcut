@@ -7,7 +7,7 @@ from functools import cache
 from pathlib import Path
 from typing import Any
 
-from pipeline.catalog_tables import parse_exam_table
+from pipeline.catalog_tables import parse_exam_table, snapshot_sources
 
 RAW = Path(__file__).resolve().parents[3] / "data" / "raw" / "catalog"
 
@@ -82,3 +82,12 @@ def test_ids_are_unique_within_each_table() -> None:
     for program in ("AP", "CLEP", "IB"):
         ids = [r["id"] for r in rows(program)]
         assert len(ids) == len(set(ids)), program
+
+
+def test_snapshot_sources_list_every_saved_page_with_its_capture_date() -> None:
+    sources = snapshot_sources(RAW)
+    urls = [s["url"] for s in sources]
+    assert len(urls) == len(set(urls)) == 6  # AP, CLEP, IB, and three policy pages
+    assert "https://catalog.atu.edu/undergraduate/graduation-requirements/" in urls
+    assert all(s["captured_at"] == "2026-09-29" and s["catalog_edition"] == "2026-2027" for s in sources)
+    assert all(" | " not in s["title"] for s in sources)  # site suffix dropped
