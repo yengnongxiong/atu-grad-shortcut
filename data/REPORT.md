@@ -1,6 +1,6 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T07:21:36+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T07:58:20+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 

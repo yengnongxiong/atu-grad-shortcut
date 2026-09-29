@@ -11,7 +11,7 @@ import re
 import shutil
 import time
 from collections import Counter
-from dataclasses import dataclass, field
+from dataclasses import dataclass, field, replace
 from typing import Any
 
 import httpx
@@ -78,8 +78,14 @@ def collect_map_notes(parsed: dict[str, tuple[MapRef, ParsedMap]]) -> dict[str, 
                 note = notes_for_row(ref.program_id, ref.url, row.notes, row.text)
                 if not (note.only or note.prereq_text or note.coreq_text or note.pass_fail):
                     continue
+                # "PHYS 2114/2000 ... Co-req: MATH 2914": prerequisite and corequisite notes describe
+                # the lecture. A 0-credit lab in the same cell (ATU numbers end in the credit hours)
+                # keeps only the offering and pass/fail facts; its own catalog entry names its coreqs.
+                lab_note = replace(note, prereq_text="", coreq_text="")
+                has_credit = any(not code.endswith("0") for code in groups[0])
                 for code in groups[0]:
-                    notes.setdefault(code, []).append(note)
+                    lab = code.endswith("0") and has_credit
+                    notes.setdefault(code, []).append(lab_note if lab else note)
     return notes
 
 

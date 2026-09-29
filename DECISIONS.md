@@ -105,3 +105,17 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
   - The plan carries a warning to confirm the repeat policy with the registrar.
 - **Alternatives:** Count both attempts, which overstates progress. Or drop the D entirely, which would wrongly block D-level prerequisites and standing.
 - **Reason:** The pipeline has no ATU repeat-policy source. Counting a course once is the conservative reading: it never makes a plan look shorter than it is, and the warning makes the assumption visible.
+
+### D17 · The upper-level minimum is met with the map's own open slots first
+- **Finding (M8 review):** Psychology planned 147 hours instead of 120. The map's open slots (General Electives, "Minor or 2nd Major", PSY Topical Core) have no level rule, so the planner didn't count them toward the 40 upper-division hours and added 27 hours of new upper-level fillers.
+- **Decision:** Before adding hours, the planner designates open slots with no maximum level as "3000-4000 level", latest map semesters first, since those fall after junior standing anyway. They're labeled that way in the plan. New filler hours are added only if a deficit remains. This matches the validator's `upper_level_achievable` check, which already counted such slots as flexible.
+- **Reason:** A student meets the upper-division minimum by choosing upper-level courses for their electives, not by taking extra hours. Psychology now plans 120 hours and matches its map.
+
+### D18 · No graduation in a winter intersession
+- **Source:** The ATU 2026–27 academic calendar lists December, May, and summer graduates. Winter Intersession runs Dec 14 – Jan 1, after the December ceremony.
+- **Decision:** A plan whose last course falls in winter graduates the following spring (`model.conferral_index`). The solver then keeps the final course in spring unless winter frees an earlier term.
+- **Reason:** Showing "Winter 2028–29" as a graduation date would promise a conferral that doesn't exist.
+
+### D19 · Map-note prerequisites and corequisites describe the lecture, not a 0-credit lab in the same cell
+- **Finding:** "PHYS 2114/2000 … Co-req: MATH 2914" attached MATH 2914 as a corequisite of the PHYS 2000 lab. Via "PHYS 2014 or PHYS 2114", that added 8 hours of calculus to Biology plans that take algebra-based physics.
+- **Decision:** In a map cell that lists a credit-bearing course with a 0-credit lab (ATU course numbers end in the credit hours), the lab keeps the note's offering and pass/fail facts but not its prerequisite or corequisite text. The lab's own catalog entry supplies its corequisites.

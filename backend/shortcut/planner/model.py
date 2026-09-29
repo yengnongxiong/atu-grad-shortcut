@@ -147,6 +147,14 @@ def build_slots(config: SolveConfig, policies: Policies) -> list[Slot]:
     return slots
 
 
+def conferral_index(slots: Sequence[Slot], index: int) -> int:
+    """ATU confers degrees in December, May and August; the winter intersession ends after the
+    December ceremony, so a plan that finishes in winter graduates the following spring (D18)."""
+    if slots[index].term.season == "WI" and index + 1 < len(slots):
+        return index + 1
+    return index
+
+
 def only_in_season(item: Item, season: str, mode: str) -> bool:
     return offered_ok(item.offered[season], mode) and not any(
         offered_ok(item.offered[s], mode) for s in ("FA", "SP")
@@ -420,7 +428,7 @@ def solve(
     for item in items:
         weight = order_weight(item)
         for t, var in by_item[item.id]:
-            model.add(grad >= t * var)
+            model.add(grad >= conferral_index(slots, t) * var)
             early.append(weight * t * var)
 
     _symmetry_breaking(model, items, by_item, trees)

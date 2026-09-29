@@ -15588,40 +15588,7 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [
-      {
-        "program_id": "comp-engineering-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "electrical-engineering-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "eleg-biomedical-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "engineering-phys-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "manufacturing-as-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "mechanical-engineering-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "nuclear-tech-asnt-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      },
-      {
-        "program_id": "physics-2026-27",
-        "text": "MATH ACT >21, or C> in MATH 1113 or CHEM"
-      }
-    ],
+    "map_prereq_notes": [],
     "corequisites": [
       [
         "CHEM 2124"
@@ -15866,16 +15833,7 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [
-      {
-        "program_id": "eleg-biomedical-2026-27",
-        "text": "C> in CHEM 2124"
-      },
-      {
-        "program_id": "mechanical-engineering-2026-27",
-        "text": "C> in CHEM 2124"
-      }
-    ],
+    "map_prereq_notes": [],
     "corequisites": [],
     "standing": null,
     "standing_raw": "",
@@ -16223,12 +16181,7 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [
-      {
-        "program_id": "eleg-biomedical-2026-27",
-        "text": "C> in CHEM 2134"
-      }
-    ],
+    "map_prereq_notes": [],
     "corequisites": [
       [
         "CHEM 3254"
@@ -28264,20 +28217,7 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [
-      {
-        "program_id": "comp-engineering-2026-27",
-        "text": "ELEG 1011 or COMS 1013"
-      },
-      {
-        "program_id": "electrical-engineering-2026-27",
-        "text": "ELEG 1011 or COMS 1013"
-      },
-      {
-        "program_id": "eleg-biomedical-2026-27",
-        "text": "ELEG 1011 or COMS 1013"
-      }
-    ],
+    "map_prereq_notes": [],
     "corequisites": [
       [
         "ELEG 2134"
@@ -61573,9 +61513,6 @@
       [
         "PHYS 2014",
         "PHYS 2114"
-      ],
-      [
-        "MATH 2914"
       ]
     ],
     "standing": null,
@@ -61651,39 +61588,11 @@
     "prerequisite_scope": "course",
     "prereq_source": null,
     "parse_confidence": "high",
-    "map_prereq_notes": [
-      {
-        "program_id": "comp-engineering-2026-27",
-        "text": "or"
-      },
-      {
-        "program_id": "electrical-engineering-2026-27",
-        "text": "or"
-      },
-      {
-        "program_id": "eleg-biomedical-2026-27",
-        "text": "or"
-      },
-      {
-        "program_id": "engineering-phys-2026-27",
-        "text": "or"
-      },
-      {
-        "program_id": "mathematics-2026-27",
-        "text": "or"
-      },
-      {
-        "program_id": "physics-2026-27",
-        "text": "or"
-      }
-    ],
+    "map_prereq_notes": [],
     "corequisites": [
       [
         "PHYS 2024",
         "PHYS 2124"
-      ],
-      [
-        "MATH 2924"
       ]
     ],
     "standing": null,

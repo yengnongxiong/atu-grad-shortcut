@@ -327,3 +327,13 @@ def test_retake_for_a_grade_counts_hours_once_but_repeatables_keep_credit() -> N
     assert response.totals["total_hours"] == 5
     notes = {c.code: c.counts_toward for c in response.credited}
     assert notes["ENG 1013"] == "replaced by the planned retake"
+
+
+def test_a_plan_never_graduates_in_winter_intersession() -> None:
+    """ATU lists December, May and summer graduates only (academic calendar)."""
+    courses = [syn.course(f"WIN {1000 + i}", offering=syn.offered(winter="derived")) for i in range(6)]
+    ds = syn.dataset(courses, [syn.program([syn.req(c["code"]) for c in courses])])
+    detail = plan_detailed(ds, request(levers={"winter": True}))
+    graduation = detail.response.graduation
+    assert graduation is not None and not graduation.id.endswith("WI")
+    assert detail.response.terms[-1].season != "WI"

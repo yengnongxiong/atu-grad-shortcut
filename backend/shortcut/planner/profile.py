@@ -866,6 +866,8 @@ def _add_fillers(
 
     fillers: list[Item] = []
     if upper_deficit > 0:
+        upper_deficit -= _designate_upper_slots(program, items, upper_deficit, policies)
+    if upper_deficit > 0:
         for i in range(math.ceil(upper_deficit / 3)):
             fillers.append(_filler(dataset, f"filler:upper:{i + 1}", 3, 3000))
         deficit -= 3 * math.ceil(upper_deficit / 3)
@@ -884,6 +886,40 @@ def _add_fillers(
             f"Added {index} general-elective slot(s) to reach {program['total_hours_min']} total hours."
         )
     items.extend(fillers)
+
+
+def _designate_upper_slots(
+    program: dict[str, Any], items: list[Item], needed: float, policies: Policies
+) -> float:
+    """Meet the upper-level minimum with the map's own open slots before adding hours (D17).
+
+    A general elective, minor slot, or subject elective with no level cap can be taken at the
+    3000-4000 level. Latest map semesters go first, since they fall after junior standing anyway.
+    """
+    rules = {
+        r["id"]: (r["bucket"].get("rule") or {}) for r in program["requirements"] if r["kind"] == "bucket"
+    }
+    candidates = [
+        i
+        for i in items
+        if i.kind == "elective"
+        and i.code is None
+        and i.level < 3000
+        and i.requirement_id in rules
+        and rules[i.requirement_id].get("max_level") is None
+    ]
+    candidates.sort(key=lambda i: -(i.map_semester or 0))
+    covered = 0.0
+    for item in candidates:
+        if covered >= needed:
+            break
+        item.level = 3000
+        item.standing = UPPER_ELECTIVE_STANDING
+        item.transferable = item.transferable and policies.transfer_max_level >= 3000
+        item.label = f"{item.label} (3000-4000 level)"
+        item.notes.append("taken at the 3000-4000 level to meet the upper-division minimum")
+        covered += item.hours
+    return covered
 
 
 # Planning assumption (DECISIONS.md D10): a generic 3000-4000 elective slot is placed after
