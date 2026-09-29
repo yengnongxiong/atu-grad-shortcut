@@ -1,16 +1,16 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T08:06:19+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T08:12:45+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 
 - Degree maps discovered: **82**
 - Bachelor's programs ingested: **74** (8 associate/other maps listed below as excluded, 0 not ingested)
-- Auto-imported or better: **60 of 74 (81%)**
-- Cross-checked: **5** · Auto-imported: **55** · Needs review: **14**
-- Courses in courses.json: **886**
+- Auto-imported or better: **61 of 74 (82%)**
+- Cross-checked: **5** · Auto-imported: **56** · Needs review: **13**
+- Courses in courses.json: **888**
 - catalog.atu.edu: not probed
-- Banner (public course catalog + class schedule): loaded committed snapshots (836 course details)
+- Banner (public course catalog + class schedule): loaded committed snapshots (838 course details)
 
 ## Every discovered program
 
@@ -54,6 +54,7 @@ Generated 2026-09-29T08:06:19+00:00 · mode `offline` · newest catalog year **2
 | [Health & Exercise Science - Kinesiology](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseScienceKinesiology.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Health & Exercise Science - Pre-Allied Health Studies](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseSciencePreAlliedHealthStudies.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
 | [Health & Exercise Science- Public Health](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthandExerciseSciencePublicHealth.pdf) | 2026-27 | BS | Education and Health | Auto-imported | — |
+| [Health Information Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthInformationMgmt.pdf) | 2026-27 | BS | Business/Economic Development | Auto-imported | — |
 | [Information Technology - Track 1: Programming, Database & Web (BS)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechProgDataWebBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Information Technology - Track 2: Network & Security (BS)](https://www.atu.edu/advising/degreemaps_docs/2026-2027/InformationTechNetworkSecurityBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Auto-imported | offering_flags_agree: COMS 4913: catalog 'Offered: FA, SP' vs map 'FA only' (computer-science-2025-26, computer-science-ai-2026-27, computer-science-software-dev-2026-27); using the stricter |
 | [Journalism](https://www.atu.edu/advising/degreemaps_docs/2026-2027/Journalism.pdf) | 2026-27 | BA | Arts and Humanities | Auto-imported | — |
@@ -86,7 +87,6 @@ Generated 2026-09-29T08:06:19+00:00 · mode `offline` · newest catalog year **2
 | [Emergency Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/EmergencyManagement.pdf) | 2026-27 | BS | Education and Health | Needs review | map_structure_parsed: low-confidence rows: s2r4; buckets_nonempty: s2r4 (Technology Course) |
 | [Fisheries & Wildlife Science](https://www.atu.edu/advising/degreemaps_docs/2026-2027/FisheriesWildlifeBio.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 5: a row has no hours value; required_courses_in_catalog: FW 3171; offering_flags_agree: FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670) |
 | [Geosciences](https://www.atu.edu/advising/degreemaps_docs/2026-2027/GeosciencesBS.pdf) | 2026-27 | BS | Science/Technology/Engr/Math | Needs review | semester_hours_match: semester 3: rows sum to 14 but the map states 11-14 |
-| [Health Information Management](https://www.atu.edu/advising/degreemaps_docs/2026-2027/HealthInformationMgmt.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | total_hours_meet_minimum: map totals 113 vs required 120 |
 | [Marketing - Digital Marketing](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MarketingDigitalMarketing.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | semester_hours_match: semester 7: rows sum to 15 but the map states 14 |
 | [Music Education - Keyboard & Instrumental](https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEdKeyboardInstr.pdf) | 2026-27 | BME | Arts and Humanities | Needs review | required_courses_in_catalog: MUS 4661 |
 | [Tourism - Natural Resource Emphasis](https://www.atu.edu/advising/degreemaps_docs/2026-2027/TourismNatlResource.pdf) | 2026-27 | BS | Business/Economic Development | Needs review | semester_hours_match: semester 7: rows sum to 14 but the map states 15; repeated_courses_consistent: BIOL 2134 is listed as both 'BIOL 2134 - Principles of Botany' and 'BIOL 2134 - Principles of Zoology' |
@@ -195,7 +195,7 @@ Generated 2026-09-29T08:06:19+00:00 · mode `offline` · newest catalog year **2
 - **Health & Exercise Science - Kinesiology**: total_hours_meet_minimum: map totals 121 vs required 120; upper_level_achievable: 55 upper-division hours required + 2 flexible elective hours vs 40 needed
 - **Health & Exercise Science - Pre-Allied Health Studies**: total_hours_meet_minimum: map totals 122 vs required 120; upper_level_achievable: 47 upper-division hours required + 1 flexible elective hours vs 40 needed
 - **Health & Exercise Science- Public Health**: total_hours_meet_minimum: map totals 121 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: HIM 3023, PE 3543, SOC 3013; upper_level_achievable: 51 upper-division hours required + 12 flexible elective hours vs 40 needed
-- **Health Information Management**: prerequisites_resolve: low-confidence prerequisite parse: HIM 3023; upper_level_achievable: 55 upper-division hours required + 4 flexible elective hours vs 40 needed
+- **Health Information Management**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: HIM 3023; upper_level_achievable: 62 upper-division hours required + 4 flexible elective hours vs 40 needed
 - **History**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: PHIL 2043; upper_level_achievable: 42 upper-division hours required + 27 flexible elective hours vs 40 needed
 - **Information Technology - Track 1: Programming, Database & Web (BS)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 41 upper-division hours required + 3 flexible elective hours vs 40 needed
 - **Information Technology - Track 2: Network & Security (BS)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 41 upper-division hours required + 3 flexible elective hours vs 40 needed

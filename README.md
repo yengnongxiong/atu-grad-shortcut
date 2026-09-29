@@ -8,9 +8,17 @@ Shortcut is a graduation planner for Arkansas Tech University students. Start fr
 
 ![Plan view: degree map vs. standard pace vs. your Shortcut, with the lever panel](docs/screenshots/plan-levers.png)
 
+## Where it fits
+
+- **ATU degree maps** give one 8-semester sample schedule, starting from zero credit, fall and spring only.
+- **Degree Works** (ATU's degree audit, linked from the advising page) tells you what's left.
+- **Advisors** give personal guidance, but with limited time to compare scenarios.
+
+Shortcut answers the question none of them do: *given what I already have, what is the fastest realistic way to finish, and what does each option cost?* Its job is to make the advising conversation better, not to replace it.
+
 ## What it does
 
-- **Every bachelor's major.** 74 programs, parsed from ATU's 82 published degree-map PDFs and enriched with 836 course records from ATU's public Banner catalog and three years of class schedules. Each program carries a trust label (Cross-checked, Auto-imported, Needs review).
+- **Every bachelor's major.** 74 programs, parsed from ATU's 82 published degree-map PDFs and enriched with 838 course records from ATU's public Banner catalog and three years of class schedules. Each program carries a trust label (Cross-checked, Auto-imported, Needs review).
 - **A real schedule, not a checklist.** A constraint solver (OR-Tools CP-SAT) places every remaining course while respecting:
   - prerequisites (AND/OR, minimum grades, placement tests) and corequisites
   - fall-only and spring-only offerings
@@ -109,8 +117,8 @@ data/raw  ── pipeline ──▶  data/processed/*.json  ──▶  FastAPI (
 
 From [`data/REPORT.md`](data/REPORT.md):
 - 82 degree maps discovered, 74 bachelor's programs ingested, and 8 associate or other maps excluded (PRD non-goal).
-- Of the 74, **5 are Cross-checked, 55 Auto-imported, and 14 Need review**, so **81% are Auto-imported or better**.
-- **886 courses** in total.
+- Of the 74, **5 are Cross-checked, 56 Auto-imported, and 13 Need review**, so **82% are Auto-imported or better**.
+- **888 courses** in total.
 - All 74 programs produce a feasible plan at standard pace.
 
 The tiers mean:
@@ -139,6 +147,6 @@ The tiers mean:
 ## Resume bullet
 
 > Built **Shortcut**, a graduation planner for Arkansas Tech students.
-> - A Python pipeline turns 82 degree-map PDFs and 836 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 81% auto-imported or better).
+> - A Python pipeline turns 82 degree-map PDFs and 838 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 82% auto-imported or better).
 > - An OR-Tools CP-SAT scheduler returns the fastest realistic term-by-term plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.2 s.
 > - Stack: FastAPI, React/TypeScript, 95 automated tests, Docker, and GitHub Actions CI.

@@ -118,11 +118,18 @@ def build_program(ref: MapRef, parsed: ParsedMap, ctx: ProgramContext) -> dict[s
             build_requirement(f"s{semester.number}r{index + 1}", row, own_lists, parsed, ctx)
             for index, row in enumerate(semester.rows)
         ]
+        # "Summer after Senior year": the block's own label says when its courses happen.
+        hint = BLOCK_STANDING_RE.search(semester.label)
+        if hint:
+            for req in semester_reqs:
+                req["standing_hint"] = STANDING_WORDS[hint.group(1).lower()]
         infer_missing_hours(semester_reqs, semester.stated_total_min, semester.stated_total_max, ctx)
         requirements.extend(semester_reqs)
         schedule.append(
             {
                 "semester": semester.number,
+                "season": semester.season,
+                "label": semester.label or f"Semester {semester.number}",
                 "stated_total": semester.stated_total_text,
                 "stated_total_min": semester.stated_total_min,
                 "stated_total_max": semester.stated_total_max,
@@ -174,6 +181,10 @@ def build_program(ref: MapRef, parsed: ParsedMap, ctx: ProgramContext) -> dict[s
         "sources": [{"title": f"{ref.catalog_year} degree map: {ref.title}", "url": ref.url}],
         "raw_path": str(ref.raw_path().relative_to(ref.raw_path().parents[3])),
     }
+
+
+BLOCK_STANDING_RE = re.compile(r"after\s+(Sophomore|Junior|Senior)\s+year", re.IGNORECASE)
+STANDING_WORDS = {"sophomore": "SO", "junior": "JR", "senior": "SR"}
 
 
 def infer_missing_hours(

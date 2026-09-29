@@ -373,12 +373,26 @@ def program_summary(program: dict[str, Any]) -> ProgramSummary:
     )
 
 
+def degree_map_graduation(ctx: PlanContext) -> Term:
+    """The term the degree map finishes in: its last regular semester, or the summer after it
+    when the map ends with a summer block (Health Information Management)."""
+    schedule = ctx.program["map_schedule"]
+    regular = [s for s in schedule if not s.get("season")]
+    term = nth_regular_after(ctx.first_term, len(regular) or 8)
+    if schedule and schedule[-1].get("season") == "SU":
+        while term.season != "SU":
+            term = term.next()
+    return term
+
+
 def assemble(ctx: PlanContext, full: Outcome, standard: Outcome, levers: list[LeverResult]) -> PlanResponse:
-    degree_map_term = nth_regular_after(ctx.first_term, len(ctx.program["map_schedule"]) or 8)
+    degree_map_term = degree_map_graduation(ctx)
+    regular = [s for s in ctx.program["map_schedule"] if not s.get("season")]
+    summers = len(ctx.program["map_schedule"]) - len(regular)
     degree_map = Baseline(
         graduation=term_ref(ctx, degree_map_term),
-        note=f"The degree map's {len(ctx.program['map_schedule'])} semesters counted from "
-        f"{ctx.first_term.label}, assuming no prior credit.",
+        note=f"The degree map's {len(regular)} semesters{' and its summer block' if summers else ''} counted "
+        f"from {ctx.first_term.label}, assuming no prior credit.",
     )
     std_grad = standard.graduation
     standard_pace = Baseline(

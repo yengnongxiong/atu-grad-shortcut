@@ -535,6 +535,15 @@ def _relax_placeholder_standing(items: list[Item], program: dict[str, Any], poli
             item.standing = None
 
 
+STANDING_ORDER = ("FR", "SO", "JR", "SR")
+
+
+def _stricter_standing(a: str | None, b: str | None) -> str | None:
+    """The later of two class-standing requirements (catalog vs. the map's block label)."""
+    known = [s for s in (a, b) if s in STANDING_ORDER]
+    return max(known, key=STANDING_ORDER.index) if known else (a or b)
+
+
 def course_item(
     dataset: Dataset,
     code: str,
@@ -561,7 +570,9 @@ def course_item(
         requirement_id=req["id"] if req else None,
         prereq=course["prerequisites"] if course else None,
         coreqs=[list(group) for group in course["corequisites"]] if course else [],
-        standing=course["standing"] if course else None,
+        standing=_stricter_standing(
+            course["standing"] if course else None, req.get("standing_hint") if req else None
+        ),
         offered=offered,
         transferable=acts and level_of(code) <= policies.transfer_max_level,
         in_major=code.split(" ")[0] in majors,

@@ -41879,6 +41879,156 @@
       }
     ]
   },
+  "HIM 4892": {
+    "code": "HIM 4892",
+    "subject": "HIM",
+    "number": "4892",
+    "title": "Seminar in Health Information",
+    "hours": 2.0,
+    "hours_max": null,
+    "level": 4000,
+    "upper_division": true,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "description": "Offered: First summer term. Co-requisite: HIM 4895. A seminar, utilizing the case method approach, on problem situations encountered in the field of health information management. This course includes discussion of problems that arise during their affiliation experience.",
+    "prerequisites": null,
+    "prereq_raw": "",
+    "prerequisite_scope": "course",
+    "prereq_source": null,
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [
+      [
+        "HIM 4895"
+      ]
+    ],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "WI": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "SP": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'; ran 3x in SU (202440, 202540, 202640)"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": [
+        "202440",
+        "202540",
+        "202640"
+      ]
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
+  "HIM 4895": {
+    "code": "HIM 4895",
+    "subject": "HIM",
+    "number": "4895",
+    "title": "Affiliation",
+    "hours": 5.0,
+    "hours_max": null,
+    "level": 4000,
+    "upper_division": true,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "description": "Offered: First summer session. Prerequisites: Successful completion of all required HIM courses except HIM 4892. Provides the student with a four-week management experience in the activities and responsibilities of the health information management professional. Augments theoretical instruction received during previous courses. Student is actively involved in the management process while under direct supervision of a qualified health information management professional. Note: Although every effort is made to secure a convenient locale, the student must assume full financial responsibility for this assignment.",
+    "prerequisites": {
+      "type": "course",
+      "code": "HIM 4892",
+      "min_grade": null
+    },
+    "prereq_raw": "Successful completion of all required HIM courses except HIM 4892",
+    "prerequisite_scope": "program",
+    "prereq_source": "catalog_description",
+    "parse_confidence": "high",
+    "map_prereq_notes": [],
+    "corequisites": [
+      [
+        "HIM 4892"
+      ]
+    ],
+    "standing": null,
+    "standing_raw": "",
+    "offered": {
+      "FA": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "WI": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "SP": {
+        "available": false,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'"
+      },
+      "SU": {
+        "available": true,
+        "confidence": "documented",
+        "source": "catalog",
+        "note": "catalog 'Offered: SU'; ran 3x in SU (202440, 202540, 202640)"
+      }
+    },
+    "history": {
+      "FA": [],
+      "WI": [],
+      "SP": [],
+      "SU": [
+        "202440",
+        "202540",
+        "202640"
+      ]
+    },
+    "acts_equivalent": null,
+    "pass_fail": false,
+    "gen_ed": false,
+    "in_catalog": true,
+    "warnings": [],
+    "sources": [
+      {
+        "title": "ATU Banner course catalog",
+        "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch"
+      }
+    ]
+  },
   "HIM 4983": {
     "code": "HIM 4983",
     "subject": "HIM",

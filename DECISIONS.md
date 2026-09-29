@@ -119,3 +119,11 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
 ### D19 · Map-note prerequisites and corequisites describe the lecture, not a 0-credit lab in the same cell
 - **Finding:** "PHYS 2114/2000 … Co-req: MATH 2914" attached MATH 2914 as a corequisite of the PHYS 2000 lab. Via "PHYS 2014 or PHYS 2114", that added 8 hours of calculus to Biology plans that take algebra-based physics.
 - **Decision:** In a map cell that lists a credit-bearing course with a 0-credit lab (ATU course numbers end in the credit hours), the lab keeps the note's offering and pass/fail facts but not its prerequisite or corequisite text. The lab's own catalog entry supplies its corequisites.
+
+### D20 · Summer blocks on a degree map
+- **Finding:** Health Information Management ends with a "Summer after Senior year" block (HIM 4892 Seminar, HIM 4895 Affiliation, 7 hrs) laid out like a semester. The parser only read "Semester N" blocks, so the program totaled 113 hours and dropped its capstone.
+- **Decision:**
+  - A "Summer … Hrs." header is parsed as a summer block and numbered after the regular semesters, with `season: "SU"` and its label kept.
+  - The degree-map baseline then ends in that summer.
+  - A block label such as "after Senior year" becomes a standing hint (SR) on its courses. Banner lists no prerequisites for them, and without the hint the map-order tie-break put the Affiliation in freshman summer.
+- **Reason:** The map says when these courses happen. Senior standing is the least a reader can take from "after Senior year", and the hint is kept only as standing, not as a fixed term.

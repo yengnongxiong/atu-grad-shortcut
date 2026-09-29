@@ -49,6 +49,8 @@ class MapRow:
 class ParsedSemester:
     number: int
     rows: list[MapRow] = field(default_factory=list)
+    season: str | None = None  # "SU" for a summer block ("Summer after Senior year"); None otherwise
+    label: str = ""
     stated_total_text: str = ""
     stated_total_min: float | None = None
     stated_total_max: float | None = None
@@ -197,6 +199,8 @@ class _Header:
     hrs: Word | None
     grade: Word | None
     x_end: float = 0.0
+    season: str | None = None
+    label: str = ""
 
 
 def _find_headers(lines: list[list[Word]]) -> list[_Header]:
@@ -210,6 +214,9 @@ def _find_headers(lines: list[list[Word]]) -> list[_Header]:
     strong: list[_Header] = []
     weak: list[_Header] = []
     for line in lines:
+        summer = _summer_header(line)
+        if summer is not None:
+            strong.append(summer)
         for i, word in enumerate(line[:-1]):
             if word.text != "Semester" or not line[i + 1].text.isdigit():
                 continue
@@ -240,6 +247,34 @@ def _find_headers(lines: list[list[Word]]) -> list[_Header]:
         candidate.grade = candidate.grade or template.grade
         headers.append(candidate)
     return headers
+
+
+SUMMER_BLOCK_NUMBER = 90  # renumbered after the regular semesters once every page is parsed
+
+
+def _summer_header(line: list[Word]) -> _Header | None:
+    """A summer block laid out like a semester: "Summer after Senior year  Hrs.  Grade"."""
+    for start, first in enumerate(line):
+        if first.text != "Summer":
+            continue
+        window = line[start + 1 : start + 8]
+        hrs_at = next((i for i, w in enumerate(window) if w.text.lower().startswith("hrs")), None)
+        if hrs_at is None or window[hrs_at].x0 - first.x0 >= 260:
+            continue
+        hrs = window[hrs_at]
+        grade = next((w for w in window[hrs_at : hrs_at + 3] if w.text == "Grade"), None)
+        return _Header(
+            number=SUMMER_BLOCK_NUMBER,
+            page=first.page,
+            x0=first.x0,
+            top=min(w.top for w in line),
+            bottom=max(w.bottom for w in line),
+            hrs=hrs,
+            grade=grade,
+            season="SU",
+            label=join_words([first, *window[:hrs_at]]),
+        )
+    return None
 
 
 def _assign_column_ends(headers: list[_Header], page_width: float) -> None:
@@ -305,7 +340,7 @@ def _parse_semester(
     )
     y_end = total_word.top - 1.0 if total_word else header.bottom + 120
     band = [w for w in page_words if header.top + 3.5 < w.top < y_end and x_start <= w.x0 < header.x_end]
-    semester = ParsedSemester(number=header.number)
+    semester = ParsedSemester(number=header.number, season=header.season, label=header.label)
     if total_word is not None:
         total_line = [
             w for w in page_words if abs(w.top - total_word.top) < 3.5 and hrs_left <= w.x0 < hours_right + 4
@@ -565,6 +600,11 @@ def parse_degree_map(pdf_path: Path) -> ParsedMap:
         _parse_requirements_text(parsed, all_lines[page_index])
 
     parsed.semesters = [semesters[k] for k in sorted(semesters)]
+    regular = [sem.number for sem in parsed.semesters if sem.season is None]
+    for offset, sem in enumerate(sem for sem in parsed.semesters if sem.season is not None):
+        sem.number = max(regular, default=0) + 1 + offset
+        for row in sem.rows:
+            row.semester = sem.number
     parsed.gen_ed_lists = {name: expand_list_codes(rows) for name, rows in parsed.gen_ed_text.items()}
     if not parsed.semesters:
         parsed.warnings.append("no semester blocks found")

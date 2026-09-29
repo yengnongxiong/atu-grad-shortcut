@@ -1,19 +1,19 @@
 {
-  "generated_at": "2026-09-29T08:06:19+00:00",
+  "generated_at": "2026-09-29T08:12:45+00:00",
   "pipeline_mode": "offline",
   "newest_catalog_year": "2026-27",
   "ground_truth_program": "computer-science-2025-26",
   "catalog_status": "not probed",
-  "banner_status": "loaded committed snapshots (836 course details)",
+  "banner_status": "loaded committed snapshots (838 course details)",
   "discovered_maps": 82,
   "bachelor_programs": 74,
   "tier_counts": {
     "cross_checked": 5,
-    "auto_imported": 55,
-    "needs_review": 14,
+    "auto_imported": 56,
+    "needs_review": 13,
     "excluded": 8
   },
-  "course_count": 886,
+  "course_count": 888,
   "supporting_pages": {
     "admissions-credit.html": "ok",
     "registrar-registrationinfo.html": "ok",

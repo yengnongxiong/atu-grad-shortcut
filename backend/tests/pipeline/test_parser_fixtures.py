@@ -70,3 +70,14 @@ def test_option_list_under_choose_from_row_stays_in_that_row() -> None:
     elective = next(r for r in sem4.rows if "Major Support Elective" in r.text)
     assert "AHS 2013" in elective.text and "PHIL 3103" in elective.text
     assert sum(r.hours_min or 0 for r in sem4.rows) == sem4.stated_total_min == 15
+
+
+def test_summer_block_after_senior_year_is_parsed_as_a_summer() -> None:
+    """Health Information Management ends with "Summer after Senior year" (HIM 4892 + 4895)."""
+    parsed = parse_degree_map(MAPS / "HealthInformationMgmt.pdf")
+    assert [s.number for s in parsed.semesters] == list(range(1, 10))
+    summer = parsed.semesters[-1]
+    assert summer.season == "SU" and summer.label == "Summer after Senior year"
+    assert [extract_codes(r.text)[0] for r in summer.rows] == ["HIM 4892", "HIM 4895"]
+    assert summer.stated_total_min == 7
+    assert sum(s.stated_total_min or 0 for s in parsed.semesters) == 120

@@ -881,11 +881,53 @@
         ]
       ],
       "confidence": "high"
+    },
+    {
+      "id": "s9r1",
+      "map_semester": 9,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIM 4892- Seminar in Health Information",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Seminar in Health Information",
+      "options": [
+        [
+          "HIM 4892"
+        ]
+      ],
+      "confidence": "high",
+      "standing_hint": "SR"
+    },
+    {
+      "id": "s9r2",
+      "map_semester": 9,
+      "hours": 5.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIM 4895- Affliation",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Affiliation",
+      "options": [
+        [
+          "HIM 4895"
+        ]
+      ],
+      "confidence": "high",
+      "standing_hint": "SR"
     }
   ],
   "map_schedule": [
     {
       "semester": 1,
+      "season": null,
+      "label": "Semester 1",
       "stated_total": "13",
       "stated_total_min": 13.0,
       "stated_total_max": 13.0,
@@ -929,6 +971,8 @@
     },
     {
       "semester": 2,
+      "season": null,
+      "label": "Semester 2",
       "stated_total": "13",
       "stated_total_min": 13.0,
       "stated_total_max": 13.0,
@@ -965,6 +1009,8 @@
     },
     {
       "semester": 3,
+      "season": null,
+      "label": "Semester 3",
       "stated_total": "13",
       "stated_total_min": 13.0,
       "stated_total_max": 13.0,
@@ -1001,6 +1047,8 @@
     },
     {
       "semester": 4,
+      "season": null,
+      "label": "Semester 4",
       "stated_total": "16",
       "stated_total_min": 16.0,
       "stated_total_max": 16.0,
@@ -1051,6 +1099,8 @@
     },
     {
       "semester": 5,
+      "season": null,
+      "label": "Semester 5",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
@@ -1094,6 +1144,8 @@
     },
     {
       "semester": 6,
+      "season": null,
+      "label": "Semester 6",
       "stated_total": "14",
       "stated_total_min": 14.0,
       "stated_total_max": 14.0,
@@ -1137,6 +1189,8 @@
     },
     {
       "semester": 7,
+      "season": null,
+      "label": "Semester 7",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
@@ -1180,6 +1234,8 @@
     },
     {
       "semester": 8,
+      "season": null,
+      "label": "Semester 8",
       "stated_total": "14",
       "stated_total_min": 14.0,
       "stated_total_max": 14.0,
@@ -1220,6 +1276,30 @@
           "hours_source": "degree_map"
         }
       ]
+    },
+    {
+      "semester": 9,
+      "season": "SU",
+      "label": "Summer after Senior year",
+      "stated_total": "7",
+      "stated_total_min": 7.0,
+      "stated_total_max": 7.0,
+      "items": [
+        {
+          "requirement_id": "s9r1",
+          "label": "Seminar in Health Information",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s9r2",
+          "label": "Affiliation",
+          "hours": 5.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
     }
   ],
   "min_grade_courses": [
@@ -1240,6 +1320,8 @@
     "HIM 4182",
     "HIM 4203",
     "HIM 4292",
+    "HIM 4892",
+    "HIM 4895",
     "HIM 4983"
   ],
   "notes": [
@@ -1313,9 +1395,9 @@
     },
     {
       "check": "total_hours_meet_minimum",
-      "passed": false,
-      "severity": "error",
-      "detail": "map totals 113 vs required 120"
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
     },
     {
       "check": "map_structure_parsed",
@@ -1357,7 +1439,7 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "55 upper-division hours required + 4 flexible elective hours vs 40 needed"
+      "detail": "62 upper-division hours required + 4 flexible elective hours vs 40 needed"
     },
     {
       "check": "repeated_courses_consistent",
@@ -1366,7 +1448,7 @@
       "detail": ""
     }
   ],
-  "trust_tier": "needs_review",
+  "trust_tier": "auto_imported",
   "cross_check": null,
   "parsed_map": {
     "gen_ed_list_names": [
@@ -1748,6 +1830,30 @@
             "hours_max": 2.0,
             "grade_c": true,
             "notes": "2.00+ GPA"
+          }
+        ]
+      },
+      {
+        "number": 9,
+        "stated_total_text": "7",
+        "stated_total_min": 7.0,
+        "stated_total_max": 7.0,
+        "rows": [
+          {
+            "text": "HIM 4892- Seminar in Health Information",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HIM 4895- Affliation",
+            "hours_text": "5",
+            "hours_min": 5.0,
+            "hours_max": 5.0,
+            "grade_c": true,
+            "notes": ""
           }
         ]
       }

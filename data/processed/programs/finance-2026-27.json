@@ -902,6 +902,8 @@
   "map_schedule": [
     {
       "semester": 1,
+      "season": null,
+      "label": "Semester 1",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
@@ -945,6 +947,8 @@
     },
     {
       "semester": 2,
+      "season": null,
+      "label": "Semester 2",
       "stated_total": "16",
       "stated_total_min": 16.0,
       "stated_total_max": 16.0,
@@ -988,6 +992,8 @@
     },
     {
       "semester": 3,
+      "season": null,
+      "label": "Semester 3",
       "stated_total": "16",
       "stated_total_min": 16.0,
       "stated_total_max": 16.0,
@@ -1038,6 +1044,8 @@
     },
     {
       "semester": 4,
+      "season": null,
+      "label": "Semester 4",
       "stated_total": "16",
       "stated_total_min": 16.0,
       "stated_total_max": 16.0,
@@ -1081,6 +1089,8 @@
     },
     {
       "semester": 5,
+      "season": null,
+      "label": "Semester 5",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
@@ -1124,6 +1134,8 @@
     },
     {
       "semester": 6,
+      "season": null,
+      "label": "Semester 6",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
@@ -1167,6 +1179,8 @@
     },
     {
       "semester": 7,
+      "season": null,
+      "label": "Semester 7",
       "stated_total": "12",
       "stated_total_min": 12.0,
       "stated_total_max": 12.0,
@@ -1203,6 +1217,8 @@
     },
     {
       "semester": 8,
+      "season": null,
+      "label": "Semester 8",
       "stated_total": "15",
       "stated_total_min": 15.0,
       "stated_total_max": 15.0,
