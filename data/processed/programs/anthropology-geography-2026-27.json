@@ -83,7 +83,8 @@
         "codes": [
           "HIST 1903",
           "HIST 2003",
-          "HIST 2013"
+          "HIST 2013",
+          "POLS 2003"
         ],
         "rule": null,
         "recommended": []
@@ -1469,7 +1470,8 @@
     "us_history_government": [
       "HIST 1903",
       "HIST 2003",
-      "HIST 2013"
+      "HIST 2013",
+      "POLS 2003"
     ],
     "science_with_lab": [
       "BIOL 1014",
@@ -1522,7 +1524,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1547,6 +1549,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "40 upper-division hours required + 38 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",
@@ -1555,7 +1563,6 @@
     "gen_ed_list_names": [
       "Fine Arts and Humanities",
       "U.S. History & Government",
-      "**Methods/Seminar Note:",
       "Science with Lab"
     ],
     "semesters": [

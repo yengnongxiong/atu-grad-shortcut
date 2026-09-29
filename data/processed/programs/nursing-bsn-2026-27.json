@@ -1274,7 +1274,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, NUR 3204, NUR 3703, NUR 3802, PHSC 1004; low-confidence prerequisite parse: NUR 2023, NUR 3103, NUR 3303, NUR 4002"
+      "detail": "low-confidence prerequisite parse: NUR 2023, NUR 3103, NUR 3303, NUR 4002"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1299,6 +1299,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "73 upper-division hours required + 5 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

@@ -673,17 +673,18 @@
       "min_grade": null,
       "raw_text": "ART 3303- Drawing Studio I OR 4233- Illustration Studio",
       "notes": "",
-      "warnings": [
-        "alternative without a course code: 4233- Illustration Studio"
-      ],
+      "warnings": [],
       "kind": "course",
       "label": "Drawing Studio I",
       "options": [
         [
           "ART 3303"
+        ],
+        [
+          "ART 4233"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s5r5",
@@ -1554,7 +1555,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ART 4623, ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1579,6 +1580,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "55 upper-division hours required + 5 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

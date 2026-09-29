@@ -1548,7 +1548,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1573,13 +1573,18 @@
       "passed": true,
       "severity": "ok",
       "detail": "40 upper-division hours required + 38 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",
   "cross_check": null,
   "parsed_map": {
     "gen_ed_list_names": [
-      "AB2M Note:",
       "Fine Arts and Humanities",
       "U.S. History & Government",
       "Social Sciences",

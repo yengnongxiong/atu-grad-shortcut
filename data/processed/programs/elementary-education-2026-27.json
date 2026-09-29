@@ -1204,7 +1204,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: ELED 3123, ELED 3133, ELED 3143, ELED 4033, ELED 4903, ELED 4909, RDNG 3003, RDNG 4013, SPED 3033, SPED 3153"
+      "detail": "low-confidence prerequisite parse: ELED 3123, ELED 3133, ELED 3143, ELED 4033, ELED 4903, ELED 4909, RDNG 3003, RDNG 4013, SPED 3033, SPED 3153"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1229,6 +1229,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "57 upper-division hours required + 3 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

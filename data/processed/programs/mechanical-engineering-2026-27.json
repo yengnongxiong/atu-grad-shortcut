@@ -261,6 +261,7 @@
       "notes": "Prereq: C> in CHEM 2124",
       "warnings": [
         "no hours value in the PDF text for this row",
+        "0-credit lab(s) CHEM 2130 left to corequisite rules, not listed as alternatives",
         "alternative without a course code: PHYS",
         "hours missing from the PDF text; taken from the catalog"
       ],
@@ -269,9 +270,6 @@
       "options": [
         [
           "CHEM 2134"
-        ],
-        [
-          "CHEM 2130"
         ]
       ],
       "confidence": "medium"
@@ -1449,7 +1447,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, MCEG 1012"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1474,6 +1472,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "47 upper-division hours required + 13 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",

@@ -1251,7 +1251,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PE 4013, PHSC 1004, WS 1002, WS 2003, WS 2043, WS 3003, WS 3023, WS 4003, WS 4063; low-confidence prerequisite parse: HIM 3023, PE 3543, SOC 3013"
+      "detail": "low-confidence prerequisite parse: HIM 3023, PE 3543, SOC 3013"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1276,6 +1276,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "51 upper-division hours required + 12 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

@@ -1283,7 +1283,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004, RS 3123, RS 3203"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1308,6 +1308,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "62 upper-division hours required + 13 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

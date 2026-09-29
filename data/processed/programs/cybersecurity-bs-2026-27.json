@@ -1345,7 +1345,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): COMS 2104, ENGL 0203, ENGL 0404; low-confidence prerequisite parse: CSEC 4293"
+      "detail": "low-confidence prerequisite parse: CSEC 4293"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1370,6 +1370,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "42 upper-division hours required + 2 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",

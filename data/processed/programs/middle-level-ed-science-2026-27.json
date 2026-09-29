@@ -1184,7 +1184,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004; low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909"
+      "detail": "low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1209,6 +1209,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "42 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

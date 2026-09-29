@@ -1334,7 +1334,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004; low-confidence prerequisite parse: RP 3043, RP 4023"
+      "detail": "low-confidence prerequisite parse: RP 3043, RP 4023"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1359,6 +1359,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "45 upper-division hours required + 15 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": false,
+      "severity": "error",
+      "detail": "BIOL 2134 is listed as both 'BIOL 2134 - Principles of Botany' and 'BIOL 2134 - Principles of Zoology'"
     }
   ],
   "trust_tier": "needs_review",

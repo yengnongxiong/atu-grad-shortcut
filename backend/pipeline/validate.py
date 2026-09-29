@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import re
 from typing import Any
 
 from pipeline.prereqs import tree_codes
@@ -38,8 +39,33 @@ def validate_program(
         _offering_flags(program, courses),
         _buckets_nonempty(program),
         _upper_level(program, courses),
+        _repeats_consistent(program),
     ]
     return results
+
+
+def _map_title_words(raw_text: str) -> set[str]:
+    m = re.search(r"\d{4}\s*[-–]\s*(.+)", raw_text)
+    words = re.findall(r"[a-z]+", (m.group(1) if m else "").lower())
+    return {w for w in words if w not in {"of", "and", "the", "to", "in", "for", "i", "ii", "iii"}}
+
+
+def _repeats_consistent(program: dict[str, Any]) -> dict[str, Any]:
+    """The same course listed twice under different titles is a map typo (BIOL 2134 as both
+    Principles of Botany and Principles of Zoology); repeatable courses keep one title."""
+    by_code: dict[str, list[dict[str, Any]]] = {}
+    for req in program["requirements"]:
+        if req["kind"] == "course" and len(req["options"]) == 1 and len(req["options"][0]) == 1:
+            by_code.setdefault(req["options"][0][0], []).append(req)
+    problems: list[str] = []
+    for code, reqs in by_code.items():
+        titles = [_map_title_words(r["raw_text"]) for r in reqs]
+        for req, other in zip(reqs[1:], titles[1:], strict=True):
+            union = titles[0] | other
+            if titles[0] and other and len(titles[0] & other) / len(union) < 0.5:
+                problems.append(f"{code} is listed as both {reqs[0]['raw_text']!r} and {req['raw_text']!r}")
+                break
+    return check("repeated_courses_consistent", not problems, "; ".join(problems))
 
 
 def semesters_with_hours(program: dict[str, Any]) -> list[dict[str, Any]]:

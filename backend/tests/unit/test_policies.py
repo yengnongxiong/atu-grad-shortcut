@@ -98,7 +98,10 @@ def test_summer_and_winter_planning_caps() -> None:
     assert summer.cap_max == P.summer_max_load
     assert winter.cap_max == P.winter_max_hours and winter.max_courses == P.winter_max_courses
     closed = build_slots(config(LeverState()), P)
-    assert all(s.cap_max == 0 for s in closed if not s.term.is_regular)
+    assert all(s.cap_max == 0 for s in closed if s.term.season == "WI")
+    # A closed summer takes nothing but required courses offered only in summer (D13).
+    closed_summers = [s for s in closed if s.term.season == "SU"]
+    assert all(not s.atu_allowed and not s.transfer_allowed and s.season_only for s in closed_summers)
 
 
 def test_terms_order_and_single_summer() -> None:

@@ -2112,7 +2112,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: MUS 1631, MUS 2000, MUS 2441, MUS 2703, MUS 3401, MUS 3421, MUS 3431, MUS 3481, MUS 3631, MUS 4000, MUS 4461, MUS 4971, SEED 4503, SEED 4553, SEED 4809, SPED 4052"
+      "detail": "low-confidence prerequisite parse: MUS 1631, MUS 2000, MUS 2441, MUS 2703, MUS 3401, MUS 3421, MUS 3431, MUS 3481, MUS 3631, MUS 4000, MUS 4461, MUS 4971, SEED 4503, SEED 4553, SEED 4809, SPED 4052"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -2137,6 +2137,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "41 upper-division hours required + 14 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

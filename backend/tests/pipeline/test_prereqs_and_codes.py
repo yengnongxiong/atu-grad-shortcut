@@ -9,6 +9,7 @@ from pipeline.enrich_catalog import _regular_season, _short_season
 from pipeline.prereqs import (
     parse_banner_coreq_html,
     parse_banner_prereq_html,
+    parse_coreq_groups,
     parse_description,
     parse_prereq_text,
 )
@@ -114,12 +115,20 @@ def test_code_extraction_cases() -> None:
 
 def test_offering_rules_follow_prd_and_history() -> None:
     # Map says Fall only, catalog says Fall/Spring: stricter wins, flagged conflicting.
-    spring = _regular_season("SP", ["FA", "SP"], ["FA"], ["cs"], [], 4)
+    spring = _regular_season("SP", ["FA", "SP"], ["FA"], ["cs"], [], 4, {})
     assert spring["available"] is False and spring["confidence"] == "conflicting"
+    # Catalog says Fall, map says Spring only: the stricter reading leaves nothing, so the
+    # class schedule decides (FW 3053 ran four falls) ...
+    history = {"FA": ["202370", "202470", "202570", "202670"]}
+    fall = _regular_season("FA", ["FA"], ["SP"], ["fw"], history["FA"], 4, history)
+    spring = _regular_season("SP", ["FA"], ["SP"], ["fw"], [], 4, history)
+    assert fall["available"] and not spring["available"] and fall["confidence"] == "conflicting"
+    # ... and with no schedule record either term is allowed.
+    assert _regular_season("SP", ["FA"], ["SP"], ["fw"], [], 0, {})["available"]
     # No restriction anywhere: assumed available (PRD §7.4).
-    assert _regular_season("SP", None, [], [], [], 0)["confidence"] == "assumed"
+    assert _regular_season("SP", None, [], [], [], 0, {})["confidence"] == "assumed"
     # Ran in fall 3x, never in spring: spring is unknown (D8).
-    assert _regular_season("SP", None, [], [], [], 3)["confidence"] == "unknown"
+    assert _regular_season("SP", None, [], [], [], 3, {})["confidence"] == "unknown"
     # Summer: likely for lower-level gen-eds with no history; unknown otherwise.
     assert _short_season("SU", None, [], [], 0, False, gen_ed=True)["confidence"] == "assumed"
     assert _short_season("SU", None, [], [], 0, False, gen_ed=False)["confidence"] == "unknown"
@@ -167,3 +176,17 @@ def test_cycle_check_ignores_or_alternatives() -> None:
     }
     result = _no_cycles(program, hard)
     assert not result["passed"] and "A 1" in result["detail"]
+
+
+def test_corequisite_groups() -> None:
+    assert parse_coreq_groups("SEED 4809 or SEED 4909") == [["SEED 4809", "SEED 4909"]]
+    assert parse_coreq_groups("NUR 3204 and 3402") == [["NUR 3204"], ["NUR 3402"]]
+    assert parse_coreq_groups("MATH 2914 and PHYS 2000") == [["MATH 2914"], ["PHYS 2000"]]
+    assert parse_coreq_groups("EAM 3003, 3013 and 4033, or consent of department head") == [
+        ["EAM 3003"],
+        ["EAM 3013"],
+        ["EAM 4033"],
+    ]
+    with_consent = "MUS 1441 or MUS 1201 or permission of instructor"
+    assert parse_coreq_groups(with_consent) == [["MUS 1441", "MUS 1201"]]
+    assert parse_coreq_groups("3000 level applied instruction on major performance instrument") == []

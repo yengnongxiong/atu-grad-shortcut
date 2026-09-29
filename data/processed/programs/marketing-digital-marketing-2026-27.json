@@ -877,8 +877,8 @@
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": [
             "MKT"
           ],
@@ -1330,7 +1330,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ACCT 2003, ENGL 0203, ENGL 0404, MATH 3153"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1354,7 +1354,13 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "42 upper-division hours required + 15 flexible elective hours vs 40 needed"
+      "detail": "45 upper-division hours required + 12 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",

@@ -423,7 +423,22 @@
           "BIOL 4044"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "elective_alternative": {
+        "label": "Electives",
+        "bucket": {
+          "category": "elective",
+          "codes": [],
+          "rule": {
+            "min_level": null,
+            "max_level": null,
+            "subjects": null,
+            "approved": false,
+            "general": true
+          },
+          "recommended": []
+        }
+      }
     },
     {
       "id": "s5r2",
@@ -465,9 +480,7 @@
       "min_grade": null,
       "raw_text": "STAT options: FW 3171, STAT 2304, 3113, or 4153 MATH options: MATH 2243, 2914, 2924, or 2934",
       "notes": "Wildlife students: Take BIOL 4044- Dendrology (Fall only) or choose a suitable elective Fisheries students: Choose either BIOL 3004- Plant Taxonomy or BIOL 4044: Dendrology",
-      "warnings": [
-        "alternative without a course code: 2934"
-      ],
+      "warnings": [],
       "kind": "course",
       "label": "",
       "options": [
@@ -479,9 +492,12 @@
         ],
         [
           "MATH 2243"
+        ],
+        [
+          "MATH 2934"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s5r4",
@@ -505,7 +521,22 @@
           "FW 4064"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "elective_alternative": {
+        "label": "Electives)",
+        "bucket": {
+          "category": "elective",
+          "codes": [],
+          "rule": {
+            "min_level": null,
+            "max_level": null,
+            "subjects": null,
+            "approved": false,
+            "general": true
+          },
+          "recommended": []
+        }
+      }
     },
     {
       "id": "s5r5",
@@ -595,7 +626,22 @@
           "BIOL 3004"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "elective_alternative": {
+        "label": "Electives",
+        "bucket": {
+          "category": "elective",
+          "codes": [],
+          "rule": {
+            "min_level": null,
+            "max_level": null,
+            "subjects": null,
+            "approved": false,
+            "general": true
+          },
+          "recommended": []
+        }
+      }
     },
     {
       "id": "s6r3",
@@ -1389,7 +1435,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): BUAD 2053, CHEM 1114, ENGL 0203, ENGL 0404, MATH 2163, MATH 3153, PHSC 1004; low-confidence prerequisite parse: FW 3053, FW 4001, FW 4064"
+      "detail": "low-confidence prerequisite parse: FW 3053, FW 4001, FW 4064"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1401,7 +1447,7 @@
       "check": "offering_flags_agree",
       "passed": false,
       "severity": "warning",
-      "detail": "FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); using the stricter; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); using the stricter; ran 4x in FA (202370, 202470, 202570, 202670)"
+      "detail": "FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; FW 3053: catalog 'Offered: FA' vs map 'SP only' (fisheries-wildlife-bio-2026-27); they share no term, so the class schedule decides; ran 4x in FA (202370, 202470, 202570, 202670)"
     },
     {
       "check": "buckets_nonempty",
@@ -1414,6 +1460,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "50 upper-division hours required + 15 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",

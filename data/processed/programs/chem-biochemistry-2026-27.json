@@ -272,6 +272,7 @@
       "raw_text": "PHYS 2014/2114/2000- Algebra or Cal-Based Physics I and lab",
       "notes": "",
       "warnings": [
+        "0-credit lab(s) PHYS 2000 left to corequisite rules, not listed as alternatives",
         "alternative without a course code: Cal-Based Physics I and lab"
       ],
       "kind": "course",
@@ -282,9 +283,6 @@
         ],
         [
           "PHYS 2114"
-        ],
-        [
-          "PHYS 2000"
         ]
       ],
       "confidence": "medium"
@@ -364,6 +362,7 @@
       "raw_text": "PHYS 2024/2114/2010- Algebra or Cal-Based Physics II and lab",
       "notes": "",
       "warnings": [
+        "0-credit lab(s) PHYS 2010 left to corequisite rules, not listed as alternatives",
         "alternative without a course code: Cal-Based Physics II and lab"
       ],
       "kind": "course",
@@ -374,9 +373,6 @@
         ],
         [
           "PHYS 2114"
-        ],
-        [
-          "PHYS 2010"
         ]
       ],
       "confidence": "medium"
@@ -1386,7 +1382,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004; low-confidence prerequisite parse: CHEM 4951, CHEM 4991"
+      "detail": "low-confidence prerequisite parse: CHEM 4951, CHEM 4991"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1411,6 +1407,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "46 upper-division hours required + 9 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",

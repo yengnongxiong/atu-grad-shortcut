@@ -226,3 +226,84 @@ def test_summer_atu_and_transfer_both_enabled_places_every_item() -> None:
     detail = plan_detailed(ds, request(levers={"summer": True, "transfer_summer": True}))
     placed = {c.code for t in detail.response.terms for c in t.courses}
     assert placed == {c["code"] for c in courses}
+
+
+def test_repeated_or_requirement_schedules_each_option_once() -> None:
+    """A map listing "ALT 1001 or ALT 1002" in two semesters means taking one of each."""
+    courses = [syn.course("ALT 1001"), syn.course("ALT 1002")]
+    first = {**syn.req("ALT 1001", semester=5), "id": "r-alt-5", "options": [["ALT 1001"], ["ALT 1002"]]}
+    second = {**syn.req("ALT 1001", semester=6), "id": "r-alt-6", "options": [["ALT 1001"], ["ALT 1002"]]}
+    ds = syn.dataset(courses, [syn.program([first, second])])
+    detail = plan_detailed(ds, request())
+    placed = sorted(c.code for t in detail.response.terms for c in t.courses if c.code)
+    assert placed == ["ALT 1001", "ALT 1002"]
+
+
+def test_repeated_or_requirement_with_credit_plans_the_other_option() -> None:
+    courses = [syn.course("ALT 1001"), syn.course("ALT 1002")]
+    first = {**syn.req("ALT 1001"), "id": "r-alt-a", "options": [["ALT 1001"], ["ALT 1002"]]}
+    second = {**syn.req("ALT 1001"), "id": "r-alt-b", "options": [["ALT 1001"], ["ALT 1002"]]}
+    ds = syn.dataset(courses, [syn.program([first, second])])
+    completed = [{"code": "ALT 1002", "grade": "B", "term": "2026SP"}]
+    detail = plan_detailed(ds, request(profile={"completed": completed}))
+    placed = [c.code for t in detail.response.terms for c in t.courses if c.code]
+    assert placed == ["ALT 1001"]
+
+
+def test_corequisite_alternatives_need_only_one() -> None:
+    """ "Co-requisite: SEED 4809 or SEED 4909" must not force both 9-hour residencies into one term."""
+    seminar = syn.course("SEM 4503", coreq_options=[["RES 4809", "RES 4909"]])
+    residency_a = syn.course("RES 4809", hours=9, coreqs=["SEM 4503"])
+    residency_b = syn.course("RES 4909", hours=9, coreqs=["SEM 4503"])
+    program = syn.program([syn.req("SEM 4503"), syn.req("RES 4909", hours=9)])
+    ds = syn.dataset([seminar, residency_a, residency_b], [program])
+    detail = plan_detailed(ds, request())
+    assert detail.response.feasible
+    terms = placed_terms(detail)
+    assert "RES 4809" not in terms
+    assert terms["SEM 4503"] == terms["RES 4909"]
+
+
+def test_missing_corequisite_group_adds_first_alternative() -> None:
+    lab = syn.course("LAB 2000", hours=1, coreq_options=[["PHY 2014", "PHY 2114"]])
+    ds = syn.dataset(
+        [lab, syn.course("PHY 2014", hours=4), syn.course("PHY 2114", hours=4)],
+        [syn.program([syn.req("LAB 2000", hours=1)])],
+    )
+    detail = plan_detailed(ds, request())
+    terms = placed_terms(detail)
+    assert "PHY 2014" in terms and "PHY 2114" not in terms
+    assert terms["PHY 2014"] <= terms["LAB 2000"]
+
+
+def test_program_scoped_prerequisite_keeps_only_program_courses() -> None:
+    """ "Completion of all HES, PE, and HLED courses" lists every concentration's courses."""
+    all_courses = {
+        "type": "and",
+        "items": [{"type": "course", "code": c, "min_grade": None} for c in ("PRG 1001", "OTH 1001")],
+    }
+    internship = {**syn.course("PRG 4012", hours=12, prereq=all_courses), "prerequisite_scope": "program"}
+    ds = syn.dataset(
+        [internship, syn.course("PRG 1001"), syn.course("OTH 1001")],
+        [syn.program([syn.req("PRG 1001"), syn.req("PRG 4012", hours=12)])],
+    )
+    detail = plan_detailed(ds, request())
+    terms = placed_terms(detail)
+    assert "OTH 1001" not in terms
+    assert terms["PRG 1001"] < terms["PRG 4012"]
+
+
+def test_summer_only_required_course_gets_a_summer_without_the_lever() -> None:
+    field_camp = syn.course(
+        "GEO 4006", hours=6, offering=syn.offered(fall=False, spring=False, summer="documented")
+    )
+    ds = syn.dataset(
+        [field_camp, syn.course("GEO 1001")],
+        [syn.program([syn.req("GEO 1001"), syn.req("GEO 4006", hours=6)])],
+    )
+    detail = plan_detailed(ds, request())
+    assert detail.response.feasible
+    terms = placed_terms(detail)
+    assert terms["GEO 4006"].season == "SU"
+    assert terms["GEO 1001"].season != "SU"
+    assert any(w.id.startswith("summer-only") for w in detail.response.warnings)

@@ -1244,7 +1244,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, ENGL 0203, ENGL 0404, MATH 3153, PE 4013, WS 1002, WS 2003, WS 2043, WS 3003, WS 3023, WS 4003, WS 4063"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1269,6 +1269,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "47 upper-division hours required + 1 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

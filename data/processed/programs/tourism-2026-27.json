@@ -1360,7 +1360,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: RP 3043, RP 4023"
+      "detail": "low-confidence prerequisite parse: RP 3043, RP 4023"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1385,6 +1385,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "36 upper-division hours required + 22 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

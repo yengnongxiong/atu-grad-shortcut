@@ -1286,7 +1286,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404, PE 4013, WS 1002, WS 1003, WS 2003, WS 2013, WS 2023, WS 2043, WS 3003, WS 3023, WS 4003, WS 4063"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1311,6 +1311,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "52 upper-division hours required + 2 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

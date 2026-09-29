@@ -1493,7 +1493,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404, MATH 3153; low-confidence prerequisite parse: SOC 4283"
+      "detail": "low-confidence prerequisite parse: SOC 4283"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1518,6 +1518,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "19 upper-division hours required + 53 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

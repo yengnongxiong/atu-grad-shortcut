@@ -1266,7 +1266,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): AGAS 2083, AGBU 1014, AGPS 1023, ENGL 0203, ENGL 0404; low-confidence prerequisite parse: SEED 4503, SEED 4553, SEED 4909, SPED 4052"
+      "detail": "low-confidence prerequisite parse: SEED 4503, SEED 4553, SEED 4909, SPED 4052"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1291,6 +1291,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "47 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

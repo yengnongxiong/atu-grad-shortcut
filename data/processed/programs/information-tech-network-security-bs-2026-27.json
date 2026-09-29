@@ -521,24 +521,22 @@
       "min_grade": null,
       "raw_text": "Approved Elective (3000-4000)",
       "notes": "",
-      "warnings": [
-        "approved elective with no level/subject rule; any course assumed"
-      ],
+      "warnings": [],
       "kind": "bucket",
       "label": "Approved Elective (3000-4000)",
       "bucket": {
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": null,
           "approved": true,
           "general": false
         },
         "recommended": []
       },
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s6r1",
@@ -631,24 +629,22 @@
       "min_grade": null,
       "raw_text": "Approved Elective (3000-4000)",
       "notes": "",
-      "warnings": [
-        "approved elective with no level/subject rule; any course assumed"
-      ],
+      "warnings": [],
       "kind": "bucket",
       "label": "Approved Elective (3000-4000)",
       "bucket": {
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": null,
           "approved": true,
           "general": false
         },
         "recommended": []
       },
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s7r1",
@@ -759,24 +755,22 @@
       "min_grade": null,
       "raw_text": "Approved Elective (3000-4000)",
       "notes": "Complete check-in with Career Services",
-      "warnings": [
-        "approved elective with no level/subject rule; any course assumed"
-      ],
+      "warnings": [],
       "kind": "bucket",
       "label": "Approved Elective (3000-4000)",
       "bucket": {
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": null,
           "approved": true,
           "general": false
         },
         "recommended": []
       },
-      "confidence": "medium"
+      "confidence": "high"
     },
     {
       "id": "s8r1",
@@ -905,24 +899,22 @@
       "min_grade": null,
       "raw_text": "Approved Elective (3000-4000)",
       "notes": "2.00+ GPA",
-      "warnings": [
-        "approved elective with no level/subject rule; any course assumed"
-      ],
+      "warnings": [],
       "kind": "bucket",
       "label": "Approved Elective (3000-4000)",
       "bucket": {
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": null,
           "approved": true,
           "general": false
         },
         "recommended": []
       },
-      "confidence": "medium"
+      "confidence": "high"
     }
   ],
   "map_schedule": [
@@ -1380,7 +1372,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): COMS 2104, ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1404,7 +1396,13 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "30 upper-division hours required + 14 flexible elective hours vs 40 needed"
+      "detail": "41 upper-division hours required + 3 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

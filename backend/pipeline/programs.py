@@ -80,7 +80,7 @@ def row_categories(label: str) -> list[tuple[str, str]]:
 
 
 ELECTIVE_RE = re.compile(r"elective", re.I)
-LEVEL_RANGE_RE = re.compile(r"\(?\s*(\d)000\s*-\s*(\d)000\s*level\)?", re.I)
+LEVEL_RANGE_RE = re.compile(r"\(?\s*(\d)000\s*-\s*(\d)000\s*(?:level)?\)?", re.I)
 
 
 # ----------------------------------------------------------------------------- program
@@ -138,6 +138,7 @@ def build_program(ref: MapRef, parsed: ParsedMap, ctx: ProgramContext) -> dict[s
                 ],
             }
         )
+    resolve_repeated_alternatives(requirements)
     degree = parsed.degree_name
     is_bachelor = degree.lower().startswith("bachelor") or (
         not degree and not ref.listed_as_associate and len(parsed.semesters) >= 8
@@ -461,6 +462,10 @@ def _course_requirement(clean: str, row: MapRow, ctx: ProgramContext, warnings: 
     unresolved: list[str] = []
     for segment in segments:
         groups = code_groups(segment)
+        bare = re.match(r"^\s*(\d{4})\b", segment)
+        if not groups and bare and options:
+            # "PHIL 2003 or 2043- Honors Philosophy": the alternative inherits the subject.
+            groups = [[f"{subject_of(options[-1][0])} {bare.group(1)}"]]
         if not groups:
             unresolved.append(segment.strip())
             continue
@@ -472,6 +477,21 @@ def _course_requirement(clean: str, row: MapRow, ctx: ProgramContext, warnings: 
         alt = extract_codes(sub.group(1))
         if alt and alt not in options:
             options.append(alt)
+    # "PHYS 2014/2114/2000": a 0-credit lab is not an alternative to the lecture; its
+    # corequisite link schedules it with whichever lecture is chosen.
+    credit_options = [o for o in options if any(_catalog_hours(c, ctx) != 0 for c in o)]
+    if credit_options and len(credit_options) < len(options):
+        dropped = [c for o in options if o not in credit_options for c in o]
+        warnings.append(
+            f"0-credit lab(s) {', '.join(dropped)} left to corequisite rules, not listed as alternatives"
+        )
+        options = credit_options
+    alternative: dict[str, Any] | None = None
+    electives = [s for s in unresolved if ELECTIVE_RE.search(s)]
+    if electives:
+        # "PHYS 4003 or Elective (3000-4000 level)": kept so a repeat of the row can become the elective.
+        elective = _elective_bucket(electives[0], [], ctx, [])
+        alternative = {"label": elective["label"], "bucket": elective["bucket"]}
     if unresolved:
         warnings.append(f"alternative without a course code: {'; '.join(unresolved)}")
     unknown = [c for opt in options for c in opt if c not in ctx.courses]
@@ -482,12 +502,43 @@ def _course_requirement(clean: str, row: MapRow, ctx: ProgramContext, warnings: 
     confidence = "high"
     if unresolved or unknown:
         confidence = "low" if unknown and all(c in unknown for c in primary) else "medium"
-    return {
+    result: dict[str, Any] = {
         "kind": "course",
         "label": title,
         "options": options,
         "confidence": confidence,
     }
+    if alternative:
+        result["elective_alternative"] = alternative
+    return result
+
+
+def _catalog_hours(code: str, ctx: ProgramContext) -> float | None:
+    course = ctx.courses.get(code)
+    return None if course is None or course.get("hours") is None else float(course["hours"])
+
+
+def resolve_repeated_alternatives(requirements: list[dict[str, Any]]) -> None:
+    """A row like "PHYS 4003 or Elective (3000-4000 level)" listed in two semesters means one of
+    each: the later copy becomes the elective."""
+    seen: dict[str, dict[str, Any]] = {}
+    for req in requirements:
+        if req["kind"] != "course":
+            continue
+        key = repr(req["options"])
+        first = seen.get(key)
+        alternative = req.get("elective_alternative")
+        if first is not None and alternative:
+            req["kind"] = "bucket"
+            req["label"] = alternative["label"]
+            req["bucket"] = {**alternative["bucket"], "recommended": []}
+            req["warnings"].append(
+                f"{first['label']} is already on the map in semester {first['map_semester']}, "
+                f"so this repeat of the row is the elective alternative"
+            )
+            del req["options"]
+            continue
+        seen.setdefault(key, req)
 
 
 def _options_from_groups(

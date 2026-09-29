@@ -1367,6 +1367,12 @@
       "CHIN 1023",
       "LEAD 2003"
     ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
     "science_with_lab": [
       "BIOL 1014",
       "BIOL 1004",
@@ -1418,7 +1424,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: HIST 1543, PHIL 2043"
+      "detail": "low-confidence prerequisite parse: HIST 1543, PHIL 2043"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1443,6 +1449,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "39 upper-division hours required + 30 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",
@@ -1450,7 +1462,7 @@
   "parsed_map": {
     "gen_ed_list_names": [
       "Fine Arts and Humanities",
-      "NOTE 1",
+      "U.S. History & Government",
       "Science with Lab",
       "appropriate Fine Arts/Humanities, US History/Government and"
     ],

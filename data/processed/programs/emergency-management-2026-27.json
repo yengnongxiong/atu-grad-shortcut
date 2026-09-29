@@ -1385,7 +1385,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: EAM 4506"
+      "detail": "low-confidence prerequisite parse: EAM 4506"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1410,13 +1410,18 @@
       "passed": true,
       "severity": "ok",
       "detail": "39 upper-division hours required + 33 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "needs_review",
   "cross_check": null,
   "parsed_map": {
     "gen_ed_list_names": [
-      "*Note 1: AB2M:",
       "Fine Arts and Humanities",
       "U.S. History & Government",
       "Social Sciences",

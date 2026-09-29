@@ -548,13 +548,16 @@
       "raw_text": "POLS 3033, 3123, 3133 OR 3143",
       "notes": "See Note 2",
       "warnings": [
-        "alternative without a course code: 3143"
+        "not in the Banner catalog: POLS 3143"
       ],
       "kind": "course",
       "label": "American State and Local Government",
       "options": [
         [
           "POLS 3033"
+        ],
+        [
+          "POLS 3143"
         ]
       ],
       "confidence": "medium"
@@ -780,8 +783,8 @@
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": [
             "HIST",
             "POLS"
@@ -1256,6 +1259,7 @@
     "POLS 2003",
     "POLS 2513",
     "POLS 3033",
+    "POLS 3143",
     "POLS 4963",
     "PSY 2003",
     "SEED 2003",
@@ -1340,7 +1344,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ENGL 0203, ENGL 0404; low-confidence prerequisite parse: HIST 4714, SEED 4503, SEED 4553, SEED 4909, SPED 4052"
+      "detail": "low-confidence prerequisite parse: HIST 4714, SEED 4503, SEED 4553, SEED 4909, SPED 4052"
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1364,7 +1368,13 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "39 upper-division hours required + 9 flexible elective hours vs 40 needed"
+      "detail": "42 upper-division hours required + 6 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

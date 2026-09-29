@@ -262,15 +262,14 @@
       "min_grade": null,
       "raw_text": "PHYS 2124/2010- Calculus-Based Physics II and lab",
       "notes": "Prereq or Coreq: MATH 2924",
-      "warnings": [],
+      "warnings": [
+        "0-credit lab(s) PHYS 2010 left to corequisite rules, not listed as alternatives"
+      ],
       "kind": "course",
       "label": "Calculus-Based Physics II",
       "options": [
         [
           "PHYS 2124"
-        ],
-        [
-          "PHYS 2010"
         ]
       ],
       "confidence": "high"
@@ -615,7 +614,22 @@
           "PHYS 4003"
         ]
       ],
-      "confidence": "medium"
+      "confidence": "medium",
+      "elective_alternative": {
+        "label": "Elective (3000-4000 level)",
+        "bucket": {
+          "category": "elective",
+          "codes": [],
+          "rule": {
+            "min_level": 3000,
+            "max_level": 4000,
+            "subjects": null,
+            "approved": false,
+            "general": false
+          },
+          "recommended": []
+        }
+      }
     },
     {
       "id": "s6r3",
@@ -891,16 +905,39 @@
       "raw_text": "PHYS 4003 -Thermodynam/Stat Mech or Elective (3000-4000 level)",
       "notes": "Min. hours 3000-4000 level courses: 40",
       "warnings": [
-        "alternative without a course code: Elective (3000-4000 level)"
+        "alternative without a course code: Elective (3000-4000 level)",
+        "Thermodynamics and Statistical Mechanics is already on the map in semester 6, so this repeat of the row is the elective alternative"
       ],
-      "kind": "course",
-      "label": "Thermodynamics and Statistical Mechanics",
-      "options": [
-        [
-          "PHYS 4003"
-        ]
-      ],
-      "confidence": "medium"
+      "kind": "bucket",
+      "label": "Elective (3000-4000 level)",
+      "confidence": "medium",
+      "elective_alternative": {
+        "label": "Elective (3000-4000 level)",
+        "bucket": {
+          "category": "elective",
+          "codes": [],
+          "rule": {
+            "min_level": 3000,
+            "max_level": 4000,
+            "subjects": null,
+            "approved": false,
+            "general": false
+          },
+          "recommended": []
+        }
+      },
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      }
     },
     {
       "id": "s8r3",
@@ -1414,7 +1451,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): CHEM 1114, COMS 2104, ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1439,6 +1476,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "43 upper-division hours required + 10 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

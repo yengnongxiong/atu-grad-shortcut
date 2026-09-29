@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import time
+import zlib
 from dataclasses import dataclass
 from typing import Any
 
@@ -846,13 +847,27 @@ def data_warnings(ctx: PlanContext, outcome: Outcome, terms: list[PlannedTerm]) 
     for message in outcome.build.warnings:
         out.append(
             Warning(
-                id=f"build-{abs(hash(message)) % 100000}",
+                id=f"build-{zlib.crc32(message.encode()) % 100000}",
                 severity="info",
                 category="plan",
                 message=message,
                 source=map_link,
             )
         )
+    if not ctx.levers.summer:
+        for term in terms:
+            atu = [c.code or c.label for c in term.courses if term.season == "SU" and not c.transfer]
+            if atu:
+                out.append(
+                    Warning(
+                        id=f"summer-only-{term.id}",
+                        severity="info",
+                        category="plan",
+                        message=f"{', '.join(atu)} {'is' if len(atu) == 1 else 'are'} offered only in "
+                        f"summer, so the plan includes {term.label} even with summer terms off.",
+                        source=map_link,
+                    )
+                )
     return out
 
 

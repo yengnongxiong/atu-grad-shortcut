@@ -12,8 +12,8 @@ from collections.abc import Sequence
 from dataclasses import dataclass
 from typing import Any
 
-from shortcut.planner.model import Placement, Slot, simplify
-from shortcut.planner.profile import Item, StudentState, offered_ok
+from shortcut.planner.model import Placement, Slot, atu_slot_ok, coreq_groups, simplify
+from shortcut.planner.profile import Item, StudentState
 
 
 @dataclass
@@ -34,9 +34,10 @@ def used_edges(items: Sequence[Item], state: StudentState, placements: dict[str,
         tree = simplify(item.prereq, state, planned)
         for dep in _chosen_leaves(tree, placement.term_index, placements):
             edges.append(Edge(dep, item.id, "prereq"))
-        for coreq in item.coreqs:
-            dep_id = planned.get(coreq)
-            if dep_id and dep_id in placements and not state.has(coreq):
+        for group in coreq_groups(item, state, planned):
+            placed = [dep for dep in group if dep in placements]
+            if placed:  # the alternative taken first satisfies the group
+                dep_id = min(placed, key=lambda dep: placements[dep].term_index)
                 edges.append(Edge(dep_id, item.id, "coreq"))
     return edges
 
@@ -86,7 +87,7 @@ def latest_indices(
         placement = placements[item.id]
         if placement.transfer:
             return slot.transfer_allowed
-        return slot.atu_allowed and offered_ok(item.offered[slot.term.season], mode)
+        return atu_slot_ok(slot, item, mode)
 
     successors: dict[str, list[Edge]] = {}
     for edge in edges:

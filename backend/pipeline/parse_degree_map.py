@@ -437,7 +437,7 @@ def _group_rows(parts: list[dict[str, Any]], header: _Header) -> list[MapRow]:
 
 # ----------------------------------------------------------------------------- gen-ed lists
 
-GEN_ED_HEADER_SKIP = ("university", "should", "honors", "indicates", "choose", "shaded")
+GEN_ED_HEADER_SKIP = ("university", "should", "honors", "indicates", "choose", "shaded", "note")
 
 
 def _bold_phrases(words: list[Word]) -> list[tuple[str, float, float, float]]:

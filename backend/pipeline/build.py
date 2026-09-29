@@ -7,6 +7,7 @@ uv run python -m pipeline.build --offline     # rebuild from committed raw files
 from __future__ import annotations
 
 import argparse
+import re
 import shutil
 import time
 from collections import Counter
@@ -35,6 +36,7 @@ from pipeline.enrich_catalog import (
     load_banner_raw,
     notes_for_row,
     prerequisite_closure,
+    prune_retired,
 )
 from pipeline.exams import build_exam_tables
 from pipeline.fetch_banner import fetch_all
@@ -42,6 +44,8 @@ from pipeline.parse_degree_map import ParsedMap, parse_degree_map
 from pipeline.programs import ProgramContext, build_program, list_category
 from pipeline.report import write_report
 from pipeline.validate import assign_tier, validate_program
+
+ONLY_IN_TEXT = re.compile(r"\b(?:fall|spring|summer)\s+only\b", re.I)
 
 
 @dataclass
@@ -69,9 +73,9 @@ def collect_map_notes(parsed: dict[str, tuple[MapRef, ParsedMap]]) -> dict[str, 
         for semester in pm.semesters:
             for row in semester.rows:
                 groups = code_groups(strip_acts(row.text))
-                if len(groups) != 1 or not row.notes:
+                if len(groups) != 1 or not (row.notes or ONLY_IN_TEXT.search(row.text)):
                     continue
-                note = notes_for_row(ref.program_id, ref.url, row.notes)
+                note = notes_for_row(ref.program_id, ref.url, row.notes, row.text)
                 if not (note.only or note.prereq_text or note.coreq_text or note.pass_fail):
                     continue
                 for code in groups[0]:
@@ -174,6 +178,20 @@ def run(online: bool, refresh: bool, fetch_banner: bool) -> dict[str, Any]:
         for code, course in sorted(courses.items())
         if course["in_catalog"] or course["sources"] or code in closure
     }
+    known = {code for code, course in courses.items() if course["in_catalog"]}
+    if known:
+        for course in courses.values():
+            groups = [[c for c in group if c in known] for group in course["corequisites"]]
+            course["corequisites"] = [group for group in groups if group]
+            tree, removed = prune_retired(course["prerequisites"], known)
+            if removed:
+                course["prerequisites"] = tree
+                course["pruned_prerequisites"] = removed
+                course["warnings"].append(
+                    "prerequisite(s) not in the current catalog ignored: " + ", ".join(removed)
+                )
+                if course["parse_confidence"] == "high":
+                    course["parse_confidence"] = "medium"
 
     pooled: dict[str, list[str]] = {}
     for ref, pm in parsed.values():

@@ -240,8 +240,11 @@ def match_requirements(
     reqs = [r for r in reqs if r["id"] not in statuses]
     all_reqs = program["requirements"]
 
+    planned: set[str] = set()  # codes an earlier open requirement already chose to schedule
+    wanted = _mandatory_prerequisites(program, dataset)
     for req in (r for r in reqs if r["kind"] == "course"):
-        statuses[req["id"]] = _match_course(req, state, used, dataset)
+        statuses[req["id"]] = _match_course(req, state, used, planned, wanted, dataset)
+        planned.update(statuses[req["id"]].remaining_codes)
 
     code_buckets = [r for r in reqs if r["kind"] == "bucket" and r["bucket"]["codes"]]
     for req in sorted(code_buckets, key=lambda r: len(r["bucket"]["codes"])):
@@ -298,7 +301,59 @@ def rule_matches(rule: dict[str, Any], code: str) -> bool:
     return not subjects or code.split(" ")[0] in subjects
 
 
-def _match_course(req: dict[str, Any], state: StudentState, used: set[str], dataset: Dataset) -> ReqStatus:
+def restrict_tree(tree: Tree | None, keep: set[str]) -> Tree | None:
+    """Treat course leaves outside `keep` as met (None means no prerequisite remains)."""
+    if tree is None:
+        return None
+    if tree["type"] == "course":
+        return tree if tree["code"] in keep else None
+    if tree["type"] in ("and", "or"):
+        children = [restrict_tree(t, keep) for t in tree["items"]]
+        if tree["type"] == "or" and any(c is None for c in children):
+            return None
+        kept = [c for c in children if c is not None]
+        if not kept:
+            return None
+        return kept[0] if len(kept) == 1 else {**tree, "items": kept}
+    return tree
+
+
+def _mandatory_leaves(tree: Tree | None) -> set[str]:
+    """Courses a prerequisite tree requires on every path."""
+    if tree is None:
+        return set()
+    if tree["type"] == "course":
+        return {tree["code"]}
+    if tree["type"] == "and":
+        return set().union(*(_mandatory_leaves(t) for t in tree["items"]))
+    if tree["type"] == "or":
+        branches = [_mandatory_leaves(t) for t in tree["items"]]
+        return set.intersection(*branches) if branches else set()
+    return set()
+
+
+def _mandatory_prerequisites(program: dict[str, Any], dataset: Dataset) -> set[str]:
+    """Courses that some required course of the program needs whatever path is taken."""
+    out: set[str] = set()
+    for req in program["requirements"]:
+        if req["kind"] != "course":
+            continue
+        for option in req["options"]:
+            for code in option:
+                course = dataset.courses.get(code)
+                if course:
+                    out |= _mandatory_leaves(course["prerequisites"])
+    return out
+
+
+def _match_course(
+    req: dict[str, Any],
+    state: StudentState,
+    used: set[str],
+    planned: set[str],
+    wanted: set[str],
+    dataset: Dataset,
+) -> ReqStatus:
     min_grade = req.get("min_grade")
     best_option: list[str] | None = None
     best_hits: list[Credit] = []
@@ -314,9 +369,13 @@ def _match_course(req: dict[str, Any], state: StudentState, used: set[str], data
         if len(hits) > len(best_hits):
             best_option, best_hits = option, hits
     if best_option is None:
-        best_option = next(
-            (opt for opt in req["options"] if all(c in dataset.courses for c in opt)),
-            req["options"][0],
+        # "X or Y" listed in two semesters means take one of each: skip options already scheduled.
+        in_catalog = [opt for opt in req["options"] if all(c in dataset.courses for c in opt)]
+        fresh = [opt for opt in in_catalog if not planned.intersection(opt)] or in_catalog
+        # Prefer the option another required course needs anyway (PHYS 2114 before CHEM 3324),
+        # then the map's order.
+        best_option = min(
+            fresh, key=lambda opt: (not wanted.intersection(opt), fresh.index(opt)), default=req["options"][0]
         )
     used.update(c.code for c in best_hits)
     hit_codes = {c.code for c in best_hits}
@@ -338,7 +397,7 @@ class Item:
     level: int
     requirement_id: str | None
     prereq: Tree | None
-    coreqs: list[str]
+    coreqs: list[list[str]]  # groups of alternatives; each group needs one member
     standing: str | None
     offered: dict[str, dict[str, Any]]
     transferable: bool
@@ -404,6 +463,12 @@ def build_items(
                 items.append(course_item(dataset, code, req, majors, policies))
         else:
             items.append(bucket_item(dataset, req, majors, policies))
+    in_program = _requirement_codes(program) | set(state.credits)
+    for item in items:
+        course = dataset.courses.get(item.code or "")
+        if course and course.get("prerequisite_scope") == "program":
+            item.prereq = restrict_tree(item.prereq, in_program)
+            item.notes.append("prerequisite reads 'completion of all ...': only this program's courses apply")
 
     unschedulable = add_missing_prerequisites(dataset, items, state, majors, policies, warnings)
     _add_fillers(dataset, program, state, items, extra, policies, warnings)
@@ -446,7 +511,7 @@ def course_item(
         level=level_of(code),
         requirement_id=req["id"] if req else None,
         prereq=course["prerequisites"] if course else None,
-        coreqs=list(course["corequisites"]) if course else [],
+        coreqs=[list(group) for group in course["corequisites"]] if course else [],
         standing=course["standing"] if course else None,
         offered=offered,
         transferable=acts and level_of(code) <= policies.transfer_max_level,
@@ -665,9 +730,11 @@ def add_missing_prerequisites(
                     added.notes.append(f"added: needed before {item.label}")
                     additions[code] = added
         for item in list(items):
-            for coreq in item.coreqs:
-                missing = coreq not in planned and not state.has(coreq) and coreq not in additions
-                if missing and coreq in dataset.courses:
+            for group in item.coreqs:
+                if any(c in planned or c in additions or state.has(c) for c in group):
+                    continue
+                coreq = next((c for c in group if c in dataset.courses), None)
+                if coreq is not None:
                     added = course_item(dataset, coreq, None, majors, policies, kind="added_prereq")
                     added.notes.append(f"added: corequisite of {item.label}")
                     additions[coreq] = added

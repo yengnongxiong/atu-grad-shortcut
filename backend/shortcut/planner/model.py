@@ -69,6 +69,9 @@ class Slot:
     atu_allowed: bool
     transfer_allowed: bool
     overload_possible: bool
+    # With summer off, a summer slot still takes required courses offered only in summer
+    # (e.g. GEOL 4006 Field Geology): that summer is part of the degree, not a shortcut.
+    season_only: bool = False
 
 
 @dataclass
@@ -131,9 +134,8 @@ def build_slots(config: SolveConfig, policies: Policies) -> list[Slot]:
                 cap_max > policies.regular_load_max,
             )
         elif term.season == "SU":
-            usable = lev.summer or lev.transfer_summer
-            cap = policies.summer_max_load if usable else 0
-            slot = Slot(index, term, cap, cap, None, lev.summer, lev.transfer_summer, False)
+            cap = policies.summer_max_load
+            slot = Slot(index, term, cap, cap, None, lev.summer, lev.transfer_summer, False, not lev.summer)
         else:
             cap = policies.winter_max_hours if lev.winter else 0
             slot = Slot(index, term, cap, cap, policies.winter_max_courses, lev.winter, False, False)
@@ -143,6 +145,19 @@ def build_slots(config: SolveConfig, policies: Policies) -> list[Slot]:
             slot.overload_possible = slot.overload_possible and slot.cap_max > policies.regular_load_max
         slots.append(slot)
     return slots
+
+
+def only_in_season(item: Item, season: str, mode: str) -> bool:
+    return offered_ok(item.offered[season], mode) and not any(
+        offered_ok(item.offered[s], mode) for s in ("FA", "SP")
+    )
+
+
+def atu_slot_ok(slot: Slot, item: Item, mode: str) -> bool:
+    season = slot.term.season
+    if not offered_ok(item.offered[season], mode):
+        return False
+    return slot.atu_allowed or (slot.season_only and only_in_season(item, season, mode))
 
 
 # ----------------------------------------------------------------------------- tree helpers
@@ -184,11 +199,23 @@ def simplify(
     return True
 
 
+def coreq_groups(item: Item, state: StudentState, planned: dict[str, str]) -> list[list[str]]:
+    """Corequisite groups as planned item ids; a group already met by a credit drops out."""
+    groups: list[list[str]] = []
+    for group in item.coreqs:
+        if any(state.has(c) for c in group):
+            continue
+        ids = [planned[c] for c in group if c in planned]
+        if ids:
+            groups.append(ids)
+    return groups
+
+
 def earliest_indices(
     items: Sequence[Item],
     trees: dict[str, dict[str, Any] | bool],
     allowed: dict[str, list[int]],
-    coreq_ids: dict[str, list[str]],
+    coreq_ids: dict[str, list[list[str]]],
 ) -> dict[str, int | None]:
     """Calendar-aware forward pass (ignores hour caps)."""
     inf = 10**6
@@ -210,11 +237,12 @@ def earliest_indices(
         changed = False
         for item in items:
             bound = ready(trees[item.id])
-            for coreq in coreq_ids.get(item.id, []):
+            for group in coreq_ids.get(item.id, []):
                 # Corequisites may share a term; an unresolved one (e.g. a mutual lab/lecture
                 # pair) must not block the pass.
-                if es.get(coreq, inf) < inf:
-                    bound = max(bound, es[coreq])
+                earliest = min((es.get(c, inf) for c in group), default=inf)
+                if earliest < inf:
+                    bound = max(bound, earliest)
             candidates = [t for t in allowed[item.id] if t >= bound]
             value = candidates[0] if candidates else inf
             if value != es[item.id]:
@@ -238,7 +266,7 @@ def solve(
     slots = build_slots(config, policies)
     planned = {i.code: i.id for i in items if i.code}
     trees = {i.id: simplify(i.prereq, state, planned) for i in items}
-    coreq_ids = {i.id: [planned[c] for c in i.coreqs if c in planned and not state.has(c)] for i in items}
+    coreq_ids = {i.id: coreq_groups(i, state, planned) for i in items}
 
     allowed_atu: dict[str, list[int]] = {}
     allowed_tr: dict[str, list[int]] = {}
@@ -254,8 +282,7 @@ def solve(
                 continue
             if item.hours > slot.cap_max:
                 continue
-            season = slot.term.season
-            if slot.atu_allowed and offered_ok(item.offered[season], config.mode):
+            if atu_slot_ok(slot, item, config.mode):
                 atu.append(slot.index)
             if slot.transfer_allowed and item.transferable:
                 tr.append(slot.index)
@@ -335,8 +362,8 @@ def solve(
         tree = trees[item.id]
         for t, var in by_item[item.id]:
             encode(tree, t, var)
-            for coreq in coreq_ids[item.id]:
-                model.add(sum(done_by(coreq, t)) >= var)
+            for group in coreq_ids[item.id]:
+                model.add(sum(v for coreq in group for v in done_by(coreq, t)) >= var)
             if item.standing:
                 need = thresholds.get(item.standing, 0)
                 if base_hours < need:

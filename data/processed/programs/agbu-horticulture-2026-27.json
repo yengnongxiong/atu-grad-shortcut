@@ -1265,7 +1265,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): ACCT 2003, AGPS 1023, CHEM 1114, ENGL 0203, ENGL 0404, PHSC 1004"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1290,6 +1290,12 @@
       "passed": true,
       "severity": "ok",
       "detail": "43 upper-division hours required + 14 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

@@ -126,8 +126,8 @@
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 1000,
+          "max_level": 4000,
           "subjects": null,
           "approved": false,
           "general": true
@@ -409,8 +409,8 @@
         "category": "elective",
         "codes": [],
         "rule": {
-          "min_level": null,
-          "max_level": null,
+          "min_level": 3000,
+          "max_level": 4000,
           "subjects": null,
           "approved": false,
           "general": true
@@ -1502,7 +1502,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "flagged as external (not in catalog): COMS 2104, ENGL 0203, ENGL 0404"
+      "detail": ""
     },
     {
       "check": "no_prerequisite_cycles",
@@ -1526,7 +1526,13 @@
       "check": "upper_level_achievable",
       "passed": true,
       "severity": "ok",
-      "detail": "41 upper-division hours required + 15 flexible elective hours vs 40 needed"
+      "detail": "43 upper-division hours required + 13 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
     }
   ],
   "trust_tier": "auto_imported",

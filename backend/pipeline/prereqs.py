@@ -16,7 +16,7 @@ import re
 from dataclasses import dataclass, field
 from typing import Any
 
-from pipeline.codes import ACTS_CODE_RE, extract_codes, strip_acts
+from pipeline.codes import ACTS_CODE_RE, NOT_SUBJECTS, extract_codes, strip_acts
 
 Tree = dict[str, Any]
 
@@ -178,6 +178,33 @@ def parse_banner_coreq_html(coreq_html: str, subject_codes: dict[str, str]) -> l
         if len(cells) >= 2 and cells[0] in subject_codes and re.fullmatch(r"\d{4}", cells[1]):
             codes.append(f"{subject_codes[cells[0]]} {cells[1]}")
     return codes
+
+
+COREQ_TOKEN_RE = re.compile(r"(?<![A-Za-z])(?:(?P<subject>[A-Z]{2,5})\s?)?(?P<number>\d{4})(?!\d)")
+
+
+def parse_coreq_groups(text: str) -> list[list[str]]:
+    """Corequisite text as groups of alternatives: "A or B" -> [[A, B]]; "NUR 3204 and 3402" -> [[..], [..]].
+
+    A bare number inherits the previous subject; clauses without a course ("or consent of the
+    department head") add nothing.
+    """
+    groups: list[list[str]] = []
+    subject: str | None = None
+    for clause in re.split(r"[,;&]|\band\b", strip_acts(text)):
+        group: list[str] = []
+        for match in COREQ_TOKEN_RE.finditer(clause):
+            if match.group("subject") in NOT_SUBJECTS:
+                continue
+            subject = match.group("subject") or subject
+            if subject is None:
+                continue
+            code = f"{subject} {match.group('number')}"
+            if code not in group:
+                group.append(code)
+        if group:
+            groups.append(group)
+    return groups
 
 
 # ----------------------------------------------------------------------------- descriptions

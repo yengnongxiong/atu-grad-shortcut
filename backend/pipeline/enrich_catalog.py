@@ -25,13 +25,14 @@ from pipeline.banner import (
     HISTORY_TERMS,
     term_season,
 )
-from pipeline.codes import extract_codes, level_of, number_of, subject_of
+from pipeline.codes import level_of, number_of, subject_of
 from pipeline.common import PRD_APPENDIX_SOURCE
 from pipeline.prereqs import (
     Tree,
     combine,
     parse_banner_coreq_html,
     parse_banner_prereq_html,
+    parse_coreq_groups,
     parse_description,
     parse_prereq_text,
     parse_standing,
@@ -39,6 +40,10 @@ from pipeline.prereqs import (
 )
 
 SEASONS = ("FA", "WI", "SP", "SU")
+CONDITIONAL_RE = re.compile(r"student|score|placement|not meeting|\bif\b|unless|recommended", re.I)
+# "completion of all HES, PE, and HLED content area courses": the listed courses are the union over
+# every concentration, so the planner keeps only the ones in the student's own program (D12).
+PROGRAM_SCOPE_RE = re.compile(r"completion of all\b", re.I)
 
 
 # ----------------------------------------------------------------------------- map notes
@@ -63,9 +68,10 @@ PREREQ_NOTE_RE = re.compile(
 COREQ_NOTE_RE = re.compile(r"co-?req(?:uisite)?s?\s*[:\-]?\s*((?:[A-Z]{2,5}\s?\d{4}[\s,&and]*)+)", re.I)
 
 
-def notes_for_row(program_id: str, source_url: str, notes: str) -> MapNote:
+def notes_for_row(program_id: str, source_url: str, notes: str, row_text: str = "") -> MapNote:
     note = MapNote(program_id=program_id, source_url=source_url)
-    only = ONLY_RE.search(notes)
+    # Some maps write "Fall Only" inside the course cell rather than the notes column.
+    only = ONLY_RE.search(notes) or ONLY_RE.search(row_text)
     if only:
         note.only = {"fall": "FA", "spring": "SP", "summer": "SU"}[only.group(1).lower()]
     prereq = PREREQ_NOTE_RE.search(notes)
@@ -213,13 +219,18 @@ def build_course(code: str, ctx: CourseBuildContext) -> dict[str, Any]:
 
     prereq_tree = _apply_math_policy(code, prereq_tree, ctx.math_act_min)
 
-    coreqs: list[str] = []
+    # Corequisites are groups of alternatives: every group needs one member ("SEED 4809 or SEED 4909").
+    coreqs: list[list[str]] = []
     if details:
-        coreqs = parse_banner_coreq_html(details["corequisites_html"], banner.subjects)
-        if facts and facts.coreq_text:
-            coreqs += [c for c in extract_codes(facts.coreq_text) if c not in coreqs]
+        coreqs = [[c] for c in parse_banner_coreq_html(details["corequisites_html"], banner.subjects)]
+        # Description corequisites count only when unconditional ("Co-requisite: COMS 1011."),
+        # not "students who score 19-20 ... will enroll in the co-requisite MATH 1110".
+        if facts and facts.coreq_text and not CONDITIONAL_RE.search(facts.coreq_text):
+            coreqs += [g for g in parse_coreq_groups(facts.coreq_text) if g not in coreqs]
     for note in notes:
-        coreqs += [c for c in extract_codes(note.coreq_text) if c not in coreqs and c != code]
+        coreqs += [g for g in parse_coreq_groups(note.coreq_text) if g not in coreqs]
+    coreqs = [g for g in coreqs if code not in g]
+    coreqs = [g for g in coreqs if not any(set(other) < set(g) for other in coreqs)]  # keep the strictest
 
     offered = _offerings(code, facts.offered if facts else None, notes, ctx)
     map_prereq_notes = [{"program_id": n.program_id, "text": n.prereq_text} for n in notes if n.prereq_text]
@@ -238,6 +249,7 @@ def build_course(code: str, ctx: CourseBuildContext) -> dict[str, Any]:
         "description": facts.text if facts else "",
         "prerequisites": prereq_tree,
         "prereq_raw": prereq_raw,
+        "prerequisite_scope": "program" if PROGRAM_SCOPE_RE.search(prereq_raw or "") else "course",
         "prereq_source": prereq_source if prereq_tree is not None else None,
         "parse_confidence": confidence if prereq_tree is not None else "high",
         "map_prereq_notes": map_prereq_notes,
@@ -310,7 +322,7 @@ def _offerings(
         evidence = f"ran {len(runs)}x in {season} ({', '.join(runs)})" if runs else ""
         entry: dict[str, Any]
         if season in ("FA", "SP"):
-            entry = _regular_season(season, catalog_offered, map_only, map_sources, runs, total_runs)
+            entry = _regular_season(season, catalog_offered, map_only, map_sources, runs, total_runs, history)
         else:
             entry = _short_season(
                 season,
@@ -334,16 +346,30 @@ def _regular_season(
     map_sources: list[str],
     runs: list[str],
     total_runs: int,
+    history: dict[str, list[str]],
 ) -> dict[str, Any]:
     catalog_says = None if catalog_offered is None else season in catalog_offered
     map_says = None if not map_only else season in map_only
     if catalog_says is not None and map_says is not None and catalog_says != map_says:
+        claim = f"catalog 'Offered: {', '.join(catalog_offered or [])}' vs map '{'/'.join(map_only)} only' "
+        claim += f"({', '.join(map_sources)})"
+        overlap = set(catalog_offered or []) & set(map_only) & {"FA", "SP"}
+        if overlap:
+            return {
+                "available": bool(catalog_says and map_says),
+                "confidence": "conflicting",
+                "source": "catalog+map",
+                "note": f"{claim}; using the stricter",
+            }
+        # The stricter reading would leave no regular term at all: let the schedule decide,
+        # or keep both seasons when it is silent.
+        regular_runs = len(history.get("FA", [])) + len(history.get("SP", []))
         return {
-            "available": bool(catalog_says and map_says),
+            "available": bool(runs) if regular_runs else True,
             "confidence": "conflicting",
-            "source": "catalog+map",
-            "note": f"catalog 'Offered: {', '.join(catalog_offered or [])}' vs map "
-            f"'{'/'.join(map_only)} only' ({', '.join(map_sources)}); using the stricter",
+            "source": "catalog+map+schedule_history" if regular_runs else "catalog+map",
+            "note": f"{claim}; they share no term, so "
+            + ("the class schedule decides" if regular_runs else "either term is allowed"),
         }
     if map_says is not None:
         return {
@@ -437,6 +463,31 @@ def _short_season(
     return {"available": True, "confidence": "unknown", "source": "default", "note": "no evidence"}
 
 
+def prune_retired(tree: Tree | None, known: set[str]) -> tuple[Tree | None, list[str]]:
+    """Drop prerequisite leaves naming courses that aren't in the current catalog.
+
+    Banner's prerequisite tables still cite retired numbers (e.g. NUR 3606 requires NUR 3204,
+    which the 2026-27 catalog replaced). No student can take a retired course, so keeping the
+    leaf would make the requirement impossible. Removals are recorded (DECISIONS.md D11).
+    """
+    removed: list[str] = []
+
+    def walk(node: Tree) -> Tree | None:
+        if node["type"] == "course":
+            if node["code"] in known:
+                return node
+            removed.append(node["code"])
+            return None
+        if node["type"] in ("and", "or"):
+            kept = [child for child in (walk(i) for i in node["items"]) if child is not None]
+            return combine(node["type"], kept)
+        return node
+
+    if tree is None:
+        return None, []
+    return walk(tree), removed
+
+
 def prerequisite_closure(codes: set[str], courses: dict[str, dict[str, Any]]) -> set[str]:
     seen = set(codes)
     frontier = list(codes)
@@ -445,7 +496,8 @@ def prerequisite_closure(codes: set[str], courses: dict[str, dict[str, Any]]) ->
         course = courses.get(code)
         if not course:
             continue
-        for dep in tree_codes(course["prerequisites"]) + list(course["corequisites"]):
+        coreqs = [c for group in course["corequisites"] for c in group]
+        for dep in tree_codes(course["prerequisites"]) + coreqs:
             if dep not in seen:
                 seen.add(dep)
                 frontier.append(dep)
