@@ -3,6 +3,7 @@ import userEvent from '@testing-library/user-event'
 import { vi } from 'vitest'
 import type { ProgramListItem } from '../api/types'
 import { SAMPLE_AUDIT } from '../degreeworks/fixtures/sample-audit'
+import { readPdfLines } from '../degreeworks/pdfLines'
 import { AuditImport } from './AuditImport'
 
 vi.mock('../degreeworks/pdfLines', () => ({ readPdfLines: vi.fn(async () => SAMPLE_AUDIT) }))
@@ -34,6 +35,14 @@ describe('AuditImport', () => {
     expect(screen.getByText('1 transfer')).toBeInTheDocument()
     expect(screen.getByText('2 in progress')).toBeInTheDocument()
     expect(screen.getByText(/withdrawn/)).toBeInTheDocument()
+  })
+
+  it('counts in words that agree with the number', async () => {
+    vi.mocked(readPdfLines).mockResolvedValueOnce([...SAMPLE_AUDIT, 'ZZZZ 1234 smudged row Fall Term'])
+    render(<AuditImport programs={programs} onApply={() => {}} />)
+    await userEvent.upload(screen.getByLabelText(/Degree Works audit \(PDF\)/), pdf())
+    expect(await screen.findByText('1 line Shortcut couldn’t read')).toBeInTheDocument()
+    expect(screen.getByText('40 credits applied, per Degree Works')).toBeInTheDocument()
   })
 
   it('applies the record as a plan request and hands back the audit', async () => {

@@ -35,6 +35,7 @@ describe('auditToProfile', () => {
   it('puts in-progress courses in progress and skips withdrawals', () => {
     expect(profile.in_progress).toEqual(['COMS 2163', 'COMS 2213'])
     expect(row('MATH 2703')).toBeUndefined()
+    expect(notes).toContain('1 withdrawn course (W) carries no credit and was left out.')
   })
 
   it('infers the first ATU term and plans from the term after the in-progress one', () => {

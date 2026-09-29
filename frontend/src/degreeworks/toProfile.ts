@@ -104,7 +104,8 @@ export function auditToProfile(audit: AuditImport, programs: ProgramListItem[], 
     )
   }
   const withdrawn = audit.courses.filter((c) => c.grade === 'W').length
-  if (withdrawn) notes.push(`${withdrawn} withdrawn course${withdrawn === 1 ? '' : 's'} (W) carry no credit and were left out.`)
+  if (withdrawn === 1) notes.push('1 withdrawn course (W) carries no credit and was left out.')
+  if (withdrawn > 1) notes.push(`${String(withdrawn)} withdrawn courses (W) carry no credit and were left out.`)
 
   const profile: StudentProfile = {
     ...defaultProfile(programId),

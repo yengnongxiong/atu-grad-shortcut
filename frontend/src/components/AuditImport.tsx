@@ -4,6 +4,7 @@ import { readPdfLines } from '../degreeworks/pdfLines'
 import { parseAudit } from '../degreeworks/parse'
 import { auditToProfile, type ProfileImport } from '../degreeworks/toProfile'
 import type { AuditImport as ParsedAudit } from '../degreeworks/types'
+import { pluralize } from '../format'
 import { defaultLevers, termLabel } from '../state/profile'
 import { ProgramPicker } from './ProgramPicker'
 import { ErrorBox, Spinner } from './ui'
@@ -12,10 +13,6 @@ type Stage = { kind: 'idle' } | { kind: 'reading' } | { kind: 'error'; message: 
 
 export const PRIVACY_NOTE =
   'Your audit is read on this device and never uploaded. Shortcut keeps only course codes, grades, and terms; your name and student ID aren’t saved or sent.'
-
-function plural(n: number, word: string): string {
-  return `${n} ${word}`
-}
 
 export function AuditImport({ programs, onApply }: { programs: ProgramListItem[]; onApply: (request: PlanRequest, audit: ParsedAudit) => void }) {
   const [stage, setStage] = useState<Stage>({ kind: 'idle' })
@@ -91,12 +88,12 @@ function Review({
         </div>
       )}
       <ul className="grid gap-1 text-sm sm:grid-cols-2">
-        <li>{plural(count('atu'), 'completed at ATU')}</li>
-        <li>{plural(count('exam'), 'by exam')}</li>
-        <li>{plural(count('transfer'), 'transfer')}</li>
-        <li>{plural(profile.in_progress.length, 'in progress')}</li>
-        {notUsed > 0 && <li>{plural(notUsed, 'not applied to your degree (they still count toward hours)')}</li>}
-        {audit.creditsApplied !== null && <li>{plural(audit.creditsApplied, 'credits applied, per Degree Works')}</li>}
+        <li>{`${String(count('atu'))} completed at ATU`}</li>
+        <li>{`${String(count('exam'))} by exam`}</li>
+        <li>{`${String(count('transfer'))} transfer`}</li>
+        <li>{`${String(profile.in_progress.length)} in progress`}</li>
+        {notUsed > 0 && <li>{notUsed === 1 ? '1 not applied to your degree (it still counts toward hours)' : `${String(notUsed)} not applied to your degree (they still count toward hours)`}</li>}
+        {audit.creditsApplied !== null && <li>{`${pluralize(audit.creditsApplied, 'credit')} applied, per Degree Works`}</li>}
       </ul>
       <p className="text-sm text-muted">
         First term at ATU: {termLabel(profile.first_term)} · planning from {termLabel(profile.plan_from ?? profile.first_term)}
@@ -112,7 +109,7 @@ function Review({
       )}
       {audit.unrecognized.length > 0 && (
         <details className="text-sm">
-          <summary className="cursor-pointer">{plural(audit.unrecognized.length, 'lines Shortcut couldn’t read')}</summary>
+          <summary className="cursor-pointer">{`${pluralize(audit.unrecognized.length, 'line')} Shortcut couldn’t read`}</summary>
           <ul className="mt-1 space-y-1 font-mono text-xs">
             {audit.unrecognized.map((line) => (
               <li key={line}>{line}</li>
