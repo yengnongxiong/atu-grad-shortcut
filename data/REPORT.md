@@ -1,6 +1,6 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T21:15:10+00:00 · mode `offline` · catalog years **2025-26, 2026-27** (newest 2026-27).
+Generated 2026-09-29T21:43:05+00:00 · mode `offline` · catalog years **2025-26, 2026-27** (newest 2026-27).
 
 ## Coverage
 
@@ -16,6 +16,19 @@ Generated 2026-09-29T21:15:10+00:00 · mode `offline` · catalog years **2025-26
 - Courses in courses.json: **911**
 - catalog.atu.edu: not probed
 - Banner (public course catalog + class schedule): loaded committed snapshots (843 course details)
+
+## Catalog snapshots
+
+Saved from a regular browser because catalog.atu.edu blocks automated tools (D23). Re-save any page older than the newest catalog year.
+
+| Page | Catalog | Saved | Status |
+|---|---|---|---|
+| [Advanced Placement (AP)](https://catalog.atu.edu/undergraduate/institutional-credit/ap/) | 2026-2027 | 2026-09-29 | Current |
+| [College Level Examination Program (CLEP)](https://catalog.atu.edu/undergraduate/institutional-credit/clep/) | 2026-2027 | 2026-09-29 | Current |
+| [International Baccalaureate (IB)](https://catalog.atu.edu/undergraduate/institutional-credit/ib/) | 2026-2027 | 2026-09-29 | Current |
+| [Institutional Credit](https://catalog.atu.edu/undergraduate/institutional-credit/) | 2026-2027 | 2026-09-29 | Current |
+| [Graduation Requirements](https://catalog.atu.edu/undergraduate/graduation-requirements/) | 2026-2027 | 2026-09-29 | Current |
+| [Regulations & Procedures](https://catalog.atu.edu/undergraduate/regulations-procedures/) | 2026-2027 | 2026-09-29 | Current |
 
 ## Every discovered program
 

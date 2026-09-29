@@ -21,6 +21,28 @@ def _cell(text: str) -> str:
     return text.replace("|", "\\|").replace("\n", " ")
 
 
+def snapshot_lines(snapshots: list[dict[str, str]], newest_catalog_year: str) -> list[str]:
+    """The saved catalog pages, flagging any older than the newest catalog year (D23)."""
+    newest_start = newest_catalog_year[:4]
+    lines = [
+        "## Catalog snapshots",
+        "",
+        "Saved from a regular browser because catalog.atu.edu blocks automated tools (D23). "
+        "Re-save any page older than the newest catalog year.",
+        "",
+        "| Page | Catalog | Saved | Status |",
+        "|---|---|---|---|",
+    ]
+    for snap in snapshots:
+        stale = snap["catalog_edition"][:4] < newest_start
+        status = f"Older than the newest catalog year ({newest_catalog_year})" if stale else "Current"
+        lines.append(
+            f"| [{_cell(snap['title'])}]({snap['url']}) | {snap['catalog_edition']} | "
+            f"{snap['captured_at']} | {status} |"
+        )
+    return [*lines, ""]
+
+
 def write_report(
     meta: dict[str, Any],
     rows: list[dict[str, Any]],
@@ -70,6 +92,7 @@ def write_report(
         f"- catalog.atu.edu: {meta['catalog_status']}",
         f"- Banner (public course catalog + class schedule): {meta['banner_status']}",
         "",
+        *snapshot_lines(meta.get("catalog_snapshots", []), meta["newest_catalog_year"]),
         "## Every discovered program",
         "",
         "| Program | Year | Degree | College | Tier | Issues |",
