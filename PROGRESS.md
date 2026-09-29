@@ -2,6 +2,79 @@
 
 Resume here: read this file first, then DECISIONS.md, then continue from the first unchecked milestone.
 
+## Final summary (2026-09-29)
+
+All milestones M0–M8 are complete on `claude/optimistic-bohr-nwjsi5`.
+
+### What's built
+- **Data pipeline** (`backend/pipeline`, `make pipeline` / `make pipeline-offline`):
+  - Discovers and downloads every ATU degree map and parses each PDF by word coordinates.
+  - Enriches every course from ATU's public Banner catalog and three years of class schedules: prerequisite trees, corequisite groups, standing, and offering confidence.
+  - Validates each program with 11 checks, assigns trust tiers, and writes `data/REPORT.md`.
+  - Raw sources are committed, and the offline rebuild is byte-for-byte reproducible (CI enforces this).
+- **Planner** (`backend/shortcut/planner`):
+  - An OR-Tools CP-SAT model covering prerequisites, corequisites, offerings, standing, hour caps, overload eligibility, summer/winter/transfer, residency, and the exam cap.
+  - A two-phase solve: earliest graduation first, then a realism polish.
+  - Slack and the true critical chain, marginal lever attribution, what-ifs (fail, drop, skip, change major), delay impact, and exam opportunities. The last three are all full re-solves.
+  - Honest outputs: `pace_note` names the chain when no lever helps, and plans are never compressed past what the data supports.
+- **API** (FastAPI): every PRD §11 endpoint plus `/api/personas`, with Pydantic schemas mirrored in the frontend.
+- **Web app** (React 19 + TypeScript + Tailwind v4):
+  - Landing with major search and four demo profiles, and a 3-step setup.
+  - The plan view: comparison headline, timeline, lever panel, and warnings.
+  - Tabs for Bottlenecks (graph plus chain), Exam opportunities, What-if, Advisor export (print), and About the data.
+  - Share URL plus localStorage, keyboard navigation, and a mobile layout.
+- **Personas:** P1 (CS from scratch), P2 (CS with CLEP credit), P3 (Accounting, off-track after an F in fall-only ACCT 3003), P4 (Nursing, "no shortcut"), plus `data/personas/my-path.template.json`.
+- **Docs and ops:**
+  - README with a browser-verified 60-second demo, screenshots, architecture, caveats, and a resume bullet.
+  - DECISIONS D1–D21.
+  - A multi-stage Dockerfile, built and served here.
+  - GitHub Actions CI: backend, frontend, one-process serve (A10), a Docker build/serve job, and the data-drift check.
+
+### Test results (final run)
+- **Backend:** 163 pytest tests pass (unit, pipeline fixtures, CS ground truth, acceptance A1–A10, 4 personas, and a feasibility check for every one of the 74 programs). ruff, ruff format, and mypy --strict are clean.
+- **Frontend:** 12 Vitest tests pass. ESLint and tsc are clean, and the production build works.
+- **PRD §15 acceptance:**
+  - A1: standard pace is May 2030.
+  - A2: accelerated graduates May 2029.
+  - A3–A8 cover offerings, what-if, attribution, exams, and latency.
+  - A9: the report.
+  - A10: one process serves every persona.
+  - All pass.
+- **Over HTTP:**
+  - Every endpoint and every persona (plan, exams, delay, and all four what-if types) was smoke-tested, along with bad inputs.
+  - All 74 programs return feasible plans.
+  - The README demo was replayed in headless Chromium.
+  - axe-core found 0 WCAG 2.1 A/AA violations across 10 page states.
+  - No horizontal overflow at 390 px.
+  - The Docker image serves health, the app, personas, and plans.
+- **Latency:** a full CS plan with attribution over all 64 lever combinations takes a median 0.84 s and p95 2.18 s (PRD target: p95 < 3 s).
+
+### Data coverage (data/REPORT.md)
+- 82 degree maps discovered (81 for 2026–27 plus the 2025–26 CS ground truth).
+- 74 bachelor's programs ingested; 8 associate or other maps excluded (PRD non-goal).
+- Tiers: **5 Cross-checked, 56 Auto-imported, 13 Needs review**, so 82% are Auto-imported or better.
+  - The cross-checks (CS, Accounting, History, Nursing, Mathematics) span all four colleges (D15).
+- 888 courses from 838 Banner course records.
+- CLEP: 32 equivalencies. AP/IB: unavailable (D6).
+
+### Known limitations
+- **Course data comes from Banner, not the catalog site.** catalog.atu.edu is behind a bot challenge from this environment (D5), and AP/IB tables live only there.
+- **13 programs Need review.** Most are map arithmetic that doesn't add up, such as a semester's rows not matching its stated total or CHEM 4424 listed at 1 hour. Two are ambiguous layouts (a "14/18" total, unlabeled "Performance/Technology Course" slots). One is a typo (BIOL 2134 listed as both Botany and Zoology). They still plan, with a warning.
+- **Banner prerequisites the maps omit add courses in a few programs.** Examples: MGMT 3003 needs ACCT 2013 for the HES tracks, and HA 3183 needs CHEM 1113 for Tourism. Each plan names the added course and why. Departments may waive some of these.
+- **Offering availability is inferred** from 3 years of schedules (D8), and a course that ran before may not run again.
+- **Several rules are assumptions, labeled as such.** Class standing counts exam and transfer credit. Non-math placement tests are assumed met (D9). A retaken course counts once (D16).
+- **Some requirements can't be scheduled.** Admission cycles, cohort starts, and Credit for Prior Learning are flagged, not modeled.
+- **Cross-checks were done by the build agent**, by comparing rendered PDFs row by row. That isn't an ATU advisor's sign-off.
+- **Lever savings are marginal.** Complementary levers (heavier terms plus summer) can each show the full saving.
+- **Nothing is deployed.**
+
+### PRD §16 open questions
+- **Q1** (replace P2's sample data with real credits): still sample data. Fill in `data/personas/my-path.template.json` (copy it to `my-path.json`) to add your real record as a profile.
+- **Q2** (exam-credit cap): still unresolved. ATU pages disagree (30 hours vs. 50% of the degree). Shortcut uses 30 and says so in every plan that uses exam credit. It needs registrar confirmation.
+- **Q3** (public class schedule): **answered, yes.** ATU's public Banner class search is used for three years of offering history (D7).
+- **Q4** (degree audit in OneTech): **partially answered.** ATU's advising page links "How to use Degree Works", so an audit tool exists (D4). Shortcut complements it with planning and what-ifs.
+- **Q5** (deployment host): open. The Docker image runs on any container host (see the README's deploy notes).
+
 ## Status by milestone
 - [x] **M0 Scaffold**: backend (uv, FastAPI), frontend (Vite React TS, Tailwind v4, Vitest, ESLint), Makefile, docs.
 - [x] **M1 CS data, exam tables, policies**
@@ -21,10 +94,20 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
   - The graph opens at its first term.
   - The headline is honest when a student is behind the map.
   - Dockerfile and CI are in place.
-- [ ] **M8 Final QA**
+- [x] **M8 Final QA**:
+  - lint/test/build/serve all pass.
+  - The HTTP sweep and the review as a skeptical senior engineer found and fixed several real problems:
+    - the Psychology hour inflation (D17)
+    - graduating in a winter intersession (D18)
+    - a lab corequisite leak (D19)
+    - the missing HIM summer block (D20)
+    - "except" clauses and repeatable ensembles (D21)
+    - retakes counting twice (D16)
+    - two map layouts
+  - Also covered: the Docker build, the axe audit, and a strict data-drift check in CI.
 
 ## Checks (last run)
-- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 79 tests pass, including A1–A10 (A10 requires `make build` first).
+- Backend: `ruff check`, `ruff format --check`, `mypy --strict`: clean. `pytest`: 163 tests pass, including A1–A10 (A10 requires `make build` first) and the 74 per-program checks.
 - Frontend: `tsc -b`, `eslint`: clean. `vitest`: 12 tests pass. `npm run build` OK.
 
 ## Environment notes
@@ -34,4 +117,4 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 - Git author is the owner's GitHub noreply address (D1).
 
 ## Next step
-M8: final QA (lint/test/build/serve, HTTP smoke test of every endpoint and persona, README demo), final summary at the top of this file, PR.
+Owner decisions: Q1 (your real record), Q2 (registrar on the exam cap), Q5 (host), and merging the PR into `main`.

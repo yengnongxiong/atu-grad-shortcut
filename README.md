@@ -149,4 +149,4 @@ The tiers mean:
 > Built **Shortcut**, a graduation planner for Arkansas Tech students.
 > - A Python pipeline turns 82 degree-map PDFs and 838 Banner course records into 74 validated bachelor's programs (5 cross-checked row by row against the source PDFs, spanning all 4 colleges, 82% auto-imported or better).
 > - An OR-Tools CP-SAT scheduler returns the fastest realistic term-by-term plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.2 s.
-> - Stack: FastAPI, React/TypeScript, 95 automated tests, Docker, and GitHub Actions CI.
+> - Stack: FastAPI, React/TypeScript, 175 automated tests (including a feasibility check for every program), Docker, and GitHub Actions CI.
