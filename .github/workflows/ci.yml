@@ -28,13 +28,13 @@ jobs:
           uv run ruff format --check .
       - name: Mypy
         run: uv run mypy
-      - name: Pytest (unit, pipeline fixtures, acceptance A1-A9)
+      - name: Pytest (unit, pipeline fixtures, acceptance A1-A9, personas)
         run: uv run pytest -q
       - name: Rebuild processed data offline and check it is unchanged
+        # The committed data must be exactly what the pipeline code produces (only timestamps differ).
         run: |
           uv run python -m pipeline.build --offline
-          git diff --stat --exit-code -- ../data/processed ':!../data/processed/meta.json' || \
-            (echo "::warning::processed data differs from an offline rebuild"; true)
+          git diff --stat --exit-code -- ../data/processed ':!../data/processed/meta.json'
 
   frontend:
     name: Frontend (eslint, tsc, vitest, build)

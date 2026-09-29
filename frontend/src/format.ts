@@ -23,7 +23,8 @@ export const TIER_LABEL: Record<string, string> = {
 }
 
 export const TIER_HELP: Record<string, string> = {
-  cross_checked: 'All validation checks passed and a person compared it against the degree map PDF and catalog data.',
+  cross_checked:
+    'All validation checks passed and the parsed program was compared row by row against the rendered degree map and catalog data (review notes in the data report).',
   auto_imported: 'All automated validation checks passed.',
   needs_review: 'At least one validation check failed. Plans are a rough sketch; compare with the degree map.',
 }

@@ -345,7 +345,7 @@ function OtherCourses({ others, onChange }: { others: CompletedCourse[]; onChang
         </label>
         <label className="text-sm">
           <span className="block font-semibold">Where</span>
-          <select className="input mt-1 w-40" value={source} onChange={(e) => setSource(e.target.value as 'atu' | 'transfer')}>
+          <select className="input mt-1 w-52" value={source} onChange={(e) => setSource(e.target.value as 'atu' | 'transfer')}>
             <option value="transfer">Transfer / dual credit</option>
             <option value="atu">At ATU</option>
           </select>
