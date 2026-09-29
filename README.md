@@ -126,7 +126,7 @@ data/raw  ── pipeline ──▶  data/processed/*.json  ──▶  FastAPI (
 - The design is deliberately plain: black on white, one system font, and words instead of color or icons ("Critical" is a label).
 - The plan state lives in the URL (`?s=`, shareable) and in localStorage. It's keyboard navigable and targets WCAG AA contrast.
 
-**Performance.** A full CS plan with lever attribution, over all 64 lever combinations, takes a median 0.25 s and p95 0.55 s, measured on an Apple-silicon laptop. The PRD target is p95 under 3 s.
+**Performance.** A full CS plan with lever attribution, over all 64 lever combinations, takes a median 0.74 s and p95 2.07 s, measured on an Apple-silicon laptop. The PRD target is p95 under 3 s. The solver runs on one worker so the same request always returns the same schedule (D26).
 
 ## Data and trust
 
@@ -178,4 +178,4 @@ Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's
 > **Shortcut**: graduation planner for Arkansas Tech students (product owner; built with Claude Code)
 > - Wrote the PRD and acceptance tests, then tested v1 on my own degree audit. That surfaced two data gaps, and I scoped them into v1.1: import Degree Works audits in the browser, and use ATU's catalog and every year's degree maps as inputs.
 > - A Python pipeline turns 161 degree-map PDFs, ATU's Banner catalog, and its AP/CLEP/IB tables into 145 validated bachelor's programs across 2 catalog years (79% auto-imported or better). Every program plans at standard pace.
-> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 0.55 s. Stack: FastAPI, React/TypeScript, 344 automated tests, Docker, GitHub Actions.
+> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.1 s. Stack: FastAPI, React/TypeScript, 349 automated tests, Docker, GitHub Actions.

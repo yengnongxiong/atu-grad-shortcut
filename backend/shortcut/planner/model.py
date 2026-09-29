@@ -504,7 +504,9 @@ def _solver(limit_s: float) -> cp_model.CpSolver:
     solver = cp_model.CpSolver()
     solver.parameters.max_time_in_seconds = limit_s
     solver.parameters.random_seed = SEED
-    solver.parameters.num_workers = 4
+    # One worker: parallel workers race to different tie-optimal schedules, so the same
+    # request could move courses between terms on reload (D26).
+    solver.parameters.num_workers = 1
     return solver
 
 
