@@ -337,3 +337,17 @@ def test_a_plan_never_graduates_in_winter_intersession() -> None:
     graduation = detail.response.graduation
     assert graduation is not None and not graduation.id.endswith("WI")
     assert detail.response.terms[-1].season != "WI"
+
+
+def test_open_elective_slots_meet_the_upper_level_minimum_without_extra_hours() -> None:
+    """Psychology regression (D17): 147 planned hours instead of 120."""
+    courses = [syn.course(f"LOW {1000 + i}") for i in range(4)]
+    slots = [syn.elective(f"r-gen-{i}", semester=8) for i in range(4)]
+    program = syn.program([*(syn.req(c["code"]) for c in courses), *slots], total=24, upper=9)
+    detail = plan_detailed(syn.dataset(courses, [program]), request())
+    totals = detail.response.totals
+    assert totals["total_hours"] == 24
+    assert totals["upper_level_hours"] >= 9
+    assert not any(i.kind == "filler" for i in detail.full.build.items)
+    upper_slots = [i for i in detail.full.build.items if i.kind == "elective" and i.upper]
+    assert len(upper_slots) == 3 and all("3000-4000" in i.label for i in upper_slots)

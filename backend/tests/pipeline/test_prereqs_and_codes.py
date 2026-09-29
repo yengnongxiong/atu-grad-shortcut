@@ -190,3 +190,12 @@ def test_corequisite_groups() -> None:
     with_consent = "MUS 1441 or MUS 1201 or permission of instructor"
     assert parse_coreq_groups(with_consent) == [["MUS 1441", "MUS 1201"]]
     assert parse_coreq_groups("3000 level applied instruction on major performance instrument") == []
+
+
+def test_lab_keeps_its_own_corequisites_not_the_lecture_map_note() -> None:
+    """D19: "PHYS 2114/2000 ... Co-req: MATH 2914" must not make the lab require calculus."""
+    from shortcut.data.loader import load_dataset
+
+    courses = load_dataset().courses
+    assert courses["PHYS 2000"]["corequisites"] == [["PHYS 2014", "PHYS 2114"]]
+    assert ["MATH 2914"] in courses["PHYS 2114"]["corequisites"]

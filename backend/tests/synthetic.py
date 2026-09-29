@@ -158,3 +158,14 @@ def chain(*codes: str) -> list[dict[str, Any]]:
         out.append(course(code, prereq=prereq))
         previous = code
     return out
+
+
+def elective(
+    req_id: str, label: str = "General Elective", hours: float = 3, semester: int = 1
+) -> dict[str, Any]:
+    """An open elective slot with no level rule (the map's 'General Elective')."""
+    rule = {"min_level": None, "max_level": None, "subjects": None, "approved": False, "general": True}
+    return {
+        **bucket(req_id, label, [], hours=hours, semester=semester),
+        "bucket": {"category": "elective", "codes": [], "rule": rule, "recommended": []},
+    }
