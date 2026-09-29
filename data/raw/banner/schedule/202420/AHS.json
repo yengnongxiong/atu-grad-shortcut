@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "20164",
+    "subject": "AHS",
+    "courseNumber": "2013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Medical Terminology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20166",
+    "subject": "AHS",
+    "courseNumber": "2013",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Medical Terminology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

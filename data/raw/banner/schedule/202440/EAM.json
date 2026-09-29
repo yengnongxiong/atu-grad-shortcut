@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40363",
+    "subject": "EAM",
+    "courseNumber": "3073",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Safety Standards for Emergency Managers",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40365",
+    "subject": "EAM",
+    "courseNumber": "4106",
+    "sequenceNumber": "082",
+    "courseTitle": "Internship/Practicum",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40364",
+    "subject": "EAM",
+    "courseNumber": "4606",
+    "sequenceNumber": "081",
+    "courseTitle": "Capstone",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Apprenticeship/Externship",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40456",
+    "subject": "EAM",
+    "courseNumber": "4991",
+    "sequenceNumber": "081",
+    "courseTitle": "SP: NATIONAL SECURITY IN EAM",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "4"
+  },
+  {
+    "courseReferenceNumber": "40424",
+    "subject": "EAM",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: GIS IN EAM",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "subjectCode": "TECH",
+    "courseNumber": "1001",
+    "courseTitle": "Orientation to the University",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "TECH"
+  },
+  {
+    "subjectCode": "TECH",
+    "courseNumber": "1013",
+    "courseTitle": "Introduction to the University",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Professional/Community Ed",
+    "termEffective": "202470",
+    "subjectDescription": "TECH"
+  }
+]

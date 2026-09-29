@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "21730",
+    "subject": "EDFD",
+    "courseNumber": "6003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Educational Research",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21731",
+    "subject": "EDFD",
+    "courseNumber": "6503",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Classroom Behavioral Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

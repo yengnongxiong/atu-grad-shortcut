@@ -1,0 +1,86 @@
+[
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "1113",
+    "courseTitle": "Introduction to Business",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202640",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "2003",
+    "courseTitle": "Business Information Systems",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "4000",
+    "courseTitle": "School of Business College Distinction Activity",
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "4100",
+    "courseTitle": "Business Experiential Learning Activity",
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "6003",
+    "courseTitle": "Independent Study",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "6093",
+    "courseTitle": "Special Topics in Business",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Administration"
+  },
+  {
+    "subjectCode": "BUAD",
+    "courseNumber": "6100",
+    "courseTitle": "Business Experiential Learning",
+    "creditHourLow": 0,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202620",
+    "subjectDescription": "Business Administration"
+  }
+]

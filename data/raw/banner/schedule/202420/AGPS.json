@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "21669",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "001",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21671",
+    "subject": "AGPS",
+    "courseNumber": "3044",
+    "sequenceNumber": "001",
+    "courseTitle": "Plant Propagation",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21666",
+    "subject": "AGPS",
+    "courseNumber": "3064",
+    "sequenceNumber": "001",
+    "courseTitle": "Vegetable Growing",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

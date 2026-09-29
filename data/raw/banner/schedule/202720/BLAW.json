@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20252",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "001",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20253",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "002",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20665",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "003",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20933",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40248",
+    "subject": "COMS",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Computer Based Systems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40247",
+    "subject": "COMS",
+    "courseNumber": "1011",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Programming Foundations I Lab",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40249",
+    "subject": "COMS",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Programming Foundations I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40445",
+    "subject": "COMS",
+    "courseNumber": "4933",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40472",
+    "subject": "COMS",
+    "courseNumber": "4983",
+    "sequenceNumber": "TC2",
+    "courseTitle": "SEM: PRINC OF CYBERSECURITY",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

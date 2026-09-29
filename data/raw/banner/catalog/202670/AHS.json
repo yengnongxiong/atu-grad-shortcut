@@ -1,0 +1,26 @@
+[
+  {
+    "subjectCode": "AHS",
+    "courseNumber": "1023",
+    "courseTitle": "Basic Pharmacology with an Overview of Microbiology",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Allied Health Science"
+  },
+  {
+    "subjectCode": "AHS",
+    "courseNumber": "2013",
+    "courseTitle": "Medical Terminology",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Allied Health Science"
+  }
+]

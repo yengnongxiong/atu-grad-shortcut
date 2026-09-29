@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40344",
+    "subject": "HA",
+    "courseNumber": "4114",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  }
+]

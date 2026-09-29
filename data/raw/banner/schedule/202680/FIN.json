@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "80011",
+    "subject": "FIN",
+    "courseNumber": "4101",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Special Topics in Finance",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Special Topics",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

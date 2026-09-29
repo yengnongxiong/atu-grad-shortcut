@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40110",
+    "subject": "POLS",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "American Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40111",
+    "subject": "POLS",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC2",
+    "courseTitle": "American Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40112",
+    "subject": "POLS",
+    "courseNumber": "3033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "American State and Local Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40424",
+    "subject": "POLS",
+    "courseNumber": "4973",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40360",
+    "subject": "POLS",
+    "courseNumber": "4991",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Special Problems in Political Science",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "4"
+  }
+]

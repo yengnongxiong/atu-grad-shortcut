@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "80009",
+    "subject": "MGMT",
+    "courseNumber": "4073",
+    "sequenceNumber": "TC1",
+    "courseTitle": "ST: OPEN BOOK MANAGEMENT",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Special Topics",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "71638",
+    "subject": "AGSS",
+    "courseNumber": "2014",
+    "sequenceNumber": "M01",
+    "courseTitle": "Soils",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71639",
+    "subject": "AGSS",
+    "courseNumber": "2014",
+    "sequenceNumber": "M02",
+    "courseTitle": "Soils",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "1"
+  }
+]

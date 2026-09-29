@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "21028",
+    "subject": "ENVS",
+    "courseNumber": "1004",
+    "sequenceNumber": "001",
+    "courseTitle": "Principles of Environmental Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21029",
+    "subject": "ENVS",
+    "courseNumber": "1004",
+    "sequenceNumber": "002",
+    "courseTitle": "Principles of Environmental Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21030",
+    "subject": "ENVS",
+    "courseNumber": "1004",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Principles of Environmental Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21031",
+    "subject": "ENVS",
+    "courseNumber": "1004",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Principles of Environmental Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21235",
+    "subject": "ENVS",
+    "courseNumber": "3111",
+    "sequenceNumber": "001",
+    "courseTitle": "Environmental Seminar",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

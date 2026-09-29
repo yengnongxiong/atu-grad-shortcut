@@ -1,0 +1,84 @@
+{
+  "id": "p4",
+  "name": "No shortcut",
+  "tagline": "Pre-nursing sophomore with every lever switched on, and an honest answer.",
+  "sample_data": true,
+  "story": "Sample data, not a real student. Started Fall 2025 on the Nursing (BSN) map, is taking the semester-3 courses now, and will apply to the upper-level program. Every lever is on: heavier terms, summer, winter, transfer summer, and overloads with a 3.6 GPA. The date still doesn't move: the NUR courses form a five-term prerequisite chain (Spring 2027 through Spring 2029), and no ATU source shows a summer or winter section for any of them. Shortcut says so instead of inventing a faster path.",
+  "request": {
+    "profile": {
+      "program_id": "nursing-bsn-2026-27",
+      "first_term": "2025FA",
+      "plan_from": "2027SP",
+      "completed": [
+        {
+          "code": "ENGL 1013",
+          "grade": "A"
+        },
+        {
+          "code": "MATH 1113",
+          "grade": "B"
+        },
+        {
+          "code": "CHEM 1113",
+          "grade": "B"
+        },
+        {
+          "code": "CHEM 1111",
+          "grade": "A"
+        },
+        {
+          "code": "SOC 1003",
+          "grade": "A"
+        },
+        {
+          "code": "TECH 1001",
+          "grade": "A"
+        },
+        {
+          "code": "ENGL 1023",
+          "grade": "A"
+        },
+        {
+          "code": "PSY 2003",
+          "grade": "A"
+        },
+        {
+          "code": "BIOL 2404",
+          "grade": "B"
+        },
+        {
+          "code": "COMM 2173",
+          "grade": "A"
+        },
+        {
+          "code": "HIST 2003",
+          "grade": "B"
+        }
+      ],
+      "in_progress": [
+        "BIOL 2414",
+        "BIOL 2054",
+        "PSY 3813",
+        "ENGL 2173",
+        "MUS 2003"
+      ],
+      "exams": [],
+      "math_act": 24,
+      "preferences": {
+        "preferred_hours": 15,
+        "last_term_gpa": 3.6,
+        "expect_high_gpa": true,
+        "mode": "conservative"
+      }
+    },
+    "levers": {
+      "heavier_terms": true,
+      "summer": true,
+      "winter": true,
+      "overload": true,
+      "aggressive_overload": false,
+      "transfer_summer": true,
+      "planned_exams": []
+    }
+  }
+}

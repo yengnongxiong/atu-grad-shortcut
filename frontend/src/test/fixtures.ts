@@ -1,0 +1,118 @@
+import type { PlanResponse, PlannedCourse } from '../api/types'
+
+export function course(partial: Partial<PlannedCourse> & { item_id: string; label: string }): PlannedCourse {
+  return {
+    code: /^[A-Z]{2,5} \d{4}$/.test(partial.label) ? partial.label : null,
+    title: partial.label,
+    hours: 3,
+    kind: 'course',
+    requirement_id: null,
+    transfer: false,
+    critical: false,
+    slack: 1,
+    offering_confidence: 'documented',
+    offering_note: '',
+    low_confidence: false,
+    options: [],
+    min_grade: null,
+    ...partial,
+  }
+}
+
+export function samplePlan(): PlanResponse {
+  return {
+    program: {
+      id: 'computer-science-2025-26',
+      name: 'Computer Science',
+      degree: 'Bachelor of Science',
+      degree_abbr: 'BS',
+      college: 'Science/Technology/Engr/Math',
+      catalog_year: '2025-26',
+      trust_tier: 'cross_checked',
+      total_hours_min: 120,
+      upper_level_hours_min: 40,
+    },
+    feasible: true,
+    infeasible_reason: null,
+    graduation: { id: '2029SP', label: 'Spring 2029', date_label: 'May 2029' },
+    degree_map: { graduation: { id: '2030SP', label: 'Spring 2030', date_label: 'May 2030' }, note: '' },
+    standard_pace: { graduation: { id: '2030SP', label: 'Spring 2030', date_label: 'May 2030' }, note: '' },
+    terms_sooner_than_map: 2,
+    terms_sooner_than_standard: 2,
+    months_sooner_than_standard: 12,
+    terms: [
+      {
+        id: '2026FA',
+        label: 'Fall 2026',
+        season: 'FA',
+        hours: 7,
+        cap: 16,
+        courses: [
+          course({ item_id: 's1r1:ENGL 1013', label: 'ENGL 1013', hours: 3, min_grade: 'C' }),
+          course({ item_id: 's1r5:MATH 2914', label: 'MATH 2914', hours: 4, critical: true, slack: 0 }),
+        ],
+        workload_low: 21,
+        workload_high: 28,
+        overload: false,
+        approval: null,
+      },
+      {
+        id: '2027SU',
+        label: 'Summer 2027',
+        season: 'SU',
+        hours: 3,
+        cap: 12,
+        courses: [course({ item_id: 's3r5', label: 'Social Sciences', kind: 'bucket', low_confidence: true, offering_confidence: 'assumed' })],
+        workload_low: 9,
+        workload_high: 12,
+        overload: false,
+        approval: null,
+      },
+    ],
+    credited: [],
+    levers: [
+      {
+        id: 'summer',
+        label: 'Summer terms',
+        enabled: true,
+        available: true,
+        terms_saved: 2,
+        months_saved: 12,
+        cost: 'extra tuition',
+        approval: 'none',
+        workload: 'compressed sessions',
+        note: '',
+      },
+      {
+        id: 'overload',
+        label: 'Overloads (19–21 hrs)',
+        enabled: false,
+        available: false,
+        terms_saved: null,
+        months_saved: null,
+        cost: 'none',
+        approval: 'dean petition',
+        workload: '19–21 hrs/term',
+        note: 'Needs a 3.25+ GPA in the preceding term.',
+      },
+    ],
+    critical_path: ['s1r5:MATH 2914'],
+    graph_nodes: [
+      { id: 's1r5:MATH 2914', label: 'MATH 2914', title: 'Calculus I', term: 'Fall 2026', term_index: 0, slack: 0, critical: true, pattern: 'F/S/Su', hours: 4 },
+    ],
+    graph_edges: [],
+    warnings: [
+      {
+        id: 'exam-cap-info',
+        severity: 'warning',
+        category: 'policy',
+        message: 'Exam credit is capped at 30 hours.',
+        source: { title: 'ATU admissions', url: 'https://www.atu.edu/admissions/credit.php' },
+        policy_key: 'exam_credit_cap_hours',
+      },
+    ],
+    assumptions: ['Every planned course is passed on the first try.'],
+    totals: { total_hours: 120 },
+    stats: { solve_ms: 900, solves: 3, status: 'optimal', timed_out: false },
+  }
+}

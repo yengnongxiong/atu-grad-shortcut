@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "70360",
+    "subject": "GER",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

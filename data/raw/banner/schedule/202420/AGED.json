@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "21632",
+    "subject": "AGED",
+    "courseNumber": "1013",
+    "sequenceNumber": "M01",
+    "courseTitle": "Agricultural Youth Organizations",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21661",
+    "subject": "AGED",
+    "courseNumber": "2203",
+    "sequenceNumber": "001",
+    "courseTitle": "Applied Agricultural Systems Technology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "21633",
+    "subject": "AGED",
+    "courseNumber": "4033",
+    "sequenceNumber": "M01",
+    "courseTitle": "Curriculum Design and Assessment",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  }
+]

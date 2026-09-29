@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40370",
+    "subject": "ART",
+    "courseNumber": "2123",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Experiencing Art",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40459",
+    "subject": "ART",
+    "courseNumber": "4733",
+    "sequenceNumber": "001",
+    "courseTitle": "Art or Design Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

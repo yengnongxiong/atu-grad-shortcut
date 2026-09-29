@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40157",
+    "subject": "SPAN",
+    "courseNumber": "1013",
+    "sequenceNumber": "ET1",
+    "courseTitle": "Beginning Spanish I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40212",
+    "subject": "SPAN",
+    "courseNumber": "1023",
+    "sequenceNumber": "ET1",
+    "courseTitle": "Beginning Spanish II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40391",
+    "subject": "SPAN",
+    "courseNumber": "4283",
+    "sequenceNumber": "001",
+    "courseTitle": "SEM SPAN: MEXICAN CULTURE EXP",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "4"
+  },
+  {
+    "courseReferenceNumber": "40390",
+    "subject": "SPAN",
+    "courseNumber": "4991",
+    "sequenceNumber": "001",
+    "courseTitle": "SP SPAN: MEXICAN CULTURE EXP.",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "4"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20424",
+    "subject": "GER",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20425",
+    "subject": "GER",
+    "courseNumber": "1023",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning German II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20426",
+    "subject": "GER",
+    "courseNumber": "4993",
+    "sequenceNumber": "001",
+    "courseTitle": "SP/GER: CONVERSATION/ COMP II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20427",
+    "subject": "GER",
+    "courseNumber": "4993",
+    "sequenceNumber": "002",
+    "courseTitle": "SP/GER: CULTURE &amp; CIVILIZATION",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

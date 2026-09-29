@@ -1,0 +1,1639 @@
+{
+  "id": "elementary-education-2026-27",
+  "name": "Elementary Education (K-6 Grade Licensure)",
+  "listed_title": "Elementary Education (K-6 Licensure)",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Education and Health",
+  "catalog_year": "2026-27",
+  "revision": "4.10.26",
+  "total_hours_min": 120,
+  "total_hours_source": "policy_default",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "policy_default",
+  "gpa_min": 2.7,
+  "max_pe_hours": null,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Draft a résumé and upload it to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*BIOL 1014- Intro to Biological Sci (ACTS=BIOL 1004)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Biological Science",
+      "options": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*MATH 1003- College Mathematics (ACTS=MATH 1003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Quantitative Literacy",
+      "options": [
+        [
+          "MATH 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMM 2173- Business and Professional Speaking",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Business and Professional Speaking",
+      "options": [
+        [
+          "COMM 2173"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "EDFD 1001 -Orientation to Teaching K-12",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Teaching K-12",
+      "options": [
+        [
+          "EDFD 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Join a student organization or interest group",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST1503- World History to 1500 (ACTS=HIST1113)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "World History to 1500",
+      "options": [
+        [
+          "HIST 1503"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Social Studies Course (History, Economics, and/or Geography)",
+      "notes": "",
+      "warnings": [
+        "rule inferred from the label 'Social Studies Course (History, Economics, and/or Geography)'"
+      ],
+      "kind": "bucket",
+      "label": "Social Studies Course (History, Economics, and/or Geography)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "HIST",
+            "GEOG",
+            "ECON"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*PHSC 1013- Intro to Physical Science (ACTS= PHSC 1004)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Physical Science",
+      "options": [
+        [
+          "PHSC 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "and *PHSC 1021- Physical Science Lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Physical Science Laboratory",
+      "options": [
+        [
+          "PHSC 1021"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r6",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*POLS 2003- American Government (ACTS=PLSC2003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "American Government",
+      "options": [
+        [
+          "POLS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "EDMD 2013- Integrating Instructional Technology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrating Instructional Technology",
+      "options": [
+        [
+          "EDMD 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*HIST 1903- Survey of American History",
+      "notes": "HIST 2003 or 2013 will substitute",
+      "warnings": [],
+      "kind": "course",
+      "label": "Survey of American History",
+      "options": [
+        [
+          "HIST 1903"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2033- Mathematical Concepts I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mathematical Concepts I",
+      "options": [
+        [
+          "MATH 2033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*GEOL 1004 -Essentials of Earth Science (ACTS= GEOL 1104)",
+      "notes": "GEOL 1014 will substitute",
+      "warnings": [],
+      "kind": "course",
+      "label": "Essentials of Earth Science",
+      "options": [
+        [
+          "GEOL 1004"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 2003- Education as a Profession",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Education as a Profession",
+      "options": [
+        [
+          "ELED 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*MUS 2003- Survey of Music History (ACTS=MUSC1003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Survey of Music History",
+      "options": [
+        [
+          "MUS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*ART 2123- Experiencing Art (ACTS=ARTA1003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Experiencing Art",
+      "options": [
+        [
+          "ART 2123"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2043 -Mathematical Concepts II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mathematical Concepts II",
+      "options": [
+        [
+          "MATH 2043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SPED 2023- Development/Characteristics of Diverse Learners",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Development and Characteristics of Diverse Learners",
+      "options": [
+        [
+          "SPED 2023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 2113 - Human Development and Learning Theories",
+      "notes": "Stage II Requires 2.70 GPA or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Development and Learning Theories",
+      "options": [
+        [
+          "ELED 2113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 3033- Methods of Teaching Elementary Mathematics",
+      "notes": "Attend a career fair or networking event",
+      "warnings": [],
+      "kind": "course",
+      "label": "Methods of Teaching Elementary Mathematics",
+      "options": [
+        [
+          "MATH 3033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "RDNG 3003- Teaching Literacy Foundations",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Teaching Literacy Foundations",
+      "options": [
+        [
+          "RDNG 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SPED 3033- Foundations of Special Education",
+      "notes": "Recommended to take semester 6",
+      "warnings": [],
+      "kind": "course",
+      "label": "Foundations of Special Education",
+      "options": [
+        [
+          "SPED 3033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 3123- Diagnosis and Assessment of Elementary Students",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Diagnosis and Assessment of Elementary Students",
+      "options": [
+        [
+          "ELED 3123"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 4033 -Classroom and Behavior Management",
+      "notes": "Recommended to take semester 6",
+      "warnings": [],
+      "kind": "course",
+      "label": "Classroom and Behavior Management",
+      "options": [
+        [
+          "ELED 4033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL/PHSC 3243- Integrating Three Dimension of Sci.",
+      "notes": "Requires Junior Standing and 8 hours of science",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrating the Three Dimensions of Science",
+      "options": [
+        [
+          "BIOL 3243"
+        ],
+        [
+          "PHSC 3243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 3133- Integrated Curriculum",
+      "notes": "Recommended to take semester 5",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrated Curriculum",
+      "options": [
+        [
+          "ELED 3133"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "RDNG 3163- Content Area Literacy",
+      "notes": "Recommended to take in semester 7",
+      "warnings": [],
+      "kind": "course",
+      "label": "Content Area Literacy",
+      "options": [
+        [
+          "RDNG 3163"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PE 3593- Methods/Teaching HPE for K-6 Teachers",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Methods of Teaching Health and Physical Education for K-6 Teachers",
+      "options": [
+        [
+          "PE 3593"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "RDNG 4003- Literacy Assessment and Intervention",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Literacy Assessment and Intervention",
+      "options": [
+        [
+          "RDNG 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL/PHSC 3253- Teaching Methods for STEM",
+      "notes": "uires Junior Standing, ELED 2003, PHSC 3243, and 8 hours science",
+      "warnings": [],
+      "kind": "course",
+      "label": "Teaching Methods for STEM",
+      "options": [
+        [
+          "BIOL 3253"
+        ],
+        [
+          "PHSC 3253"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 3143 - Teaching Methods K-6 Social Studies",
+      "notes": "Complete a senior check-in with Career Services",
+      "warnings": [],
+      "kind": "course",
+      "label": "Teaching Methods K-6 Social Studies",
+      "options": [
+        [
+          "ELED 3143"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 4003 -Residency A Seminar",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency A Seminar",
+      "options": [
+        [
+          "ELED 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SPED 3153 -Plan, Instruct, and Assess for Students with Exceptionalities",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Planning, Instruction, and Assessment for Students with Exceptionalities",
+      "options": [
+        [
+          "SPED 3153"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST 2153- Introduction of Arkansas History",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Arkansas History",
+      "options": [
+        [
+          "HIST 2153"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 4903 -Residency B Seminar",
+      "notes": "MUST BE ADMITTED",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B Seminar",
+      "options": [
+        [
+          "ELED 4903"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 9.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ELED 4909 -Residency B",
+      "notes": "TO INTERNSHIP",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B",
+      "options": [
+        [
+          "ELED 4909"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "RDNG 4013- Child and Adolescent Literature",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Child and Adolescent Literature",
+      "options": [
+        [
+          "RDNG 4013"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Introduction to Biological Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Quantitative Literacy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Business and Professional Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Orientation to Teaching K-12",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "World History to 1500",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Social Studies Course (History, Economics, and/or Geography)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Introduction to Physical Science",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Physical Science Laboratory",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r6",
+          "label": "American Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Integrating Instructional Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Survey of American History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Mathematical Concepts I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Essentials of Earth Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Education as a Profession",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Survey of Music History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Experiencing Art",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Mathematical Concepts II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Development and Characteristics of Diverse Learners",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Human Development and Learning Theories",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Methods of Teaching Elementary Mathematics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Teaching Literacy Foundations",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Foundations of Special Education",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Diagnosis and Assessment of Elementary Students",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Classroom and Behavior Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Integrating the Three Dimensions of Science",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Integrated Curriculum",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Content Area Literacy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Methods of Teaching Health and Physical Education for K-6 Teachers",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Literacy Assessment and Intervention",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Teaching Methods for STEM",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Teaching Methods K-6 Social Studies",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Residency A Seminar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Planning, Instruction, and Assessment for Students with Exceptionalities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Introduction to Arkansas History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Residency B Seminar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Residency B",
+          "hours": 9.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Child and Adolescent Literature",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ART 2123",
+    "BIOL 1014",
+    "BIOL 3243",
+    "BIOL 3253",
+    "COMM 2173",
+    "EDFD 1001",
+    "EDMD 2013",
+    "ELED 2003",
+    "ELED 2113",
+    "ELED 3123",
+    "ELED 3133",
+    "ELED 3143",
+    "ELED 4003",
+    "ELED 4033",
+    "ELED 4903",
+    "ELED 4909",
+    "ENGL 1013",
+    "ENGL 1023",
+    "GEOL 1004",
+    "HIST 1503",
+    "HIST 1903",
+    "HIST 2153",
+    "MATH 1003",
+    "MATH 2033",
+    "MATH 2043",
+    "MATH 3033",
+    "MUS 2003",
+    "PE 3593",
+    "PHSC 1013",
+    "PHSC 1021",
+    "PHSC 3243",
+    "PHSC 3253",
+    "POLS 2003",
+    "RDNG 3003",
+    "RDNG 3163",
+    "RDNG 4003",
+    "RDNG 4013",
+    "SPED 2023",
+    "SPED 3033",
+    "SPED 3153"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ Possible careers include: K-6th Teacher, Child Care Center Administrator, Youth Services Specialist",
+  "gen_ed_lists": {},
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Elementary Education (K-6 Licensure)",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/ElementaryEducation.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/ElementaryEducation.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 121 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "low-confidence prerequisite parse: ELED 3123, ELED 3133, ELED 3143, ELED 4033, ELED 4903, ELED 4909, RDNG 3003, RDNG 4013, SPED 3033, SPED 3153"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "57 upper-division hours required + 3 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Draft a résumé and upload it to Handshake"
+          },
+          {
+            "text": "*BIOL 1014- Intro to Biological Sci (ACTS=BIOL 1004)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*MATH 1003- College Mathematics (ACTS=MATH 1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "COMM 2173- Business and Professional Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "EDFD 1001 -Orientation to Teaching K-12",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Join a student organization or interest group"
+          },
+          {
+            "text": "HIST1503- World History to 1500 (ACTS=HIST1113)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Social Studies Course (History, Economics, and/or Geography)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*PHSC 1013- Intro to Physical Science (ACTS= PHSC 1004)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "and *PHSC 1021- Physical Science Lab",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*POLS 2003- American Government (ACTS=PLSC2003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "EDMD 2013- Integrating Instructional Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*HIST 1903- Survey of American History",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "HIST 2003 or 2013 will substitute"
+          },
+          {
+            "text": "MATH 2033- Mathematical Concepts I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*GEOL 1004 -Essentials of Earth Science (ACTS= GEOL 1104)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "GEOL 1014 will substitute"
+          },
+          {
+            "text": "ELED 2003- Education as a Profession",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "*MUS 2003- Survey of Music History (ACTS=MUSC1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*ART 2123- Experiencing Art (ACTS=ARTA1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 2043 -Mathematical Concepts II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SPED 2023- Development/Characteristics of Diverse Learners",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ELED 2113 - Human Development and Learning Theories",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Stage II Requires 2.70 GPA or higher"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "MATH 3033- Methods of Teaching Elementary Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Attend a career fair or networking event"
+          },
+          {
+            "text": "RDNG 3003- Teaching Literacy Foundations",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SPED 3033- Foundations of Special Education",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take semester 6"
+          },
+          {
+            "text": "ELED 3123- Diagnosis and Assessment of Elementary Students",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ELED 4033 -Classroom and Behavior Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take semester 6"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "BIOL/PHSC 3243- Integrating Three Dimension of Sci.",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires Junior Standing and 8 hours of science"
+          },
+          {
+            "text": "ELED 3133- Integrated Curriculum",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take semester 5"
+          },
+          {
+            "text": "RDNG 3163- Content Area Literacy",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take in semester 7"
+          },
+          {
+            "text": "PE 3593- Methods/Teaching HPE for K-6 Teachers",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "RDNG 4003- Literacy Assessment and Intervention",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "BIOL/PHSC 3253- Teaching Methods for STEM",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "uires Junior Standing, ELED 2003, PHSC 3243, and 8 hours science"
+          },
+          {
+            "text": "ELED 3143 - Teaching Methods K-6 Social Studies",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Complete a senior check-in with Career Services"
+          },
+          {
+            "text": "ELED 4003 -Residency A Seminar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SPED 3153 -Plan, Instruct, and Assess for Students with Exceptionalities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HIST 2153- Introduction of Arkansas History",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Finalize résumé, cover letter, and references"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ELED 4903 -Residency B Seminar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "MUST BE ADMITTED"
+          },
+          {
+            "text": "ELED 4909 -Residency B",
+            "hours_text": "9",
+            "hours_min": 9.0,
+            "hours_max": 9.0,
+            "grade_c": true,
+            "notes": "TO INTERNSHIP"
+          },
+          {
+            "text": "RDNG 4013- Child and Adolescent Literature",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Graduation Requirements:"
+          }
+        ]
+      }
+    ]
+  }
+}

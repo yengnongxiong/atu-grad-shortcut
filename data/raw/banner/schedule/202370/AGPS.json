@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "71012",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "001",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71013",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "002",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71006",
+    "subject": "AGPS",
+    "courseNumber": "3023",
+    "sequenceNumber": "001",
+    "courseTitle": "Forage Crops and Pasture Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71014",
+    "subject": "AGPS",
+    "courseNumber": "3074",
+    "sequenceNumber": "001",
+    "courseTitle": "Floriculture",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71015",
+    "subject": "AGPS",
+    "courseNumber": "3093",
+    "sequenceNumber": "001",
+    "courseTitle": "Greenhouse Operation and Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40385",
+    "subject": "RS",
+    "courseNumber": "4012",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Internship in Rehabilitation Services",
+    "creditHours": null,
+    "creditHourLow": 12,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40208",
+    "subject": "RS",
+    "courseNumber": "4104",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Service Learning in Rehabilitation Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40275",
+    "subject": "RS",
+    "courseNumber": "4194",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Field Placement Experiences",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Applied Instruction",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40439",
+    "subject": "RS",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: ETHICS &amp; PROF DEVELOPMENT",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

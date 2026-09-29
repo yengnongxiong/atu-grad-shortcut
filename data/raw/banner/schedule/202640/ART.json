@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40383",
+    "subject": "ART",
+    "courseNumber": "2123",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Experiencing Art",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

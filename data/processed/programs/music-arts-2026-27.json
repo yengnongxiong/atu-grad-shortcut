@@ -1,0 +1,2695 @@
+{
+  "id": "music-arts-2026-27",
+  "name": "Bachelor of Music Arts",
+  "listed_title": "Music Arts",
+  "degree": "Bachelor's degree",
+  "degree_abbr": "",
+  "is_bachelor": true,
+  "college": "Arts and Humanities",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Mathematics",
+      "notes": "Draft a résumé and upload it to Handshake",
+      "warnings": [
+        "general-education mathematics: any MATH course that meets the gen-ed math requirement (list not on the map); confirm with an advisor"
+      ],
+      "kind": "bucket",
+      "label": "Mathematics (gen-ed)",
+      "confidence": "medium",
+      "bucket": {
+        "category": "gen_ed_math",
+        "codes": [],
+        "rule": {
+          "min_level": 1000,
+          "max_level": 2000,
+          "subjects": [
+            "MATH"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": [
+          "MATH 1113"
+        ]
+      }
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1 2 - Applied Music",
+      "notes": "See Page 2 for course number",
+      "warnings": [
+        "rule inferred from the label 'MUS 1 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 1 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1411 - Class Piano OR MUS 1201 - Applied Music (Piano)",
+      "notes": "MUS 1201, if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano I",
+      "options": [
+        [
+          "MUS 1411"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 1501"
+        ],
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r7",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1713- Theory I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory I",
+      "options": [
+        [
+          "MUS 1713"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r8",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1731- Ear Training I",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training I",
+      "options": [
+        [
+          "MUS 1731"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r9",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1751- Orientation to Music",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Music",
+      "options": [
+        [
+          "MUS 1751"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Piano Exit Exam",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "Meet with faculty about career paths in your",
+      "warnings": [
+        "Science with Lab options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "field",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1 2 - Applied Music",
+      "notes": "",
+      "warnings": [
+        "rule inferred from the label 'MUS 1 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 1 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1440 - Piano Proficiency",
+      "notes": "See Page 2 for course number",
+      "warnings": [],
+      "kind": "course",
+      "label": "Piano Proficiency",
+      "options": [
+        [
+          "MUS 1440"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r6",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1421 - Class Piano OR MUS 1201 - Applied Music (Piano)",
+      "notes": "MUS 1201, if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano II",
+      "options": [
+        [
+          "MUS 1421"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r7",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 1501"
+        ],
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r8",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1723- Theory II",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory II",
+      "options": [
+        [
+          "MUS 1723"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r9",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS- 1741- Ear Training II",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training II",
+      "options": [
+        [
+          "MUS 1741"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [
+        "Science with Lab options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1 2 - Applied Music",
+      "notes": "See Page 2 for course number",
+      "warnings": [
+        "rule inferred from the label 'MUS 1 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 1 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r6",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 1501"
+        ],
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r7",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2713 - Theory III",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory III",
+      "options": [
+        [
+          "MUS 2713"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r8",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2731 - Ear Training III",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training III",
+      "options": [
+        [
+          "MUS 2731"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2003 - Survey of Music History",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Survey of Music History",
+      "options": [
+        [
+          "MUS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History/Government",
+      "notes": "",
+      "warnings": [
+        "U.S. History & Government options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "See Page 2 for course number",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1 2 - Applied Music",
+      "notes": "MUS 1201, if piano proficient",
+      "warnings": [
+        "rule inferred from the label 'MUS 1 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 1 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 1501"
+        ],
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r6",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2723- Theory IV",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory IV",
+      "options": [
+        [
+          "MUS 2723"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r7",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2741- Ear Training IV",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training IV",
+      "options": [
+        [
+          "MUS 2741"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r8",
+      "map_semester": 4,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r9",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 2000- Applied Competency",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Competency",
+      "options": [
+        [
+          "MUS 2000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Attend a career fair or networking event",
+      "warnings": [
+        "Social Sciences options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3801 - Principles of Conducting",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Conducting",
+      "options": [
+        [
+          "MUS 3801"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3000- Recital Attendance",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 3000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3773- History of Music I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "History of Music I",
+      "options": [
+        [
+          "MUS 3773"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective* (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r6",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective* (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r7",
+      "map_semester": 5,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3501 -Band or MUS 3681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 3501"
+        ],
+        [
+          "MUS 3681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r8",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3 2 - Applied Music",
+      "notes": "",
+      "warnings": [
+        "rule inferred from the label 'MUS 3 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 3 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences/Fine Arts/Humanities/Comm",
+      "notes": "",
+      "warnings": [
+        "Fine Arts & Humanities options not listed on this map; using the common list",
+        "Social Sciences options not listed on this map; using the common list",
+        "Communication options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities / Social Sciences / Communication",
+      "bucket": {
+        "category": "fine_arts_humanities+social_sciences+communication",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003",
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003",
+          "COMM 1003",
+          "COMM 2003",
+          "COMM 2173"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [
+        "Fine Arts & Humanities options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3000- Recital Attendance",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 3000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3501 -Band or MUS 3681 -Concert Chorale (see note 1)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Band",
+      "options": [
+        [
+          "MUS 3501"
+        ],
+        [
+          "MUS 3681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3 2 - Applied Music",
+      "notes": "",
+      "warnings": [
+        "rule inferred from the label 'MUS 3 2 - Applied Music'"
+      ],
+      "kind": "bucket",
+      "label": "MUS 3 2 - Applied Music",
+      "confidence": "medium",
+      "bucket": {
+        "category": "rule",
+        "codes": [],
+        "rule": {
+          "min_level": null,
+          "max_level": null,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": true,
+          "general": false
+        },
+        "recommended": []
+      }
+    },
+    {
+      "id": "s6r6",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3783- History of Music II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "History of Music II",
+      "options": [
+        [
+          "MUS 3783"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r7",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 4801 - Advanced Conducting",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Advanced Conducting",
+      "options": [
+        [
+          "MUS 4801"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r8",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective* (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective* (3000-4000 level)",
+      "notes": "Complete a senior check-in with Career",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective or Music Elective (3000-4000 level)",
+      "notes": "Services",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective or Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective or Music Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective or Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective* (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective* (3000-4000 level)",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Graduation Requirements:",
+      "warnings": [
+        "Social Sciences options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective* (3000-4000 level)",
+      "notes": "Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Music Elective* (3000-4000 level)",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Music Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "MUS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective* (3000-4000 level)",
+      "notes": "Min. hours required:120",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "General Elective* (3000-4000 level)",
+      "notes": "2.00+ GPA",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "General Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": null,
+          "approved": false,
+          "general": true
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Mathematics (gen-ed)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "MUS 1 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Class Piano I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r7",
+          "label": "Theory I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r8",
+          "label": "Ear Training I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r9",
+          "label": "Orientation to Music",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "MUS 1 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Piano Proficiency",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r6",
+          "label": "Class Piano II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r7",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r8",
+          "label": "Theory II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r9",
+          "label": "Ear Training II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "General Elective",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "MUS 1 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Music Elective",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r6",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r7",
+          "label": "Theory III",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r8",
+          "label": "Ear Training III",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Survey of Music History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "MUS 1 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r6",
+          "label": "Theory IV",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r7",
+          "label": "Ear Training IV",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r8",
+          "label": "Music Elective",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r9",
+          "label": "Applied Competency",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Principles of Conducting",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "History of Music I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Music Elective (3000-4000 level)",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r6",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r7",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r8",
+          "label": "MUS 3 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Fine Arts & Humanities / Social Sciences / Communication",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Band",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "MUS 3 2 - Applied Music",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r6",
+          "label": "History of Music II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r7",
+          "label": "Advanced Conducting",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r8",
+          "label": "Music Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Music Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "General Elective or Music Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "General Elective or Music Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Music Elective (3000-4000 level)",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Music Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "General Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023"
+  ],
+  "notes": [
+    "General Electives: 9 hours"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 0903_____",
+  "gen_ed_lists": {},
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Music Arts",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicArts.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/MusicArts.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "low-confidence prerequisite parse: MUS 2000"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "44 upper-division hours required + 18 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Mathematics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Draft a résumé and upload it to Handshake"
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "See Page 2 for course number"
+          },
+          {
+            "text": "MUS 1411 - Class Piano OR MUS 1201 - Applied Music (Piano)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "MUS 1201, if piano proficient"
+          },
+          {
+            "text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1713- Theory I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1731- Ear Training I",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 1751- Orientation to Music",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Offered Fall Only"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Piano Exit Exam"
+          },
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Meet with faculty about career paths in your"
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "field"
+          },
+          {
+            "text": "MUS 1 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1440 - Piano Proficiency",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "See Page 2 for course number"
+          },
+          {
+            "text": "MUS 1421 - Class Piano OR MUS 1201 - Applied Music (Piano)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "MUS 1201, if piano proficient"
+          },
+          {
+            "text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1723- Theory II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "MUS- 1741- Ear Training II",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Offered Spring Only"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "See Page 2 for course number"
+          },
+          {
+            "text": "Music Elective",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 2713 - Theory III",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 2731 - Ear Training III",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Offered Fall Only"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "MUS 2003 - Survey of Music History",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "See Page 2 for course number"
+          },
+          {
+            "text": "MUS 1 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "MUS 1201, if piano proficient"
+          },
+          {
+            "text": "MUS 1501 -Band or MUS 1681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 2723- Theory IV",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "MUS 2741- Ear Training IV",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "Music Elective",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 2000- Applied Competency",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair or networking event"
+          },
+          {
+            "text": "MUS 3801 - Principles of Conducting",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3773- History of Music I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Music Elective* (3000-4000 level)",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3501 -Band or MUS 3681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Social Sciences/Fine Arts/Humanities/Comm",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3501 -Band or MUS 3681 -Concert Chorale (see note 1)",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3 2 - Applied Music",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3783- History of Music II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 4801 - Advanced Conducting",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "Music Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Music Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Complete a senior check-in with Career"
+          },
+          {
+            "text": "General Elective or Music Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Services"
+          },
+          {
+            "text": "General Elective or Music Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "General Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Finalize résumé, cover letter, and references"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "Music Elective* (3000-4000 level)",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "Music Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "General Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours required:120"
+          },
+          {
+            "text": "General Elective* (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "2.00+ GPA"
+          }
+        ]
+      }
+    ]
+  }
+}

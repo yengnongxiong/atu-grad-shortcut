@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "70586",
+    "subject": "HA",
+    "courseNumber": "2203",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Casino Tourism",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "6"
+  },
+  {
+    "courseReferenceNumber": "71022",
+    "subject": "HA",
+    "courseNumber": "2813",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Basic Human Nutrition in Hospitality Administration",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71020",
+    "subject": "HA",
+    "courseNumber": "4033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Legal Aspects of Tourism",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70589",
+    "subject": "HA",
+    "courseNumber": "4063",
+    "sequenceNumber": "M01",
+    "courseTitle": "Beverage Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "5"
+  }
+]

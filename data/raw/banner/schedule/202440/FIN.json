@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40023",
+    "subject": "FIN",
+    "courseNumber": "3063",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Business Finance",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40438",
+    "subject": "FIN",
+    "courseNumber": "4053",
+    "sequenceNumber": "TC1",
+    "courseTitle": "INTERNSHIP: CAPITAL FARM",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

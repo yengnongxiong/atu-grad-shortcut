@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40092",
+    "subject": "PE",
+    "courseNumber": "3573",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Prevention and Care of Activity Injuries",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40095",
+    "subject": "PE",
+    "courseNumber": "4033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Exercise Physiology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

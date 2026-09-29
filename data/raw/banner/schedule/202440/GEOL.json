@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40199",
+    "subject": "GEOL",
+    "courseNumber": "1004",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Essentials of Earth Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

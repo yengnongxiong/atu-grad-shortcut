@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40068",
+    "subject": "NUR",
+    "courseNumber": "3303",
+    "sequenceNumber": "AT2",
+    "courseTitle": "Health Assessment",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40072",
+    "subject": "NUR",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "IND: NURSING THEORY",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

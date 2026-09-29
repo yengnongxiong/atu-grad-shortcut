@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40330",
+    "subject": "EMHS",
+    "courseNumber": "5093",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Grants",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40348",
+    "subject": "EMHS",
+    "courseNumber": "6193",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to International Emergency Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

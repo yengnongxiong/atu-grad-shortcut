@@ -1,0 +1,50 @@
+[
+  {
+    "subjectCode": "BLAW",
+    "courseNumber": "1033",
+    "courseTitle": "Law for Life: Understanding the Law and Personal Legal Issues",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Law"
+  },
+  {
+    "subjectCode": "BLAW",
+    "courseNumber": "2033",
+    "courseTitle": "Legal Environment of Business",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Law"
+  },
+  {
+    "subjectCode": "BLAW",
+    "courseNumber": "2133",
+    "courseTitle": "Honors Legal Environment of Business",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202640",
+    "subjectDescription": "Business Law"
+  },
+  {
+    "subjectCode": "BLAW",
+    "courseNumber": "4073",
+    "courseTitle": "Special Topics in Law",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Business/Economic Development",
+    "department": "School of Business",
+    "termEffective": "202240",
+    "subjectDescription": "Business Law"
+  }
+]

@@ -1,0 +1,522 @@
+[
+  {
+    "code": "ACCT",
+    "description": "Accounting"
+  },
+  {
+    "code": "AGBU",
+    "description": "Agricultural Business/Economic"
+  },
+  {
+    "code": "AGED",
+    "description": "Agricultural Education"
+  },
+  {
+    "code": "AGLE",
+    "description": "Agricultural Leadership"
+  },
+  {
+    "code": "AGPM",
+    "description": "Agricultural Pest Management"
+  },
+  {
+    "code": "AGAS",
+    "description": "Agriculture Animal Science"
+  },
+  {
+    "code": "AGEG",
+    "description": "Agriculture Engr/Mechanization"
+  },
+  {
+    "code": "AGPS",
+    "description": "Agriculture Plant Science"
+  },
+  {
+    "code": "AGSS",
+    "description": "Agriculture Soil Science"
+  },
+  {
+    "code": "ACR",
+    "description": "Air Conditioning/Refrigeration"
+  },
+  {
+    "code": "AHS",
+    "description": "Allied Health Science"
+  },
+  {
+    "code": "AMST",
+    "description": "American Studies"
+  },
+  {
+    "code": "ANTH",
+    "description": "Anthropology"
+  },
+  {
+    "code": "ART",
+    "description": "Art"
+  },
+  {
+    "code": "AT",
+    "description": "Automation Technology"
+  },
+  {
+    "code": "AST",
+    "description": "Automotive Service Technology"
+  },
+  {
+    "code": "BAS",
+    "description": "Bachelor of Applied Science"
+  },
+  {
+    "code": "BNK",
+    "description": "Banking"
+  },
+  {
+    "code": "BIOL",
+    "description": "Biology"
+  },
+  {
+    "code": "BUAD",
+    "description": "Business Administration"
+  },
+  {
+    "code": "BDA",
+    "description": "Business Data Analytics"
+  },
+  {
+    "code": "BLAW",
+    "description": "Business Law"
+  },
+  {
+    "code": "BST",
+    "description": "Business Technology"
+  },
+  {
+    "code": "CVT",
+    "description": "Cardiac Sonography"
+  },
+  {
+    "code": "CHEM",
+    "description": "Chemistry"
+  },
+  {
+    "code": "CRT",
+    "description": "Collision Repair Technology"
+  },
+  {
+    "code": "COMM",
+    "description": "Communication"
+  },
+  {
+    "code": "CM",
+    "description": "Communication Courses"
+  },
+  {
+    "code": "CMPE",
+    "description": "Computer Engineering"
+  },
+  {
+    "code": "CIS",
+    "description": "Computer Information Systems"
+  },
+  {
+    "code": "COMS",
+    "description": "Computer/Information Science"
+  },
+  {
+    "code": "COS",
+    "description": "Cosmetology"
+  },
+  {
+    "code": "COUN",
+    "description": "Counseling (MED)"
+  },
+  {
+    "code": "CNSL",
+    "description": "Counseling (MS)"
+  },
+  {
+    "code": "CJ",
+    "description": "Criminal Justice"
+  },
+  {
+    "code": "CSEC",
+    "description": "Cybersecurity"
+  },
+  {
+    "code": "DCC",
+    "description": "Digital Content Creation"
+  },
+  {
+    "code": "DE",
+    "description": "Driver Education"
+  },
+  {
+    "code": "DYS",
+    "description": "Dyslexia"
+  },
+  {
+    "code": "ECE",
+    "description": "Early Childhood Education (AS)"
+  },
+  {
+    "code": "ECON",
+    "description": "Economics"
+  },
+  {
+    "code": "EDFD",
+    "description": "Educational Foundations"
+  },
+  {
+    "code": "EDLD",
+    "description": "Educational Leadership"
+  },
+  {
+    "code": "EDMD",
+    "description": "Educational Media"
+  },
+  {
+    "code": "ELEG",
+    "description": "Electrical Engineering"
+  },
+  {
+    "code": "ELED",
+    "description": "Elementary Education"
+  },
+  {
+    "code": "EAM",
+    "description": "Emergency Admin/Mgmt"
+  },
+  {
+    "code": "EMHS",
+    "description": "Emergency Mgmt Homeland Securi"
+  },
+  {
+    "code": "ENGL",
+    "description": "English"
+  },
+  {
+    "code": "ENVS",
+    "description": "Environmental Science"
+  },
+  {
+    "code": "FAC",
+    "description": "Facilities Maintenance/Mgmt"
+  },
+  {
+    "code": "FIN",
+    "description": "Finance"
+  },
+  {
+    "code": "FAH",
+    "description": "Fine Arts/Humanities"
+  },
+  {
+    "code": "FW",
+    "description": "Fisheries Wildlife Science"
+  },
+  {
+    "code": "FR",
+    "description": "French"
+  },
+  {
+    "code": "GAME",
+    "description": "Game/Interactive Media Design"
+  },
+  {
+    "code": "GEOG",
+    "description": "Geography"
+  },
+  {
+    "code": "GEOL",
+    "description": "Geology"
+  },
+  {
+    "code": "GER",
+    "description": "German"
+  },
+  {
+    "code": "HES",
+    "description": "Health and Exercise Science"
+  },
+  {
+    "code": "HLED",
+    "description": "Health Education"
+  },
+  {
+    "code": "HI",
+    "description": "Health Informatics"
+  },
+  {
+    "code": "HIM",
+    "description": "Health Information Management"
+  },
+  {
+    "code": "HIT",
+    "description": "Health Information Technology"
+  },
+  {
+    "code": "HSCI",
+    "description": "Health Sciences"
+  },
+  {
+    "code": "HIST",
+    "description": "History"
+  },
+  {
+    "code": "HONR",
+    "description": "Honors Program"
+  },
+  {
+    "code": "HA",
+    "description": "Hospitality Administration"
+  },
+  {
+    "code": "HS",
+    "description": "Human Services"
+  },
+  {
+    "code": "HUM",
+    "description": "Humanities"
+  },
+  {
+    "code": "INFT",
+    "description": "Information Technology"
+  },
+  {
+    "code": "IPBL",
+    "description": "Interdisciplinary Studies"
+  },
+  {
+    "code": "INT",
+    "description": "Internship"
+  },
+  {
+    "code": "JPN",
+    "description": "Japanese"
+  },
+  {
+    "code": "JOUR",
+    "description": "Journalism"
+  },
+  {
+    "code": "LANG",
+    "description": "Language"
+  },
+  {
+    "code": "LAT",
+    "description": "Latin"
+  },
+  {
+    "code": "LE",
+    "description": "Law Enforcement"
+  },
+  {
+    "code": "LEAD",
+    "description": "Leadership"
+  },
+  {
+    "code": "LA",
+    "description": "Liberal Arts"
+  },
+  {
+    "code": "LBMD",
+    "description": "Library Media"
+  },
+  {
+    "code": "LGM",
+    "description": "Logistics Management"
+  },
+  {
+    "code": "MGMT",
+    "description": "Management"
+  },
+  {
+    "code": "MKT",
+    "description": "Marketing"
+  },
+  {
+    "code": "MAEC",
+    "description": "Master Arts Early Childhood"
+  },
+  {
+    "code": "MAMS",
+    "description": "Master Arts Middle School"
+  },
+  {
+    "code": "MAT",
+    "description": "Master Arts Teaching"
+  },
+  {
+    "code": "MATH",
+    "description": "Mathematics"
+  },
+  {
+    "code": "MCEG",
+    "description": "Mechanical Engineering"
+  },
+  {
+    "code": "MA",
+    "description": "Medical Assistant"
+  },
+  {
+    "code": "MLED",
+    "description": "Middle Level Education"
+  },
+  {
+    "code": "MS",
+    "description": "Military Science ROTC"
+  },
+  {
+    "code": "MUS",
+    "description": "Music"
+  },
+  {
+    "code": "NUR",
+    "description": "Nursing"
+  },
+  {
+    "code": "CNA",
+    "description": "Nursing Assistant"
+  },
+  {
+    "code": "NURN",
+    "description": "Nursing for Registered Nurses"
+  },
+  {
+    "code": "OTA",
+    "description": "Occupational Therapy Assistant"
+  },
+  {
+    "code": "OL",
+    "description": "Organizational Leadership"
+  },
+  {
+    "code": "OZRK",
+    "description": "Ozark Campus Orientation"
+  },
+  {
+    "code": "EMTP",
+    "description": "Paramedic/Emerg Medical Servic"
+  },
+  {
+    "code": "PHIL",
+    "description": "Philosophy"
+  },
+  {
+    "code": "PE",
+    "description": "Physical Education"
+  },
+  {
+    "code": "PHSC",
+    "description": "Physical Science"
+  },
+  {
+    "code": "PTA",
+    "description": "Physical Therapy Assistant"
+  },
+  {
+    "code": "PHYS",
+    "description": "Physics"
+  },
+  {
+    "code": "POLS",
+    "description": "Political Science"
+  },
+  {
+    "code": "LPN",
+    "description": "Practical Nursing"
+  },
+  {
+    "code": "PLA",
+    "description": "Prior Learning Assessment"
+  },
+  {
+    "code": "PSY",
+    "description": "Psychology"
+  },
+  {
+    "code": "RDNG",
+    "description": "Reading"
+  },
+  {
+    "code": "RP",
+    "description": "Recreation/Park Administration"
+  },
+  {
+    "code": "RN",
+    "description": "Registered Nursing"
+  },
+  {
+    "code": "RS",
+    "description": "Rehabilitation Science"
+  },
+  {
+    "code": "STEM",
+    "description": "Science/Tech/Engineering/Math"
+  },
+  {
+    "code": "SEED",
+    "description": "Secondary Education"
+  },
+  {
+    "code": "SOC",
+    "description": "Sociology"
+  },
+  {
+    "code": "SPAN",
+    "description": "Spanish"
+  },
+  {
+    "code": "SPED",
+    "description": "Special Education"
+  },
+  {
+    "code": "STAT",
+    "description": "Statistics"
+  },
+  {
+    "code": "SCS",
+    "description": "Strength Conditioning Studies"
+  },
+  {
+    "code": "SAA",
+    "description": "Student Affairs Administration"
+  },
+  {
+    "code": "SA",
+    "description": "Study Abroad/Study Away"
+  },
+  {
+    "code": "TESL",
+    "description": "Teach English Second Language"
+  },
+  {
+    "code": "MTLL",
+    "description": "Teaching/Learning/Leadership"
+  },
+  {
+    "code": "TECH",
+    "description": "TECH"
+  },
+  {
+    "code": "TMAT",
+    "description": "Technical Mathematics"
+  },
+  {
+    "code": "TH",
+    "description": "Theatre"
+  },
+  {
+    "code": "TR",
+    "description": "Therapeutic Recreation"
+  },
+  {
+    "code": "WLD",
+    "description": "Welding Technology"
+  },
+  {
+    "code": "WS",
+    "description": "Wellness Science"
+  }
+]

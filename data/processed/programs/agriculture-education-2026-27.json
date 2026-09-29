@@ -1,0 +1,1689 @@
+{
+  "id": "agriculture-education-2026-27",
+  "name": "Agricultural Education for Teacher Licensure",
+  "listed_title": "Agricultural Education",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Business/Economic Development",
+  "catalog_year": "2026-27",
+  "revision": "4.16.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "policy_default",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "policy_default",
+  "gpa_min": 2.7,
+  "max_pe_hours": null,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 1001- Introduction to Agricultural Education",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Agricultural Education",
+      "options": [
+        [
+          "AGED 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGPS 1024- Principles of Plant Science",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Plant Science",
+      "options": [
+        [
+          "AGPS 1024"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 1014- Intro to Biological Science (ACTS= BIOL 1004)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Biological Science",
+      "options": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMS 1003 - Intro to Computers (ACTS= CPSI 1003)",
+      "notes": "BUAD 2003 or other equivalent",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Computer Based Systems",
+      "options": [
+        [
+          "COMS 1003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013 -Comp I (ACTS=ENGL 1013)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGAS 1014- Principles of Animal Science",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Animal Science",
+      "options": [
+        [
+          "AGAS 1014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 1013- Agricultural Youth Organizations",
+      "notes": "Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Agricultural Youth Organizations",
+      "options": [
+        [
+          "AGED 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMM 2003 - Public Speaking",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Public Speaking",
+      "options": [
+        [
+          "COMM 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGBU 1013 - Principles of Agri. Business",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Agricultural Business",
+      "options": [
+        [
+          "AGBU 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 2104 - Introduction to Agricultural Systems Technology",
+      "notes": "Requires Sophomore Standing, Fall",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Agricultural Systems Technology",
+      "options": [
+        [
+          "AGED 2104"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 2003 - Education as a Profession",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Education as a Profession",
+      "options": [
+        [
+          "SEED 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "U.S. History/Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGAS 2084 - Feeds and Feeding",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Feeds and Feeding",
+      "options": [
+        [
+          "AGAS 2084"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 2203 - Applied Agricultural Systems Technology",
+      "notes": "Prerequisite: AGED 2104",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Agricultural Systems Technology",
+      "options": [
+        [
+          "AGED 2203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "CHEM 1113/1111 -Survey of Chemistry and Laboratory",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+      "options": [
+        [
+          "CHEM 1113",
+          "CHEM 1111"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Attend a career fair",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 2113 - Human Development and Learning Theories",
+      "notes": "2.70+ GPA Required",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Development and Learning Theories",
+      "options": [
+        [
+          "SEED 2113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 3033 - Philosophy and Foundations of Program Development",
+      "notes": "Prerequisite: AGED 1013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Philosophy and Foundations of Program Development",
+      "options": [
+        [
+          "AGED 3033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGLE 3003 - Personal Leadership Theory and Development",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Personal Leadership Theory and Development",
+      "options": [
+        [
+          "AGLE 3003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGPS 3093 - Greenhouse Operation and Management",
+      "notes": "Prerequisite:AGPS 1024,Junior Standing",
+      "warnings": [],
+      "kind": "course",
+      "label": "Greenhouse Operation and Management",
+      "options": [
+        [
+          "AGPS 3093"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "EDMD 2013 - Integrating Instructional Technology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrating Instructional Technology",
+      "options": [
+        [
+          "EDMD 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGBU 3013 - Principles of Farm Management",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Farm Management",
+      "options": [
+        [
+          "AGBU 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 4033 - Curriculum Design and Assessment",
+      "notes": "Prerequisite: AGED 3033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Curriculum Design and Assessment",
+      "options": [
+        [
+          "AGED 4033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGEG 3203 - Soil, Water and Forest Conservation",
+      "notes": "Prerequisite: AGED 3033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Soil, Water and Forest Conservation",
+      "options": [
+        [
+          "AGEG 3203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGLE 3013 - Team Leadership and Organizational Change",
+      "notes": "Prerequisite: Junior Standing",
+      "warnings": [],
+      "kind": "course",
+      "label": "Team Leadership and Organizational Change",
+      "options": [
+        [
+          "AGLE 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGPS 3044 - Plant Propagation",
+      "notes": "Prerequisite:AGPS 1024,Junior Standing",
+      "warnings": [],
+      "kind": "course",
+      "label": "Plant Propagation",
+      "options": [
+        [
+          "AGPS 3044"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGAS 3021 - Livestock Selection and Evaluation",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Livestock Selection and Evaluation",
+      "options": [
+        [
+          "AGAS 3021"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "AGED 4044 -Methods in Teaching Agriculture",
+      "notes": "Prerequisite: AGED 4033",
+      "warnings": [],
+      "kind": "course",
+      "label": "Methods in Teaching Agriculture",
+      "options": [
+        [
+          "AGED 4044"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4553 -Classrom Application of Educational Psychology",
+      "notes": "Requires Stage II Admission",
+      "warnings": [],
+      "kind": "course",
+      "label": "Classroom Application of Educational Psychology",
+      "options": [
+        [
+          "SEED 4553"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SPED 4052 -Educating Diverse & Exceptional Learners",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Educating Diverse and Exceptional Learners",
+      "options": [
+        [
+          "SPED 4052"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Attend a career fair or networking event",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4503 - Seminar in Secondary Education",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Seminar in Secondary Education",
+      "options": [
+        [
+          "SEED 4503"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 9.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4909 -Residency B",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B",
+      "options": [
+        [
+          "SEED 4909"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Introduction to Agricultural Education",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Principles of Plant Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Introduction to Biological Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Introduction to Computer Based Systems",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Principles of Animal Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Agricultural Youth Organizations",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Public Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Principles of Agricultural Business",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Introduction to Agricultural Systems Technology",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Education as a Profession",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Feeds and Feeding",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Applied Agricultural Systems Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "A Survey of Chemistry + Survey of Chemistry Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Human Development and Learning Theories",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Philosophy and Foundations of Program Development",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Personal Leadership Theory and Development",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Greenhouse Operation and Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Integrating Instructional Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Principles of Farm Management",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Curriculum Design and Assessment",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Soil, Water and Forest Conservation",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Team Leadership and Organizational Change",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Plant Propagation",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "13",
+      "stated_total_min": 13.0,
+      "stated_total_max": 13.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Livestock Selection and Evaluation",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Methods in Teaching Agriculture",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Classroom Application of Educational Psychology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Educating Diverse and Exceptional Learners",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Seminar in Secondary Education",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Residency B",
+          "hours": 9.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "AGAS 1014",
+    "AGAS 2084",
+    "AGAS 3021",
+    "AGBU 1013",
+    "AGBU 3013",
+    "AGED 1001",
+    "AGED 1013",
+    "AGED 2104",
+    "AGED 2203",
+    "AGED 3033",
+    "AGED 4033",
+    "AGED 4044",
+    "AGEG 3203",
+    "AGLE 3003",
+    "AGLE 3013",
+    "AGPS 1024",
+    "AGPS 3044",
+    "AGPS 3093",
+    "BIOL 1014",
+    "CHEM 1111",
+    "CHEM 1113",
+    "COMM 2003",
+    "COMS 1003",
+    "EDMD 2013",
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1113",
+    "SEED 2003",
+    "SEED 2113",
+    "SEED 4503",
+    "SEED 4553",
+    "SEED 4909",
+    "SPED 4052"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0903_____ MATH 1110_____ Possible Careers Include: Agricultural Science Teacher, Home Economist",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Agricultural Education",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/AgricultureEducation.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/AgricultureEducation.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "low-confidence prerequisite parse: SEED 4503, SEED 4553, SEED 4909, SPED 4052"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "47 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "AGED 1001- Introduction to Agricultural Education",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGPS 1024- Principles of Plant Science",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 1014- Intro to Biological Science (ACTS= BIOL 1004)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "COMS 1003 - Intro to Computers (ACTS= CPSI 1003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "BUAD 2003 or other equivalent"
+          },
+          {
+            "text": "ENGL 1013 -Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "AGAS 1014- Principles of Animal Science",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGED 1013- Agricultural Youth Organizations",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Spring Only"
+          },
+          {
+            "text": "COMM 2003 - Public Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "AGBU 1013 - Principles of Agri. Business",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGED 2104 - Introduction to Agricultural Systems Technology",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Requires Sophomore Standing, Fall"
+          },
+          {
+            "text": "MATH 1113- College Algebra (ACTS= MATH 1103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "SEED 2003 - Education as a Profession",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "AGAS 2084 - Feeds and Feeding",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGED 2203 - Applied Agricultural Systems Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: AGED 2104"
+          },
+          {
+            "text": "CHEM 1113/1111 -Survey of Chemistry and Laboratory",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair"
+          },
+          {
+            "text": "SEED 2113 - Human Development and Learning Theories",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "2.70+ GPA Required"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "AGED 3033 - Philosophy and Foundations of Program Development",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: AGED 1013"
+          },
+          {
+            "text": "AGLE 3003 - Personal Leadership Theory and Development",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGPS 3093 - Greenhouse Operation and Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite:AGPS 1024,Junior Standing"
+          },
+          {
+            "text": "EDMD 2013 - Integrating Instructional Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "AGBU 3013 - Principles of Farm Management",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGED 4033 - Curriculum Design and Assessment",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: AGED 3033"
+          },
+          {
+            "text": "AGEG 3203 - Soil, Water and Forest Conservation",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: AGED 3033"
+          },
+          {
+            "text": "AGLE 3013 - Team Leadership and Organizational Change",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prerequisite: Junior Standing"
+          },
+          {
+            "text": "AGPS 3044 - Plant Propagation",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Prerequisite:AGPS 1024,Junior Standing"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "13",
+        "stated_total_min": 13.0,
+        "stated_total_max": 13.0,
+        "rows": [
+          {
+            "text": "AGAS 3021 - Livestock Selection and Evaluation",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "AGED 4044 -Methods in Teaching Agriculture",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Prerequisite: AGED 4033"
+          },
+          {
+            "text": "SEED 4553 -Classrom Application of Educational Psychology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Requires Stage II Admission"
+          },
+          {
+            "text": "SPED 4052 -Educating Diverse & Exceptional Learners",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend a career fair or networking event"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "SEED 4503 - Seminar in Secondary Education",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SEED 4909 -Residency B",
+            "hours_text": "9",
+            "hours_min": 9.0,
+            "hours_max": 9.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      }
+    ]
+  }
+}

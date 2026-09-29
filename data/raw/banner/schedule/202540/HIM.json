@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40103",
+    "subject": "HIM",
+    "courseNumber": "4892",
+    "sequenceNumber": "F01",
+    "courseTitle": "Seminar in Health Information",
+    "creditHours": null,
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Hyflex Scheduling Section",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40104",
+    "subject": "HIM",
+    "courseNumber": "4895",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Affiliation",
+    "creditHours": null,
+    "creditHourLow": 5,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  }
+]

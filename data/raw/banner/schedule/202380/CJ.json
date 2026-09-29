@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "80008",
+    "subject": "CJ",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Social Problems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "80015",
+    "subject": "CJ",
+    "courseNumber": "3083",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Social Deviance",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

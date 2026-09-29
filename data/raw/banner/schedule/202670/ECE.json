@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "71624",
+    "subject": "ECE",
+    "courseNumber": "2113",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Basic Child Growth and Development",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71625",
+    "subject": "ECE",
+    "courseNumber": "2313",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Foundations and Theories in Early Childhood Education",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71626",
+    "subject": "ECE",
+    "courseNumber": "2513",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Curriculum for Early Childhood Education",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71627",
+    "subject": "ECE",
+    "courseNumber": "2613",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Methods and Materials Using Developmentally Appropriate Practices and Activities for Young Children",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71628",
+    "subject": "ECE",
+    "courseNumber": "2996",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Practicum in Early Childhood Education",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20428",
+    "subject": "JPN",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Beginning Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20429",
+    "subject": "JPN",
+    "courseNumber": "1023",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Beginning Japanese II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20431",
+    "subject": "JPN",
+    "courseNumber": "2023",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Intermediate Japanese II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20430",
+    "subject": "JPN",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP: JPN: POP CULTURE",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

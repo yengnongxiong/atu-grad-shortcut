@@ -1,0 +1,1828 @@
+{
+  "id": "engineering-phys-2026-27",
+  "name": "Engineering Physics",
+  "listed_title": "Engineering Physics",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Science/Technology/Engr/Math",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "degree_map",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "degree_map",
+  "gpa_min": 2.0,
+  "max_pe_hours": 4,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHSC 1001- Orientation to Physical Science",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Physical Science",
+      "options": [
+        [
+          "PHSC 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2914- Calculus I (ACTS= MATH 2405)",
+      "notes": "Prereq: MATH ACT >26, or C> in MATH 1203/1914",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus I",
+      "options": [
+        [
+          "MATH 2914"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 1013/1011- Programming Foundations I and lab",
+      "notes": "Prereq: MATH 1113 or higher",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming Foundations I + Programming Foundations I Lab",
+      "options": [
+        [
+          "COMS 1013",
+          "COMS 1011"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "CHEM 2124/2120- General Chemistry I and lab",
+      "notes": "Prereq: MATH ACT >21, or C> in MATH 1113 or CHEM",
+      "warnings": [],
+      "kind": "course",
+      "label": "General Chemistry I + General Chemistry I Lab",
+      "options": [
+        [
+          "CHEM 2124",
+          "CHEM 2120"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHSC 1011- Orientation to Physical Science II",
+      "notes": "No substitutions allowed",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Physical Science II",
+      "options": [
+        [
+          "PHSC 1011"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2924- Calculus II (ACTS= MATH2505)",
+      "notes": "Prereq: C> in MATH 2914",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus II",
+      "options": [
+        [
+          "MATH 2924"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 2023- Engineering Materials",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Engineering Materials",
+      "options": [
+        [
+          "MCEG 2023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 2114/2000 -Calculus-Based Physics I and lab",
+      "notes": "Coreq: MATH 2914 & PHYS 2000",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus-Based Physics I + Physics Laboratory I",
+      "options": [
+        [
+          "PHYS 2114",
+          "PHYS 2000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "Attend Career fairs on campus",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 2124/2010- Calculus-Based Physics II and lab",
+      "notes": "Prereq or Coreq: MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus-Based Physics II + Physics Laboratory II",
+      "options": [
+        [
+          "PHYS 2124",
+          "PHYS 2010"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 2934- Calculus III (ACTS= MATH 2603)",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Calculus III",
+      "options": [
+        [
+          "MATH 2934"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 2013- Statics",
+      "notes": "Prereq: MATH 2924 & PHYS 2114",
+      "warnings": [],
+      "kind": "course",
+      "label": "Statics",
+      "options": [
+        [
+          "MCEG 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2203- Programming Foundations II",
+      "notes": "Prereq: C> in COMS 1013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming Foundations II",
+      "options": [
+        [
+          "COMS 2203"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts/Humanities",
+      "notes": "Meet with faculty advisor about interships",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2103- Electric Circuits I",
+      "notes": "Prereq: C> in MATH 2924",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electric Circuits I",
+      "options": [
+        [
+          "ELEG 2103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 2033- Dynamics",
+      "notes": "Prereq: MCEG 2013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Dynamics",
+      "options": [
+        [
+          "MCEG 2033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MATH 3243- Differential Equations I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Differential Equations I",
+      "options": [
+        [
+          "MATH 3243"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3213- Modern Physics",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Modern Physics",
+      "options": [
+        [
+          "PHYS 3213"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts/Humanities",
+      "notes": "Work on resume for interships",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2113- Electric Circuits II",
+      "notes": "Prereq: C> in ELEG 2103 & MATH 3243",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electric Circuits II",
+      "options": [
+        [
+          "ELEG 2113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG 2111- Electric Circuits Lab",
+      "notes": "Coreq: ELEG 2113",
+      "warnings": [],
+      "kind": "course",
+      "label": "Electric Circuits Laboratory",
+      "options": [
+        [
+          "ELEG 2111"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3023- Mechanics or PHYS 4013- Quantum Mechanics",
+      "notes": "PHYS 3023 offered in even fall semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mechanics",
+      "options": [
+        [
+          "PHYS 3023"
+        ],
+        [
+          "PHYS 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3133- Elec/Magnet or PHYS 4023- Computational Phys",
+      "notes": "PHYS 3133 offered in even fall semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory of Electricity and Magnetism",
+      "options": [
+        [
+          "PHYS 3133"
+        ],
+        [
+          "PHYS 4023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r6",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "COMS 2323- Programming in Python",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Programming in Python",
+      "options": [
+        [
+          "COMS 2323"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "US History/ Government",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3003- Optics or PHYS 4113- Advanced Physics Lab",
+      "notes": "PHYS 3003 offered in even spring semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Optics",
+      "options": [
+        [
+          "PHYS 3003"
+        ],
+        [
+          "PHYS 4113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 4213 - Adv Topic/ Physic/ Astrono (or UD MATH ) or PHYS 4003- Thermodynam/ Stat Mech",
+      "notes": "Math Elective Exclude: MATH 3003, 3033, 4113",
+      "warnings": [],
+      "kind": "course",
+      "label": "Advanced Topics in Physics and Astronomy",
+      "options": [
+        [
+          "PHYS 4213"
+        ],
+        [
+          "PHYS 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 3013- Mechanics of Materials",
+      "notes": "Prereq: MCEG 2013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mechanics of Materials",
+      "options": [
+        [
+          "MCEG 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 3313- Thermodynamics I",
+      "notes": "Prereq: MATH 2924 & PHYS 2114",
+      "warnings": [],
+      "kind": "course",
+      "label": "Thermodynamics I",
+      "options": [
+        [
+          "MCEG 3313"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 4403- Mechanics of Fluids and Hydraulics",
+      "notes": "Prereq: MCEG 2033, 3313, & MATH 3243",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mechanics of Fluids and Hydraulics",
+      "options": [
+        [
+          "MCEG 4403"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3023- Mechanics or PHYS 4013- Quantum Mechanics",
+      "notes": "PHYS 3023 offered in even fall semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mechanics",
+      "options": [
+        [
+          "PHYS 3023"
+        ],
+        [
+          "PHYS 4013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3133- Elec/Magnet or PHYS 4023- Computational Phys",
+      "notes": "PHYS 3133 offered in even fall semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory of Electricity and Magnetism",
+      "options": [
+        [
+          "PHYS 3133"
+        ],
+        [
+          "PHYS 4023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 4202 -Engineering Design",
+      "notes": "Prereq: Jr Standing and MCEG 3013",
+      "warnings": [],
+      "kind": "course",
+      "label": "Engineering Design",
+      "options": [
+        [
+          "MCEG 4202"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ELEG",
+            "MCEG",
+            "COMS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 3003- Optics or PHYS 4113- Advanced Physics Lab",
+      "notes": "PHYS 4113 offered in odd Spring semesters",
+      "warnings": [],
+      "kind": "course",
+      "label": "Optics",
+      "options": [
+        [
+          "PHYS 3003"
+        ],
+        [
+          "PHYS 4113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 4213 - Adv Topic/ Physic/ Astrono (or UD MATH ) or PHYS 4003- Thermodynam/ Stat Mech",
+      "notes": "Graduation Requirements: Min. hours 3000-4000 level courses: 40",
+      "warnings": [],
+      "kind": "course",
+      "label": "Advanced Topics in Physics and Astronomy",
+      "options": [
+        [
+          "PHYS 4213"
+        ],
+        [
+          "PHYS 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r3",
+      "map_semester": 8,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "PHYS 4061- Engineering Physics Design",
+      "notes": "No more than 4 PE activity hours",
+      "warnings": [],
+      "kind": "course",
+      "label": "Engineering Physics Design",
+      "options": [
+        [
+          "PHYS 4061"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r4",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MCEG 4443 -Heat Transfer",
+      "notes": "Min. hours required: 120",
+      "warnings": [],
+      "kind": "course",
+      "label": "Heat Transfer",
+      "options": [
+        [
+          "MCEG 4443"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r5",
+      "map_semester": 8,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+      "notes": "2.00+ GPA",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ELEG",
+            "MCEG",
+            "COMS"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Orientation to Physical Science",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Calculus I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Programming Foundations I + Programming Foundations I Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "General Chemistry I + General Chemistry I Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Orientation to Physical Science II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Calculus II",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Engineering Materials",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Calculus-Based Physics I + Physics Laboratory I",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Calculus-Based Physics II + Physics Laboratory II",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Calculus III",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Statics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Programming Foundations II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Electric Circuits I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Dynamics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Differential Equations I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Modern Physics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Electric Circuits II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Electric Circuits Laboratory",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Mechanics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Theory of Electricity and Magnetism",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r6",
+          "label": "Programming in Python",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Optics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Advanced Topics in Physics and Astronomy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Mechanics of Materials",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Thermodynamics I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "14",
+      "stated_total_min": 14.0,
+      "stated_total_max": 14.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Mechanics of Fluids and Hydraulics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Mechanics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Theory of Electricity and Magnetism",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Engineering Design",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Optics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Advanced Topics in Physics and Astronomy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r3",
+          "label": "Engineering Physics Design",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r4",
+          "label": "Heat Transfer",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r5",
+          "label": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 2914"
+  ],
+  "notes": [
+    "Electives: ELEG/MCEG/COMS 5 hours"
+  ],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303____ MATH 0803___ MATH 1003____ MATH 0903____ MATH 1113___ MATH Possible Careers: Engineering (Process and Testing), Research, Quality Control, Development, Instrumentation,",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "MUS 2003",
+      "TH 2273",
+      "ENGL 2173",
+      "JOUR 2173",
+      "ENGL 2003",
+      "ENGL 2013",
+      "PHIL 2003",
+      "PHIL 2053",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "LEAD 2003"
+    ],
+    "us_history_government": [
+      "HIST 1903",
+      "HIST 2003",
+      "HIST 2013",
+      "POLS 2003"
+    ],
+    "social_sciences": [
+      "HIST 1503",
+      "ANTH 1213",
+      "HIST 1513",
+      "ANTH 2003",
+      "HIST 2003",
+      "GEOG 2013",
+      "HIST 2013",
+      "AMST 2003",
+      "HIST 1903",
+      "FIN 2013",
+      "POLS 2003",
+      "LEAD 1003",
+      "ECON 2003",
+      "ECON 2013",
+      "SOC 1003",
+      "PSY 2003"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Engineering Physics",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/EngineeringPhys.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/EngineeringPhys.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "50 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities",
+      "U.S. History & Government",
+      "Social Sciences"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "PHSC 1001- Orientation to Physical Science",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MATH 2914- Calculus I (ACTS= MATH 2405)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": "Prereq: MATH ACT >26, or C> in MATH 1203/1914"
+          },
+          {
+            "text": "COMS 1013/1011- Programming Foundations I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 1113 or higher"
+          },
+          {
+            "text": "CHEM 2124/2120- General Chemistry I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH ACT >21, or C> in MATH 1113 or CHEM"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "PHSC 1011- Orientation to Physical Science II",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "No substitutions allowed"
+          },
+          {
+            "text": "MATH 2924- Calculus II (ACTS= MATH2505)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2914"
+          },
+          {
+            "text": "MCEG 2023- Engineering Materials",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "PHYS 2114/2000 -Calculus-Based Physics I and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Coreq: MATH 2914 & PHYS 2000"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Attend Career fairs on campus"
+          },
+          {
+            "text": "PHYS 2124/2010- Calculus-Based Physics II and lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq or Coreq: MATH 2924"
+          },
+          {
+            "text": "MATH 2934- Calculus III (ACTS= MATH 2603)",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "MCEG 2013- Statics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 2924 & PHYS 2114"
+          },
+          {
+            "text": "COMS 2203- Programming Foundations II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in COMS 1013"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts/Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Meet with faculty advisor about interships"
+          },
+          {
+            "text": "ELEG 2103- Electric Circuits I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in MATH 2924"
+          },
+          {
+            "text": "MCEG 2033- Dynamics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MCEG 2013"
+          },
+          {
+            "text": "MATH 3243- Differential Equations I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "PHYS 3213- Modern Physics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Fine Arts/Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Work on resume for interships"
+          },
+          {
+            "text": "ELEG 2113- Electric Circuits II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: C> in ELEG 2103 & MATH 3243"
+          },
+          {
+            "text": "ELEG 2111- Electric Circuits Lab",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "Coreq: ELEG 2113"
+          },
+          {
+            "text": "PHYS 3023- Mechanics or PHYS 4013- Quantum Mechanics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 3023 offered in even fall semesters"
+          },
+          {
+            "text": "PHYS 3133- Elec/Magnet or PHYS 4023- Computational Phys",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 3133 offered in even fall semesters"
+          },
+          {
+            "text": "COMS 2323- Programming in Python",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "US History/ Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "PHYS 3003- Optics or PHYS 4113- Advanced Physics Lab",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 3003 offered in even spring semesters"
+          },
+          {
+            "text": "PHYS 4213 - Adv Topic/ Physic/ Astrono (or UD MATH ) or PHYS 4003- Thermodynam/ Stat Mech",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Math Elective Exclude: MATH 3003, 3033, 4113"
+          },
+          {
+            "text": "MCEG 3013- Mechanics of Materials",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MCEG 2013"
+          },
+          {
+            "text": "MCEG 3313- Thermodynamics I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MATH 2924 & PHYS 2114"
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "14",
+        "stated_total_min": 14.0,
+        "stated_total_max": 14.0,
+        "rows": [
+          {
+            "text": "MCEG 4403- Mechanics of Fluids and Hydraulics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Prereq: MCEG 2033, 3313, & MATH 3243"
+          },
+          {
+            "text": "PHYS 3023- Mechanics or PHYS 4013- Quantum Mechanics",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 3023 offered in even fall semesters"
+          },
+          {
+            "text": "PHYS 3133- Elec/Magnet or PHYS 4023- Computational Phys",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 3133 offered in even fall semesters"
+          },
+          {
+            "text": "MCEG 4202 -Engineering Design",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "Prereq: Jr Standing and MCEG 3013"
+          },
+          {
+            "text": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "PHYS 3003- Optics or PHYS 4113- Advanced Physics Lab",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "PHYS 4113 offered in odd Spring semesters"
+          },
+          {
+            "text": "PHYS 4213 - Adv Topic/ Physic/ Astrono (or UD MATH ) or PHYS 4003- Thermodynam/ Stat Mech",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Graduation Requirements: Min. hours 3000-4000 level courses: 40"
+          },
+          {
+            "text": "PHYS 4061- Engineering Physics Design",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": false,
+            "notes": "No more than 4 PE activity hours"
+          },
+          {
+            "text": "MCEG 4443 -Heat Transfer",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Min. hours required: 120"
+          },
+          {
+            "text": "ELEG/MCEG/COMS Elective (3000-4000 level)",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": false,
+            "notes": "2.00+ GPA"
+          }
+        ]
+      }
+    ]
+  }
+}

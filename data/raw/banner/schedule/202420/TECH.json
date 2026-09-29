@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "20479",
+    "subject": "TECH",
+    "courseNumber": "1001",
+    "sequenceNumber": "001",
+    "courseTitle": "Orientation to the University",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20487",
+    "subject": "TECH",
+    "courseNumber": "1001",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Orientation to the University",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20490",
+    "subject": "TECH",
+    "courseNumber": "1013",
+    "sequenceNumber": "001",
+    "courseTitle": "Introduction to the University",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20496",
+    "subject": "TECH",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to the University",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20503",
+    "subject": "TECH",
+    "courseNumber": "1013",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Introduction to the University",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "6"
+  }
+]

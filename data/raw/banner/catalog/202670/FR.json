@@ -1,0 +1,98 @@
+[
+  {
+    "subjectCode": "FR",
+    "courseNumber": "1013",
+    "courseTitle": "Beginning French I",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201440",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "1023",
+    "courseTitle": "Beginning French II",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201440",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "2013",
+    "courseTitle": "Intermediate French I",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201440",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "2023",
+    "courseTitle": "Intermediate French II",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201440",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "3113",
+    "courseTitle": "Culture and Civilization",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201150",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "3XXX",
+    "courseTitle": "FRENCH TRANSFER ELECTIVE",
+    "creditHourLow": 1,
+    "creditHourHigh": 15,
+    "creditHourIndicator": "TO",
+    "college": "Not Designated*",
+    "department": "Not Designated",
+    "termEffective": "000000",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "4993",
+    "courseTitle": "Special Problems in French",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201150",
+    "subjectDescription": "French"
+  },
+  {
+    "subjectCode": "FR",
+    "courseNumber": "4XXX",
+    "courseTitle": "FRENCH TRANSFER ELECTIVE",
+    "creditHourLow": 1,
+    "creditHourHigh": 15,
+    "creditHourIndicator": "TO",
+    "college": "Not Designated*",
+    "department": "Not Designated",
+    "termEffective": "000000",
+    "subjectDescription": "French"
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "program": "IB",
+  "status": "unavailable",
+  "note": "ATU's AP and IB course tables are published only on catalog.atu.edu, which could not be reached from the build environment (WAF challenge). They are not guessed; add them to data/manual/ once transcribed. The IB Diploma rule (24 gen-ed hours) is recorded in policies.json.",
+  "source": {
+    "title": "ATU catalog: IB credit",
+    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ib/"
+  },
+  "equivalencies": []
+}

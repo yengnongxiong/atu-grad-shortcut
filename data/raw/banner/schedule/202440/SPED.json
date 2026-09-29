@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40377",
+    "subject": "SPED",
+    "courseNumber": "2023",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Development and Characteristics of Diverse Learners",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40397",
+    "subject": "SPED",
+    "courseNumber": "5003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Characteristics of Children with Exceptionalities",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40405",
+    "subject": "SPED",
+    "courseNumber": "5023",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Planning Instruction for Children with Exceptional Learning Needs, Grades K-6",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40407",
+    "subject": "SPED",
+    "courseNumber": "5053",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Planning Instruction for Children with Exceptionalities, 7th - 12th Grades",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40409",
+    "subject": "SPED",
+    "courseNumber": "6033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Working with Families of Children with Exceptional Learning Needs",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": null
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40116",
+    "subject": "POLS",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "American Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40037",
+    "subject": "POLS",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC2",
+    "courseTitle": "American Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40038",
+    "subject": "POLS",
+    "courseNumber": "3033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "American State and Local Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40457",
+    "subject": "POLS",
+    "courseNumber": "4971",
+    "sequenceNumber": "001",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "4"
+  }
+]

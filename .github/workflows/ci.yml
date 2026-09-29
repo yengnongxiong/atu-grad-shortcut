@@ -1,0 +1,89 @@
+name: CI
+
+on:
+  push:
+    branches: [main, "claude/**"]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  backend:
+    name: Backend (ruff, mypy, pytest)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: backend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - name: Install
+        run: uv sync --frozen
+      - name: Ruff
+        run: |
+          uv run ruff check .
+          uv run ruff format --check .
+      - name: Mypy
+        run: uv run mypy
+      - name: Pytest (unit, pipeline fixtures, acceptance A1-A9, personas)
+        run: uv run pytest -q
+      - name: Rebuild processed data offline and check it is unchanged
+        # The committed data must be exactly what the pipeline code produces (only timestamps differ).
+        run: |
+          uv run python -m pipeline.build --offline
+          git diff --stat --exit-code -- ../data/processed ':!../data/processed/meta.json'
+
+  frontend:
+    name: Frontend (eslint, tsc, vitest, build)
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: frontend
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: npm ci
+      - run: npx eslint .
+      - run: npx tsc -b --noEmit
+      - run: npx vitest run
+      - run: npm run build
+
+  serve:
+    name: One process serves app + API (A10)
+    runs-on: ubuntu-latest
+    needs: [backend, frontend]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+        with:
+          python-version: "3.12"
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - run: cd frontend && npm ci && npm run build
+      - run: cd backend && uv sync --frozen && uv run pytest -q tests/acceptance/test_a10_serve.py
+        env:
+          SHORTCUT_REQUIRE_FRONTEND: "1"
+
+  docker:
+    name: Docker image builds and serves
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t shortcut .
+      - name: Run the image and hit the API and app
+        run: |
+          docker run -d --name shortcut -p 8000:8000 shortcut
+          for i in $(seq 1 30); do curl -fsS http://127.0.0.1:8000/api/health && break; sleep 1; done
+          curl -fsS http://127.0.0.1:8000/api/personas > /dev/null
+          curl -fsS http://127.0.0.1:8000/ | grep -q '<div id="root">'
+          docker rm -f shortcut

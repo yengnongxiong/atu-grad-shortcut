@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40158",
+    "subject": "TH",
+    "courseNumber": "2273",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Theatre",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40451",
+    "subject": "TH",
+    "courseNumber": "4993",
+    "sequenceNumber": "001",
+    "courseTitle": "SP: PRACTICAL THEATRE",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "2"
+  }
+]

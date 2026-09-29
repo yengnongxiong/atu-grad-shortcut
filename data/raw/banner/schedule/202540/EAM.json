@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40151",
+    "subject": "EAM",
+    "courseNumber": "4203",
+    "sequenceNumber": "081",
+    "courseTitle": "Externship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Apprenticeship/Externship",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40146",
+    "subject": "EAM",
+    "courseNumber": "4506",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 6,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40147",
+    "subject": "EAM",
+    "courseNumber": "4603",
+    "sequenceNumber": "081",
+    "courseTitle": "Capstone",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Apprenticeship/Externship",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40148",
+    "subject": "EAM",
+    "courseNumber": "4993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SP:CASE STUDIES IN EM",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

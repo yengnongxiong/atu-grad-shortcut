@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40321",
+    "subject": "HA",
+    "courseNumber": "4114",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  },
+  {
+    "courseReferenceNumber": "40471",
+    "subject": "HA",
+    "courseNumber": "4114",
+    "sequenceNumber": "082",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "3"
+  }
+]

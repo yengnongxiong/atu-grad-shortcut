@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "40166",
+    "subject": "MATH",
+    "courseNumber": "1113",
+    "sequenceNumber": "A01",
+    "courseTitle": "College Algebra",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40135",
+    "subject": "MATH",
+    "courseNumber": "1113",
+    "sequenceNumber": "TC1",
+    "courseTitle": "College Algebra",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40163",
+    "subject": "MATH",
+    "courseNumber": "1914",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Precalculus",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40405",
+    "subject": "MATH",
+    "courseNumber": "2914",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Calculus I",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

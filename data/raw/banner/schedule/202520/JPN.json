@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20684",
+    "subject": "JPN",
+    "courseNumber": "1013",
+    "sequenceNumber": "F01",
+    "courseTitle": "Beginning Japanese I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Hyflex Scheduling Section",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20685",
+    "subject": "JPN",
+    "courseNumber": "1023",
+    "sequenceNumber": "001",
+    "courseTitle": "Beginning Japanese II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20686",
+    "subject": "JPN",
+    "courseNumber": "2023",
+    "sequenceNumber": "001",
+    "courseTitle": "Intermediate Japanese II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20687",
+    "subject": "JPN",
+    "courseNumber": "4993",
+    "sequenceNumber": "001",
+    "courseTitle": "SP IN JAPANESE: POP CULTURE",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

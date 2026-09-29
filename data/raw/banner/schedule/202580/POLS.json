@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "80011",
+    "subject": "POLS",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "American Government",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

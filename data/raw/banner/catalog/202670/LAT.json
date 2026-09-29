@@ -1,0 +1,26 @@
+[
+  {
+    "subjectCode": "LAT",
+    "courseNumber": "1013",
+    "courseTitle": "Beginning Latin I",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201150",
+    "subjectDescription": "Latin"
+  },
+  {
+    "subjectCode": "LAT",
+    "courseNumber": "1023",
+    "courseTitle": "Beginning Latin II",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Arts and Humanities",
+    "department": "English and World Languages",
+    "termEffective": "201150",
+    "subjectDescription": "Latin"
+  }
+]

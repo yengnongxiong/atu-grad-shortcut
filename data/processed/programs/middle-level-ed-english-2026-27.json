@@ -1,0 +1,1677 @@
+{
+  "id": "middle-level-ed-english-2026-27",
+  "name": "Middle Level Education- English/Language Arts (4th-8th Grade Licensure)",
+  "listed_title": "Middle Level Education - English/Language Arts",
+  "degree": "Bachelor of Science",
+  "degree_abbr": "BS",
+  "is_bachelor": true,
+  "college": "Education and Health",
+  "catalog_year": "2026-27",
+  "revision": "4.10.26",
+  "total_hours_min": 120,
+  "total_hours_source": "policy_default",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "policy_default",
+  "gpa_min": 2.7,
+  "max_pe_hours": null,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST 1503- World History to 1500 (ACTS=HIST1113)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "World History to 1500",
+      "options": [
+        [
+          "HIST 1503"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "BIOL 1014- Intro to Biological Science",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Biological Science",
+      "options": [
+        [
+          "BIOL 1014"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "*MATH 1113- College Algebra (ACTS -MATH1103) or higher",
+      "notes": "Required for admission to Stage II",
+      "warnings": [
+        "alternative without a course code: higher"
+      ],
+      "kind": "course",
+      "label": "College Algebra",
+      "options": [
+        [
+          "MATH 1113"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts and Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "PHIL 2003",
+          "MUS 2003",
+          "PHIL 2053",
+          "TH 2273",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "ENGL 2173",
+          "JOUR 2173",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "ENGL 2003",
+          "LEAD 2003",
+          "ENGL 2013"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "EDFD 1001 -Orientation to Teaching K-12",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Teaching K-12",
+      "options": [
+        [
+          "EDFD 1001"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST1513- World History since 1500 (ACTS=HIST1123)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "World History since 1500",
+      "options": [
+        [
+          "HIST 1513"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "PHSC 1013/1021- Introduction to Physical Science w/ lab",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Physical Science + Physical Science Laboratory",
+      "options": [
+        [
+          "PHSC 1013",
+          "PHSC 1021"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MATH 2033- Mathematical Concepts I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Mathematical Concepts I",
+      "options": [
+        [
+          "MATH 2033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 2003- Education as a Profession",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Education as a Profession",
+      "options": [
+        [
+          "MLED 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "English Elective (2000-4000 Level)",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "English Elective (2000-4000 Level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 2000,
+          "max_level": 4000,
+          "subjects": [
+            "ENGL"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST 2003- United States History to 1877 (ACTS=HIST2113)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "United States History to 1877",
+      "options": [
+        [
+          "HIST 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMM 2003 -Public Speaking",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Public Speaking",
+      "options": [
+        [
+          "COMM 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 2233 -Introduction to Fiction",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Fiction",
+      "options": [
+        [
+          "ENGL 2233"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 2043 -Intro to Creative Writing (ACTS=ENGL2013)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Creative Writing",
+      "options": [
+        [
+          "ENGL 2043"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "PHIL 2003",
+          "MUS 2003",
+          "PHIL 2053",
+          "TH 2273",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "ENGL 2173",
+          "JOUR 2173",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "ENGL 2003",
+          "LEAD 2003",
+          "ENGL 2013"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "POLS 2003 - American Government (ACTS=PLSC2003)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "American Government",
+      "options": [
+        [
+          "POLS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "EDMD 2013 - Integrating Instructional Technology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Integrating Instructional Technology",
+      "options": [
+        [
+          "EDMD 2013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 2063 -Introduction to Literary Studies",
+      "notes": "Apply for Admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Literary Studies",
+      "options": [
+        [
+          "ENGL 2063"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "English Elective (3000-4000 Level)",
+      "notes": "2.70+ GPA REQUIRED",
+      "warnings": [],
+      "kind": "bucket",
+      "label": "English Elective (3000-4000 Level)",
+      "bucket": {
+        "category": "elective",
+        "codes": [],
+        "rule": {
+          "min_level": 3000,
+          "max_level": 4000,
+          "subjects": [
+            "ENGL"
+          ],
+          "approved": false,
+          "general": false
+        },
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 4703 - Teaching English as a Second Language",
+      "notes": "Recommended to take in semester 7",
+      "warnings": [],
+      "kind": "course",
+      "label": "Teaching English as a Second Language",
+      "options": [
+        [
+          "ENGL 4703"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3063 -Tests & Educational Measurements",
+      "notes": "Attend a career fair or networking event",
+      "warnings": [],
+      "kind": "course",
+      "label": "Tests &amp; Educational Measurements",
+      "options": [
+        [
+          "MLED 3063"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3023 -Psych Found for Nature/Needs of ML Students",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Psychological Foundations for the Nature and Needs of Middle Level Students",
+      "options": [
+        [
+          "MLED 3023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3033 -Literacy Development in the Middle Grades",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Literacy Development in the Middle Grades",
+      "options": [
+        [
+          "MLED 3033"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 3223- Young Adult Literature",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Young Adult Literature",
+      "options": [
+        [
+          "ENGL 3223"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "HIST 2153 -Introduction to Arkansas History",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Arkansas History",
+      "options": [
+        [
+          "HIST 2153"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3103- Writing in Content Areas",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Writing in the Content Area",
+      "options": [
+        [
+          "MLED 3103"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3073 -Diversity in the Classroom",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Students with Exceptionalities in the Classroom",
+      "options": [
+        [
+          "MLED 3073"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 3013 -Systems of Grammar",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Systems of Grammar",
+      "options": [
+        [
+          "ENGL 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Macroeconomics",
+      "options": [
+        [
+          "ECON 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 4003 -Middle Level Curriculum and Pedagogy",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Middle Level Curriculum and Pedagogy",
+      "options": [
+        [
+          "MLED 4003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 4023- Residency A Seminar",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency A Seminar",
+      "options": [
+        [
+          "MLED 4023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 2223 -Introduction to Poetry",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Introduction to Poetry",
+      "options": [
+        [
+          "ENGL 2223"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 3013- Research Foundations",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "course",
+      "label": "Research Foundations",
+      "options": [
+        [
+          "MLED 3013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 4733 -Teaching English in the Secondary School",
+      "notes": "Recommended to take in semester 5",
+      "warnings": [],
+      "kind": "course",
+      "label": "Teaching English in the Secondary School",
+      "options": [
+        [
+          "ENGL 4733"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 9.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 4909- Residency B",
+      "notes": "MUST BE ADMITTED",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B",
+      "options": [
+        [
+          "MLED 4909"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MLED 4903 -Residency B Seminar",
+      "notes": "TO INTERNSHIP",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B Seminar",
+      "options": [
+        [
+          "MLED 4903"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "World History to 1500",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Introduction to Biological Science",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "College Algebra",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Orientation to Teaching K-12",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "World History since 1500",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Introduction to Physical Science + Physical Science Laboratory",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Mathematical Concepts I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Education as a Profession",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "English Elective (2000-4000 Level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "United States History to 1877",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Public Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Introduction to Fiction",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Introduction to Creative Writing",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "American Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Integrating Instructional Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Introduction to Literary Studies",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "English Elective (3000-4000 Level)",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "Teaching English as a Second Language",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Tests &amp; Educational Measurements",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Psychological Foundations for the Nature and Needs of Middle Level Students",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Literacy Development in the Middle Grades",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Young Adult Literature",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Introduction to Arkansas History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Writing in the Content Area",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Students with Exceptionalities in the Classroom",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Systems of Grammar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Principles of Macroeconomics",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Middle Level Curriculum and Pedagogy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Residency A Seminar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Introduction to Poetry",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Research Foundations",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Teaching English in the Secondary School",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Residency B",
+          "hours": 9.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Residency B Seminar",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "BIOL 1014",
+    "COMM 2003",
+    "ECON 2003",
+    "EDFD 1001",
+    "EDMD 2013",
+    "ENGL 1013",
+    "ENGL 1023",
+    "ENGL 2043",
+    "ENGL 2063",
+    "ENGL 2223",
+    "ENGL 2233",
+    "ENGL 3013",
+    "ENGL 3223",
+    "ENGL 4703",
+    "ENGL 4733",
+    "HIST 1503",
+    "HIST 1513",
+    "HIST 2003",
+    "HIST 2153",
+    "MATH 1113",
+    "MATH 2033",
+    "MLED 2003",
+    "MLED 3013",
+    "MLED 3023",
+    "MLED 3033",
+    "MLED 3063",
+    "MLED 3073",
+    "MLED 3103",
+    "MLED 4003",
+    "MLED 4023",
+    "MLED 4903",
+    "MLED 4909",
+    "PHSC 1013",
+    "PHSC 1021",
+    "POLS 2003"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____MATH 0903_____ MATH 1110_____",
+  "gen_ed_lists": {
+    "fine_arts_humanities": [
+      "ART 2123",
+      "PHIL 2003",
+      "MUS 2003",
+      "PHIL 2053",
+      "TH 2273",
+      "SPAN 1013",
+      "FR 1013",
+      "GER 1013",
+      "JPN 1013",
+      "CHIN 1013",
+      "LAT 1013",
+      "ENGL 2173",
+      "JOUR 2173",
+      "SPAN 1023",
+      "FR 1023",
+      "GER 1023",
+      "JPN 1023",
+      "CHIN 1023",
+      "LAT 1023",
+      "ENGL 2003",
+      "LEAD 2003",
+      "ENGL 2013"
+    ]
+  },
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Middle Level Education - English/Language Arts",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/MiddleLevelEdEnglish.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/MiddleLevelEdEnglish.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 120 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "low-confidence prerequisite parse: MLED 3013, MLED 3023, MLED 3033, MLED 3063, MLED 3073, MLED 3103, MLED 4003, MLED 4023, MLED 4909"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "51 upper-division hours required + 3 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [
+      "Fine Arts and Humanities"
+    ],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "HIST 1503- World History to 1500 (ACTS=HIST1113)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "BIOL 1014- Intro to Biological Science",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "*MATH 1113- College Algebra (ACTS -MATH1103) or higher",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "Fine Arts and Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "EDFD 1001 -Orientation to Teaching K-12",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "HIST1513- World History since 1500 (ACTS=HIST1123)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "PHSC 1013/1021- Introduction to Physical Science w/ lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MATH 2033- Mathematical Concepts I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 2003- Education as a Profession",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "English Elective (2000-4000 Level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "HIST 2003- United States History to 1877 (ACTS=HIST2113)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "COMM 2003 -Public Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "ENGL 2233 -Introduction to Fiction",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 2043 -Intro to Creative Writing (ACTS=ENGL2013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "POLS 2003 - American Government (ACTS=PLSC2003)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "EDMD 2013 - Integrating Instructional Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 2063 -Introduction to Literary Studies",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Apply for Admission to Stage II"
+          },
+          {
+            "text": "English Elective (3000-4000 Level)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "2.70+ GPA REQUIRED"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "ENGL 4703 - Teaching English as a Second Language",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take in semester 7"
+          },
+          {
+            "text": "MLED 3063 -Tests & Educational Measurements",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Attend a career fair or networking event"
+          },
+          {
+            "text": "MLED 3023 -Psych Found for Nature/Needs of ML Students",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 3033 -Literacy Development in the Middle Grades",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 3223- Young Adult Literature",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "HIST 2153 -Introduction to Arkansas History",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 3103- Writing in Content Areas",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 3073 -Diversity in the Classroom",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 3013 -Systems of Grammar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ECON 2003- Principles of Macroeconomics (ACTS=ECON2103)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "MLED 4003 -Middle Level Curriculum and Pedagogy",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 4023- Residency A Seminar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "ENGL 2223 -Introduction to Poetry",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MLED 3013- Research Foundations",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Finalize résumé, cover letter, and references"
+          },
+          {
+            "text": "ENGL 4733 -Teaching English in the Secondary School",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Recommended to take in semester 5"
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "MLED 4909- Residency B",
+            "hours_text": "9",
+            "hours_min": 9.0,
+            "hours_max": 9.0,
+            "grade_c": true,
+            "notes": "MUST BE ADMITTED"
+          },
+          {
+            "text": "MLED 4903 -Residency B Seminar",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "TO INTERNSHIP"
+          }
+        ]
+      }
+    ]
+  }
+}

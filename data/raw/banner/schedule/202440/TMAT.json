@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40163",
+    "subject": "TMAT",
+    "courseNumber": "1203",
+    "sequenceNumber": "M01",
+    "courseTitle": "Technical Mathematics",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Ozark",
+    "instructionalMethodDescription": "50 to 99 pct. Content Online",
+    "partOfTerm": "2"
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "courseReferenceNumber": "40338",
+    "subject": "BDA",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Business Problem Solving",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

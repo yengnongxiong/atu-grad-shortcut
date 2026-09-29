@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "80006",
+    "subject": "SOC",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introductory Sociology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "80004",
+    "subject": "SOC",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Social Problems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

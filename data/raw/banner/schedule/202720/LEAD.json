@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "20201",
+    "subject": "LEAD",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20202",
+    "subject": "LEAD",
+    "courseNumber": "1003",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Introduction to Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20203",
+    "subject": "LEAD",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Ethics in Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "20197",
+    "subject": "LEAD",
+    "courseNumber": "2013",
+    "sequenceNumber": "H01",
+    "courseTitle": "Honors Ethics in Leadership",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

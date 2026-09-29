@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40283",
+    "subject": "FIN",
+    "courseNumber": "3063",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Business Finance",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40284",
+    "subject": "FIN",
+    "courseNumber": "6103",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Corporate Financial Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

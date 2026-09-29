@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40155",
+    "subject": "JOUR",
+    "courseNumber": "2173",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Introduction to Film",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40258",
+    "subject": "JOUR",
+    "courseNumber": "2173",
+    "sequenceNumber": "TC2",
+    "courseTitle": "Introduction to Film",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40159",
+    "subject": "JOUR",
+    "courseNumber": "4053",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SEM: MEDIA AND CULTURE",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40408",
+    "subject": "JOUR",
+    "courseNumber": "4092",
+    "sequenceNumber": "081",
+    "courseTitle": "Internship",
+    "creditHours": null,
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40160",
+    "subject": "JOUR",
+    "courseNumber": "5053",
+    "sequenceNumber": "TC1",
+    "courseTitle": "SEM: MEDIA AND CULTURE",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Seminar",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

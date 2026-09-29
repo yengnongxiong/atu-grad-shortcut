@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "71792",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "001",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71793",
+    "subject": "AGPS",
+    "courseNumber": "1024",
+    "sequenceNumber": "002",
+    "courseTitle": "Principles of Plant Science",
+    "creditHours": null,
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture/Laboratory",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71790",
+    "subject": "AGPS",
+    "courseNumber": "3023",
+    "sequenceNumber": "001",
+    "courseTitle": "Forage Crops and Pasture Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71794",
+    "subject": "AGPS",
+    "courseNumber": "3093",
+    "sequenceNumber": "001",
+    "courseTitle": "Greenhouse Operation and Management",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": null,
+    "partOfTerm": "1"
+  }
+]

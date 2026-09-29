@@ -1,0 +1,44 @@
+[
+  {
+    "courseReferenceNumber": "40279",
+    "subject": "ANTH",
+    "courseNumber": "4953",
+    "sequenceNumber": "M01",
+    "courseTitle": "UR: ARCHAEOLOGICAL FIELD SCH",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40426",
+    "subject": "ANTH",
+    "courseNumber": "4993",
+    "sequenceNumber": "M01",
+    "courseTitle": "SP: FIELD SCHOOL II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": null
+  },
+  {
+    "courseReferenceNumber": "40475",
+    "subject": "ANTH",
+    "courseNumber": "4993",
+    "sequenceNumber": "M02",
+    "courseTitle": "SP: PROCESSING DIGITAL DATA",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Independent Study",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "2"
+  }
+]

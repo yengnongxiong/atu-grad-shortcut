@@ -1,0 +1,2721 @@
+{
+  "id": "music-education-vocal-2026-27",
+  "name": "Vocal Music Education Option",
+  "listed_title": "Music Education - Vocal",
+  "degree": "Bachelor of Arts",
+  "degree_abbr": "BA",
+  "is_bachelor": true,
+  "college": "Arts and Humanities",
+  "catalog_year": "2026-27",
+  "revision": "4.10.2026",
+  "total_hours_min": 120,
+  "total_hours_source": "policy_default",
+  "upper_level_hours_min": 40,
+  "upper_level_source": "policy_default",
+  "gpa_min": 2.7,
+  "max_pe_hours": null,
+  "requirements": [
+    {
+      "id": "s1r1",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition I",
+      "options": [
+        [
+          "ENGL 1013"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r2",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "Mathematics (MATH 1003, 1113, or higher)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [
+        "alternative without a course code: higher)"
+      ],
+      "kind": "course",
+      "label": "Quantitative Literacy",
+      "options": [
+        [
+          "MATH 1003"
+        ]
+      ],
+      "confidence": "medium"
+    },
+    {
+      "id": "s1r3",
+      "map_semester": 1,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r4",
+      "map_semester": 1,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 1232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r5",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1411 -Class Piano OR MUS 1201 -Applied Music-Piano",
+      "notes": "MUS 1201 if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano I",
+      "options": [
+        [
+          "MUS 1411"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r6",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1681 - Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r7",
+      "map_semester": 1,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1713- Theory I",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory I",
+      "options": [
+        [
+          "MUS 1713"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r8",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1731- Ear Training I",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training I",
+      "options": [
+        [
+          "MUS 1731"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r9",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1191 -Vocal Diction",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Vocal Diction",
+      "options": [
+        [
+          "MUS 1191"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s1r10",
+      "map_semester": 1,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1751 -Orientation to Music",
+      "notes": "Draft a résumé and upload it to Handshake",
+      "warnings": [],
+      "kind": "course",
+      "label": "Orientation to Music",
+      "options": [
+        [
+          "MUS 1751"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r1",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Composition II",
+      "options": [
+        [
+          "ENGL 1023"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r2",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "COMM 2003- Public Speaking",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Public Speaking",
+      "options": [
+        [
+          "COMM 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r3",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "",
+      "warnings": [
+        "Social Sciences options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s2r4",
+      "map_semester": 2,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r5",
+      "map_semester": 2,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1232 -Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 1232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r6",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1421 -Class Piano OR MUS 1201 -Applied Music-Piano",
+      "notes": "MUS 1201 if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano II",
+      "options": [
+        [
+          "MUS 1421"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r7",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1681 - Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r8",
+      "map_semester": 2,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1723- Theory II",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory II",
+      "options": [
+        [
+          "MUS 1723"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s2r9",
+      "map_semester": 2,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1741- Ear Training II",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training II",
+      "options": [
+        [
+          "MUS 1741"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r1",
+      "map_semester": 3,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [
+        "Science with Lab options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s3r2",
+      "map_semester": 3,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r3",
+      "map_semester": 3,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 1232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r4",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1431 -Class Piano OR MUS 1201 -Applied Music-Piano",
+      "notes": "MUS 1201 if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano III",
+      "options": [
+        [
+          "MUS 1431"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r5",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1681 - Concert Chorale",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r6",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 2003- Education as a Profession",
+      "notes": "Required for admission to Stage II",
+      "warnings": [],
+      "kind": "course",
+      "label": "Education as a Profession",
+      "options": [
+        [
+          "SEED 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r7",
+      "map_semester": 3,
+      "hours": 0.0,
+      "hours_max": 1.0,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3481- Stringed Instruments",
+      "notes": "See note 2",
+      "warnings": [],
+      "kind": "course",
+      "label": "Stringed Instruments",
+      "options": [
+        [
+          "MUS 3481"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r8",
+      "map_semester": 3,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2713- Theory III",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory III",
+      "options": [
+        [
+          "MUS 2713"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s3r9",
+      "map_semester": 3,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2731- Ear Training III",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training III",
+      "options": [
+        [
+          "MUS 2731"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r1",
+      "map_semester": 4,
+      "hours": 4.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Science with Lab",
+      "notes": "",
+      "warnings": [
+        "Science with Lab options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Science with Lab",
+      "bucket": {
+        "category": "science_with_lab",
+        "codes": [
+          "BIOL 1014",
+          "BIOL 1004",
+          "PHSC 1004",
+          "GEOL 1014"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s4r2",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2003- Survey of Music History",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Survey of Music History",
+      "options": [
+        [
+          "MUS 2003"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r3",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 1000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 1000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r4",
+      "map_semester": 4,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 1232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r5",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1441 -Class Piano OR MUS 1201 -Applied Music-Piano",
+      "notes": "MUS 1201 if piano proficient",
+      "warnings": [],
+      "kind": "course",
+      "label": "Class Piano IV",
+      "options": [
+        [
+          "MUS 1441"
+        ],
+        [
+          "MUS 1201"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r6",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1681 - Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 1681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r7",
+      "map_semester": 4,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2723- Theory IV",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Theory IV",
+      "options": [
+        [
+          "MUS 2723"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r8",
+      "map_semester": 4,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2741- Ear Training IV",
+      "notes": "Offered Spring Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Ear Training IV",
+      "options": [
+        [
+          "MUS 2741"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r9",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": 1.0,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3401 -Brass Instruments or MUS 3421 WW Dbl Reeds",
+      "notes": "See note 2",
+      "warnings": [],
+      "kind": "course",
+      "label": "Brass Instruments",
+      "options": [
+        [
+          "MUS 3401"
+        ],
+        [
+          "MUS 3421"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r10",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 1440- Piano Proficiency",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Piano Proficiency",
+      "options": [
+        [
+          "MUS 1440"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s4r11",
+      "map_semester": 4,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2000 - Applied Competency",
+      "notes": "2.70+ GPA Required",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Competency",
+      "options": [
+        [
+          "MUS 2000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r1",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "U.S. History/Government",
+      "notes": "Required for admission to Stage II",
+      "warnings": [
+        "U.S. History & Government options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "U.S. History & Government",
+      "bucket": {
+        "category": "us_history_government",
+        "codes": [
+          "HIST 1903",
+          "HIST 2003",
+          "HIST 2013",
+          "POLS 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s5r2",
+      "map_semester": 5,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 3000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r3",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 3232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r4",
+      "map_semester": 5,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3681 - Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 3681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r5",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 2703- Music Technology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Music Technology",
+      "options": [
+        [
+          "MUS 2703"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r6",
+      "map_semester": 5,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3762- Instrumental and Choral Arranging",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Instrumental and Choral Arranging",
+      "options": [
+        [
+          "MUS 3762"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r7",
+      "map_semester": 5,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3773- History of Music I",
+      "notes": "Offered Fall Only",
+      "warnings": [],
+      "kind": "course",
+      "label": "History of Music I",
+      "options": [
+        [
+          "MUS 3773"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r8",
+      "map_semester": 5,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3801- Principles of Conducting",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Principles of Conducting",
+      "options": [
+        [
+          "MUS 3801"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s5r9",
+      "map_semester": 5,
+      "hours": 0.0,
+      "hours_max": 1.0,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3431- Woodwind Instruments, Single Reeds",
+      "notes": "See note 2",
+      "warnings": [],
+      "kind": "course",
+      "label": "Woodwind Instruments, Single Reeds",
+      "options": [
+        [
+          "MUS 3431"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r1",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 2113 -Human Development & Learning",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Human Development and Learning Theories",
+      "options": [
+        [
+          "SEED 2113"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r2",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 4832- Vocal Pedagogy",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Vocal Pedagogy",
+      "options": [
+        [
+          "MUS 4832"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r3",
+      "map_semester": 6,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "MUS 3000- Recital Attendance",
+      "notes": "Pass/fail",
+      "warnings": [],
+      "kind": "course",
+      "label": "Recital Attendance",
+      "options": [
+        [
+          "MUS 3000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r4",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3191- Vocal Solo Literature",
+      "notes": "Offered Spring only",
+      "warnings": [],
+      "kind": "course",
+      "label": "Vocal Solo Literature",
+      "options": [
+        [
+          "MUS 3191"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r5",
+      "map_semester": 6,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 3232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r6",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3681 -Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 3681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r7",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3853- Music in the Elementary Classroom",
+      "notes": "Prereqs: SEED2003, MUS2723, Piano Exit Exam",
+      "warnings": [],
+      "kind": "course",
+      "label": "Music in the Elementary Classroom",
+      "options": [
+        [
+          "MUS 3853"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r8",
+      "map_semester": 6,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3783- History of Music II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "History of Music II",
+      "options": [
+        [
+          "MUS 3783"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r9",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3901- Secondary Music Methods and Materials I",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Secondary Music Methods and Materials I",
+      "options": [
+        [
+          "MUS 3901"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s6r10",
+      "map_semester": 6,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 4801 -Advanced Conducting",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Advanced Conducting",
+      "options": [
+        [
+          "MUS 4801"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r1",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Fine Arts & Humanities",
+      "notes": "Complete a senior check-in with Career Services",
+      "warnings": [
+        "Fine Arts & Humanities options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Fine Arts & Humanities",
+      "bucket": {
+        "category": "fine_arts_humanities",
+        "codes": [
+          "ART 2123",
+          "MUS 2003",
+          "TH 2273",
+          "ENGL 2173",
+          "JOUR 2173",
+          "ENGL 2003",
+          "ENGL 2013",
+          "PHIL 2003",
+          "PHIL 2053",
+          "SPAN 1013",
+          "FR 1013",
+          "GER 1013",
+          "JPN 1013",
+          "CHIN 1013",
+          "LAT 1013",
+          "SPAN 1023",
+          "FR 1023",
+          "GER 1023",
+          "JPN 1023",
+          "CHIN 1023",
+          "LAT 1023",
+          "LEAD 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r2",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": null,
+      "raw_text": "Social Sciences",
+      "notes": "",
+      "warnings": [
+        "Social Sciences options not listed on this map; using the common list"
+      ],
+      "kind": "bucket",
+      "label": "Social Sciences",
+      "bucket": {
+        "category": "social_sciences",
+        "codes": [
+          "HIST 1503",
+          "ANTH 1213",
+          "HIST 1513",
+          "ANTH 2003",
+          "HIST 2003",
+          "GEOG 2013",
+          "HIST 2013",
+          "AMST 2003",
+          "HIST 1903",
+          "FIN 2013",
+          "POLS 2003",
+          "LEAD 1003",
+          "ECON 2003",
+          "ECON 2013",
+          "SOC 1003",
+          "PSY 2003"
+        ],
+        "rule": null,
+        "recommended": []
+      },
+      "confidence": "high"
+    },
+    {
+      "id": "s7r3",
+      "map_semester": 7,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3232- Applied Music- Voice",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Applied Music - Voice",
+      "options": [
+        [
+          "MUS 3232"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r4",
+      "map_semester": 7,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 3681 -Concert Chorale",
+      "notes": "See note 1",
+      "warnings": [],
+      "kind": "course",
+      "label": "Concert Chorale",
+      "options": [
+        [
+          "MUS 3681"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r5",
+      "map_semester": 7,
+      "hours": 0.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 4000- Capstone Recital",
+      "notes": "Finalize résumé, cover letter, and references",
+      "warnings": [],
+      "kind": "course",
+      "label": "Capstone Recital",
+      "options": [
+        [
+          "MUS 4000"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r6",
+      "map_semester": 7,
+      "hours": 2.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SPED 4052 -Educating Diverse and Exceptional Learners",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Educating Diverse and Exceptional Learners",
+      "options": [
+        [
+          "SPED 4052"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r7",
+      "map_semester": 7,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4553 -Classroom Application of Educational Psychology",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Classroom Application of Educational Psychology",
+      "options": [
+        [
+          "SEED 4553"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s7r8",
+      "map_semester": 7,
+      "hours": 1.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "MUS 4901- Secondary Music Methods and Materials II",
+      "notes": "",
+      "warnings": [],
+      "kind": "course",
+      "label": "Secondary Music Methods and Materials II",
+      "options": [
+        [
+          "MUS 4901"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r1",
+      "map_semester": 8,
+      "hours": 3.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4503- Seminar in Secondary Education",
+      "notes": "Graduation Requirements:",
+      "warnings": [],
+      "kind": "course",
+      "label": "Seminar in Secondary Education",
+      "options": [
+        [
+          "SEED 4503"
+        ]
+      ],
+      "confidence": "high"
+    },
+    {
+      "id": "s8r2",
+      "map_semester": 8,
+      "hours": 9.0,
+      "hours_max": null,
+      "hours_source": "degree_map",
+      "min_grade": "C",
+      "raw_text": "SEED 4809- Residency B",
+      "notes": "Min. 122-125 earned hours",
+      "warnings": [],
+      "kind": "course",
+      "label": "Residency B",
+      "options": [
+        [
+          "SEED 4809"
+        ]
+      ],
+      "confidence": "high"
+    }
+  ],
+  "map_schedule": [
+    {
+      "semester": 1,
+      "season": null,
+      "label": "Semester 1",
+      "stated_total": "16",
+      "stated_total_min": 16.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s1r1",
+          "label": "Composition I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r2",
+          "label": "Quantitative Literacy",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r4",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r5",
+          "label": "Class Piano I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r6",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r7",
+          "label": "Theory I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r8",
+          "label": "Ear Training I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r9",
+          "label": "Vocal Diction",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s1r10",
+          "label": "Orientation to Music",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 2,
+      "season": null,
+      "label": "Semester 2",
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s2r1",
+          "label": "Composition II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r2",
+          "label": "Public Speaking",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r3",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r4",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r5",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r6",
+          "label": "Class Piano II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r7",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r8",
+          "label": "Theory II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s2r9",
+          "label": "Ear Training II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 3,
+      "season": null,
+      "label": "Semester 3",
+      "stated_total": "15-16",
+      "stated_total_min": 15.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s3r1",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r2",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r3",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r4",
+          "label": "Class Piano III",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r5",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r6",
+          "label": "Education as a Profession",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r7",
+          "label": "Stringed Instruments",
+          "hours": 0.0,
+          "hours_max": 1.0,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r8",
+          "label": "Theory III",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s3r9",
+          "label": "Ear Training III",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 4,
+      "season": null,
+      "label": "Semester 4",
+      "stated_total": "15-16",
+      "stated_total_min": 15.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s4r1",
+          "label": "Science with Lab",
+          "hours": 4.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r2",
+          "label": "Survey of Music History",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r4",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r5",
+          "label": "Class Piano IV",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r6",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r7",
+          "label": "Theory IV",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r8",
+          "label": "Ear Training IV",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r9",
+          "label": "Brass Instruments",
+          "hours": 0.0,
+          "hours_max": 1.0,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r10",
+          "label": "Piano Proficiency",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s4r11",
+          "label": "Applied Competency",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 5,
+      "season": null,
+      "label": "Semester 5",
+      "stated_total": "15-16",
+      "stated_total_min": 15.0,
+      "stated_total_max": 16.0,
+      "items": [
+        {
+          "requirement_id": "s5r1",
+          "label": "U.S. History & Government",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r2",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r3",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r4",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r5",
+          "label": "Music Technology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r6",
+          "label": "Instrumental and Choral Arranging",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r7",
+          "label": "History of Music I",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r8",
+          "label": "Principles of Conducting",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s5r9",
+          "label": "Woodwind Instruments, Single Reeds",
+          "hours": 0.0,
+          "hours_max": 1.0,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 6,
+      "season": null,
+      "label": "Semester 6",
+      "stated_total": "17",
+      "stated_total_min": 17.0,
+      "stated_total_max": 17.0,
+      "items": [
+        {
+          "requirement_id": "s6r1",
+          "label": "Human Development and Learning Theories",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r2",
+          "label": "Vocal Pedagogy",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r3",
+          "label": "Recital Attendance",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r4",
+          "label": "Vocal Solo Literature",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r5",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r6",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r7",
+          "label": "Music in the Elementary Classroom",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r8",
+          "label": "History of Music II",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r9",
+          "label": "Secondary Music Methods and Materials I",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s6r10",
+          "label": "Advanced Conducting",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 7,
+      "season": null,
+      "label": "Semester 7",
+      "stated_total": "15",
+      "stated_total_min": 15.0,
+      "stated_total_max": 15.0,
+      "items": [
+        {
+          "requirement_id": "s7r1",
+          "label": "Fine Arts & Humanities",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r2",
+          "label": "Social Sciences",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r3",
+          "label": "Applied Music - Voice",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r4",
+          "label": "Concert Chorale",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r5",
+          "label": "Capstone Recital",
+          "hours": 0.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r6",
+          "label": "Educating Diverse and Exceptional Learners",
+          "hours": 2.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r7",
+          "label": "Classroom Application of Educational Psychology",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s7r8",
+          "label": "Secondary Music Methods and Materials II",
+          "hours": 1.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    },
+    {
+      "semester": 8,
+      "season": null,
+      "label": "Semester 8",
+      "stated_total": "12",
+      "stated_total_min": 12.0,
+      "stated_total_max": 12.0,
+      "items": [
+        {
+          "requirement_id": "s8r1",
+          "label": "Seminar in Secondary Education",
+          "hours": 3.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        },
+        {
+          "requirement_id": "s8r2",
+          "label": "Residency B",
+          "hours": 9.0,
+          "hours_max": null,
+          "hours_source": "degree_map"
+        }
+      ]
+    }
+  ],
+  "min_grade_courses": [
+    "COMM 2003",
+    "ENGL 1013",
+    "ENGL 1023",
+    "MATH 1003",
+    "MUS 1191",
+    "MUS 1201",
+    "MUS 1232",
+    "MUS 1411",
+    "MUS 1421",
+    "MUS 1431",
+    "MUS 1440",
+    "MUS 1441",
+    "MUS 1681",
+    "MUS 1713",
+    "MUS 1723",
+    "MUS 1731",
+    "MUS 1741",
+    "MUS 1751",
+    "MUS 2000",
+    "MUS 2003",
+    "MUS 2703",
+    "MUS 2713",
+    "MUS 2723",
+    "MUS 2731",
+    "MUS 2741",
+    "MUS 3191",
+    "MUS 3232",
+    "MUS 3401",
+    "MUS 3421",
+    "MUS 3431",
+    "MUS 3481",
+    "MUS 3681",
+    "MUS 3762",
+    "MUS 3773",
+    "MUS 3783",
+    "MUS 3801",
+    "MUS 3853",
+    "MUS 3901",
+    "MUS 4000",
+    "MUS 4801",
+    "MUS 4832",
+    "MUS 4901",
+    "SEED 2003",
+    "SEED 2113",
+    "SEED 4503",
+    "SEED 4553",
+    "SEED 4809",
+    "SPED 4052"
+  ],
+  "notes": [],
+  "prerequisite_courses_line": "#Prerequisite Courses: ENGL 0303_____ MATH 0803_____ MATH 0903_____ Possible Careers: Middle/High School Teacher, Conductor, Band/Choral Director, Elementary Music Teacher",
+  "gen_ed_lists": {},
+  "admission_gates": [],
+  "parser_warnings": [],
+  "sources": [
+    {
+      "title": "2026-27 degree map: Music Education - Vocal",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2026-2027/MusicEducationVocal.pdf"
+    }
+  ],
+  "raw_path": "raw/degree_maps/2026-27/MusicEducationVocal.pdf",
+  "validation": [
+    {
+      "check": "semester_hours_match",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "hours_inferred",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "total_hours_meet_minimum",
+      "passed": true,
+      "severity": "ok",
+      "detail": "map totals 125 vs required 120"
+    },
+    {
+      "check": "map_structure_parsed",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "required_courses_in_catalog",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "prerequisites_resolve",
+      "passed": true,
+      "severity": "ok",
+      "detail": "low-confidence prerequisite parse: MUS 2000, MUS 2703, MUS 3191, MUS 3401, MUS 3421, MUS 3431, MUS 3481, MUS 4000, MUS 4832, SEED 4503, SEED 4553, SEED 4809, SPED 4052"
+    },
+    {
+      "check": "no_prerequisite_cycles",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "offering_flags_agree",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "buckets_nonempty",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    },
+    {
+      "check": "upper_level_achievable",
+      "passed": true,
+      "severity": "ok",
+      "detail": "44 upper-division hours required + 0 flexible elective hours vs 40 needed"
+    },
+    {
+      "check": "repeated_courses_consistent",
+      "passed": true,
+      "severity": "ok",
+      "detail": ""
+    }
+  ],
+  "trust_tier": "auto_imported",
+  "cross_check": null,
+  "parsed_map": {
+    "gen_ed_list_names": [],
+    "semesters": [
+      {
+        "number": 1,
+        "stated_total_text": "16",
+        "stated_total_min": 16.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "ENGL 1013- Comp I (ACTS=ENGL 1013)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "Mathematics (MATH 1003, 1113, or higher)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 1232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1411 -Class Piano OR MUS 1201 -Applied Music-Piano",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "MUS 1201 if piano proficient"
+          },
+          {
+            "text": "MUS 1681 - Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 1713- Theory I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 1731- Ear Training I",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 1191 -Vocal Diction",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1751 -Orientation to Music",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Draft a résumé and upload it to Handshake"
+          }
+        ]
+      },
+      {
+        "number": 2,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "ENGL 1023- Comp II (ACTS= ENGL 1023)",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "COMM 2003- Public Speaking",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 1232 -Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1421 -Class Piano OR MUS 1201 -Applied Music-Piano",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "MUS 1201 if piano proficient"
+          },
+          {
+            "text": "MUS 1681 - Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 1723- Theory II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "MUS 1741- Ear Training II",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Offered Spring Only"
+          }
+        ]
+      },
+      {
+        "number": 3,
+        "stated_total_text": "15-16",
+        "stated_total_min": 15.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 1232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1431 -Class Piano OR MUS 1201 -Applied Music-Piano",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "MUS 1201 if piano proficient"
+          },
+          {
+            "text": "MUS 1681 - Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SEED 2003- Education as a Profession",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "MUS 3481- Stringed Instruments",
+            "hours_text": "0-1",
+            "hours_min": 0.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 2"
+          },
+          {
+            "text": "MUS 2713- Theory III",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 2731- Ear Training III",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Offered Fall Only"
+          }
+        ]
+      },
+      {
+        "number": 4,
+        "stated_total_text": "15-16",
+        "stated_total_min": 15.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "Science with Lab",
+            "hours_text": "4",
+            "hours_min": 4.0,
+            "hours_max": 4.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 2003- Survey of Music History",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 1232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 1441 -Class Piano OR MUS 1201 -Applied Music-Piano",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "MUS 1201 if piano proficient"
+          },
+          {
+            "text": "MUS 1681 - Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 2723- Theory IV",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "MUS 2741- Ear Training IV",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Offered Spring Only"
+          },
+          {
+            "text": "MUS 3401 -Brass Instruments or MUS 3421 WW Dbl Reeds",
+            "hours_text": "0-1",
+            "hours_min": 0.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 2"
+          },
+          {
+            "text": "MUS 1440- Piano Proficiency",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 2000 - Applied Competency",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": true,
+            "notes": "2.70+ GPA Required"
+          }
+        ]
+      },
+      {
+        "number": 5,
+        "stated_total_text": "15-16",
+        "stated_total_min": 15.0,
+        "stated_total_max": 16.0,
+        "rows": [
+          {
+            "text": "U.S. History/Government",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Required for admission to Stage II"
+          },
+          {
+            "text": "MUS 3000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 3232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3681 - Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 2703- Music Technology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3762- Instrumental and Choral Arranging",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3773- History of Music I",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Offered Fall Only"
+          },
+          {
+            "text": "MUS 3801- Principles of Conducting",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3431- Woodwind Instruments, Single Reeds",
+            "hours_text": "0-1",
+            "hours_min": 0.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 2"
+          }
+        ]
+      },
+      {
+        "number": 6,
+        "stated_total_text": "17",
+        "stated_total_min": 17.0,
+        "stated_total_max": 17.0,
+        "rows": [
+          {
+            "text": "SEED 2113 -Human Development & Learning",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 4832- Vocal Pedagogy",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3000- Recital Attendance",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": false,
+            "notes": "Pass/fail"
+          },
+          {
+            "text": "MUS 3191- Vocal Solo Literature",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "Offered Spring only"
+          },
+          {
+            "text": "MUS 3232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3681 -Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 3853- Music in the Elementary Classroom",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Prereqs: SEED2003, MUS2723, Piano Exit Exam"
+          },
+          {
+            "text": "MUS 3783- History of Music II",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3901- Secondary Music Methods and Materials I",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 4801 -Advanced Conducting",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 7,
+        "stated_total_text": "15",
+        "stated_total_min": 15.0,
+        "stated_total_max": 15.0,
+        "rows": [
+          {
+            "text": "Fine Arts & Humanities",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": "Complete a senior check-in with Career Services"
+          },
+          {
+            "text": "Social Sciences",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": false,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3232- Applied Music- Voice",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 3681 -Concert Chorale",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": "See note 1"
+          },
+          {
+            "text": "MUS 4000- Capstone Recital",
+            "hours_text": "0",
+            "hours_min": 0.0,
+            "hours_max": 0.0,
+            "grade_c": true,
+            "notes": "Finalize résumé, cover letter, and references"
+          },
+          {
+            "text": "SPED 4052 -Educating Diverse and Exceptional Learners",
+            "hours_text": "2",
+            "hours_min": 2.0,
+            "hours_max": 2.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "SEED 4553 -Classroom Application of Educational Psychology",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": ""
+          },
+          {
+            "text": "MUS 4901- Secondary Music Methods and Materials II",
+            "hours_text": "1",
+            "hours_min": 1.0,
+            "hours_max": 1.0,
+            "grade_c": true,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "number": 8,
+        "stated_total_text": "12",
+        "stated_total_min": 12.0,
+        "stated_total_max": 12.0,
+        "rows": [
+          {
+            "text": "SEED 4503- Seminar in Secondary Education",
+            "hours_text": "3",
+            "hours_min": 3.0,
+            "hours_max": 3.0,
+            "grade_c": true,
+            "notes": "Graduation Requirements:"
+          },
+          {
+            "text": "SEED 4809- Residency B",
+            "hours_text": "9",
+            "hours_min": 9.0,
+            "hours_max": 9.0,
+            "grade_c": true,
+            "notes": "Min. 122-125 earned hours"
+          }
+        ]
+      }
+    ]
+  }
+}

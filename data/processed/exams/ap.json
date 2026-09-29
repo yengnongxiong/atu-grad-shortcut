@@ -1,0 +1,10 @@
+{
+  "program": "AP",
+  "status": "unavailable",
+  "note": "ATU's AP and IB course tables are published only on catalog.atu.edu, which could not be reached from the build environment (WAF challenge). They are not guessed; add them to data/manual/ once transcribed.",
+  "source": {
+    "title": "ATU catalog: AP credit",
+    "url": "https://catalog.atu.edu/undergraduate/institutional-credit/ap/"
+  },
+  "equivalencies": []
+}

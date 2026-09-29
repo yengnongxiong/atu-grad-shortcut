@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "71272",
+    "subject": "TR",
+    "courseNumber": "3013",
+    "sequenceNumber": "M01",
+    "courseTitle": "Inclusive Recreation",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71271",
+    "subject": "TR",
+    "courseNumber": "4273",
+    "sequenceNumber": "M01",
+    "courseTitle": "Administration and Operation of Therapeutic Recreation Programs",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "1 To 49 pct. of Content Online",
+    "partOfTerm": "1"
+  }
+]

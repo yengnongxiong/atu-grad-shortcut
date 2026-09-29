@@ -1,0 +1,122 @@
+[
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "2003",
+    "courseTitle": "Education as a Profession",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "2113",
+    "courseTitle": "Human Development and Learning Theories",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4503",
+    "courseTitle": "Seminar in Secondary Education",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4553",
+    "courseTitle": "Classroom Application of Educational Psychology",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4809",
+    "courseTitle": "Residency B",
+    "creditHourLow": 9,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4909",
+    "courseTitle": "Residency B",
+    "creditHourLow": 9,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202440",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4991",
+    "courseTitle": "Special Problems in Secondary Education",
+    "creditHourLow": 1,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4992",
+    "courseTitle": "Special Problems in Secondary Education",
+    "creditHourLow": 2,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4993",
+    "courseTitle": "Special Problems in Secondary Education",
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Secondary Education"
+  },
+  {
+    "subjectCode": "SEED",
+    "courseNumber": "4994",
+    "courseTitle": "Special Problems in Secondary Education",
+    "creditHourLow": 4,
+    "creditHourHigh": null,
+    "creditHourIndicator": null,
+    "college": "Education and Health",
+    "department": "Teaching/Education/Leadership",
+    "termEffective": "202240",
+    "subjectDescription": "Secondary Education"
+  }
+]

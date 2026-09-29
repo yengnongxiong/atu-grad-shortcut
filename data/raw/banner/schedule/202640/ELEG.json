@@ -1,0 +1,72 @@
+[
+  {
+    "courseReferenceNumber": "40077",
+    "subject": "ELEG",
+    "courseNumber": "2103",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Electric Circuits I",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40078",
+    "subject": "ELEG",
+    "courseNumber": "2113",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Electric Circuits II",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40079",
+    "subject": "ELEG",
+    "courseNumber": "3003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "System Modeling and Analysis",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40433",
+    "subject": "ELEG",
+    "courseNumber": "3663",
+    "sequenceNumber": "081",
+    "courseTitle": "Engineering Internship",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "100pct Off Campus Individual",
+    "partOfTerm": "2"
+  },
+  {
+    "courseReferenceNumber": "40080",
+    "subject": "ELEG",
+    "courseNumber": "4303",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Control Systems",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]

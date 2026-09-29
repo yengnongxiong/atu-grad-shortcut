@@ -1,0 +1,58 @@
+[
+  {
+    "courseReferenceNumber": "70337",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "001",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "70340",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "002",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "71221",
+    "subject": "BLAW",
+    "courseNumber": "2033",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "72180",
+    "subject": "BLAW",
+    "courseNumber": "2133",
+    "sequenceNumber": "H02",
+    "courseTitle": "Honors Legal Environment of Business",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Face to Face",
+    "partOfTerm": "1"
+  }
+]

@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "80007",
+    "subject": "PSY",
+    "courseNumber": "2003",
+    "sequenceNumber": "TC1",
+    "courseTitle": "General Psychology",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "80009",
+    "subject": "PSY",
+    "courseNumber": "3083",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Psychology of Women",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Lecture",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  }
+]

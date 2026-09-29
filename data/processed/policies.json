@@ -1,0 +1,404 @@
+{
+  "_about": "Hand-maintained academic policies (PRD §8). The pipeline validates this file and copies it to data/processed/policies.json. Policy numbers live only here; code reads them via shortcut.planner.policies.",
+  "sources": {
+    "prd8": {
+      "title": "PRD §8 (transcribed by the owner from the ATU catalog)",
+      "url": "https://catalog.atu.edu/undergraduate/regulations-procedures/",
+      "retrieval": "PRD appendix (transcribed); catalog.atu.edu is WAF-gated from the build environment"
+    },
+    "grad_reqs": {
+      "title": "ATU catalog: Graduation Requirements",
+      "url": "https://catalog.atu.edu/undergraduate/graduation-requirements/",
+      "retrieval": "PRD appendix (transcribed)"
+    },
+    "inst_credit": {
+      "title": "ATU catalog: Institutional Credit",
+      "url": "https://catalog.atu.edu/undergraduate/institutional-credit/",
+      "retrieval": "PRD appendix (transcribed)"
+    },
+    "admissions_credit": {
+      "title": "ATU Admissions: Credit by Exam & International Baccalaureate",
+      "url": "https://www.atu.edu/admissions/credit.php",
+      "retrieval": "fetched; snapshot data/raw/pages/admissions-credit.html"
+    },
+    "registration": {
+      "title": "ATU Registrar: Registration Dates and Information",
+      "url": "https://www.atu.edu/registrar/registrationinfo.php",
+      "retrieval": "fetched; snapshot data/raw/pages/registrar-registrationinfo.html"
+    },
+    "calendar": {
+      "title": "ATU Academic Calendar 2026-27",
+      "url": "https://www.atu.edu/academicaffairs/docs/2026-27%20UpdateCalendar.pdf",
+      "retrieval": "fetched; snapshot data/raw/pages/academic-calendar-2026-27.pdf"
+    },
+    "cs_map": {
+      "title": "2025-2026 Degree Map: B.S. Computer Science",
+      "url": "https://www.atu.edu/advising/degreemaps_docs/2025-26/ComputerScience.pdf",
+      "retrieval": "fetched; snapshot data/raw/degree_maps/2025-26/ComputerScience.pdf"
+    },
+    "banner_math2914": {
+      "title": "ATU Banner course catalog: MATH 2914 prerequisites",
+      "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch",
+      "retrieval": "fetched; snapshot data/raw/banner/course_details/MATH/2914.json"
+    },
+    "banner_coms1013": {
+      "title": "ATU Banner course catalog: COMS 1013 prerequisites (MATH 1113 or higher)",
+      "url": "https://reg-prod.ec.atu.edu/StudentRegistrationSsb/ssb/term/termSelection?mode=courseSearch",
+      "retrieval": "fetched; snapshot data/raw/banner/course_details/COMS/1013.json"
+    },
+    "cpl": {
+      "title": "ATU Credit for Prior Learning: for students",
+      "url": "https://www.atu.edu/cpl/students.php",
+      "retrieval": "fetched; snapshot data/raw/pages/cpl-students.html"
+    },
+    "shortcut": {
+      "title": "Shortcut planning assumption (see DECISIONS.md)",
+      "url": "",
+      "retrieval": "assumption"
+    }
+  },
+  "rules": {
+    "regular_load_max": {
+      "label": "Recommended maximum load per fall/spring term",
+      "value": 18,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "More than 18 hours requires the dean's permission in advance."
+    },
+    "overload_ceiling": {
+      "label": "Overload ceiling (fall, spring, or summer)",
+      "value": 24,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Absolute maximum with an approved overload petition."
+    },
+    "overload_review_threshold": {
+      "label": "Loads above this need Academic Affairs review",
+      "value": 21,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "19-21 hours: dean petition. 22-24 hours: dean petition plus Academic Affairs review."
+    },
+    "overload_gpa_min": {
+      "label": "Overload eligibility: GPA in the preceding term",
+      "value": 3.25,
+      "unit": "GPA",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Or good standing if the overload term is the final semester."
+    },
+    "overload_prior_term_min_hours": {
+      "label": "Overload eligibility: ATU hours carried in the preceding term",
+      "value": 12,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "The 3.25 GPA must be earned on at least 12 ATU hours."
+    },
+    "first_term_no_overload": {
+      "label": "No overload in the first ATU term",
+      "value": true,
+      "unit": "flag",
+      "confidence": "derived",
+      "sources": [
+        "prd8"
+      ],
+      "note": "A first term has no prior-term GPA, so the eligibility test can't be met (unless it is also the final semester)."
+    },
+    "probation_advisor_threshold": {
+      "label": "On probation: loads above this need advisor approval",
+      "value": 15,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Shown as a warning only in v1."
+    },
+    "workload_outside_per_credit": {
+      "label": "Study time outside class per credit hour",
+      "value": [
+        2,
+        3
+      ],
+      "unit": "hours per week",
+      "confidence": "documented",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Used for the weekly workload estimate."
+    },
+    "standing_thresholds": {
+      "label": "Class standing by earned hours",
+      "value": {
+        "FR": 0,
+        "SO": 30,
+        "JR": 60,
+        "SR": 90
+      },
+      "unit": "earned credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8",
+        "registration"
+      ],
+      "note": "Freshman under 30, sophomore 30-59, junior 60-89, senior 90+. The registrar's early-registration schedule uses the same bands."
+    },
+    "standing_counts_exam_transfer": {
+      "label": "Class standing counts exam and transfer hours",
+      "value": true,
+      "unit": "flag",
+      "confidence": "assumed",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Confirm with the registrar."
+    },
+    "residency_min_hours": {
+      "label": "Residency: minimum hours taken at ATU",
+      "value": 30,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8",
+        "grad_reqs"
+      ],
+      "note": "Exam and transfer credit don't count toward residency."
+    },
+    "residency_upper_major_hours": {
+      "label": "Residency: upper-division hours in the major taken at ATU",
+      "value": 6,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8",
+        "grad_reqs"
+      ],
+      "note": ""
+    },
+    "total_hours_min": {
+      "label": "Minimum total hours for a bachelor's degree",
+      "value": 120,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "prd8",
+        "grad_reqs"
+      ],
+      "note": "A program may require more; the program's degree map wins."
+    },
+    "upper_level_hours_min_default": {
+      "label": "Minimum 3000-4000 level hours (when a map doesn't state it)",
+      "value": 40,
+      "unit": "credit hours",
+      "confidence": "derived",
+      "sources": [
+        "cs_map"
+      ],
+      "note": "Every 2026-27 bachelor's map that states this minimum states 40."
+    },
+    "exam_credit_cap_hours": {
+      "label": "Cap on exam / prior-learning credit",
+      "value": 30,
+      "unit": "credit hours",
+      "confidence": "conflicting",
+      "sources": [
+        "admissions_credit",
+        "grad_reqs",
+        "cpl",
+        "inst_credit"
+      ],
+      "note": "CONFLICT: www.atu.edu/admissions/credit.php (and the catalog graduation-requirements page) say no more than 30 semester hours of correspondence, extension, military service, or credit by examination may apply toward a degree; www.atu.edu/cpl/students.php (and the catalog institutional-credit page) allow up to 50% of credit from those sources plus credit for prior learning. Shortcut uses the stricter 30 hours. Confirm with the registrar."
+    },
+    "exam_credit_gpa": {
+      "label": "Exam credit and GPA",
+      "value": "not counted",
+      "unit": "text",
+      "confidence": "documented",
+      "sources": [
+        "admissions_credit",
+        "prd8"
+      ],
+      "note": "Advanced credit is not used to calculate GPA, so it can't be used to retain scholarships. No duplicate credit for a course already graded."
+    },
+    "ib_diploma_hours": {
+      "label": "IB Diploma credit",
+      "value": 24,
+      "unit": "credit hours",
+      "confidence": "documented",
+      "sources": [
+        "admissions_credit"
+      ],
+      "note": "24 hours of general education for a score of 4+ on each exam; possibly fewer otherwise. Not auto-mapped to courses in v1."
+    },
+    "math_placement_act_min": {
+      "label": "Math ACT that satisfies the Calculus I prerequisite",
+      "value": 27,
+      "unit": "ACT math subscore",
+      "confidence": "conflicting",
+      "sources": [
+        "cs_map",
+        "banner_math2914"
+      ],
+      "note": "The CS degree map says 'Math ACT >26' (i.e. 27+); the catalog/Banner prerequisite says 26 or higher. Shortcut uses the stricter 27 from the map (PRD §8). Confirm with your advisor."
+    },
+    "math_ladder": {
+      "label": "'MATH 1113 or higher' ladder",
+      "value": [
+        "MATH 1113",
+        "MATH 1203",
+        "MATH 1914",
+        "MATH 2223",
+        "MATH 2243",
+        "MATH 2914",
+        "MATH 2924",
+        "MATH 2934"
+      ],
+      "unit": "course codes",
+      "confidence": "derived",
+      "sources": [
+        "banner_coms1013",
+        "prd8"
+      ],
+      "note": "Hand-maintained. Starts from Banner's own expansion of 'MATH 1113 or higher' for COMS 1013 (1113, 1914, 2223, 2243, 2914) and adds trigonometry (1203) and Calculus II/III. A ladder course satisfies any earlier rung."
+    },
+    "summer_max_load": {
+      "label": "Planning cap for a summer (all sessions combined)",
+      "value": 12,
+      "unit": "credit hours",
+      "confidence": "assumed",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Configurable planning assumption."
+    },
+    "winter_max_courses": {
+      "label": "Planning cap for Winter Intersession: courses",
+      "value": 1,
+      "unit": "courses",
+      "confidence": "assumed",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Configurable planning assumption."
+    },
+    "winter_max_hours": {
+      "label": "Planning cap for Winter Intersession: hours",
+      "value": 4,
+      "unit": "credit hours",
+      "confidence": "assumed",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Configurable planning assumption."
+    },
+    "preferred_hours_default": {
+      "label": "Default preferred hours per regular term (standard pace)",
+      "value": 16,
+      "unit": "credit hours",
+      "confidence": "assumed",
+      "sources": [
+        "shortcut"
+      ],
+      "note": "PRD F2/F3 default."
+    },
+    "summer_single_term": {
+      "label": "Summer sub-sessions are one planning term",
+      "value": true,
+      "unit": "flag",
+      "confidence": "assumed",
+      "sources": [
+        "calendar",
+        "prd8"
+      ],
+      "note": "Simplification: May, June/July, 10-week, and July/August sessions are merged; no prerequisite chaining within a summer."
+    },
+    "eight_week_sessions_modeled": {
+      "label": "8-week sessions modeled",
+      "value": false,
+      "unit": "flag",
+      "confidence": "assumed",
+      "sources": [
+        "calendar",
+        "prd8"
+      ],
+      "note": "Simplification: no prerequisite chaining within a fall or spring term."
+    },
+    "transfer_rules": {
+      "label": "Summer transfer at another Arkansas public college",
+      "value": {
+        "terms": [
+          "SU"
+        ],
+        "max_level": 2000,
+        "requires_acts": true,
+        "counts_toward_residency": false
+      },
+      "unit": "rule",
+      "confidence": "derived",
+      "sources": [
+        "prd8"
+      ],
+      "note": "Only ACTS-equivalent lower-level courses; they count toward total hours but not residency. Availability at the other college is assumed."
+    },
+    "terms": {
+      "label": "Term structure",
+      "value": {
+        "order": [
+          "FA",
+          "WI",
+          "SP",
+          "SU"
+        ],
+        "names": {
+          "FA": "Fall",
+          "WI": "Winter Intersession",
+          "SP": "Spring",
+          "SU": "Summer"
+        },
+        "end_month": {
+          "FA": "December",
+          "WI": "January",
+          "SP": "May",
+          "SU": "August"
+        },
+        "example_2026_27": {
+          "FA": "Aug 19 - Dec 11, 2026",
+          "WI": "Dec 14, 2026 - Jan 1, 2027",
+          "SP": "Jan 11 - May 5, 2027",
+          "SU": "May 11 - Aug 5 (May, June/July, 10-week, July/August sessions)"
+        }
+      },
+      "unit": "calendar",
+      "confidence": "documented",
+      "sources": [
+        "calendar",
+        "prd8"
+      ],
+      "note": "Winter Intersession sits between fall and the following spring."
+    },
+    "credit_for_prior_learning": {
+      "label": "Credit for Prior Learning (CPL)",
+      "value": "ask your department",
+      "unit": "text",
+      "confidence": "documented",
+      "sources": [
+        "cpl"
+      ],
+      "note": "Shown as an informational card; never scheduled."
+    }
+  }
+}

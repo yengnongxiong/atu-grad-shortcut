@@ -1,0 +1,30 @@
+[
+  {
+    "courseReferenceNumber": "40294",
+    "subject": "AGBU",
+    "courseNumber": "3993",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Internship I in Agriculture",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "1"
+  },
+  {
+    "courseReferenceNumber": "40295",
+    "subject": "AGBU",
+    "courseNumber": "4983",
+    "sequenceNumber": "TC1",
+    "courseTitle": "Internship II in Agriculture",
+    "creditHours": null,
+    "creditHourLow": 3,
+    "creditHourHigh": null,
+    "scheduleTypeDescription": "Internship/Practicum",
+    "campusDescription": "Main",
+    "instructionalMethodDescription": "Web Only: Incl Proctored Exams",
+    "partOfTerm": "2"
+  }
+]
