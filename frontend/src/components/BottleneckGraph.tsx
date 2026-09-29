@@ -14,6 +14,7 @@ import { api } from '../api/client'
 import type { DelayResponse, GraphNode, PlanRequest, PlanResponse, WhatIfResponse } from '../api/types'
 import { formatTerms } from '../format'
 import { layoutGraph, NODE_H, NODE_W, type CourseNodeData } from './graphLayout'
+import { catalogUrl } from '../catalog'
 import { ErrorBox, Spinner } from './ui'
 
 
@@ -119,7 +120,7 @@ export function BottleneckGraph({
   )
 }
 
-function CourseActions({
+export function CourseActions({
   node,
   request,
   nodes,
@@ -184,6 +185,13 @@ function CourseActions({
               {node.term} · offered {node.pattern || '—'} · {node.critical ? 'critical' : `slack ${formatTerms(node.slack)}`}
             </span>
           </p>
+          {isCourse && (
+            <p>
+              <a href={catalogUrl(code)} target="_blank" rel="noreferrer" aria-label={`View ${code} in the ATU catalog`}>
+                View in the ATU catalog
+              </a>
+            </p>
+          )}
           <div className="flex flex-wrap gap-2">
             <button type="button" className="btn-secondary" disabled={busy !== null} onClick={() => void run('delay')}>
               What if I delay this one term?

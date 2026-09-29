@@ -8,6 +8,7 @@ import type {
   ProgramListItem,
   StudentProfile,
 } from '../api/types'
+import { ExamEntry } from '../components/ExamEntry'
 import { OtherCourses } from '../components/OtherCourses'
 import { ProgramPicker } from '../components/ProgramPicker'
 import { ErrorBox, Spinner, TrustBadge } from '../components/ui'
@@ -311,66 +312,6 @@ function StepCredit({
 
       <OtherCourses others={others} onChange={(rows) => update({ completed: [...profile.completed.filter((c) => programCodes.has(c.code)), ...rows] })} />
       <ExamEntry profile={profile} exams={exams} update={update} />
-    </div>
-  )
-}
-
-function ExamEntry({ profile, exams, update }: { profile: StudentProfile; exams: ExamTable[]; update: (patch: Partial<StudentProfile>) => void }) {
-  const clep = exams.find((t) => t.program === 'CLEP')
-  const names = useMemo(() => [...new Set(clep?.equivalencies.map((e) => e.exam) ?? [])].sort(), [clep])
-  const [exam, setExam] = useState('')
-  const [score, setScore] = useState('')
-  const unavailable = exams.filter((t) => t.status !== 'available').map((t) => t.program)
-  const add = () => {
-    if (!exam || !score) return
-    const rest = profile.exams.filter((e) => e.exam !== exam)
-    update({ exams: [...rest, { program: 'CLEP', exam, score: Number(score) }] })
-    setExam('')
-    setScore('')
-  }
-  const tiers = clep?.equivalencies.filter((e) => e.exam === exam) ?? []
-  return (
-    <div>
-      <h2 className="text-xl font-semibold">Exam credit</h2>
-      <p className="text-sm text-muted">
-        Scores map through ATU’s CLEP table.{' '}
-        {unavailable.length > 0 && `${unavailable.join(' and ')} tables aren’t available yet, so they can’t be auto-mapped.`}
-      </p>
-      <div className="mt-3 flex flex-wrap items-end gap-2">
-        <label className="text-sm">
-          <span className="block font-semibold">CLEP exam</span>
-          <select className="input mt-1 w-72" value={exam} onChange={(e) => setExam(e.target.value)}>
-            <option value="">Choose an exam…</option>
-            {names.map((n) => (
-              <option key={n}>{n}</option>
-            ))}
-          </select>
-        </label>
-        <label className="text-sm">
-          <span className="block font-semibold">Score</span>
-          <input type="number" min={20} max={80} className="input mt-1 w-24" value={score} onChange={(e) => setScore(e.target.value)} />
-        </label>
-        <button type="button" className="btn-secondary" disabled={!exam || !score} onClick={add}>
-          Add exam
-        </button>
-      </div>
-      {tiers.length > 0 && (
-        <p className="mt-2 text-xs text-muted">
-          {tiers.map((t) => `${t.min_score}+ → ${t.awards.map((a) => a.join(' & ')).join(' or ')}`).join(' · ')}
-        </p>
-      )}
-      {profile.exams.length > 0 && (
-        <ul className="mt-3 flex flex-wrap gap-2">
-          {profile.exams.map((e) => (
-            <li key={e.exam} className="flex items-center gap-2 rounded-md border border-line bg-paper px-2 py-1 text-sm">
-              <span className="font-semibold">{e.program}</span> {e.exam}: {e.score}
-              <button type="button" className="text-muted hover:text-ink" aria-label={`Remove ${e.exam}`} onClick={() => update({ exams: profile.exams.filter((x) => x.exam !== e.exam) })}>
-                ×
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
     </div>
   )
 }
