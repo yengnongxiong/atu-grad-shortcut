@@ -17,6 +17,23 @@ describe('plan components', () => {
     expect(screen.getAllByText('May 2030')).toHaveLength(2)
     expect(screen.getByText('May 2029')).toBeInTheDocument()
     expect(screen.getByText(/2 terms sooner than standard pace/)).toBeInTheDocument()
+    expect(screen.queryByRole('note')).not.toBeInTheDocument()
+  })
+
+  it('headline says so plainly when no lever helps or the student is behind the map', () => {
+    const noShortcut = {
+      ...samplePlan(),
+      terms_sooner_than_standard: 0,
+      terms_sooner_than_map: 0,
+      pace_note: 'None of the levers you turned on moves graduation. Your date is set by a prerequisite chain: NUR 2023 → NUR 4606.',
+    }
+    const { unmount } = render(<PlanHeadline plan={noShortcut} />)
+    expect(screen.getByRole('note')).toHaveTextContent(/No shortcut here: None of the levers/)
+    expect(screen.getByText('Same as standard pace; see why below')).toBeInTheDocument()
+    unmount()
+    render(<PlanHeadline plan={{ ...noShortcut, terms_sooner_than_map: -2, pace_note: 'At standard pace, ACCT 3003 → ACCT 3013.' }} />)
+    expect(screen.getByText('2 terms later than the degree map')).toBeInTheDocument()
+    expect(screen.getByRole('note')).toHaveTextContent(/Why you’re behind the map/)
   })
 
   it('timeline marks critical courses with an icon and text, not color alone', () => {

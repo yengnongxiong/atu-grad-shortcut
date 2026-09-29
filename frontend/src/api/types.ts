@@ -181,6 +181,7 @@ export interface PlanResponse {
   terms_sooner_than_map: number | null
   terms_sooner_than_standard: number | null
   months_sooner_than_standard: number | null
+  pace_note?: string | null
   terms: PlannedTerm[]
   credited: CreditedCourse[]
   levers: LeverResult[]

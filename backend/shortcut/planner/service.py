@@ -17,6 +17,7 @@ from shortcut.planner.profile import (
     build_items,
     build_state,
     is_math_test,
+    offered_ok,
 )
 from shortcut.planner.slack import Edge, compute_slack
 from shortcut.planner.terms import Term, nth_regular_after, term_sequence, terms_between
@@ -427,6 +428,8 @@ def assemble(ctx: PlanContext, full: Outcome, standard: Outcome, levers: list[Le
     critical_path = [i for i in placed_ids if i in critical and _on_chain(i, edges, critical)]
     warnings += policy_warnings(ctx, full, terms)
     warnings += data_warnings(ctx, full, terms)
+    sooner_std = terms_between(grad, std_grad) if std_grad else None
+    no_gain = sooner_std is not None and sooner_std < 0.01
     return PlanResponse(
         program=program_summary(ctx.program),
         feasible=True,
@@ -434,8 +437,11 @@ def assemble(ctx: PlanContext, full: Outcome, standard: Outcome, levers: list[Le
         degree_map=degree_map,
         standard_pace=standard_pace,
         terms_sooner_than_map=terms_between(grad, degree_map_term),
-        terms_sooner_than_standard=terms_between(grad, std_grad) if std_grad else None,
+        terms_sooner_than_standard=sooner_std,
         months_sooner_than_standard=months_between(ctx, grad, std_grad) if std_grad else None,
+        pace_note=pace_note(ctx, full, critical_path, edges, terms_between(grad, degree_map_term))
+        if no_gain
+        else None,
         terms=terms,
         credited=credited_list(ctx, full),
         levers=levers,
@@ -457,6 +463,69 @@ def assemble(ctx: PlanContext, full: Outcome, standard: Outcome, levers: list[Le
             solve_ms=ctx.solve_ms, solves=ctx.solves, status=result.status, timed_out=ctx.timed_out
         ),
     )
+
+
+def pace_note(
+    ctx: PlanContext,
+    outcome: Outcome,
+    critical_path: list[str],
+    edges: list[Edge],
+    sooner_than_map: float | None,
+) -> str | None:
+    """Explain what fixes the date when the levers that are on don't move it (PRD P4: say so
+    honestly), or when a student is behind the degree map."""
+    enabled = any(getattr(ctx.levers, name) for name in LEVER_META if hasattr(ctx.levers, name))
+    enabled = enabled or bool(ctx.request.levers.planned_exams)
+    behind = sooner_than_map is not None and sooner_than_map < -0.01
+    if not (enabled or behind):
+        return None
+    items = {i.id: i for i in outcome.build.items}
+    placements = outcome.result.placements
+    slots = outcome.result.slots
+    path = longest_chain(critical_path, edges, placements)
+    if len(path) < 2:
+        return None
+    steps = [
+        f"{items[i].label} ({slots[placements[i].term_index].term.label}, "
+        f"offered {items[i].pattern(ctx.mode) or '—'})"
+        for i in path
+    ]
+    chain = [items[i] for i in path]
+    short_terms = any(offered_ok(i.offered[s], ctx.mode) for i in chain for s in ("SU", "WI"))
+    if not enabled:
+        return (
+            f"You're behind the degree map; at standard pace your date is set by a prerequisite chain: "
+            f"{' → '.join(steps)}. Turn on levers, or try the What-if tab, to test recovery options."
+        )
+    note = (
+        "None of the levers you turned on moves graduation. Your date is set by a prerequisite chain: "
+        f"{' → '.join(steps)}."
+    )
+    if not short_terms:
+        note += (
+            " None of these courses has a confirmed summer or winter section, and each waits for the one"
+            " before it, so extra terms and heavier loads can't run the chain faster."
+        )
+    return note
+
+
+def longest_chain(critical_path: list[str], edges: list[Edge], placements: dict[str, Any]) -> list[str]:
+    """The longest run of prerequisite edges through critical items, earliest first."""
+    critical = set(critical_path)
+    preds: dict[str, list[str]] = {}
+    for edge in edges:
+        if edge.kind == "prereq" and edge.source in critical and edge.target in critical:
+            preds.setdefault(edge.target, []).append(edge.source)
+    depth: dict[str, int] = {}
+    for item_id in sorted(critical_path, key=lambda i: placements[i].term_index):
+        depth[item_id] = 1 + max((depth.get(p, 0) for p in preds.get(item_id, [])), default=0)
+    if not depth:
+        return []
+    end = max(depth, key=lambda i: (depth[i], placements[i].term_index))
+    path = [end]
+    while preds.get(path[-1]):
+        path.append(max(preds[path[-1]], key=lambda i: depth.get(i, 0)))
+    return list(reversed(path))
 
 
 def _on_chain(item_id: str, edges: list[Edge], critical: set[str]) -> bool:

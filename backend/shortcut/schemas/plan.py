@@ -192,6 +192,7 @@ class PlanResponse(BaseModel):
     terms_sooner_than_map: float | None
     terms_sooner_than_standard: float | None
     months_sooner_than_standard: int | None
+    pace_note: str | None = None  # why the date can't move, when no lever helps
     terms: list[PlannedTerm]
     credited: list[CreditedCourse]
     levers: list[LeverResult]

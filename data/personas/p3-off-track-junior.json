@@ -1,0 +1,59 @@
+{
+  "id": "p3",
+  "name": "Off-track junior",
+  "tagline": "Accounting junior who just failed ACCT 3003, a fall-only course at the head of a chain. SAMPLE DATA.",
+  "sample_data": true,
+  "story": "Sample data, not a real student. Started Fall 2024 on the Accounting map and is planning in December 2026, after fall grades posted with an F in ACCT 3003 Intermediate Accounting I. ACCT 3003 runs only in fall, and it gates ACCT 3013 (spring only), which gates ACCT 4003/4013 (fall only) and ACCT 4033 (spring only). Open the What-if tab to compare recovery options.",
+  "request": {
+    "profile": {
+      "program_id": "accounting-2026-27",
+      "first_term": "2024FA",
+      "plan_from": "2027SP",
+      "completed": [
+        {"code": "ENGL 1013", "grade": "B"},
+        {"code": "MATH 2223", "grade": "C"},
+        {"code": "BUAD 1113", "grade": "A"},
+        {"code": "BUAD 2003", "grade": "A"},
+        {"code": "MUS 2003", "grade": "A"},
+        {"code": "ENGL 1023", "grade": "B"},
+        {"code": "BIOL 1014", "grade": "C"},
+        {"code": "PHIL 2003", "grade": "B"},
+        {"code": "COMM 2173", "grade": "A"},
+        {"code": "PSY 2003", "grade": "B"},
+        {"code": "ECON 2003", "grade": "B"},
+        {"code": "STAT 2163", "grade": "C"},
+        {"code": "BDA 2003", "grade": "B"},
+        {"code": "ACCT 2004", "grade": "C"},
+        {"code": "ACCT 2000", "grade": "P"},
+        {"code": "ECON 2013", "grade": "C"},
+        {"code": "GEOL 1014", "grade": "B"},
+        {"code": "HIST 2003", "grade": "B"},
+        {"code": "BLAW 2033", "grade": "B"},
+        {"code": "ACCT 2013", "grade": "C"},
+        {"code": "ENGL 2053", "grade": "B"},
+        {"code": "MGMT 3003", "grade": "B"},
+        {"code": "ACCT 3003", "grade": "F"},
+        {"code": "ACCT 3043", "grade": "C"},
+        {"code": "BDA 3013", "grade": "B"}
+      ],
+      "in_progress": [],
+      "exams": [],
+      "math_act": 23,
+      "preferences": {
+        "preferred_hours": 15,
+        "last_term_gpa": 2.6,
+        "expect_high_gpa": false,
+        "mode": "conservative"
+      }
+    },
+    "levers": {
+      "heavier_terms": false,
+      "summer": false,
+      "winter": false,
+      "overload": false,
+      "aggressive_overload": false,
+      "transfer_summer": false,
+      "planned_exams": []
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "_how_to_use": [
+    "Copy this file to data/personas/my-path.json (any name not ending in .template.json) and fill in your real record.",
+    "The app lists it on the landing page as a one-click profile. Keep it out of git if it holds your real grades.",
+    "program_id: pick one from GET /api/programs (for example computer-science-2025-26).",
+    "first_term / plan_from: YYYYFA, YYYYSP, YYYYSU or YYYYWI. plan_from is the first term still to plan.",
+    "completed: every course with its grade (A, B, C, D, F, P, W); set source to transfer for courses taken elsewhere, using the ATU equivalent code.",
+    "in_progress: codes you're taking now; they're assumed passed.",
+    "exams: CLEP scores as {program, exam, score}, with the exam name as listed on the Exam opportunities tab.",
+    "Levers and preferences can be changed in the app after loading."
+  ],
+  "id": "my-path",
+  "name": "My path",
+  "tagline": "My real record (fill in data/personas/my-path.json).",
+  "sample_data": false,
+  "story": "Filled in by the owner from their own transcript.",
+  "request": {
+    "profile": {
+      "program_id": "computer-science-2025-26",
+      "first_term": "2026FA",
+      "plan_from": "2026FA",
+      "completed": [
+        {"code": "ENGL 1013", "grade": "A", "source": "atu"}
+      ],
+      "in_progress": [],
+      "exams": [],
+      "math_act": null,
+      "preferences": {
+        "preferred_hours": 15,
+        "last_term_gpa": null,
+        "expect_high_gpa": false,
+        "mode": "conservative"
+      }
+    },
+    "levers": {
+      "heavier_terms": false,
+      "summer": false,
+      "winter": false,
+      "overload": false,
+      "aggressive_overload": false,
+      "transfer_summer": false,
+      "planned_exams": []
+    }
+  }
+}

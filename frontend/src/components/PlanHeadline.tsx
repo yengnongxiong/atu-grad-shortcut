@@ -12,9 +12,20 @@ function Stat({ label, value, sub, tone = 'neutral' }: { label: string; value: s
   )
 }
 
+function shortcutSub(plan: PlanResponse, sooner: number, soonerMap: number): string {
+  if (!plan.graduation) return plan.infeasible_reason ?? ''
+  if (sooner > 0) {
+    return `${formatTerms(sooner)} sooner than standard pace${soonerMap > sooner ? `, ${formatTerms(soonerMap)} vs. the map` : ''}`
+  }
+  if (soonerMap > 0) return `${formatTerms(soonerMap)} sooner than the degree map`
+  if (soonerMap < 0) return `${formatTerms(-soonerMap)} later than the degree map`
+  return plan.pace_note ? 'Same as standard pace; see why below' : 'Toggle levers to look for a faster path'
+}
+
 export function PlanHeadline({ plan }: { plan: PlanResponse }) {
   const sooner = plan.terms_sooner_than_standard ?? 0
   const soonerMap = plan.terms_sooner_than_map ?? 0
+  const gained = sooner > 0 || soonerMap > 0
   const summary = plan.graduation
     ? `Degree map: ${plan.degree_map.graduation?.date_label ?? '—'} · Standard pace: ${
         plan.standard_pace.graduation?.date_label ?? '—'
@@ -39,19 +50,17 @@ export function PlanHeadline({ plan }: { plan: PlanResponse }) {
         <Stat label="Standard pace" value={plan.standard_pace.graduation?.date_label ?? '—'} sub="Fall/spring only, your preferred hours" />
         <Stat
           label="Your Shortcut"
-          tone="saved"
+          tone={gained ? 'saved' : 'neutral'}
           value={plan.graduation?.date_label ?? 'No plan'}
-          sub={
-            plan.graduation
-              ? sooner > 0
-                ? `${formatTerms(sooner)} sooner than standard pace${soonerMap > sooner ? `, ${formatTerms(soonerMap)} vs. the map` : ''}`
-                : soonerMap > 0
-                  ? `${formatTerms(soonerMap)} sooner than the degree map`
-                  : 'Toggle levers to look for a faster path'
-              : plan.infeasible_reason ?? ''
-          }
+          sub={shortcutSub(plan, sooner, soonerMap)}
         />
       </div>
+      {plan.pace_note && (
+        <p role="note" className="rounded-lg border border-line-strong bg-paper-deep px-4 py-3 text-sm text-ink-soft">
+          <strong className="text-ink">{soonerMap < 0 && sooner <= 0 ? 'Why you’re behind the map: ' : 'No shortcut here: '}</strong>
+          {plan.pace_note}
+        </p>
+      )}
     </section>
   )
 }
