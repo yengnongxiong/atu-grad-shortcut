@@ -41965,14 +41965,13 @@
     "department": "School of Business",
     "description": "Offered: First summer session. Prerequisites: Successful completion of all required HIM courses except HIM 4892. Provides the student with a four-week management experience in the activities and responsibilities of the health information management professional. Augments theoretical instruction received during previous courses. Student is actively involved in the management process while under direct supervision of a qualified health information management professional. Note: Although every effort is made to secure a convenient locale, the student must assume full financial responsibility for this assignment.",
     "prerequisites": {
-      "type": "course",
-      "code": "HIM 4892",
-      "min_grade": null
+      "type": "unparsed",
+      "text": "Successful completion of all required HIM courses except HIM 4892"
     },
     "prereq_raw": "Successful completion of all required HIM courses except HIM 4892",
     "prerequisite_scope": "program",
     "prereq_source": "catalog_description",
-    "parse_confidence": "high",
+    "parse_confidence": "low",
     "map_prereq_notes": [],
     "corequisites": [
       [
@@ -42021,7 +42020,9 @@
     "pass_fail": false,
     "gen_ed": false,
     "in_catalog": true,
-    "warnings": [],
+    "warnings": [
+      "unparsed prerequisite words: Successful HIM"
+    ],
     "sources": [
       {
         "title": "ATU Banner course catalog",

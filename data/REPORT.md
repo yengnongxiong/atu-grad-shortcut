@@ -1,6 +1,6 @@
 # Shortcut data pipeline report
 
-Generated 2026-09-29T08:12:45+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
+Generated 2026-09-29T08:17:21+00:00 · mode `offline` · newest catalog year **2026-27** (plus the 2025–26 Computer Science ground truth).
 
 ## Coverage
 
@@ -195,7 +195,7 @@ Generated 2026-09-29T08:12:45+00:00 · mode `offline` · newest catalog year **2
 - **Health & Exercise Science - Kinesiology**: total_hours_meet_minimum: map totals 121 vs required 120; upper_level_achievable: 55 upper-division hours required + 2 flexible elective hours vs 40 needed
 - **Health & Exercise Science - Pre-Allied Health Studies**: total_hours_meet_minimum: map totals 122 vs required 120; upper_level_achievable: 47 upper-division hours required + 1 flexible elective hours vs 40 needed
 - **Health & Exercise Science- Public Health**: total_hours_meet_minimum: map totals 121 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: HIM 3023, PE 3543, SOC 3013; upper_level_achievable: 51 upper-division hours required + 12 flexible elective hours vs 40 needed
-- **Health Information Management**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: HIM 3023; upper_level_achievable: 62 upper-division hours required + 4 flexible elective hours vs 40 needed
+- **Health Information Management**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: HIM 3023, HIM 4895; upper_level_achievable: 62 upper-division hours required + 4 flexible elective hours vs 40 needed
 - **History**: total_hours_meet_minimum: map totals 120 vs required 120; prerequisites_resolve: low-confidence prerequisite parse: PHIL 2043; upper_level_achievable: 42 upper-division hours required + 27 flexible elective hours vs 40 needed
 - **Information Technology - Track 1: Programming, Database & Web (BS)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 41 upper-division hours required + 3 flexible elective hours vs 40 needed
 - **Information Technology - Track 2: Network & Security (BS)**: total_hours_meet_minimum: map totals 120 vs required 120; upper_level_achievable: 41 upper-division hours required + 3 flexible elective hours vs 40 needed

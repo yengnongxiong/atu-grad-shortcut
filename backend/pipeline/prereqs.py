@@ -297,6 +297,8 @@ def parse_prereq_text(text: str, math_ladder: list[str]) -> ParseResult:
         r",?\s*(or\s+)?(with\s+)?(the\s+)?consent of (the )?instructor", " ", working, flags=re.I
     )
     working = re.sub(r"\bor equivalent\b", " ", working, flags=re.I)
+    # "all required HIM courses except HIM 4892": codes after "except" are exclusions.
+    working = re.sub(r"\bexcept\b[^.;]*", " ", working, flags=re.I)
     working = GRADE_RE.sub(" C> ", working)
     working = re.sub(r"(\d{4})\s+or\s+(higher|above)", r"\1 +HIGHER", working, flags=re.I)
     working = re.sub(r"(\d{2})\s+or\s+(higher|above)", r"\1", working, flags=re.I)

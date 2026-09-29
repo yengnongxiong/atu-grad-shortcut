@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import math
+import re
 from collections import Counter
 from collections.abc import Callable
 from dataclasses import dataclass, field
@@ -269,8 +270,13 @@ def match_requirements(
             total += _hours(dataset, [c for c in needed if c not in option])
         return total
 
+    # An "X or Y" row repeated more often than it has options (MUS 1501 Band or MUS 1681 Chorale in
+    # four semesters) names repeatable courses: keep the same choice rather than one of each.
+    repeats = Counter(repr(r["options"]) for r in all_reqs if r["kind"] == "course")
     for req in (r for r in reqs if r["kind"] == "course"):
-        statuses[req["id"]] = _match_course(req, state, used, planned, wanted, added_hours, dataset)
+        repeatable = repeats[repr(req["options"])] > len(req["options"])
+        avoid = set() if repeatable else planned
+        statuses[req["id"]] = _match_course(req, state, used, avoid, wanted, added_hours, dataset)
         planned.update(statuses[req["id"]].remaining_codes)
 
     code_buckets = [r for r in reqs if r["kind"] == "bucket" and r["bucket"]["codes"]]
@@ -326,6 +332,37 @@ def rule_matches(rule: dict[str, Any], code: str) -> bool:
         return False
     subjects = rule.get("subjects")
     return not subjects or code.split(" ")[0] in subjects
+
+
+ALL_REQUIRED_RE = re.compile(r"all required ([A-Z]{2,5}) courses(?:\s+except\s+([^.;]*))?", re.IGNORECASE)
+
+
+def program_scope_tree(
+    course: dict[str, Any], item: Item, items: list[Item], in_program: set[str]
+) -> Tree | None:
+    """Prerequisites like "completion of all ... courses" (D12).
+
+    "All required HIM courses except HIM 4892" names no course, so it becomes every planned HIM
+    course of this program except the exclusions; listed trees keep only this program's courses.
+    """
+    match = ALL_REQUIRED_RE.search(course.get("prereq_raw") or "")
+    if match is None:
+        return restrict_tree(item.prereq, in_program)
+    subject = match.group(1).upper()
+    excluded = set(re.findall(r"[A-Z]{2,5}\s?\d{4}", match.group(2) or ""))
+    excluded = {re.sub(r"([A-Z]+)\s?(\d{4})", r"\1 \2", code) for code in excluded}
+    leaves: list[Tree] = [
+        {"type": "course", "code": other.code, "min_grade": other.min_grade}
+        for other in items
+        if other.code
+        and other.code != item.code
+        and other.code.split(" ")[0] == subject
+        and other.code not in excluded
+        and other.kind == "course"
+    ]
+    if not leaves:
+        return None
+    return leaves[0] if len(leaves) == 1 else {"type": "and", "items": leaves}
 
 
 def restrict_tree(tree: Tree | None, keep: set[str]) -> Tree | None:
@@ -497,7 +534,7 @@ def build_items(
     for item in items:
         course = dataset.courses.get(item.code or "")
         if course and course.get("prerequisite_scope") == "program":
-            item.prereq = restrict_tree(item.prereq, in_program)
+            item.prereq = program_scope_tree(course, item, items, in_program)
             item.notes.append("prerequisite reads 'completion of all ...': only this program's courses apply")
 
     unschedulable = add_missing_prerequisites(dataset, items, state, majors, policies, warnings)

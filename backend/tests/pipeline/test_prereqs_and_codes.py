@@ -12,6 +12,7 @@ from pipeline.prereqs import (
     parse_coreq_groups,
     parse_description,
     parse_prereq_text,
+    tree_codes,
 )
 from pipeline.validate import _no_cycles
 
@@ -199,3 +200,8 @@ def test_lab_keeps_its_own_corequisites_not_the_lecture_map_note() -> None:
     courses = load_dataset().courses
     assert courses["PHYS 2000"]["corequisites"] == [["PHYS 2014", "PHYS 2114"]]
     assert ["MATH 2914"] in courses["PHYS 2114"]["corequisites"]
+
+
+def test_except_clause_is_an_exclusion_not_a_requirement() -> None:
+    tree = parse_prereq_text("Successful completion of all required HIM courses except HIM 4892", LADDER).tree
+    assert "HIM 4892" not in tree_codes(tree)

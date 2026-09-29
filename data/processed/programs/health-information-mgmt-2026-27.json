@@ -1415,7 +1415,7 @@
       "check": "prerequisites_resolve",
       "passed": true,
       "severity": "ok",
-      "detail": "low-confidence prerequisite parse: HIM 3023"
+      "detail": "low-confidence prerequisite parse: HIM 3023, HIM 4895"
     },
     {
       "check": "no_prerequisite_cycles",

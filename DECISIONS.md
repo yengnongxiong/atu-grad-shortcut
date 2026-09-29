@@ -127,3 +127,13 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
   - The degree-map baseline then ends in that summer.
   - A block label such as "after Senior year" becomes a standing hint (SR) on its courses. Banner lists no prerequisites for them, and without the hint the map-order tie-break put the Affiliation in freshman summer.
 - **Reason:** The map says when these courses happen. Senior standing is the least a reader can take from "after Senior year", and the hint is kept only as standing, not as a fixed term.
+
+### D21 · "All required HIM courses except HIM 4892", and repeatable alternatives
+- **Findings (M8 HTTP sweep):**
+  - After fetching HIM 4895's catalog entry, its prerequisite "completion of all required HIM courses except HIM 4892" was read as "requires HIM 4892". That contradicted the HIM 4892 ↔ 4895 corequisite and made the program infeasible.
+  - The music maps list "MUS 1501 Band or MUS 1681 Concert Chorale" in four semesters. D14's "one of each" rule had a band student switch to choir for a semester.
+- **Decision:**
+  - Codes after "except" in prerequisite text are exclusions, not requirements.
+  - For a program-scoped prerequisite of the form "all required SUBJ courses [except …]" (D12), the planner requires every planned SUBJ course of the student's program, minus the exclusions. The HIM Affiliation therefore follows the last HIM course, in the summer the map shows.
+  - An identical "X or Y" row repeated more times than it has options names repeatable courses, so the same choice is kept each time. D14's one-of-each rule still applies when the repeats don't exceed the options (COMS 2213 or COMS 2323, twice).
+- **Guard:** `tests/acceptance/test_all_programs.py` plans every program at standard pace. It checks feasibility, the total-hours minimum, no winter graduation, and that no course is planned more times than the map lists it.

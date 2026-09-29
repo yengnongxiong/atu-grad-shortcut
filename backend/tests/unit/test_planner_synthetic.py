@@ -351,3 +351,39 @@ def test_open_elective_slots_meet_the_upper_level_minimum_without_extra_hours() 
     assert not any(i.kind == "filler" for i in detail.full.build.items)
     upper_slots = [i for i in detail.full.build.items if i.kind == "elective" and i.upper]
     assert len(upper_slots) == 3 and all("3000-4000" in i.label for i in upper_slots)
+
+
+def test_all_required_subject_courses_come_before_the_capstone() -> None:
+    """HIM 4895: "Successful completion of all required HIM courses except HIM 4892" (co-req 4892)."""
+    summer = syn.offered(fall=False, spring=False, summer="documented")
+    affiliation = {
+        **syn.course("CAP 4895", hours=5, coreqs=["CAP 4892"], offering=summer),
+        "prerequisite_scope": "program",
+        "prereq_raw": "Successful completion of all required CAP courses except CAP 4892",
+    }
+    seminar = syn.course("CAP 4892", hours=2, coreqs=["CAP 4895"], offering=summer)
+    chain = syn.chain("CAP 1003", "CAP 2003", "CAP 3003")
+    program = syn.program(
+        [syn.req(c["code"]) for c in chain] + [syn.req("CAP 4892"), syn.req("CAP 4895", hours=5)]
+    )
+    detail = plan_detailed(syn.dataset([*chain, seminar, affiliation], [program]), request())
+    assert detail.response.feasible
+    terms = placed_terms(detail)
+    assert terms["CAP 4895"] == terms["CAP 4892"]
+    assert terms["CAP 4895"] > terms["CAP 3003"]
+
+
+def test_alternative_repeated_more_often_than_its_options_keeps_one_choice() -> None:
+    """ "MUS 1501 Band or MUS 1681 Chorale" in four semesters: take Band four times."""
+    courses = [syn.course("ENS 1501", hours=1), syn.course("ENS 1681", hours=1)]
+    rows = [
+        {
+            **syn.req("ENS 1501", semester=n, hours=1),
+            "id": f"r-ens-{n}",
+            "options": [["ENS 1501"], ["ENS 1681"]],
+        }
+        for n in range(1, 5)
+    ]
+    detail = plan_detailed(syn.dataset(courses, [syn.program(rows)]), request())
+    planned = [c.code for t in detail.response.terms for c in t.courses if c.code]
+    assert planned == ["ENS 1501"] * 4
