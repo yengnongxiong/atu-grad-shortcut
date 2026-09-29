@@ -5,21 +5,23 @@ from __future__ import annotations
 from pathlib import Path
 
 from fastapi import FastAPI
-from fastapi.responses import FileResponse
+from fastapi.middleware.gzip import GZipMiddleware
+from fastapi.responses import FileResponse, JSONResponse
 from fastapi.staticfiles import StaticFiles
 
-from shortcut.schemas.api import HealthResponse
+from shortcut.api.routes import router
 
 STATIC_DIR = Path(__file__).resolve().parent.parent / "static"
 
 
 def create_app() -> FastAPI:
-    app = FastAPI(title="Shortcut API", version="0.1.0")
-
-    @app.get("/api/health", response_model=HealthResponse)
-    def health() -> HealthResponse:
-        return HealthResponse(status="ok")
-
+    app = FastAPI(
+        title="Shortcut API",
+        version="0.1.0",
+        description="Fastest realistic path to graduation for ATU students. Not affiliated with ATU.",
+    )
+    app.add_middleware(GZipMiddleware, minimum_size=1000)
+    app.include_router(router)
     _mount_frontend(app)
     return app
 
@@ -33,8 +35,10 @@ def _mount_frontend(app: FastAPI) -> None:
     if assets.exists():
         app.mount("/assets", StaticFiles(directory=assets), name="assets")
 
-    @app.get("/{path:path}", include_in_schema=False)
-    def spa(path: str) -> FileResponse:
+    @app.get("/{path:path}", include_in_schema=False, response_model=None)
+    def spa(path: str) -> FileResponse | JSONResponse:
+        if path.startswith("api/"):
+            return JSONResponse({"detail": "Not Found"}, status_code=404)
         candidate = (STATIC_DIR / path).resolve()
         if path and candidate.is_file() and STATIC_DIR in candidate.parents:
             return FileResponse(candidate)
