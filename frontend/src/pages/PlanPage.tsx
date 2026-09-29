@@ -1,6 +1,7 @@
 import { lazy, Suspense, useState } from 'react'
 import type { Levers, PlanRequest, ProgramListItem } from '../api/types'
 import { AdvisorExport } from '../components/AdvisorExport'
+import { AuditCheck } from '../components/AuditCheck'
 import { ExamOpportunities } from '../components/ExamOpportunities'
 import { LeverPanel } from '../components/LeverPanel'
 import { PlanHeadline } from '../components/PlanHeadline'
@@ -8,6 +9,7 @@ import { Timeline } from '../components/Timeline'
 import { ErrorBox, Spinner } from '../components/ui'
 import { WarningsPanel } from '../components/WarningsPanel'
 import { WhatIfPanel } from '../components/WhatIfPanel'
+import type { AuditImport } from '../degreeworks/types'
 import { navigate } from '../router'
 import { usePlan } from '../state/usePlan'
 
@@ -27,10 +29,13 @@ export function PlanPage({
   request,
   programs,
   onChange,
+  audit = null,
 }: {
   request: PlanRequest | null
   programs: ProgramListItem[]
   onChange: (request: PlanRequest) => void
+  /** The Degree Works audit this plan was imported from, if any. */
+  audit?: AuditImport | null
 }) {
   const { plan, loading, error, retry } = usePlan(request)
   const [tab, setTab] = useState<PlanTab>('plan')
@@ -81,6 +86,11 @@ export function PlanPage({
           <div className="no-print">
             <PlanHeadline plan={plan} />
           </div>
+          {audit && plan.feasible && (
+            <div className="no-print">
+              <AuditCheck audit={audit} plan={plan} />
+            </div>
+          )}
           {plan.program.trust_tier === 'needs_review' && (
             <div role="note" className="no-print rounded-md border border-warn/50 bg-warn-soft p-3 text-sm text-warn">
               <strong>Needs review:</strong> automated checks found problems in this program’s data. Treat this plan as a sketch and

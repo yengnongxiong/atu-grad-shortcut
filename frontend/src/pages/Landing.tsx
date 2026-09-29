@@ -1,6 +1,7 @@
 import type { Persona, ProgramListItem } from '../api/types'
 import { ProgramPicker } from '../components/ProgramPicker'
 import { Spinner } from '../components/ui'
+import { navigate } from '../router'
 
 export function Landing({
   programs,
@@ -30,6 +31,19 @@ export function Landing({
               Start from the credit you already have. Shortcut models summer, winter, heavier terms, overloads,
               CLEP, and transfer courses, then shows your fastest realistic graduation date, the courses that
               actually set it, and how much time each option buys.
+            </p>
+            <p className="mt-6">
+              <a
+                href="/import"
+                className="btn-primary"
+                onClick={(event) => {
+                  event.preventDefault()
+                  navigate('import')
+                }}
+              >
+                Start from your Degree Works audit
+              </a>
+              <span className="mt-2 block text-sm text-muted">Read on your device. Or pick your major to enter credit by hand.</span>
             </p>
             <dl className="mt-8 grid max-w-lg grid-cols-3 gap-4 text-sm">
               <div>

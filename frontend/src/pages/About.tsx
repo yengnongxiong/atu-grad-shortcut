@@ -18,6 +18,29 @@ function formatValue(policy: PolicyOut): string {
   return String(value)
 }
 
+const SOURCES: [string, string, string][] = [
+  [
+    'ATU academic catalog',
+    'The rules: prerequisites, AP/CLEP/IB credit, graduation and load policies.',
+    'Credit tables and policies saved from the catalog; each course links to its catalog entry.',
+  ],
+  [
+    'Degree maps (per catalog year)',
+    'The average path: 8 semesters for a first-time freshman admitted that year.',
+    'Every bachelor’s map from 2025–26 on; you plan against the map for the year you started.',
+  ],
+  [
+    'Degree Works',
+    'The official record: what’s done, in progress, and still needed.',
+    'Import your audit (read on your device) and see where it and the plan agree.',
+  ],
+  [
+    'Shortcut',
+    'When and in what order: the fastest realistic finish and what each option costs.',
+    'A planning aid for the advisor conversation, not an official audit.',
+  ],
+]
+
 const CONFIDENCE_TONE: Record<string, string> = {
   documented: 'border-saved/40 bg-saved-soft text-saved',
   derived: 'border-info/30 bg-info-soft text-info',
@@ -59,6 +82,33 @@ export function About({ programs }: { programs: ProgramListItem[] }) {
         </p>
         <p className="mt-3 rounded-md border border-line-strong bg-surface p-3 font-semibold">{DISCLAIMER}</p>
       </header>
+
+      <section aria-labelledby="fits">
+        <h2 id="fits" className="text-2xl font-semibold">Where Shortcut fits</h2>
+        <p className="mt-2 max-w-3xl text-sm text-ink-soft">
+          ATU students already have three official planning tools. Each answers part of the question, and Shortcut starts from all three.
+        </p>
+        <div className="mt-4 overflow-x-auto">
+          <table className="w-full min-w-[40rem] text-left text-sm">
+            <thead className="border-b border-line text-xs text-muted">
+              <tr>
+                <th className="py-2 pr-4 font-medium">Source</th>
+                <th className="py-2 pr-4 font-medium">What it answers</th>
+                <th className="py-2 font-medium">How Shortcut uses it</th>
+              </tr>
+            </thead>
+            <tbody className="divide-y divide-line align-top">
+              {SOURCES.map(([name, answers, uses]) => (
+                <tr key={name}>
+                  <td className="py-2 pr-4 font-medium">{name}</td>
+                  <td className="py-2 pr-4 text-ink-soft">{answers}</td>
+                  <td className="py-2 text-ink-soft">{uses}</td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
 
       <section aria-labelledby="coverage">
         <h2 id="coverage" className="text-2xl font-semibold">Coverage</h2>

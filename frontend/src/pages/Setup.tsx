@@ -13,6 +13,7 @@ import { ExamEntry } from '../components/ExamEntry'
 import { OtherCourses } from '../components/OtherCourses'
 import { ProgramPicker } from '../components/ProgramPicker'
 import { ErrorBox, Spinner, TrustBadge } from '../components/ui'
+import { navigate } from '../router'
 import { defaultRequest, termOptions } from '../state/profile'
 
 const GRADES: Grade[] = ['A', 'B', 'C', 'D', 'F', 'P']
@@ -71,6 +72,19 @@ export function Setup({
     <div className="mx-auto max-w-4xl px-4 py-10 sm:px-6">
       <p className="eyebrow">Setup</p>
       <h1 className="mt-1 text-4xl font-semibold">Tell Shortcut where you are now</h1>
+      <p className="mt-2 text-sm text-ink-soft">
+        Have your Degree Works audit?{' '}
+        <a
+          href="/import"
+          onClick={(event) => {
+            event.preventDefault()
+            navigate('import')
+          }}
+        >
+          Import it instead
+        </a>{' '}
+        and skip typing your courses.
+      </p>
       <ol className="mt-6 flex flex-wrap gap-2" aria-label="Setup steps">
         {STEPS.map((label, index) => (
           <li key={label}>

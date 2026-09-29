@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react'
 
-export type Route = 'landing' | 'setup' | 'plan' | 'about'
+export type Route = 'landing' | 'import' | 'setup' | 'plan' | 'about'
 
 const PATHS: Record<Route, string> = {
   landing: '/',
+  import: '/import',
   setup: '/setup',
   plan: '/plan',
   about: '/about',

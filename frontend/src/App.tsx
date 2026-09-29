@@ -4,10 +4,12 @@ import type { Persona, PlanRequest, ProgramListItem } from './api/types'
 import { Layout } from './components/Layout'
 import { ErrorBox } from './components/ui'
 import { About } from './pages/About'
+import { ImportPage } from './pages/ImportPage'
 import { Landing } from './pages/Landing'
 import { PlanPage } from './pages/PlanPage'
 import { Setup } from './pages/Setup'
 import { navigate, useRoute } from './router'
+import { type StoredAudit, loadAudit, saveAudit } from './state/audit'
 import { SHARE_PARAM, decodeRequest, defaultRequest, encodeRequest, loadRequest, saveRequest } from './state/profile'
 
 function initialRequest(): PlanRequest | null {
@@ -26,6 +28,7 @@ export default function App() {
   const [personas, setPersonas] = useState<Persona[]>([])
   const [loading, setLoading] = useState(true)
   const [loadError, setLoadError] = useState<string | null>(null)
+  const [imported, setImported] = useState<StoredAudit | null>(loadAudit)
 
   useEffect(() => {
     Promise.all([api.programs(), api.personas()])
@@ -70,8 +73,27 @@ export default function App() {
           onPersona={(persona) => openPlan(persona.request)}
         />
       )}
+      {route === 'import' && (
+        <ImportPage
+          programs={programs}
+          loading={loading}
+          onApply={(next, audit) => {
+            const stored = { programId: next.profile.program_id, audit }
+            setImported(stored)
+            saveAudit(stored)
+            openPlan(next)
+          }}
+        />
+      )}
       {route === 'setup' && <Setup request={request} programs={programs} onChange={update} onBuild={openPlan} />}
-      {route === 'plan' && <PlanPage request={request} programs={programs} onChange={update} />}
+      {route === 'plan' && (
+        <PlanPage
+          request={request}
+          programs={programs}
+          onChange={update}
+          audit={imported && imported.programId === request?.profile.program_id ? imported.audit : null}
+        />
+      )}
       {route === 'about' && <About programs={programs} />}
     </Layout>
   )
