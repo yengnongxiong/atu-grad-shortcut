@@ -1,4 +1,4 @@
-import type { Levers, PlanRequest, StudentProfile } from '../api/types'
+import type { CompletedCourse, ExamScore, Grade, Levers, PlanRequest, StudentProfile } from '../api/types'
 
 export const STORAGE_KEY = 'shortcut.plan.v1'
 export const SHARE_PARAM = 's'
@@ -58,6 +58,31 @@ function isRecord(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value)
 }
 
+const GRADE_VALUES: readonly Grade[] = ['A', 'B', 'C', 'D', 'F', 'P', 'W']
+const SOURCE_VALUES: readonly CompletedCourse['source'][] = ['atu', 'transfer', 'exam']
+const EXAM_PROGRAMS: readonly ExamScore['program'][] = ['CLEP', 'AP', 'IB']
+
+function completedRow(raw: unknown): CompletedCourse | null {
+  if (!isRecord(raw) || typeof raw.code !== 'string' || !GRADE_VALUES.includes(raw.grade as Grade)) return null
+  const row: CompletedCourse = {
+    code: raw.code,
+    grade: raw.grade as Grade,
+    source: SOURCE_VALUES.includes(raw.source as CompletedCourse['source']) ? (raw.source as CompletedCourse['source']) : 'atu',
+  }
+  if (typeof raw.hours === 'number' && raw.hours >= 0) row.hours = raw.hours
+  if (typeof raw.exam === 'string') row.exam = raw.exam
+  return row
+}
+
+function examRow(raw: unknown): ExamScore | null {
+  if (!isRecord(raw) || typeof raw.exam !== 'string' || typeof raw.score !== 'number') return null
+  if (!EXAM_PROGRAMS.includes(raw.program as ExamScore['program'])) return null
+  return { program: raw.program as ExamScore['program'], exam: raw.exam, score: raw.score }
+}
+
+const rows = <T,>(raw: unknown, parse: (value: unknown) => T | null): T[] =>
+  Array.isArray(raw) ? raw.map(parse).filter((row): row is T => row !== null) : []
+
 /** Parse untrusted JSON (URL or storage) into a request, falling back to defaults per field. */
 export function normalizeRequest(raw: unknown): PlanRequest | null {
   if (!isRecord(raw)) return null
@@ -70,9 +95,9 @@ export function normalizeRequest(raw: unknown): PlanRequest | null {
     ...base,
     first_term: typeof profileRaw.first_term === 'string' ? profileRaw.first_term : base.first_term,
     plan_from: typeof profileRaw.plan_from === 'string' ? profileRaw.plan_from : null,
-    completed: Array.isArray(profileRaw.completed) ? (profileRaw.completed as StudentProfile['completed']) : [],
-    in_progress: Array.isArray(profileRaw.in_progress) ? (profileRaw.in_progress as string[]) : [],
-    exams: Array.isArray(profileRaw.exams) ? (profileRaw.exams as StudentProfile['exams']) : [],
+    completed: rows(profileRaw.completed, completedRow),
+    in_progress: rows(profileRaw.in_progress, (v) => (typeof v === 'string' ? v : null)),
+    exams: rows(profileRaw.exams, examRow),
     math_act: typeof profileRaw.math_act === 'number' ? profileRaw.math_act : null,
     preferences: {
       preferred_hours: typeof prefs.preferred_hours === 'number' ? prefs.preferred_hours : null,
