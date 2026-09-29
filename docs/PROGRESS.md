@@ -32,10 +32,14 @@ All 16 tasks of [the v1.1 plan](plans/2026-09-29-atu-sources-plan.md) are comple
   - singular/plural wording in the import review
   - black native radios and checkboxes
 - **Personas:** P3 and P4 stay on the cross-checked 2026–27 maps and say why (D27).
+- **Review fixes:**
+  - REPORT.md lists the catalog snapshots and flags any older than the newest catalog year.
+  - The import review offers a catalog-year picker when the audit's year has no map.
+  - Setup keeps a shared part-time load selectable.
 
 ### Checks (last run)
 - `make lint`: ruff, ruff format, mypy --strict, ESLint, and tsc are clean.
-- `make test`: 275 backend tests (including A1–A10, all 145 programs, and determinism) and 93 frontend tests pass. `make build` passes.
+- `make test`: 276 backend tests (including A1–A10, all 145 programs, and determinism) and 95 frontend tests pass. `make build` passes.
 - HTTP smoke test against `make serve`: 43 of 43 checks pass, covering:
   - every endpoint
   - all four personas, each with plan, delay, fail, skip, drop, change of major, and exam opportunities

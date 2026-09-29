@@ -179,4 +179,4 @@ Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's
 > **Shortcut**: graduation planner for Arkansas Tech students (product owner; built with Claude Code)
 > - Wrote the PRD and acceptance tests, then tested v1 on my own degree audit. That surfaced two data gaps, and I scoped them into v1.1: import Degree Works audits in the browser, and use ATU's catalog and every year's degree maps as inputs.
 > - A Python pipeline turns 161 degree-map PDFs, ATU's Banner catalog, and its AP/CLEP/IB tables into 145 validated bachelor's programs across 2 catalog years (79% auto-imported or better). Every program plans at standard pace.
-> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.1 s. Stack: FastAPI, React/TypeScript, 368 automated tests, Docker, GitHub Actions.
+> - An OR-Tools CP-SAT scheduler returns the fastest realistic plan, prices each acceleration option in terms saved, and names the critical prerequisite chain, at p95 2.1 s. Stack: FastAPI, React/TypeScript, 371 automated tests, Docker, GitHub Actions.
