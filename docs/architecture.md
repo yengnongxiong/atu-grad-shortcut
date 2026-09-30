@@ -34,6 +34,7 @@ CI rebuilds the processed data offline and fails if anything but the timestamp c
   - One solver worker and a fixed seed make the same request return the same schedule (D26).
 - **`slack.py`** runs a calendar-aware backward pass over the prerequisite edges the plan uses, holding the graduation term fixed. Slack is how many regular semesters a course could slip, respecting fall-only and spring-only offerings. Zero slack means critical.
 - **`service.py`** assembles a response: the standard-pace solve, the full solve, one extra solve per enabled lever (marginal attribution), slack and the critical chain, warnings, and assumptions.
+  - A lever's saving is the full plan vs. the same plan with only that lever off, so it doesn't depend on the order levers were turned on. Complementary levers (heavier terms and summer) can each show the full saving, and the lever panel says "Levers can overlap".
 - **`whatif.py`** and **`exams.py`** handle what-ifs (fail, drop, skip, change major, newer catalog), delay impact, and exam opportunities, all as full re-solves.
 - Every policy number lives in `data/manual/policies.json` with its ATU source and a confidence label (documented, derived, assumed, unknown, or conflicting).
 
@@ -80,7 +81,7 @@ The tiers mean:
 
 ## Performance
 
-A full CS plan with lever attribution, over all 64 lever combinations, takes a median 0.74 s and p95 2.07 s on an Apple-silicon laptop. The PRD target is p95 under 3 s. The solver runs on one worker so the same request always returns the same schedule. That choice raised p95 from 0.55 s, a trade the log records (D26).
+A full CS plan with lever attribution, over all 64 lever combinations, took a median 0.83 s and p95 2.15 s on an Apple-silicon laptop (measured 2026-09-30). The PRD target is p95 under 3 s. The solver runs on one worker so the same request always returns the same schedule. That trade is recorded in D26, which measured p95 at 0.55 s with four workers and 2.07 s with one.
 
 ## Docker and deployment
 
