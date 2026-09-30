@@ -180,3 +180,10 @@ Every judgment call made while building Shortcut autonomously. Format: date · d
 - **Finding:** v1.1 plans each student against their catalog of entry. P4 (Fall 2025 admit) would therefore use the 2025–26 Nursing map, and P3 (Fall 2024) has no map of its own year at all. Both 2025–26 maps (Nursing, Accounting) are Needs review: their course codes NUR 3204, NUR 3213, NUR 3802, and BUAD 1111 aren't in Banner's course details.
 - **Decision:** Keep P3 and P4 on the 2026–27 maps, which are cross-checked, and say so in each persona's story. ATU lets a student graduate under a later catalog with the department head's and dean's approval, so this is a real path. Both stories were checked on the 2025–26 maps too, and their dates and pace notes are the same.
 - **Alternatives:** Move both to 2025–26 (demo profiles on data that Needs review); change their start terms (breaks the stories).
+
+## 2026-09-30
+
+### D28 · A repository layout for first-time readers
+- **Decision:** Both PRDs move to `docs/prd/` (`v1.md`, `v1.1.md`). The README becomes a short walkthrough, and its technical sections move to `docs/architecture.md`. `docs/README.md` indexes the docs, and each top-level folder gets a short README. `scripts/screenshots.py` regenerates every README screenshot from demo data with Playwright, a dev-only dependency the owner approved (Docker installs `--no-dev`, so the image is unchanged). `DECISIONS.md` and `PROGRESS.md` keep their names, because `policies.json` and the generated `REPORT.md` cite them by name.
+- **Alternatives:** Keep `PRD.md` at the root (the two PRDs would stay in different places). Lowercase the doc names (changes app data text and trips the data-drift check). Take screenshots by hand (they drift from the UI with no way to regenerate them).
+- **Reason:** Most readers are new to the project and many aren't engineers. They should find the spec, the evidence, and the code within a few clicks, and the screenshots should stay reproducible.

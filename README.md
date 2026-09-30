@@ -158,18 +158,18 @@ The tiers mean:
 
 ## How it was built
 
-I wrote the product spec ([PRD.md](PRD.md)) with testable acceptance criteria and built Shortcut by directing Claude Code (Anthropic's coding agent). v1 came from one autonomous run against the PRD.
+I wrote the product spec ([docs/prd/v1.md](docs/prd/v1.md)) with testable acceptance criteria and built Shortcut by directing Claude Code (Anthropic's coding agent). v1 came from one autonomous run against the PRD.
 
 For v1.1, I tested v1 on my own Degree Works audit and found two real gaps:
 - AP and CLEP credit already on a record had no way in.
 - Leaving out 4 unapplied hours made the plan a year late.
 
-Those gaps became [a second PRD](docs/prd-v1.1-atu-sources.md) that treats ATU's catalog, degree maps, and Degree Works as inputs rather than competitors. It shipped from a [task-by-task plan](docs/plans/2026-09-29-atu-sources-plan.md), with test-first development and a browser QA pass. Every judgment call made along the way, by me or the agent, is in [docs/DECISIONS.md](docs/DECISIONS.md) (D1–D27), and [CLAUDE.md](CLAUDE.md) is the build brief the agent follows.
+Those gaps became [a second PRD](docs/prd/v1.1.md) that treats ATU's catalog, degree maps, and Degree Works as inputs rather than competitors. It shipped from a [task-by-task plan](docs/plans/2026-09-29-atu-sources-plan.md), with test-first development and a browser QA pass. Every judgment call made along the way, by me or the agent, is in [docs/DECISIONS.md](docs/DECISIONS.md) (D1–D27), and [CLAUDE.md](CLAUDE.md) is the build brief the agent follows.
 
 ## Project documents
 
-- [PRD.md](PRD.md): the v1 product spec, including acceptance tests A1–A10.
-- [docs/prd-v1.1-atu-sources.md](docs/prd-v1.1-atu-sources.md): v1.1, building on the catalog, degree maps, and Degree Works.
+- [docs/prd/v1.md](docs/prd/v1.md): the v1 product spec, including acceptance tests A1–A10.
+- [docs/prd/v1.1.md](docs/prd/v1.1.md): v1.1, building on the catalog, degree maps, and Degree Works.
 - [docs/DECISIONS.md](docs/DECISIONS.md): every judgment call.
 - [docs/PROGRESS.md](docs/PROGRESS.md): build log and test results.
 - [data/REPORT.md](data/REPORT.md): per-program coverage.

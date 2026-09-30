@@ -11,7 +11,7 @@
 
 **Tech Stack:** Python 3.12, uv, FastAPI, Pydantic v2, OR-Tools, pdfplumber, BeautifulSoup4, pytest. React 19, TypeScript (strict), Vite 8, Tailwind v4, Vitest, pdfjs-dist.
 
-**Spec:** `docs/prd-v1.1-atu-sources.md` (extends `PRD.md`)
+**Spec:** `docs/prd/v1.1.md` (extends `docs/prd/v1.md`)
 
 ## Global Constraints
 - Never invent academic data. Every course, exam row, and policy traces to a source URL or a saved snapshot (CLAUDE.md data rules).
@@ -712,7 +712,7 @@ export function reconcile(audit: AuditImport, plan: PlanResponse): Reconciliatio
 
 ### Task 15: README, About, CLAUDE.md, decisions
 
-**Files:** `README.md`, `frontend/src/pages/About.tsx`, `CLAUDE.md`, `docs/DECISIONS.md`, `docs/PROGRESS.md`, `docs/prd-v1.1-atu-sources.md` (status → Shipped), `PRD.md` (link to v1.1), `docs/screenshots/*`
+**Files:** `README.md`, `frontend/src/pages/About.tsx`, `CLAUDE.md`, `docs/DECISIONS.md`, `docs/PROGRESS.md`, `docs/prd/v1.1.md` (status → Shipped), `docs/prd/v1.md` (link to v1.1), `docs/screenshots/*`
 
 - [ ] **Step 1: README**
   - CI badge
