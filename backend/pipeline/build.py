@@ -1,4 +1,7 @@
-"""Pipeline CLI: discover -> download -> parse -> enrich -> exams -> validate -> tier.
+"""Pipeline CLI: turn ATU's published documents into the JSON the app loads.
+
+Stages: discover -> download -> parse degree maps -> enrich from Banner -> build programs
+-> validate and tier -> link catalog years -> exam tables -> write data/processed and REPORT.md.
 
 uv run python -m pipeline.build --online      # fetch anything missing, then rebuild
 uv run python -m pipeline.build --offline     # rebuild from committed raw files only

@@ -1,3 +1,8 @@
+/**
+ * The app shell: five routes (landing, import, setup, plan, about) and one plan request.
+ * The request is kept in the URL (?s=, so a plan can be shared) and in localStorage; an imported
+ * Degree Works audit stays in this tab's sessionStorage only, for the plan page's comparison.
+ */
 import { useCallback, useEffect, useState } from 'react'
 import { api } from './api/client'
 import type { Persona, PlanRequest, ProgramListItem } from './api/types'
