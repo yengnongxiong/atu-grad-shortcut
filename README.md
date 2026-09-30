@@ -172,7 +172,7 @@ flowchart TB
 
 Where I corrected or overruled the agent:
 - **My own audit exposed two gaps v1's tests missed:** posted AP and CLEP credit had nowhere to go, and leaving out 4 unapplied hours put the plan a year late ([PRD v1.1 §2](docs/prd/v1.1.md#2-evidence-from-a-real-audit)).
-- **I changed the look** from v1's accent colors to plain black and white so it wouldn't read as generated; a test now enforces it ([§3.5](docs/prd/v1.1.md#35-visual-design-minimal)).
+- **I changed the look** from v1's accent colors to plain black and white for a cleaner, more readable look; a test now enforces it ([§3.5](docs/prd/v1.1.md#35-visual-design-minimal)).
 - **I unblocked the catalog without working around its bot challenge** by having the pages saved from my own browser session, which brought in AP and IB credit ([D5](docs/DECISIONS.md#d5--catalogatuedu-is-unreachable-here-use-atus-public-banner-catalog--schedule-instead), [D23](docs/DECISIONS.md#d23--catalog-snapshots-replace-the-unreachable-catalog-supersedes-d6)).
 - **I removed blanket agent permissions** that the first commit's Claude Code settings granted to anyone who cloned the repo ([§3.6](docs/prd/v1.1.md#36-repository-hygiene-and-qa)).
 
