@@ -1,4 +1,11 @@
-"""High-level planning: standard pace, full plan, lever attribution, response assembly."""
+"""High-level planning: standard pace, full plan, lever attribution, response assembly.
+
+One POST /api/plan: build the student's remaining items (profile.py), solve standard pace, then
+solve the full plan with the student's levers (model.py), re-solve once per enabled lever with
+only that lever off to price it, and assemble the response with slack, the critical chain
+(slack.py), warnings, and assumptions. whatif.py re-plans through plan_detailed(); exams.py
+(exam opportunities, delay impact) calls run_solve() directly.
+"""
 
 from __future__ import annotations
 

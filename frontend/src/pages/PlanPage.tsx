@@ -15,6 +15,8 @@ import { usePlan } from '../state/usePlan'
 
 const BottleneckGraph = lazy(() => import('../components/BottleneckGraph').then((m) => ({ default: m.BottleneckGraph })))
 
+// The plan view: the three graduation dates, then tabs for the timeline and levers, the
+// prerequisite graph, exam opportunities, what-ifs, and a printable advisor export.
 type PlanTab = 'plan' | 'bottlenecks' | 'exams' | 'whatif' | 'export'
 
 const TABS: { id: PlanTab; label: string }[] = [

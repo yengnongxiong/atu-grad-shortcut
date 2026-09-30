@@ -1,9 +1,9 @@
 # CLAUDE.md: Shortcut
 
-Build brief for AI coding agents (Claude Code) working in this repository. Shortcut plans an Arkansas Tech University student's fastest realistic path to graduation. The product specs are [PRD.md](PRD.md) (v1) and [docs/prd-v1.1-atu-sources.md](docs/prd-v1.1-atu-sources.md) (v1.1). Order of authority: the PRDs, then this file, then your judgment, which is always logged in [docs/DECISIONS.md](docs/DECISIONS.md).
+Build brief for AI coding agents (Claude Code) working in this repository. Shortcut plans an Arkansas Tech University student's fastest realistic path to graduation. The product specs are [docs/prd/v1.md](docs/prd/v1.md) (v1) and [docs/prd/v1.1.md](docs/prd/v1.1.md) (v1.1). Order of authority: the PRDs, then this file, then your judgment, which is always logged in [docs/DECISIONS.md](docs/DECISIONS.md).
 
 ## How work happens here
-- The owner writes the product spec and acceptance tests; agents implement against them. v1 was built in one autonomous run from PRD.md (see docs/PROGRESS.md). v1.1 was planned with the owner and built task by task from [docs/plans/2026-09-29-atu-sources-plan.md](docs/plans/2026-09-29-atu-sources-plan.md).
+- The owner writes the product spec and acceptance tests; agents implement against them. v1 was built in one autonomous run from docs/prd/v1.md (see docs/PROGRESS.md). v1.1 was planned with the owner and built task by task from [docs/plans/2026-09-29-atu-sources-plan.md](docs/plans/2026-09-29-atu-sources-plan.md).
 - Ask the owner when a decision changes what gets built. Otherwise pick the option most consistent with the PRDs, log it in docs/DECISIONS.md (date, decision, alternatives, reason), and continue.
 - Test first: write the failing test, watch it fail, then make it pass. Run `make lint` and `make test` before every commit.
 - Never weaken a constraint or a test to make it pass. Fix the cause, or document why it can't pass.
@@ -20,6 +20,7 @@ Build brief for AI coding agents (Claude Code) working in this repository. Short
 - make dev: backend on :8000 and Vite on :5173
 - make build: build the frontend into the backend's static directory
 - make serve: one process serving app and API on :8000
+- make screenshots: regenerate docs/screenshots from demo data (run make build first)
 
 ## Layout
 - backend/shortcut/api/: FastAPI app and routes
@@ -33,7 +34,8 @@ Build brief for AI coding agents (Claude Code) working in this repository. Short
 - data/processed/: programs/*.json, courses.json, course_index.json, exams/*.json, policies.json, meta.json
 - data/manual/: hand-maintained inputs (policies, cross-checks, catalog successors, PRD appendices)
 - data/personas/: p1–p4 demo profiles plus my-path.template.json
-- docs/: PRD v1.1, decisions, progress log, implementation plans, screenshots
+- docs/: prd/ (v1 and v1.1), architecture, decisions, progress log, implementation plans, screenshots (index in docs/README.md)
+- scripts/: screenshots.py (Playwright; drives the built app with demo data only)
 
 ## Data rules
 - Never invent academic data. Every course, requirement, policy, and exam equivalency traces to a source URL stored in the JSON, a saved snapshot, or a PRD appendix.

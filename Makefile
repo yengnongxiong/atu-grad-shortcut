@@ -1,5 +1,5 @@
 # Shortcut — keep in sync with CLAUDE.md "Commands".
-.PHONY: setup pipeline pipeline-offline test test-backend test-frontend lint build serve dev clean
+.PHONY: setup pipeline pipeline-offline test test-backend test-frontend lint build serve dev screenshots clean
 
 BACKEND := backend
 FRONTEND := frontend
@@ -24,8 +24,8 @@ test-frontend:
 	cd $(FRONTEND) && npx vitest run
 
 lint:
-	$(UV) run ruff check .
-	$(UV) run ruff format --check .
+	$(UV) run ruff check . ../scripts
+	$(UV) run ruff format --check . ../scripts
 	$(UV) run mypy
 	cd $(FRONTEND) && npx eslint .
 	cd $(FRONTEND) && npx tsc -b --noEmit
@@ -41,6 +41,11 @@ dev:
 	$(UV) run uvicorn shortcut.api.app:app --reload --port 8000 & \
 	cd $(FRONTEND) && npx vite --port 5173; \
 	kill %1 2>/dev/null || true
+
+# Regenerate docs/screenshots from demo data (run `make build` first).
+screenshots:
+	$(UV) run playwright install chromium
+	$(UV) run python ../scripts/screenshots.py
 
 clean:
 	rm -rf $(BACKEND)/shortcut/static $(FRONTEND)/node_modules/.tmp

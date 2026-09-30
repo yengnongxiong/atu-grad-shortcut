@@ -4,7 +4,7 @@ Resume here: read this file first, then DECISIONS.md, then continue from the fir
 
 ## v1.1 summary (2026-09-29): ATU sources
 
-All 16 tasks of [the v1.1 plan](plans/2026-09-29-atu-sources-plan.md) are complete on `feat/atu-sources`. The spec is [prd-v1.1-atu-sources.md](prd-v1.1-atu-sources.md).
+All 16 tasks of [the v1.1 plan](plans/2026-09-29-atu-sources-plan.md) are complete on `feat/atu-sources`. The spec is [prd/v1.1.md](prd/v1.1.md).
 
 ### What shipped
 - **Degree Works import** (`frontend/src/degreeworks`):
