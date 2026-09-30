@@ -20,6 +20,7 @@ Build brief for AI coding agents (Claude Code) working in this repository. Short
 - make dev: backend on :8000 and Vite on :5173
 - make build: build the frontend into the backend's static directory
 - make serve: one process serving app and API on :8000
+- make screenshots: regenerate docs/screenshots from demo data (run make build first)
 
 ## Layout
 - backend/shortcut/api/: FastAPI app and routes
@@ -34,6 +35,7 @@ Build brief for AI coding agents (Claude Code) working in this repository. Short
 - data/manual/: hand-maintained inputs (policies, cross-checks, catalog successors, PRD appendices)
 - data/personas/: p1–p4 demo profiles plus my-path.template.json
 - docs/: prd/ (v1 and v1.1), architecture, decisions, progress log, implementation plans, screenshots (index in docs/README.md)
+- scripts/: screenshots.py (Playwright; drives the built app with demo data only)
 
 ## Data rules
 - Never invent academic data. Every course, requirement, policy, and exam equivalency traces to a source URL stored in the JSON, a saved snapshot, or a PRD appendix.
